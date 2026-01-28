@@ -4,6 +4,7 @@ import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
+import FAQAccordion from '../components/FAQAccordion';
 
 const WebDesign = () => {
   const heroFeatures = [
@@ -188,6 +189,49 @@ const WebDesign = () => {
               30-day support included
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-dark-lighter">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Web Design FAQs
+            </h2>
+            <p className="text-lg text-gray-400">
+              Common questions about our web design services for BANES businesses.
+            </p>
+          </div>
+
+          <FAQAccordion 
+            faqs={[
+              {
+                q: 'How long does it take to build a website?',
+                a: 'Most business websites take 2-4 weeks from start to launch. This includes design, development, content creation, and revisions. More complex sites with custom functionality may take longer.',
+              },
+              {
+                q: 'How much does a website cost?',
+                a: 'Our websites start from £1,500 for a professional 5-page site. Pricing depends on the number of pages, features needed, and complexity. We provide detailed quotes after understanding your requirements.',
+              },
+              {
+                q: 'Will my website work on mobile phones?',
+                a: 'Absolutely! All our websites are built mobile-first, meaning they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential.',
+              },
+              {
+                q: 'Do you provide website hosting?',
+                a: 'Yes, we include 1 year of premium hosting free with every new website. After that, hosting is just £15/month which includes security updates, backups, and technical support.',
+              },
+              {
+                q: 'Can I update the website myself?',
+                a: 'Yes! We build websites on user-friendly platforms that make it easy to update text, images, and add new content. We also provide training so you feel confident managing your site.',
+              },
+              {
+                q: 'What if I already have a website?',
+                a: "We can redesign your existing site or build a completely new one. We'll assess your current site and recommend the best approach based on your goals and budget.",
+              },
+            ]}
+          />
         </div>
       </section>
 

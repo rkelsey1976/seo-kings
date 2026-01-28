@@ -4,6 +4,7 @@ import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
+import FAQAccordion from '../components/FAQAccordion';
 
 const LocalSEO = () => {
   const heroFeatures = [
@@ -200,6 +201,49 @@ const LocalSEO = () => {
           <p className="text-gray-500 text-sm mt-4">
             See exactly where you stand and what it'll take to reach page 1.
           </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Local SEO FAQs
+            </h2>
+            <p className="text-lg text-gray-400">
+              Everything you need to know about local SEO for your BANES business.
+            </p>
+          </div>
+
+          <FAQAccordion 
+            faqs={[
+              {
+                q: 'What is local SEO?',
+                a: 'Local SEO is the process of optimising your online presence to attract more customers from relevant local searches. When someone searches "plumber near me" or "electrician in Bath", local SEO helps your business appear at the top of those results.',
+              },
+              {
+                q: 'How long does SEO take to work?',
+                a: 'SEO is a long-term strategy, but most businesses see noticeable improvements within 3-6 months. Quick wins like Google Business Profile optimisation can show results within weeks, while competitive keywords may take longer.',
+              },
+              {
+                q: 'Is SEO better than paid ads?',
+                a: 'Both have their place. SEO provides sustainable, long-term traffic without ongoing ad spend. Paid ads give immediate visibility but stop the moment you stop paying. We often recommend a combination, using ads for quick wins while building organic rankings.',
+              },
+              {
+                q: 'How do you measure SEO success?',
+                a: 'We track keyword rankings, organic traffic, phone calls, form submissions, and ultimately leads and revenue. You\'ll receive monthly reports showing exactly how your investment is performing.',
+              },
+              {
+                q: 'What makes local SEO different from regular SEO?',
+                a: 'Local SEO focuses on geographic-specific searches and includes optimising your Google Business Profile, building local citations, managing reviews, and creating location-specific content. It\'s designed to help you dominate searches in your service area.',
+              },
+              {
+                q: 'Do I need SEO if I already get work through word of mouth?',
+                a: 'Word of mouth is great, but it limits your growth. Over 90% of consumers search online before choosing a local business. SEO ensures you\'re visible when potential customers are actively looking for services you provide.',
+              },
+            ]}
+          />
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SEO from '../components/SEO';
+import FAQAccordion from '../components/FAQAccordion';
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -399,8 +400,8 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="space-y-4">
-            {[
+          <FAQAccordion 
+            faqs={[
               {
                 q: 'How long does it take to see results?',
                 a: 'Most clients see significant improvements within 3-6 months. SEO is a long-term strategy, but we focus on quick wins early on while building sustainable rankings.',
@@ -421,16 +422,8 @@ const Contact = () => {
                 q: 'Are there any contracts?',
                 a: 'We offer flexible monthly agreements with no long-term lock-ins. We believe in earning your business every month through results, not contracts.',
               },
-            ].map((faq, index) => (
-              <div
-                key={index}
-                className="bg-dark border border-white/5 rounded-xl p-6"
-              >
-                <h3 className="text-lg font-semibold text-white mb-2">{faq.q}</h3>
-                <p className="text-gray-400">{faq.a}</p>
-              </div>
-            ))}
-          </div>
+            ]}
+          />
         </div>
       </section>
     </>

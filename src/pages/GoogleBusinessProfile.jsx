@@ -4,6 +4,7 @@ import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
+import FAQAccordion from '../components/FAQAccordion';
 
 const GoogleBusinessProfile = () => {
   const heroFeatures = [
@@ -262,6 +263,49 @@ const GoogleBusinessProfile = () => {
           <button className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
             Get Your Free GBP Audit
           </button>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Google Business Profile FAQs
+            </h2>
+            <p className="text-lg text-gray-400">
+              Common questions about Google Business Profile optimisation.
+            </p>
+          </div>
+
+          <FAQAccordion 
+            faqs={[
+              {
+                q: 'What is Google Business Profile?',
+                a: 'Google Business Profile (formerly Google My Business) is a free tool that lets you manage how your business appears on Google Search and Maps. It shows your contact info, opening hours, reviews, photos, and more.',
+              },
+              {
+                q: 'Why is Google Business Profile important for local businesses?',
+                a: 'When someone searches for a local service, Google often shows a "map pack" of 3 businesses at the top. Being in this pack can dramatically increase calls and enquiries. An optimised GBP also builds trust through reviews and photos.',
+              },
+              {
+                q: 'How do I get more Google reviews?',
+                a: 'We help you set up a simple review request system — sending a quick link to happy customers makes it easy for them to leave feedback. We also respond to all reviews professionally to show potential customers you care.',
+              },
+              {
+                q: 'Can I manage multiple locations?',
+                a: 'Yes! If you serve multiple areas in BANES, we can help you set up and optimise profiles for each location, ensuring you\'re visible wherever your customers are searching.',
+              },
+              {
+                q: 'How long does it take to see results?',
+                a: 'GBP optimisation often shows results faster than traditional SEO. Many clients see improved visibility within 2-4 weeks, with significant ranking improvements in 1-3 months.',
+              },
+              {
+                q: 'What if I have negative reviews?',
+                a: 'Don\'t worry — even the best businesses get occasional negative feedback. We help you respond professionally to negative reviews, turning them into opportunities to showcase your customer service. We also help you generate more positive reviews to improve your overall rating.',
+              },
+            ]}
+          />
         </div>
       </section>
 
