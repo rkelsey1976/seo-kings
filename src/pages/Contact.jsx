@@ -25,11 +25,30 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+    // Encode form data for Netlify
+    const encode = (data) => {
+      return Object.keys(data)
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&');
+    };
+
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({
+          'form-name': 'contact',
+          ...formData,
+        }),
+      });
+      
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('There was an error submitting the form. Please try again or call us directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -208,7 +227,24 @@ const Contact = () => {
                       Fill out the form below and we'll analyse your online presence for free.
                     </p>
 
-                    <form onSubmit={handleSubmit} className="space-y-6" aria-label="Contact form">
+                    <form 
+                      name="contact"
+                      method="POST"
+                      data-netlify="true"
+                      netlify-honeypot="bot-field"
+                      onSubmit={handleSubmit} 
+                      className="space-y-6" 
+                      aria-label="Contact form"
+                    >
+                      {/* Hidden fields for Netlify */}
+                      <input type="hidden" name="form-name" value="contact" />
+                      <p className="hidden">
+                        <label>
+                          Don't fill this out if you're human: 
+                          <input name="bot-field" onChange={handleChange} />
+                        </label>
+                      </p>
+
                       <div className="grid md:grid-cols-2 gap-6">
                         {/* Name */}
                         <div>
