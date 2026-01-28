@@ -1,0 +1,13 @@
+# robots.txt for SEO Kings
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://seokings.co.uk/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Disallow admin/private areas (add as needed)
+# Disallow: /admin/
+# Disallow: /private/

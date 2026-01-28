@@ -1,0 +1,200 @@
+import React from 'react';
+import SEO from '../components/SEO';
+import ServicePageHero from '../components/ServicePageHero';
+import ServiceFeatures from '../components/ServiceFeatures';
+import Testimonials from '../components/Testimonials';
+import CTABanner from '../components/CTABanner';
+
+const WebDesign = () => {
+  const heroFeatures = [
+    'Mobile-First',
+    'Fast Loading',
+    'SEO Ready',
+    'Conversion Focused'
+  ];
+
+  const features = [
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+      ),
+      title: 'Mobile-First Design',
+      description: 'Over 60% of searches happen on mobile. Your website will look and work perfectly on every device, so you never lose a customer.',
+      color: 'from-primary to-primary-dark',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      ),
+      title: 'Lightning Fast Speed',
+      description: 'Slow websites kill conversions. We build sites that load in under 2 seconds, keeping visitors engaged and Google happy.',
+      color: 'from-yellow-500 to-orange-500',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      ),
+      title: 'Built for SEO',
+      description: 'Every site we build is optimised for search engines from day one. Proper structure, meta tags, and schema markup included.',
+      color: 'from-secondary to-secondary-dark',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+        </svg>
+      ),
+      title: 'Clear Call-to-Actions',
+      description: 'Strategic placement of phone numbers, contact forms, and booking buttons. Make it easy for customers to reach you.',
+      color: 'from-green-500 to-emerald-500',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        </svg>
+      ),
+      title: 'Trust Building Elements',
+      description: 'Reviews, accreditations, and trust badges prominently displayed. Show visitors why they should choose you over competitors.',
+      color: 'from-accent to-accent-dark',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+        </svg>
+      ),
+      title: 'Easy to Update',
+      description: 'We build on platforms you can manage yourself, or we offer ongoing support packages. Your choice, your control.',
+      color: 'from-pink-500 to-rose-500',
+    },
+  ];
+
+  const process = [
+    {
+      step: '01',
+      title: 'Discovery Call',
+      description: 'We learn about your business, your customers, and what makes you different. No jargon, just a chat.',
+    },
+    {
+      step: '02',
+      title: 'Design & Feedback',
+      description: 'We create mockups and refine them based on your feedback until you\'re 100% happy.',
+    },
+    {
+      step: '03',
+      title: 'Build & Test',
+      description: 'We build your site, test it on every device, and make sure everything works perfectly.',
+    },
+    {
+      step: '04',
+      title: 'Launch & Support',
+      description: 'Go live with confidence. We provide training and ongoing support to keep things running smoothly.',
+    },
+  ];
+
+  return (
+    <>
+      <SEO
+        title="Website Design for Local Businesses in Bath"
+        description="Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading websites built to convert visitors into customers. Get a free quote today."
+        keywords="website design Bath, web design BANES, website for tradesmen, local business website, mobile website Bath, web developer Bath, small business website Somerset"
+        canonical="/web-design"
+      />
+      <ServicePageHero
+        badge="Website Design"
+        title="Websites That Turn Visitors Into"
+        highlight="Customers"
+        description="Custom-built websites for tradespeople and local businesses in BANES. No templates, no nonsense — just sites that look great and generate leads."
+        features={heroFeatures}
+        ctaText="Get a Free Quote"
+      />
+
+      <ServiceFeatures
+        title="What Makes Our Websites Different"
+        subtitle="We don't just make pretty websites. We build lead-generating machines for local businesses."
+        features={features}
+      />
+
+      {/* Process Section */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
+              Our Process
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              From Idea to Launch in 4 Simple Steps
+            </h2>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              We keep it simple and keep you in the loop every step of the way.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {process.map((item, index) => (
+              <div key={index} className="relative">
+                {/* Connector Line */}
+                {index < process.length - 1 && (
+                  <div className="hidden lg:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary/50 to-transparent" />
+                )}
+                
+                <div className="relative bg-dark-card border border-white/5 rounded-2xl p-6 text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary text-white text-xl font-bold mb-4">
+                    {item.step}
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
+                  <p className="text-gray-400 text-sm">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Teaser */}
+      <section className="py-24 bg-dark-lighter">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            Transparent Pricing, No Surprises
+          </h2>
+          <p className="text-lg text-gray-400 mb-8">
+            Our websites start from <span className="text-white font-bold">£1,500</span> for a 5-page site. 
+            Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn't agree to.
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              Free hosting for 1 year
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              SSL certificate included
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              30-day support included
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Testimonials />
+      <CTABanner />
+    </>
+  );
+};
+
+export default WebDesign;
