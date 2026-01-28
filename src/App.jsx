@@ -11,6 +11,7 @@ import About from './pages/About';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import Contact from './pages/Contact';
+import ThankYou from './pages/ThankYou';
 import Areas from './pages/Areas';
 import AreaDetail from './pages/AreaDetail';
 import NotFound from './pages/NotFound';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/case-studies/:slug" element={<CaseStudyDetail />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/areas" element={<Areas />} />
             <Route path="/areas/:slug" element={<AreaDetail />} />
             <Route path="*" element={<NotFound />} />

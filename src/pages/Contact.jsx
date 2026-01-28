@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SEO from '../components/SEO';
 
 const Contact = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,7 +14,6 @@ const Contact = () => {
     website: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -42,11 +43,11 @@ const Contact = () => {
         }),
       });
       
-      setIsSubmitted(true);
+      // Redirect to thank you page
+      navigate('/thank-you');
     } catch (error) {
       console.error('Form submission error:', error);
       alert('There was an error submitting the form. Please try again or call us directly.');
-    } finally {
       setIsSubmitting(false);
     }
   };
@@ -189,43 +190,12 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="lg:col-span-3">
               <div className="bg-dark-card border border-white/5 rounded-2xl p-8">
-                {isSubmitted ? (
-                  <div className="text-center py-12">
-                    <div className="w-16 h-16 rounded-full bg-green-500/20 flex items-center justify-center mx-auto mb-6">
-                      <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <h3 className="text-2xl font-bold text-white mb-3">Thank You!</h3>
-                    <p className="text-gray-400 mb-6">
-                      We've received your message and will get back to you within 24 hours.
-                    </p>
-                    <button
-                      onClick={() => {
-                        setIsSubmitted(false);
-                        setFormData({
-                          name: '',
-                          email: '',
-                          phone: '',
-                          business: '',
-                          service: '',
-                          message: '',
-                          website: '',
-                        });
-                      }}
-                      className="text-primary-light hover:text-white transition-colors"
-                    >
-                      Send another message
-                    </button>
-                  </div>
-                ) : (
-                  <>
-                    <h2 className="text-2xl font-bold text-white mb-2">
-                      Get Your Free SEO Audit
-                    </h2>
-                    <p className="text-gray-400 mb-8">
-                      Fill out the form below and we'll analyse your online presence for free.
-                    </p>
+                <h2 className="text-2xl font-bold text-white mb-2">
+                  Get Your Free SEO Audit
+                </h2>
+                <p className="text-gray-400 mb-8">
+                  Fill out the form below and we'll analyse your online presence for free.
+                </p>
 
                     <form 
                       name="contact"
@@ -411,8 +381,6 @@ const Contact = () => {
                         </a>
                       </p>
                     </form>
-                  </>
-                )}
               </div>
             </div>
           </div>
