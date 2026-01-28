@@ -176,12 +176,12 @@ const Footer = () => {
               © {currentYear} SEO Kings. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
-              <a href="#privacy" className="text-gray-300 hover:text-white transition-colors">
+              <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors">
                 Privacy Policy
-              </a>
-              <a href="#terms" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link to="/terms" className="text-gray-300 hover:text-white transition-colors">
                 Terms of Service
-              </a>
+              </Link>
             </div>
           </div>
         </div>

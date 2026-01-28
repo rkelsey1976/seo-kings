@@ -14,6 +14,8 @@ import Contact from './pages/Contact';
 import ThankYou from './pages/ThankYou';
 import Areas from './pages/Areas';
 import AreaDetail from './pages/AreaDetail';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/areas" element={<Areas />} />
             <Route path="/areas/:slug" element={<AreaDetail />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
