@@ -324,57 +324,77 @@ const Navbar = () => {
           className="hidden md:block bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-out opacity-100"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="grid md:grid-cols-4 gap-4">
-              {areas.map((area) => (
-                <Link
-                  key={area.slug}
-                  to={`/areas/${area.slug}`}
-                  className="group flex gap-3 p-4 rounded-xl hover:bg-white/5 transition-all duration-200"
-                  onClick={closeAllMenus}
-                >
-                  {/* Location Icon */}
-                  <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-200" aria-hidden="true">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            <div className="grid md:grid-cols-5 gap-6">
+              {/* Areas Grid - Left Side */}
+              <div className="md:col-span-3">
+                <div className="grid grid-cols-2 gap-3">
+                  {areas.map((area) => (
+                    <Link
+                      key={area.slug}
+                      to={`/areas/${area.slug}`}
+                      className="group flex gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-200"
+                      onClick={closeAllMenus}
+                    >
+                      {/* Location Icon */}
+                      <div className="flex-shrink-0 w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-200" aria-hidden="true">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        </svg>
+                      </div>
+                      
+                      {/* Content */}
+                      <div className="flex-1 min-w-0">
+                        <span className="text-white font-semibold text-sm group-hover:text-primary-light transition-colors block">
+                          {area.name}
+                        </span>
+                        <span className="text-xs text-gray-400 block">
+                          {area.postcodes}
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+                
+                {/* View All Link */}
+                <div className="mt-4 pt-4 border-t border-white/5">
+                  <Link 
+                    to="/areas"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-primary-light hover:text-white transition-colors"
+                    onClick={closeAllMenus}
+                  >
+                    View all areas
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
-                  </div>
-                  
-                  {/* Content */}
-                  <div className="flex-1 min-w-0">
-                    <span className="text-white font-semibold group-hover:text-primary-light transition-colors block">
-                      {area.name}
-                    </span>
-                    <span className="text-xs text-gray-400 block truncate">
-                      {area.postcodes}
-                    </span>
-                  </div>
+                  </Link>
+                </div>
+              </div>
 
-                  {/* Arrow */}
-                  <div className="flex-shrink-0 self-center opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" aria-hidden="true">
-                    <svg className="w-4 h-4 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
+              {/* CTA Card - Right Side */}
+              <div className="md:col-span-2">
+                <div className="bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 rounded-2xl p-6 h-full flex flex-col">
+                  <div className="flex-1">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white mb-4">
+                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-lg font-bold text-white mb-2">
+                      Free Local SEO Audit
+                    </h3>
+                    <p className="text-sm text-gray-300 mb-4">
+                      Find out how your business ranks in your area. We'll analyse your online presence and show you exactly how to get more local customers.
+                    </p>
                   </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* Bottom CTA */}
-            <div className="mt-6 pt-6 border-t border-white/5 flex items-center justify-between">
-              <p className="text-sm text-gray-300">
-                We serve all of Bath & North East Somerset
-              </p>
-              <Link 
-                to="/areas"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary-light hover:text-white transition-colors"
-                onClick={closeAllMenus}
-              >
-                View all areas
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
+                  <Link
+                    to="/contact"
+                    className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold text-sm text-center transition-all duration-300 btn-glow"
+                    onClick={closeAllMenus}
+                  >
+                    Get Your Free Audit
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
