@@ -91,7 +91,7 @@ const Contact = () => {
     <>
       <SEO
         title="Contact Us - Get Your Free SEO Audit"
-        description="Get in touch with SEO Kings for a free SEO audit. We help tradespeople and local businesses in Bath & BANES dominate Google. Call 07702 264 921 or fill out our contact form."
+        description="Contact SEO Kings for a free SEO audit. We help Bath & BANES businesses dominate Google. Call or use our contact form."
         keywords="contact SEO Kings, free SEO audit Bath, SEO consultation BANES, local SEO quote, website design quote Bath"
         canonical="/contact"
         breadcrumbs={[

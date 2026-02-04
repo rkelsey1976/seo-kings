@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <SEO
         title="Local SEO Services in Bath & BANES"
-        description="SEO Kings helps tradespeople and local businesses in Bath & North East Somerset get found on Google. Website design, local SEO, and Google Business Profile management. Get your free audit today."
+        description="Local SEO for Bath & BANES. We help tradespeople and small businesses get found on Google. Website design, local SEO, GBP. Free audit."
         keywords="SEO Bath, local SEO BANES, SEO services Bath, website design Bath, Google Business Profile Bath, SEO for tradesmen, local SEO Somerset"
         canonical="/"
       />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Results = () => {
   const stats = [
@@ -156,15 +157,15 @@ const Results = () => {
 
         {/* View All Link */}
         <div className="text-center">
-          <a
-            href="#case-studies"
+          <Link
+            to="/case-studies"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
           >
             View all case studies
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

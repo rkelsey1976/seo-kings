@@ -104,7 +104,7 @@ const WebDesign = () => {
     <>
       <SEO
         title="Website Design for Local Businesses in Bath"
-        description="Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading websites built to convert visitors into customers. Get a free quote today."
+        description="Website design for Bath & BANES businesses. Mobile-friendly, fast, SEO-ready sites that convert. Free quote."
         keywords="website design Bath, web design BANES, website for tradesmen, local business website, mobile website Bath, web developer Bath, small business website Somerset"
         canonical="/web-design"
         breadcrumbs={[

@@ -346,8 +346,8 @@ const CaseStudyDetail = () => {
   return (
     <>
       <SEO
-        title={`${caseStudy.business} Case Study - ${caseStudy.tagline}`}
-        description={`See how we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Real SEO results for local businesses.`}
+        title={`${caseStudy.business} Case Study | SEO Kings`}
+        description={`How we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Local SEO results.`}
         keywords={`${caseStudy.industry} SEO, ${caseStudy.location} SEO, local SEO case study, ${caseStudy.business}`}
         canonical={`/case-studies/${caseStudy.slug}`}
         ogType="article"
@@ -358,8 +358,8 @@ const CaseStudyDetail = () => {
         ]}
         article={{
           type: 'Article',
-          headline: `${caseStudy.business} Case Study - ${caseStudy.tagline}`,
-          description: `See how we helped ${caseStudy.business} in ${caseStudy.location} achieve remarkable SEO results.`,
+          headline: `${caseStudy.business} Case Study | SEO Kings`,
+          description: `How we helped ${caseStudy.business} in ${caseStudy.location} achieve strong local SEO results.`,
           image: caseStudy.heroImage,
           datePublished: '2025-01-15',
           dateModified: '2026-01-28'

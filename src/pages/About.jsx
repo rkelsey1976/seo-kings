@@ -74,7 +74,7 @@ const About = () => {
     <>
       <SEO
         title="About Us - Local SEO Agency in Bath"
-        description="SEO Kings is a Bath-based digital marketing agency helping tradespeople and local businesses in BANES get found on Google. Learn about our story, values, and why 150+ local businesses trust us."
+        description="Bath-based SEO agency for tradespeople and local businesses in BANES. Our story, values, and why local businesses trust us. Get your free audit."
         keywords="SEO agency Bath, about SEO Kings, digital marketing Bath, local SEO company BANES, Bath marketing agency, SEO experts Somerset"
         canonical="/about"
         breadcrumbs={[

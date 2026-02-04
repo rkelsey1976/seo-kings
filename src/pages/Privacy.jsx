@@ -8,8 +8,8 @@ const Privacy = () => {
   return (
     <>
       <SEO
-        title="Privacy Policy"
-        description="SEO Kings privacy policy. Learn how we collect, use, and protect your personal information when you use our local SEO services in Bath & BANES."
+title="Privacy Policy | SEO Kings"
+    description="How SEO Kings collects, uses and protects your data when you use our local SEO services in Bath & BANES."
         canonical="/privacy"
       />
 

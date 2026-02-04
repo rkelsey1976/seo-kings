@@ -8,8 +8,8 @@ const Terms = () => {
   return (
     <>
       <SEO
-        title="Terms of Service"
-        description="SEO Kings terms of service. Read our terms and conditions for using our local SEO services in Bath & North East Somerset."
+title="Terms of Service | SEO Kings"
+    description="Terms and conditions for SEO Kings local SEO services in Bath & North East Somerset."
         canonical="/terms"
       />
 

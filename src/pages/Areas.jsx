@@ -75,7 +75,7 @@ const Areas = () => {
     <>
       <SEO
         title="Areas We Serve | Local SEO Services in Bath & BANES"
-        description="SEO Kings provides local SEO services across Bath and North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock, and surrounding areas get found on Google."
+        description="Local SEO across Bath & North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock and nearby get found on Google."
         keywords="SEO Bath, SEO Keynsham, SEO Midsomer Norton, SEO BANES, local SEO Somerset, SEO near me"
         canonical="/areas"
         breadcrumbs={[

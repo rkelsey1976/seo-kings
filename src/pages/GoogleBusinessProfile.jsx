@@ -83,7 +83,7 @@ const GoogleBusinessProfile = () => {
     <>
       <SEO
         title="Google Business Profile Management in Bath"
-        description="Dominate the Google Map Pack in BANES. We optimise and manage your Google Business Profile to get more calls, reviews, and local customers. GBP management from £250/month."
+        description="Google Business Profile management in Bath & BANES. We optimise your GBP for the map pack: more calls, reviews, local customers. From £250/month."
         keywords="Google Business Profile Bath, GBP management BANES, Google Maps SEO, local business listing, Google My Business Bath, map pack ranking, review management Bath"
         canonical="/google-business-profile"
         breadcrumbs={[

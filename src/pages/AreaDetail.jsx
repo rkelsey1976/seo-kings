@@ -507,8 +507,8 @@ const AreaDetail = () => {
   return (
     <>
       <SEO
-        title={`SEO Services in ${area.name} | Local SEO Expert ${area.fullName}`}
-        description={`Expert local SEO services in ${area.name}. Helping ${area.name} businesses rank higher on Google, get more customers & grow. ${area.stats.businesses} local businesses, ${area.stats.competitors} competition. Free SEO audit available.`}
+        title={`Local SEO in ${area.name} | SEO Kings`}
+        description={`Local SEO in ${area.name}. We help ${area.name} businesses rank higher on Google and get more customers. Free audit.`}
         keywords={`SEO ${area.name}, local SEO ${area.name}, Google ranking ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, digital marketing ${area.name}, SEO agency ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
