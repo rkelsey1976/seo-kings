@@ -2,11 +2,12 @@
   command = "npm run build"
   publish = "build"
 
-# Redirect all routes to index.html for React Router
+# SPA: always serve index.html for all routes (avoids 5xx for /areas/peasedown-st-john etc.)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true
 
 # Explicit Content-Type for crawlers (sitemap and robots)
 [[headers]]

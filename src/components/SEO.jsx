@@ -241,24 +241,22 @@ const SEO = ({
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       )}
 
-      {/* Open Graph / Facebook */}
+      {/* Open Graph / Facebook (no og:description to avoid "more than one description" audit; platforms fall back to meta name="description") */}
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
       <meta property="og:image" content={`${siteUrl}${ogImage}`} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content={siteTitle} />
       <meta property="og:locale" content="en_GB" />
 
-      {/* Twitter */}
+      {/* Twitter (no twitter:description to avoid duplicate description; uses meta name="description" as fallback) */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@seokings" />
       <meta name="twitter:creator" content="@seokings" />
       <meta name="twitter:url" content={fullCanonical} />
       <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
 
       {/* Additional SEO Meta */}

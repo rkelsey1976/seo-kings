@@ -4,7 +4,8 @@ import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 
 const AreaDetail = () => {
-  const { slug } = useParams();
+  const { slug: rawSlug } = useParams();
+  const slug = (rawSlug || '').toLowerCase().replace(/\/$/, '');
   const siteUrl = 'https://seokings.co.uk';
 
   const areasData = {
@@ -428,6 +429,11 @@ const AreaDetail = () => {
 
   if (!area) {
     return <Navigate to="/areas" replace />;
+  }
+
+  // Redirect to canonical lowercase URL if crawler or user used different case
+  if (rawSlug !== slug) {
+    return <Navigate to={`/areas/${slug}`} replace />;
   }
 
   // Generate Schema Markup
