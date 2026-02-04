@@ -51,7 +51,7 @@ title="Terms of Service | SEO Kings"
                   <li><strong className="text-white">"SEO Kings", "we", "our", "us":</strong> Refers to SEO Kings, a digital marketing agency based in Bath, Somerset</li>
                   <li><strong className="text-white">"Client", "you", "your":</strong> Refers to the individual or business engaging our services</li>
                   <li><strong className="text-white">"Services":</strong> Refers to all SEO, web design, and digital marketing services we provide</li>
-                  <li><strong className="text-white">"Website":</strong> Refers to seokings.co.uk and all associated pages</li>
+                  <li><strong className="text-white">"Website":</strong> Refers to seo-kings.co.uk and all associated pages</li>
                 </ul>
               </div>
 

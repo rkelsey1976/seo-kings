@@ -16,7 +16,7 @@ const SEO = ({
 }) => {
   const siteTitle = 'SEO Kings';
   const fullTitle = title ? `${title} | ${siteTitle}` : `${siteTitle} | Local SEO Services in Bath & BANES`;
-  const siteUrl = 'https://seokings.co.uk';
+  const siteUrl = 'https://seo-kings.co.uk';
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
   // Organization Schema - represents the company

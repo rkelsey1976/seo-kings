@@ -6,7 +6,7 @@ import FAQAccordion from '../components/FAQAccordion';
 const AreaDetail = () => {
   const { slug: rawSlug } = useParams();
   const slug = (rawSlug || '').toLowerCase().replace(/\/$/, '');
-  const siteUrl = 'https://seokings.co.uk';
+  const siteUrl = 'https://seo-kings.co.uk';
 
   const areasData = {
     'bath': {

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap (submit this in Google Search Console)
-Sitemap: https://seokings.co.uk/sitemap.xml
+Sitemap: https://seo-kings.co.uk/sitemap.xml

@@ -13,6 +13,7 @@ const Contact = () => {
     service: '',
     message: '',
     website: '',
+    'bot-field': '', // Netlify honeypot - must be sent (empty for real users)
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -35,7 +36,7 @@ const Contact = () => {
     };
 
     try {
-      await fetch('/', {
+      const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
@@ -43,6 +44,10 @@ const Contact = () => {
           ...formData,
         }),
       });
+
+      if (!response.ok) {
+        throw new Error(`Form submission failed: ${response.status}`);
+      }
       
       // Redirect to thank you page
       navigate('/thank-you');
@@ -202,10 +207,10 @@ const Contact = () => {
                     >
                       {/* Hidden fields for Netlify */}
                       <input type="hidden" name="form-name" value="contact" />
-                      <p className="hidden">
+                      <p className="hidden" aria-hidden="true">
                         <label>
-                          Don't fill this out if you're human: 
-                          <input name="bot-field" onChange={handleChange} />
+                          Don't fill this out if you're human:
+                          <input name="bot-field" value={formData['bot-field']} onChange={handleChange} tabIndex={-1} autoComplete="off" />
                         </label>
                       </p>
 

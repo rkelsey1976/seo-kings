@@ -10,8 +10,8 @@ Use this when your domain is registered with IONOS and you want the **website** 
 2. Go to **Domain management** (or **Site configuration** → **Domain management**).
 3. Click **Add a domain** / **Add custom domain**.
 4. Add:
-   - Your **apex domain** (e.g. `seokings.co.uk`)
-   - Your **www** subdomain (e.g. `www.seokings.co.uk`)
+   - Your **apex domain** (e.g. `seo-kings.co.uk`)
+   - Your **www** subdomain (e.g. `www.seo-kings.co.uk`)
 5. Netlify will show something like “Domain not yet verified” or “Check DNS” — that’s normal. Leave the tab open; you’ll come back after DNS.
 
 **Note your Netlify site URL** (e.g. `https://something.netlify.app`). The part before `.netlify.app` is your **site name**. You’ll use it in Step 2 for the www CNAME.
@@ -59,9 +59,9 @@ These are for IONOS mail and other services; changing them can break email or IO
 
 In Netlify **Domain management**:
 
-- Choose whether the main address is **seokings.co.uk** or **www.seokings.co.uk**.
+- Choose whether the main address is **seo-kings.co.uk** or **www.seo-kings.co.uk**.
 - Set that one as **Primary domain**.
-- Add a **redirect** so the other one forwards to the primary (e.g. `www.seokings.co.uk` → `https://seokings.co.uk` or the opposite). Netlify can do this when you set the primary.
+- Add a **redirect** so the other one forwards to the primary (e.g. `www.seo-kings.co.uk` → `https://seo-kings.co.uk` or the opposite). Netlify can do this when you set the primary.
 
 ---
 

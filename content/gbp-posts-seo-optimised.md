@@ -10,7 +10,7 @@ Copy the content below into your GBP. Use **Post type: Offer** for the free audi
 
 **Post type:** Offer  
 **Headline:** Free Local SEO Audit for Bath & BANES Businesses  
-**CTA button:** Learn more (link to https://seokings.co.uk/contact or homepage)
+**CTA button:** Learn more (link to https://seo-kings.co.uk/contact or homepage)
 
 **Body:**
 ```
@@ -20,7 +20,7 @@ We'll check your Google Business Profile, your website, and where you rank for s
 
 Perfect for tradespeople and local businesses who want more calls and more customers from Google. Based in Bath, serving all of BANES.
 
-👉 Get your free audit: seokings.co.uk
+👉 Get your free audit: seo-kings.co.uk
 ```
 
 ---
@@ -29,7 +29,7 @@ Perfect for tradespeople and local businesses who want more calls and more custo
 
 **Post type:** Update  
 **Headline:** Are You in the Map Pack? Why Local SEO Matters in Bath  
-**CTA button:** Learn more (link to https://seokings.co.uk/local-seo)
+**CTA button:** Learn more (link to https://seo-kings.co.uk/local-seo)
 
 **Body:**
 ```
@@ -46,7 +46,7 @@ Tradespeople and local businesses: find out how local SEO can work for you. Free
 
 **Post type:** Update  
 **Headline:** Is Your Google Business Profile Working Hard Enough?  
-**CTA button:** Learn more (link to https://seokings.co.uk/google-business-profile)
+**CTA button:** Learn more (link to https://seo-kings.co.uk/google-business-profile)
 
 **Body:**
 ```
@@ -83,7 +83,7 @@ SEO Kings specialises in local SEO for BANES: we optimise your website and Googl
 
 **Post type:** Update  
 **Headline:** Website Design & SEO for Bath Businesses – Built to Rank  
-**CTA button:** Learn more (link to https://seokings.co.uk/web-design)
+**CTA button:** Learn more (link to https://seo-kings.co.uk/web-design)
 
 **Body:**
 ```

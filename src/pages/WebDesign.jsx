@@ -121,7 +121,7 @@ const WebDesign = () => {
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
-              "url": "https://seokings.co.uk"
+              "url": "https://seo-kings.co.uk"
             },
             "areaServed": {
               "@type": "AdministrativeArea",
