@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import ServicePageHero from '../components/ServicePageHero';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
 
