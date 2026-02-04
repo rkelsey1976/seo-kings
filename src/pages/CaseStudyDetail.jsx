@@ -34,7 +34,7 @@ const caseStudiesData = {
     results: [
       { metric: '340%', label: 'Increase in enquiries', description: 'Monthly leads went from 8 to 35+' },
       { metric: '#1', label: 'Google ranking', description: 'For "plumber Bath" and 12 other key terms' },
-      { metric: '47', label: 'New reviews', description: '5-star reviews in first 6 months' },
+      { metric: '50+', label: 'New reviews', description: '5-star reviews in first 6 months' },
       { metric: '£180K', label: 'Additional revenue', description: 'Directly attributed to SEO in year 1' },
     ],
     timeline: [
@@ -82,7 +82,7 @@ const caseStudiesData = {
       { metric: '+52', label: 'Calls per month', description: 'From zero to consistent lead flow' },
       { metric: 'Top 3', label: 'For 15+ keywords', description: 'Dominating Keynsham searches' },
       { metric: '£85K', label: 'Revenue year 1', description: 'Exceeded first-year targets' },
-      { metric: '4.9★', label: 'Google rating', description: 'Built from scratch to excellent' },
+      { metric: '5★', label: 'Google rating', description: 'Built from scratch to excellent' },
     ],
     timeline: [
       { month: 'Month 1', title: 'Launch', description: 'Website built and launched, GBP created and optimised' },
@@ -105,7 +105,7 @@ const caseStudiesData = {
     industry: 'Roofing',
     location: 'Midsomer Norton, BA3',
     logo: 'NR',
-    tagline: 'Zero reviews to 47 five-star ratings',
+    tagline: 'Zero reviews to dozens of five-star ratings',
     heroImage: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8',
     heroImageAlt: 'Roofer working on roof tiles in Midsomer Norton - Norton Roofing Google reviews case study',
     color: 'from-accent to-accent-dark',
@@ -125,16 +125,16 @@ const caseStudiesData = {
       'Reputation management and review response strategy',
     ],
     results: [
-      { metric: '0→47', label: 'Google reviews', description: 'Built credibility from scratch' },
+      { metric: '50+', label: 'Google reviews', description: 'Built credibility from scratch' },
       { metric: '£180K', label: 'New contracts', description: 'Won through improved visibility' },
-      { metric: '4.9★', label: 'Average rating', description: 'Exceptional customer feedback' },
+      { metric: '5★', label: 'Average rating', description: 'Exceptional customer feedback' },
       { metric: '+250%', label: 'GBP views', description: 'Monthly profile visibility' },
     ],
     timeline: [
       { month: 'Month 1', title: 'Audit & Setup', description: 'GBP optimisation, review campaign strategy developed' },
       { month: 'Month 2', title: 'Review Push', description: 'First 15 reviews collected, GBP posts started' },
       { month: 'Month 3', title: 'Momentum', description: '30 reviews, ranking improvements begin' },
-      { month: 'Month 6', title: 'Authority', description: '47 reviews, top 3 for roofing keywords' },
+      { month: 'Month 6', title: 'Authority', description: '50+ reviews, top 3 for roofing keywords' },
     ],
     testimonial: {
       quote: "I was skeptical at first, but the results speak for themselves. My Google Business Profile now gets 50+ views a day. Customers tell me they chose us because of our reviews.",
@@ -220,7 +220,7 @@ const caseStudiesData = {
       { metric: '+75%', label: 'Private enquiries', description: 'Significant shift in patient mix' },
       { metric: '£250K', label: 'Additional revenue', description: 'From private treatments' },
       { metric: '#1', label: 'Google ranking', description: 'For "dentist Radstock"' },
-      { metric: '4.8★', label: 'Google rating', description: 'From 50+ reviews' },
+      { metric: '5★', label: 'Google rating', description: 'From client reviews' },
     ],
     timeline: [
       { month: 'Month 1', title: 'Strategy', description: 'Keyword research, service page planning' },
@@ -281,6 +281,52 @@ const caseStudiesData = {
     },
     services: ['Local SEO', 'Google Business Profile'],
     relatedCases: ['the-bath-kitchen', 'radstock-dental'],
+  },
+  'peachy-cleans': {
+    id: 7,
+    slug: 'peachy-cleans',
+    business: 'Peachy Cleans',
+    industry: 'Cleaning Services',
+    location: 'Midsomer Norton, BA3',
+    logo: 'PC',
+    tagline: 'Professional website and local visibility in Midsomer Norton',
+    heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952',
+    heroImageAlt: 'Professional cleaning services - Peachy Cleans Midsomer Norton website and SEO case study',
+    color: 'from-pink-500 to-rose-500',
+    overview: 'Peachy Cleans is a professional cleaning services business serving Midsomer Norton and the surrounding area. They came to SEO Kings with no website and no real presence on Google. We built them a clear, professional site and got them visible for local cleaning searches.',
+    challenge: [
+      'No website — enquiries only by word of mouth',
+      'Invisible on Google for cleaning searches in the area',
+      'Competing with established cleaning companies online',
+      'No way for potential customers to find or contact them',
+      'New business needing to build trust quickly',
+    ],
+    solution: [
+      'Professional website built from scratch at peachycleans.info',
+      'Mobile-friendly design with clear services and contact options',
+      'Local SEO targeting Midsomer Norton and surrounding areas',
+      'Google Business Profile setup and optimisation',
+      'Clear structure and content for local cleaning keywords',
+    ],
+    results: [
+      { metric: 'New site', label: 'Live website', description: 'Professional presence at peachycleans.info' },
+      { metric: 'Visible', label: 'On Google', description: 'Showing for local cleaning searches' },
+      { metric: 'Regular', label: 'Enquiries', description: 'From Midsomer Norton and surrounding area' },
+      { metric: '5★', label: 'Client feedback', description: 'Professional from start to finish' },
+    ],
+    timeline: [
+      { month: 'Phase 1', title: 'Discovery', description: 'Brief, goals, and structure agreed' },
+      { month: 'Phase 2', title: 'Design & Build', description: 'Website designed and built, content in place' },
+      { month: 'Phase 3', title: 'Launch & SEO', description: 'Site live, local SEO and GBP work started' },
+      { month: 'Ongoing', title: 'Results', description: 'Regular enquiries from the local area' },
+    ],
+    testimonial: {
+      quote: "SEO Kings built our website and got us visible on Google. We're now getting regular enquiries from Midsomer Norton and the surrounding area. Professional from start to finish.",
+      author: 'Peachy Cleans',
+      role: 'Professional Cleaning Services, Midsomer Norton',
+    },
+    services: ['Website Design', 'Local SEO'],
+    relatedCases: ['norton-roofing', 'saltford-garden-centre'],
   },
 };
 

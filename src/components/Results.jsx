@@ -47,7 +47,7 @@ const Results = () => {
       business: 'Norton Roofing',
       trade: 'Roofer',
       location: 'Midsomer Norton, BA3',
-      result: '0 → 47 Google reviews',
+      result: 'Dozens of Google reviews',
       metric: '£180K',
       metricLabel: 'New contracts',
       timeframe: '6 months',

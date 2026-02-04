@@ -165,7 +165,7 @@ const GoogleBusinessProfile = () => {
                     <div className="flex-1">
                       <div className="text-white font-medium">Your Business Here</div>
                       <div className="flex items-center gap-1 text-yellow-400 text-sm">
-                        ★★★★★ <span className="text-gray-400">(47 reviews)</span>
+                        ★★★★★ <span className="text-gray-400">(reviews)</span>
                       </div>
                       <div className="text-green-400 text-sm">Open · Bath, BA1</div>
                     </div>
@@ -256,12 +256,12 @@ const GoogleBusinessProfile = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-dark-card border border-white/5 rounded-2xl p-6 text-center">
-              <div className="text-4xl font-bold text-yellow-400 mb-2">+47</div>
+              <div className="text-4xl font-bold text-yellow-400 mb-2">50+</div>
               <div className="text-white font-medium mb-1">Average reviews gained</div>
               <div className="text-sm text-gray-500">In the first 6 months</div>
             </div>
             <div className="bg-dark-card border border-white/5 rounded-2xl p-6 text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">4.9★</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">5★</div>
               <div className="text-white font-medium mb-1">Average client rating</div>
               <div className="text-sm text-gray-500">Across all managed profiles</div>
             </div>

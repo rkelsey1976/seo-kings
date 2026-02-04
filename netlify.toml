@@ -8,6 +8,17 @@
   to = "/index.html"
   status = 200
 
+# Explicit Content-Type for crawlers (sitemap and robots)
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
 # Headers for security and caching
 [[headers]]
   for = "/*"

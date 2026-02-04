@@ -153,42 +153,6 @@ const SEO = ({
         }
       ]
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "47",
-      "reviewCount": "47"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Mike Thompson"
-        },
-        "reviewBody": "SEO Kings transformed our online presence. We went from invisible to page 1 for all our key terms in just 4 months."
-      },
-      {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Sarah Mitchell"
-        },
-        "reviewBody": "Professional, knowledgeable, and actually delivers results. Our enquiries have tripled since working with them."
-      }
-    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

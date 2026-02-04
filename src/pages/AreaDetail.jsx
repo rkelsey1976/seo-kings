@@ -134,7 +134,7 @@ const AreaDetail = () => {
         avgCPC: '£1.50',
       },
       testimonial: {
-        quote: "Best investment we've made. We now dominate local search and our Google reviews have increased by 47.",
+        quote: "Best investment we've made. We now dominate local search and our Google reviews have increased significantly.",
         name: 'Mark Williams',
         business: 'Williams Roofing',
         result: '£180K new contracts',

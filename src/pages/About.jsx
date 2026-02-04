@@ -48,7 +48,7 @@ const About = () => {
     { value: '150+', label: 'Local Businesses Helped' },
     { value: '5+', label: 'Years Experience' },
     { value: '£2.4M', label: 'Revenue Generated for Clients' },
-    { value: '4.9★', label: 'Average Google Rating' },
+    { value: '5★', label: 'Google Rating' },
   ];
 
   const reasons = [
@@ -109,7 +109,7 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80"
                 srcSet="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80 600w"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                alt="SEO Kings digital marketing team collaborating on local SEO strategies for Bath and BANES businesses"
+                alt="SEO Kings local SEO and digital marketing for Bath and BANES businesses"
                 width={600}
                 height={450}
                 fetchPriority="high"
@@ -174,7 +174,7 @@ const About = () => {
               <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=500&h=400&fit=crop&auto=format&q=80"
-                  alt="SEO Kings team planning digital marketing strategy and local SEO campaign for Bath businesses"
+                  alt="SEO Kings planning digital marketing strategy and local SEO campaign for Bath businesses"
                   width={500}
                   height={400}
                   loading="lazy"
@@ -352,72 +352,6 @@ const About = () => {
             <p className="text-gray-500">
               Don't see your area? <Link to="/contact" className="text-primary-light hover:text-white transition-colors">Get in touch</Link> — we probably cover it.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Meet the Team */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-4">
-              Our Team
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Small Team, Big Results
-            </h2>
-            <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              We're a tight-knit team who genuinely care about helping local businesses succeed. 
-              When you work with us, you'll have direct access to the people actually doing the work.
-            </p>
-          </div>
-
-          {/* Team Grid */}
-          <div className="grid md:grid-cols-4 gap-8 mb-12">
-            {[
-              { name: 'James Wilson', role: 'Founder & SEO Lead', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format&q=80' },
-              { name: 'Emma Roberts', role: 'Web Developer', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face&auto=format&q=80' },
-              { name: 'Tom Baker', role: 'Content Strategist', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face&auto=format&q=80' },
-              { name: 'Sophie Chen', role: 'GBP Specialist', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face&auto=format&q=80' },
-            ].map((member, index) => (
-              <div key={index} className="text-center group">
-                <div className="relative mb-4 inline-block">
-                  <img
-                    src={member.image}
-                    alt={`${member.name}, ${member.role} at SEO Kings Bath - local SEO and digital marketing expert`}
-                    width={128}
-                    height={128}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-32 h-32 rounded-full object-cover border-4 border-white/10 group-hover:border-primary/50 transition-colors mx-auto"
-                  />
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-1">{member.name}</h3>
-                <p className="text-sm text-gray-400">{member.role}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              Direct communication
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              No account managers
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              Quick response times
-            </div>
           </div>
         </div>
       </section>
