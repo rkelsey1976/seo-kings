@@ -96,6 +96,26 @@ Website design + local SEO in one. Free audit and quote. Based in Bath, serving 
 
 ---
 
+## Post 6: Peachy Cleans Case Study (Update) – PROMOTE CASE STUDY
+
+**Post type:** Update  
+**Headline:** How We Got Peachy Cleans Visible on Google in Midsomer Norton  
+**CTA button:** Learn more (link to https://seo-kings.co.uk/case-studies/peachy-cleans)
+
+**Body:**
+```
+Peachy Cleans came to us with no website and no presence on Google. We built them a professional site and got them visible for local cleaning searches in Midsomer Norton and the surrounding area.
+
+✅ New website live at peachycleans.info  
+✅ Showing up on Google for cleaning searches  
+✅ Regular enquiries from the local area  
+✅ 5★ client feedback: "Professional from start to finish"
+
+See the full case study and what's possible for your business. Website design + local SEO for BANES businesses.
+```
+
+---
+
 ## SEO keywords used across posts
 
 - **Location:** Bath, BANES, Keynsham, Midsomer Norton, Radstock  

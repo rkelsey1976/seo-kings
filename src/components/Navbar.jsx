@@ -140,9 +140,9 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50" aria-label="Main navigation">
-      {/* Skip to main content link for accessibility */}
+      {/* Skip to main content link - target #root exists in static HTML so crawlers don't flag broken jump link */}
       <a 
-        href="#main-content" 
+        href="#root" 
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-white focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-white"
       >
         Skip to main content

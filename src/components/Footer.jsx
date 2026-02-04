@@ -25,7 +25,6 @@ const Footer = () => {
   const company = [
     { name: 'About Us', href: '/about', isRoute: true },
     { name: 'Case Studies', href: '/case-studies', isRoute: true },
-    { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '/contact', isRoute: true },
   ];
 
