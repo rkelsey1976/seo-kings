@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
@@ -85,6 +86,49 @@ const GoogleBusinessProfile = () => {
         description="Dominate the Google Map Pack in BANES. We optimise and manage your Google Business Profile to get more calls, reviews, and local customers. GBP management from £250/month."
         keywords="Google Business Profile Bath, GBP management BANES, Google Maps SEO, local business listing, Google My Business Bath, map pack ranking, review management Bath"
         canonical="/google-business-profile"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Google Business Profile' }
+        ]}
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Google Business Profile Management",
+            "name": "Google Business Profile Management",
+            "description": "Professional Google Business Profile optimisation and management to help local businesses in Bath & BANES dominate the map pack and get more customers.",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "SEO Kings",
+              "url": "https://seokings.co.uk"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Bath and North East Somerset"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "GBP Management Packages",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "GBP Management",
+                    "description": "Full Google Business Profile management including optimisation, posting, review management, and reporting"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "250",
+                    "priceCurrency": "GBP",
+                    "minPrice": "250",
+                    "unitText": "per month"
+                  }
+                }
+              ]
+            }
+          }
+        ]}
       />
       <ServicePageHero
         badge="Google Business Profile"
@@ -180,9 +224,9 @@ const GoogleBusinessProfile = () => {
                   </li>
                 ))}
               </ul>
-              <button className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 btn-glow">
+              <Link to="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 btn-glow">
                 Check Your GBP Score Free
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -260,9 +304,9 @@ const GoogleBusinessProfile = () => {
               Monthly reporting
             </div>
           </div>
-          <button className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
+          <Link to="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
             Get Your Free GBP Audit
-          </button>
+          </Link>
         </div>
       </section>
 

@@ -78,6 +78,10 @@ const Areas = () => {
         description="SEO Kings provides local SEO services across Bath and North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock, and surrounding areas get found on Google."
         keywords="SEO Bath, SEO Keynsham, SEO Midsomer Norton, SEO BANES, local SEO Somerset, SEO near me"
         canonical="/areas"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Areas We Serve' }
+        ]}
       />
 
       {/* Hero Section */}
@@ -215,13 +219,13 @@ const Areas = () => {
               Get Your Free Audit
             </Link>
             <a
-              href="tel:01225123456"
+              href="tel:07702264921"
               className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              01225 123 456
+              07702 264 921
             </a>
           </div>
         </div>

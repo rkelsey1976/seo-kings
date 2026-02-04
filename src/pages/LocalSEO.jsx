@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
@@ -90,6 +91,49 @@ const LocalSEO = () => {
         description="Dominate local search results in BANES. Our local SEO services help tradespeople and small businesses rank #1 on Google. Keyword research, on-page SEO, link building & monthly reporting. Free SEO audit."
         keywords="local SEO Bath, SEO services BANES, SEO company Bath, SEO for plumbers, SEO for electricians, local search optimisation, Google ranking Bath, SEO agency Somerset"
         canonical="/local-seo"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Local SEO' }
+        ]}
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Local SEO",
+            "name": "Local SEO Services",
+            "description": "Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "SEO Kings",
+              "url": "https://seokings.co.uk"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Bath and North East Somerset"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Local SEO Packages",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Local SEO Package",
+                    "description": "Comprehensive local SEO including keyword research, on-page optimisation, local citations, and monthly reporting"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "500",
+                    "priceCurrency": "GBP",
+                    "minPrice": "500",
+                    "unitText": "per month"
+                  }
+                }
+              ]
+            }
+          }
+        ]}
       />
       <ServicePageHero
         badge="Local SEO Services"
@@ -195,9 +239,9 @@ const LocalSEO = () => {
             Our local SEO packages start from <span className="text-white font-bold">£500/month</span>. 
             No long contracts — just results. Most clients see significant improvements within 3-6 months.
           </p>
-          <button className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
+          <Link to="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
             Get Your Free SEO Audit
-          </button>
+          </Link>
           <p className="text-gray-500 text-sm mt-4">
             See exactly where you stand and what it'll take to reach page 1.
           </p>

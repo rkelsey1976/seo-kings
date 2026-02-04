@@ -112,13 +112,13 @@ const ThankYou = () => {
                 Chat on WhatsApp
               </a>
               <a 
-                href="tel:01225123456" 
+                href="tel:07702264921" 
                 className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                Call 01225 123 456
+                Call 07702 264 921
               </a>
             </div>
           </div>

@@ -203,10 +203,7 @@ const Privacy = () => {
                   <p className="text-white font-semibold">SEO Kings</p>
                   <p className="text-gray-300 mt-2">Bath, Somerset, United Kingdom</p>
                   <p className="text-gray-300 mt-1">
-                    Email: <a href="mailto:hello@seokings.co.uk" className="text-primary-light hover:text-white transition-colors">hello@seokings.co.uk</a>
-                  </p>
-                  <p className="text-gray-300 mt-1">
-                    Phone: <a href="tel:01225123456" className="text-primary-light hover:text-white transition-colors">01225 123 456</a>
+                    Phone: <a href="tel:07702264921" className="text-primary-light hover:text-white transition-colors">07702 264 921</a>
                   </p>
                 </div>
               </div>

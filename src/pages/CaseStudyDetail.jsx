@@ -304,6 +304,20 @@ const CaseStudyDetail = () => {
         description={`See how we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Real SEO results for local businesses.`}
         keywords={`${caseStudy.industry} SEO, ${caseStudy.location} SEO, local SEO case study, ${caseStudy.business}`}
         canonical={`/case-studies/${caseStudy.slug}`}
+        ogType="article"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Case Studies', url: '/case-studies' },
+          { name: caseStudy.business }
+        ]}
+        article={{
+          type: 'Article',
+          headline: `${caseStudy.business} Case Study - ${caseStudy.tagline}`,
+          description: `See how we helped ${caseStudy.business} in ${caseStudy.location} achieve remarkable SEO results.`,
+          image: caseStudy.heroImage,
+          datePublished: '2025-01-15',
+          dateModified: '2026-01-28'
+        }}
       />
 
       {/* Hero Section */}

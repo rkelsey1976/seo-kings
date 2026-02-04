@@ -463,8 +463,7 @@ const AreaDetail = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "SEO Kings",
-      "telephone": "01225 123 456",
-      "email": "hello@seokings.co.uk"
+      "telephone": "07702 264 921"
     },
     "areaServed": {
       "@type": "City",
@@ -584,11 +583,11 @@ const AreaDetail = () => {
                   Get Free {area.name} SEO Audit
                 </Link>
                 <a
-                  href="tel:01225123456"
+                  href="tel:07702264921"
                   className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300"
-                  aria-label={`Call SEO Kings on 01225 123 456`}
+                  aria-label="Call SEO Kings on 07702 264 921"
                 >
-                  01225 123 456
+                  07702 264 921
                 </a>
               </div>
 
@@ -858,13 +857,14 @@ const AreaDetail = () => {
               Get Your Free {area.name} SEO Audit
             </Link>
             <a
-              href="tel:01225123456"
+              href="tel:07702264921"
               className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
+              aria-label="Call SEO Kings on 07702 264 921"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              01225 123 456
+              07702 264 921
             </a>
           </div>
         </div>

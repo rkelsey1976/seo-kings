@@ -207,7 +207,7 @@ const Navbar = () => {
                 )
               ))}
               <a 
-                href="/#contact" 
+                href="/contact" 
                 className="bg-primary hover:bg-primary-light text-white px-5 py-2 rounded-lg font-medium transition-all duration-200 btn-glow"
                 onClick={closeAllMenus}
               >
@@ -303,7 +303,7 @@ const Navbar = () => {
                 Not sure which service you need?
               </p>
               <a 
-                href="/#contact" 
+                href="/contact" 
                 className="inline-flex items-center gap-2 text-sm font-medium text-primary-light hover:text-white transition-colors"
                 onClick={closeAllMenus}
               >
@@ -477,7 +477,7 @@ const Navbar = () => {
                 )
               ))}
               <a 
-                href="/#contact" 
+                href="/contact" 
                 className="bg-primary hover:bg-primary-light text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 w-full mt-2 text-center block"
                 onClick={closeAllMenus}
               >

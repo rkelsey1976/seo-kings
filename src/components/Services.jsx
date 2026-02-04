@@ -136,13 +136,14 @@ const Services = () => {
                   ))}
                 </ul>
 
-                {/* Learn More Link */}
+                {/* Learn More Link - descriptive text for SEO and accessibility */}
                 <div className="mt-6 pt-4 border-t border-white/5">
                   <Link
                     to={service.href}
                     className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-primary-light transition-colors"
+                    aria-label={`Learn more about ${service.title}`}
                   >
-                    Learn more
+                    Learn more about {service.title}
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -158,9 +159,9 @@ const Services = () => {
           <p className="text-gray-300 mb-6">
             Not sure what you need? We'll help you figure it out.
           </p>
-          <button className="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
+          <Link to="/contact" className="inline-block bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
             Get a Free Consultation
-          </button>
+          </Link>
         </div>
       </div>
     </section>

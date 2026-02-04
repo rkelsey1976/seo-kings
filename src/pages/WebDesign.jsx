@@ -107,6 +107,48 @@ const WebDesign = () => {
         description="Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading websites built to convert visitors into customers. Get a free quote today."
         keywords="website design Bath, web design BANES, website for tradesmen, local business website, mobile website Bath, web developer Bath, small business website Somerset"
         canonical="/web-design"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Website Design' }
+        ]}
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Website Design",
+            "name": "Website Design for Local Businesses",
+            "description": "Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading websites built to convert visitors into customers.",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "SEO Kings",
+              "url": "https://seokings.co.uk"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Bath and North East Somerset"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Website Design Packages",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Business Website",
+                    "description": "Professional 5-page website for local businesses"
+                  },
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "1500",
+                    "priceCurrency": "GBP",
+                    "minPrice": "1500"
+                  }
+                }
+              ]
+            }
+          }
+        ]}
       />
       <ServicePageHero
         badge="Website Design"

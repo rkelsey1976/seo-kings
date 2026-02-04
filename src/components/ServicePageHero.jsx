@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServicePageHero = ({ 
   badge, 
@@ -54,11 +55,11 @@ const ServicePageHero = ({
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
+              <Link to="/contact" className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
                 {ctaText}
-              </button>
+              </Link>
               <a
-                href="tel:01225123456"
+                href="tel:07702264921"
                 className="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">

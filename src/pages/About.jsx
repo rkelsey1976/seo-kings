@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -76,6 +77,10 @@ const About = () => {
         description="SEO Kings is a Bath-based digital marketing agency helping tradespeople and local businesses in BANES get found on Google. Learn about our story, values, and why 150+ local businesses trust us."
         keywords="SEO agency Bath, about SEO Kings, digital marketing Bath, local SEO company BANES, Bath marketing agency, SEO experts Somerset"
         canonical="/about"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'About Us' }
+        ]}
       />
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
@@ -345,7 +350,7 @@ const About = () => {
 
           <div className="text-center mt-8">
             <p className="text-gray-500">
-              Don't see your area? <a href="#contact" className="text-primary-light hover:text-white transition-colors">Get in touch</a> — we probably cover it.
+              Don't see your area? <Link to="/contact" className="text-primary-light hover:text-white transition-colors">Get in touch</Link> — we probably cover it.
             </p>
           </div>
         </div>

@@ -61,20 +61,9 @@ const Contact = () => {
         </svg>
       ),
       label: 'Phone',
-      value: '01225 123 456',
-      href: 'tel:01225123456',
+      value: '07702 264 921',
+      href: 'tel:07702264921',
       description: 'Mon-Fri 9am-5pm',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      ),
-      label: 'Email',
-      value: 'hello@seokings.co.uk',
-      href: 'mailto:hello@seokings.co.uk',
-      description: 'We reply within 24 hours',
     },
     {
       icon: (
@@ -102,9 +91,13 @@ const Contact = () => {
     <>
       <SEO
         title="Contact Us - Get Your Free SEO Audit"
-        description="Get in touch with SEO Kings for a free SEO audit. We help tradespeople and local businesses in Bath & BANES dominate Google. Call 01225 123 456 or fill out our contact form."
+        description="Get in touch with SEO Kings for a free SEO audit. We help tradespeople and local businesses in Bath & BANES dominate Google. Call 07702 264 921 or fill out our contact form."
         keywords="contact SEO Kings, free SEO audit Bath, SEO consultation BANES, local SEO quote, website design quote Bath"
         canonical="/contact"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Contact' }
+        ]}
       />
 
       {/* Hero Section */}
@@ -139,7 +132,7 @@ const Contact = () => {
                 Contact Information
               </h2>
               <p className="text-gray-400 mb-8">
-                Prefer to chat? Give us a call or send an email. We're always happy 
+                Prefer to chat? Give us a call. We're always happy 
                 to discuss your business and how we can help.
               </p>
 
@@ -272,7 +265,7 @@ const Contact = () => {
                             value={formData.phone}
                             onChange={handleChange}
                             className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors"
-                            placeholder="01225 123 456"
+                            placeholder="07702 264 921"
                           />
                         </div>
 
