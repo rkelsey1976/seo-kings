@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import WebDesign from './pages/WebDesign';
+import WebDesignPackages from './pages/WebDesignPackages';
 import LocalSEO from './pages/LocalSEO';
 import GoogleBusinessProfile from './pages/GoogleBusinessProfile';
 import About from './pages/About';
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/web-design" element={<WebDesign />} />
+            <Route path="/web-design-packages" element={<WebDesignPackages />} />
             <Route path="/local-seo" element={<LocalSEO />} />
             <Route path="/google-business-profile" element={<GoogleBusinessProfile />} />
             <Route path="/about" element={<About />} />

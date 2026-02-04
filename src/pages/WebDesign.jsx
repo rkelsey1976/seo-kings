@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
@@ -211,6 +212,15 @@ const WebDesign = () => {
             Our websites start from <span className="text-white font-bold">£1,500</span> for a 5-page site. 
             Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn't agree to.
           </p>
+          <Link
+            to="/web-design-packages"
+            className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold mb-8 transition-colors"
+          >
+            View our web design packages
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

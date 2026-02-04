@@ -1,0 +1,29 @@
+# URLs for Bing Webmaster Tools – submit for indexing
+# Add your site at https://www.bing.com/webmasters, then:
+# URL Submission → Submit URLs → paste one URL per line (without the # lines)
+
+https://seo-kings.co.uk/
+https://seo-kings.co.uk/web-design
+https://seo-kings.co.uk/local-seo
+https://seo-kings.co.uk/google-business-profile
+https://seo-kings.co.uk/case-studies
+https://seo-kings.co.uk/case-studies/mitchell-plumbing
+https://seo-kings.co.uk/case-studies/keynsham-electrics
+https://seo-kings.co.uk/case-studies/norton-roofing
+https://seo-kings.co.uk/case-studies/the-bath-kitchen
+https://seo-kings.co.uk/case-studies/radstock-dental
+https://seo-kings.co.uk/case-studies/saltford-garden-centre
+https://seo-kings.co.uk/case-studies/peachy-cleans
+https://seo-kings.co.uk/contact
+https://seo-kings.co.uk/about
+https://seo-kings.co.uk/areas
+https://seo-kings.co.uk/areas/bath
+https://seo-kings.co.uk/areas/keynsham
+https://seo-kings.co.uk/areas/midsomer-norton
+https://seo-kings.co.uk/areas/radstock
+https://seo-kings.co.uk/areas/peasedown-st-john
+https://seo-kings.co.uk/areas/paulton
+https://seo-kings.co.uk/areas/saltford
+https://seo-kings.co.uk/areas/timsbury
+https://seo-kings.co.uk/privacy
+https://seo-kings.co.uk/terms
