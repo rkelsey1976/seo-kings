@@ -154,6 +154,22 @@ body {
   border-width: 0;
 }
 
+/* Skip link and other sr-only become visible when focused (accessibility) */
+.sr-only:focus,
+.sr-only:focus-visible {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  z-index: 100;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
