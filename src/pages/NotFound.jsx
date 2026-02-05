@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 const NotFound = () => {
@@ -43,13 +43,13 @@ const NotFound = () => {
           {/* Actions */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Link
-              to="/"
+              href="/"
               className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow"
             >
               Go Home
             </Link>
             <Link
-              to="/contact"
+              href="/contact"
               className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300"
             >
               Contact Us
@@ -68,7 +68,7 @@ const NotFound = () => {
               ].map((link, index) => (
                 <Link
                   key={index}
-                  to={link.href}
+                  href={link.href}
                   className="px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white transition-all"
                 >
                   {link.name}

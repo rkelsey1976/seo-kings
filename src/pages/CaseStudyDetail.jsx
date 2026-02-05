@@ -1,5 +1,7 @@
-import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+'use client';
+import React, { useEffect } from 'react';
+import { useParams, useRouter } from 'next/navigation';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -330,14 +332,16 @@ const caseStudiesData = {
   },
 };
 
-const CaseStudyDetail = () => {
-  const { slug } = useParams();
+const CaseStudyDetail = ({ params: staticParams }) => {
+  const dynamicParams = useParams();
+  const slug = staticParams?.slug ?? dynamicParams?.slug;
   const caseStudy = caseStudiesData[slug];
 
-  // Redirect to case studies page if not found
-  if (!caseStudy) {
-    return <Navigate to="/case-studies" replace />;
-  }
+  const router = useRouter();
+  useEffect(() => {
+    if (!caseStudy) router.replace('/case-studies');
+  }, [caseStudy, router]);
+  if (!caseStudy) return null;
 
   const relatedCases = caseStudy.relatedCases
     .map(relatedSlug => caseStudiesData[relatedSlug])
@@ -385,7 +389,7 @@ const CaseStudyDetail = () => {
         <div className="absolute inset-0 bg-dark/50" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link 
-            to="/case-studies" 
+            href="/case-studies" 
             className="inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors mb-8"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -580,7 +584,7 @@ const CaseStudyDetail = () => {
               {relatedCases.map((related) => (
                 <Link
                   key={related.slug}
-                  to={`/case-studies/${related.slug}`}
+                  href={`/case-studies/${related.slug}`}
                   className="bg-dark-card border border-white/5 rounded-2xl overflow-hidden hover:border-white/10 transition-all duration-300 group"
                 >
                   <div className={`bg-gradient-to-r ${related.color} p-6`}>

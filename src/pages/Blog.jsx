@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -93,7 +93,7 @@ const Blog = () => {
                   {post.readTime && <span className="text-gray-600 ml-2">· {post.readTime}</span>}
                 </time>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-                  <Link to={`/blog/${post.slug}`} className="hover:text-primary-light transition-colors">
+                  <Link href={`/blog/${post.slug}`} className="hover:text-primary-light transition-colors">
                     {post.title}
                   </Link>
                 </h2>
@@ -101,7 +101,7 @@ const Blog = () => {
                   {post.excerpt}
                 </p>
                 <Link
-                  to={`/blog/${post.slug}`}
+                  href={`/blog/${post.slug}`}
                   className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors"
                 >
                   Read more

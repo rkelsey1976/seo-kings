@@ -1,5 +1,5 @@
 module.exports = {
   root: true,
-  extends: ['react-app'],
+  extends: ['next/core-web-vitals'],
   rules: {},
 };

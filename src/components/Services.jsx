@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Services = () => {
   const services = [
@@ -139,7 +139,7 @@ const Services = () => {
                 {/* Learn More Link - descriptive text for SEO and accessibility */}
                 <div className="mt-6 pt-4 border-t border-white/5">
                   <Link
-                    to={service.href}
+                    href={service.href}
                     className="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-primary-light transition-colors"
                     aria-label={`Learn more about ${service.title}`}
                   >
@@ -159,7 +159,7 @@ const Services = () => {
           <p className="text-gray-300 mb-6">
             Not sure what you need? We'll help you figure it out.
           </p>
-          <Link to="/contact" className="inline-block bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
+          <Link href="/contact" className="inline-block bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
             Get a Free Consultation
           </Link>
         </div>

@@ -1,10 +1,11 @@
+'use client';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 
 const Contact = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -50,7 +51,7 @@ const Contact = () => {
       }
       
       // Redirect to thank you page
-      navigate('/thank-you');
+      router.push('/thank-you');
     } catch (error) {
       console.error('Form submission error:', error);
       alert('There was an error submitting the form. Please try again or call us directly.');

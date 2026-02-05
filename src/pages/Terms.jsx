@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 const Terms = () => {
@@ -285,7 +285,7 @@ title="Terms of Service | SEO Kings"
             {/* Back Link */}
             <div className="mt-12 pt-8 border-t border-white/10">
               <Link 
-                to="/"
+                href="/"
                 className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

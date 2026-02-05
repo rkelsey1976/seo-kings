@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8 lg:gap-12 pb-8 sm:pb-12 border-b border-white/5">
           {/* Brand */}
           <div className="lg:max-w-sm">
-            <Link to="/" className="inline-flex items-center gap-2 mb-4">
+            <Link href="/" className="inline-flex items-center gap-2 mb-4">
               <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
               </svg>
@@ -115,7 +115,7 @@ const Footer = () => {
               {services.map((service, index) => (
                 <li key={index}>
                   <Link
-                    to={service.href}
+                    href={service.href}
                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
                   >
                     {service.name}
@@ -133,7 +133,7 @@ const Footer = () => {
               {areas.slice(0, 4).map((area, index) => (
                 <li key={index}>
                   <Link
-                    to={`/areas/${area.slug}`}
+                    href={`/areas/${area.slug}`}
                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
                   >
                     {area.name}
@@ -144,7 +144,7 @@ const Footer = () => {
               {areas.slice(4).map((area, index) => (
                 <li key={index + 4} className="hidden sm:block">
                   <Link
-                    to={`/areas/${area.slug}`}
+                    href={`/areas/${area.slug}`}
                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
                   >
                     {area.name}
@@ -154,7 +154,7 @@ const Footer = () => {
               {/* View all link - only on mobile */}
               <li className="sm:hidden">
                 <Link
-                  to="/areas"
+                  href="/areas"
                   className="text-primary-light hover:text-white transition-colors text-sm font-medium inline-flex items-center gap-1"
                 >
                   View all
@@ -175,7 +175,7 @@ const Footer = () => {
                 <li key={index}>
                   {item.isRoute ? (
                     <Link
-                      to={item.href}
+                      href={item.href}
                       className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
                     >
                       {item.name}
@@ -203,10 +203,10 @@ const Footer = () => {
               © {currentYear} SEO Kings. All rights reserved.
             </p>
             <div className="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm order-1 sm:order-2">
-              <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link to="/terms" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
                 Terms of Service
               </Link>
             </div>

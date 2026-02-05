@@ -1,5 +1,6 @@
+'use client';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -345,7 +346,7 @@ const CaseStudies = () => {
                       ))}
                     </div>
                     <Link
-                      to={`/case-studies/${study.slug}`}
+                      href={`/case-studies/${study.slug}`}
                       className="inline-flex items-center gap-1 text-sm font-medium text-primary-light hover:text-white transition-colors"
                     >
                       Full story
@@ -425,7 +426,7 @@ const CaseStudies = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/contact"
+              href="/contact"
               className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow"
             >
               Get Your Free Audit

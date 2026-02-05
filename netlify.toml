@@ -1,13 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build"
-
-# SPA: always serve index.html for all routes (avoids 5xx for /areas/peasedown-st-john etc.)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
+  publish = "out"
 
 # Explicit Content-Type for crawlers (sitemap and robots)
 [[headers]]
@@ -30,7 +23,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
-  for = "/static/*"
+  for = "/_next/static/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 

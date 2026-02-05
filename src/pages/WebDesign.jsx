@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
@@ -213,7 +213,7 @@ const WebDesign = () => {
             Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn't agree to.
           </p>
           <Link
-            to="/web-design-packages"
+            href="/web-design-packages"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold mb-8 transition-colors"
           >
             View our web design packages

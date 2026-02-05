@@ -1,5 +1,7 @@
-import React from 'react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+'use client';
+import React, { useEffect } from 'react';
+import Link from 'next/link';
+import { useParams, useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -257,13 +259,16 @@ const blogPosts = {
   },
 };
 
-const BlogPost = () => {
-  const { slug } = useParams();
+const BlogPost = ({ params: staticParams }) => {
+  const dynamicParams = useParams();
+  const slug = staticParams?.slug ?? dynamicParams?.slug;
   const post = slug ? blogPosts[slug] : null;
 
-  if (!post) {
-    return <Navigate to="/blog" replace />;
-  }
+  const router = useRouter();
+  useEffect(() => {
+    if (!post) router.replace('/blog');
+  }, [post, router]);
+  if (!post) return null;
 
   return (
     <>
@@ -294,7 +299,7 @@ const BlogPost = () => {
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link
-            to="/blog"
+            href="/blog"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-8"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -346,13 +351,13 @@ const BlogPost = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/contact"
+                href="/contact"
                 className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
               >
                 Get a free audit
               </Link>
               <Link
-                to="/local-seo"
+                href="/local-seo"
                 className="border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center"
               >
                 View our local SEO services

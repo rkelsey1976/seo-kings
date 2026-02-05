@@ -1,7 +1,10 @@
+'use client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import SEO from '../components/SEO';
-import BANESMap from '../components/BANESMap';
+
+const BANESMap = dynamic(() => import('../components/BANESMap'), { ssr: false });
 
 const Areas = () => {
   const areas = [
@@ -158,7 +161,7 @@ const Areas = () => {
             {areas.map((area, index) => (
               <Link
                 key={area.slug}
-                to={`/areas/${area.slug}`}
+                href={`/areas/${area.slug}`}
                 className="group bg-dark-card border border-white/5 rounded-2xl overflow-hidden hover:border-primary/30 transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Image */}
@@ -213,7 +216,7 @@ const Areas = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/contact"
+              href="/contact"
               className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
             >
               Get Your Free Audit

@@ -1,5 +1,7 @@
-import React from 'react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+'use client';
+import React, { useEffect } from 'react';
+import Link from 'next/link';
+import { useParams, useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 import CTABanner from '../components/CTABanner';
@@ -85,13 +87,17 @@ const tradesData = {
   },
 };
 
-const LocalSEOTrade = () => {
-  const { tradeSlug } = useParams();
+const LocalSEOTrade = ({ params: staticParams }) => {
+  const dynamicParams = useParams();
+  const tradeSlug = staticParams?.tradeSlug ?? dynamicParams?.tradeSlug;
+  const router = useRouter();
   const trade = tradeSlug ? tradesData[tradeSlug] : null;
 
-  if (!trade) {
-    return <Navigate to="/local-seo" replace />;
-  }
+  useEffect(() => {
+    if (!trade) router.replace('/local-seo');
+  }, [trade, router]);
+
+  if (!trade) return null;
 
   return (
     <>
@@ -114,9 +120,9 @@ const LocalSEOTrade = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <nav className="mb-8" aria-label="Breadcrumb">
             <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-              <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
               <li aria-hidden="true">/</li>
-              <li><Link to="/local-seo" className="hover:text-white transition-colors">Local SEO</Link></li>
+              <li><Link href="/local-seo" className="hover:text-white transition-colors">Local SEO</Link></li>
               <li aria-hidden="true">/</li>
               <li className="text-primary-light">For {trade.name}</li>
             </ol>
@@ -131,7 +137,7 @@ const LocalSEOTrade = () => {
             {trade.intro}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link to="/contact" className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 text-center">
+            <Link href="/contact" className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 text-center">
               Get Your Free SEO Audit
             </Link>
             <a href="tel:07702264921" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3" aria-label="Call SEO Kings on 07702 264 921">
@@ -166,7 +172,7 @@ const LocalSEOTrade = () => {
           <p className="text-gray-400 mb-6">
             We help {trade.name.toLowerCase()} in Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and across Bath and North East Somerset.
           </p>
-          <Link to="/areas" className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
+          <Link href="/areas" className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
             View all areas we cover
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
           </Link>
@@ -180,7 +186,7 @@ const LocalSEOTrade = () => {
           <p className="text-gray-400 mb-6">
             {trade.caseStudy.snippet}
           </p>
-          <Link to={`/case-studies/${trade.caseStudy.slug}`} className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
+          <Link href={`/case-studies/${trade.caseStudy.slug}`} className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
             Read the {trade.caseStudy.business} case study
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
           </Link>

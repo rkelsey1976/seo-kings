@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
@@ -175,7 +175,7 @@ const LocalSEO = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <Link
-              to="/local-seo/plumbers"
+              href="/local-seo/plumbers"
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Plumbers</h3>
@@ -185,7 +185,7 @@ const LocalSEO = () => {
               </span>
             </Link>
             <Link
-              to="/local-seo/electricians"
+              href="/local-seo/electricians"
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Electricians</h3>
@@ -195,7 +195,7 @@ const LocalSEO = () => {
               </span>
             </Link>
             <Link
-              to="/local-seo/roofers"
+              href="/local-seo/roofers"
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Roofers</h3>
@@ -288,7 +288,7 @@ const LocalSEO = () => {
             Our local SEO packages start from <span className="text-white font-bold">£500/month</span>. 
             No long contracts — just results. Most clients see significant improvements within 3-6 months.
           </p>
-          <Link to="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
+          <Link href="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
             Get Your Free SEO Audit
           </Link>
           <p className="text-gray-500 text-sm mt-4">

@@ -1,10 +1,13 @@
-import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+'use client';
+import React, { useEffect } from 'react';
+import { useParams, useRouter } from 'next/navigation';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 
-const AreaDetail = () => {
-  const { slug: rawSlug } = useParams();
+const AreaDetail = ({ params: staticParams }) => {
+  const dynamicParams = useParams();
+  const rawSlug = staticParams?.slug ?? dynamicParams?.slug;
   const slug = (rawSlug || '').toLowerCase().replace(/\/$/, '');
   const siteUrl = 'https://seo-kings.co.uk';
 
@@ -425,16 +428,16 @@ const AreaDetail = () => {
     },
   };
 
+  const router = useRouter();
   const area = areasData[slug];
 
-  if (!area) {
-    return <Navigate to="/areas" replace />;
-  }
+  useEffect(() => {
+    if (!area) router.replace('/areas');
+    else if (rawSlug !== slug) router.replace(`/areas/${slug}`);
+  }, [area, rawSlug, slug, router]);
 
-  // Redirect to canonical lowercase URL if crawler or user used different case
-  if (rawSlug !== slug) {
-    return <Navigate to={`/areas/${slug}`} replace />;
-  }
+  if (!area) return null;
+  if (rawSlug !== slug) return null;
 
   // Generate Schema Markup
   const breadcrumbSchema = {
@@ -539,14 +542,14 @@ const AreaDetail = () => {
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">
               <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                <Link to="/" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
+                <Link href="/" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
                   <span itemProp="name">Home</span>
                 </Link>
                 <meta itemProp="position" content="1" />
               </li>
               <li className="text-gray-600" aria-hidden="true">/</li>
               <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                <Link to="/areas" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
+                <Link href="/areas" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
                   <span itemProp="name">Areas</span>
                 </Link>
                 <meta itemProp="position" content="2" />
@@ -583,7 +586,7 @@ const AreaDetail = () => {
 
               <div className="flex flex-wrap gap-4 mb-8">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
                 >
                   Get Free {area.name} SEO Audit
@@ -729,7 +732,7 @@ const AreaDetail = () => {
 
           <div className="mt-12 text-center">
             <Link
-              to="/contact"
+              href="/contact"
               className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
             >
               View all our services
@@ -828,7 +831,7 @@ const AreaDetail = () => {
               return (
                 <Link
                   key={nearbySlug}
-                  to={`/areas/${nearbySlug}`}
+                  href={`/areas/${nearbySlug}`}
                   className="px-6 py-3 bg-dark-card border border-white/10 rounded-xl text-white font-medium hover:border-primary/30 hover:bg-white/5 transition-all duration-300"
                 >
                   {nearby?.name || nearbySlug}
@@ -836,7 +839,7 @@ const AreaDetail = () => {
               );
             })}
             <Link
-              to="/areas"
+              href="/areas"
               className="px-6 py-3 bg-primary/10 border border-primary/30 rounded-xl text-primary-light font-medium hover:bg-primary/20 transition-all duration-300"
             >
               View All Areas →
@@ -857,7 +860,7 @@ const AreaDetail = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/contact"
+              href="/contact"
               className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
             >
               Get Your Free {area.name} SEO Audit

@@ -116,6 +116,51 @@ See the full case study and what's possible for your business. Website design + 
 
 ---
 
+## Blog post promotions (link to blog via GBP Posts)
+
+Use these as **Update** posts. CTA: **Learn more** → link to the blog URL. Post one per week to promote your blog and drive traffic.
+
+| Blog post | CTA link |
+|-----------|----------|
+| What We Check in Your Free Local SEO Audit | https://seo-kings.co.uk/blog/free-seo-audit-what-we-check |
+| How to Get More Google Reviews | https://seo-kings.co.uk/blog/get-more-google-reviews-bath |
+| Local SEO in Bath: How to Rank in the Map Pack | https://seo-kings.co.uk/blog/local-seo-bath |
+| SEO for Plumbers in Bath & BANES | https://seo-kings.co.uk/blog/seo-for-plumbers-bath |
+| What Is Local SEO and Why It Matters | https://seo-kings.co.uk/blog/what-is-local-seo-bath |
+| Beautiful Websites That Rank Well on Google | https://seo-kings.co.uk/blog/beautiful-websites-that-rank |
+
+**Example post (Free SEO Audit blog):**  
+**Headline:** What We Actually Check in Your Free Local SEO Audit  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/free-seo-audit-what-we-check  
+**Body:** Not sure what a local SEO audit involves? We've written a clear breakdown: what we check on your Google Business Profile, your website, and your citations — and how we turn that into a plan. No jargon. Read it on our blog (link in button).
+
+**Example post (Google Reviews blog):**  
+**Headline:** How to Get More Google Reviews (Without Breaking the Rules)  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/get-more-google-reviews-bath  
+**Body:** More Google reviews = more trust and better visibility. We've shared practical tips: when to ask, how to make it easy with a direct link, and what not to do. Read the full post on our blog.
+
+**Example post (Local SEO Bath / Map Pack blog):**  
+**Headline:** Local SEO in Bath: How to Rank in the Map Pack  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/local-seo-bath  
+**Body:** Want to show up in the map when people search in Bath? We've broken down what it takes: GBP, website, consistency, and reviews. Read our guide on the blog.
+
+**Example post (Plumbers blog):**  
+**Headline:** SEO for Plumbers in Bath & BANES – Get More Jobs from Google  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/seo-for-plumbers-bath  
+**Body:** Plumbers in Bath and BANES: find out how to get found for "plumber near me", boiler repairs, and emergency calls. We've written a practical guide on our blog — link in the button.
+
+**Example post (What Is Local SEO blog):**  
+**Headline:** What Is Local SEO and Why It Matters for Bath & BANES  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/what-is-local-seo-bath  
+**Body:** New to local SEO? We've explained how it works: the map pack, "near me" searches, and why it matters for businesses in Bath and BANES. Read it on our blog.
+
+**Example post (Beautiful Websites blog):**  
+**Headline:** How We Build Websites That Rank Well on Google  
+**CTA:** Learn more → https://seo-kings.co.uk/blog/beautiful-websites-that-rank  
+**Body:** We build sites that look great and score 95+ on Lighthouse. Read how we do it — design, speed, and SEO from day one — on our blog.
+
+---
+
 ## SEO keywords used across posts
 
 - **Location:** Bath, BANES, Keynsham, Midsomer Norton, Radstock  

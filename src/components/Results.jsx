@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Results = () => {
   const stats = [
@@ -158,7 +158,7 @@ const Results = () => {
         {/* View All Link */}
         <div className="text-center">
           <Link
-            to="/case-studies"
+            href="/case-studies"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
           >
             View all case studies

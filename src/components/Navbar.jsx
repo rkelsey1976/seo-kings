@@ -1,5 +1,6 @@
+'use client';
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -154,7 +155,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link to="/" className="flex items-center gap-2" onClick={closeAllMenus}>
+              <Link href="/" className="flex items-center gap-2" onClick={closeAllMenus}>
                 <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
                 </svg>
@@ -200,7 +201,7 @@ const Navbar = () => {
                 link.isRoute ? (
                   <Link
                     key={link.name}
-                    to={link.href}
+                    href={link.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium"
                     onClick={closeAllMenus}
                   >
@@ -279,7 +280,7 @@ const Navbar = () => {
               {services.map((service) => (
                 <Link
                   key={service.name}
-                  to={service.href}
+                  href={service.href}
                   className="group flex gap-4 p-4 rounded-xl hover:bg-white/5 transition-all duration-200"
                   onClick={closeAllMenus}
                 >
@@ -342,7 +343,7 @@ const Navbar = () => {
                   {areas.map((area) => (
                     <Link
                       key={area.slug}
-                      to={`/areas/${area.slug}`}
+                      href={`/areas/${area.slug}`}
                       className="group flex gap-3 p-3 rounded-xl hover:bg-white/5 transition-all duration-200"
                       onClick={closeAllMenus}
                     >
@@ -369,7 +370,7 @@ const Navbar = () => {
                 {/* View All Link */}
                 <div className="mt-4 pt-4 border-t border-white/5">
                   <Link 
-                    to="/areas"
+                    href="/areas"
                     className="inline-flex items-center gap-2 text-sm font-medium text-primary-light hover:text-white transition-colors"
                     onClick={closeAllMenus}
                   >
@@ -398,7 +399,7 @@ const Navbar = () => {
                     </p>
                   </div>
                   <Link
-                    to="/contact"
+                    href="/contact"
                     className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold text-sm text-center transition-all duration-300 btn-glow"
                     onClick={closeAllMenus}
                   >
@@ -425,7 +426,7 @@ const Navbar = () => {
                 {services.map((service) => (
                   <Link
                     key={service.name}
-                    to={service.href}
+                    href={service.href}
                     className="flex items-center gap-3 py-3 text-gray-300 hover:text-white transition-colors duration-200"
                     onClick={closeAllMenus}
                   >
@@ -446,7 +447,7 @@ const Navbar = () => {
                   {areas.map((area) => (
                     <Link
                       key={area.slug}
-                      to={`/areas/${area.slug}`}
+                      href={`/areas/${area.slug}`}
                       className="flex items-center gap-2 py-2 text-gray-300 hover:text-white transition-colors duration-200"
                       onClick={closeAllMenus}
                     >
@@ -458,7 +459,7 @@ const Navbar = () => {
                   ))}
                 </div>
                 <Link
-                  to="/areas"
+                  href="/areas"
                   className="flex items-center gap-2 py-2 mt-2 text-primary-light hover:text-white transition-colors duration-200"
                   onClick={closeAllMenus}
                 >
@@ -470,7 +471,7 @@ const Navbar = () => {
                 link.isRoute ? (
                   <Link
                     key={link.name}
-                    to={link.href}
+                    href={link.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium py-2"
                     onClick={closeAllMenus}
                   >

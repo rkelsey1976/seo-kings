@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
@@ -344,7 +344,7 @@ const About = () => {
                 className="bg-dark border border-white/5 rounded-xl px-4 py-3 text-center hover:border-primary/30 transition-colors"
               >
                 {area.slug ? (
-                  <Link to={`/areas/${area.slug}`} className="text-gray-300 hover:text-primary-light transition-colors block">
+                  <Link href={`/areas/${area.slug}`} className="text-gray-300 hover:text-primary-light transition-colors block">
                     {area.name}
                   </Link>
                 ) : (
@@ -356,9 +356,9 @@ const About = () => {
 
           <div className="text-center mt-8">
             <p className="text-gray-500">
-              <Link to="/areas" className="text-primary-light hover:text-white transition-colors font-medium">View all areas we serve</Link>
+              <Link href="/areas" className="text-primary-light hover:text-white transition-colors font-medium">View all areas we serve</Link>
               {' '}or{' '}
-              <Link to="/contact" className="text-primary-light hover:text-white transition-colors">get in touch</Link> if you don't see yours.
+              <Link href="/contact" className="text-primary-light hover:text-white transition-colors">get in touch</Link> if you don't see yours.
             </p>
           </div>
         </div>

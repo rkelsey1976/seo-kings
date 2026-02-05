@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
@@ -154,7 +154,7 @@ const WebDesignPackages = () => {
                     ))}
                   </ul>
                   <Link
-                    to={pkg.href}
+                    href={pkg.href}
                     className={`block w-full text-center bg-gradient-to-r ${pkg.gradient} text-white py-4 rounded-xl font-semibold hover:opacity-90 transition-opacity`}
                   >
                     {pkg.cta}
@@ -232,7 +232,7 @@ const WebDesignPackages = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact?subject=web-design-packages"
+              href="/contact?subject=web-design-packages"
               className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity text-center"
             >
               Get free quote
