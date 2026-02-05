@@ -159,6 +159,55 @@ const LocalSEO = () => {
         </div>
       </section>
 
+      {/* Who we help – trade pages */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
+              Who we help
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Local SEO for Tradespeople in BANES
+            </h2>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              We help plumbers, electricians, roofers and other trades get found on Google when customers in Bath and BANES search. Click your trade for more.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link
+              to="/local-seo/plumbers"
+              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
+            >
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Plumbers</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for "plumber Bath", "plumber Keynsham" and get more plumbing jobs from Google.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </span>
+            </Link>
+            <Link
+              to="/local-seo/electricians"
+              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
+            >
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Electricians</h3>
+              <p className="text-gray-400 text-sm mb-4">Get found for "electrician Bath", "electrician Keynsham" and win more electrical work.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </span>
+            </Link>
+            <Link
+              to="/local-seo/roofers"
+              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
+            >
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Roofers</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for "roofer Bath", "roofing Keynsham" and get more roofing enquiries.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <ServiceFeatures
         title="Our Local SEO Services"
         subtitle="Everything you need to dominate local search in Bath & North East Somerset."

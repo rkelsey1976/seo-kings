@@ -31,7 +31,7 @@ We optimise and manage your GBP so you appear in the map pack. More calls, revie
 **Service name:** Website Design  
 **Description (for GBP):**
 ```
-Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google.
+Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google.
 ```
 *88 characters*
 
@@ -42,7 +42,7 @@ Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. 
 **Service name:** Google Business Profile Setup  
 **Description (for GBP):**
 ```
-One-time GBP setup: claim, verify, add categories, hours, photos. Get visible in the map pack. Bath & BANES.
+Google Business Profile - One-time GBP setup: claim, verify, add categories, hours, photos. Get visible in the map pack. Bath & BANES.
 ```
 *95 characters*
 

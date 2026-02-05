@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import WebDesign from './pages/WebDesign';
 import WebDesignPackages from './pages/WebDesignPackages';
 import LocalSEO from './pages/LocalSEO';
+import LocalSEOTrade from './pages/LocalSEOTrade';
 import GoogleBusinessProfile from './pages/GoogleBusinessProfile';
 import About from './pages/About';
 import CaseStudies from './pages/CaseStudies';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/web-design" element={<WebDesign />} />
             <Route path="/web-design-packages" element={<WebDesignPackages />} />
             <Route path="/local-seo" element={<LocalSEO />} />
+            <Route path="/local-seo/:tradeSlug" element={<LocalSEOTrade />} />
             <Route path="/google-business-profile" element={<GoogleBusinessProfile />} />
             <Route path="/about" element={<About />} />
             <Route path="/case-studies" element={<CaseStudies />} />

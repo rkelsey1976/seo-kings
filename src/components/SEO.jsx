@@ -19,6 +19,12 @@ const SEO = ({
   const siteUrl = 'https://seo-kings.co.uk';
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
+  // Ensure meta description is always set (fallback for crawlers and edge cases)
+  const metaDescription =
+    typeof description === 'string' && description.trim()
+      ? description.trim()
+      : 'Local SEO services for tradespeople and small businesses in Bath & North East Somerset. Get found on Google. Free audit.';
+
   // Organization Schema - represents the company
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -185,7 +191,7 @@ const SEO = ({
     "@context": "https://schema.org",
     "@type": article.type || "Article",
     "headline": article.headline || title,
-    "description": article.description || description,
+    "description": article.description || metaDescription,
     "image": article.image ? `${siteUrl}${article.image}` : `${siteUrl}${ogImage}`,
     "author": {
       "@type": "Organization",
@@ -216,7 +222,7 @@ const SEO = ({
     "@id": `${fullCanonical}/#webpage`,
     "url": fullCanonical,
     "name": fullTitle,
-    "description": description,
+    "description": metaDescription,
     "isPartOf": {
       "@id": `${siteUrl}/#website`
     },
@@ -230,7 +236,7 @@ const SEO = ({
     <Helmet>
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
-      <meta name="description" content={description} />
+      <meta name="description" content={metaDescription} />
       {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={fullCanonical} />
       
