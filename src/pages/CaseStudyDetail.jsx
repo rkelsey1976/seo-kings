@@ -382,6 +382,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
             width={1920}
             height={600}
             fetchPriority="high"
+            decoding="async"
             className="absolute inset-0 w-full h-full object-cover"
           />
         )}

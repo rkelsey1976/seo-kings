@@ -533,6 +533,7 @@ const AreaDetail = ({ params: staticParams }) => {
             alt={`${area.name} - Local SEO services`}
             className="w-full h-full object-cover opacity-20"
             loading="eager"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark via-dark/95 to-dark" />
         </div>

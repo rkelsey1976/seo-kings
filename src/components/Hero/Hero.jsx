@@ -106,6 +106,7 @@ const Hero = () => {
                 width={600}
                 height={500}
                 fetchPriority="high"
+                decoding="async"
                 className="relative rounded-3xl border border-white/10 shadow-2xl"
               />
               

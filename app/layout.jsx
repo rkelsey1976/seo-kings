@@ -1,9 +1,17 @@
 import './globals.css';
+import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import BaseSchemas from './BaseSchemas';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import ScrollToTop from '../src/components/ScrollToTop';
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+  preload: true,
+});
 
 export const metadata = {
   metadataBase: new URL('https://seo-kings.co.uk'),
@@ -30,11 +38,8 @@ export const viewport = { width: 'device-width', initialScale: 1 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-GB">
+    <html lang="en-GB" className={inter.className}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
       </head>

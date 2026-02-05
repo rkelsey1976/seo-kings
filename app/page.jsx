@@ -1,9 +1,11 @@
+import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
 import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
 import Results from '../src/components/Results';
-import Testimonials from '../src/components/Testimonials';
-import CTABanner from '../src/components/CTABanner';
+
+const Testimonials = dynamic(() => import('../src/components/Testimonials'), { ssr: true });
+const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
 
 export const metadata = {
   title: 'Local SEO Services in Bath & BANES',
