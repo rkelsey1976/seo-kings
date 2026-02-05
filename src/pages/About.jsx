@@ -326,31 +326,39 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              'Bath',
-              'Keynsham',
-              'Midsomer Norton',
-              'Radstock',
-              'Peasedown St John',
-              'Paulton',
-              'Saltford',
-              'Timsbury',
-              'Westfield',
-              'Chew Magna',
-              'Temple Cloud',
-              'Clutton',
+              { name: 'Bath', slug: 'bath' },
+              { name: 'Keynsham', slug: 'keynsham' },
+              { name: 'Midsomer Norton', slug: 'midsomer-norton' },
+              { name: 'Radstock', slug: 'radstock' },
+              { name: 'Peasedown St John', slug: 'peasedown-st-john' },
+              { name: 'Paulton', slug: 'paulton' },
+              { name: 'Saltford', slug: 'saltford' },
+              { name: 'Timsbury', slug: 'timsbury' },
+              { name: 'Westfield', slug: null },
+              { name: 'Chew Magna', slug: null },
+              { name: 'Temple Cloud', slug: null },
+              { name: 'Clutton', slug: null },
             ].map((area, index) => (
               <div
                 key={index}
                 className="bg-dark border border-white/5 rounded-xl px-4 py-3 text-center hover:border-primary/30 transition-colors"
               >
-                <span className="text-gray-300">{area}</span>
+                {area.slug ? (
+                  <Link to={`/areas/${area.slug}`} className="text-gray-300 hover:text-primary-light transition-colors block">
+                    {area.name}
+                  </Link>
+                ) : (
+                  <span className="text-gray-300">{area.name}</span>
+                )}
               </div>
             ))}
           </div>
 
           <div className="text-center mt-8">
             <p className="text-gray-500">
-              Don't see your area? <Link to="/contact" className="text-primary-light hover:text-white transition-colors">Get in touch</Link> — we probably cover it.
+              <Link to="/areas" className="text-primary-light hover:text-white transition-colors font-medium">View all areas we serve</Link>
+              {' '}or{' '}
+              <Link to="/contact" className="text-primary-light hover:text-white transition-colors">get in touch</Link> if you don't see yours.
             </p>
           </div>
         </div>

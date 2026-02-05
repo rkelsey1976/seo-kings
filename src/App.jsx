@@ -10,6 +10,8 @@ import LocalSEO from './pages/LocalSEO';
 import LocalSEOTrade from './pages/LocalSEOTrade';
 import GoogleBusinessProfile from './pages/GoogleBusinessProfile';
 import About from './pages/About';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import Contact from './pages/Contact';
@@ -35,6 +37,8 @@ function App() {
             <Route path="/local-seo/:tradeSlug" element={<LocalSEOTrade />} />
             <Route path="/google-business-profile" element={<GoogleBusinessProfile />} />
             <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/case-studies/:slug" element={<CaseStudyDetail />} />
             <Route path="/contact" element={<Contact />} />
