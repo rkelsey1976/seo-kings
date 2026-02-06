@@ -70,7 +70,7 @@ const Footer = () => {
               <ul className="flex gap-3 list-none" aria-label="Social media links">
                 <li>
                   <a
-                    href="https://facebook.com/seokings"
+                    href="https://www.facebook.com/profile.php?id=61587531959737"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Follow SEO Kings on Facebook"

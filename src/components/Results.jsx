@@ -2,56 +2,33 @@ import React from 'react';
 import Link from 'next/link';
 
 const Results = () => {
-  const stats = [
-    {
-      value: '150+',
-      label: 'Local Businesses Helped',
-      description: 'Trades & SMBs across BANES',
-    },
-    {
-      value: '3x',
-      label: 'Average Lead Increase',
-      description: 'Within the first 6 months',
-    },
-    {
-      value: '#1',
-      label: 'Google Rankings',
-      description: 'For competitive local terms',
-    },
-    {
-      value: '£2.4M+',
-      label: 'Revenue Generated',
-      description: 'For our clients in 2025',
-    },
-  ];
-
   const caseStudies = [
     {
       business: 'Bath Plumbing Co.',
       trade: 'Plumber',
-      location: 'Bath, BA1',
-      result: 'Page 5 → #1 on Google',
-      metric: '+340%',
-      metricLabel: 'More enquiries',
-      timeframe: '4 months',
+      location: 'Bath',
+      result: 'From page 5 → #1 for "plumber Bath"',
+      metric: 'Huge increase in calls',
+      metricLabel: '',
+      timeframe: '',
     },
     {
       business: 'Keynsham Electrics',
       trade: 'Electrician',
-      location: 'Keynsham, BS31',
-      result: 'Not ranking → Top 3',
-      metric: '+52',
-      metricLabel: 'Calls per month',
+      location: 'Keynsham',
+      result: 'Not ranking → Top 3 in Keynsham',
+      metric: '+52 calls per month',
+      metricLabel: 'in 3 months',
       timeframe: '3 months',
     },
     {
       business: 'Norton Roofing',
       trade: 'Roofer',
-      location: 'Midsomer Norton, BA3',
-      result: 'Dozens of Google reviews',
-      metric: '£180K',
-      metricLabel: 'New contracts',
-      timeframe: '6 months',
+      location: 'Midsomer Norton',
+      result: '£180K in new contracts',
+      metric: 'Dominating Midsomer Norton searches',
+      metricLabel: '',
+      timeframe: '',
     },
   ];
 
@@ -70,39 +47,12 @@ const Results = () => {
             Proven Results
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            Real Results for
-            <span className="gradient-text"> BANES Businesses</span>
+            <span className="gradient-text">Proven Results</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what we've achieved for local tradespeople just like you.
-          </p>
-        </div>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className="bg-dark-card border border-white/5 rounded-2xl p-6 text-center"
-            >
-              <div className="text-3xl sm:text-4xl font-bold gradient-text mb-2">
-                {stat.value}
-              </div>
-              <div className="text-white font-medium mb-1">
-                {stat.label}
-              </div>
-              <div className="text-sm text-gray-300">
-                {stat.description}
-              </div>
-            </div>
-          ))}
         </div>
 
         {/* Case Studies */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-white text-center mb-10">
-            Recent Success Stories
-          </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {caseStudies.map((study, index) => (
               <div
@@ -126,29 +76,15 @@ const Results = () => {
 
                 {/* Content */}
                 <div className="p-6">
-                  {/* Result */}
-                  <div className="mb-6">
-                    <div className="text-sm text-gray-300 mb-1">Result</div>
-                    <div className="text-white font-medium">{study.result}</div>
-                  </div>
-
-                  {/* Metric */}
-                  <div className="flex items-end justify-between">
-                    <div>
-                      <div className="text-3xl font-bold text-green-400">
-                        {study.metric}
-                      </div>
-                      <div className="text-sm text-gray-300">
-                        {study.metricLabel}
-                      </div>
+                  <div className="text-white font-medium mb-2">{study.result}</div>
+                  {(study.metric || study.metricLabel) && (
+                    <div className="text-green-400 font-semibold">
+                      {study.metric} {study.metricLabel}
                     </div>
-                    <div className="text-right">
-                      <div className="text-xs text-gray-300">Timeframe</div>
-                      <div className="text-sm text-white font-medium">
-                        {study.timeframe}
-                      </div>
-                    </div>
-                  </div>
+                  )}
+                  {study.timeframe && (
+                    <div className="text-sm text-gray-400 mt-1">{study.timeframe}</div>
+                  )}
                 </div>
               </div>
             ))}
@@ -161,7 +97,7 @@ const Results = () => {
             href="/case-studies"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
           >
-            View all case studies
+            View All Case Studies
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

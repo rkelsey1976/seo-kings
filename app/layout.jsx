@@ -38,14 +38,14 @@ export const viewport = { width: 'device-width', initialScale: 1 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-GB" className={inter.className}>
+    <html lang="en-GB" className={inter.className} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
       </head>
-      <body>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="afterInteractive" />
-        <Script id="ga" strategy="afterInteractive">
+      <body suppressHydrationWarning>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
+        <Script id="ga" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9JWXCPHP71');`}
         </Script>
         <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>

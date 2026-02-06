@@ -4,9 +4,10 @@ import AnimatedBlob from './AnimatedBlob';
 
 const Hero = () => {
   const stats = [
-    { value: '150+', label: 'Local Businesses Ranked' },
+    { value: '150+', label: 'Businesses Helped' },
     { value: '#1', label: 'BANES SEO Agency' },
     { value: '5★', label: 'Google Rating' },
+    { value: 'Proven', label: 'Results Across Bath & BANES' },
   ];
 
   return (
@@ -53,33 +54,33 @@ const Hero = () => {
             {/* Badge */}
             <div className="animate-fade-in-down inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-8">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-              <span className="text-sm text-gray-300">Local SEO Experts</span>
+              <span className="text-sm text-gray-300">Local SEO Experts in Bath & BANES</span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
-              <span className="animate-fade-in-up delay-100 block text-white">Get More Customers</span>
-              <span className="animate-fade-in-up delay-300 block gradient-text">From Google</span>
+              <span className="animate-fade-in-up delay-100 block text-white">Local SEO Experts in Bath & BANES</span>
+              <span className="animate-fade-in-up delay-300 block gradient-text">Get More Customers From Google</span>
             </h1>
 
             {/* Subheading */}
             <p className="animate-fade-in-up delay-400 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-              We help tradespeople and local businesses in Bath & North East Somerset
-              rank higher on Google and attract more customers — guaranteed results.
+              We help tradespeople and local businesses in Bath and North East Somerset
+              rank higher on Google and win more jobs — real results, no fluff.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4 mb-10">
               <Link href="/contact" className="animate-slide-in-bounce delay-500 w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
-                Get Your Free Audit
+                Get Your Free Audit Today
               </Link>
               <Link href="/contact" className="animate-slide-in-bounce delay-600 w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2">
-                Get in Touch
+                Free Consultation – No Obligation, No Card Needed
               </Link>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-2xl mx-auto lg:mx-0">
               {stats.map((stat, index) => (
                 <div key={index} className={`animate-fade-in-up delay-${700 + index * 100} text-center lg:text-left`}>
                   <div className="text-2xl sm:text-3xl font-bold gradient-text mb-1">
@@ -134,8 +135,8 @@ const Hero = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-xs text-gray-300">Monthly Leads</div>
-                    <div className="text-lg font-bold text-white">+340%</div>
+                    <div className="text-xs text-gray-300">More Calls</div>
+                    <div className="text-lg font-bold text-white">More Jobs</div>
                   </div>
                 </div>
               </div>

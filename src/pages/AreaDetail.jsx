@@ -17,24 +17,62 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Bath, Somerset',
       county: 'Somerset',
       postcodes: ['BA1', 'BA2'],
-      population: '90,000+',
+      population: '95,000+',
       heroImage: 'https://images.unsplash.com/photo-1589996448606-27d38d70f566?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Bath is a historic city known for its Roman-built baths and stunning Georgian architecture. As the largest city in BANES, it\'s home to thousands of local businesses competing for visibility on Google.',
-      extendedDescription: 'As one of the UK\'s most visited cities, Bath presents unique opportunities for local businesses to capture search traffic from both residents and tourists. With over 6 million visitors annually and a thriving local economy, ranking on Google in Bath can transform your business.',
-      industries: ['Tourism & Hospitality', 'Professional Services', 'Retail', 'Health & Wellness', 'Education', 'Construction'],
-      landmarks: ['Roman Baths', 'Bath Abbey', 'Royal Crescent', 'Pulteney Bridge', 'Thermae Bath Spa'],
+      metaTitle: 'Local SEO Bath | Trades & Businesses in Bath & BANES – SEO Kings',
+      metaDescription: 'Get more customers in Bath. We help plumbers, electricians, builders, roofers, hospitality, and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Bath',
+      heroSubhead: 'More Calls. More Jobs. From Google.',
+      description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
+      extendedDescription: 'This creates huge demand for local services — from plumbers fixing tourist rentals to builders on new developments. Customers search Google for "plumber Bath" or "electrician Bath". We get you to the top.',
+      heroStats: [
+        { value: '95,000+', label: 'Residents' },
+        { value: 'High', label: 'Competition' },
+        { value: 'Proven', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '5,000+',
         monthlySearches: '450K+',
         competitors: 'High',
         avgCPC: '£2.50',
       },
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      whyIntro: 'Bath has strong local competition and high search volume. If you\'re not on page 1 or in the map pack, tourists and residents go to competitors.',
+      whyBullets: [
+        { title: 'Tourism boost', text: 'Millions of visitors search for services near landmarks.' },
+        { title: 'High competition', text: 'Stand out with targeted local SEO.' },
+        { title: 'Strong ROI', text: 'Organic rankings save money vs paid ads (often £2+ per click).' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for Bath + trade keywords.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
+        { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
+        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+      ],
+      servicesHeading: 'Our Services in Bath',
+      servicesSubtext: 'We handle everything to win Bath searches.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what Bath people and visitors search:',
+      industriesHeading: 'Industries We Help',
+      industries: ['Trades', 'Tourism & Hospitality', 'Professional Services', 'Retail', 'Health & Wellness', 'Education', 'Construction'],
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We reference real Bath places to boost relevance:',
+      landmarks: ['Roman Baths', 'Bath Abbey', 'Royal Crescent', 'Pulteney Bridge', 'Thermae Bath Spa'],
       testimonial: {
+        label: 'Real Result',
+        caseTitle: 'Mitchell Plumbing, Bath',
         quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!",
         name: 'Dave Mitchell',
         business: 'Mitchell Plumbing',
         result: '+340% enquiries',
       },
+      howItWorks: [
+        { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
+        { title: 'Custom plan', description: "Tailored for Bath's tourism and local market." },
+        { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
+      ],
       localKeywords: [
         'plumber Bath',
         'electrician Bath',
@@ -46,24 +84,31 @@ const AreaDetail = ({ params: staticParams }) => {
         'gardener Bath',
         'cleaner Bath',
         'locksmith Bath',
+        'emergency plumber Bath',
+        'boiler repair Bath',
       ],
-      nearbyAreas: ['keynsham', 'saltford', 'peasedown-st-john'],
+      ctaHeadline: 'Ready to Dominate Bath Search Results?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Get Started',
+      nearbyHeading: 'Nearby Areas We Serve',
+      nearbyAreas: ['keynsham', 'midsomer-norton', 'radstock', 'peasedown-st-john', 'paulton', 'saltford', 'timsbury'],
       faqs: [
         {
-          question: 'How long does it take to rank on Google in Bath?',
-          answer: 'Typically, we see significant ranking improvements within 3-6 months for Bath businesses. Due to higher competition in Bath compared to surrounding areas, some highly competitive keywords may take longer. We provide monthly progress reports so you can track your improvement.',
+          question: 'How long to rank in Bath?',
+          answer: 'Typically 3–6 months for good improvements. High competition means some keywords take longer. We give monthly reports to track progress.',
         },
         {
-          question: 'What SEO services do you offer in Bath?',
-          answer: 'We offer comprehensive local SEO services including Google Business Profile optimisation, website SEO, local citation building, review management, and content creation specifically targeted at Bath and surrounding areas.',
+          question: 'What SEO services for Bath?',
+          answer: 'Full local SEO: Google Business Profile optimisation, on-page fixes, citations, reviews, and content for Bath searches.',
         },
         {
-          question: 'How much does SEO cost for a Bath business?',
-          answer: 'Our SEO packages for Bath businesses start from £500/month. The exact cost depends on your industry competition, current online presence, and goals. We offer a free audit to provide a custom quote.',
+          question: 'How much for Bath businesses?',
+          answer: 'Packages start from £500/month. Depends on competition and goals. Free audit for custom quote.',
         },
         {
-          question: 'Do you work with businesses in specific industries in Bath?',
-          answer: 'Yes! We specialise in helping tradespeople (plumbers, electricians, builders), hospitality businesses, professional services, and retail businesses in Bath. Our local knowledge means we understand your target market.',
+          question: 'Do you specialise in Bath industries?',
+          answer: "Yes — trades (plumbers, builders), hospitality, retail, and more. We know Bath's market.",
         },
       ],
     },
@@ -74,8 +119,58 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS31'],
       population: '16,000+',
       heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Keynsham is a thriving market town situated between Bath and Bristol. With excellent transport links and a growing population, it\'s an ideal location for local businesses looking to expand their customer base.',
-      extendedDescription: 'Located perfectly between two major cities, Keynsham businesses can capture customers from both Bath and Bristol. The town has seen significant regeneration and population growth, making it an increasingly competitive but rewarding market for local SEO.',
+      metaTitle: 'Local SEO Keynsham | More Customers for Trades in Keynsham – SEO Kings',
+      metaDescription: 'Get more Google calls in Keynsham. We help plumbers, electricians, builders and local trades rank higher. Free audit. No obligation.',
+      heroHeadline: 'Local SEO Keynsham',
+      heroSubhead: 'Get More Customers From Google in Keynsham',
+      description: 'We help tradespeople and small businesses in Keynsham rank higher on Google and win more local jobs — guaranteed results.',
+      extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and BANES.',
+      heroStats: [
+        { value: '150+', label: 'Local Businesses Ranked' },
+        { value: '#1', label: 'BANES SEO Agency' },
+        { value: '5★', label: 'Google Rating' },
+        { value: '+340%', label: 'Average Lead Increase' },
+      ],
+      ctaButtonText: 'Get Your Free Audit Today',
+      heroSubtext: 'No obligation. No credit card required.',
+      introParagraphs: [
+        'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31.',
+        'Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
+        'We use local SEO to get your business found first — more calls, more jobs, more money in your pocket.',
+      ],
+      whyHeading: 'Why Choose SEO Kings in Keynsham',
+      whyIntro: "We know Keynsham. We've helped local trades here get real results.",
+      whyBullets: [
+        { title: 'Proven in Keynsham', text: 'See Keynsham Electrics go from not ranking to top 3, +52 calls per month in just 3 months.' },
+        { title: 'Local focus', text: 'We target searches like "plumber Keynsham", "electrician BS31", "emergency builder Keynsham".' },
+        { title: 'No fluff', text: 'Plain English. No long contracts. Monthly reports show your progress.' },
+        { title: 'Full service', text: 'Keyword research, on-page fixes, local links, Google Business Profile, fast website if needed.' },
+      ],
+      servicesHeading: 'Our Local SEO Services for Keynsham Trades',
+      servicesSubtext: 'We get you found when customers search in Keynsham.',
+      services: [
+        { name: 'Keyword research', description: 'Find the exact terms Keynsham people use (e.g. "local plumber Keynsham emergency").' },
+        { name: 'On-page optimisation', description: 'Make your site fast, mobile-friendly, and Google-ready.' },
+        { name: 'Local link building', description: 'Get trusted mentions from Keynsham and BANES sites.' },
+        { name: 'Google Business Profile domination', description: 'More views, calls, and map pack wins.' },
+        { name: 'Monthly reporting', description: 'Clear numbers. See your leads grow.' },
+      ],
+      testimonial: {
+        label: 'Real Results in Keynsham',
+        caseTitle: 'Keynsham Electrics (BS31)',
+        resultSummary: 'Not ranking → Top 3 on Google',
+        result: '+52 Calls per month',
+        timeframe: '3 months',
+        quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.",
+        name: 'Sarah Thompson',
+        business: 'Thompson Electrical',
+        businessDisplay: 'Thompson Electrical • Keynsham',
+      },
+      howItWorks: [
+        { title: 'Free Audit', description: 'We check your Google rankings, site, and Google Business Profile. We spot what\'s holding you back in Keynsham searches.' },
+        { title: 'Custom Strategy', description: 'We build a plan for your trade and your area. No cookie-cutter stuff.' },
+        { title: 'Watch the Leads Roll In', description: 'We do the work. You get monthly updates and more customers.' },
+      ],
       industries: ['Retail', 'Professional Services', 'Trades', 'Food & Drink', 'Healthcare'],
       landmarks: ['Keynsham High Street', 'Keynsham Memorial Park', 'Cadbury Factory Site', 'St John the Baptist Church'],
       stats: {
@@ -84,22 +179,23 @@ const AreaDetail = ({ params: staticParams }) => {
         competitors: 'Medium',
         avgCPC: '£1.80',
       },
-      testimonial: {
-        quote: "We went from invisible on Google to the top 3 for all our key search terms. The phone hasn't stopped ringing.",
-        name: 'Sarah Thompson',
-        business: 'Thompson Electrical',
-        result: '+52 calls/month',
-      },
       localKeywords: [
         'plumber Keynsham',
         'electrician Keynsham',
+        'electrician BS31',
         'builder Keynsham',
+        'emergency builder Keynsham',
         'locksmith Keynsham',
         'cleaner Keynsham',
         'gardener Keynsham',
         'decorator Keynsham',
         'roofer Keynsham',
       ],
+      ctaHeadline: 'Ready to Get More Customers in Keynsham?',
+      ctaSubhead: "Don't let competitors take the top spots.",
+      ctaPrimaryText: 'Get Your Free Audit Today',
+      ctaSecondaryText: 'Get a Free Consultation',
+      ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Keynsham business.',
       nearbyAreas: ['bath', 'saltford', 'paulton'],
       faqs: [
         {
@@ -125,24 +221,62 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Midsomer Norton, Somerset',
       county: 'Somerset',
       postcodes: ['BA3'],
-      population: '12,000+',
+      population: '11,000+',
       heroImage: 'https://images.unsplash.com/photo-1517030330234-94c4fb948ebc?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Midsomer Norton is a historic market town in the Somer Valley. With a strong sense of community and growing local economy, businesses here benefit from loyal local customers searching for services online.',
-      extendedDescription: 'As the largest town in the Somer Valley, Midsomer Norton serves as a commercial hub for surrounding villages. Local businesses have a strong advantage when properly optimised for local search, as residents prefer to support local traders.',
-      industries: ['Retail', 'Trades', 'Professional Services', 'Manufacturing', 'Hospitality'],
-      landmarks: ['The Island', 'Midsomer Norton High Street', 'Somer Valley FM', 'Welton Manor'],
+      metaTitle: 'Local SEO Midsomer Norton | Trades & Businesses – SEO Kings',
+      metaDescription: 'Get more local jobs in Midsomer Norton. We help plumbers, electricians, roofers, builders and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Midsomer Norton',
+      heroSubhead: 'More Customers. More Calls. From Google.',
+      description: 'Midsomer Norton is a historic market town in the Somer Valley. With around 11,000 residents and a strong community, local trades get steady work from nearby homes and villages.',
+      extendedDescription: 'Customers search Google for "plumber Midsomer Norton" or "electrician Midsomer Norton". We get you to the top — fast.',
+      heroStats: [
+        { value: '11,000+', label: 'Residents' },
+        { value: 'Low-Medium', label: 'Competition' },
+        { value: 'Proven', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '500+',
         monthlySearches: '45K+',
         competitors: 'Low-Medium',
         avgCPC: '£1.50',
       },
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      whyIntro: 'People in Midsomer Norton and the Somer Valley prefer local services. If you\'re not on page 1 or in the Google map pack, you miss jobs.',
+      whyBullets: [
+        { title: 'Busy market town', text: 'Serves surrounding villages like Radstock and Westfield.' },
+        { title: 'Lower competition', text: 'Easier to dominate local searches than in big cities.' },
+        { title: 'High returns', text: 'Organic rankings beat paid ads for long-term leads.' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for Midsomer Norton + trade keywords.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and updates.' },
+        { name: 'Fast Website Design', description: 'Mobile sites that turn visitors into customers.' },
+        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+      ],
+      servicesHeading: 'Our Services in Midsomer Norton',
+      servicesSubtext: 'We handle everything to win local searches.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We go after what Midsomer Norton customers search every day:',
+      industriesHeading: 'Industries We Help',
+      industries: ['Trades', 'Retail', 'Professional Services', 'Hospitality', 'Manufacturing'],
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We include real Midsomer Norton places in your content for better local relevance:',
+      landmarks: ['The Island', 'Midsomer Norton High Street', 'Welton Manor', 'Somer Valley FM', 'Somerset & Dorset Railway Heritage Trust'],
       testimonial: {
+        label: 'Real Result',
+        caseTitle: 'Williams Roofing, Midsomer Norton',
         quote: "Best investment we've made. We now dominate local search and our Google reviews have increased significantly.",
         name: 'Mark Williams',
         business: 'Williams Roofing',
-        result: '£180K new contracts',
+        result: '£180K in new contracts',
       },
+      howItWorks: [
+        { title: 'Free audit', description: 'We review your rankings, site, and Google profile.' },
+        { title: 'Custom plan', description: 'Built for your trade and Midsomer Norton area.' },
+        { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
+      ],
       localKeywords: [
         'plumber Midsomer Norton',
         'electrician Midsomer Norton',
@@ -150,25 +284,32 @@ const AreaDetail = ({ params: staticParams }) => {
         'roofer Midsomer Norton',
         'decorator Midsomer Norton',
         'handyman Midsomer Norton',
-        'garage Midsomer Norton',
+        'emergency plumber Midsomer Norton',
+        'garage services Midsomer Norton',
+        'boiler repair Midsomer Norton',
       ],
-      nearbyAreas: ['radstock', 'paulton', 'peasedown-st-john'],
+      ctaHeadline: 'Ready to Dominate Midsomer Norton Search Results?',
+      ctaSubhead: 'Join other local trades already ranking high.',
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Get Started',
+      nearbyHeading: 'Nearby Areas We Serve',
+      nearbyAreas: ['radstock', 'peasedown-st-john', 'bath', 'keynsham', 'paulton'],
       faqs: [
         {
           question: 'Is SEO worth it for a small Midsomer Norton business?',
-          answer: 'Absolutely! In fact, smaller towns like Midsomer Norton often see the best ROI from SEO because competition is lower. A well-optimised local business can quickly dominate search results.',
+          answer: 'Yes. Smaller towns like Midsomer Norton have lower competition. A good local setup can quickly put you at the top and bring steady jobs.',
         },
         {
           question: 'How do you target Midsomer Norton specifically?',
-          answer: 'We use location-specific keywords, create locally relevant content, build citations on local directories, optimise your Google Business Profile with accurate location data, and earn backlinks from local organisations.',
+          answer: 'We use local keywords, optimise your Google Business Profile, build citations in BANES directories, and earn links from nearby sites.',
         },
         {
-          question: 'Can I target both Midsomer Norton and Radstock?',
-          answer: 'Yes! Since these towns are adjacent, many businesses serve both areas. We can optimise for multiple nearby locations to maximise your reach across the Somer Valley.',
+          question: 'Can I target Midsomer Norton and nearby towns like Radstock?',
+          answer: 'Yes. Many trades serve both. We optimise for multiple locations to cover the whole Somer Valley.',
         },
         {
-          question: 'What\'s included in your Midsomer Norton SEO package?',
-          answer: 'Our packages include keyword research, on-page SEO, Google Business Profile management, local citation building, review strategy, monthly reporting, and ongoing optimisation. Everything you need to rank locally.',
+          question: "What's included in your Midsomer Norton SEO package?",
+          answer: 'Keyword research, on-page fixes, Google Business Profile management, local citations, review help, monthly reports, and ongoing tweaks.',
         },
       ],
     },
@@ -230,10 +371,20 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       population: '6,500+',
       heroImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Peasedown St John is a growing village south of Bath with a thriving community. Its proximity to Bath means local businesses can attract customers from both the village and the city.',
-      extendedDescription: 'Peasedown St John has seen significant growth in recent years, with new housing developments bringing more residents. This growing population presents opportunities for local businesses who can be found online.',
+      metaTitle: 'Local SEO Peasedown St John | Trades & Businesses – SEO Kings',
+      metaDescription: 'Get more local customers in Peasedown St John. We help plumbers, electricians, builders and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Peasedown St John',
+      heroSubhead: 'More Calls. More Jobs. From Google.',
+      description: 'Peasedown St John is a growing village just south of Bath. New homes mean more people need local trades. Plumbers, electricians, builders – customers search Google right here.',
+      extendedDescription: 'We get you found first.',
       industries: ['Trades', 'Retail', 'Services', 'Childcare'],
-      landmarks: ['Beacon Hall', 'St John the Baptist Church', 'Peasedown St John Primary School'],
+      landmarks: ['Beacon Hall', 'St John the Baptist Church', 'Peasedown St John Primary School', 'Eckweek Lane play areas'],
+      heroStats: [
+        { value: '6,500+', label: 'Residents' },
+        { value: 'Low', label: 'Competition' },
+        { value: 'Proven Results', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '200+',
         monthlySearches: '20K+',
@@ -241,36 +392,61 @@ const AreaDetail = ({ params: staticParams }) => {
         avgCPC: '£1.30',
       },
       testimonial: {
+        label: 'Real Result',
         quote: "We now get enquiries from Peasedown and surrounding areas. SEO Kings made it happen.",
         name: 'Tom Richards',
         business: 'Richards Landscaping',
-        result: '+25 jobs/month',
+        result: '+25 jobs per month',
       },
+      whyIntro: 'Customers search "plumber Peasedown" or "electrician Peasedown St John". If you\'re not on page 1 or in the map pack, you miss jobs.',
+      whyBullets: [
+        { title: 'Growing area', text: 'New housing brings more families and demand for services.' },
+        { title: 'Low competition', text: 'Most local trades haven\'t invested in SEO yet. Easy to win top spots.' },
+        { title: 'High ROI', text: 'Organic rankings save money vs paid ads.' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for "Peasedown St John" and trade searches.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
+        { name: 'Fast Website Design', description: 'Mobile-friendly sites that convert visitors to calls.' },
+        { name: 'Review Management', description: 'Build 5-star trust fast.' },
+      ],
+      servicesHeading: 'Our Services in Peasedown St John',
+      servicesSubtext: 'We cover everything to dominate local search.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Peasedown actually search:',
+      industriesHeading: 'Industries We Help',
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We reference real places in your content to boost relevance:',
       localKeywords: [
         'plumber Peasedown',
         'electrician Peasedown',
-        'builder Peasedown',
+        'builder Peasedown St John',
         'landscaper Peasedown',
-        'cleaner Peasedown',
         'handyman Peasedown',
+        'cleaner Peasedown',
+        'emergency plumber Peasedown',
+        'roofer Peasedown',
       ],
-      nearbyAreas: ['bath', 'radstock', 'midsomer-norton'],
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      ctaHeadline: 'Ready to Get More Customers in Peasedown?',
+      ctaSubhead: "Don't let competitors take the top spots.",
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Call or Email',
+      nearbyHeading: 'Nearby Areas We Serve',
+      nearbyAreas: ['bath', 'radstock', 'midsomer-norton', 'keynsham', 'saltford'],
       faqs: [
         {
           question: 'Can you help me rank in both Peasedown and Bath?',
-          answer: 'Absolutely! Many Peasedown businesses serve Bath customers too. We can create a multi-location strategy that helps you rank for both areas, maximising your reach.',
+          answer: 'Yes. We target both areas. Many Peasedown trades serve Bath too.',
         },
         {
-          question: 'Is Peasedown St John too small for SEO?',
-          answer: 'Not at all! Smaller communities often have highly engaged local searchers. When someone in Peasedown searches for a service, they\'re ready to buy. We help you be there when they search.',
+          question: 'Is Peasedown too small for SEO?',
+          answer: 'No. Smaller places have very ready-to-buy searchers. Low competition means fast wins.',
         },
         {
-          question: 'How do you handle the village vs city keyword difference?',
-          answer: 'We target both "Peasedown St John" and the shortened "Peasedown" in our strategy, as locals use both. We also include nearby area terms to capture all relevant searches.',
-        },
-        {
-          question: 'What\'s the competition like in Peasedown?',
-          answer: 'Competition is low, making it relatively easy to achieve top rankings. Most local businesses haven\'t invested in SEO yet, giving early adopters a significant advantage.',
+          question: 'How long until I see results?',
+          answer: 'Most see big improvements in 3–6 months. We show progress every month.',
         },
       ],
     },
@@ -279,24 +455,62 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Paulton, Somerset',
       county: 'Somerset',
       postcodes: ['BS39'],
-      population: '5,500+',
+      population: '5,300+',
       heroImage: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Paulton is a village in the Cam Valley with a strong local economy. The village is well-connected and businesses here serve customers across North East Somerset.',
-      extendedDescription: 'Home to the popular Paultons Park (nearby), the area sees significant visitor traffic. Local businesses in Paulton benefit from both resident customers and visitors to the wider region.',
-      industries: ['Trades', 'Retail', 'Agriculture', 'Services'],
-      landmarks: ['Paulton Village Centre', 'St John the Baptist Church', 'Ham Woods'],
+      metaTitle: 'Local SEO Paulton | Trades & Small Businesses – SEO Kings',
+      metaDescription: 'More local customers in Paulton. We help plumbers, electricians, cleaners, builders and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Paulton',
+      heroSubhead: 'More Calls. More Jobs. From Google.',
+      description: 'Paulton is a friendly village in the Cam Valley with about 5,300–6,500 residents. Well-connected to Bath and nearby towns. Businesses here serve locals plus visitors to the area (including nearby Paultons Park).',
+      extendedDescription: 'Customers search Google for "plumber Paulton" or "cleaner Paulton". We get you found first.',
+      heroStats: [
+        { value: '5,300+', label: 'Residents' },
+        { value: 'Low', label: 'Competition' },
+        { value: 'Proven', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '180+',
         monthlySearches: '18K+',
         competitors: 'Low',
         avgCPC: '£1.25',
       },
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      whyIntro: 'People in Paulton want local services fast. If you\'re not on page 1 or in the Google map pack, competitors take the jobs.',
+      whyBullets: [
+        { title: 'Strong local economy', text: 'Residents and visitors need trades and services year-round.' },
+        { title: 'Low competition', text: 'Easier to reach the top spots than in bigger towns.' },
+        { title: 'High returns', text: 'Organic rankings save money compared to paid ads.' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for Paulton + trade keywords.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
+        { name: 'Fast Website Design', description: 'Mobile sites that turn visitors into customers.' },
+        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+      ],
+      servicesHeading: 'Our Services in Paulton',
+      servicesSubtext: 'We cover what you need to win local searches.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on real searches from Paulton people:',
+      industriesHeading: 'Industries We Help',
+      industries: ['Trades', 'Retail', 'Agriculture', 'Services', 'Cleaning'],
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We reference real Paulton places to boost local relevance:',
+      landmarks: ['Paulton Village Centre', 'St John the Baptist Church', 'Ham Woods', 'Paultons Park (nearby)'],
       testimonial: {
+        label: 'Real Result',
+        caseTitle: "Green's Cleaning Services, Paulton",
         quote: "From zero online presence to first page of Google. Our business has completely transformed.",
         name: 'Lisa Green',
-        business: 'Green\'s Cleaning Services',
+        business: "Green's Cleaning Services",
         result: '+200% bookings',
       },
+      howItWorks: [
+        { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
+        { title: 'Custom plan', description: 'Tailored for Paulton trades and services.' },
+        { title: 'Results', description: 'Monthly reports. See leads grow.' },
+      ],
       localKeywords: [
         'plumber Paulton',
         'electrician Paulton',
@@ -304,24 +518,32 @@ const AreaDetail = ({ params: staticParams }) => {
         'cleaner Paulton',
         'gardener Paulton',
         'decorator Paulton',
+        'handyman Paulton',
+        'emergency plumber Paulton',
+        'boiler repair Paulton',
       ],
-      nearbyAreas: ['midsomer-norton', 'keynsham', 'timsbury'],
+      ctaHeadline: 'Ready to Dominate Paulton Search Results?',
+      ctaSubhead: 'Join other Paulton businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Get Started',
+      nearbyHeading: 'Nearby Areas We Serve',
+      nearbyAreas: ['midsomer-norton', 'radstock', 'peasedown-st-john', 'bath'],
       faqs: [
         {
           question: 'How can SEO help my Paulton business grow?',
-          answer: 'SEO helps Paulton businesses appear when locals search for services online. With most people now using Google to find tradespeople and services, being visible online directly translates to more enquiries and customers.',
+          answer: 'SEO puts you in front of locals searching for services. Most people use Google first — being visible means more enquiries and customers.',
         },
         {
           question: 'Do you provide ongoing SEO support in Paulton?',
-          answer: 'Yes! SEO is an ongoing process. We provide monthly optimisation, reporting, and strategy adjustments to ensure your rankings continue to improve and you stay ahead of competitors.',
+          answer: 'Yes. SEO is ongoing. We handle monthly tweaks, reports, and strategy updates to keep you ahead.',
         },
         {
-          question: 'Can you help with my Google reviews in Paulton?',
-          answer: 'Absolutely! Review management is a key part of our service. We\'ll help you generate more positive reviews and respond professionally to all feedback, boosting your local reputation.',
+          question: 'Can you help with Google reviews in Paulton?',
+          answer: 'Yes. We guide review collection and professional responses to strengthen your local reputation.',
         },
         {
           question: 'What makes SEO Kings different for Paulton businesses?',
-          answer: 'We\'re local! Our knowledge of Paulton and the surrounding area means we understand your customers. We don\'t use generic strategies - everything is tailored to your specific location and industry.',
+          answer: "We're local to BANES. We know Paulton customers and use tailored strategies — not generic ones.",
         },
       ],
     },
@@ -330,24 +552,62 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Saltford, Bristol',
       county: 'Bristol',
       postcodes: ['BS31'],
-      population: '4,500+',
+      population: '5,000+',
       heroImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Saltford is a picturesque riverside village on the River Avon between Bath and Bristol. Its affluent community and scenic location make it an excellent market for local service businesses.',
-      extendedDescription: 'Known for having the oldest continuously inhabited house in England, Saltford attracts visitors while maintaining a strong community feel. Local businesses benefit from an affluent population who value quality service.',
-      industries: ['Trades', 'Professional Services', 'Hospitality', 'Retail'],
-      landmarks: ['Saltford Manor', 'The Bird in Hand', 'River Avon', 'Saltford Brass Mill'],
+      metaTitle: 'Local SEO Saltford | Trades & Businesses – SEO Kings',
+      metaDescription: 'Get more local customers in Saltford. We help plumbers, electricians, builders, decorators, and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Saltford',
+      heroSubhead: 'More Calls. More Jobs. From Google.',
+      description: 'Saltford is a picturesque riverside village on the River Avon, between Bath and Bristol. About 5,000–6,000 residents enjoy an affluent community and scenic setting.',
+      extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor (England\'s oldest continuously inhabited house). Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
+      heroStats: [
+        { value: '5,000+', label: 'Residents' },
+        { value: 'Low', label: 'Competition' },
+        { value: 'Proven', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '150+',
         monthlySearches: '15K+',
         competitors: 'Low',
         avgCPC: '£1.40',
       },
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      whyIntro: 'Saltford locals value quality services and search online first. If you\'re not visible on Google or in the map pack, you lose jobs to competitors.',
+      whyBullets: [
+        { title: 'Affluent area', text: 'Residents often choose premium trades and are willing to pay for excellence.' },
+        { title: 'Low competition', text: 'Easier to dominate searches in a village than in big cities.' },
+        { title: 'High ROI', text: 'Organic rankings save money vs paid ads long-term.' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for Saltford + trade keywords.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
+        { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
+        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+      ],
+      servicesHeading: 'Our Services in Saltford',
+      servicesSubtext: 'We handle everything to win local searches.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what Saltford people actually search:',
+      industriesHeading: 'Industries We Help',
+      industries: ['Trades', 'Professional Services', 'Hospitality', 'Retail'],
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We reference real Saltford places to improve local relevance:',
+      landmarks: ['Saltford Manor', 'The Bird in Hand pub', 'River Avon', 'Saltford Brass Mill', "St Mary's Church"],
       testimonial: {
+        label: 'Real Result',
+        caseTitle: 'Cooper Plumbing & Heating, Saltford',
         quote: "Saltford residents now find us first on Google. We've become the trusted local choice.",
         name: 'Andy Cooper',
         business: 'Cooper Plumbing & Heating',
         result: '+150% revenue',
       },
+      howItWorks: [
+        { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
+        { title: 'Custom plan', description: 'Tailored for Saltford trades and affluent customers.' },
+        { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
+      ],
       localKeywords: [
         'plumber Saltford',
         'electrician Saltford',
@@ -355,24 +615,32 @@ const AreaDetail = ({ params: staticParams }) => {
         'decorator Saltford',
         'gardener Saltford',
         'cleaner Saltford',
+        'handyman Saltford',
+        'emergency plumber Saltford',
+        'boiler repair Saltford',
       ],
+      ctaHeadline: 'Ready to Dominate Saltford Search Results?',
+      ctaSubhead: 'Join Saltford trades already ranking high.',
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Get Started',
+      nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['bath', 'keynsham'],
       faqs: [
         {
           question: 'Is SEO effective for a small village like Saltford?',
-          answer: 'Very effective! Saltford residents actively search online for local services. Being a smaller community, you can quickly become the go-to choice for your service with the right SEO strategy.',
+          answer: 'Yes. Saltford residents search online for local services. With low competition, the right strategy makes you the go-to choice quickly.',
         },
         {
           question: 'Can I rank for Saltford, Bath, and Keynsham?',
-          answer: 'Yes! Saltford\'s location between Bath and Keynsham makes it ideal for targeting multiple areas. We can create a strategy that helps you dominate all three locations.',
+          answer: "Yes. Saltford's location between Bath and Keynsham is perfect for multi-area targeting. We build strategies that cover all.",
         },
         {
-          question: 'How do affluent areas like Saltford affect SEO strategy?',
-          answer: 'Saltford\'s demographics mean customers often search for premium services. We tailor your content and keywords to attract quality-focused customers who are willing to pay for excellent service.',
+          question: "How does Saltford's affluent community affect SEO?",
+          answer: 'Customers search for premium, quality services. We tailor keywords and content to attract those willing to pay for top work.',
         },
         {
-          question: 'What ROI can I expect from SEO in Saltford?',
-          answer: 'Our Saltford clients typically see ROI of 5-10x their investment within the first year. Higher average order values in affluent areas mean fewer leads are needed for excellent returns.',
+          question: 'What ROI can I expect in Saltford?',
+          answer: 'Clients often see 5–10x returns in the first year. Higher order values in affluent areas mean fewer leads deliver strong profits.',
         },
       ],
     },
@@ -381,48 +649,94 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Timsbury, Somerset',
       county: 'Somerset',
       postcodes: ['BA2'],
-      population: '3,000+',
+      population: '2,600+',
       heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=600&fit=crop&auto=format&q=80',
-      description: 'Timsbury is a charming rural village near Paulton with a close-knit community. Local businesses here benefit from strong word-of-mouth and increasing online searches.',
-      extendedDescription: 'Timsbury maintains its rural character while being well-connected to larger towns. Local businesses enjoy strong community support, and those with good online visibility capture searches from residents who increasingly turn to Google first.',
-      industries: ['Trades', 'Agriculture', 'Services'],
-      landmarks: ['St Mary\'s Church', 'Timsbury Playing Fields', 'Conygre Hall'],
+      metaTitle: 'Local SEO Timsbury | Trades & Small Businesses – SEO Kings',
+      metaDescription: 'Get more local jobs in Timsbury. We help builders, plumbers, electricians, gardeners, and trades rank higher on Google. Free SEO audit today.',
+      heroHeadline: 'Local SEO in Timsbury',
+      heroSubhead: 'More Calls. More Jobs. From Google.',
+      description: 'Timsbury is a charming rural village near Paulton and Midsomer Norton. Around 2,600 residents enjoy a close-knit community and peaceful setting.',
+      extendedDescription: 'Local trades benefit from strong word-of-mouth plus growing online searches. Customers search Google for "builder Timsbury" or "plumber Timsbury". We get you found first.',
+      heroStats: [
+        { value: '2,600+', label: 'Residents' },
+        { value: 'Very Low', label: 'Competition' },
+        { value: 'Proven', label: 'in BANES' },
+        { value: '5★', label: 'Rated' },
+      ],
       stats: {
         businesses: '80+',
         monthlySearches: '8K+',
         competitors: 'Very Low',
         avgCPC: '£1.00',
       },
+      ctaButtonText: 'Get Free Audit – No Obligation',
+      whyIntro: 'In a small village like Timsbury, people search online for local services first. If you\'re not visible on Google or in the map pack, you miss enquiries.',
+      whyBullets: [
+        { title: 'Strong community', text: 'Residents prefer local trades; online visibility turns word-of-mouth into direct leads.' },
+        { title: 'Very low competition', text: 'Quick to reach top spots compared to bigger towns.' },
+        { title: 'High ROI', text: 'Organic rankings save money vs paid ads.' },
+      ],
+      services: [
+        { name: 'Local SEO', description: 'Rank for Timsbury + trade keywords.' },
+        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
+        { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
+        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+      ],
+      servicesHeading: 'Our Services in Timsbury',
+      servicesSubtext: 'We cover everything to dominate local searches.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on real searches from Timsbury people:',
+      industriesHeading: 'Industries We Help',
+      industries: ['Trades', 'Agriculture', 'Services'],
+      landmarksHeading: 'Local Landmarks We Use',
+      landmarksIntro: 'We reference real Timsbury places to boost local relevance:',
+      landmarks: ["St Mary's Church", 'Timsbury Playing Fields', 'Conygre Hall', 'Willow Farm (nearby)'],
       testimonial: {
+        label: 'Real Result',
+        caseTitle: 'Andrews Building Services, Timsbury',
         quote: "Even in a small village, people search Google first. Now they find us.",
         name: 'Phil Andrews',
         business: 'Andrews Building Services',
         result: '+120% enquiries',
       },
+      howItWorks: [
+        { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
+        { title: 'Custom plan', description: 'Tailored for Timsbury trades and rural searches.' },
+        { title: 'Results', description: 'Monthly reports. See leads grow.' },
+      ],
       localKeywords: [
         'plumber Timsbury',
         'electrician Timsbury',
         'builder Timsbury',
         'handyman Timsbury',
         'gardener Timsbury',
+        'decorator Timsbury',
+        'emergency plumber Timsbury',
+        'boiler repair Timsbury',
       ],
-      nearbyAreas: ['paulton', 'midsomer-norton', 'peasedown-st-john'],
+      ctaHeadline: 'Ready to Dominate Timsbury Search Results?',
+      ctaSubhead: 'Join Timsbury trades already ranking high.',
+      ctaPrimaryText: 'Get Your Free SEO Audit Today',
+      ctaSecondaryText: 'Free Consultation – Get Started',
+      nearbyHeading: 'Nearby Areas We Serve',
+      nearbyAreas: ['paulton', 'midsomer-norton', 'radstock', 'peasedown-st-john'],
       faqs: [
         {
           question: 'Is Timsbury too small for professional SEO services?',
-          answer: 'No village is too small! While we target Timsbury specifically, we also optimise for surrounding areas to maximise your reach. Many Timsbury businesses serve customers from Paulton, Midsomer Norton, and beyond.',
+          answer: 'No village is too small! We target Timsbury specifically and optimise for nearby areas to maximise reach. Many Timsbury businesses serve Paulton, Midsomer Norton, and beyond.',
         },
         {
           question: 'How do you approach SEO for rural villages?',
-          answer: 'For villages like Timsbury, we combine hyper-local targeting with broader area coverage. This ensures you capture all relevant searches, from "builder Timsbury" to "builder near Paulton".',
+          answer: 'We combine hyper-local targeting (e.g., "builder Timsbury") with broader coverage. This captures all relevant searches without wasting effort.',
         },
         {
-          question: 'What\'s the minimum investment for Timsbury SEO?',
-          answer: 'Our packages start from £300/month for smaller villages with lower competition. We offer flexible options that deliver results without requiring a massive budget.',
+          question: "What's the minimum investment for Timsbury SEO?",
+          answer: 'Packages start from £300/month for smaller villages with low competition. We keep it flexible and results-driven.',
         },
         {
           question: 'How do you measure success for Timsbury businesses?',
-          answer: 'We track keyword rankings, website traffic, phone calls, contact form submissions, and most importantly - new customers. You\'ll receive monthly reports showing exactly how your investment is performing.',
+          answer: 'We track rankings, traffic, calls, form submissions, and new customers. Monthly reports show clear progress.',
         },
       ],
     },
@@ -506,18 +820,21 @@ const AreaDetail = ({ params: staticParams }) => {
     }))
   };
 
-  const services = [
+  const defaultServices = [
     { name: 'Local SEO', description: `Rank higher for "${area.name}" searches`, icon: 'search' },
     { name: 'Google Business Profile', description: 'Dominate the local map pack', icon: 'map' },
     { name: 'Website Design', description: 'Convert visitors into customers', icon: 'desktop' },
     { name: 'Review Management', description: 'Build trust and credibility', icon: 'star' },
   ];
+  const services = area.services
+    ? area.services.map((s, i) => ({ ...s, icon: defaultServices[i]?.icon || 'search' }))
+    : defaultServices;
 
   return (
     <>
       <SEO
-        title={`Local SEO in ${area.name} | SEO Kings`}
-        description={`Local SEO in ${area.name}. We help ${area.name} businesses rank higher on Google and get more customers. Free audit.`}
+        title={area.metaTitle || `Local SEO in ${area.name} | SEO Kings`}
+        description={area.metaDescription || `Local SEO in ${area.name}. We help ${area.name} businesses rank higher on Google and get more customers. Free audit.`}
         keywords={`SEO ${area.name}, local SEO ${area.name}, Google ranking ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, digital marketing ${area.name}, SEO agency ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
@@ -573,24 +890,44 @@ const AreaDetail = ({ params: staticParams }) => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
-                SEO Services in<br />
-                <span className="gradient-text">{area.name}</span>
+                {area.heroHeadline ? (
+                  (() => {
+                    const i = area.heroHeadline.indexOf(area.name);
+                    if (i === -1) return area.heroHeadline;
+                    const before = area.heroHeadline.slice(0, i);
+                    const after = area.heroHeadline.slice(i + area.name.length);
+                    return <>{before}<span className="gradient-text">{area.name}</span>{after}</>;
+                  })()
+                ) : (
+                  <>
+                    SEO Services in<br />
+                    <span className="gradient-text">{area.name}</span>
+                  </>
+                )}
               </h1>
+
+              {area.heroSubhead && (
+                <p className="text-xl text-primary-light font-semibold mb-4">
+                  {area.heroSubhead}
+                </p>
+              )}
 
               <p className="text-xl text-gray-300 mb-4 leading-relaxed">
                 {area.description}
               </p>
               
-              <p className="text-gray-400 mb-8 leading-relaxed">
-                {area.extendedDescription}
-              </p>
+              {area.extendedDescription && (
+                <p className="text-gray-400 mb-8 leading-relaxed">
+                  {area.extendedDescription}
+                </p>
+              )}
 
-              <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex flex-wrap gap-4 mb-4">
                 <Link
                   href="/contact"
                   className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
                 >
-                  Get Free {area.name} SEO Audit
+                  {area.ctaButtonText || `Get Free ${area.name} SEO Audit`}
                 </Link>
                 <a
                   href="tel:07702264921"
@@ -600,30 +937,50 @@ const AreaDetail = ({ params: staticParams }) => {
                   07702 264 921
                 </a>
               </div>
+              {area.heroSubtext && (
+                <p className="text-sm text-gray-500 mb-8">{area.heroSubtext}</p>
+              )}
 
               {/* Quick Stats */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
-                  <div className="text-2xl font-bold gradient-text">{area.stats.businesses}</div>
-                  <div className="text-xs text-gray-400">Local Businesses</div>
-                </div>
-                <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
-                  <div className="text-2xl font-bold gradient-text">{area.stats.monthlySearches}</div>
-                  <div className="text-xs text-gray-400">Monthly Searches</div>
-                </div>
-                <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
-                  <div className="text-2xl font-bold gradient-text">{area.stats.competitors}</div>
-                  <div className="text-xs text-gray-400">Competition</div>
-                </div>
-                <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
-                  <div className="text-2xl font-bold gradient-text">{area.stats.avgCPC}</div>
-                  <div className="text-xs text-gray-400">Avg. CPC</div>
-                </div>
+                {area.heroStats ? (
+                  area.heroStats.map((stat, idx) => (
+                    <div key={idx} className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
+                      <div className="text-2xl font-bold gradient-text">{stat.value}</div>
+                      <div className="text-xs text-gray-400">{stat.label}</div>
+                    </div>
+                  ))
+                ) : (
+                  <>
+                    <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
+                      <div className="text-2xl font-bold gradient-text">{area.stats.businesses}</div>
+                      <div className="text-xs text-gray-400">Local Businesses</div>
+                    </div>
+                    <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
+                      <div className="text-2xl font-bold gradient-text">{area.stats.monthlySearches}</div>
+                      <div className="text-xs text-gray-400">Monthly Searches</div>
+                    </div>
+                    <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
+                      <div className="text-2xl font-bold gradient-text">{area.stats.competitors}</div>
+                      <div className="text-xs text-gray-400">Competition</div>
+                    </div>
+                    <div className="bg-dark-card/50 border border-white/5 rounded-lg p-4">
+                      <div className="text-2xl font-bold gradient-text">{area.stats.avgCPC}</div>
+                      <div className="text-xs text-gray-400">Avg. CPC</div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 
             {/* Testimonial Card */}
             <div className="bg-dark-card border border-white/10 rounded-2xl p-8">
+              {area.testimonial.label && (
+                <div className="text-sm font-semibold text-primary-light mb-2">{area.testimonial.label}</div>
+              )}
+              {area.testimonial.caseTitle && (
+                <div className="text-base font-semibold text-white mb-4">{area.testimonial.caseTitle}</div>
+              )}
               <div className="flex items-center gap-2 mb-4" aria-label="5 star rating">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -634,10 +991,22 @@ const AreaDetail = ({ params: staticParams }) => {
               <blockquote className="text-lg text-gray-300 mb-6 leading-relaxed">
                 "{area.testimonial.quote}"
               </blockquote>
+              {(area.testimonial.resultSummary || area.testimonial.timeframe) && (
+                <div className="flex flex-wrap gap-4 mb-4 text-sm">
+                  {area.testimonial.resultSummary && (
+                    <span className="text-green-400 font-semibold">{area.testimonial.resultSummary}</span>
+                  )}
+                  {area.testimonial.timeframe && (
+                    <span className="text-gray-400">Timeframe: {area.testimonial.timeframe}</span>
+                  )}
+                </div>
+              )}
               <div className="flex items-center justify-between">
                 <div>
                   <div className="font-semibold text-white">{area.testimonial.name}</div>
-                  <div className="text-sm text-gray-400">{area.testimonial.business}, {area.name}</div>
+                  <div className="text-sm text-gray-400">
+                    {area.testimonial.businessDisplay || `${area.testimonial.business}, ${area.name}`}
+                  </div>
                 </div>
                 <div className="text-right">
                   <div className="text-green-400 font-bold">{area.testimonial.result}</div>
@@ -649,58 +1018,49 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
       </section>
 
+      {/* Intro Paragraphs (optional) */}
+      {area.introParagraphs && area.introParagraphs.length > 0 && (
+        <section className="py-12 bg-dark-lighter">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              {area.introParagraphs.map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Why SEO in [Area] Section */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Why Your {area.name} Business Needs SEO
+              {area.whyHeading || (area.whyIntro ? `Why ${area.name} Businesses Need Local SEO` : `Why Your ${area.name} Business Needs SEO`)}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              With {area.stats.monthlySearches} monthly searches and {area.stats.businesses} local businesses competing for attention, 
-              standing out on Google is essential for {area.name} businesses.
+              {area.whyIntro || `With ${area.stats.monthlySearches} monthly searches and ${area.stats.businesses} local businesses competing for attention, standing out on Google is essential for ${area.name} businesses.`}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-dark-card border border-white/5 rounded-xl p-6">
+          <div className={`grid gap-8 ${(area.whyBullets?.length || 0) === 4 ? 'md:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3'}`}>
+            {(area.whyBullets || [
+              { title: 'Local Competition', text: `${area.stats.businesses} businesses in ${area.name} are competing for customers. ${area.stats.competitors === 'High' ? 'With high competition, SEO is essential to stand out.' : 'With lower competition, now is the perfect time to establish dominance.'}` },
+              { title: 'Search Demand', text: `${area.stats.monthlySearches} people search for local services in ${area.name} every month. Are you visible when they search for "${area.localKeywords[0]}"?` },
+              { title: 'Cost-Effective', text: `Organic rankings in ${area.name} cost less than paid ads and keep working 24/7. Invest once, get found for years.` },
+            ].slice(0, area.whyBullets?.length || 3)).map((bullet, idx) => (
+            <div key={idx} className="bg-dark-card border border-white/5 rounded-xl p-6">
               <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Local Competition</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">{bullet.title}</h3>
               <p className="text-gray-400">
-                {area.stats.businesses} businesses in {area.name} are competing for customers. 
-                {area.stats.competitors === 'High' ? ' With high competition, SEO is essential to stand out.' : ' With lower competition, now is the perfect time to establish dominance.'}
+                {bullet.text}
               </p>
             </div>
-
-            <div className="bg-dark-card border border-white/5 rounded-xl p-6">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Search Demand</h3>
-              <p className="text-gray-400">
-                {area.stats.monthlySearches} people search for local services in {area.name} every month. 
-                Are you visible when they search for "{area.localKeywords[0]}"?
-              </p>
-            </div>
-
-            <div className="bg-dark-card border border-white/5 rounded-xl p-6">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-2">ROI Potential</h3>
-              <p className="text-gray-400">
-                With average cost-per-click of {area.stats.avgCPC} in {area.name}, organic rankings deliver 
-                significant savings compared to paid advertising.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -710,10 +1070,10 @@ const AreaDetail = ({ params: staticParams }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Our SEO Services in {area.name}
+              {area.servicesHeading || `Our SEO Services in ${area.name}`}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Everything you need to dominate local search results and attract more customers in {area.name}.
+              {area.servicesSubtext || `Everything you need to dominate local search results and attract more customers in ${area.name}.`}
             </p>
           </div>
 
@@ -736,7 +1096,7 @@ const AreaDetail = ({ params: staticParams }) => {
               href="/contact"
               className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
             >
-              View all our services
+              {area.servicesLinkText || 'View all our services'}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -751,11 +1111,10 @@ const AreaDetail = ({ params: staticParams }) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-white mb-4">
-                Keywords We Target in {area.name}
+                {area.keywordsHeading || `Keywords We Target in ${area.name}`}
               </h2>
               <p className="text-gray-400 mb-6">
-                We help you rank for the search terms your potential customers are actually using to find services in {area.name}.
-                These high-intent local keywords drive qualified leads directly to your business.
+                {area.keywordsIntro || `We help you rank for the search terms your potential customers are actually using to find services in ${area.name}. These high-intent local keywords drive qualified leads directly to your business.`}
               </p>
               <div className="flex flex-wrap gap-3">
                 {area.localKeywords.map((keyword, index) => (
@@ -771,7 +1130,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
             <div className="space-y-6">
               <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
-                <h3 className="text-xl font-bold text-white mb-4">Industries We Serve in {area.name}</h3>
+                <h3 className="text-xl font-bold text-white mb-4">{area.industriesHeading || `Industries We Serve in ${area.name}`}</h3>
                 <ul className="space-y-3">
                   {area.industries.map((industry, index) => (
                     <li key={index} className="flex items-center gap-3 text-gray-300">
@@ -786,9 +1145,9 @@ const AreaDetail = ({ params: staticParams }) => {
 
               {area.landmarks && area.landmarks.length > 0 && (
                 <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
-                  <h3 className="text-xl font-bold text-white mb-4">Local Landmarks in {area.name}</h3>
+                  <h3 className="text-xl font-bold text-white mb-4">{area.landmarksHeading || `Local Landmarks in ${area.name}`}</h3>
                   <p className="text-sm text-gray-400 mb-3">
-                    We understand {area.name}'s geography and reference local landmarks in your SEO strategy.
+                    {area.landmarksIntro || `We understand ${area.name}'s geography and reference local landmarks in your SEO strategy.`}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {area.landmarks.map((landmark, index) => (
@@ -820,11 +1179,38 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
       </section>
 
+      {/* How It Works (optional) */}
+      {area.howItWorks && area.howItWorks.length > 0 && (
+        <section className="py-16 bg-dark-lighter">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-white mb-4">
+                How It Works in {area.name}
+              </h2>
+              <p className="text-gray-400 max-w-2xl mx-auto">
+                Three simple steps:
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8">
+              {area.howItWorks.map((step, idx) => (
+                <div key={idx} className="bg-dark-card border border-white/5 rounded-xl p-6 text-center">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center mx-auto mb-4 text-white font-bold">
+                    {idx + 1}
+                  </div>
+                  <h3 className="text-xl font-semibold text-white mb-2">{step.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{step.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Nearby Areas */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">
-            We Also Serve Nearby Areas
+            {area.nearbyHeading || 'We Also Serve Nearby Areas'}
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {area.nearbyAreas.map((nearbySlug) => {
@@ -853,18 +1239,17 @@ const AreaDetail = ({ params: staticParams }) => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Dominate {area.name} Search Results?
+            {area.ctaHeadline || `Ready to Dominate ${area.name} Search Results?`}
           </h2>
           <p className="text-gray-400 mb-8">
-            Join the {area.name} businesses already ranking on page one of Google. 
-            Get your free SEO audit today and see exactly how we can help you grow.
+            {area.ctaSubhead || `Join the ${area.name} businesses already ranking on page one of Google. Get your free SEO audit today and see exactly how we can help you grow.`}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
               className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
             >
-              Get Your Free {area.name} SEO Audit
+              {area.ctaPrimaryText || `Get Your Free ${area.name} SEO Audit`}
             </Link>
             <a
               href="tel:07702264921"
@@ -874,9 +1259,14 @@ const AreaDetail = ({ params: staticParams }) => {
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              07702 264 921
+              {area.ctaSecondaryText || '07702 264 921'}
             </a>
           </div>
+          {area.ctaDisclaimer && (
+            <p className="mt-6 text-sm text-gray-500 max-w-xl mx-auto">
+              {area.ctaDisclaimer}
+            </p>
+          )}
         </div>
       </section>
     </>

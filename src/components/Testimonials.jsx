@@ -3,40 +3,40 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Before SEO Kings, I was getting maybe 2-3 calls a week. Now I'm turning work away. Best investment I've made in my business.",
-      name: 'Dave Mitchell',
-      business: 'Mitchell Plumbing',
-      location: 'Bath',
-      trade: 'Plumber',
+      quote: "Best investment we've made. We now dominate local search and our Google reviews have increased significantly.",
+      name: 'Mark Williams',
+      business: 'Williams Roofing',
+      location: 'Midsomer Norton',
+      trade: 'Roofer',
+      rating: 5,
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
+    },
+    {
+      quote: "From zero online presence to first page of Google. Our business has completely transformed.",
+      name: 'Lisa Green',
+      business: "Green's Cleaning Services",
+      location: 'Paulton',
+      trade: 'Cleaning',
+      rating: 5,
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
+    },
+    {
+      quote: "We now get enquiries from Peasedown and surrounding areas. SEO Kings made it happen.",
+      name: 'Tom Richards',
+      business: 'Richards Landscaping',
+      location: 'Peasedown St John',
+      trade: 'Landscaping',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
     },
     {
-      quote: "They explained everything in plain English, no techy nonsense. Within 3 months I was on the first page of Google. Brilliant service.",
+      quote: "Within 3 months I was on the first page of Google. Brilliant service.",
       name: 'Sarah Thompson',
       business: 'Thompson Electrical',
       location: 'Keynsham',
       trade: 'Electrician',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
-    },
-    {
-      quote: "I was skeptical at first, but the results speak for themselves. My Google Business Profile now gets 50+ views a day. Highly recommend.",
-      name: 'Mark Williams',
-      business: 'Williams Roofing',
-      location: 'Radstock',
-      trade: 'Roofer',
-      rating: 5,
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
-    },
-    {
-      quote: "SEO Kings built our website and got us visible on Google. We're now getting regular enquiries from Midsomer Norton and the surrounding area. Professional from start to finish.",
-      name: 'Peachy Cleans',
-      business: 'Peachy Cleans',
-      location: 'Midsomer Norton',
-      trade: 'Cleaning Services',
-      rating: 5,
-      image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
     },
   ];
 
@@ -68,15 +68,12 @@ const Testimonials = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-yellow-400/10 border border-yellow-400/20 rounded-full text-yellow-400 text-sm font-medium mb-4">
-            Testimonials
+            What Clients Say
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            Trusted by Local
-            <span className="gradient-text"> Business Owners</span>
+            What Clients
+            <span className="gradient-text"> Say</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Here's what tradespeople and business owners across BANES say about working with us.
-          </p>
         </div>
 
         {/* Testimonials Grid */}

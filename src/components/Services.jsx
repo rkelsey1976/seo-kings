@@ -6,33 +6,14 @@ const Services = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      ),
-      title: 'Website Design',
-      href: '/web-design',
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Professional website design and development for local businesses in Bath showing modern responsive layouts',
-      description: 'Fast, mobile-friendly websites built to convert visitors into customers. No templates — custom designs that reflect your trade and win trust.',
-      features: [
-        'Mobile-first design',
-        'Fast loading speeds',
-        'Clear calls-to-action',
-        'Built for conversions',
-      ],
-      color: 'from-primary to-primary-dark',
-    },
-    {
-      icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
       ),
       title: 'Local SEO',
       href: '/local-seo',
       image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Local SEO keyword research and analytics dashboard showing Google search rankings for BANES businesses',
-      description: 'Get found when customers search for your services in BANES. We optimise your website to rank higher on Google for the searches that matter.',
+      imageAlt: 'Local SEO keyword research and analytics for BANES businesses',
+      description: 'Get found for searches like "plumber Bath", "electrician Keynsham", "builder Midsomer Norton". Keyword research, on-page fixes, local links.',
       features: [
         'Keyword research',
         'On-page optimisation',
@@ -51,8 +32,8 @@ const Services = () => {
       title: 'Google Business Profile',
       href: '/google-business-profile',
       image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Google Business Profile optimisation showing map pack results and local business listings in Bath area',
-      description: 'Dominate the map pack and get more calls. We optimise and manage your Google Business Profile to attract local customers.',
+      imageAlt: 'Google Business Profile optimisation and map pack results in Bath area',
+      description: 'Dominate the local map pack. We optimise your profile, manage reviews, post updates, and track calls.',
       features: [
         'Profile optimisation',
         'Review management',
@@ -60,6 +41,25 @@ const Services = () => {
         'Insights & tracking',
       ],
       color: 'from-accent to-accent-dark',
+    },
+    {
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      ),
+      title: 'Fast Website Design',
+      href: '/web-design',
+      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
+      imageAlt: 'Mobile-first website design for trades in Bath and BANES',
+      description: 'Mobile-first websites built for trades. Fast loading, clear calls-to-action, ready for SEO.',
+      features: [
+        'Mobile-first design',
+        'Fast loading speeds',
+        'Clear calls-to-action',
+        'SEO-ready',
+      ],
+      color: 'from-primary to-primary-dark',
     },
   ];
 
@@ -78,13 +78,9 @@ const Services = () => {
             Our Services
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            Everything You Need to
-            <span className="gradient-text"> Get Found Online</span>
+            Our
+            <span className="gradient-text"> Services</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            No jargon, no fluff — just proven strategies that help local tradespeople 
-            and businesses attract more customers from Google.
-          </p>
         </div>
 
         {/* Services Grid */}
@@ -156,11 +152,14 @@ const Services = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-gray-300 mb-6">
-            Not sure what you need? We'll help you figure it out.
-          </p>
-          <Link href="/contact" className="inline-block bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
-            Get a Free Consultation
+          <Link
+            href="/local-seo"
+            className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
+          >
+            See All Services
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         </div>
       </div>
