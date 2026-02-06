@@ -7,13 +7,13 @@ import CTABanner from '../components/CTABanner';
 const packages = [
   {
     name: 'Starter',
-    price: '1,500',
+    price: '399',
     period: 'one-off',
-    tagline: 'Get your business online',
+    tagline: '1-page site with everything a trade needs',
     features: [
-      'Up to 5 pages',
-      'Full custom design',
-      'Contact form',
+      'Single-page design',
+      'Services, contact & area info on one page',
+      'Contact form & click-to-call',
       'Mobile-responsive',
       'SEO basics included',
       '12 months free hosting',
@@ -27,7 +27,7 @@ const packages = [
   },
   {
     name: 'Professional',
-    price: '2,000',
+    price: '1,200',
     period: 'one-off',
     tagline: 'For growing businesses',
     features: [
@@ -47,7 +47,7 @@ const packages = [
   },
   {
     name: 'Full Package',
-    price: '2,500',
+    price: '1,800',
     period: 'one-off',
     tagline: 'Everything you need',
     features: [
@@ -90,8 +90,8 @@ const WebDesignPackages = () => {
     <>
       <SEO
         title="Web Design Packages | Bath & BANES"
-        description="Web design packages for local businesses in Bath & BANES. From £1,500 for 5-page sites. Custom design, SEO included, 12 months free hosting. Get a quote."
-        keywords="web design packages Bath, website packages BANES, pay monthly website, business website cost, web design price Bath"
+        description="Web design packages for local businesses in Bath & BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
+        keywords="web design packages Bath, website packages BANES, pay monthly website, business website cost, web design price Bath, cheap website for trades"
         canonical="/web-design-packages"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -112,7 +112,7 @@ const WebDesignPackages = () => {
             Web Design <span className="gradient-text">Packages</span>
           </h1>
           <p className="text-2xl text-gray-400 mb-2">
-            From only <span className="text-white font-bold">£1,500</span>
+            From only <span className="text-white font-bold">£399</span>
           </p>
           <p className="text-gray-500 text-sm">Pay monthly options available — no hidden fees</p>
         </div>

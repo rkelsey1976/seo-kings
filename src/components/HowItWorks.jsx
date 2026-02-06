@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import SectionDivider from './SectionDivider';
 
 const HowItWorks = () => {
   const steps = [
@@ -43,6 +44,7 @@ const HowItWorks = () => {
 
   return (
     <section className="py-24 relative bg-dark-lighter">
+      <SectionDivider fill="dark-lighter" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">

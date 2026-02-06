@@ -209,7 +209,7 @@ const WebDesign = () => {
             Transparent Pricing, No Surprises
           </h2>
           <p className="text-lg text-gray-400 mb-8">
-            Our websites start from <span className="text-white font-bold">£1,500</span> for a 5-page site. 
+            Our websites start from <span className="text-white font-bold">£399</span> for a 1-page trade site. 
             Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn't agree to.
           </p>
           <Link
@@ -264,7 +264,7 @@ const WebDesign = () => {
               },
               {
                 q: 'How much does a website cost?',
-                a: 'Our websites start from £1,500 for a professional 5-page site. Pricing depends on the number of pages, features needed, and complexity. We provide detailed quotes after understanding your requirements.',
+                a: 'Our Starter package is £399 for a 1-page site with everything a trade needs. We also offer multi-page packages from £1,200. We provide a detailed quote after understanding your requirements.',
               },
               {
                 q: 'Will my website work on mobile phones?',

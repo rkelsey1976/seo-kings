@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Kings – Google Business Profile Logo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #1e293b;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    /* GBP logo: 720×720 (Google recommended; displays as circle) */
+    .logo {
+      width: 720px;
+      height: 720px;
+      max-width: 100%;
+      aspect-ratio: 1;
+      background: linear-gradient(145deg, #070B14 0%, #0F1420 50%, #1a1f35 100%);
+      border-radius: 24px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 72px;
+    }
+    .logo::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle 70% at 50% 50%, rgba(124, 58, 237, 0.35) 0%, transparent 60%),
+                  radial-gradient(circle 50% at 80% 20%, rgba(59, 130, 246, 0.25) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .logo-inner {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+    .crown {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 32px;
+      background: linear-gradient(135deg, #7C3AED, #3B82F6);
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .crown svg {
+      width: 64px;
+      height: 64px;
+      color: #fff;
+    }
+    .wordmark {
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      background: linear-gradient(90deg, #A78BFA, #60A5FA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .tagline {
+      font-size: 18px;
+      font-weight: 600;
+      color: #94A3B8;
+      margin-top: 14px;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo" id="logo">
+    <div class="logo-inner">
+      <div class="crown" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 2c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-3h14v3z"/>
+        </svg>
+      </div>
+      <div class="wordmark">SEO Kings</div>
+      <div class="tagline">Local SEO · Bath & BANES</div>
+    </div>
+  </div>
+</body>
+</html>

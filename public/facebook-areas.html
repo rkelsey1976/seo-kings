@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Kings – Areas We Target</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #070B14;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      width: 1200px;
+      height: 630px;
+      max-width: 100%;
+      aspect-ratio: 1200 / 630;
+      background: linear-gradient(135deg, #070B14 0%, #0F1420 40%, #1a1f35 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(124, 58, 237, 0.2) 0%, transparent 50%),
+                  radial-gradient(ellipse 50% 40% at 80% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .card-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      padding: 40px 48px;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      gap: 48px;
+    }
+    .panel-left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 0;
+    }
+    .panel-right {
+      width: 380px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 32px;
+      border-left: 1px solid rgba(255,255,255,0.1);
+    }
+    .logo-line {
+      font-size: 18px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 8px;
+    }
+    .title {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #fff;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    .title-gradient {
+      background: linear-gradient(90deg, #A78BFA, #60A5FA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .subtitle {
+      font-size: 15px;
+      color: #94A3B8;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #64748B;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+    .trades {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .trade {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(59, 130, 246, 0.2));
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #E2E8F0;
+    }
+    .areas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      align-items: center;
+    }
+    .area {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #E2E8F0;
+    }
+    .area.highlight {
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.35), rgba(59, 130, 246, 0.25));
+      border-color: rgba(167, 139, 250, 0.4);
+      color: #fff;
+    }
+    .post-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #64748B;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+    }
+    .post-text {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #CBD5E1;
+      margin-bottom: 16px;
+    }
+    .post-text strong { color: #fff; font-weight: 700; }
+    .post-cta {
+      font-size: 16px;
+      font-weight: 700;
+      color: #A78BFA;
+      margin-bottom: 8px;
+    }
+    .post-link {
+      font-size: 14px;
+      font-weight: 600;
+      color: #60A5FA;
+    }
+  </style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="card-content">
+      <div class="panel-left">
+        <div class="logo-line">SEO Kings</div>
+        <h1 class="title">
+          Trades in Every <span class="title-gradient">Area</span>
+        </h1>
+        <p class="subtitle">Plumbers, electricians, builders & more — we get you found on Google across Bath & BANES</p>
+        <div class="section-label">Trades we help</div>
+        <div class="trades">
+          <span class="trade">Plumbers</span>
+          <span class="trade">Electricians</span>
+          <span class="trade">Builders</span>
+          <span class="trade">Roofers</span>
+          <span class="trade">Landscapers</span>
+          <span class="trade">Cleaners</span>
+          <span class="trade">Handymen</span>
+          <span class="trade">Decorators</span>
+        </div>
+        <div class="section-label">Areas we serve</div>
+        <div class="areas">
+          <span class="area highlight">Bath</span>
+          <span class="area">Keynsham</span>
+          <span class="area">Midsomer Norton</span>
+          <span class="area">Radstock</span>
+          <span class="area">Peasedown St John</span>
+          <span class="area">Paulton</span>
+          <span class="area">Saltford</span>
+          <span class="area">Timsbury</span>
+        </div>
+      </div>
+      <div class="panel-right">
+        <div class="post-label">Facebook post text</div>
+        <p class="post-text">
+          <strong>We target trades in every area.</strong><br><br>
+          Plumbers • Electricians • Builders • Roofers • Landscapers • Cleaners • Handymen • Decorators — across Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford & Timsbury.<br><br>
+          If you're not on page 1 in your town, you're missing jobs. We fix that.
+        </p>
+        <p class="post-cta">👉 Get your free audit and see how we can get you found.</p>
+        <p class="post-link">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# robots.txt for SEO Kings
+User-agent: *
+Allow: /
+
+# Sitemap (submit this in Google Search Console)
+Sitemap: https://seo-kings.co.uk/sitemap.xml
