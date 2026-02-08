@@ -257,6 +257,54 @@ const blogPosts = {
       },
     ],
   },
+  'website-design-midsomer-norton-peachy-cleans': {
+    slug: 'website-design-midsomer-norton-peachy-cleans',
+    title: 'Website We Built for Peachy Cleans: Web Design in Midsomer Norton That Gets Found on Google',
+    description: 'How we built a fast, simple website for Peachy Cleans in Midsomer Norton — and got them to number one on Google and the map pack for local cleaning searches. Web design for local businesses in the Somer Valley.',
+    date: '2026-02-08',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Midsomer Norton, web design Midsomer Norton, website for business Midsomer Norton, local business website Somer Valley, Peachy Cleans website',
+    sections: [
+      {
+        heading: "Why we're writing about website design in Midsomer Norton",
+        paragraphs: [
+          'Small businesses in Midsomer Norton, Radstock, Paulton, and the Somer Valley often need a simple, professional website that loads fast and helps them show up when local customers search on Google. We built one for Peachy Cleans — a cleaning business in Midsomer Norton — and combined it with local SEO and Google Business Profile work. They now appear number one for "cleaner Midsomer Norton" on Google and near the top of the map pack. This post is about what we built and why it works for local businesses looking for website design in Midsomer Norton.',
+        ],
+      },
+      {
+        heading: 'What we built for Peachy Cleans',
+        paragraphs: [
+          "Peachy Cleans needed a clear online presence: a website that showed what they do, where they work, and how to get in touch. We built a single-page site at peachycleans.info that loads quickly on phones and desktops. The page lists all their services — regular home cleaning, one-off deep cleans, Airbnb changeovers, end of tenancy, commercial and builders cleans, elderly care cleaning — with big, obvious buttons to call or message for a free quote. We added photos of clean homes and kept everything on one screen so visitors aren't confused.",
+          "For a local business in Midsomer Norton, that kind of website does two things: it gives potential customers a clear, trustworthy place to find you, and it gives Google clear signals about what you do and where you serve. That's the basis for ranking well in Midsomer Norton and the surrounding areas.",
+        ],
+      },
+      {
+        heading: 'Fast, mobile-friendly web design matters in Midsomer Norton',
+        paragraphs: [
+          "A lot of local searches happen on phones. If your website is slow or hard to use on mobile, people leave — and Google ranks slower, harder-to-use sites lower. We built the Peachy Cleans site to load fast and work well on every device. That helps both users and search: people get the information they need quickly, and Google sees a site that performs well. When you're looking for website design in Midsomer Norton, speed and mobile-friendliness should be part of the brief, not an afterthought.",
+        ],
+      },
+      {
+        heading: 'Making the website and Google listing work together',
+        paragraphs: [
+          "A website on its own isn't enough for local visibility. We made sure the Peachy Cleans site and their Google Business Profile supported each other. We added clear details on where they work — Midsomer Norton, Radstock, Paulton, Peasedown St John, Bath, Frome, Wells, and nearby Somerset areas — and kept the site and GBP in sync. We helped with fresh photos on Google, regular updates, and quick replies to reviews. When someone searches \"cleaner Midsomer Norton\", Peachy Cleans now shows up number one in the main results and near the top of the map pack. People searching on their phone see them straight away in Maps, which means more calls and bookings without paying for ads.",
+        ],
+      },
+      {
+        heading: 'What that means for your business',
+        paragraphs: [
+          "If you're a tradesperson, cleaner, or local service in Midsomer Norton or the Somer Valley and you don't have a website — or your current site is slow, outdated, or not set up for local search — a simple, fast site plus a well-optimised Google listing can make a real difference. You don't need a huge, expensive build; you need something clear, quick, and built with local search in mind.",
+          "We've written more about the full project on our Client Spotlight page, including what we built, how it helps them show up on Google and Maps, and the results. You can also read the short case study. If you're interested in website design in Midsomer Norton or the wider Bath and BANES area, we'd be happy to talk. We offer a free check: we look at your current website and Google listing and show you simple ways to get higher in search and the map pack. No pressure, no long contracts.",
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/spotlight/peachy-cleans', label: 'View full Client Spotlight' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free check' },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {
@@ -345,23 +393,43 @@ const BlogPost = ({ params: staticParams }) => {
 
           {/* CTA */}
           <div className="mt-16 p-6 sm:p-8 bg-dark-card border border-white/10 rounded-2xl text-center">
-            <h3 className="text-xl font-bold text-white mb-2">Ready to improve your local visibility?</h3>
+            <h3 className="text-xl font-bold text-white mb-2">
+              {post.ctaLinks ? 'See the full story or get your own' : 'Ready to improve your local visibility?'}
+            </h3>
             <p className="text-gray-400 mb-6">
-              We offer a free local SEO audit and build websites that rank. Get in touch for a no-obligation chat.
+              {post.ctaLinks
+                ? 'View the full Client Spotlight, our web design packages, or get a free check of your website and Google listing.'
+                : 'We offer a free local SEO audit and build websites that rank. Get in touch for a no-obligation chat.'}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
-              >
-                Get a free audit
-              </Link>
-              <Link
-                href="/local-seo"
-                className="border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center"
-              >
-                View our local SEO services
-              </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
+              {post.ctaLinks ? (
+                post.ctaLinks.map((link, i) => (
+                  <Link
+                    key={i}
+                    href={link.href}
+                    className={i === 0
+                      ? 'bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center'
+                      : 'border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center'}
+                  >
+                    {link.label}
+                  </Link>
+                ))
+              ) : (
+                <>
+                  <Link
+                    href="/contact"
+                    className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
+                  >
+                    Get a free audit
+                  </Link>
+                  <Link
+                    href="/local-seo"
+                    className="border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center"
+                  >
+                    View our local SEO services
+                  </Link>
+                </>
+              )}
             </div>
           </div>
         </div>

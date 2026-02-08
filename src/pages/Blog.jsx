@@ -46,6 +46,13 @@ const posts = [
     date: '2026-02-05',
     readTime: '4 min read',
   },
+  {
+    slug: 'website-design-midsomer-norton-peachy-cleans',
+    title: 'Website We Built for Peachy Cleans: Web Design in Midsomer Norton That Gets Found on Google',
+    excerpt: 'How we built a fast, simple website for Peachy Cleans in Midsomer Norton — and got them to #1 on Google and the map pack. Web design for local businesses in the Somer Valley.',
+    date: '2026-02-08',
+    readTime: '5 min read',
+  },
 ];
 
 const Blog = () => {

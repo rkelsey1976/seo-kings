@@ -8,6 +8,7 @@ export function generateStaticParams() {
     { slug: 'local-seo-bath' },
     { slug: 'seo-for-plumbers-bath' },
     { slug: 'free-seo-audit-what-we-check' },
+    { slug: 'website-design-midsomer-norton-peachy-cleans' },
   ];
 }
 
