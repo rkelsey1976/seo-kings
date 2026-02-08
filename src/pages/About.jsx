@@ -44,13 +44,6 @@ const About = () => {
     },
   ];
 
-  const stats = [
-    { value: '150+', label: 'Local Businesses Helped' },
-    { value: '5+', label: 'Years Experience' },
-    { value: '£2.4M', label: 'Revenue Generated for Clients' },
-    { value: '5★', label: 'Google Rating' },
-  ];
-
   const reasons = [
     {
       title: 'We Specialise in Local',
@@ -66,7 +59,7 @@ const About = () => {
     },
     {
       title: 'We Get Results',
-      description: 'Our clients see an average 340% increase in leads within 6 months. We don\'t just promise results — we deliver them.',
+      description: 'We focus on what matters: getting you found on Google and in the map pack. See our Client Spotlight for a real example of what we\'ve achieved for a local business.',
     },
   ];
 
@@ -120,20 +113,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="py-12 bg-dark-lighter border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {stats.map((stat, index) => (
-              <div key={index}>
-                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-1">{stat.value}</div>
-                <div className="text-gray-400">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Our Story */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -158,9 +137,8 @@ const About = () => {
                   and North East Somerset.
                 </p>
                 <p>
-                  Today, we've helped over 150 local businesses dominate their local search results. 
-                  From plumbers and electricians to restaurants and salons, we've seen what works 
-                  (and what doesn't) in this market.
+                  Today we work with local businesses across Bath and BANES — plumbers, electricians, 
+                  cleaners, builders and more. We've seen what works (and what doesn't) in this market.
                 </p>
                 <p className="text-white font-medium">
                   Our mission is simple: help local businesses get found by local customers.
@@ -186,19 +164,15 @@ const About = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">2020</span> — Founded in Bath</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Founded</span> — Bath & BANES</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">2022</span> — 50 clients milestone</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Focus</span> — Local SEO & web design</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">2024</span> — 100+ businesses ranked #1</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-green-400 rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Today</span> — 150+ businesses served</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Today</span> — Helping local businesses get found on Google</span>
                     </div>
                   </div>
                 </div>
