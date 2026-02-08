@@ -13,6 +13,7 @@ export function generateStaticParams() {
     { slug: 'website-design-keynsham' },
     { slug: 'website-design-radstock' },
     { slug: 'website-design-trowbridge' },
+    { slug: 'one-page-website-bath-banes' },
   ];
 }
 

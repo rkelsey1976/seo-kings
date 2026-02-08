@@ -219,10 +219,75 @@ Use for service/trade-focused content or landing pages.
 
 ---
 
-## 7. How to use this list
+## 7. Website design + location (for Web Design page)
+
+Use these to target "website design [location]" searches. Add to Web Design page meta, H2 and body copy.
+
+**Primary**
+- website design Bath
+- website design BANES
+- web design Bath
+- web design BANES
+
+**Other BANES areas**
+- website design Keynsham
+- website design Midsomer Norton
+- website design Radstock
+- website design Peasedown St John
+- website design Paulton
+- website design Saltford
+- website design Timsbury
+
+**Nearby (e.g. Trowbridge, Wiltshire)**
+- website design Trowbridge
+- web design Trowbridge
+- website design Somerset
+- web design Somerset
+- website design Wiltshire
+
+**Combined**
+- website design Bath and BANES
+- website design for trades Bath
+- cheap website design Bath
+- business website design Bath
+
+---
+
+## 7b. Related website design keywords (beyond “website design [location]”)
+
+Use these on /web-design, /web-design-packages, blog posts, and GBP. Weave into headings and body copy where natural.
+
+**Offer / format**
+- one-page website | single page website
+- website from £399 | affordable website Bath
+- small business website | business website Bath
+- website for trades | website for tradesmen
+- website for local business
+
+**Outcome / benefit**
+- website that ranks | SEO website
+- fast website | fast loading website
+- mobile-friendly website
+- website that gets found on Google
+
+**Alternative search terms**
+- web design packages Bath
+- website builder Bath (some users search “builder” not “design”)
+- get a website | new website for business
+- professional website Bath
+
+**Long-tail**
+- affordable website design for small business Bath
+- one-page website for trades Bath
+- website design for plumbers electricians Bath
+
+---
+
+## 8. How to use this list
 
 - **Homepage / service pages:** Weave in brand + service keywords (local SEO Bath, Google Business Profile BANES, free audit).
 - **Area pages:** Use that area’s block from section 4 in meta title, meta description, H1/H2, and body copy.
+- **Web Design page:** Use section 7b (related website design keywords) in one H2/FAQ and meta where natural. Use section 7 (website design + location) in meta title, description, and an “Areas we serve” section (Bath, Keynsham, Trowbridge, etc.).
 - **GBP / ads / posts:** Use area + trade phrases and “free audit”, “BANES”, “map pack”.
 - **Blog / tips:** Use trade + area and “Google Business Profile”, “local SEO”, “reviews”, “map pack”.
 - **Internal linking:** Link area pages to each other and to services using these phrases where natural.

@@ -106,7 +106,7 @@ const WebDesign = () => {
       <SEO
         title="Website Design Bath | Web Design BANES & Trowbridge – SEO Kings"
         description="Website design in Bath, Keynsham, Midsomer Norton, Trowbridge & BANES. Mobile-friendly, SEO-ready sites from £399. Free quote for trades and local businesses."
-        keywords="website design Bath, web design Bath, website design BANES, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
+        keywords="website design Bath, web design Bath, website design BANES, one-page website, affordable website, website for trades, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -171,6 +171,18 @@ const WebDesign = () => {
         subtitle="We don't just make pretty websites. We build lead-generating machines for local businesses."
         features={features}
       />
+
+      {/* One-page website + affordable + website that ranks */}
+      <section className="py-16 bg-dark-lighter">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            One-Page Website or Full Site — Affordable Website Design That Ranks
+          </h2>
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            We offer affordable website design from £399: a one-page website that has everything a trade or small business needs — services, contact, and area info. Or we build full multi-page sites. Every site we build is a website that ranks: fast, mobile-friendly, and set up so you get found on Google and in the map pack. No DIY website builder; we build it for you so it works for local search.
+          </p>
+        </div>
+      </section>
 
       {/* Process Section */}
       <section className="py-24">
@@ -290,6 +302,10 @@ const WebDesign = () => {
 
           <FAQAccordion 
             faqs={[
+              {
+                q: 'Do you do one-page websites?',
+                a: 'Yes. Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, and SEO basics. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. See our web design packages for full details.',
+              },
               {
                 q: 'How long does it take to build a website?',
                 a: 'Most business websites take 2-4 weeks from start to launch. This includes design, development, content creation, and revisions. More complex sites with custom functionality may take longer.',

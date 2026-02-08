@@ -81,6 +81,13 @@ const posts = [
     date: '2026-02-08',
     readTime: '4 min read',
   },
+  {
+    slug: 'one-page-website-bath-banes',
+    title: 'One-Page Website for Small Business Bath & BANES: When It Works and What We Build',
+    excerpt: 'Affordable one-page website design for Bath and BANES — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+  },
 ];
 
 const Blog = () => {

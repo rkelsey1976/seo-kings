@@ -428,6 +428,52 @@ const blogPosts = {
       { href: '/contact', label: 'Get a free quote' },
     ],
   },
+  'one-page-website-bath-banes': {
+    slug: 'one-page-website-bath-banes',
+    title: 'One-Page Website for Small Business Bath & BANES: When It Works and What We Build',
+    description: 'Affordable one-page website design for Bath and BANES — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'one-page website Bath, affordable website Bath, website for trades Bath, small business website BANES, one-page website design',
+    sections: [
+      {
+        heading: 'What is a one-page website?',
+        paragraphs: [
+          'A one-page website is a single page that contains everything a visitor needs: your services, contact details, area you serve, and a clear way to get in touch. For tradespeople and small businesses in Bath, Keynsham, Midsomer Norton, and across BANES, it can be the perfect affordable website — fast to load, easy to use on mobile, and built so it can rank on Google and in the map pack.',
+        ],
+      },
+      {
+        heading: 'When a one-page website works best',
+        paragraphs: [
+          'A one-page website works well when you offer a focused set of services, serve a clear area, and want a simple, professional online presence without a big budget. Plumbers, electricians, cleaners, builders, and other local trades often don\'t need dozens of pages — they need a site that looks good, loads fast, and makes it easy for customers to call or message. That\'s what we build from £399.',
+        ],
+      },
+      {
+        heading: 'What we include so your one-page site ranks',
+        paragraphs: [
+          'Every one-page website we build is set up for local search: clear titles and meta, your services and areas in the content, mobile-friendly design, and fast loading. We don\'t use a DIY website builder and leave you to figure out SEO — we build it so it\'s a website that ranks. Combined with a well-optimised Google Business Profile, that\'s how you get found when people search "plumber Bath" or "electrician near me".',
+        ],
+      },
+      {
+        heading: 'Affordable website design from £399',
+        paragraphs: [
+          'Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, 12 months free hosting, and SSL. It\'s affordable website design for Bath and BANES — no hidden fees, no ongoing costs you didn\'t agree to. If you later need more pages, we can expand it or you can move to a larger package.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or small business in Bath, Keynsham, Midsomer Norton, Radstock, or across BANES and you want an affordable one-page website that gets found on Google, we\'d be happy to talk. We offer a free check of your current setup and a no-obligation quote. See our web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
   'website-design-trowbridge': {
     slug: 'website-design-trowbridge',
     title: 'Website Design in Trowbridge: What We Build for Wiltshire Businesses',
