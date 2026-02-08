@@ -9,6 +9,10 @@ export function generateStaticParams() {
     { slug: 'seo-for-plumbers-bath' },
     { slug: 'free-seo-audit-what-we-check' },
     { slug: 'website-design-midsomer-norton-peachy-cleans' },
+    { slug: 'website-design-bath' },
+    { slug: 'website-design-keynsham' },
+    { slug: 'website-design-radstock' },
+    { slug: 'website-design-trowbridge' },
   ];
 }
 

@@ -90,8 +90,8 @@ const WebDesignPackages = () => {
     <>
       <SEO
         title="Web Design Packages | Bath & BANES"
-        description="Web design packages in Bath, Keynsham, Trowbridge & BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
-        keywords="web design packages Bath, website design Bath, website design Trowbridge, website packages BANES, web design Keynsham, business website cost, cheap website for trades"
+        description="Website design packages for Bath, Keynsham, Midsomer Norton and BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
+        keywords="web design packages Bath, website design Bath, website design Keynsham, website design Midsomer Norton, website packages BANES, web design Trowbridge, business website cost"
         canonical="/web-design-packages"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -115,6 +115,9 @@ const WebDesignPackages = () => {
             From only <span className="text-white font-bold">£399</span>
           </p>
           <p className="text-gray-500 text-sm">Pay monthly options available — no hidden fees</p>
+          <p className="text-gray-400 text-sm mt-4 max-w-xl mx-auto">
+            Website design packages for Bath, Keynsham, Midsomer Norton, Radstock and across BANES. Fast, mobile-friendly sites built for local search.
+          </p>
         </div>
       </section>
 

@@ -305,6 +305,170 @@ const blogPosts = {
       { href: '/contact', label: 'Get a free check' },
     ],
   },
+  'website-design-bath': {
+    slug: 'website-design-bath',
+    title: 'Website Design in Bath: What We Build for Trades and Local Businesses',
+    description: 'Fast, mobile-friendly websites for Bath businesses — from one-page sites to full multi-page. Built for local search so you get found on Google and in the map pack.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Bath, web design Bath, website for business Bath, local business website BANES, Bath website design',
+    sections: [
+      {
+        heading: 'Why website design in Bath matters',
+        paragraphs: [
+          'Bath has strong demand for local services — plumbers, electricians, builders, cleaners, and trades. When people search "plumber Bath" or "electrician near me", they often click the map pack or the first few results. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Bath businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Bath businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search from day one. That means clear location signals, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Bath businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge, expensive build; you need something clear, fast, and built with Bath and BANES in mind.',
+        ],
+      },
+      {
+        heading: 'Fast and mobile-friendly',
+        paragraphs: [
+          'A lot of local searches happen on phones. If your site is slow or hard to use on mobile, people leave — and Google ranks slower sites lower. We build every Bath website to perform well on every device so you keep visitors and rank better.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Bath and you need a new website — or your current one is slow, outdated, or not set up for local search — we\'d be happy to talk. We offer a free check: we look at your current site and Google listing and show you simple ways to get higher in search and the map pack. See our web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-keynsham': {
+    slug: 'website-design-keynsham',
+    title: 'Website Design in Keynsham: What We Build for Local Businesses',
+    description: 'Web design for Keynsham and BS31 — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google and in the map pack.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Keynsham, web design Keynsham, website for business Keynsham, local business website BS31, Keynsham website design',
+    sections: [
+      {
+        heading: 'Why website design in Keynsham matters',
+        paragraphs: [
+          'Keynsham sits between Bath and Bristol, with strong local search demand for trades and services. When people in Keynsham, Saltford, or BS31 search for a plumber, electrician, or builder, they often use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Keynsham businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Keynsham businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Keynsham and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Keynsham and BS31 businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Keynsham and BANES in mind.',
+        ],
+      },
+      {
+        heading: 'Built for local search',
+        paragraphs: [
+          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Keynsham, Saltford, Bath, and the Bristol edge — help you rank for "electrician Keynsham", "plumber BS31", and similar searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Keynsham and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-radstock': {
+    slug: 'website-design-radstock',
+    title: 'Website Design in Radstock: What We Build for Somer Valley Businesses',
+    description: 'Web design for Radstock and the Somer Valley — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Radstock, web design Radstock, website for business Radstock, Somer Valley website design, Radstock web design',
+    sections: [
+      {
+        heading: 'Why website design in Radstock matters',
+        paragraphs: [
+          'Radstock and the Somer Valley — Midsomer Norton, Paulton, Peasedown St John — have strong demand for local trades and services. When people search "plumber Radstock" or "electrician Midsomer Norton", they use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Radstock and Somer Valley businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Radstock and Somer Valley businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Radstock businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with the Somer Valley in mind.',
+        ],
+      },
+      {
+        heading: 'Built for local search',
+        paragraphs: [
+          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Radstock, Midsomer Norton, Paulton, Peasedown St John, Bath — help you rank for local searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Radstock or the Somer Valley and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-trowbridge': {
+    slug: 'website-design-trowbridge',
+    title: 'Website Design in Trowbridge: What We Build for Wiltshire Businesses',
+    description: 'Web design for Trowbridge and Wiltshire — fast, mobile-friendly websites for trades and local businesses. Built for local search so you get found on Google and in the map pack.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Trowbridge, web design Trowbridge, website for business Trowbridge, Wiltshire website design, Trowbridge web design',
+    sections: [
+      {
+        heading: 'Why website design in Trowbridge matters',
+        paragraphs: [
+          'Trowbridge is the county town of Wiltshire with strong demand for local trades and services. When people in Trowbridge and the surrounding area search for a plumber, electrician, or builder, they use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Trowbridge and Wiltshire businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Trowbridge businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Trowbridge and Wiltshire, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Trowbridge businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Trowbridge and Wiltshire in mind.',
+        ],
+      },
+      {
+        heading: 'Built for local search',
+        paragraphs: [
+          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Trowbridge, Bradford on Avon, Melksham, Westbury, and the wider Wiltshire area — help you rank for local searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Trowbridge or Wiltshire and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

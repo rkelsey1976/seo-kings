@@ -53,6 +53,34 @@ const posts = [
     date: '2026-02-08',
     readTime: '5 min read',
   },
+  {
+    slug: 'website-design-bath',
+    title: 'Website Design in Bath: What We Build for Trades and Local Businesses',
+    excerpt: 'Fast, mobile-friendly websites for Bath businesses — from one-page sites to full multi-page. Built for local search so you get found on Google and in the map pack.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'website-design-keynsham',
+    title: 'Website Design in Keynsham: What We Build for Local Businesses',
+    excerpt: 'Web design for Keynsham and BS31 — fast sites that rank. We build for trades and local services so you get found on Google and convert more visitors into customers.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'website-design-radstock',
+    title: 'Website Design in Radstock: What We Build for Somer Valley Businesses',
+    excerpt: 'Web design for Radstock and the Somer Valley — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'website-design-trowbridge',
+    title: 'Website Design in Trowbridge: What We Build for Wiltshire Businesses',
+    excerpt: 'Web design for Trowbridge and Wiltshire — fast sites for trades and local businesses. Built for local search so you get found on Google and in the map pack.',
+    date: '2026-02-08',
+    readTime: '4 min read',
+  },
 ];
 
 const Blog = () => {
