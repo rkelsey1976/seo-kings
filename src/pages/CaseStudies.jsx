@@ -1,160 +1,13 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
 const CaseStudies = () => {
-  const [activeFilter, setActiveFilter] = useState('all');
-
-  const filters = [
-    { id: 'all', label: 'All Industries' },
-    { id: 'trades', label: 'Tradespeople' },
-    { id: 'hospitality', label: 'Hospitality' },
-    { id: 'services', label: 'Local Services' },
-  ];
-
   const caseStudies = [
     {
       id: 1,
-      slug: 'mitchell-plumbing',
-      business: 'Mitchell Plumbing',
-      industry: 'trades',
-      location: 'Bath, BA1',
-      logo: 'MP',
-      image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Professional plumber working in Bath - Mitchell Plumbing SEO case study showing 340% increase in leads',
-      challenge: 'Struggling to get found online, relying entirely on word-of-mouth referrals.',
-      solution: 'Complete local SEO overhaul including website optimisation, Google Business Profile management, and review strategy.',
-      results: [
-        { metric: '340%', label: 'Increase in enquiries' },
-        { metric: '#1', label: 'Google ranking for "plumber Bath"' },
-        { metric: '50+', label: 'New 5-star reviews' },
-      ],
-      timeframe: '4 months',
-      quote: "Before SEO Kings, I was getting maybe 2-3 calls a week. Now I'm turning work away. Best investment I've made in my business.",
-      author: 'Dave Mitchell',
-      role: 'Owner',
-      services: ['Local SEO', 'Google Business Profile'],
-      color: 'from-primary to-primary-dark',
-    },
-    {
-      id: 2,
-      slug: 'keynsham-electrics',
-      business: 'Keynsham Electrics',
-      industry: 'trades',
-      location: 'Keynsham, BS31',
-      logo: 'KE',
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Electrician performing electrical installation in Keynsham - local SEO success story with 52 monthly calls',
-      challenge: 'New business with no online presence, competing against established electricians.',
-      solution: 'Built a conversion-focused website and implemented aggressive local SEO strategy targeting Keynsham and surrounding areas.',
-      results: [
-        { metric: '+52', label: 'Calls per month' },
-        { metric: 'Top 3', label: 'For 15+ local keywords' },
-        { metric: '£85K', label: 'Revenue in first year' },
-      ],
-      timeframe: '3 months',
-      quote: "They explained everything in plain English, no techy nonsense. Within 3 months I was on the first page of Google.",
-      author: 'Sarah Thompson',
-      role: 'Director',
-      services: ['Website Design', 'Local SEO'],
-      color: 'from-secondary to-secondary-dark',
-    },
-    {
-      id: 3,
-      slug: 'norton-roofing',
-      business: 'Norton Roofing',
-      industry: 'trades',
-      location: 'Midsomer Norton, BA3',
-      logo: 'NR',
-      image: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Roofer working on roof in Midsomer Norton - Google Business Profile optimisation case study with dozens of new reviews',
-      challenge: 'Zero Google reviews and invisible in local searches despite 20 years in business.',
-      solution: 'Review generation campaign, GBP optimisation, and local citation building across BANES.',
-      results: [
-        { metric: '50+', label: 'Google reviews gained' },
-        { metric: '£180K', label: 'In new contracts' },
-        { metric: '5★', label: 'Average rating' },
-      ],
-      timeframe: '6 months',
-      quote: "I was skeptical at first, but the results speak for themselves. My Google Business Profile now gets 50+ views a day.",
-      author: 'Mark Williams',
-      role: 'Owner',
-      services: ['Google Business Profile', 'Local SEO'],
-      color: 'from-accent to-accent-dark',
-    },
-    {
-      id: 4,
-      slug: 'the-bath-kitchen',
-      business: 'The Bath Kitchen',
-      industry: 'hospitality',
-      location: 'Bath, BA1',
-      logo: 'TBK',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Restaurant interior in Bath city centre - The Bath Kitchen SEO case study showing 120% increase in online bookings',
-      challenge: 'High competition in Bath restaurant scene, struggling to stand out online.',
-      solution: 'Website redesign with online booking integration, local SEO, and review management strategy.',
-      results: [
-        { metric: '+120%', label: 'Online bookings' },
-        { metric: '#2', label: 'For "restaurant Bath"' },
-        { metric: '200+', label: 'New reviews in 6 months' },
-      ],
-      timeframe: '5 months',
-      quote: "Our online bookings have more than doubled. The new website looks fantastic and actually converts visitors.",
-      author: 'James & Emma Cole',
-      role: 'Owners',
-      services: ['Website Design', 'Local SEO', 'Google Business Profile'],
-      color: 'from-orange-500 to-red-500',
-    },
-    {
-      id: 5,
-      slug: 'radstock-dental',
-      business: 'Radstock Dental',
-      industry: 'services',
-      location: 'Radstock, BA3',
-      logo: 'RD',
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Modern dental practice in Radstock - local SEO case study showing 75% increase in private patient enquiries',
-      challenge: 'Wanted to attract more private patients rather than relying solely on NHS.',
-      solution: 'Targeted SEO campaign for high-value dental services, new service pages, and local visibility boost.',
-      results: [
-        { metric: '+75%', label: 'Private patient enquiries' },
-        { metric: '£250K', label: 'Additional revenue' },
-        { metric: '#1', label: 'For "dentist Radstock"' },
-      ],
-      timeframe: '6 months',
-      quote: "We've seen a significant shift towards private patients. The ROI on our SEO investment has been incredible.",
-      author: 'Dr. Sarah Patel',
-      role: 'Practice Owner',
-      services: ['Local SEO', 'Website Design'],
-      color: 'from-teal-500 to-cyan-500',
-    },
-    {
-      id: 6,
-      slug: 'saltford-garden-centre',
-      business: 'Saltford Garden Centre',
-      industry: 'services',
-      location: 'Saltford, BS31',
-      logo: 'SGC',
-      image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Beautiful garden centre plants in Saltford - local SEO case study with 200% traffic increase and 35% more footfall',
-      challenge: 'Competing with big chain garden centres, needed to highlight local expertise.',
-      solution: 'Content strategy showcasing local knowledge, seasonal SEO campaigns, and Google Business Profile optimization.',
-      results: [
-        { metric: '+200%', label: 'Website traffic' },
-        { metric: '35%', label: 'Increase in footfall' },
-        { metric: '500+', label: 'Email subscribers' },
-      ],
-      timeframe: '8 months',
-      quote: "People now find us when searching for gardening advice in the area. It's brought in customers we'd never have reached.",
-      author: 'Tom & Linda Harris',
-      role: 'Owners',
-      services: ['Local SEO', 'Google Business Profile'],
-      color: 'from-green-500 to-emerald-500',
-    },
-    {
-      id: 7,
       slug: 'peachy-cleans',
       business: 'Peachy Cleans',
       industry: 'services',
@@ -176,17 +29,6 @@ const CaseStudies = () => {
       services: ['Website Design', 'Local SEO'],
       color: 'from-pink-500 to-rose-500',
     },
-  ];
-
-  const filteredCaseStudies = activeFilter === 'all' 
-    ? caseStudies 
-    : caseStudies.filter(cs => cs.industry === activeFilter);
-
-  const stats = [
-    { value: '£2.4M+', label: 'Revenue generated for clients' },
-    { value: '340%', label: 'Average increase in leads' },
-    { value: '150+', label: 'Local businesses helped' },
-    { value: '98%', label: 'Client retention rate' },
   ];
 
   return (
@@ -224,46 +66,11 @@ const CaseStudies = () => {
         </div>
       </section>
 
-      {/* Stats Bar */}
-      <section className="py-12 bg-dark-lighter border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {stats.map((stat, index) => (
-              <div key={index}>
-                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-1">{stat.value}</div>
-                <div className="text-gray-400 text-sm">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Filter Tabs */}
-      <section className="py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-3">
-            {filters.map((filter) => (
-              <button
-                key={filter.id}
-                onClick={() => setActiveFilter(filter.id)}
-                className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                  activeFilter === filter.id
-                    ? 'bg-primary text-white'
-                    : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
-                }`}
-              >
-                {filter.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Case Studies Grid */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8">
-            {filteredCaseStudies.map((study) => (
+          <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {caseStudies.map((study) => (
               <div
                 key={study.id}
                 className="bg-dark-card border border-white/5 rounded-2xl overflow-hidden hover:border-white/10 transition-all duration-300 group"
@@ -361,7 +168,7 @@ const CaseStudies = () => {
           </div>
 
           {/* Empty State */}
-          {filteredCaseStudies.length === 0 && (
+          {caseStudies.length === 0 && (
             <div className="text-center py-16">
               <p className="text-gray-400">No case studies found for this filter.</p>
               <button

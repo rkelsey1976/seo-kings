@@ -20,9 +20,9 @@ const tradesData = {
       'Monthly reporting so you see rankings, calls and form leads',
     ],
     caseStudy: {
-      slug: 'mitchell-plumbing',
-      business: 'Mitchell Plumbing',
-      snippet: "We helped Mitchell Plumbing rank #1 for 'plumber Bath' within 4 months. They've had to hire more staff to handle the enquiries.",
+      slug: 'peachy-cleans',
+      business: 'Peachy Cleans',
+      snippet: "See how we helped a local business get found on Google — website and local SEO in Midsomer Norton.",
     },
     faqs: [
       { q: 'How much does SEO cost for a plumber?', a: 'Our local SEO packages start from £500/month. We tailor the plan to your area and competition. Every plumber gets a free audit first so you know exactly what we\'d do and what it would cost.' },
@@ -46,9 +46,9 @@ const tradesData = {
       'Monthly reports: rankings, traffic, calls and leads',
     ],
     caseStudy: {
-      slug: 'keynsham-electrics',
-      business: 'Keynsham Electrics',
-      snippet: "We built a conversion-focused website and ran aggressive local SEO for Keynsham Electrics. They now get dozens of qualified calls every month from local searches.",
+      slug: 'peachy-cleans',
+      business: 'Peachy Cleans',
+      snippet: "See how we helped a local business get found on Google — website and local SEO in Midsomer Norton.",
     },
     faqs: [
       { q: 'How much does SEO cost for an electrician?', a: 'Our local SEO packages start from £500/month. We offer a free audit first: we\'ll check your current rankings, your Google Business Profile and your website, then give you a clear plan and quote.' },
@@ -72,9 +72,9 @@ const tradesData = {
       'Monthly reporting: rankings, calls and leads',
     ],
     caseStudy: {
-      slug: 'norton-roofing',
-      business: 'Norton Roofing',
-      snippet: "We helped Norton Roofing dominate local roofing searches in the Somer Valley. They now rank at the top for their key terms and get a steady flow of qualified enquiries.",
+      slug: 'peachy-cleans',
+      business: 'Peachy Cleans',
+      snippet: "See how we helped a local business get found on Google — website and local SEO in Midsomer Norton.",
     },
     faqs: [
       { q: 'How much does SEO cost for a roofer?', a: 'Our local SEO packages start from £500/month. We tailor everything to your area and competition. You get a free audit first so you know exactly what we\'d do and the cost.' },
