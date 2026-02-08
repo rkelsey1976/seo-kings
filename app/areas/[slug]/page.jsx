@@ -10,6 +10,10 @@ export function generateStaticParams() {
     { slug: 'paulton' },
     { slug: 'saltford' },
     { slug: 'timsbury' },
+    { slug: 'westfield' },
+    { slug: 'chew-magna' },
+    { slug: 'temple-cloud' },
+    { slug: 'clutton' },
   ];
 }
 

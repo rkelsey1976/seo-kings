@@ -308,10 +308,10 @@ const About = () => {
               { name: 'Paulton', slug: 'paulton' },
               { name: 'Saltford', slug: 'saltford' },
               { name: 'Timsbury', slug: 'timsbury' },
-              { name: 'Westfield', slug: null },
-              { name: 'Chew Magna', slug: null },
-              { name: 'Temple Cloud', slug: null },
-              { name: 'Clutton', slug: null },
+              { name: 'Westfield', slug: 'westfield' },
+              { name: 'Chew Magna', slug: 'chew-magna' },
+              { name: 'Temple Cloud', slug: 'temple-cloud' },
+              { name: 'Clutton', slug: 'clutton' },
             ].map((area, index) => (
               <div
                 key={index}

@@ -72,6 +72,38 @@ const Areas = () => {
       population: '3,000+',
       image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop&auto=format&q=80',
     },
+    {
+      name: 'Westfield',
+      slug: 'westfield',
+      description: 'Village in the Somer Valley near Radstock',
+      postcodes: 'BA3',
+      population: '2,000+',
+      image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop&auto=format&q=80',
+    },
+    {
+      name: 'Chew Magna',
+      slug: 'chew-magna',
+      description: 'Village in the Chew Valley',
+      postcodes: 'BS40',
+      population: '1,200+',
+      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&auto=format&q=80',
+    },
+    {
+      name: 'Temple Cloud',
+      slug: 'temple-cloud',
+      description: 'Village in the Cam Valley near Paulton',
+      postcodes: 'BS39',
+      population: '1,500+',
+      image: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?w=400&h=300&fit=crop&auto=format&q=80',
+    },
+    {
+      name: 'Clutton',
+      slug: 'clutton',
+      description: 'Village in the Cam Valley near Temple Cloud',
+      postcodes: 'BS39',
+      population: '1,800+',
+      image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop&auto=format&q=80',
+    },
   ];
 
   return (

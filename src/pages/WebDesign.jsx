@@ -241,6 +241,10 @@ const WebDesign = () => {
             <Link href="/areas/paulton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Paulton</Link>
             <Link href="/areas/saltford" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Saltford</Link>
             <Link href="/areas/timsbury" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Timsbury</Link>
+            <Link href="/areas/westfield" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Westfield</Link>
+            <Link href="/areas/chew-magna" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Chew Magna</Link>
+            <Link href="/areas/temple-cloud" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Temple Cloud</Link>
+            <Link href="/areas/clutton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Clutton</Link>
             <Link href="/web-design-packages" className="px-4 py-2 bg-primary/20 border border-primary/30 rounded-full text-sm text-primary-light hover:text-white transition-all">All packages</Link>
           </div>
         </div>
