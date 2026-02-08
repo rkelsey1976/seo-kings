@@ -20,7 +20,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '95,000+',
       heroImage: 'https://images.unsplash.com/photo-1589996448606-27d38d70f566?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Bath | Trades & Businesses in Bath & BANES – SEO Kings',
-      metaDescription: 'Get more customers in Bath. We help plumbers, electricians, builders, roofers, hospitality, and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'Get more customers in Bath. We help plumbers, electricians, builders, roofers, hospitality, and trades rank higher on Google. We also offer website design in Bath. Free SEO audit today.',
       heroHeadline: 'Local SEO in Bath',
       heroSubhead: 'More Calls. More Jobs. From Google.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
@@ -120,7 +120,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '16,000+',
       heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Keynsham | More Customers for Trades in Keynsham – SEO Kings',
-      metaDescription: 'Get more Google calls in Keynsham. We help plumbers, electricians, builders and local trades rank higher. Free audit. No obligation.',
+      metaDescription: 'Get more Google calls in Keynsham. We help plumbers, electricians, builders and local trades rank higher. We also offer website design in Keynsham. Free audit. No obligation.',
       heroHeadline: 'Local SEO Keynsham',
       heroSubhead: 'Get More Customers From Google in Keynsham',
       description: 'We help tradespeople and small businesses in Keynsham rank higher on Google and win more local jobs — guaranteed results.',
@@ -224,7 +224,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '11,000+',
       heroImage: 'https://images.unsplash.com/photo-1517030330234-94c4fb948ebc?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Midsomer Norton | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local jobs in Midsomer Norton. We help plumbers, electricians, roofers, builders and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'Get more local jobs in Midsomer Norton. We help plumbers, electricians, roofers, builders and trades rank higher on Google. We also offer website design in Midsomer Norton. Free SEO audit today.',
       heroHeadline: 'Local SEO in Midsomer Norton',
       heroSubhead: 'More Customers. More Calls. From Google.',
       description: 'Midsomer Norton is a historic market town in the Somer Valley. With around 11,000 residents and a strong community, local trades get steady work from nearby homes and villages.',
@@ -320,6 +320,8 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '6,000+',
       heroImage: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&h=600&fit=crop&auto=format&q=80',
+      metaTitle: 'Local SEO Radstock | Trades & Businesses – SEO Kings',
+      metaDescription: 'Get more local customers in Radstock. We help plumbers, electricians, builders and trades rank higher on Google. We also offer website design in Radstock. Free SEO audit today.',
       description: 'Radstock is a former mining town with a rich heritage and strong community spirit. Local businesses here serve both Radstock residents and the wider Somer Valley area.',
       extendedDescription: 'Radstock\'s close-knit community means word-of-mouth is powerful, but increasingly locals turn to Google first. Businesses that combine great service with strong online visibility thrive in Radstock.',
       industries: ['Trades', 'Retail', 'Services', 'Food & Drink'],
@@ -372,7 +374,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '6,500+',
       heroImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Peasedown St John | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Peasedown St John. We help plumbers, electricians, builders and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'Get more local customers in Peasedown St John. We help plumbers, electricians, builders and trades rank higher on Google. We also offer website design in Peasedown St John. Free SEO audit today.',
       heroHeadline: 'Local SEO in Peasedown St John',
       heroSubhead: 'More Calls. More Jobs. From Google.',
       description: 'Peasedown St John is a growing village just south of Bath. New homes mean more people need local trades. Plumbers, electricians, builders – customers search Google right here.',
@@ -458,7 +460,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '5,300+',
       heroImage: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Paulton | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'More local customers in Paulton. We help plumbers, electricians, cleaners, builders and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'More local customers in Paulton. We help plumbers, electricians, cleaners, builders and trades rank higher on Google. We also offer website design in Paulton. Free SEO audit today.',
       heroHeadline: 'Local SEO in Paulton',
       heroSubhead: 'More Calls. More Jobs. From Google.',
       description: 'Paulton is a friendly village in the Cam Valley with about 5,300–6,500 residents. Well-connected to Bath and nearby towns. Businesses here serve locals plus visitors to the area (including nearby Paultons Park).',
@@ -555,7 +557,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '5,000+',
       heroImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Saltford | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Saltford. We help plumbers, electricians, builders, decorators, and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'Get more local customers in Saltford. We help plumbers, electricians, builders, decorators, and trades rank higher on Google. We also offer website design in Saltford. Free SEO audit today.',
       heroHeadline: 'Local SEO in Saltford',
       heroSubhead: 'More Calls. More Jobs. From Google.',
       description: 'Saltford is a picturesque riverside village on the River Avon, between Bath and Bristol. About 5,000–6,000 residents enjoy an affluent community and scenic setting.',
@@ -652,7 +654,7 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '2,600+',
       heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=600&fit=crop&auto=format&q=80',
       metaTitle: 'Local SEO Timsbury | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local jobs in Timsbury. We help builders, plumbers, electricians, gardeners, and trades rank higher on Google. Free SEO audit today.',
+      metaDescription: 'Get more local jobs in Timsbury. We help builders, plumbers, electricians, gardeners, and trades rank higher on Google. We also offer website design in Timsbury. Free SEO audit today.',
       heroHeadline: 'Local SEO in Timsbury',
       heroSubhead: 'More Calls. More Jobs. From Google.',
       description: 'Timsbury is a charming rural village near Paulton and Midsomer Norton. Around 2,600 residents enjoy a close-knit community and peaceful setting.',
@@ -835,7 +837,7 @@ const AreaDetail = ({ params: staticParams }) => {
       <SEO
         title={area.metaTitle || `Local SEO in ${area.name} | SEO Kings`}
         description={area.metaDescription || `Local SEO in ${area.name}. We help ${area.name} businesses rank higher on Google and get more customers. Free audit.`}
-        keywords={`SEO ${area.name}, local SEO ${area.name}, Google ranking ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, digital marketing ${area.name}, SEO agency ${area.name}`}
+        keywords={`SEO ${area.name}, local SEO ${area.name}, website design ${area.name}, web design ${area.name}, Google ranking ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, digital marketing ${area.name}, SEO agency ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
         schemas={[breadcrumbSchema, serviceSchema, faqSchema]}
@@ -1102,6 +1104,27 @@ const AreaDetail = ({ params: staticParams }) => {
               </svg>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Website design in [Area] – SEO for website design + location */}
+      <section className="py-16 bg-dark-lighter">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Website design in {area.name}
+          </h2>
+          <p className="text-gray-400 mb-6 leading-relaxed">
+            We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote for web design in {area.name}.
+          </p>
+          <Link
+            href="/web-design"
+            className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold transition-colors"
+          >
+            Website design {area.name}
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </section>
 
