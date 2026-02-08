@@ -4,7 +4,7 @@ import Hero from '../components/Hero/Hero';
 import Services from '../components/Services';
 import HowItWorks from '../components/HowItWorks';
 import Results from '../components/Results';
-import Testimonials from '../components/Testimonials';
+import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
       <Services />
       <HowItWorks />
       <Results />
-      <Testimonials />
+      <Spotlight />
       <CTABanner />
     </>
   );

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
-import Testimonials from '../components/Testimonials';
+import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 
@@ -340,7 +340,7 @@ const LocalSEO = () => {
         </div>
       </section>
 
-      <Testimonials />
+      <Spotlight />
       <CTABanner />
     </>
   );

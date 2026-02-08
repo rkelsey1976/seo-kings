@@ -3,7 +3,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
-import Testimonials from '../components/Testimonials';
+import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 
@@ -104,9 +104,9 @@ const WebDesign = () => {
   return (
     <>
       <SEO
-        title="Website Design for Local Businesses in Bath"
-        description="Website design for Bath & BANES businesses. Mobile-friendly, fast, SEO-ready sites that convert. Free quote."
-        keywords="website design Bath, web design BANES, website for tradesmen, local business website, mobile website Bath, web developer Bath, small business website Somerset"
+        title="Website Design Bath | Web Design BANES & Trowbridge – SEO Kings"
+        description="Website design in Bath, Keynsham, Midsomer Norton, Trowbridge & BANES. Mobile-friendly, SEO-ready sites from £399. Free quote for trades and local businesses."
+        keywords="website design Bath, web design Bath, website design BANES, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -124,10 +124,16 @@ const WebDesign = () => {
               "name": "SEO Kings",
               "url": "https://seo-kings.co.uk"
             },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Bath and North East Somerset"
-            },
+            "areaServed": [
+              { "@type": "City", "name": "Bath" },
+              { "@type": "AdministrativeArea", "name": "Bath and North East Somerset" },
+              { "@type": "City", "name": "Keynsham" },
+              { "@type": "City", "name": "Midsomer Norton" },
+              { "@type": "City", "name": "Radstock" },
+              { "@type": "City", "name": "Trowbridge" },
+              { "@type": "AdministrativeArea", "name": "Somerset" },
+              { "@type": "AdministrativeArea", "name": "Wiltshire" }
+            ],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
               "name": "Website Design Packages",
@@ -155,7 +161,7 @@ const WebDesign = () => {
         badge="Website Design"
         title="Websites That Turn Visitors Into"
         highlight="Customers"
-        description="Custom-built websites for tradespeople and local businesses in BANES. No templates, no nonsense — just sites that look great and generate leads."
+        description="Custom-built websites for tradespeople and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and BANES. No templates, no nonsense — just sites that look great and generate leads."
         features={heroFeatures}
         ctaText="Get a Free Quote"
       />
@@ -198,6 +204,28 @@ const WebDesign = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Areas we serve – target website design + location keywords */}
+      <section className="py-24">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
+            Areas we serve
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            Website Design in <span className="gradient-text">Bath, BANES & Beyond</span>
+          </h2>
+          <p className="text-lg text-gray-400 mb-8">
+            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset (BANES). We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £399 to full multi-page sites — get a free quote.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href="/areas/bath" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Bath</Link>
+            <Link href="/areas/keynsham" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Keynsham</Link>
+            <Link href="/areas/midsomer-norton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Midsomer Norton</Link>
+            <Link href="/areas/radstock" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Radstock</Link>
+            <Link href="/web-design-packages" className="px-4 py-2 bg-primary/20 border border-primary/30 rounded-full text-sm text-primary-light hover:text-white transition-all">All packages</Link>
           </div>
         </div>
       </section>
@@ -287,7 +315,7 @@ const WebDesign = () => {
         </div>
       </section>
 
-      <Testimonials />
+      <Spotlight />
       <CTABanner />
     </>
   );

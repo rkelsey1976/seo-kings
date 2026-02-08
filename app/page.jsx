@@ -5,7 +5,7 @@ import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
 import Results from '../src/components/Results';
 
-const Testimonials = dynamic(() => import('../src/components/Testimonials'), { ssr: true });
+const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: true });
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
 
 export const metadata = {
@@ -23,7 +23,7 @@ export default function HomePage() {
       <Services />
       <HowItWorks />
       <Results />
-      <Testimonials />
+      <Spotlight />
       <CTABanner />
     </>
   );

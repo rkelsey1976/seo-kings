@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
-import Testimonials from '../components/Testimonials';
+import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 
 const packages = [
@@ -90,8 +90,8 @@ const WebDesignPackages = () => {
     <>
       <SEO
         title="Web Design Packages | Bath & BANES"
-        description="Web design packages for local businesses in Bath & BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
-        keywords="web design packages Bath, website packages BANES, pay monthly website, business website cost, web design price Bath, cheap website for trades"
+        description="Web design packages in Bath, Keynsham, Trowbridge & BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
+        keywords="web design packages Bath, website design Bath, website design Trowbridge, website packages BANES, web design Keynsham, business website cost, cheap website for trades"
         canonical="/web-design-packages"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -247,7 +247,7 @@ const WebDesignPackages = () => {
         </div>
       </section>
 
-      <Testimonials />
+      <Spotlight />
       <CTABanner />
     </>
   );
