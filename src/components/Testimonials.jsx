@@ -4,6 +4,16 @@ import SectionDivider from './SectionDivider';
 const Testimonials = () => {
   const testimonials = [
     {
+      quote: "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more.",
+      name: 'Alisha Kelsey',
+      business: 'Peachy Cleans',
+      location: 'Midsomer Norton',
+      trade: 'Cleaning',
+      rating: 5,
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face&auto=format&q=80',
+      url: 'https://peachycleans.info/',
+    },
+    {
       quote: "Best investment we've made. We now dominate local search and our Google reviews have increased significantly.",
       name: 'Mark Williams',
       business: 'Williams Roofing',
@@ -121,7 +131,14 @@ const Testimonials = () => {
                     {testimonial.name}
                   </div>
                   <div className="text-sm text-gray-300">
-                    {testimonial.business} • {testimonial.location}
+                    {testimonial.url ? (
+                      <a href={testimonial.url} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
+                        {testimonial.business}
+                      </a>
+                    ) : (
+                      testimonial.business
+                    )}
+                    {' • '}{testimonial.location}
                   </div>
                 </div>
               </div>

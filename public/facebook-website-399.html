@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Kings – Facebook: Website from £399</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #070B14;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      width: 1200px;
+      height: 630px;
+      max-width: 100%;
+      aspect-ratio: 1200 / 630;
+      background: linear-gradient(135deg, #070B14 0%, #0F1420 40%, #1a1f35 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 70% 30%, rgba(124, 58, 237, 0.28) 0%, transparent 55%),
+                  radial-gradient(ellipse 60% 50% at 20% 80%, rgba(59, 130, 246, 0.2) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .card-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      padding: 64px 72px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 9999px;
+      padding: 10px 20px;
+      margin-bottom: 24px;
+      width: fit-content;
+    }
+    .badge span { font-size: 16px; font-weight: 700; color: #CBD5E1; }
+    .title {
+      font-size: 52px;
+      font-weight: 800;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .title-gradient {
+      background: linear-gradient(90deg, #A78BFA, #60A5FA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .tagline {
+      font-size: 24px;
+      font-weight: 600;
+      color: #94A3B8;
+      margin-bottom: 20px;
+      max-width: 560px;
+    }
+    .bullets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin-bottom: 28px;
+    }
+    .bullets span {
+      font-size: 18px;
+      font-weight: 600;
+      color: #CBD5E1;
+    }
+    .bullets span::before { content: '✓ '; color: #22C55E; }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(90deg, #7C3AED, #3B82F6);
+      padding: 14px 28px;
+      border-radius: 12px;
+      width: fit-content;
+    }
+    .footer { font-size: 14px; color: #64748B; margin-top: 16px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="card-content">
+      <div class="badge">
+        <span>Website design for Bath & BANES trades</span>
+      </div>
+      <h1 class="title">
+        Website From <span class="title-gradient">£399</span>
+      </h1>
+      <p class="tagline">
+        1-page site with everything a trade needs. Get online. Get found.
+      </p>
+      <div class="bullets">
+        <span>Services, contact & area on one page</span>
+        <span>Mobile-friendly</span>
+        <span>SEO included</span>
+        <span>12 months free hosting</span>
+      </div>
+      <div class="cta">Get your quote →</div>
+      <p class="footer">seo-kings.co.uk | 07702 264 921</p>
+    </div>
+  </div>
+</body>
+</html>

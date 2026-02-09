@@ -5,6 +5,13 @@ import CTABanner from '../components/CTABanner';
 
 const posts = [
   {
+    slug: 'how-we-get-you-number-one-google-maps',
+    title: 'How We Get You to Number One on Google Maps',
+    excerpt: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here’s how we help you get into that top spot — in plain English.',
+    date: '2026-02-09',
+    readTime: '5 min read',
+  },
+  {
     slug: 'free-seo-audit-what-we-check',
     title: 'What We Actually Check in Your Free Local SEO Audit',
     excerpt: 'A clear breakdown of what we look at in your free audit: GBP, website, citations, and how we turn that into a plan.',
@@ -88,6 +95,13 @@ const posts = [
     date: '2026-02-08',
     readTime: '4 min read',
   },
+  {
+    slug: 'why-speed-matters-for-seo',
+    title: 'Why Speed Matters for SEO: How Fast Websites Rank Better on Google',
+    excerpt: 'Page speed is a ranking factor and affects user experience. Here\'s why fast websites rank better on Google and what you can do about it.',
+    date: '2026-02-08',
+    readTime: '5 min read',
+  },
 ];
 
 const Blog = () => {
@@ -125,7 +139,9 @@ const Blog = () => {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
-            {posts.map((post) => (
+            {[...posts]
+              .sort((a, b) => new Date(b.date) - new Date(a.date))
+              .map((post) => (
               <article
                 key={post.slug}
                 className="bg-dark-card border border-white/5 rounded-2xl p-6 sm:p-8 hover:border-primary/20 transition-colors"

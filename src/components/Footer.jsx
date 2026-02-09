@@ -209,6 +209,9 @@ const Footer = () => {
               © {currentYear} SEO Kings. All rights reserved.
             </p>
             <div className="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm order-1 sm:order-2">
+              <Link href="/sitemap" className="text-gray-400 hover:text-white transition-colors">
+                Sitemap
+              </Link>
               <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
                 Privacy Policy
               </Link>

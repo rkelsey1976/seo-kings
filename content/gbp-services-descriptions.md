@@ -1,6 +1,6 @@
 # Google Business Profile – Services Descriptions
 
-Add these services in your GBP under **Edit profile → Services**. Use the **Service name** and **Description** exactly as below. **Limit: 120 characters per description.**
+Add these services in your GBP under **Edit profile → Services**. Use the **Service name** and **Description** exactly as below. **Limit: 300 characters per description.**
 
 ---
 
@@ -9,9 +9,9 @@ Add these services in your GBP under **Edit profile → Services**. Use the **Se
 **Service name:** Local SEO  
 **Description (for GBP):**
 ```
-Rank on Google when Bath & BANES customers search. Keyword research, on-page optimisation, local links, monthly reports.
+Local SEO - Rank on Google when Bath & BANES customers search. Keyword research, on-page optimisation, local links. Get in the map pack and show up for "near me" searches. We optimise your website and GBP so you get more calls and enquiries. Monthly reports so you see the results.
 ```
-*Under 120 characters*
+*199 characters*
 
 ---
 
@@ -20,9 +20,9 @@ Rank on Google when Bath & BANES customers search. Keyword research, on-page opt
 **Service name:** Google Business Profile Management  
 **Description (for GBP):**
 ```
-We optimise and manage your GBP so you appear in the map pack. More calls, reviews, posts. Bath & BANES.
+Google Business Profile Management - We optimise and manage your GBP so you appear in the map pack. More calls, reviews, posts. Bath & BANES. We get your categories, description, hours and service area right. Regular posts and photos to keep your profile active. Help with review requests and replies so you look trusted and professional.
 ```
-*97 characters*
+*218 characters*
 
 ---
 
@@ -31,9 +31,9 @@ We optimise and manage your GBP so you appear in the map pack. More calls, revie
 **Service name:** Website Design  
 **Description (for GBP):**
 ```
-Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google.
+Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google and in the map pack. From one-page sites from £399 to full multi-page. Built for local search so you get found when customers search. Clear calls to action, click-to-call, contact forms.
 ```
-*88 characters*
+*199 characters*
 
 ---
 
@@ -42,9 +42,9 @@ Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, con
 **Service name:** Google Business Profile Setup  
 **Description (for GBP):**
 ```
-Google Business Profile - One-time GBP setup: claim, verify, add categories, hours, photos. Get visible in the map pack. Bath & BANES.
+Google Business Profile Setup - One-time GBP setup: claim, verify, add categories, hours, service area and description. We add photos and get your profile ready so you can show up in the map pack when Bath & BANES customers search. No ongoing management included; ideal if you want to do the rest yourself.
 ```
-*95 characters*
+*218 characters*
 
 ---
 
@@ -53,9 +53,9 @@ Google Business Profile - One-time GBP setup: claim, verify, add categories, hou
 **Service name:** Free Local SEO Audit  
 **Description (for GBP):**
 ```
-Free audit: we check your GBP, website and local rankings for Bath & BANES. Clear report, no obligation.
+Free Local SEO Audit - We check your GBP, website and local rankings for Bath & BANES. Clear report showing what's working and what to fix. No obligation. See where you stand for "near me" and map pack searches. Get a simple action plan to improve visibility and get more calls.
 ```
-*92 characters*
+*199 characters*
 
 ---
 

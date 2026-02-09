@@ -515,6 +515,121 @@ const blogPosts = {
       { href: '/contact', label: 'Get a free quote' },
     ],
   },
+  'why-speed-matters-for-seo': {
+    slug: 'why-speed-matters-for-seo',
+    title: 'Why Speed Matters for SEO: How Fast Websites Rank Better on Google',
+    description: 'Page speed is a ranking factor and affects user experience. Here\'s why fast websites rank better on Google and what you can do about it.',
+    date: '2026-02-08',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'website speed SEO, page speed ranking, Core Web Vitals, Lighthouse 95, fast website Google, site speed Bath',
+    sections: [
+      {
+        heading: 'Speed is a ranking factor',
+        paragraphs: [
+          'Google has said for years that page speed matters for search. Faster sites tend to rank better, all else equal, because they give users a better experience. If your site takes five seconds to load and a competitor\'s takes one second, Google has a signal that your page may be less satisfying. For local businesses in Bath, Keynsham, Midsomer Norton, and across BANES, that can mean the difference between showing up on page one or losing clicks to faster competitors.',
+        ],
+      },
+      {
+        heading: 'Core Web Vitals: what Google measures',
+        paragraphs: [
+          'Google uses Core Web Vitals to judge how your page performs in the real world. Largest Contentful Paint (LCP) measures how quickly the main content appears — ideally under 2.5 seconds. Interaction to Next Paint (INP) reflects how responsive the page feels when users tap or click. Cumulative Layout Shift (CLS) measures visual stability; if things jump around as the page loads, users get frustrated and Google takes note. When we build or audit sites, we target good scores on all three so your site is both fast and stable.',
+        ],
+      },
+      {
+        heading: 'Slow sites lose visitors before they convert',
+        paragraphs: [
+          'Even if Google didn\'t use speed as a ranking signal, slow sites would still hurt you. Research shows that users abandon pages that take too long to load. On mobile — where most local searches happen — patience is even shorter. A slow site means more people leave before they call, fill in a form, or find your address. So speed isn\'t just about SEO; it\'s about turning visitors into customers.',
+        ],
+      },
+      {
+        heading: 'Mobile speed matters most for local search',
+        paragraphs: [
+          'When someone searches "plumber Bath" or "electrician near me" on their phone, they want an answer fast. If your site is slow on mobile, they\'ll tap a competitor or go back to the search results. Google\'s index is mobile-first, so the version of your site that Google primarily uses is the mobile one. If that version is slow or poorly built, you\'re at a disadvantage for local and map-pack visibility. We build every site to perform well on mobile first.',
+        ],
+      },
+      {
+        heading: 'How we optimise for performance — Lighthouse scores over 95',
+        paragraphs: [
+          'We optimise every site we build for performance from day one. That means optimised images (right size, format, lazy loading), minimal JavaScript, clean code, and fast hosting. We use Google\'s Lighthouse to measure performance, accessibility, best practices, and SEO — and we aim for scores of 95 and above across the board. Hitting those scores isn\'t luck; it\'s how we build. Right from the first design and the first line of code, we keep performance in mind so your site loads quickly, works for everyone, and sends the right signals to Google.',
+          'That doesn\'t mean boring or plain. It means we choose the right tech and structure so your site looks great without sacrificing speed. Every site we build for Bath, Keynsham, Midsomer Norton, and across BANES is built to perform — so you get a site that ranks and converts.',
+        ],
+      },
+      {
+        heading: 'What you can do: optimise or rebuild',
+        paragraphs: [
+          'If your current site is slow, you have two paths. First, we can audit it and suggest fixes: image optimisation, caching, trimming bloat, better hosting. Sometimes small changes make a big difference. Second, if the site is old or built on a heavy platform, a rebuild may be the better long-term option. We build fast, lightweight sites from the start so you don\'t have to fight speed issues later. Either way, improving speed helps both rankings and conversions.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you want to know how your site stacks up, we offer a free check: we look at your current website and Google listing and show you where speed (and other factors) could be improved. No obligation. Get in touch for a free audit or a chat about building a fast site that ranks.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design' },
+      { href: '/contact', label: 'Free speed & SEO check' },
+    ],
+  },
+  'how-we-get-you-number-one-google-maps': {
+    slug: 'how-we-get-you-number-one-google-maps',
+    title: 'How We Get You to Number One on Google Maps',
+    description: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here’s how we help you get into that top spot — in plain English.',
+    date: '2026-02-09',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'number one Google Maps, rank first Google Maps, map pack Bath, local search top spot, get found on Google Maps',
+    sections: [
+      {
+        heading: 'What we mean by “number one on Google Maps”',
+        paragraphs: [
+          'When someone types “plumber Bath” or “cleaner near me” into Google, they often see a map with three businesses right at the top. That’s the bit we care about. Get into one of those three spots and you get more calls, more clicks and more jobs. Miss it and a lot of that work goes to someone else.',
+          'So “number one” for us means: getting your business into that top map section — and ideally in the first position — when people in your area search for what you do. We do this for trades and local businesses in Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge and the surrounding areas.',
+        ],
+      },
+      {
+        heading: 'Google is basically asking: “Is this business real, relevant and good?”',
+        paragraphs: [
+          'Google doesn’t magic those top spots out of nowhere. It’s trying to show people businesses that are real, in the right place, and that other people have had a good experience with. So we make sure your business answers those questions clearly.',
+          'That means: your name, address, phone number and website are correct and the same everywhere Google looks. It means your Google Business Profile (your free listing on Google Maps and Search) is filled out properly and kept up to date. And it means your website actually backs up what you do and where you work, so Google can join the dots.',
+        ],
+      },
+      {
+        heading: 'Your Google Business Profile has to do the heavy lifting',
+        paragraphs: [
+          'Your Google Business Profile is the main thing Google uses to decide whether to show you on the map. If it’s incomplete, wrong or rarely updated, you’re starting with a handicap. We get it claimed, verified and filled in properly: the right categories, a clear description of what you do and where you serve, opening hours, photos and a link to your website.',
+          'We also help you keep it active. Google likes to see that a business is still going — so we use posts, updates and new photos in a way that makes sense for your business. We don’t give away every trick we use, but the idea is simple: your profile should look like a real, busy, trustworthy business that’s worth showing at the top.',
+        ],
+      },
+      {
+        heading: 'Your website has to back you up',
+        paragraphs: [
+          'Google looks at your website as well. If your site is slow, hard to use on a phone or doesn’t clearly say what you do and where you work, it’s harder to get to number one. We build or fix sites so they load quickly, work well on mobiles and spell out your services and areas in a way both customers and Google understand.',
+          'We make sure the details on your site match your Google listing exactly. Conflicting information makes Google less confident about showing you at the top. When your website and your Google profile tell the same story, you’re in a much stronger position.',
+        ],
+      },
+      {
+        heading: 'Reviews and reputation matter',
+        paragraphs: [
+          'Reviews don’t just help customers choose you — they help Google decide who to put at the top. We help you get more genuine Google reviews from real customers and respond to them in a way that looks professional. We don’t buy reviews or do anything that breaks Google’s rules; we focus on asking the right people at the right time and making it easy for them to leave a review.',
+          'Over time, a steady flow of good reviews and thoughtful replies sends a clear signal: this business is real, people use it and they’re happy. That’s the kind of signal that supports a top spot on the map.',
+        ],
+      },
+      {
+        heading: 'We don’t promise magic — we promise a proper plan',
+        paragraphs: [
+          'Nobody can guarantee you’ll be number one tomorrow. Google’s algorithm changes, and your competitors are trying too. What we do is put in place the things that actually move the needle: a complete, accurate Google Business Profile, a website that supports it, consistent details everywhere and a sensible approach to reviews and activity.',
+          'We’ve done this for local businesses in Bath, BANES and beyond — including getting clients to number one for their main search terms. If you want to see where you stand and what would help you most, we offer a free check of your Google listing and website. No jargon, no hard sell — just a clear picture and next steps in language you can understand.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/contact', label: 'Get a free check' },
+      { href: '/local-seo', label: 'How we do local SEO' },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {
