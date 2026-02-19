@@ -4,6 +4,45 @@ Master list of keywords we target on the site, area pages, GBP, and content. Use
 
 ---
 
+## Main keywords to target in Google (priority focus)
+
+These are the core searches you want to own. Use them in titles, H1s, meta descriptions, GBP, and key landing pages first.
+
+**Tier 1 – Highest priority (brand + core service + location)**  
+- **website designer** (main keyword)  
+- website designer Bath  
+- website designer BANES  
+- local SEO Bath  
+- local SEO BANES  
+- SEO agency Bath  
+- Google Business Profile Bath  
+- website design Bath  
+- website design BANES  
+
+**Tier 2 – Strong intent (offer + audience)**  
+- free SEO audit Bath  
+- free local SEO audit  
+- SEO for trades  
+- Google Business Profile BANES  
+- web design Bath  
+- website designer near me  
+- get found on Google Bath  
+
+**Tier 3 – Area + service (for area pages & map pack)**  
+- [trade] Bath — e.g. plumber Bath, electrician Bath, builder Bath, decorator Bath  
+- [trade] Keynsham, [trade] Midsomer Norton, [trade] Radstock  
+- website design Keynsham / Midsomer Norton / Radstock  
+
+**Tier 4 – Long-tail & conversion**  
+- SEO for plumbers Bath | SEO for electricians Bath  
+- website design for trades Bath  
+- fast website Bath | website that ranks  
+- map pack SEO | rank on Google Bath  
+
+**Why this order:** Tier 1 has the most volume and defines what you do and where. Tier 2 captures people ready to act (free audit, “get found”). Tier 3 feeds area and trade pages so you rank in the pack. Tier 4 supports blogs, posts, and bottom-of-funnel content.
+
+---
+
 ## 1. Brand & service keywords (site-wide)
 
 **Primary**
@@ -219,20 +258,23 @@ Use for service/trade-focused content or landing pages.
 
 ---
 
-## 7. Website design + location (for Web Design page)
+## 7. Website design + website designer + location (for Web Design page)
 
-Use these to target "website design [location]" searches. Add to Web Design page meta, H2 and body copy.
+Use these to target "website design [location]" and "website designer [location]" searches. Add to Web Design page meta, H1, H2 and body copy.
 
-**Primary**
+**Primary (main keyword: website designer)**
+- website designer
+- website designer Bath
+- website designer BANES
 - website design Bath
 - website design BANES
 - web design Bath
 - web design BANES
 
 **Other BANES areas**
-- website design Keynsham
-- website design Midsomer Norton
-- website design Radstock
+- website designer Keynsham | website design Keynsham
+- website designer Midsomer Norton | website design Midsomer Norton
+- website designer Radstock | website design Radstock
 - website design Peasedown St John
 - website design Paulton
 - website design Saltford
@@ -271,6 +313,7 @@ Use these on /web-design, /web-design-packages, blog posts, and GBP. Weave into 
 - website that gets found on Google
 
 **Alternative search terms**
+- website designer | website designer Bath | website designer BANES (main keyword)
 - web design packages Bath
 - website builder Bath (some users search “builder” not “design”)
 - get a website | new website for business

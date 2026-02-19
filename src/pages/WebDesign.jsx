@@ -104,9 +104,9 @@ const WebDesign = () => {
   return (
     <>
       <SEO
-        title="Website Design Bath | Web Design BANES & Trowbridge – SEO Kings"
-        description="Website design in Bath, Keynsham, Midsomer Norton, Trowbridge & BANES. Mobile-friendly, SEO-ready sites from £399. Free quote for trades and local businesses."
-        keywords="website design Bath, web design Bath, website design BANES, one-page website, affordable website, website for trades, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
+        title="Website Designer Bath | Web Design BANES & Trowbridge – SEO Kings"
+        description="Website designer in Bath & BANES — we specialise in trade websites and getting local trades found on Google. Plumbers, electricians, builders: fast, SEO-ready sites from £399."
+        keywords="website designer, website designer Bath, website designer BANES, website design Bath, web design Bath, website design BANES, one-page website, affordable website, website for trades, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -117,8 +117,8 @@ const WebDesign = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             "serviceType": "Website Design",
-            "name": "Website Design for Local Businesses",
-            "description": "Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading websites built to convert visitors into customers.",
+            "name": "Website Designer & Website Design for Local Businesses in Bath & BANES",
+            "description": "We specialise in trade websites and getting local trades found on Google. Custom website design for tradespeople and small businesses in Bath & BANES. Mobile-friendly, fast-loading sites built to convert.",
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
@@ -158,10 +158,10 @@ const WebDesign = () => {
         ]}
       />
       <ServicePageHero
-        badge="Website Design"
-        title="Websites That Turn Visitors Into"
+        badge="Website Designer Bath & BANES"
+        title="Website Designer in Bath & BANES — Sites That Turn Visitors Into"
         highlight="Customers"
-        description="Custom-built websites for tradespeople and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and BANES. No templates, no nonsense — just sites that look great and generate leads."
+        description="We specialise in trade websites and getting local trades found on Google. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and BANES. No templates — sites that look great and generate leads."
         features={heroFeatures}
         ctaText="Get a Free Quote"
       />
@@ -172,14 +172,14 @@ const WebDesign = () => {
         features={features}
       />
 
-      {/* One-page website + affordable + website that ranks */}
+      {/* One-page website + affordable + website designer + website that ranks */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            One-Page Website or Full Site — Affordable Website Design That Ranks
+            We Specialise in Trade Websites — Getting Local Trades Found on Google
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            We offer affordable website design from £399: a one-page website that has everything a trade or small business needs — services, contact, and area info. Or we build full multi-page sites. Every site we build is a website that ranks: fast, mobile-friendly, and set up so you get found on Google and in the map pack. No DIY website builder; we build it for you so it works for local search.
+            We build websites for plumbers, electricians, builders and local trades in Bath & BANES — and we make sure you get found on Google and in the map pack. From £399 for a one-page site with everything a trade needs (services, contact, area info) to full multi-page sites. Every site is fast, mobile-friendly, and set up for local search. No DIY builder; we build it so it works for you.
           </p>
         </div>
       </section>

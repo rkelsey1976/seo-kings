@@ -49,11 +49,11 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: 'Fast Website Design',
+      title: 'Website Designer & Web Design',
       href: '/web-design',
       image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Mobile-first website design for trades in Bath and BANES',
-      description: 'Mobile-first websites built for trades. Fast loading, clear calls-to-action, ready for SEO.',
+      imageAlt: 'Website designer in Bath and BANES — mobile-first, fast, SEO-ready',
+      description: 'We specialise in trade websites and getting local trades found on Google. Professional website designer in Bath & BANES — fast, mobile-first sites for plumbers, electricians, builders. SEO-ready.',
       features: [
         'Mobile-first design',
         'Fast loading speeds',

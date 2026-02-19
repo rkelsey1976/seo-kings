@@ -89,13 +89,13 @@ const WebDesignPackages = () => {
   return (
     <>
       <SEO
-        title="Web Design Packages | Bath & BANES"
-        description="Website design packages for Bath, Keynsham, Midsomer Norton and BANES. From £399 for a 1-page trade site. Single-page design with everything you need. SEO included, 12 months free hosting."
-        keywords="web design packages Bath, website design Bath, one-page website, affordable website, website for trades, website design Keynsham, website design Midsomer Norton, website packages BANES, web design Trowbridge, business website cost"
+        title="Website Designer Packages Bath & BANES | From £399 – SEO Kings"
+        description="Website designer packages for Bath & BANES — we specialise in trade websites and getting local trades found on Google. From £399 for a one-page site. Plumbers, electricians, builders."
+        keywords="website designer Bath, website designer BANES, web design packages Bath, website design Bath, one-page website, affordable website, website for trades, website design Keynsham, website design Midsomer Norton, website packages BANES"
         canonical="/web-design-packages"
         breadcrumbs={[
           { name: 'Home', url: '/' },
-          { name: 'Website Design', url: '/web-design' },
+          { name: 'Website Designer', url: '/web-design' },
           { name: 'Packages' },
         ]}
       />
@@ -106,17 +106,17 @@ const WebDesignPackages = () => {
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
-            Website design & development
+            Website designer Bath & BANES
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Web Design <span className="gradient-text">Packages</span>
+            Website Designer <span className="gradient-text">Packages</span>
           </h1>
           <p className="text-2xl text-gray-400 mb-2">
             From only <span className="text-white font-bold">£399</span>
           </p>
           <p className="text-gray-500 text-sm">Pay monthly options available — no hidden fees</p>
           <p className="text-gray-400 text-sm mt-4 max-w-xl mx-auto">
-            Website design packages for Bath, Keynsham, Midsomer Norton, Radstock and across BANES. Affordable one-page website from £399 or full multi-page sites — fast, mobile-friendly, built for local search.
+            We specialise in trade websites and getting local trades found on Google. Packages for Bath, Keynsham, Midsomer Norton, Radstock and BANES — one-page from £399 or full sites. Fast, mobile-friendly, built for local search.
           </p>
         </div>
       </section>

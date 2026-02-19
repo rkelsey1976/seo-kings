@@ -1419,16 +1419,16 @@ const AreaDetail = ({ params: staticParams }) => {
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Website design in {area.name}
+            Website designer & website design in {area.name}
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">
-            We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote for web design in {area.name}.
+            We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote from a professional website designer in {area.name}.
           </p>
           <Link
             href="/web-design"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold transition-colors"
           >
-            Website design {area.name}
+            Website designer in {area.name}
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

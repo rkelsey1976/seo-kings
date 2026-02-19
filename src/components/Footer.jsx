@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: 'Website Design', href: '/web-design' },
+    { name: 'Website Designer Bath & BANES', href: '/web-design' },
     { name: 'Local SEO', href: '/local-seo' },
     { name: 'Google Business Profile', href: '/google-business-profile' },
     { name: 'Free SEO Audit', href: '/contact' },

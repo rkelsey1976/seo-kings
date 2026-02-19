@@ -305,6 +305,57 @@ const blogPosts = {
       { href: '/contact', label: 'Get a free check' },
     ],
   },
+  'new-decorating-website-bath': {
+    slug: 'new-decorating-website-bath',
+    title: 'New Website and GBP for New Decorating: Painter & Decorator in Bath, Live Last Week',
+    description: 'We built a new website for Jay at New Decorating and optimised his Google Business Profile. Already showing in Google Maps and ranking well for long-tail keywords. Painter & decorator Bath & BANES.',
+    date: '2026-02-19',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'New Decorating, painter decorator Bath, website design Bath, Google Business Profile Bath, painter and decorator BANES, new-decorating.co.uk',
+    sections: [
+      {
+        heading: 'What we did for Jay at New Decorating',
+        paragraphs: [
+          'Last week we launched a new website for Jay New — New Decorating, a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and BANES. We built the site at new-decorating.co.uk and optimised his Google Business Profile so the two work together. He’s already showing up in Google Maps and ranking well for long-tail keywords. This post is a quick look at what we delivered and why it’s working.',
+          'Jay has over 25 years’ experience and wanted a clear online presence: a fast site that shows his services (interior and exterior painting, wallpaper, feature walls), his areas, and how to get a free quote. He also needed his Google listing set up and optimised so local customers can find him when they search for a painter and decorator in Bath or the surrounding areas.',
+        ],
+      },
+      {
+        heading: 'The new website',
+        paragraphs: [
+          'The new site is clean, mobile-friendly and built for local search. It highlights his services — interior painting, exterior painting, wallpaper and feature walls — with clear calls to action to get a quote or view his work. We included his service areas (Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Frome and surrounding villages), a gallery, FAQs, and his Google reviews so visitors can see what his customers say.',
+          'We built it to load fast and work on every device. For a painter and decorator in Bath, that matters: a lot of “painter decorator near me” and “painter Bath” searches happen on phones. A fast, clear site keeps people on the page and helps Google rank you better.',
+        ],
+      },
+      {
+        heading: 'Google Business Profile optimisation',
+        paragraphs: [
+          'A website on its own isn’t enough for local visibility. We claimed and optimised Jay’s Google Business Profile so it matches the site: same areas, same services, same message. We made sure his category, description, hours and service area are correct and that his profile looks professional and trustworthy.',
+          'When someone searches “painter and decorator Bath” or “painter decorator Keynsham”, Google can now show New Decorating in the map pack and in Maps. The site and the GBP support each other — that’s how you get found locally without relying on ads.',
+        ],
+      },
+      {
+        heading: 'Already showing in Google Maps and ranking for long-tail keywords',
+        paragraphs: [
+          'We only launched last week, but the combination of a new, optimised site and a properly set-up Google Business Profile is already paying off. New Decorating is showing up in Google Maps when people search in Bath and the surrounding areas, and the site is ranking well for long-tail keywords — the kind of specific searches that turn into real enquiries.',
+          'That’s exactly what we aim for: a fast site and a GBP that work together so you get visible quickly. We don’t promise overnight number-one for the most competitive terms, but we do get trades visible for the searches that matter in their area.',
+        ],
+      },
+      {
+        heading: 'What that means for your trade',
+        paragraphs: [
+          'If you’re a painter and decorator, or any trade in Bath and BANES, and you need a new website or your Google listing isn’t working for you — we can help. We specialise in trade websites and getting local trades found on Google. We’ll build a site that looks professional and loads fast, optimise your GBP, and get the two working together so you show up in Maps and in search.',
+          'Get in touch for a free audit. We’ll look at your current site and Google listing and tell you what we’d do next. No obligation.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website designer Bath & BANES' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+  },
   'website-design-bath': {
     slug: 'website-design-bath',
     title: 'Website Design in Bath: What We Build for Trades and Local Businesses',
@@ -341,8 +392,59 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design', label: 'Website designer in Bath & BANES' },
       { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-designer-bath-banes': {
+    slug: 'website-designer-bath-banes',
+    title: 'Website Designer Bath & BANES: What to Look For (and Why We’re Different)',
+    description: 'Looking for a website designer in Bath or BANES? We specialise in trade websites and getting local trades found on Google. Fast sites, mobile-friendly, SEO built in — plumbers, electricians, builders.',
+    date: '2026-02-12',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'website designer, website designer Bath, website designer BANES, web design Bath, professional website designer, website designer for trades, hire website designer',
+    sections: [
+      {
+        heading: 'Why “website designer” isn’t just about looks',
+        paragraphs: [
+          'A lot of people search for a “website designer” in Bath or BANES when they really need three things: a site that looks professional, one that loads fast and works on phones, and one that helps them get found on Google. The best website designer for a local business does all three — so you don’t just get a pretty page; you get a site that brings in enquiries.',
+          'We specialise in trade websites and getting local trades found on Google. We’re a website designer and local SEO agency in Bath: every site we build is mobile-first, fast, and set up for local search from day one. Plumbers, electricians, builders — we don’t hand over a site and walk away; we build something that works for Google and for your customers.',
+        ],
+      },
+      {
+        heading: 'What to look for in a website designer in Bath & BANES',
+        paragraphs: [
+          'First, speed. Slow sites lose visitors and rank lower on Google. Ask whether your website designer builds for performance — optimised images, clean code, fast hosting. We aim for Lighthouse scores of 95+ so your site loads in seconds.',
+          'Second, mobile. Most local searches happen on phones. Your site needs to look and work great on every device. A good website designer will build mobile-first, not as an afterthought.',
+          'Third, local SEO. If you’re a plumber, electrician, or trade in Bath, Keynsham, or Midsomer Norton, your site should help you show up when people search “plumber Bath” or “electrician near me”. That means clear location signals, proper structure, and — ideally — a designer who also understands Google Business Profile so your website and your listing work together.',
+        ],
+      },
+      {
+        heading: 'Website designer vs DIY: when it’s worth hiring',
+        paragraphs: [
+          'DIY website builders are cheap, but they often produce slow, generic sites that don’t rank well. A professional website designer in Bath or BANES can give you a custom site that’s fast, on-brand, and built for local search — without you spending time learning builders or fixing technical issues.',
+          'We offer one-page sites from £399 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months’ hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
+        ],
+      },
+      {
+        heading: 'How we work as your website designer',
+        paragraphs: [
+          'We start with a quick chat about your business, your customers, and where you want to show up (Bath, Keynsham, Radstock, Trowbridge, etc.). We then design and build your site, test it on every device, and make sure it’s set up for Google and for your area.',
+          'If you already have a Google Business Profile, we can help optimise it so it works with your new site. If you don’t, we can help you claim and set it up. Website and GBP together = more visibility and more enquiries.',
+        ],
+      },
+      {
+        heading: 'Get in touch',
+        paragraphs: [
+          'If you’re looking for a website designer in Bath, Keynsham, Midsomer Norton, Radstock, or anywhere in BANES — and you want a site that looks great, loads fast, and helps you get found on Google — we’d be happy to talk. We offer a free audit so you can see where you stand and what we’d recommend. No obligation.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/web-design', label: 'Website designer Bath & BANES' },
+      { href: '/web-design-packages', label: 'Website designer packages' },
       { href: '/contact', label: 'Get a free quote' },
     ],
   },

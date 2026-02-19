@@ -1,7 +1,5 @@
 import BlogPost from '../../../src/pages/BlogPost';
 
-export const dynamicParams = false;
-
 const BLOG_SLUGS = [
   'beautiful-websites-that-rank',
   'what-is-local-seo-bath',
@@ -10,7 +8,9 @@ const BLOG_SLUGS = [
   'seo-for-plumbers-bath',
   'free-seo-audit-what-we-check',
   'website-design-midsomer-norton-peachy-cleans',
+  'new-decorating-website-bath',
   'website-design-bath',
+  'website-designer-bath-banes',
   'website-design-keynsham',
   'website-design-radstock',
   'website-design-trowbridge',
