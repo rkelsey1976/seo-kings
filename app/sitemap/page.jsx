@@ -40,7 +40,7 @@ const sitemapSections = [
       { href: '/blog/website-design-keynsham', label: 'Website Design Keynsham' },
       { href: '/blog/website-design-radstock', label: 'Website Design Radstock' },
       { href: '/blog/website-design-trowbridge', label: 'Website Design Trowbridge' },
-      { href: '/blog/one-page-website-bath-banes', label: 'One-Page Website Bath & BANES' },
+      { href: '/blog/one-page-website-bath-banes', label: 'One-Page Website Bath & North East Somerset' },
       { href: '/blog/why-speed-matters-for-seo', label: 'Why Speed Matters for SEO' },
       { href: '/blog/how-we-get-you-number-one-google-maps', label: 'How We Get You to Number One on Google Maps' },
     ],
@@ -85,7 +85,7 @@ export default function SitemapPage() {
     <>
       <SEO
         title="Sitemap | SEO Kings"
-        description="A list of all pages on the SEO Kings website. Website design and local SEO for Bath, BANES and the South West."
+        description="A list of all pages on the SEO Kings website. Website design and local SEO for Bath, North East Somerset and the South West."
         canonical="/sitemap"
       />
       <main className="min-h-screen pt-28 pb-16 px-4 sm:px-6 lg:px-8">

@@ -83,8 +83,8 @@ const GoogleBusinessProfile = () => {
     <>
       <SEO
         title="Google Business Profile Management in Bath"
-        description="Google Business Profile management in Bath & BANES. We optimise your GBP for the map pack: more calls, reviews, local customers. From £250/month."
-        keywords="Google Business Profile Bath, GBP management BANES, Google Maps SEO, local business listing, Google My Business Bath, map pack ranking, review management Bath"
+        description="Google Business Profile management in Bath & North East Somerset. We optimise your GBP for the map pack: more calls, reviews, local customers. From £250/month."
+        keywords="Google Business Profile Bath, GBP management Bath and North East Somerset, Google Maps SEO, local business listing, Google My Business Bath, map pack ranking, review management Bath"
         canonical="/google-business-profile"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -96,7 +96,7 @@ const GoogleBusinessProfile = () => {
             "@type": "Service",
             "serviceType": "Google Business Profile Management",
             "name": "Google Business Profile Management",
-            "description": "Professional Google Business Profile optimisation and management to help local businesses in Bath & BANES dominate the map pack and get more customers.",
+            "description": "Professional Google Business Profile optimisation and management to help local businesses in Bath & North East Somerset dominate the map pack and get more customers.",
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
@@ -338,7 +338,7 @@ const GoogleBusinessProfile = () => {
               },
               {
                 q: 'Can I manage multiple locations?',
-                a: 'Yes! If you serve multiple areas in BANES, we can help you set up and optimise profiles for each location, ensuring you\'re visible wherever your customers are searching.',
+                a: 'Yes! If you serve multiple areas in Bath and North East Somerset, we can help you set up and optimise profiles for each location, ensuring you\'re visible wherever your customers are searching.',
               },
               {
                 q: 'How long does it take to see results?',

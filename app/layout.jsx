@@ -16,10 +16,10 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://seo-kings.co.uk'),
   title: {
-    default: 'SEO Kings | Local SEO Services in Bath & BANES',
+    default: 'SEO Kings | Get Found on Google – Website & Google Listing for Bath & North East Somerset',
     template: '%s | SEO Kings',
   },
-  description: 'Local SEO services for tradespeople and small businesses in Bath & North East Somerset. Get found on Google. Free audit.',
+  description: 'We help tradespeople and small businesses in Bath & North East Somerset get found on Google. Website design, Google Business Profile, getting you on the map. Free check.',
   openGraph: { siteName: 'SEO Kings', locale: 'en_GB' },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   icons: {

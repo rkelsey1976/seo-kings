@@ -3,8 +3,8 @@ import Spotlight from '../../../src/components/Spotlight';
 
 export const metadata = {
   title: 'Peachy Cleans – Number 1 on Google & Top of Maps | Client Spotlight',
-  description: 'How we got Peachy Cleans to #1 on Google and top of Maps in Midsomer Norton. One-page website, Google listing, and local SEO for cleaning services in Bath & BANES.',
-  keywords: 'Peachy Cleans, Midsomer Norton cleaning, local SEO case study, cleaner Midsomer Norton, Google Maps ranking, Bath BANES SEO',
+  description: 'How we got Peachy Cleans to #1 on Google and top of Maps in Midsomer Norton. One-page website, Google listing, and local SEO for cleaning services in Bath & North East Somerset.',
+  keywords: 'Peachy Cleans, Midsomer Norton cleaning, local SEO case study, cleaner Midsomer Norton, Google Maps ranking, Bath North East Somerset SEO',
   alternates: { canonical: 'https://seo-kings.co.uk/spotlight/peachy-cleans' },
   openGraph: {
     title: 'Peachy Cleans – #1 on Google & Top of Maps | SEO Kings Spotlight',

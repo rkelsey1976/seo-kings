@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
+import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 
 const Contact = () => {
   const router = useRouter();
@@ -81,7 +82,18 @@ const Contact = () => {
       label: 'Location',
       value: 'Bath, Somerset',
       href: null,
-      description: 'Serving all of BANES',
+      description: 'Serving all of Bath and North East Somerset',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+        </svg>
+      ),
+      label: 'Google Reviews',
+      value: 'Leave a review on Google',
+      href: GOOGLE_MAPS_PLACE_URL,
+      description: 'View our reviews or write one',
     },
   ];
 
@@ -97,8 +109,8 @@ const Contact = () => {
     <>
       <SEO
         title="Contact Us - Get Your Free SEO Audit"
-        description="Contact SEO Kings for a free SEO audit. We help Bath & BANES businesses dominate Google. Call or use our contact form."
-        keywords="contact SEO Kings, free SEO audit Bath, SEO consultation BANES, local SEO quote, website design quote Bath"
+        description="Contact SEO Kings for a free SEO audit. We help Bath & North East Somerset businesses dominate Google. Call or use our contact form."
+        keywords="contact SEO Kings, free SEO audit Bath, SEO consultation Bath and North East Somerset, local SEO quote, website design quote Bath"
         canonical="/contact"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -154,6 +166,7 @@ const Contact = () => {
                         <a 
                           href={item.href} 
                           className="text-white font-semibold hover:text-primary-light transition-colors"
+                          {...(item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                         >
                           {item.value}
                         </a>
@@ -173,7 +186,7 @@ const Contact = () => {
                   {[
                     'Free, no-obligation SEO audit',
                     'Plain English, no jargon',
-                    'Local team who understand BANES',
+                    'Local team who understand Bath and North East Somerset',
                     'Proven results with 150+ businesses',
                   ].map((point, index) => (
                     <li key={index} className="flex items-center gap-3 text-gray-400 text-sm">
@@ -415,7 +428,7 @@ const Contact = () => {
               },
               {
                 q: 'What areas do you cover?',
-                a: 'We work exclusively with businesses in Bath and North East Somerset (BANES). This local focus means we understand your market better than any national agency.',
+                a: 'We work exclusively with businesses in Bath and North East Somerset. This local focus means we understand your market better than any national agency.',
               },
               {
                 q: 'Are there any contracts?',

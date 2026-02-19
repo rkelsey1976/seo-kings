@@ -15,11 +15,11 @@ const CTABanner = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-          Ready to Get More Customers in Bath & BANES?
+          Need a Website Designer in Bath & North East Somerset?
         </h2>
 
         <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
-          Your competitors are already ranking. Don&apos;t miss out on local jobs.
+          Website design and getting you on Google — so you get more customers. Your competitors are already there. Don&apos;t miss out on local jobs.
         </p>
 
         <p className="text-gray-400 mb-8">
@@ -32,10 +32,10 @@ const CTABanner = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
           <Link href="/contact" className="w-full sm:w-auto bg-white text-dark px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-gray-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark text-center">
-            Get Your Free SEO Audit Today
+            Get Your Free Check Today
           </Link>
-          <Link href="/contact" className="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3 focus:outline-none focus:ring-2 focus:ring-primary">
-            Contact Us – Call or Email
+          <Link href="/web-design" className="w-full sm:w-auto bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3 focus:outline-none focus:ring-2 focus:ring-primary">
+            Website Design From £399
           </Link>
         </div>
 

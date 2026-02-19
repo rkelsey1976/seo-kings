@@ -88,7 +88,7 @@ const ServicePageHero = ({
                     <span className="text-2xl font-bold text-white">98%</span>
                   </div>
                   <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                    <span className="text-gray-400">BANES Businesses</span>
+                    <span className="text-gray-400">Bath & North East Somerset Businesses</span>
                     <span className="text-2xl font-bold gradient-text">150+</span>
                   </div>
                 </div>

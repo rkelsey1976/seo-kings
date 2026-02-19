@@ -14,6 +14,19 @@ export function generateStaticParams() {
     { slug: 'chew-magna' },
     { slug: 'temple-cloud' },
     { slug: 'clutton' },
+    // Sub-areas: Bath
+    { slug: 'odd-down-bath' },
+    { slug: 'combe-down-bath' },
+    { slug: 'widcombe-bath' },
+    { slug: 'larkhall-bath' },
+    { slug: 'twerton-bath' },
+    // Sub-areas: Keynsham
+    { slug: 'bitton-keynsham' },
+    { slug: 'hanham-keynsham' },
+    { slug: 'oldland-keynsham' },
+    // Sub-areas: Midsomer Norton
+    { slug: 'clandon-midsomer-norton' },
+    { slug: 'farrington-gurney-midsomer-norton' },
   ];
 }
 

@@ -13,7 +13,7 @@ const blogPosts = {
     date: '2026-02-05',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'website design Bath, web design BANES, Lighthouse performance, SEO websites, fast websites',
+    keywords: 'website design Bath, web design Bath and North East Somerset, Lighthouse performance, SEO websites, fast websites',
     sections: [
       {
         heading: 'Beautiful design and strong rankings — not either/or',
@@ -46,7 +46,7 @@ const blogPosts = {
       {
         heading: 'What that means for your business',
         paragraphs: [
-          'A beautiful, fast, well-optimised website does three things: it ranks better for the searches that matter in Bath and BANES, it keeps visitors on the page instead of bouncing, and it makes it easy for them to call or fill in a form. That’s how you turn “looking good” into more enquiries and more jobs.',
+          'A beautiful, fast, well-optimised website does three things: it ranks better for the searches that matter in Bath and North East Somerset, it keeps visitors on the page instead of bouncing, and it makes it easy for them to call or fill in a form. That’s how you turn “looking good” into more enquiries and more jobs.',
           'If you want a site that looks the part and ranks the part — with Lighthouse scores of 95+ to back it up — we’d be happy to talk. Get in touch for a free audit or a no-obligation chat about your next website.',
         ],
       },
@@ -54,17 +54,17 @@ const blogPosts = {
   },
   'what-is-local-seo-bath': {
     slug: 'what-is-local-seo-bath',
-    title: 'What Is Local SEO and Why It Matters for Bath & BANES Businesses',
-    description: 'Local SEO gets your business in front of people searching "near me" and in Google\'s map pack. Here\'s how it works and why it matters for Bath and BANES.',
+    title: 'What Is Local SEO and Why It Matters for Bath & North East Somerset Businesses',
+    description: 'Local SEO gets your business in front of people searching "near me" and in Google\'s map pack. Here\'s how it works and why it matters for Bath and North East Somerset.',
     date: '2026-02-05',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'local SEO Bath, local SEO BANES, what is local SEO, map pack, near me',
+    keywords: 'local SEO Bath, local SEO Bath and North East Somerset, what is local SEO, map pack, near me',
     sections: [
       {
         heading: 'What is local SEO?',
         paragraphs: [
-          'Local SEO is the work that helps your business show up when people search for what you do in a specific place — like "plumber Bath" or "electrician near me". It focuses on the results that appear with a map: the local map pack (the three businesses that show with a map on Google) and local listings. For tradespeople, builders, and service businesses in Bath, Keynsham, Midsomer Norton, and across BANES, that’s often where the clicks and calls come from.',
+          'Local SEO is the work that helps your business show up when people search for what you do in a specific place — like "plumber Bath" or "electrician near me". It focuses on the results that appear with a map: the local map pack (the three businesses that show with a map on Google) and local listings. For tradespeople, builders, and service businesses in Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset, that’s often where the clicks and calls come from.',
         ],
       },
       {
@@ -80,9 +80,9 @@ const blogPosts = {
         ],
       },
       {
-        heading: 'Why it matters for Bath & BANES',
+        heading: 'Why it matters for Bath & North East Somerset',
         paragraphs: [
-          'Bath and the wider BANES area have strong local search demand. People look for trades and services in Bath, Keynsham, Radstock, Peasedown St John, and the villages. Local SEO helps you capture that demand instead of losing it to competitors. If you’re not in the map pack or not showing for "near me" searches, you’re missing calls and jobs. A clear local SEO strategy — GBP, website, and citations — puts you in the game.',
+          'Bath and the wider Bath and North East Somerset area have strong local search demand. People look for trades and services in Bath, Keynsham, Radstock, Peasedown St John, and the villages. Local SEO helps you capture that demand instead of losing it to competitors. If you’re not in the map pack or not showing for "near me" searches, you’re missing calls and jobs. A clear local SEO strategy — GBP, website, and citations — puts you in the game.',
         ],
       },
       {
@@ -105,7 +105,7 @@ const blogPosts = {
       {
         heading: 'Why Google reviews matter for local visibility',
         paragraphs: [
-          'Google reviews influence where you appear in the map pack and how many people click through to your business. They also build trust: people read reviews before calling or filling in a form. For tradespeople and service businesses in Bath and BANES, a steady flow of genuine reviews can make a real difference to enquiries and jobs.',
+          'Google reviews influence where you appear in the map pack and how many people click through to your business. They also build trust: people read reviews before calling or filling in a form. For tradespeople and service businesses in Bath and North East Somerset, a steady flow of genuine reviews can make a real difference to enquiries and jobs.',
         ],
       },
       {
@@ -137,7 +137,7 @@ const blogPosts = {
   'local-seo-bath': {
     slug: 'local-seo-bath',
     title: 'Local SEO in Bath: How to Rank in the Map Pack',
-    description: 'What it takes to show up in the local map results for Bath and BANES: Google Business Profile, website, and consistency.',
+    description: 'What it takes to show up in the local map results for Bath and North East Somerset: Google Business Profile, website, and consistency.',
     date: '2026-02-05',
     readTime: '5 min read',
     author: 'SEO Kings',
@@ -152,7 +152,7 @@ const blogPosts = {
       {
         heading: 'Optimise your Google Business Profile',
         paragraphs: [
-          'Your Google Business Profile is central to map pack rankings. Make sure it’s claimed, verified, and fully filled out: correct business name, address, phone, website, opening hours, and service area. Choose the right primary and secondary categories (e.g. Plumber, Electrician). Write a clear business description that includes your services and areas (Bath, Keynsham, BANES). Add photos regularly and use Google Posts to share updates and offers. The more complete and active your profile, the better Google can match you to local searches.',
+          'Your Google Business Profile is central to map pack rankings. Make sure it’s claimed, verified, and fully filled out: correct business name, address, phone, website, opening hours, and service area. Choose the right primary and secondary categories (e.g. Plumber, Electrician). Write a clear business description that includes your services and areas (Bath, Keynsham, North East Somerset). Add photos regularly and use Google Posts to share updates and offers. The more complete and active your profile, the better Google can match you to local searches.',
         ],
       },
       {
@@ -177,12 +177,12 @@ const blogPosts = {
   },
   'seo-for-plumbers-bath': {
     slug: 'seo-for-plumbers-bath',
-    title: 'SEO for Plumbers in Bath & BANES: Get More Plumbing Jobs from Google',
+    title: 'SEO for Plumbers in Bath & North East Somerset: Get More Plumbing Jobs from Google',
     description: 'How plumbers in Bath and the surrounding area can get found for "plumber near me", boiler repairs, and emergency calls.',
     date: '2026-02-05',
     readTime: '5 min read',
     author: 'SEO Kings',
-    keywords: 'SEO for plumbers Bath, plumber SEO, plumber Google, plumber BANES',
+    keywords: 'SEO for plumbers Bath, plumber SEO, plumber Google, plumber Bath and North East Somerset',
     sections: [
       {
         heading: 'Why plumbers need to show up locally',
@@ -193,7 +193,7 @@ const blogPosts = {
       {
         heading: 'Google Business Profile for plumbers',
         paragraphs: [
-          'Claim and fully optimise your Google Business Profile. Use the primary category "Plumber" and add secondary categories like "Plumbing supply store" or "Central heating engineer" if they fit. Set your service area to Bath, BANES, and the towns you cover. In your description, mention the services you offer — boiler repairs, emergency plumbing, bathroom installations, etc. — and the areas you serve. Add photos of your work, vans, and team. Post regularly with offers, tips, or seasonal reminders (e.g. boiler checks before winter).',
+          'Claim and fully optimise your Google Business Profile. Use the primary category "Plumber" and add secondary categories like "Plumbing supply store" or "Central heating engineer" if they fit. Set your service area to Bath, North East Somerset, and the towns you cover. In your description, mention the services you offer — boiler repairs, emergency plumbing, bathroom installations, etc. — and the areas you serve. Add photos of your work, vans, and team. Post regularly with offers, tips, or seasonal reminders (e.g. boiler checks before winter).',
         ],
       },
       {
@@ -209,9 +209,9 @@ const blogPosts = {
         ],
       },
       {
-        heading: 'Next steps for Bath & BANES plumbers',
+        heading: 'Next steps for Bath & North East Somerset plumbers',
         paragraphs: [
-          'Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free local SEO audit for plumbers and other trades in Bath and BANES. Get in touch and we’ll take a look.',
+          'Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free local SEO audit for plumbers and other trades in Bath and North East Somerset. Get in touch and we’ll take a look.',
         ],
       },
     ],
@@ -223,7 +223,7 @@ const blogPosts = {
     date: '2026-02-05',
     readTime: '5 min read',
     author: 'SEO Kings',
-    keywords: 'free SEO audit Bath, SEO audit BANES, what is an SEO audit, local SEO audit',
+    keywords: 'free SEO audit Bath, SEO audit Bath and North East Somerset, what is an SEO audit, local SEO audit',
     sections: [
       {
         heading: 'What is a local SEO audit?',
@@ -295,7 +295,7 @@ const blogPosts = {
         heading: 'What that means for your business',
         paragraphs: [
           "If you're a tradesperson, cleaner, or local service in Midsomer Norton or the Somer Valley and you don't have a website — or your current site is slow, outdated, or not set up for local search — a simple, fast site plus a well-optimised Google listing can make a real difference. You don't need a huge, expensive build; you need something clear, quick, and built with local search in mind.",
-          "We've written more about the full project on our Client Spotlight page, including what we built, how it helps them show up on Google and Maps, and the results. You can also read the short case study. If you're interested in website design in Midsomer Norton or the wider Bath and BANES area, we'd be happy to talk. We offer a free check: we look at your current website and Google listing and show you simple ways to get higher in search and the map pack. No pressure, no long contracts.",
+          "We've written more about the full project on our Client Spotlight page, including what we built, how it helps them show up on Google and Maps, and the results. You can also read the short case study. If you're interested in website design in Midsomer Norton or the wider Bath and North East Somerset area, we'd be happy to talk. We offer a free check: we look at your current website and Google listing and show you simple ways to get higher in search and the map pack. No pressure, no long contracts.",
         ],
       },
     ],
@@ -308,16 +308,16 @@ const blogPosts = {
   'new-decorating-website-bath': {
     slug: 'new-decorating-website-bath',
     title: 'New Website and GBP for New Decorating: Painter & Decorator in Bath, Live Last Week',
-    description: 'We built a new website for Jay at New Decorating and optimised his Google Business Profile. Already showing in Google Maps and ranking well for long-tail keywords. Painter & decorator Bath & BANES.',
+    description: 'We built a new website for Jay at New Decorating and optimised his Google Business Profile. Already showing in Google Maps and ranking well for long-tail keywords. Painter & decorator Bath & North East Somerset.',
     date: '2026-02-19',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'New Decorating, painter decorator Bath, website design Bath, Google Business Profile Bath, painter and decorator BANES, new-decorating.co.uk',
+    keywords: 'New Decorating, painter decorator Bath, website design Bath, Google Business Profile Bath, painter and decorator Bath and North East Somerset, new-decorating.co.uk',
     sections: [
       {
         heading: 'What we did for Jay at New Decorating',
         paragraphs: [
-          'Last week we launched a new website for Jay New — New Decorating, a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and BANES. We built the site at new-decorating.co.uk and optimised his Google Business Profile so the two work together. He’s already showing up in Google Maps and ranking well for long-tail keywords. This post is a quick look at what we delivered and why it’s working.',
+          'Last week we launched a new website for Jay New — New Decorating, a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset. We built the site at new-decorating.co.uk and optimised his Google Business Profile so the two work together. He’s already showing up in Google Maps and ranking well for long-tail keywords. This post is a quick look at what we delivered and why it’s working.',
           'Jay has over 25 years’ experience and wanted a clear online presence: a fast site that shows his services (interior and exterior painting, wallpaper, feature walls), his areas, and how to get a free quote. He also needed his Google listing set up and optimised so local customers can find him when they search for a painter and decorator in Bath or the surrounding areas.',
         ],
       },
@@ -345,13 +345,13 @@ const blogPosts = {
       {
         heading: 'What that means for your trade',
         paragraphs: [
-          'If you’re a painter and decorator, or any trade in Bath and BANES, and you need a new website or your Google listing isn’t working for you — we can help. We specialise in trade websites and getting local trades found on Google. We’ll build a site that looks professional and loads fast, optimise your GBP, and get the two working together so you show up in Maps and in search.',
+          'If you’re a painter and decorator, or any trade in Bath and North East Somerset, and you need a new website or your Google listing isn’t working for you — we can help. We specialise in trade websites and getting local trades found on Google. We’ll build a site that looks professional and loads fast, optimise your GBP, and get the two working together so you show up in Maps and in search.',
           'Get in touch for a free audit. We’ll look at your current site and Google listing and tell you what we’d do next. No obligation.',
         ],
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website designer Bath & BANES' },
+      { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/contact', label: 'Get a free audit' },
     ],
@@ -363,7 +363,7 @@ const blogPosts = {
     date: '2026-02-08',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'website design Bath, web design Bath, website for business Bath, local business website BANES, Bath website design',
+    keywords: 'website design Bath, web design Bath, website for business Bath, local business website Bath and North East Somerset, Bath website design',
     sections: [
       {
         heading: 'Why website design in Bath matters',
@@ -375,7 +375,7 @@ const blogPosts = {
         heading: 'What we build for Bath businesses',
         paragraphs: [
           'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search from day one. That means clear location signals, mobile-friendly design, and structure that Google can crawl and rank.',
-          'For Bath businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge, expensive build; you need something clear, fast, and built with Bath and BANES in mind.',
+          'For Bath businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge, expensive build; you need something clear, fast, and built with Bath and North East Somerset in mind.',
         ],
       },
       {
@@ -392,29 +392,29 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website designer in Bath & BANES' },
+      { href: '/web-design', label: 'Website designer in Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
     ],
   },
   'website-designer-bath-banes': {
     slug: 'website-designer-bath-banes',
-    title: 'Website Designer Bath & BANES: What to Look For (and Why We’re Different)',
-    description: 'Looking for a website designer in Bath or BANES? We specialise in trade websites and getting local trades found on Google. Fast sites, mobile-friendly, SEO built in — plumbers, electricians, builders.',
+    title: 'Website Designer Bath & North East Somerset: What to Look For (and Why We’re Different)',
+    description: 'Looking for a website designer in Bath or North East Somerset? We specialise in trade websites and getting local trades found on Google. Fast sites, mobile-friendly, SEO built in — plumbers, electricians, builders.',
     date: '2026-02-12',
     readTime: '5 min read',
     author: 'SEO Kings',
-    keywords: 'website designer, website designer Bath, website designer BANES, web design Bath, professional website designer, website designer for trades, hire website designer',
+    keywords: 'website designer, website designer Bath, website designer Bath and North East Somerset, web design Bath, professional website designer, website designer for trades, hire website designer',
     sections: [
       {
         heading: 'Why “website designer” isn’t just about looks',
         paragraphs: [
-          'A lot of people search for a “website designer” in Bath or BANES when they really need three things: a site that looks professional, one that loads fast and works on phones, and one that helps them get found on Google. The best website designer for a local business does all three — so you don’t just get a pretty page; you get a site that brings in enquiries.',
+          'A lot of people search for a “website designer” in Bath or North East Somerset when they really need three things: a site that looks professional, one that loads fast and works on phones, and one that helps them get found on Google. The best website designer for a local business does all three — so you don’t just get a pretty page; you get a site that brings in enquiries.',
           'We specialise in trade websites and getting local trades found on Google. We’re a website designer and local SEO agency in Bath: every site we build is mobile-first, fast, and set up for local search from day one. Plumbers, electricians, builders — we don’t hand over a site and walk away; we build something that works for Google and for your customers.',
         ],
       },
       {
-        heading: 'What to look for in a website designer in Bath & BANES',
+        heading: 'What to look for in a website designer in Bath & North East Somerset',
         paragraphs: [
           'First, speed. Slow sites lose visitors and rank lower on Google. Ask whether your website designer builds for performance — optimised images, clean code, fast hosting. We aim for Lighthouse scores of 95+ so your site loads in seconds.',
           'Second, mobile. Most local searches happen on phones. Your site needs to look and work great on every device. A good website designer will build mobile-first, not as an afterthought.',
@@ -424,7 +424,7 @@ const blogPosts = {
       {
         heading: 'Website designer vs DIY: when it’s worth hiring',
         paragraphs: [
-          'DIY website builders are cheap, but they often produce slow, generic sites that don’t rank well. A professional website designer in Bath or BANES can give you a custom site that’s fast, on-brand, and built for local search — without you spending time learning builders or fixing technical issues.',
+          'DIY website builders are cheap, but they often produce slow, generic sites that don’t rank well. A professional website designer in Bath or North East Somerset can give you a custom site that’s fast, on-brand, and built for local search — without you spending time learning builders or fixing technical issues.',
           'We offer one-page sites from £399 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months’ hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
         ],
       },
@@ -438,12 +438,12 @@ const blogPosts = {
       {
         heading: 'Get in touch',
         paragraphs: [
-          'If you’re looking for a website designer in Bath, Keynsham, Midsomer Norton, Radstock, or anywhere in BANES — and you want a site that looks great, loads fast, and helps you get found on Google — we’d be happy to talk. We offer a free audit so you can see where you stand and what we’d recommend. No obligation.',
+          'If you’re looking for a website designer in Bath, Keynsham, Midsomer Norton, Radstock, or anywhere in Bath and North East Somerset — and you want a site that looks great, loads fast, and helps you get found on Google — we’d be happy to talk. We offer a free audit so you can see where you stand and what we’d recommend. No obligation.',
         ],
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website designer Bath & BANES' },
+      { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Website designer packages' },
       { href: '/contact', label: 'Get a free quote' },
     ],
@@ -467,7 +467,7 @@ const blogPosts = {
         heading: 'What we build for Keynsham businesses',
         paragraphs: [
           'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Keynsham and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
-          'For Keynsham and BS31 businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Keynsham and BANES in mind.',
+          'For Keynsham and BS31 businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Keynsham and Bath and North East Somerset in mind.',
         ],
       },
       {
@@ -487,6 +487,89 @@ const blogPosts = {
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-bitton-keynsham': {
+    slug: 'website-design-bitton-keynsham',
+    title: 'Website Design in Bitton & the Keynsham Area: What We Build for Local Trades',
+    description: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
+    date: '2026-02-12',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Bitton, website design Keynsham area, Bitton Keynsham website, BS30 BS31 website',
+    sections: [
+      {
+        heading: 'Why Bitton and the Keynsham area need good websites',
+        paragraphs: [
+          'Bitton sits between Keynsham and Bristol, with strong local search demand for trades and services. When people in Bitton, Keynsham, or Saltford search for a plumber, electrician, or builder, they use Google and the map pack. A clear, fast website plus a well-optimised Google Business Profile helps you show up there. If you\'re not on page one or in the map pack, you miss the calls.',
+        ],
+      },
+      {
+        heading: 'What we build for Bitton and Keynsham area businesses',
+        paragraphs: [
+          'We build the same for Bitton and the Keynsham area as we do for Keynsham: fast, mobile-friendly websites from £399, with Google Business Profile and local SEO as add-ons. Every site we build is set up for local search — clear location signals for Bitton, Keynsham, Saltford, and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
+          'Areas we serve include Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock and across Bath and North East Somerset. You don\'t need a huge build; you need something clear, fast, and built with the Keynsham area in mind.',
+        ],
+      },
+      {
+        heading: 'Areas we serve near Keynsham',
+        paragraphs: [
+          'We work with trades and local businesses across the Keynsham area and beyond: Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John, Chew Magna, Temple Cloud, Clutton and across Bath and North East Somerset. Whether you\'re based in Bitton or Keynsham and serve the Bristol edge or Bath, we build websites and offer GBP and local SEO so you get found when local customers search.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Bitton or the Keynsham area and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our Keynsham area page, web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/areas/keynsham', label: 'Website design Keynsham' },
+      { href: '/areas/bitton-keynsham', label: 'Bitton & Keynsham area' },
+      { href: '/web-design', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'get-found-on-google-keynsham': {
+    slug: 'get-found-on-google-keynsham',
+    title: 'Get Found on Google in Keynsham, Bitton & the Areas We Serve',
+    description: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
+    date: '2026-02-12',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'get found on Google Keynsham, Keynsham Google, Bitton Saltford, areas we serve Keynsham',
+    sections: [
+      {
+        heading: 'Where your customers search',
+        paragraphs: [
+          'When people in Keynsham, Bitton, Saltford, Paulton, or Bath search for a plumber, electrician, or builder, they type "plumber Keynsham", "electrician BS31", or "builder near me" into Google. The businesses that show on page one and in the map pack get most of the clicks and calls. If you\'re not there, you miss them.',
+        ],
+      },
+      {
+        heading: 'What "get found" means in practice',
+        paragraphs: [
+          'Getting found on Google in Keynsham and the areas we serve comes down to three things: a website that loads fast and clearly says where you serve, a complete and optimised Google Business Profile, and the same areas and services everywhere so Google and your customers see a consistent picture. We do all three for Keynsham and Bath and North East Somerset — website design from £399, plus Google Business Profile and local SEO as add-ons.',
+        ],
+      },
+      {
+        heading: 'Areas we serve',
+        paragraphs: [
+          'We work with trades and local businesses across Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John, Chew Magna, Temple Cloud, Clutton and across Bath and North East Somerset. Wherever your customers search — Keynsham, Bitton, Saltford, or the wider area — we build and optimise so you show up when it matters.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'Not sure how you show up on Google in Keynsham or the Keynsham area? We offer a free check of your website and Google listing. No obligation, no jargon — just a clear view of where you stand and simple next steps. Get in touch for a free check or find out more about our website design and local SEO services.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/areas/keynsham', label: 'Keynsham area' },
+      { href: '/local-seo', label: 'Local SEO' },
+      { href: '/web-design', label: 'Website design' },
+      { href: '/contact', label: 'Free check' },
     ],
   },
   'website-design-radstock': {
@@ -532,17 +615,17 @@ const blogPosts = {
   },
   'one-page-website-bath-banes': {
     slug: 'one-page-website-bath-banes',
-    title: 'One-Page Website for Small Business Bath & BANES: When It Works and What We Build',
-    description: 'Affordable one-page website design for Bath and BANES — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    title: 'One-Page Website for Small Business Bath & North East Somerset: When It Works and What We Build',
+    description: 'Affordable one-page website design for Bath and North East Somerset — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'one-page website Bath, affordable website Bath, website for trades Bath, small business website BANES, one-page website design',
+    keywords: 'one-page website Bath, affordable website Bath, website for trades Bath, small business website Bath and North East Somerset, one-page website design',
     sections: [
       {
         heading: 'What is a one-page website?',
         paragraphs: [
-          'A one-page website is a single page that contains everything a visitor needs: your services, contact details, area you serve, and a clear way to get in touch. For tradespeople and small businesses in Bath, Keynsham, Midsomer Norton, and across BANES, it can be the perfect affordable website — fast to load, easy to use on mobile, and built so it can rank on Google and in the map pack.',
+          'A one-page website is a single page that contains everything a visitor needs: your services, contact details, area you serve, and a clear way to get in touch. For tradespeople and small businesses in Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset, it can be the perfect affordable website — fast to load, easy to use on mobile, and built so it can rank on Google and in the map pack.',
         ],
       },
       {
@@ -560,13 +643,13 @@ const blogPosts = {
       {
         heading: 'Affordable website design from £399',
         paragraphs: [
-          'Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, 12 months free hosting, and SSL. It\'s affordable website design for Bath and BANES — no hidden fees, no ongoing costs you didn\'t agree to. If you later need more pages, we can expand it or you can move to a larger package.',
+          'Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, 12 months free hosting, and SSL. It\'s affordable website design for Bath and North East Somerset — no hidden fees, no ongoing costs you didn\'t agree to. If you later need more pages, we can expand it or you can move to a larger package.',
         ],
       },
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or small business in Bath, Keynsham, Midsomer Norton, Radstock, or across BANES and you want an affordable one-page website that gets found on Google, we\'d be happy to talk. We offer a free check of your current setup and a no-obligation quote. See our web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or small business in Bath, Keynsham, Midsomer Norton, Radstock, or across Bath and North East Somerset and you want an affordable one-page website that gets found on Google, we\'d be happy to talk. We offer a free check of your current setup and a no-obligation quote. See our web design packages or get in touch for a free quote.',
         ],
       },
     ],
@@ -629,7 +712,7 @@ const blogPosts = {
       {
         heading: 'Speed is a ranking factor',
         paragraphs: [
-          'Google has said for years that page speed matters for search. Faster sites tend to rank better, all else equal, because they give users a better experience. If your site takes five seconds to load and a competitor\'s takes one second, Google has a signal that your page may be less satisfying. For local businesses in Bath, Keynsham, Midsomer Norton, and across BANES, that can mean the difference between showing up on page one or losing clicks to faster competitors.',
+          'Google has said for years that page speed matters for search. Faster sites tend to rank better, all else equal, because they give users a better experience. If your site takes five seconds to load and a competitor\'s takes one second, Google has a signal that your page may be less satisfying. For local businesses in Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset, that can mean the difference between showing up on page one or losing clicks to faster competitors.',
         ],
       },
       {
@@ -654,7 +737,7 @@ const blogPosts = {
         heading: 'How we optimise for performance — Lighthouse scores over 95',
         paragraphs: [
           'We optimise every site we build for performance from day one. That means optimised images (right size, format, lazy loading), minimal JavaScript, clean code, and fast hosting. We use Google\'s Lighthouse to measure performance, accessibility, best practices, and SEO — and we aim for scores of 95 and above across the board. Hitting those scores isn\'t luck; it\'s how we build. Right from the first design and the first line of code, we keep performance in mind so your site loads quickly, works for everyone, and sends the right signals to Google.',
-          'That doesn\'t mean boring or plain. It means we choose the right tech and structure so your site looks great without sacrificing speed. Every site we build for Bath, Keynsham, Midsomer Norton, and across BANES is built to perform — so you get a site that ranks and converts.',
+          'That doesn\'t mean boring or plain. It means we choose the right tech and structure so your site looks great without sacrificing speed. Every site we build for Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset is built to perform — so you get a site that ranks and converts.',
         ],
       },
       {
@@ -723,7 +806,7 @@ const blogPosts = {
         heading: 'We don’t promise magic — we promise a proper plan',
         paragraphs: [
           'Nobody can guarantee you’ll be number one tomorrow. Google’s algorithm changes, and your competitors are trying too. What we do is put in place the things that actually move the needle: a complete, accurate Google Business Profile, a website that supports it, consistent details everywhere and a sensible approach to reviews and activity.',
-          'We’ve done this for local businesses in Bath, BANES and beyond — including getting clients to number one for their main search terms. If you want to see where you stand and what would help you most, we offer a free check of your Google listing and website. No jargon, no hard sell — just a clear picture and next steps in language you can understand.',
+          'We’ve done this for local businesses in Bath, North East Somerset and beyond — including getting clients to number one for their main search terms. If you want to see where you stand and what would help you most, we offer a free check of your Google listing and website. No jargon, no hard sell — just a clear picture and next steps in language you can understand.',
         ],
       },
     ],
@@ -750,7 +833,7 @@ const BlogPost = ({ params: staticParams }) => {
       <SEO
         title={post.title}
         description={post.description}
-        keywords={post.keywords || 'local SEO Bath, web design BANES, SEO BANES'}
+        keywords={post.keywords || 'local SEO Bath, web design Bath and North East Somerset, SEO Bath and North East Somerset'}
         canonical={`/blog/${post.slug}`}
         ogType="article"
         breadcrumbs={[

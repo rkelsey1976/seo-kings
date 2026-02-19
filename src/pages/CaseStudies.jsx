@@ -16,14 +16,15 @@ const CaseStudies = () => {
       image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=250&fit=crop&auto=format&q=80',
       imageAlt: 'Professional cleaning services in Midsomer Norton - Peachy Cleans website and local SEO case study',
       challenge: 'New cleaning business with no website or online presence in a competitive local market.',
-      solution: 'Professional website built from scratch and local SEO to get visible on Google for Midsomer Norton and surrounding areas.',
+      solution: 'Professional website built from scratch and local SEO to get visible on Google for Midsomer Norton and surrounding areas. Now working with them to target multiple areas and multiple keywords on Google across their full service area.',
       results: [
         { metric: 'New site', label: 'Live at peachycleans.info' },
-        { metric: 'Visible', label: 'On Google for local searches' },
-        { metric: 'Regular', label: 'Enquiries from area' },
+        { metric: '#1', label: 'On Google for local searches' },
+        { metric: 'Fully booked', label: 'Weeks · hiring new staff' },
+        { metric: 'Ongoing', label: 'Multiple areas & keywords' },
       ],
       timeframe: 'Recent',
-      quote: "SEO Kings built our website and got us visible on Google. We're now getting regular enquiries from Midsomer Norton and the surrounding area. Professional from start to finish.",
+      quote: "SEO Kings built our website and got us visible on Google. We're now having fully booked weeks and have had to hire new staff to keep up. Professional from start to finish.",
       author: 'Peachy Cleans',
       role: 'Cleaning Services',
       services: ['Website Design', 'Local SEO'],
@@ -34,9 +35,9 @@ const CaseStudies = () => {
   return (
     <>
       <SEO
-        title="Case Studies - SEO Results for BANES Businesses"
-        description="Real SEO case studies from Bath & BANES. See how we helped tradespeople and local businesses dominate Google and get more customers."
-        keywords="SEO case studies, SEO results Bath, local SEO success stories, BANES business growth, SEO ROI examples"
+        title="Case Studies - SEO Results for Bath and North East Somerset Businesses"
+        description="Real SEO case studies from Bath & North East Somerset. See how we helped tradespeople and local businesses dominate Google and get more customers."
+        keywords="SEO case studies, SEO results Bath, local SEO success stories, Bath and North East Somerset business growth, SEO ROI examples"
         canonical="/case-studies"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -190,7 +191,7 @@ const CaseStudies = () => {
               Industries We've Helped
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              From tradespeople to restaurants, we've helped businesses across BANES succeed online.
+              From tradespeople to restaurants, we've helped businesses across Bath and North East Somerset succeed online.
             </p>
           </div>
 

@@ -13,7 +13,7 @@ const Services = () => {
       title: 'Local SEO',
       href: '/local-seo',
       image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Local SEO keyword research and analytics for BANES businesses',
+      imageAlt: 'Local SEO keyword research and analytics for Bath and North East Somerset businesses',
       description: 'Get found for searches like "plumber Bath", "electrician Keynsham", "builder Midsomer Norton". Keyword research, on-page fixes, local links.',
       features: [
         'Keyword research',
@@ -52,8 +52,8 @@ const Services = () => {
       title: 'Website Designer & Web Design',
       href: '/web-design',
       image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Website designer in Bath and BANES — mobile-first, fast, SEO-ready',
-      description: 'We specialise in trade websites and getting local trades found on Google. Professional website designer in Bath & BANES — fast, mobile-first sites for plumbers, electricians, builders. SEO-ready.',
+      imageAlt: 'Website designer in Bath and North East Somerset — mobile-first, fast, SEO-ready',
+      description: 'We specialise in trade websites and getting local trades found on Google. Professional website designer in Bath & North East Somerset — fast, mobile-first sites for plumbers, electricians, builders. SEO-ready.',
       features: [
         'Mobile-first design',
         'Fast loading speeds',

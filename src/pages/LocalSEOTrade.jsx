@@ -9,7 +9,7 @@ import CTABanner from '../components/CTABanner';
 const tradesData = {
   plumbers: {
     name: 'Plumbers',
-    headline: 'Local SEO for Plumbers in Bath & BANES',
+    headline: 'Local SEO for Plumbers in Bath & North East Somerset',
     intro: 'When someone in Bath or Keynsham searches "plumber near me" or "emergency plumber Bath", they\'re ready to hire. If you\'re not on page one of Google, your competitors are getting those calls. We help plumbers across Bath and North East Somerset rank higher so you get more enquiries and more jobs.',
     whatWeDo: [
       'Keyword research for "plumber Bath", "plumber Keynsham" and every area you serve',
@@ -27,15 +27,15 @@ const tradesData = {
     faqs: [
       { q: 'How much does SEO cost for a plumber?', a: 'Our local SEO packages start from £500/month. We tailor the plan to your area and competition. Every plumber gets a free audit first so you know exactly what we\'d do and what it would cost.' },
       { q: 'How long until I see results?', a: 'Most plumbers see noticeable improvements within 3–6 months. Quick wins like Google Business Profile optimisation can show results in weeks. Competitive terms like "plumber Bath" may take a few months to reach page one.' },
-      { q: 'Do you work with one-man bands?', a: 'Yes. We work with sole traders, small teams, and larger plumbing firms across BANES. The goal is the same: get you found when local customers search for a plumber.' },
-      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset. We focus only on local SEO in BANES.' },
+      { q: 'Do you work with one-man bands?', a: 'Yes. We work with sole traders, small teams, and larger plumbing firms across Bath and North East Somerset. The goal is the same: get you found when local customers search for a plumber.' },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset. We focus only on local SEO in Bath and North East Somerset.' },
     ],
-    metaTitle: 'Local SEO for Plumbers in Bath & BANES',
-    metaDescription: 'Get more plumbing jobs from Google. We help plumbers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+    metaTitle: 'Local SEO for Plumbers in Bath & North East Somerset',
+    metaDescription: 'Get more plumbing jobs from Google. We help plumbers in Bath, Keynsham, Midsomer Norton and Bath and North East Somerset rank #1 for local searches. Free audit.',
   },
   electricians: {
     name: 'Electricians',
-    headline: 'Local SEO for Electricians in Bath & BANES',
+    headline: 'Local SEO for Electricians in Bath & North East Somerset',
     intro: 'Searches like "electrician Bath" and "electrician Keynsham" are made by people ready to book. If you\'re not on the first page of Google, you\'re missing those jobs. We help electricians across Bath and North East Somerset get found, get more calls, and win more work.',
     whatWeDo: [
       'Target the exact terms your customers search: "electrician [area]", "emergency electrician"',
@@ -54,14 +54,14 @@ const tradesData = {
       { q: 'How much does SEO cost for an electrician?', a: 'Our local SEO packages start from £500/month. We offer a free audit first: we\'ll check your current rankings, your Google Business Profile and your website, then give you a clear plan and quote.' },
       { q: 'How long until I rank on Google?', a: 'Many electricians see improvements within 3–6 months. Google Business Profile optimisation can bring quick wins. Ranking for competitive terms may take a few months of consistent work.' },
       { q: 'Do you do websites as well?', a: 'Yes. We build fast, mobile-friendly websites that are optimised for local search. We can do website + SEO together so you have one team handling everything.' },
-      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of BANES. We specialise in local SEO for this area only.' },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset. We specialise in local SEO for this area only.' },
     ],
-    metaTitle: 'Local SEO for Electricians in Bath & BANES',
-    metaDescription: 'Get more electrical jobs from Google. We help electricians in Bath, Keynsham, Radstock and BANES rank #1 for local searches. Free audit.',
+    metaTitle: 'Local SEO for Electricians in Bath & North East Somerset',
+    metaDescription: 'Get more electrical jobs from Google. We help electricians in Bath, Keynsham, Radstock and Bath and North East Somerset rank #1 for local searches. Free audit.',
   },
   roofers: {
     name: 'Roofers',
-    headline: 'Local SEO for Roofers in Bath & BANES',
+    headline: 'Local SEO for Roofers in Bath & North East Somerset',
     intro: 'Homeowners searching "roofer Bath" or "roofing Keynsham" are looking for someone now. We help roofers across Bath and North East Somerset rank on Google so you appear when it matters and get more enquiries.',
     whatWeDo: [
       'Keyword research for "roofer Bath", "roofing [area]" and related searches',
@@ -82,8 +82,8 @@ const tradesData = {
       { q: 'I\'m a sole trader — is SEO worth it?', a: 'Yes. Local SEO helps you compete with bigger firms. When someone searches "roofer Midsomer Norton", they often call the first few results. We get you into those spots.' },
       { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
     ],
-    metaTitle: 'Local SEO for Roofers in Bath & BANES',
-    metaDescription: 'Get more roofing jobs from Google. We help roofers in Bath, Midsomer Norton, Keynsham and BANES rank #1 for local searches. Free audit.',
+    metaTitle: 'Local SEO for Roofers in Bath & North East Somerset',
+    metaDescription: 'Get more roofing jobs from Google. We help roofers in Bath, Midsomer Norton, Keynsham and Bath and North East Somerset rank #1 for local searches. Free audit.',
   },
 };
 
@@ -104,7 +104,7 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       <SEO
         title={trade.metaTitle}
         description={trade.metaDescription}
-        keywords={`SEO for ${trade.name.toLowerCase()}, local SEO ${trade.name.toLowerCase()} Bath, ${trade.name.toLowerCase()} BANES, Google ranking ${trade.name.toLowerCase()}`}
+        keywords={`SEO for ${trade.name.toLowerCase()}, local SEO ${trade.name.toLowerCase()} Bath, ${trade.name.toLowerCase()} Bath and North East Somerset, Google ranking ${trade.name.toLowerCase()}`}
         canonical={`/local-seo/${tradeSlug}`}
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -198,7 +198,7 @@ const LocalSEOTrade = ({ params: staticParams }) => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">SEO for {trade.name} – FAQs</h2>
-            <p className="text-gray-400">Common questions about local SEO for {trade.name.toLowerCase()} in Bath & BANES.</p>
+            <p className="text-gray-400">Common questions about local SEO for {trade.name.toLowerCase()} in Bath & North East Somerset.</p>
           </div>
           <FAQAccordion faqs={trade.faqs} />
         </div>

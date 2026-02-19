@@ -84,7 +84,7 @@ const BANESMap = () => {
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         />
 
-        {/* BANES Boundary Polygon */}
+        {/* Bath & North East Somerset boundary Polygon */}
         <Polygon
           positions={banesBoundary}
           pathOptions={{
@@ -130,7 +130,7 @@ const BANESMap = () => {
       <div className="absolute bottom-4 left-4 bg-dark-card/95 backdrop-blur-sm border border-white/10 rounded-lg p-3 z-[1000]">
         <div className="flex items-center gap-2 text-sm">
           <div className="w-4 h-4 rounded border-2 border-primary bg-primary/20" />
-          <span className="text-gray-300">BANES Boundary</span>
+          <span className="text-gray-300">Bath & North East Somerset boundary</span>
         </div>
         <div className="flex items-center gap-2 text-sm mt-2">
           <div className="w-4 h-4 rounded-full bg-gradient-to-br from-primary to-secondary border-2 border-white" />

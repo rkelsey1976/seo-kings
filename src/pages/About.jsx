@@ -22,7 +22,7 @@ const About = () => {
         </svg>
       ),
       title: 'Local First',
-      description: 'We live and work in BANES. We understand the local market, the competition, and what it takes to win here.',
+      description: 'We live and work in Bath and North East Somerset. We understand the local market, the competition, and what it takes to win here.',
     },
     {
       icon: (
@@ -47,7 +47,7 @@ const About = () => {
   const reasons = [
     {
       title: 'We Specialise in Local',
-      description: 'Big agencies chase big contracts. We focus exclusively on local businesses in BANES — it\'s all we do, and we do it better than anyone.',
+      description: 'Big agencies chase big contracts. We focus exclusively on local businesses in Bath and North East Somerset — it\'s all we do, and we do it better than anyone.',
     },
     {
       title: 'We Speak Your Language',
@@ -67,8 +67,8 @@ const About = () => {
     <>
       <SEO
         title="About Us - Local SEO Agency in Bath"
-        description="Bath-based SEO agency for tradespeople and local businesses in BANES. Our story, values, and why local businesses trust us. Get your free audit."
-        keywords="SEO agency Bath, about SEO Kings, digital marketing Bath, local SEO company BANES, Bath marketing agency, SEO experts Somerset"
+        description="Bath-based SEO agency for tradespeople and local businesses in Bath and North East Somerset. Our story, values, and why local businesses trust us. Get your free audit."
+        keywords="SEO agency Bath, about SEO Kings, digital marketing Bath, local SEO company Bath and North East Somerset, Bath marketing agency, SEO experts Somerset"
         canonical="/about"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -93,7 +93,7 @@ const About = () => {
               </h1>
               <p className="text-xl text-gray-400 leading-relaxed">
                 We're a Bath-based digital marketing agency dedicated to helping tradespeople 
-                and small businesses in BANES get found on Google and grow their customer base.
+                and small businesses in Bath and North East Somerset get found on Google and grow their customer base.
               </p>
             </div>
             <div className="relative hidden lg:block">
@@ -102,7 +102,7 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80"
                 srcSet="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80 600w"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                alt="SEO Kings local SEO and digital marketing for Bath and BANES businesses"
+                alt="SEO Kings local SEO and digital marketing for Bath and North East Somerset businesses"
                 width={600}
                 height={450}
                 fetchPriority="high"
@@ -137,7 +137,7 @@ const About = () => {
                   and North East Somerset.
                 </p>
                 <p>
-                  Today we work with local businesses across Bath and BANES — plumbers, electricians, 
+                  Today we work with local businesses across Bath and North East Somerset — plumbers, electricians, 
                   cleaners, builders and more. We've seen what works (and what doesn't) in this market.
                 </p>
                 <p className="text-white font-medium">
@@ -164,7 +164,7 @@ const About = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Founded</span> — Bath & BANES</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Founded</span> — Bath & North East Somerset</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full" />

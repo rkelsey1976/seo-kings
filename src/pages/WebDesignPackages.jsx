@@ -89,9 +89,9 @@ const WebDesignPackages = () => {
   return (
     <>
       <SEO
-        title="Website Designer Packages Bath & BANES | From £399 – SEO Kings"
-        description="Website designer packages for Bath & BANES — we specialise in trade websites and getting local trades found on Google. From £399 for a one-page site. Plumbers, electricians, builders."
-        keywords="website designer Bath, website designer BANES, web design packages Bath, website design Bath, one-page website, affordable website, website for trades, website design Keynsham, website design Midsomer Norton, website packages BANES"
+        title="Website Designer Packages Bath & North East Somerset | From £399 – SEO Kings"
+        description="Website designer packages for Bath & North East Somerset — we specialise in trade websites and getting local trades found on Google. From £399 for a one-page site. Plumbers, electricians, builders."
+        keywords="website designer Bath, website designer Bath and North East Somerset, web design packages Bath, website design Bath, one-page website, affordable website, website for trades, website design Keynsham, website design Midsomer Norton, website packages Bath and North East Somerset"
         canonical="/web-design-packages"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -106,7 +106,7 @@ const WebDesignPackages = () => {
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
-            Website designer Bath & BANES
+            Website designer Bath & North East Somerset
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
             Website Designer <span className="gradient-text">Packages</span>
@@ -116,7 +116,7 @@ const WebDesignPackages = () => {
           </p>
           <p className="text-gray-500 text-sm">Pay monthly options available — no hidden fees</p>
           <p className="text-gray-400 text-sm mt-4 max-w-xl mx-auto">
-            We specialise in trade websites and getting local trades found on Google. Packages for Bath, Keynsham, Midsomer Norton, Radstock and BANES — one-page from £399 or full sites. Fast, mobile-friendly, built for local search.
+            We specialise in trade websites and getting local trades found on Google. Packages for Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset — one-page from £399 or full sites. Fast, mobile-friendly, built for local search.
           </p>
         </div>
       </section>

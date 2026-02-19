@@ -12,6 +12,8 @@ const BLOG_SLUGS = [
   'website-design-bath',
   'website-designer-bath-banes',
   'website-design-keynsham',
+  'website-design-bitton-keynsham',
+  'get-found-on-google-keynsham',
   'website-design-radstock',
   'website-design-trowbridge',
   'one-page-website-bath-banes',

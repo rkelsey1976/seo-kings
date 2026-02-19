@@ -5,9 +5,9 @@ import AnimatedBlob from './AnimatedBlob';
 const Hero = () => {
   const stats = [
     { value: '150+', label: 'Businesses Helped' },
-    { value: '#1', label: 'BANES SEO Agency' },
+    { value: '#1', label: 'Bath & North East Somerset SEO Agency' },
     { value: '5★', label: 'Google Rating' },
-    { value: 'Proven', label: 'Results Across Bath & BANES' },
+    { value: 'Proven', label: 'Results Across Bath & North East Somerset' },
   ];
 
   return (
@@ -54,19 +54,18 @@ const Hero = () => {
             {/* Badge */}
             <div className="animate-fade-in-down inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-8">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-              <span className="text-sm text-gray-300">Local SEO Experts in Bath & BANES</span>
+              <span className="text-sm text-gray-300">Website Designer & Get Found on Google – Bath & North East Somerset</span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
-              <span className="animate-fade-in-up delay-100 block text-white">Local SEO Experts in Bath & BANES</span>
+              <span className="animate-fade-in-up delay-100 block text-white">Website Designer in Bath & North East Somerset</span>
               <span className="animate-fade-in-up delay-300 block gradient-text">Get More Customers From Google</span>
             </h1>
 
             {/* Subheading */}
             <p className="animate-fade-in-up delay-400 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-              We help tradespeople and local businesses in Bath and North East Somerset
-              rank higher on Google and win more jobs — real results, no fluff.
+              Website design and Google Business Profile for tradespeople and local businesses in Bath and North East Somerset. Get on the map, get more jobs — real results, no fluff.
             </p>
 
             {/* CTA Buttons */}
@@ -103,7 +102,7 @@ const Hero = () => {
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=500&fit=crop&auto=format&q=80"
                 srcSet="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=333&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=500&fit=crop&auto=format&q=80 600w, https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=667&fit=crop&auto=format&q=80 800w"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                alt="SEO analytics dashboard displaying website traffic growth charts and Google ranking improvements for local businesses in Bath"
+                alt="Website designer Bath — get found on Google with a fast website and optimised Google listing for local trades"
                 width={600}
                 height={500}
                 fetchPriority="high"

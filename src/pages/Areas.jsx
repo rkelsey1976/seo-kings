@@ -109,9 +109,9 @@ const Areas = () => {
   return (
     <>
       <SEO
-        title="Areas We Serve | Local SEO Services in Bath & BANES"
+        title="Areas We Serve | Local SEO Services in Bath & North East Somerset"
         description="Local SEO across Bath & North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock and nearby get found on Google."
-        keywords="SEO Bath, SEO Keynsham, SEO Midsomer Norton, SEO BANES, local SEO Somerset, SEO near me"
+        keywords="SEO Bath, SEO Keynsham, SEO Midsomer Norton, SEO Bath and North East Somerset, local SEO Somerset, SEO near me"
         canonical="/areas"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -148,7 +148,7 @@ const Areas = () => {
             {/* Map Header */}
             <div className="p-6 border-b border-white/10">
               <h2 className="text-2xl font-bold text-white">Our Coverage Area</h2>
-              <p className="text-gray-400 mt-1">Bath & North East Somerset (BANES) - Click markers for details</p>
+              <p className="text-gray-400 mt-1">Bath & North East Somerset - Click markers for details</p>
             </div>
             
             {/* Interactive Map with BANES Boundary */}

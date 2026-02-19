@@ -7,9 +7,9 @@ const HowItWorks = () => {
     {
       number: '01',
       title: 'Free Audit',
-      description: 'We review your current Google rankings, website, and Google Business Profile. We tell you exactly what\'s holding you back in Bath & BANES searches.',
+      description: 'We review your current Google rankings, website (or we build you one — website design from £399), and Google Business Profile. We tell you exactly what\'s holding you back in Bath & North East Somerset searches.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format&q=80',
-      imageAlt: 'SEO audit for Bath and BANES businesses',
+      imageAlt: 'Free check: website design and Google listing for Bath and North East Somerset businesses',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
@@ -63,11 +63,11 @@ const HowItWorks = () => {
           <div className="hidden md:block absolute top-48 left-1/6 right-1/6 h-0.5 bg-gradient-to-r from-primary via-secondary to-accent opacity-20" />
 
           {steps.map((step, index) => (
-            <div key={index} className="relative">
+            <div key={index} className="relative flex flex-col h-full">
               {/* Step Card */}
-              <div className="bg-dark border border-white/5 rounded-2xl overflow-hidden relative z-10">
+              <div className="bg-dark border border-white/5 rounded-2xl overflow-hidden relative z-10 flex flex-col h-full">
                 {/* Image */}
-                <div className="relative h-48">
+                <div className="relative h-48 flex-shrink-0">
                   <img
                     src={step.image}
                     alt={step.imageAlt}
@@ -84,7 +84,7 @@ const HowItWorks = () => {
                   </div>
                 </div>
 
-                <div className="p-6 text-center">
+                <div className="p-6 text-center flex-1 flex flex-col">
                   {/* Icon */}
                   <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-white/5 text-gray-300 mb-4 -mt-10 relative bg-dark border border-white/10">
                     {step.icon}
@@ -94,7 +94,7 @@ const HowItWorks = () => {
                   <h3 className="text-xl font-bold text-white mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-gray-300 leading-relaxed text-sm">
+                  <p className="text-gray-300 leading-relaxed text-sm flex-1">
                     {step.description}
                   </p>
                 </div>

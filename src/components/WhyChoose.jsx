@@ -3,10 +3,11 @@ import SectionDivider from './SectionDivider';
 
 const WhyChoose = () => {
   const bullets = [
-    'Specialise in trades: plumbers, electricians, builders, roofers, landscapers',
-    'Focus on Bath & North East Somerset (BANES)',
+    'Website designer for trades: plumbers, electricians, builders, roofers, landscapers',
+    'Website design from £399 — one-page or full site, built to get you found on Google',
+    'Focus on Bath & North East Somerset',
     'No long contracts or complicated jargon',
-    'Clear monthly reports showing your progress',
+    'Google Business Profile set up and optimised so you show up in the map pack',
     'Fast, mobile-friendly websites that convert visitors to customers',
   ];
 
@@ -20,10 +21,10 @@ const WhyChoose = () => {
             <span className="gradient-text"> SEO Kings</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Customers in Bath, Keynsham, Midsomer Norton, Radstock and across BANES search Google for local trades every day. If you&apos;re not on page 1 or in the map pack, you miss calls and jobs.
+            Customers in Bath, Keynsham, Midsomer Norton, Radstock and across Bath and North East Somerset search Google for local trades every day. If you&apos;re not on page 1 or in the map pack, you miss calls and jobs.
           </p>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10">
-            We fix that with straightforward local SEO that works for real businesses like yours.
+            We fix that with <strong className="text-gray-300">website design</strong> and getting your <strong className="text-gray-300">Google listing</strong> right — so you get found when it matters.
           </p>
         </div>
 

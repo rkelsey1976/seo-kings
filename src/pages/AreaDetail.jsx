@@ -19,16 +19,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1', 'BA2'],
       population: '95,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
-      metaTitle: 'Local SEO Bath | Trades & Businesses in Bath & BANES – SEO Kings',
-      metaDescription: 'Get more customers in Bath. We help plumbers, electricians, builders, roofers, hospitality, and trades rank higher on Google. We also offer website design in Bath. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Bath',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
       extendedDescription: 'This creates huge demand for local services — from plumbers fixing tourist rentals to builders on new developments. Customers search Google for "plumber Bath" or "electrician Bath". We get you to the top.',
       heroStats: [
         { value: '95,000+', label: 'Residents' },
         { value: 'High', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -45,13 +45,13 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings save money vs paid ads (often £2+ per click).' },
       ],
       services: [
-        { name: 'Local SEO', description: 'Rank for Bath + trade keywords.' },
-        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
-        { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
-        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bath + trade keywords.' },
+        { name: 'Review Management', description: 'Add-on: build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Bath',
-      servicesSubtext: 'We handle everything to win Bath searches.',
+      servicesHeading: 'Website design in Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what Bath people and visitors search:',
@@ -93,6 +93,8 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: 'Free Consultation – Get Started',
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['keynsham', 'midsomer-norton', 'radstock', 'peasedown-st-john', 'paulton', 'saltford', 'timsbury'],
+      subAreaSlugs: ['odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath'],
+      subAreasHeading: 'Bath neighbourhoods we cover',
       faqs: [
         {
           question: 'How long to rank in Bath?',
@@ -119,15 +121,15 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS31'],
       population: '16,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
-      metaTitle: 'Local SEO Keynsham | More Customers for Trades in Keynsham – SEO Kings',
-      metaDescription: 'Get more Google calls in Keynsham. We help plumbers, electricians, builders and local trades rank higher. We also offer website design in Keynsham. Free audit. No obligation.',
-      heroHeadline: 'Local SEO Keynsham',
-      heroSubhead: 'Get More Customers From Google in Keynsham',
+      metaTitle: 'Website design Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Keynsham',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'We help tradespeople and small businesses in Keynsham rank higher on Google and win more local jobs — guaranteed results.',
-      extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and BANES.',
+      extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset.',
       heroStats: [
         { value: '150+', label: 'Local Businesses Ranked' },
-        { value: '#1', label: 'BANES SEO Agency' },
+        { value: '#1', label: 'Bath & North East Somerset SEO Agency' },
         { value: '5★', label: 'Google Rating' },
         { value: '+340%', label: 'Average Lead Increase' },
       ],
@@ -146,14 +148,13 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'No fluff', text: 'Plain English. No long contracts. Monthly reports show your progress.' },
         { title: 'Full service', text: 'Keyword research, on-page fixes, local links, Google Business Profile, fast website if needed.' },
       ],
-      servicesHeading: 'Our Local SEO Services for Keynsham Trades',
-      servicesSubtext: 'We get you found when customers search in Keynsham.',
+      servicesHeading: 'Website design in Keynsham — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       services: [
-        { name: 'Keyword research', description: 'Find the exact terms Keynsham people use (e.g. "local plumber Keynsham emergency").' },
-        { name: 'On-page optimisation', description: 'Make your site fast, mobile-friendly, and Google-ready.' },
-        { name: 'Local link building', description: 'Get trusted mentions from Keynsham and BANES sites.' },
-        { name: 'Google Business Profile domination', description: 'More views, calls, and map pack wins.' },
-        { name: 'Monthly reporting', description: 'Clear numbers. See your leads grow.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Keynsham.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Keynsham and trade keywords. Keyword research, on-page, links.' },
+        { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
       ],
       testimonial: {
         label: 'Real Results in Keynsham',
@@ -197,6 +198,8 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: 'Get a Free Consultation',
       ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Keynsham business.',
       nearbyAreas: ['bath', 'saltford', 'paulton'],
+      subAreaSlugs: ['bitton-keynsham', 'hanham-keynsham', 'oldland-keynsham'],
+      subAreasHeading: 'Areas near Keynsham we cover',
       faqs: [
         {
           question: 'Can you help my Keynsham business rank in Bath and Bristol too?',
@@ -223,16 +226,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '11,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Midsomer_Norton%2C_the_River_Somer_alongside_the_High_Street_-_geograph.org.uk_-_1987837.jpg',
-      metaTitle: 'Local SEO Midsomer Norton | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local jobs in Midsomer Norton. We help plumbers, electricians, roofers, builders and trades rank higher on Google. We also offer website design in Midsomer Norton. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Midsomer Norton',
-      heroSubhead: 'More Customers. More Calls. From Google.',
+      metaTitle: 'Website design Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Midsomer Norton',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Midsomer Norton is a historic market town in the Somer Valley. With around 11,000 residents and a strong community, local trades get steady work from nearby homes and villages.',
       extendedDescription: 'Customers search Google for "plumber Midsomer Norton" or "electrician Midsomer Norton". We get you to the top — fast.',
       heroStats: [
         { value: '11,000+', label: 'Residents' },
         { value: 'Low-Medium', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -249,13 +252,13 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'High returns', text: 'Organic rankings beat paid ads for long-term leads.' },
       ],
       services: [
-        { name: 'Local SEO', description: 'Rank for Midsomer Norton + trade keywords.' },
-        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and updates.' },
-        { name: 'Fast Website Design', description: 'Mobile sites that turn visitors into customers.' },
-        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Midsomer Norton.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and updates.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Midsomer Norton + trade keywords.' },
+        { name: 'Review Management', description: 'Add-on: build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Midsomer Norton',
-      servicesSubtext: 'We handle everything to win local searches.',
+      servicesHeading: 'Website design in Midsomer Norton — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We go after what Midsomer Norton customers search every day:',
@@ -294,6 +297,8 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: 'Free Consultation – Get Started',
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['radstock', 'peasedown-st-john', 'bath', 'keynsham', 'paulton'],
+      subAreaSlugs: ['clandon-midsomer-norton', 'farrington-gurney-midsomer-norton'],
+      subAreasHeading: 'Areas near Midsomer Norton we cover',
       faqs: [
         {
           question: 'Is SEO worth it for a small Midsomer Norton business?',
@@ -301,7 +306,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'How do you target Midsomer Norton specifically?',
-          answer: 'We use local keywords, optimise your Google Business Profile, build citations in BANES directories, and earn links from nearby sites.',
+          answer: 'We use local keywords, optimise your Google Business Profile, build citations in Bath and North East Somerset directories, and earn links from nearby sites.',
         },
         {
           question: 'Can I target Midsomer Norton and nearby towns like Radstock?',
@@ -320,8 +325,10 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '6,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Radstock_%28Somerset%29_St_Nicholas_Church_-_geograph.org.uk_-_67841.jpg',
-      metaTitle: 'Local SEO Radstock | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Radstock. We help plumbers, electricians, builders and trades rank higher on Google. We also offer website design in Radstock. Free SEO audit today.',
+      metaTitle: 'Website design Radstock | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Radstock from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Radstock',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Radstock is a former mining town with a rich heritage and strong community spirit. Local businesses here serve both Radstock residents and the wider Somer Valley area.',
       extendedDescription: 'Radstock\'s close-knit community means word-of-mouth is powerful, but increasingly locals turn to Google first. Businesses that combine great service with strong online visibility thrive in Radstock.',
       industries: ['Trades', 'Retail', 'Services', 'Food & Drink'],
@@ -365,6 +372,8 @@ const AreaDetail = ({ params: staticParams }) => {
           answer: 'Yes! We\'ve helped multiple Radstock businesses dominate local search. Our local knowledge of the Somer Valley gives us an edge in creating effective local SEO strategies.',
         },
       ],
+      servicesHeading: 'Website design in Radstock — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
     },
     'peasedown-st-john': {
       name: 'Peasedown St John',
@@ -373,10 +382,10 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       population: '6,500+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Prince_of_Wales%2C_Peasedown_St_John_-_geograph.org.uk_-_1827688.jpg/1280px-Prince_of_Wales%2C_Peasedown_St_John_-_geograph.org.uk_-_1827688.jpg',
-      metaTitle: 'Local SEO Peasedown St John | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Peasedown St John. We help plumbers, electricians, builders and trades rank higher on Google. We also offer website design in Peasedown St John. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Peasedown St John',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Peasedown St John | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Peasedown St John from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Peasedown St John',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Peasedown St John is a growing village just south of Bath. New homes mean more people need local trades. Plumbers, electricians, builders – customers search Google right here.',
       extendedDescription: 'We get you found first.',
       industries: ['Trades', 'Retail', 'Services', 'Childcare'],
@@ -384,7 +393,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '6,500+', label: 'Residents' },
         { value: 'Low', label: 'Competition' },
-        { value: 'Proven Results', label: 'in BANES' },
+        { value: 'Proven Results', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -412,8 +421,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile-friendly sites that convert visitors to calls.' },
         { name: 'Review Management', description: 'Build 5-star trust fast.' },
       ],
-      servicesHeading: 'Our Services in Peasedown St John',
-      servicesSubtext: 'We cover everything to dominate local search.',
+      servicesHeading: 'Website design in Peasedown St John — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what people in Peasedown actually search:',
@@ -459,16 +468,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       population: '5,300+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Paulton_Memorial_Park_-_geograph.org.uk_-_5152197.jpg/1280px-Paulton_Memorial_Park_-_geograph.org.uk_-_5152197.jpg',
-      metaTitle: 'Local SEO Paulton | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'More local customers in Paulton. We help plumbers, electricians, cleaners, builders and trades rank higher on Google. We also offer website design in Paulton. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Paulton',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Paulton | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Paulton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Paulton',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Paulton is a friendly village in the Cam Valley with about 5,300–6,500 residents. Well-connected to Bath and nearby towns. Businesses here serve locals plus visitors to the area (including nearby Paultons Park).',
       extendedDescription: 'Customers search Google for "plumber Paulton" or "cleaner Paulton". We get you found first.',
       heroStats: [
         { value: '5,300+', label: 'Residents' },
         { value: 'Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -490,8 +499,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that turn visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Paulton',
-      servicesSubtext: 'We cover what you need to win local searches.',
+      servicesHeading: 'Website design in Paulton — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Paulton people:',
@@ -545,7 +554,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'What makes SEO Kings different for Paulton businesses?',
-          answer: "We're local to BANES. We know Paulton customers and use tailored strategies — not generic ones.",
+          answer: "We're local to Bath and North East Somerset. We know Paulton customers and use tailored strategies — not generic ones.",
         },
       ],
     },
@@ -556,16 +565,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS31'],
       population: '5,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Saltford_Marina_-_geograph.org.uk_-_547659.jpg',
-      metaTitle: 'Local SEO Saltford | Trades & Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Saltford. We help plumbers, electricians, builders, decorators, and trades rank higher on Google. We also offer website design in Saltford. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Saltford',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Saltford | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Saltford from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Saltford',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Saltford is a picturesque riverside village on the River Avon, between Bath and Bristol. About 5,000–6,000 residents enjoy an affluent community and scenic setting.',
       extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor (England\'s oldest continuously inhabited house). Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
       heroStats: [
         { value: '5,000+', label: 'Residents' },
         { value: 'Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -587,8 +596,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Saltford',
-      servicesSubtext: 'We handle everything to win local searches.',
+      servicesHeading: 'Website design in Saltford — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what Saltford people actually search:',
@@ -653,16 +662,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       population: '2,600+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/St_Mary%27s%2C_Timsbury_-_geograph.org.uk_-_4344316.jpg/1280px-St_Mary%27s%2C_Timsbury_-_geograph.org.uk_-_4344316.jpg',
-      metaTitle: 'Local SEO Timsbury | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local jobs in Timsbury. We help builders, plumbers, electricians, gardeners, and trades rank higher on Google. We also offer website design in Timsbury. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Timsbury',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Timsbury | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Timsbury from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Timsbury',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Timsbury is a charming rural village near Paulton and Midsomer Norton. Around 2,600 residents enjoy a close-knit community and peaceful setting.',
       extendedDescription: 'Local trades benefit from strong word-of-mouth plus growing online searches. Customers search Google for "builder Timsbury" or "plumber Timsbury". We get you found first.',
       heroStats: [
         { value: '2,600+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -684,8 +693,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Timsbury',
-      servicesSubtext: 'We cover everything to dominate local searches.',
+      servicesHeading: 'Website design in Timsbury — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Timsbury people:',
@@ -749,16 +758,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '2,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Waterside_Valley%2C_Westfield%2C_Somerset.jpg',
-      metaTitle: 'Local SEO Westfield | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local jobs in Westfield. We help plumbers, electricians, builders, and trades rank higher on Google. We also offer website design in Westfield. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Westfield',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Westfield | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Westfield from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Westfield',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Westfield is a village in the Somer Valley, near Radstock and Midsomer Norton. Local trades serve residents and the wider area.',
       extendedDescription: 'People in Westfield and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
         { value: '2,000+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '50+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.80' },
@@ -775,8 +784,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Westfield',
-      servicesSubtext: 'We cover everything to win local searches.',
+      servicesHeading: 'Website design in Westfield — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Westfield and the Somer Valley:',
@@ -826,16 +835,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS40'],
       population: '1,200+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bath_And_North_East_Somerset_-_Chew_Magna_Scenery_%28geograph_5442137%29.jpg/1280px-Bath_And_North_East_Somerset_-_Chew_Magna_Scenery_%28geograph_5442137%29.jpg',
-      metaTitle: 'Local SEO Chew Magna | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Chew Magna. We help plumbers, electricians, builders, and trades rank higher on Google. We also offer website design in Chew Magna. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Chew Magna',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Chew Magna | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Chew Magna from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Chew Magna',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Chew Magna is a village in the Chew Valley, between Bristol and Bath. A strong community and scenic setting attract residents and visitors.',
       extendedDescription: 'Local trades serve Chew Magna and the wider Chew Valley. Customers search Google for "plumber Chew Magna" or "electrician Chew Valley". We get you found first.',
       heroStats: [
         { value: '1,200+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '40+', monthlySearches: '4K+', competitors: 'Very Low', avgCPC: '£0.90' },
@@ -852,8 +861,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Chew Magna',
-      servicesSubtext: 'We handle everything to win local searches.',
+      servicesHeading: 'Website design in Chew Magna — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what Chew Magna and Chew Valley people search:',
@@ -904,16 +913,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       population: '1,500+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/3/36/The_A37_at_Temple_Cloud_-_geograph.org.uk_-_1084282.jpg',
-      metaTitle: 'Local SEO Temple Cloud | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Temple Cloud. We help plumbers, electricians, builders, and trades rank higher on Google. We also offer website design in Temple Cloud. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Temple Cloud',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Temple Cloud | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Temple Cloud from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Temple Cloud',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Temple Cloud is a village in the Cam Valley, near Paulton and Clutton. Local trades serve the village and surrounding areas.',
       extendedDescription: 'People in Temple Cloud and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
         { value: '1,500+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '45+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.85' },
@@ -930,8 +939,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Temple Cloud',
-      servicesSubtext: 'We cover everything to win local searches.',
+      servicesHeading: 'Website design in Temple Cloud — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Temple Cloud and the Cam Valley:',
@@ -980,16 +989,16 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       population: '1,800+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Clutton_Hill%2C_at_the_top_of_Clutton_Hill_-_geograph.org.uk_-_1162747.jpg',
-      metaTitle: 'Local SEO Clutton | Trades & Small Businesses – SEO Kings',
-      metaDescription: 'Get more local customers in Clutton. We help plumbers, electricians, builders, and trades rank higher on Google. We also offer website design in Clutton. Free SEO audit today.',
-      heroHeadline: 'Local SEO in Clutton',
-      heroSubhead: 'More Calls. More Jobs. From Google.',
+      metaTitle: 'Website design Clutton | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Clutton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      heroHeadline: 'Website design in Clutton',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       description: 'Clutton is a village in the Cam Valley, near Temple Cloud and Paulton. Local trades serve the village and the wider area.',
       extendedDescription: 'People in Clutton and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
         { value: '1,800+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in BANES' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '50+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.85' },
@@ -1006,8 +1015,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
         { name: 'Review Management', description: 'Build 5-star trust quickly.' },
       ],
-      servicesHeading: 'Our Services in Clutton',
-      servicesSubtext: 'We handle everything to win local searches.',
+      servicesHeading: 'Website design in Clutton — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Clutton and the Cam Valley:',
@@ -1050,6 +1059,673 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you do website design in Clutton?', answer: 'Yes. We build fast, mobile-friendly websites for local businesses. See our web design page and packages.' },
       ],
     },
+
+    // Sub-areas: Bath
+    'odd-down-bath': {
+      name: 'Odd Down',
+      fullName: 'Odd Down, Bath',
+      parentSlug: 'bath',
+      county: 'Somerset',
+      postcodes: ['BA2'],
+      population: null,
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      metaTitle: 'Website design Odd Down Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Odd Down, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Odd Down, Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Odd Down is a residential area in the south of Bath. Part of Bath and North East Somerset, it has strong demand for local trades — plumbers, electricians, builders, decorators.',
+      extendedDescription: 'Customers search "plumber Odd Down" or "electrician Bath". We get you found on Google and in the map pack.',
+      heroStats: [
+        { value: 'Part of', label: 'Bath' },
+        { value: 'BA2', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Odd Down and south Bath have steady demand for local services. If you\'re not on page 1 or in the map pack, you miss jobs.',
+      whyBullets: [
+        { title: 'Part of Bath', text: 'We target Odd Down and Bath searches so you get found locally.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads for long-term leads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Odd Down, Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Odd Down and Bath + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Odd Down, Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Odd Down and Bath search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Odd Down Park', 'Southgate', 'Bear Flat'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Odd Down and Bath places to boost relevance.',
+      stats: { businesses: '500+', monthlySearches: '25K+', competitors: 'Medium', avgCPC: '£2.00' },
+      localKeywords: [
+        'plumber Odd Down Bath',
+        'electrician Odd Down Bath',
+        'builder Odd Down Bath',
+        'plumber Bath',
+        'electrician Bath',
+        'handyman Odd Down',
+        'decorator Bath',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Odd Down, Bath?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Bath Areas We Serve',
+      nearbyAreas: ['bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath', 'keynsham', 'peasedown-st-john'],
+      faqs: [
+        { question: 'Do you cover Odd Down specifically?', answer: 'Yes. We target Odd Down and Bath so you show up when local customers search.' },
+        { question: 'Website design in Odd Down?', answer: 'Yes. We build fast, mobile-friendly websites for Bath and North East Somerset businesses. From £399 for a one-page site.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Odd Down and Bath.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Result', caseTitle: 'Mitchell Plumbing, Bath', quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!", name: 'Dave Mitchell', business: 'Mitchell Plumbing', result: '+340% enquiries' },
+    },
+    'combe-down-bath': {
+      name: 'Combe Down',
+      fullName: 'Combe Down, Bath',
+      parentSlug: 'bath',
+      county: 'Somerset',
+      postcodes: ['BA2'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      metaTitle: 'Website design Combe Down Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Combe Down, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Combe Down, Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Combe Down is a village and area on the southern edge of Bath. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
+      extendedDescription: 'Customers search "plumber Combe Down" or "electrician Bath". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Part of', label: 'Bath' },
+        { value: 'BA2', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Combe Down and south Bath have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Part of Bath', text: 'We target Combe Down and Bath searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Combe Down, Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Combe Down and Bath + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Combe Down, Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Combe Down and Bath search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Combe Down Stone Mines', 'Prior Park', 'Ralph Allen School'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Combe Down and Bath places.',
+      stats: { businesses: '400+', monthlySearches: '20K+', competitors: 'Medium', avgCPC: '£1.80' },
+      localKeywords: [
+        'plumber Combe Down Bath',
+        'electrician Combe Down Bath',
+        'builder Combe Down Bath',
+        'plumber Bath',
+        'electrician Bath',
+        'handyman Combe Down',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Combe Down, Bath?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Bath Areas We Serve',
+      nearbyAreas: ['bath', 'odd-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath', 'peasedown-st-john'],
+      faqs: [
+        { question: 'Do you cover Combe Down?', answer: 'Yes. We target Combe Down and Bath so you show up when local customers search.' },
+        { question: 'Website design in Combe Down?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Combe Down and Bath.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Result', caseTitle: 'Mitchell Plumbing, Bath', quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!", name: 'Dave Mitchell', business: 'Mitchell Plumbing', result: '+340% enquiries' },
+    },
+    'widcombe-bath': {
+      name: 'Widcombe',
+      fullName: 'Widcombe, Bath',
+      parentSlug: 'bath',
+      county: 'Somerset',
+      postcodes: ['BA2'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      metaTitle: 'Website design Widcombe Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Widcombe, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Widcombe, Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Widcombe is a sought-after area of Bath with Georgian terraces and period homes. Part of Bath and North East Somerset, it has strong demand for local trades.',
+      extendedDescription: 'Customers search "plumber Widcombe" or "electrician Bath". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Part of', label: 'Bath' },
+        { value: 'BA2', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Widcombe and Bath have strong demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Part of Bath', text: 'We target Widcombe and Bath searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Widcombe, Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Widcombe and Bath + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Widcombe, Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Widcombe and Bath search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Widcombe Hill', 'Widcombe Manor', 'Bath Spa Station'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Widcombe and Bath places.',
+      stats: { businesses: '350+', monthlySearches: '18K+', competitors: 'Medium', avgCPC: '£2.00' },
+      localKeywords: [
+        'plumber Widcombe Bath',
+        'electrician Widcombe Bath',
+        'builder Widcombe Bath',
+        'plumber Bath',
+        'electrician Bath',
+        'decorator Widcombe',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Widcombe, Bath?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Bath Areas We Serve',
+      nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'larkhall-bath', 'twerton-bath', 'keynsham'],
+      faqs: [
+        { question: 'Do you cover Widcombe?', answer: 'Yes. We target Widcombe and Bath so you show up when local customers search.' },
+        { question: 'Website design in Widcombe?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Widcombe and Bath.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Result', caseTitle: 'Mitchell Plumbing, Bath', quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!", name: 'Dave Mitchell', business: 'Mitchell Plumbing', result: '+340% enquiries' },
+    },
+    'larkhall-bath': {
+      name: 'Larkhall',
+      fullName: 'Larkhall, Bath',
+      parentSlug: 'bath',
+      county: 'Somerset',
+      postcodes: ['BA1', 'BA2'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      metaTitle: 'Website design Larkhall Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Larkhall, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Larkhall, Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Larkhall is a vibrant area of Bath with independent shops and local businesses. Part of Bath and North East Somerset, it has strong demand for trades and services.',
+      extendedDescription: 'Customers search "plumber Larkhall" or "electrician Bath". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Part of', label: 'Bath' },
+        { value: 'BA1, BA2', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Larkhall and Bath have strong demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Part of Bath', text: 'We target Larkhall and Bath searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Larkhall, Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Larkhall and Bath + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Larkhall, Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Larkhall and Bath search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Larkhall Square', 'St Saviour\'s Road', 'London Road'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Larkhall and Bath places.',
+      stats: { businesses: '400+', monthlySearches: '22K+', competitors: 'Medium', avgCPC: '£2.00' },
+      localKeywords: [
+        'plumber Larkhall Bath',
+        'electrician Larkhall Bath',
+        'builder Larkhall Bath',
+        'plumber Bath',
+        'electrician Bath',
+        'handyman Larkhall',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Larkhall, Bath?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Bath Areas We Serve',
+      nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'twerton-bath', 'keynsham'],
+      faqs: [
+        { question: 'Do you cover Larkhall?', answer: 'Yes. We target Larkhall and Bath so you show up when local customers search.' },
+        { question: 'Website design in Larkhall?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Larkhall and Bath.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Result', caseTitle: 'Mitchell Plumbing, Bath', quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!", name: 'Dave Mitchell', business: 'Mitchell Plumbing', result: '+340% enquiries' },
+    },
+    'twerton-bath': {
+      name: 'Twerton',
+      fullName: 'Twerton, Bath',
+      parentSlug: 'bath',
+      county: 'Somerset',
+      postcodes: ['BA2'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      metaTitle: 'Website design Twerton Bath | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Twerton, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Twerton, Bath',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Twerton is an area in the west of Bath. Part of Bath and North East Somerset, it has strong demand for local trades — plumbers, electricians, builders, decorators.',
+      extendedDescription: 'Customers search "plumber Twerton" or "electrician Bath". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Part of', label: 'Bath' },
+        { value: 'BA2', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Twerton and west Bath have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Part of Bath', text: 'We target Twerton and Bath searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Twerton, Bath.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Twerton and Bath + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Twerton, Bath — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Twerton and Bath search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Twerton High Street', 'River Avon', 'Western Riverside'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Twerton and Bath places.',
+      stats: { businesses: '350+', monthlySearches: '18K+', competitors: 'Medium', avgCPC: '£1.80' },
+      localKeywords: [
+        'plumber Twerton Bath',
+        'electrician Twerton Bath',
+        'builder Twerton Bath',
+        'plumber Bath',
+        'electrician Bath',
+        'handyman Twerton',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Twerton, Bath?',
+      ctaSubhead: 'Join Bath businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Bath Areas We Serve',
+      nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'keynsham', 'saltford'],
+      faqs: [
+        { question: 'Do you cover Twerton?', answer: 'Yes. We target Twerton and Bath so you show up when local customers search.' },
+        { question: 'Website design in Twerton?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Twerton and Bath.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Result', caseTitle: 'Mitchell Plumbing, Bath', quote: "SEO Kings helped us rank #1 for 'plumber Bath' within 4 months. We've had to hire two more staff to handle the enquiries!", name: 'Dave Mitchell', business: 'Mitchell Plumbing', result: '+340% enquiries' },
+    },
+
+    // Sub-areas: Keynsham
+    'bitton-keynsham': {
+      name: 'Bitton',
+      fullName: 'Bitton, near Keynsham',
+      parentSlug: 'keynsham',
+      county: 'Bristol',
+      postcodes: ['BS30', 'BS31'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
+      metaTitle: 'Website design Bitton Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Bitton, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Bitton, near Keynsham',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Bitton is a village between Keynsham and Bristol. Part of the BS30/BS31 area, it has strong demand for local trades.',
+      extendedDescription: 'Customers search "plumber Bitton" or "electrician Keynsham". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Near', label: 'Keynsham' },
+        { value: 'BS30, BS31', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Bitton and the Keynsham area have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Near Keynsham', text: 'We target Bitton and Keynsham searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bitton, near Keynsham.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bitton and Keynsham + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Bitton, near Keynsham — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Bitton and Keynsham search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Bitton Station', 'River Avon Trail', 'Keynsham Road'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Bitton and Keynsham places.',
+      stats: { businesses: '300+', monthlySearches: '15K+', competitors: 'Low-Medium', avgCPC: '£1.50' },
+      localKeywords: [
+        'plumber Bitton Keynsham',
+        'electrician Bitton Keynsham',
+        'builder Bitton',
+        'plumber Keynsham',
+        'electrician Keynsham',
+        'electrician BS31',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Bitton, near Keynsham?',
+      ctaSubhead: 'Join Keynsham area businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Areas We Serve',
+      nearbyAreas: ['keynsham', 'hanham-keynsham', 'oldland-keynsham', 'bath', 'saltford', 'paulton'],
+      faqs: [
+        { question: 'Do you cover Bitton?', answer: 'Yes. We target Bitton and Keynsham so you show up when local customers search.' },
+        { question: 'Website design in Bitton?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Bitton and Keynsham.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+    },
+    'hanham-keynsham': {
+      name: 'Hanham',
+      fullName: 'Hanham, near Keynsham',
+      parentSlug: 'keynsham',
+      county: 'Bristol',
+      postcodes: ['BS15', 'BS30'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
+      metaTitle: 'Website design Hanham Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Hanham, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Hanham, near Keynsham',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Hanham is a village between Keynsham and Bristol. Part of the BS15/BS30 area, it has strong demand for local trades and services.',
+      extendedDescription: 'Customers search "plumber Hanham" or "electrician Keynsham". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Near', label: 'Keynsham' },
+        { value: 'BS15, BS30', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Hanham and the Keynsham area have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Near Keynsham', text: 'We target Hanham and Keynsham searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Hanham, near Keynsham.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Hanham and Keynsham + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Hanham, near Keynsham — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Hanham and Keynsham search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Hanham High Street', 'River Avon', 'Keynsham Road'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Hanham and Keynsham places.',
+      stats: { businesses: '350+', monthlySearches: '18K+', competitors: 'Low-Medium', avgCPC: '£1.60' },
+      localKeywords: [
+        'plumber Hanham Keynsham',
+        'electrician Hanham Keynsham',
+        'builder Hanham',
+        'plumber Keynsham',
+        'electrician Keynsham',
+        'electrician BS15',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Hanham, near Keynsham?',
+      ctaSubhead: 'Join Keynsham area businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Areas We Serve',
+      nearbyAreas: ['keynsham', 'bitton-keynsham', 'bath', 'saltford', 'oldland-keynsham'],
+      faqs: [
+        { question: 'Do you cover Hanham?', answer: 'Yes. We target Hanham and Keynsham so you show up when local customers search.' },
+        { question: 'Website design in Hanham?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Hanham and Keynsham.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+    },
+    'oldland-keynsham': {
+      name: 'Oldland',
+      fullName: 'Oldland, near Keynsham',
+      parentSlug: 'keynsham',
+      county: 'Bristol',
+      postcodes: ['BS30'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
+      metaTitle: 'Website design Oldland Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Oldland, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Oldland, near Keynsham',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Oldland is a village near Keynsham and Bitton in the BS30 area. Part of the Keynsham catchment, it has strong demand for local trades.',
+      extendedDescription: 'Customers search "plumber Oldland" or "electrician Keynsham". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Near', label: 'Keynsham' },
+        { value: 'BS30', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Oldland and the Keynsham area have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Near Keynsham', text: 'We target Oldland and Keynsham searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Oldland, near Keynsham.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Oldland and Keynsham + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Oldland, near Keynsham — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Oldland and Keynsham search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Oldland Common', 'Bitton Road', 'River Avon'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Oldland and Keynsham places.',
+      stats: { businesses: '280+', monthlySearches: '14K+', competitors: 'Low-Medium', avgCPC: '£1.40' },
+      localKeywords: [
+        'plumber Oldland Keynsham',
+        'electrician Oldland Keynsham',
+        'builder Oldland',
+        'plumber Keynsham',
+        'electrician Keynsham',
+        'electrician BS30',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Oldland, near Keynsham?',
+      ctaSubhead: 'Join Keynsham area businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Areas We Serve',
+      nearbyAreas: ['keynsham', 'bitton-keynsham', 'hanham-keynsham', 'bath', 'saltford'],
+      faqs: [
+        { question: 'Do you cover Oldland?', answer: 'Yes. We target Oldland and Keynsham so you show up when local customers search.' },
+        { question: 'Website design in Oldland?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Oldland and Keynsham.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+    },
+
+    // Sub-areas: Midsomer Norton
+    'clandon-midsomer-norton': {
+      name: 'Clandown',
+      fullName: 'Clandown, near Midsomer Norton',
+      parentSlug: 'midsomer-norton',
+      county: 'Somerset',
+      postcodes: ['BA3'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Midsomer_Norton%2C_the_River_Somer_alongside_the_High_Street_-_geograph.org.uk_-_1987837.jpg',
+      metaTitle: 'Website design Clandown Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Clandown, near Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Clandown, near Midsomer Norton',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Clandown is an area near Midsomer Norton in the Somer Valley. Part of Bath and North East Somerset, it has strong demand for local trades.',
+      extendedDescription: 'Customers search "plumber Clandown" or "electrician Midsomer Norton". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Near', label: 'Midsomer Norton' },
+        { value: 'BA3', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Clandown and the Somer Valley have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Near Midsomer Norton', text: 'We target Clandown and Midsomer Norton searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Clandown, near Midsomer Norton.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Clandown and Midsomer Norton + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Clandown, near Midsomer Norton — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Clandown and Midsomer Norton search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Somer Valley', 'Clandown Road', 'Radstock Road'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Clandown and Somer Valley places.',
+      stats: { businesses: '250+', monthlySearches: '12K+', competitors: 'Low', avgCPC: '£1.20' },
+      localKeywords: [
+        'plumber Clandown Midsomer Norton',
+        'electrician Clandown',
+        'builder Clandown',
+        'plumber Midsomer Norton',
+        'electrician Midsomer Norton',
+        'roofer Midsomer Norton',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Clandown, near Midsomer Norton?',
+      ctaSubhead: 'Join Somer Valley businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Areas We Serve',
+      nearbyAreas: ['midsomer-norton', 'radstock', 'westfield', 'paulton', 'bath'],
+      faqs: [
+        { question: 'Do you cover Clandown?', answer: 'Yes. We target Clandown and Midsomer Norton so you show up when local customers search.' },
+        { question: 'Website design in Clandown?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Clandown and Midsomer Norton.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Somer Valley Result', caseTitle: 'Peachy Cleans, Midsomer Norton', result: '#1 for cleaner Midsomer Norton', quote: "We went from not ranking to number one. The website and Google listing work together.", name: 'Peachy Cleans', business: 'Peachy Cleans', businessDisplay: 'Peachy Cleans • Midsomer Norton' },
+    },
+    'farrington-gurney-midsomer-norton': {
+      name: 'Farrington Gurney',
+      fullName: 'Farrington Gurney, near Midsomer Norton',
+      parentSlug: 'midsomer-norton',
+      county: 'Somerset',
+      postcodes: ['BA3', 'BS39'],
+      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Midsomer_Norton%2C_the_River_Somer_alongside_the_High_Street_-_geograph.org.uk_-_1987837.jpg',
+      metaTitle: 'Website design Farrington Gurney Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
+      metaDescription: 'Website design in Farrington Gurney, near Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      heroHeadline: 'Website design in Farrington Gurney, near Midsomer Norton',
+      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      description: 'Farrington Gurney is a village in the Somer Valley, near Midsomer Norton and Paulton. Part of Bath and North East Somerset, it has strong demand for local trades.',
+      extendedDescription: 'Customers search "plumber Farrington Gurney" or "electrician Midsomer Norton". We get you on the map and on page one.',
+      heroStats: [
+        { value: 'Near', label: 'Midsomer Norton' },
+        { value: 'BA3, BS39', label: 'Postcode' },
+        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: '5★', label: 'Rated' },
+      ],
+      ctaButtonText: 'Get Free Check – No Obligation',
+      whyIntro: 'Farrington Gurney and the Somer Valley have steady demand for local services. Get found on Google and in the map pack.',
+      whyBullets: [
+        { title: 'Near Midsomer Norton', text: 'We target Farrington Gurney and Midsomer Norton searches.' },
+        { title: 'Website & Google', text: 'Fast website and optimised Google Business Profile.' },
+        { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
+      ],
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Farrington Gurney, near Midsomer Norton.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Farrington Gurney and Midsomer Norton + trade keywords.' },
+      ],
+      servicesHeading: 'Website design in Farrington Gurney, near Midsomer Norton — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Farrington Gurney and Midsomer Norton search:',
+      industries: ['Trades', 'Professional Services', 'Retail', 'Construction'],
+      landmarks: ['Farrington Gurney Village', 'A37', 'Somer Valley'],
+      landmarksHeading: 'Local Landmarks',
+      landmarksIntro: 'We reference local Farrington Gurney and Somer Valley places.',
+      stats: { businesses: '200+', monthlySearches: '10K+', competitors: 'Low', avgCPC: '£1.00' },
+      localKeywords: [
+        'plumber Farrington Gurney',
+        'electrician Farrington Gurney',
+        'builder Farrington Gurney',
+        'plumber Midsomer Norton',
+        'electrician Midsomer Norton',
+      ],
+      ctaHeadline: 'Ready to Get More Customers in Farrington Gurney?',
+      ctaSubhead: 'Join Somer Valley businesses already on page one.',
+      ctaPrimaryText: 'Get Your Free Check Today',
+      ctaSecondaryText: '07702 264 921',
+      nearbyHeading: 'Other Areas We Serve',
+      nearbyAreas: ['midsomer-norton', 'clandon-midsomer-norton', 'paulton', 'radstock', 'bath'],
+      faqs: [
+        { question: 'Do you cover Farrington Gurney?', answer: 'Yes. We target Farrington Gurney and Midsomer Norton so you show up when local customers search.' },
+        { question: 'Website design in Farrington Gurney?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+      ],
+      howItWorks: [
+        { title: 'Free check', description: 'We review your website and Google listing.' },
+        { title: 'Custom plan', description: 'Tailored for Farrington Gurney and Midsomer Norton.' },
+        { title: 'Results', description: 'Monthly updates. More leads.' },
+      ],
+      testimonial: { label: 'Somer Valley Result', caseTitle: 'Peachy Cleans, Midsomer Norton', result: '#1 for cleaner Midsomer Norton', quote: "We went from not ranking to number one. The website and Google listing work together.", name: 'Peachy Cleans', business: 'Peachy Cleans', businessDisplay: 'Peachy Cleans • Midsomer Norton' },
+    },
   };
 
   const router = useRouter();
@@ -1063,29 +1739,21 @@ const AreaDetail = ({ params: staticParams }) => {
   if (!area) return null;
   if (rawSlug !== slug) return null;
 
+  const parentArea = area.parentSlug ? areasData[area.parentSlug] : null;
+
   // Generate Schema Markup
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": siteUrl
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Areas We Serve",
-        "item": `${siteUrl}/areas`
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": area.name,
-        "item": `${siteUrl}/areas/${slug}`
-      }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Areas We Serve", "item": `${siteUrl}/areas` },
+      ...(parentArea
+        ? [
+            { "@type": "ListItem", "position": 3, "name": parentArea.name, "item": `${siteUrl}/areas/${area.parentSlug}` },
+            { "@type": "ListItem", "position": 4, "name": area.name, "item": `${siteUrl}/areas/${slug}` },
+          ]
+        : [{ "@type": "ListItem", "position": 3, "name": area.name, "item": `${siteUrl}/areas/${slug}` }]),
     ]
   };
 
@@ -1131,21 +1799,29 @@ const AreaDetail = ({ params: staticParams }) => {
   };
 
   const defaultServices = [
-    { name: 'Local SEO', description: `Rank higher for "${area.name}" searches`, icon: 'search' },
-    { name: 'Google Business Profile', description: 'Dominate the local map pack', icon: 'map' },
-    { name: 'Website Design', description: 'Convert visitors into customers', icon: 'desktop' },
-    { name: 'Review Management', description: 'Build trust and credibility', icon: 'star' },
+    { name: 'Website Design', description: `Fast, mobile-friendly sites from £399. Our main service in ${area.name}.`, icon: 'desktop' },
+    { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack so you get found on Google.', icon: 'map' },
+    { name: 'Local SEO', description: `Add-on: rank for "${area.name}" and trade searches.`, icon: 'search' },
+    { name: 'Review Management', description: 'Add-on: build trust and credibility with 5★ reviews.', icon: 'star' },
   ];
-  const services = area.services
+  const rawServices = area.services
     ? area.services.map((s, i) => ({ ...s, icon: defaultServices[i]?.icon || 'search' }))
     : defaultServices;
+  // Put Website Design first on all area pages; SEO/GBP as add-ons
+  const services = [...rawServices].sort((a, b) => {
+    const aWebsite = /website|web design/i.test(a.name);
+    const bWebsite = /website|web design/i.test(b.name);
+    if (aWebsite && !bWebsite) return -1;
+    if (!aWebsite && bWebsite) return 1;
+    return 0;
+  });
 
   return (
     <>
       <SEO
-        title={area.metaTitle || `Local SEO in ${area.name} | SEO Kings`}
-        description={area.metaDescription || `Local SEO in ${area.name}. We help ${area.name} businesses rank higher on Google and get more customers. Free audit.`}
-        keywords={`SEO ${area.name}, local SEO ${area.name}, website design ${area.name}, web design ${area.name}, Google ranking ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, digital marketing ${area.name}, SEO agency ${area.name}`}
+        title={area.metaTitle || `Website design ${area.name} | Website Designer & SEO Add-ons – SEO Kings`}
+        description={area.metaDescription || `Website design in ${area.name}. Our main service from £399. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.`}
+        keywords={`website design ${area.name}, website designer ${area.name}, web design ${area.name}, SEO ${area.name}, local SEO ${area.name}, Google Business Profile ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, SEO add-ons ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
         schemas={[breadcrumbSchema, serviceSchema, faqSchema]}
@@ -1157,7 +1833,7 @@ const AreaDetail = ({ params: staticParams }) => {
         <div className="absolute inset-0">
           <img
             src={area.heroImage}
-            alt={`${area.name} - Local SEO services`}
+            alt={`${area.name} - Website design and SEO add-ons`}
             className="w-full h-full object-cover opacity-20"
             loading="eager"
             decoding="async"
@@ -1168,7 +1844,7 @@ const AreaDetail = ({ params: staticParams }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">
+            <ol className="flex flex-wrap items-center gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">
               <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                 <Link href="/" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
                   <span itemProp="name">Home</span>
@@ -1182,10 +1858,21 @@ const AreaDetail = ({ params: staticParams }) => {
                 </Link>
                 <meta itemProp="position" content="2" />
               </li>
+              {parentArea && (
+                <>
+                  <li className="text-gray-600" aria-hidden="true">/</li>
+                  <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                    <Link href={`/areas/${area.parentSlug}`} className="text-gray-400 hover:text-white transition-colors" itemProp="item">
+                      <span itemProp="name">{parentArea.name}</span>
+                    </Link>
+                    <meta itemProp="position" content="3" />
+                  </li>
+                </>
+              )}
               <li className="text-gray-600" aria-hidden="true">/</li>
               <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
                 <span className="text-primary-light" itemProp="name">{area.name}</span>
-                <meta itemProp="position" content="3" />
+                <meta itemProp="position" content={parentArea ? "4" : "3"} />
               </li>
             </ol>
           </nav>
@@ -1196,7 +1883,9 @@ const AreaDetail = ({ params: staticParams }) => {
                 <svg className="w-4 h-4 text-primary-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 </svg>
-                <span className="text-sm text-primary-light font-medium">{area.postcodes.join(', ')} • {area.county}</span>
+                <span className="text-sm text-primary-light font-medium">
+                  {area.parentSlug && parentArea ? `Part of ${parentArea.name} • ` : ''}{Array.isArray(area.postcodes) ? area.postcodes.join(', ') : area.postcodes} • {area.county}
+                </span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
@@ -1210,7 +1899,7 @@ const AreaDetail = ({ params: staticParams }) => {
                   })()
                 ) : (
                   <>
-                    SEO Services in<br />
+                    Website design in<br />
                     <span className="gradient-text">{area.name}</span>
                   </>
                 )}
@@ -1380,10 +2069,10 @@ const AreaDetail = ({ params: staticParams }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">
-              {area.servicesHeading || `Our SEO Services in ${area.name}`}
+              {area.servicesHeading || `Website design in ${area.name} — with SEO add-ons`}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              {area.servicesSubtext || `Everything you need to dominate local search results and attract more customers in ${area.name}.`}
+              {area.servicesSubtext || `Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.`}
             </p>
           </div>
 
@@ -1532,6 +2221,31 @@ const AreaDetail = ({ params: staticParams }) => {
                   <p className="text-gray-400 text-sm leading-relaxed">{step.description}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Sub-areas / Neighbourhoods (when parent area has subAreaSlugs) */}
+      {area.subAreaSlugs && area.subAreaSlugs.length > 0 && (
+        <section className="py-16 bg-dark-lighter">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-bold text-white mb-8 text-center">
+              {area.subAreasHeading || 'Neighbourhoods we cover'}
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              {area.subAreaSlugs.map((subSlug) => {
+                const subArea = areasData[subSlug];
+                return subArea ? (
+                  <Link
+                    key={subSlug}
+                    href={`/areas/${subSlug}`}
+                    className="px-6 py-3 bg-dark-card border border-white/10 rounded-xl text-white font-medium hover:border-primary/30 hover:bg-white/5 transition-all duration-300"
+                  >
+                    {subArea.name}
+                  </Link>
+                ) : null;
+              })}
             </div>
           </div>
         </section>

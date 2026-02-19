@@ -28,20 +28,20 @@ const posts = [
   {
     slug: 'local-seo-bath',
     title: 'Local SEO in Bath: How to Rank in the Map Pack',
-    excerpt: 'What it takes to show up in the local map results for Bath and BANES: GBP, website, and consistency.',
+    excerpt: 'What it takes to show up in the local map results for Bath and North East Somerset: GBP, website, and consistency.',
     date: '2026-02-05',
     readTime: '5 min read',
   },
   {
     slug: 'seo-for-plumbers-bath',
-    title: 'SEO for Plumbers in Bath & BANES: Get More Plumbing Jobs from Google',
+    title: 'SEO for Plumbers in Bath & North East Somerset: Get More Plumbing Jobs from Google',
     excerpt: 'How plumbers in Bath and the surrounding area can get found for “plumber near me”, boiler repairs, and emergency calls.',
     date: '2026-02-05',
     readTime: '5 min read',
   },
   {
     slug: 'what-is-local-seo-bath',
-    title: 'What Is Local SEO and Why It Matters for Bath & BANES Businesses',
+    title: 'What Is Local SEO and Why It Matters for Bath & North East Somerset Businesses',
     excerpt: 'Local SEO gets you in front of people searching “near me” and in the map pack. Here’s how it works and why it matters.',
     date: '2026-02-05',
     readTime: '4 min read',
@@ -75,6 +75,20 @@ const posts = [
     readTime: '4 min read',
   },
   {
+    slug: 'website-design-bitton-keynsham',
+    title: 'Website Design in Bitton & the Keynsham Area: What We Build for Local Trades',
+    excerpt: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
+    date: '2026-02-12',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'get-found-on-google-keynsham',
+    title: 'Get Found on Google in Keynsham, Bitton & the Areas We Serve',
+    excerpt: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
+    date: '2026-02-12',
+    readTime: '4 min read',
+  },
+  {
     slug: 'website-design-radstock',
     title: 'Website Design in Radstock: What We Build for Somer Valley Businesses',
     excerpt: 'Web design for Radstock and the Somer Valley — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
@@ -90,8 +104,8 @@ const posts = [
   },
   {
     slug: 'one-page-website-bath-banes',
-    title: 'One-Page Website for Small Business Bath & BANES: When It Works and What We Build',
-    excerpt: 'Affordable one-page website design for Bath and BANES — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    title: 'One-Page Website for Small Business Bath & North East Somerset: When It Works and What We Build',
+    excerpt: 'Affordable one-page website design for Bath and North East Somerset — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
   },
@@ -109,8 +123,8 @@ const Blog = () => {
     <>
       <SEO
         title="Blog | Local SEO & Web Design Tips"
-        description="Tips on local SEO, web design, and getting your Bath & BANES business found on Google. From the team at SEO Kings."
-        keywords="SEO blog Bath, web design blog BANES, local SEO tips, Lighthouse performance"
+        description="Tips on local SEO, web design, and getting your Bath & North East Somerset business found on Google. From the team at SEO Kings."
+        keywords="SEO blog Bath, web design blog Bath and North East Somerset, local SEO tips, Lighthouse performance"
         canonical="/blog"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -130,7 +144,7 @@ const Blog = () => {
             Local SEO & Web Design <span className="gradient-text">Insights</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Tips on getting your business found on Google, building websites that convert, and staying ahead in Bath & BANES.
+            Tips on getting your business found on Google, building websites that convert, and staying ahead in Bath & North East Somerset.
           </p>
         </div>
       </section>

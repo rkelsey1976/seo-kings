@@ -23,7 +23,7 @@ const LocalSEO = () => {
         </svg>
       ),
       title: 'Keyword Research',
-      description: 'We find the exact terms your customers are searching for in BANES. "Plumber Bath" gets 500 searches a month — are you showing up?',
+      description: 'We find the exact terms your customers are searching for in Bath and North East Somerset. "Plumber Bath" gets 500 searches a month — are you showing up?',
       color: 'from-primary to-primary-dark',
     },
     {
@@ -81,15 +81,15 @@ const LocalSEO = () => {
   const results = [
     { metric: '340%', label: 'Average traffic increase', subtext: 'Within 6 months' },
     { metric: '#1', label: 'Google rankings achieved', subtext: 'For local search terms' },
-    { metric: '£2.4M', label: 'Revenue generated', subtext: 'For BANES clients in 2025' },
+    { metric: '£2.4M', label: 'Revenue generated', subtext: 'For Bath and North East Somerset clients in 2025' },
   ];
 
   return (
     <>
       <SEO
         title="Local SEO Services in Bath & North East Somerset"
-        description="Local SEO in Bath & BANES. We help tradespeople and small businesses rank #1 on Google. Keyword research, on-page SEO, link building. Free audit."
-        keywords="local SEO Bath, SEO services BANES, SEO company Bath, SEO for plumbers, SEO for electricians, local search optimisation, Google ranking Bath, SEO agency Somerset"
+        description="Local SEO in Bath & North East Somerset. We help tradespeople and small businesses rank #1 on Google. Keyword research, on-page SEO, link building. Free audit."
+        keywords="local SEO Bath, SEO services Bath and North East Somerset, SEO company Bath, SEO for plumbers, SEO for electricians, local search optimisation, Google ranking Bath, SEO agency Somerset"
         canonical="/local-seo"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -138,7 +138,7 @@ const LocalSEO = () => {
       <ServicePageHero
         badge="Local SEO Services"
         title="Get Found When Customers Search in"
-        highlight="BANES"
+        highlight="Bath & North East Somerset"
         description="Rank higher on Google for the searches that matter. We help tradespeople and local businesses dominate local search results and attract more customers."
         features={heroFeatures}
         ctaText="Get Your Free SEO Audit"
@@ -167,10 +167,10 @@ const LocalSEO = () => {
               Who we help
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Local SEO for Tradespeople in BANES
+              Local SEO for Tradespeople in Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We help plumbers, electricians, roofers and other trades get found on Google when customers in Bath and BANES search. Click your trade for more.
+              We help plumbers, electricians, roofers and other trades get found on Google when customers in Bath and North East Somerset search. Click your trade for more.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -305,7 +305,7 @@ const LocalSEO = () => {
               Local SEO FAQs
             </h2>
             <p className="text-lg text-gray-400">
-              Everything you need to know about local SEO for your BANES business.
+              Everything you need to know about local SEO for your Bath and North East Somerset business.
             </p>
           </div>
 
