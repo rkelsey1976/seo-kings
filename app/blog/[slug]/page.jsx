@@ -9,12 +9,15 @@ const BLOG_SLUGS = [
   'free-seo-audit-what-we-check',
   'website-design-midsomer-norton-peachy-cleans',
   'new-decorating-website-bath',
+  'no-web-presence-to-google-maps-week',
   'website-design-bath',
   'website-designer-bath-banes',
   'website-design-keynsham',
   'website-design-bitton-keynsham',
   'get-found-on-google-keynsham',
   'website-design-radstock',
+  'website-design-peasedown-st-john',
+  'website-design-somer-valley',
   'website-design-trowbridge',
   'one-page-website-bath-banes',
   'why-speed-matters-for-seo',
@@ -25,6 +28,10 @@ export function generateStaticParams() {
   return BLOG_SLUGS.map((slug) => ({ slug }));
 }
 
-export default function Page({ params }) {
-  return <BlogPost params={params} />;
+// Allow paths not pre-generated at build time (e.g. new slugs) so the page still runs and BlogPost can render or redirect
+export const dynamicParams = true;
+
+export default async function Page({ params }) {
+  const resolved = typeof params?.then === 'function' ? await params : params;
+  return <BlogPost params={resolved} />;
 }

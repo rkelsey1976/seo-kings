@@ -307,12 +307,12 @@ const blogPosts = {
   },
   'new-decorating-website-bath': {
     slug: 'new-decorating-website-bath',
-    title: 'New Website and GBP for New Decorating: Painter & Decorator in Bath, Live Last Week',
-    description: 'We built a new website for Jay at New Decorating and optimised his Google Business Profile. Already showing in Google Maps and ranking well for long-tail keywords. Painter & decorator Bath & North East Somerset.',
+    title: 'New Decorating: From No Web Presence to Top 8 on Google Maps in a Week',
+    description: 'Jay at New Decorating had no web presence. We built his website and optimised his Google Business Profile — within a week he was ranking for long-tail keywords and in the top 8 on Google Maps. Painter & decorator Bath & North East Somerset.',
     date: '2026-02-19',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'New Decorating, painter decorator Bath, website design Bath, Google Business Profile Bath, painter and decorator Bath and North East Somerset, new-decorating.co.uk',
+    keywords: 'New Decorating, painter decorator Bath, website design Bath, Google Business Profile Bath, painter and decorator Bath and North East Somerset, new-decorating.co.uk, on Google Maps in a week',
     sections: [
       {
         heading: 'What we did for Jay at New Decorating',
@@ -336,9 +336,9 @@ const blogPosts = {
         ],
       },
       {
-        heading: 'Already showing in Google Maps and ranking for long-tail keywords',
+        heading: 'Within a week: long-tail rankings and top 8 on Google Maps',
         paragraphs: [
-          'We only launched last week, but the combination of a new, optimised site and a properly set-up Google Business Profile is already paying off. New Decorating is showing up in Google Maps when people search in Bath and the surrounding areas, and the site is ranking well for long-tail keywords — the kind of specific searches that turn into real enquiries.',
+          'We only launched a week ago, but the combination of a new, optimised site and a properly set-up Google Business Profile paid off quickly. New Decorating is now showing in the top 8 on Google Maps when people search in Bath and the surrounding areas, and the site is ranking for long-tail keywords — the kind of specific searches that turn into real enquiries.',
           'That’s exactly what we aim for: a fast site and a GBP that work together so you get visible quickly. We don’t promise overnight number-one for the most competitive terms, but we do get trades visible for the searches that matter in their area.',
         ],
       },
@@ -352,6 +352,49 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+  },
+  'no-web-presence-to-google-maps-week': {
+    slug: 'no-web-presence-to-google-maps-week',
+    title: 'From No Web Presence to Top 8 on Google Maps in a Week: How We Did It for New Decorating',
+    description: 'New Decorating had no website and no Google listing. We built both — within a week Jay was ranking for long-tail keywords and in the top 8 on Google Maps. Here\'s how our website and GBP services work together.',
+    date: '2026-02-20',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Bath, Google Business Profile Bath, on Google Maps in a week, New Decorating, painter decorator Bath, local SEO Bath',
+    sections: [
+      {
+        heading: 'The challenge: no web presence',
+        paragraphs: [
+          'Jay at New Decorating — a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset — had no website and no Google Business Profile. When potential customers searched for a painter and decorator in Bath or the surrounding areas, he simply didn\'t show up. We built him a fast, mobile-friendly website at new-decorating.co.uk and set up and optimised his Google Business Profile so the two work together. Within a week he was ranking for some of his long-tail keywords and listing in the top 8 on Google Maps.',
+        ],
+      },
+      {
+        heading: 'What our website and GBP services include',
+        paragraphs: [
+          'Our website design gives you a clear, professional site that loads fast and is built for local search: your services, your areas, clear calls to action, and content that matches what people search for. We build from £399 — one-page or multi-page — and the one-page package includes GBP optimisation for one service in one location.',
+          'Our Google Business Profile service means we claim (or verify) your listing, set the right category and services, write an optimised description, and make sure your hours, area and contact details are correct. We don\'t sell ongoing GBP on its own — it\'s included in our website packages and in our Local SEO packages. For New Decorating we did a one-off GBP optimisation as part of getting the site live.',
+        ],
+      },
+      {
+        heading: 'Why it worked so fast',
+        paragraphs: [
+          'When you start from zero, Google has nothing to show. As soon as we had a live website and a complete, optimised Google Business Profile, Google could start listing New Decorating for relevant searches. Long-tail keywords — like "painter and decorator Keynsham" or "interior painting Bath" — are less competitive than the single word "painter", so rankings can appear quickly. The map pack and Google Maps favour businesses with a complete profile and a website that backs it up. Within a week, New Decorating was in the top 8 on Maps and ranking for several long-tail terms.',
+        ],
+      },
+      {
+        heading: 'What that means for your business',
+        paragraphs: [
+          'If you\'re a trade or local service in Bath and North East Somerset and you have no web presence — or your site and Google listing are out of date — the same approach can work for you. A new website plus a properly set-up Google Business Profile gets you visible on Google and in Maps. We don\'t promise number one overnight for the most competitive terms, but we do get trades visible for the searches that matter, often within a week when you start from zero.',
+          'Get in touch for a free audit. We\'ll look at your current setup and show you what we\'d do next. No obligation.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/blog/new-decorating-website-bath', label: 'Read the full New Decorating post' },
+      { href: '/web-design', label: 'Website design' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/contact', label: 'Get a free audit' },
     ],
@@ -610,6 +653,91 @@ const blogPosts = {
     ctaLinks: [
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-peasedown-st-john': {
+    slug: 'website-design-peasedown-st-john',
+    title: 'Website Design in Peasedown St John: What We Build for Local Businesses',
+    description: 'Web design for Peasedown St John and south of Bath — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
+    date: '2026-02-21',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Peasedown St John, web design Peasedown St John, website for business Peasedown, local business website BA2, Peasedown website design',
+    sections: [
+      {
+        heading: 'Why website design in Peasedown St John matters',
+        paragraphs: [
+          'Peasedown St John and the villages south of Bath have strong demand for local trades and services. When people search "plumber Peasedown" or "electrician near me", they use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Peasedown St John businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Peasedown St John businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Peasedown St John, Bath, Radstock, Midsomer Norton and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Peasedown businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Bath and North East Somerset in mind.',
+        ],
+      },
+      {
+        heading: 'Built for local search',
+        paragraphs: [
+          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Peasedown St John, Bath, Radstock, Midsomer Norton, Paulton — help you rank for local searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Peasedown St John or south of Bath and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our Peasedown St John area page, web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/areas/peasedown-st-john', label: 'Website design Peasedown St John' },
+      { href: '/web-design', label: 'Website design services' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'website-design-somer-valley': {
+    slug: 'website-design-somer-valley',
+    title: 'Website Design for the Somer Valley: Radstock, Midsomer Norton & Paulton',
+    description: 'Web design for the Somer Valley — Radstock, Midsomer Norton, Paulton and nearby. Fast, mobile-friendly websites for trades and local businesses. Built for local search so you get found on Google.',
+    date: '2026-02-21',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'website design Somer Valley, website design Radstock, website design Midsomer Norton, website design Paulton, web design Somer Valley, Somer Valley website',
+    sections: [
+      {
+        heading: 'Why website design in the Somer Valley matters',
+        paragraphs: [
+          'The Somer Valley — Radstock, Midsomer Norton, Paulton, and the surrounding villages — has strong demand for local trades and services. When people search "plumber Radstock", "electrician Midsomer Norton", or "builder Paulton", they use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Somer Valley businesses and why it works for local search.',
+        ],
+      },
+      {
+        heading: 'What we build for Somer Valley businesses',
+        paragraphs: [
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, Peasedown St John, Bath and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
+          'For Somer Valley businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with the Somer Valley in mind.',
+        ],
+      },
+      {
+        heading: 'Built for local search',
+        paragraphs: [
+          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Radstock, Midsomer Norton, Paulton, Peasedown St John, Bath — help you rank for local searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Radstock, Midsomer Norton, Paulton or the Somer Valley and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our area pages for Radstock, Midsomer Norton and Paulton, web design packages or get in touch for a free quote.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/areas/radstock', label: 'Website design Radstock' },
+      { href: '/areas/midsomer-norton', label: 'Website design Midsomer Norton' },
+      { href: '/areas/paulton', label: 'Website design Paulton' },
+      { href: '/web-design', label: 'Website design services' },
       { href: '/contact', label: 'Get a free quote' },
     ],
   },

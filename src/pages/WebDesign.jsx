@@ -3,7 +3,6 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
-import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 
@@ -105,7 +104,7 @@ const WebDesign = () => {
     <>
       <SEO
         title="Website Designer Bath | Web Design Bath & North East Somerset & Trowbridge – SEO Kings"
-        description="Website designer in Bath & North East Somerset — we specialise in trade websites and getting local trades found on Google. Plumbers, electricians, builders: fast, SEO-ready sites from £399."
+        description="Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
         keywords="website designer, website designer Bath, website designer Bath and North East Somerset, website design Bath, web design Bath, website design Bath and North East Somerset, one-page website, affordable website, website for trades, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
         canonical="/web-design"
         breadcrumbs={[
@@ -118,7 +117,7 @@ const WebDesign = () => {
             "@type": "Service",
             "serviceType": "Website Design",
             "name": "Website Designer & Website Design for Local Businesses in Bath & North East Somerset",
-            "description": "We specialise in trade websites and getting local trades found on Google. Custom website design for tradespeople and small businesses in Bath & North East Somerset. Mobile-friendly, fast-loading sites built to convert.",
+            "description": "Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Custom website design for tradespeople and small businesses in Bath & North East Somerset. Mobile-friendly, fast-loading sites built to convert.",
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
@@ -158,10 +157,10 @@ const WebDesign = () => {
         ]}
       />
       <ServicePageHero
-        badge="Website Designer Bath & North East Somerset"
+        badge="Our main service"
         title="Website Designer in Bath & North East Somerset — Sites That Turn Visitors Into"
         highlight="Customers"
-        description="We specialise in trade websites and getting local trades found on Google. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
+        description="Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
         features={heroFeatures}
         ctaText="Get a Free Quote"
       />
@@ -172,14 +171,14 @@ const WebDesign = () => {
         features={features}
       />
 
-      {/* One-page website + affordable + website designer + website that ranks */}
+      {/* Main service: website design + GBP included for one-page, add-ons after */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            We Specialise in Trade Websites — Getting Local Trades Found on Google
+            Website Design Is Our Main Service
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset — and we make sure you get found on Google and in the map pack. From £399 for a one-page site with everything a trade needs (services, contact, area info) to full multi-page sites. Every site is fast, mobile-friendly, and set up for local search. No DIY builder; we build it so it works for you.
+            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £399 for a one-page site with everything a trade needs — services, contact, area info — plus <strong className="text-gray-300">GBP optimisation included for one service in one location</strong>. Every site is fast, mobile-friendly, and set up for local search. Once you&apos;re happy with your website, we can add local SEO, ongoing GBP management, and more. No DIY builder; we build it so it works for you.
           </p>
         </div>
       </section>
@@ -227,14 +226,14 @@ const WebDesign = () => {
             Areas we serve
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            Website Design in <span className="gradient-text">Bath, North East Somerset & Beyond</span>
+            Website designer & website design in <span className="gradient-text">Bath, North East Somerset & Beyond</span>
           </h2>
           <p className="text-lg text-gray-400 mb-8">
-            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset. We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £399 to full multi-page sites — get a free quote.
+            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset (BANES). We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £399 to full multi-page sites — get a free quote.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/areas/bath" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Bath</Link>
-            <Link href="/areas/keynsham" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Keynsham</Link>
+            <Link href="/areas/bath" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Bath</Link>
+            <Link href="/areas/keynsham" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Keynsham</Link>
             <Link href="/areas/midsomer-norton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Midsomer Norton</Link>
             <Link href="/areas/radstock" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Radstock</Link>
             <Link href="/areas/peasedown-st-john" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Peasedown St John</Link>
@@ -307,8 +306,16 @@ const WebDesign = () => {
           <FAQAccordion 
             faqs={[
               {
+                q: 'Do you do website design in BANES?',
+                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. Website designer Bath and North East Somerset is our main service; from £399 for a one-page site with GBP included for one service in one location.',
+              },
+              {
+                q: 'What do you mean by "one service, one location"?',
+                a: '"Service" means one type of work or business offering — e.g. plumbing is one service, electrical is another. "Location" means one area you serve — e.g. Keynsham, Bath, or one postcode. So "one service, one location" means we optimise your Google Business Profile for one main trade in one area (e.g. plumber in Keynsham). Our Professional package includes 3 services and 4 locations; our Full package includes 5 services and 8 locations.',
+              },
+              {
                 q: 'Do you do one-page websites?',
-                a: 'Yes. Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, and SEO basics. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. See our web design packages for full details.',
+                a: 'Yes. Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, and GBP optimisation included for one service in one location. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
               },
               {
                 q: 'How long does it take to build a website?',
@@ -334,12 +341,15 @@ const WebDesign = () => {
                 q: 'What if I already have a website?',
                 a: "We can redesign your existing site or build a completely new one. We'll assess your current site and recommend the best approach based on your goals and budget.",
               },
+              {
+                q: 'What add-ons can I get after my website?',
+                a: 'Once you\'re happy with your website, we can add local SEO (keyword research, on-page optimisation, local links), ongoing Google Business Profile management, review management, and more — tailored to your business and locations. Website design is our main service; add-ons are optional and custom to you.',
+              },
             ]}
           />
         </div>
       </section>
 
-      <Spotlight />
       <CTABanner />
     </>
   );

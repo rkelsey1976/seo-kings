@@ -5,6 +5,20 @@ import CTABanner from '../components/CTABanner';
 
 const posts = [
   {
+    slug: 'no-web-presence-to-google-maps-week',
+    title: 'From No Web Presence to Top 8 on Google Maps in a Week: How We Did It for New Decorating',
+    excerpt: 'New Decorating had no website and no Google listing. We built both — within a week Jay was ranking for long-tail keywords and in the top 8 on Google Maps. Here\'s how our website and GBP services work together.',
+    date: '2026-02-20',
+    readTime: '5 min read',
+  },
+  {
+    slug: 'new-decorating-website-bath',
+    title: 'New Decorating: From No Web Presence to Top 8 on Google Maps in a Week',
+    excerpt: 'Jay at New Decorating had no web presence. We built his website and optimised his Google Business Profile — within a week he was ranking for long-tail keywords and in the top 8 on Google Maps.',
+    date: '2026-02-19',
+    readTime: '4 min read',
+  },
+  {
     slug: 'how-we-get-you-number-one-google-maps',
     title: 'How We Get You to Number One on Google Maps',
     excerpt: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here’s how we help you get into that top spot — in plain English.',
@@ -93,6 +107,20 @@ const posts = [
     title: 'Website Design in Radstock: What We Build for Somer Valley Businesses',
     excerpt: 'Web design for Radstock and the Somer Valley — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
     date: '2026-02-08',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'website-design-peasedown-st-john',
+    title: 'Website Design in Peasedown St John: What We Build for Local Businesses',
+    excerpt: 'Web design for Peasedown St John and south of Bath — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
+    date: '2026-02-21',
+    readTime: '4 min read',
+  },
+  {
+    slug: 'website-design-somer-valley',
+    title: 'Website Design for the Somer Valley: Radstock, Midsomer Norton & Paulton',
+    excerpt: 'Web design for the Somer Valley — Radstock, Midsomer Norton, Paulton and nearby. Fast, mobile-friendly websites for trades and local businesses.',
+    date: '2026-02-21',
     readTime: '4 min read',
   },
   {

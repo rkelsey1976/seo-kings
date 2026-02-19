@@ -74,6 +74,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
       ],
       localKeywords: [
+        'website design Bath',
+        'website designer Bath',
+        'web design Bath',
         'plumber Bath',
         'electrician Bath',
         'builder Bath',
@@ -93,6 +96,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: 'Free Consultation – Get Started',
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['keynsham', 'midsomer-norton', 'radstock', 'peasedown-st-john', 'paulton', 'saltford', 'timsbury'],
+      websiteDesignBlogSlug: 'website-design-bath',
       subAreaSlugs: ['odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath'],
       subAreasHeading: 'Bath neighbourhoods we cover',
       faqs: [
@@ -119,6 +123,7 @@ const AreaDetail = ({ params: staticParams }) => {
       fullName: 'Keynsham, Bristol',
       county: 'Bristol',
       postcodes: ['BS31'],
+      websiteDesignBlogSlug: 'website-design-keynsham',
       population: '16,000+',
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
       metaTitle: 'Website design Keynsham | Website Designer & SEO Add-ons – SEO Kings',
@@ -181,6 +186,9 @@ const AreaDetail = ({ params: staticParams }) => {
         avgCPC: '£1.80',
       },
       localKeywords: [
+        'website design Keynsham',
+        'website designer Keynsham',
+        'web design Keynsham',
         'plumber Keynsham',
         'electrician Keynsham',
         'electrician BS31',
@@ -281,6 +289,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
       ],
       localKeywords: [
+        'website design Midsomer Norton',
+        'website designer Midsomer Norton',
+        'web design Midsomer Norton',
         'plumber Midsomer Norton',
         'electrician Midsomer Norton',
         'builder Midsomer Norton',
@@ -298,6 +309,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['radstock', 'peasedown-st-john', 'bath', 'keynsham', 'paulton'],
       subAreaSlugs: ['clandon-midsomer-norton', 'farrington-gurney-midsomer-norton'],
+      websiteDesignBlogSlug: 'website-design-midsomer-norton-peachy-cleans',
       subAreasHeading: 'Areas near Midsomer Norton we cover',
       faqs: [
         {
@@ -346,6 +358,9 @@ const AreaDetail = ({ params: staticParams }) => {
         result: '+180% leads',
       },
       localKeywords: [
+        'website design Radstock',
+        'website designer Radstock',
+        'web design Radstock',
         'plumber Radstock',
         'electrician Radstock',
         'builder Radstock',
@@ -356,6 +371,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['midsomer-norton', 'paulton', 'peasedown-st-john'],
       subAreaSlugs: ['writhlington-radstock', 'chilcompton-radstock'],
+      websiteDesignBlogSlug: 'website-design-radstock',
       subAreasHeading: 'Areas near Radstock we cover',
       faqs: [
         {
@@ -426,6 +442,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ],
       servicesHeading: 'Website design in Peasedown St John — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      websiteDesignBlogSlug: 'website-design-peasedown-st-john',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what people in Peasedown actually search:',
@@ -433,6 +450,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksHeading: 'Local Landmarks We Use',
       landmarksIntro: 'We reference real places in your content to boost relevance:',
       localKeywords: [
+        'website design Peasedown St John',
+        'website designer Peasedown St John',
+        'web design Peasedown St John',
         'plumber Peasedown',
         'electrician Peasedown',
         'builder Peasedown St John',
@@ -504,6 +524,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ],
       servicesHeading: 'Website design in Paulton — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      websiteDesignBlogSlug: 'website-design-somer-valley',
       servicesLinkText: 'View All Services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on real searches from Paulton people:',
@@ -526,6 +547,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. See leads grow.' },
       ],
       localKeywords: [
+        'website design Paulton',
+        'website designer Paulton',
+        'web design Paulton',
         'plumber Paulton',
         'electrician Paulton',
         'builder Paulton',
@@ -625,6 +649,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
       ],
       localKeywords: [
+        'website design Saltford',
+        'website designer Saltford',
+        'web design Saltford',
         'plumber Saltford',
         'electrician Saltford',
         'builder Saltford',
@@ -722,6 +749,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. See leads grow.' },
       ],
       localKeywords: [
+        'website design Timsbury',
+        'website designer Timsbury',
+        'web design Timsbury',
         'plumber Timsbury',
         'electrician Timsbury',
         'builder Timsbury',
@@ -813,6 +843,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. See leads grow.' },
       ],
       localKeywords: [
+        'website design Westfield',
+        'website designer Westfield',
+        'web design Westfield',
         'plumber Westfield',
         'electrician Westfield',
         'builder Westfield',
@@ -890,6 +923,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
       ],
       localKeywords: [
+        'website design Chew Magna',
+        'website designer Chew Magna',
+        'web design Chew Magna',
         'plumber Chew Magna',
         'electrician Chew Magna',
         'builder Chew Magna',
@@ -970,6 +1006,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. See leads grow.' },
       ],
       localKeywords: [
+        'website design Temple Cloud',
+        'website designer Temple Cloud',
+        'web design Temple Cloud',
         'plumber Temple Cloud',
         'electrician Temple Cloud',
         'builder Temple Cloud',
@@ -1046,6 +1085,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Results', description: 'Monthly reports. See leads grow.' },
       ],
       localKeywords: [
+        'website design Clutton',
+        'website designer Clutton',
+        'web design Clutton',
         'plumber Clutton',
         'electrician Clutton',
         'builder Clutton',
@@ -2590,6 +2632,16 @@ const AreaDetail = ({ params: staticParams }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
+          {area.websiteDesignBlogSlug && (
+            <p className="mt-4">
+              <Link
+                href={`/blog/${area.websiteDesignBlogSlug}`}
+                className="text-sm text-gray-400 hover:text-primary-light transition-colors"
+              >
+                Read more: Website design in {area.name} →
+              </Link>
+            </p>
+          )}
         </div>
       </section>
 
