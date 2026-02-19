@@ -2,88 +2,82 @@ import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
-import ServiceFeatures from '../components/ServiceFeatures';
-import Spotlight from '../components/Spotlight';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 
+const localSeoPackages = [
+  {
+    name: 'Starter',
+    price: '150',
+    period: 'month',
+    services: 1,
+    locations: 1,
+    tagline: 'One service, one area',
+    features: [
+      'Keyword research for your service & area',
+      'On-page optimisation (your website)',
+      'Google Business Profile optimisation',
+      'Monthly ranking & traffic report',
+    ],
+    cta: 'Get free audit',
+    href: '/contact?service=local-seo&package=starter',
+    popular: false,
+    gradient: 'from-primary to-primary-dark',
+  },
+  {
+    name: 'Growth',
+    price: '300',
+    period: 'month',
+    services: 3,
+    locations: 4,
+    tagline: 'Multiple services, multiple areas',
+    features: [
+      'Keyword research for 3 services, 4 locations',
+      'On-page optimisation across your site',
+      'Google Business Profile for each location',
+      'Local citations & link building',
+      'Monthly ranking & traffic report',
+    ],
+    cta: 'Get free audit',
+    href: '/contact?service=local-seo&package=growth',
+    popular: true,
+    gradient: 'from-secondary to-secondary-dark',
+  },
+  {
+    name: 'Scale',
+    price: '450',
+    period: 'month',
+    services: 5,
+    locations: 8,
+    tagline: 'Maximum coverage',
+    features: [
+      'Keyword research for 5 services, 8 locations',
+      'Full on-page & content optimisation',
+      'Google Business Profile for each location',
+      'Local citations, links & content',
+      'Monthly ranking, traffic & leads report',
+    ],
+    cta: 'Get free audit',
+    href: '/contact?service=local-seo&package=scale',
+    popular: false,
+    gradient: 'from-accent to-accent-dark',
+  },
+];
+
+const results = [
+  { metric: '340%', label: 'Average traffic increase', subtext: 'Within 6 months' },
+  { metric: '#1', label: 'Google rankings achieved', subtext: 'For local search terms' },
+  { metric: '£2.4M', label: 'Revenue generated', subtext: 'For Bath and North East Somerset clients in 2025' },
+];
+
+const heroFeatures = [
+  'Page 1 Rankings',
+  'More Organic Traffic',
+  'Qualified Leads',
+  'Monthly Reporting',
+];
+
 const LocalSEO = () => {
-  const heroFeatures = [
-    'Page 1 Rankings',
-    'More Organic Traffic',
-    'Qualified Leads',
-    'Monthly Reporting'
-  ];
-
-  const features = [
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-        </svg>
-      ),
-      title: 'Keyword Research',
-      description: 'We find the exact terms your customers are searching for in Bath and North East Somerset. "Plumber Bath" gets 500 searches a month — are you showing up?',
-      color: 'from-primary to-primary-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-        </svg>
-      ),
-      title: 'On-Page Optimisation',
-      description: 'We optimise your website\'s content, titles, and structure so Google understands exactly what you do and where you do it.',
-      color: 'from-secondary to-secondary-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-        </svg>
-      ),
-      title: 'Local Link Building',
-      description: 'Quality backlinks from relevant local websites. Directories, local news, community sites — the links that actually move the needle.',
-      color: 'from-accent to-accent-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-        </svg>
-      ),
-      title: 'Content Creation',
-      description: 'Service pages, location pages, and blog posts that target the searches your customers are making. Content that ranks and converts.',
-      color: 'from-green-500 to-emerald-500',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-        </svg>
-      ),
-      title: 'Monthly Reporting',
-      description: 'Clear, jargon-free reports showing your rankings, traffic, and leads. You\'ll always know exactly what we\'re doing and why.',
-      color: 'from-yellow-500 to-orange-500',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      title: 'Competitor Analysis',
-      description: 'We analyse what your competitors are doing right (and wrong) so we can outrank them. Know your enemy, beat your enemy.',
-      color: 'from-pink-500 to-rose-500',
-    },
-  ];
-
-  const results = [
-    { metric: '340%', label: 'Average traffic increase', subtext: 'Within 6 months' },
-    { metric: '#1', label: 'Google rankings achieved', subtext: 'For local search terms' },
-    { metric: '£2.4M', label: 'Revenue generated', subtext: 'For Bath and North East Somerset clients in 2025' },
-  ];
-
   return (
     <>
       <SEO
@@ -115,21 +109,9 @@ const LocalSEO = () => {
               "@type": "OfferCatalog",
               "name": "Local SEO Packages",
               "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Local SEO Package",
-                    "description": "Comprehensive local SEO including keyword research, on-page optimisation, local citations, and monthly reporting"
-                  },
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "price": "500",
-                    "priceCurrency": "GBP",
-                    "minPrice": "500",
-                    "unitText": "per month"
-                  }
-                }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Starter Local SEO", "description": "1 service, 1 location — keyword research, on-page optimisation, GBP, monthly report" }, "priceSpecification": { "@type": "PriceSpecification", "price": "150", "priceCurrency": "GBP", "unitText": "per month" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Growth Local SEO", "description": "3 services, 4 locations — full local SEO with citations and link building" }, "priceSpecification": { "@type": "PriceSpecification", "price": "300", "priceCurrency": "GBP", "unitText": "per month" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Scale Local SEO", "description": "5 services, 8 locations — maximum coverage with content and leads reporting" }, "priceSpecification": { "@type": "PriceSpecification", "price": "450", "priceCurrency": "GBP", "unitText": "per month" } }
               ]
             }
           }
@@ -139,10 +121,19 @@ const LocalSEO = () => {
         badge="Local SEO Services"
         title="Get Found When Customers Search in"
         highlight="Bath & North East Somerset"
-        description="Rank higher on Google for the searches that matter. We help tradespeople and local businesses dominate local search results and attract more customers."
+        description="Many of our clients use Local SEO to expand on the website we already built for them — more traffic, more calls, same site. Rank higher on Google for the searches that matter."
         features={heroFeatures}
         ctaText="Get Your Free SEO Audit"
       />
+
+      {/* Expand on your website – simple one-liner */}
+      <section className="py-8 bg-dark-lighter/50 border-b border-white/5">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-300">
+            <span className="text-white font-medium">Already have a website from us?</span> Local SEO is the next step — we optimise that site and your Google presence so more local customers find you. No new site needed.
+          </p>
+        </div>
+      </section>
 
       {/* Results Bar */}
       <section className="py-12 bg-dark-lighter border-y border-white/5">
@@ -159,18 +150,94 @@ const LocalSEO = () => {
         </div>
       </section>
 
-      {/* Who we help – trade pages */}
+      {/* Pricing by services & locations */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-              Who we help
+              Simple pricing
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Local SEO for Tradespeople in Bath & North East Somerset
+              What You Pay — By Services & Locations
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We help plumbers, electricians, roofers and other trades get found on Google when customers in Bath and North East Somerset search. Click your trade for more.
+              Pay for the coverage you need. One service in one area, or multiple services across multiple areas. No hidden extras.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {localSeoPackages.map((pkg) => (
+              <div
+                key={pkg.name}
+                className={`relative rounded-2xl border p-6 flex flex-col ${
+                  pkg.popular
+                    ? 'border-secondary/50 bg-secondary/5 ring-1 ring-secondary/20'
+                    : 'border-white/10 bg-dark-card'
+                }`}
+              >
+                {pkg.popular && (
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-secondary text-white text-xs font-semibold rounded-full">
+                    Most popular
+                  </span>
+                )}
+                <div className="mb-4">
+                  <h3 className="text-xl font-bold text-white">{pkg.name}</h3>
+                  <p className="text-sm text-gray-500 mt-1">{pkg.tagline}</p>
+                </div>
+                <div className="mb-4">
+                  <span className="text-3xl font-bold text-white">£{pkg.price}</span>
+                  <span className="text-gray-500">/{pkg.period}</span>
+                </div>
+                <div className="mb-4 px-3 py-2 bg-white/5 rounded-lg text-center">
+                  <span className="text-white font-medium">{pkg.services} service{pkg.services > 1 ? 's' : ''}</span>
+                  <span className="text-gray-500 mx-1">·</span>
+                  <span className="text-white font-medium">{pkg.locations} location{pkg.locations > 1 ? 's' : ''}</span>
+                </div>
+                <ul className="space-y-2 mb-6 flex-1">
+                  {pkg.features.map((f, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
+                      <svg className="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  href={pkg.href}
+                  className={`block text-center py-3 px-4 rounded-xl font-semibold transition-all bg-gradient-to-r ${pkg.gradient} text-white hover:opacity-90`}
+                >
+                  {pkg.cta}
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-center text-gray-500 text-sm mt-6">
+            No long contracts. Monthly reporting so you always know what you&apos;re paying for.
+          </p>
+        </div>
+      </section>
+
+      {/* What is a service / location – short explainer */}
+      <section className="py-12 bg-dark-lighter border-y border-white/5">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-lg font-semibold text-white mb-2">What do we mean by &quot;service&quot; and &quot;location&quot;?</h3>
+          <p className="text-gray-400">
+            A <strong className="text-white">service</strong> is what you do (e.g. plumbing, electrical, roofing). A <strong className="text-white">location</strong> is an area you serve (e.g. Bath, Keynsham, Radstock). More services and locations = more keywords and more visibility. We optimise for each so you rank where it matters.
+          </p>
+        </div>
+      </section>
+
+      {/* Who we help – trade pages */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl font-bold text-white mb-2">
+              Local SEO for Your Trade
+            </h2>
+            <p className="text-gray-400">
+              Plumbers, electricians, roofers — we help you get found when customers in Bath & North East Somerset search.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -179,7 +246,7 @@ const LocalSEO = () => {
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Plumbers</h3>
-              <p className="text-gray-400 text-sm mb-4">Rank for "plumber Bath", "plumber Keynsham" and get more plumbing jobs from Google.</p>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;plumber Bath&quot;, &quot;plumber Keynsham&quot; and get more jobs from Google.</p>
               <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                 Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </span>
@@ -189,7 +256,7 @@ const LocalSEO = () => {
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Electricians</h3>
-              <p className="text-gray-400 text-sm mb-4">Get found for "electrician Bath", "electrician Keynsham" and win more electrical work.</p>
+              <p className="text-gray-400 text-sm mb-4">Get found for &quot;electrician Bath&quot;, &quot;electrician Keynsham&quot; and win more work.</p>
               <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                 Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </span>
@@ -199,101 +266,12 @@ const LocalSEO = () => {
               className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
             >
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Roofers</h3>
-              <p className="text-gray-400 text-sm mb-4">Rank for "roofer Bath", "roofing Keynsham" and get more roofing enquiries.</p>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;roofer Bath&quot;, &quot;roofing Keynsham&quot; and get more enquiries.</p>
               <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                 Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </span>
             </Link>
           </div>
-        </div>
-      </section>
-
-      <ServiceFeatures
-        title="Our Local SEO Services"
-        subtitle="Everything you need to dominate local search in Bath & North East Somerset."
-        features={features}
-      />
-
-      {/* How Local SEO Works */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-6">
-                Why Local SEO Matters
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                46% of Google Searches Have Local Intent
-              </h2>
-              <p className="text-lg text-gray-400 mb-6 leading-relaxed">
-                When someone in Bath searches "emergency plumber near me" or "electrician Keynsham", 
-                they're ready to hire. If you're not on page 1, your competitors are getting those calls.
-              </p>
-              <ul className="space-y-4">
-                {[
-                  '97% of people learn about local companies online',
-                  '88% of mobile searches for local businesses result in a call or visit within 24 hours',
-                  'Local SEO leads have a 14.6% close rate vs 1.7% for outbound leads',
-                ].map((stat, index) => (
-                  <li key={index} className="flex items-start gap-3 text-gray-300">
-                    <svg className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    {stat}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Visual */}
-            <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
-              <div className="text-sm text-gray-500 mb-4">Example search results for "plumber bath"</div>
-              <div className="space-y-3">
-                {/* Fake search results */}
-                <div className="p-4 bg-green-500/10 border border-green-500/20 rounded-xl">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs bg-green-500 text-white px-2 py-0.5 rounded">Ad</span>
-                    <span className="text-green-400 text-sm">Your Competitor</span>
-                  </div>
-                  <div className="text-white font-medium">Paying £5-15 per click</div>
-                </div>
-                <div className="p-4 bg-primary/10 border border-primary/20 rounded-xl">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs bg-primary text-white px-2 py-0.5 rounded">#1</span>
-                    <span className="text-primary-light text-sm">This could be you</span>
-                  </div>
-                  <div className="text-white font-medium">Free organic traffic, forever</div>
-                </div>
-                <div className="p-4 bg-white/5 border border-white/10 rounded-xl opacity-60">
-                  <div className="text-gray-500 text-sm mb-1">#2 - Competitor B</div>
-                  <div className="text-gray-400">Getting your potential customers</div>
-                </div>
-                <div className="p-4 bg-white/5 border border-white/10 rounded-xl opacity-40">
-                  <div className="text-gray-500 text-sm mb-1">#3 - Competitor C</div>
-                  <div className="text-gray-400">Also getting your customers</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing */}
-      <section className="py-24 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            SEO Packages That Fit Your Budget
-          </h2>
-          <p className="text-lg text-gray-400 mb-8">
-            Our local SEO packages start from <span className="text-white font-bold">£500/month</span>. 
-            No long contracts — just results. Most clients see significant improvements within 3-6 months.
-          </p>
-          <Link href="/contact" className="inline-block bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow">
-            Get Your Free SEO Audit
-          </Link>
-          <p className="text-gray-500 text-sm mt-4">
-            See exactly where you stand and what it'll take to reach page 1.
-          </p>
         </div>
       </section>
 
@@ -311,36 +289,16 @@ const LocalSEO = () => {
 
           <FAQAccordion 
             faqs={[
-              {
-                q: 'What is local SEO?',
-                a: 'Local SEO is the process of optimising your online presence to attract more customers from relevant local searches. When someone searches "plumber near me" or "electrician in Bath", local SEO helps your business appear at the top of those results.',
-              },
-              {
-                q: 'How long does SEO take to work?',
-                a: 'SEO is a long-term strategy, but most businesses see noticeable improvements within 3-6 months. Quick wins like Google Business Profile optimisation can show results within weeks, while competitive keywords may take longer.',
-              },
-              {
-                q: 'Is SEO better than paid ads?',
-                a: 'Both have their place. SEO provides sustainable, long-term traffic without ongoing ad spend. Paid ads give immediate visibility but stop the moment you stop paying. We often recommend a combination, using ads for quick wins while building organic rankings.',
-              },
-              {
-                q: 'How do you measure SEO success?',
-                a: 'We track keyword rankings, organic traffic, phone calls, form submissions, and ultimately leads and revenue. You\'ll receive monthly reports showing exactly how your investment is performing.',
-              },
-              {
-                q: 'What makes local SEO different from regular SEO?',
-                a: 'Local SEO focuses on geographic-specific searches and includes optimising your Google Business Profile, building local citations, managing reviews, and creating location-specific content. It\'s designed to help you dominate searches in your service area.',
-              },
-              {
-                q: 'Do I need SEO if I already get work through word of mouth?',
-                a: 'Word of mouth is great, but it limits your growth. Over 90% of consumers search online before choosing a local business. SEO ensures you\'re visible when potential customers are actively looking for services you provide.',
-              },
+              { q: 'I already have a website from you — is Local SEO for me?', a: 'Yes. Lots of our clients add Local SEO once their website is live. We work on the site we built for you (and your Google Business Profile) to get more traffic and more calls. No new website — we expand on what you already have.' },
+              { q: 'What is local SEO?', a: 'Local SEO gets you found when people search for your services in your area (e.g. "plumber Bath", "electrician Keynsham"). We optimise your website and Google Business Profile so you rank higher and get more calls.' },
+              { q: 'What do "service" and "location" mean?', a: 'A service is what you do (e.g. plumbing, electrical). A location is an area you serve (e.g. Bath, Keynsham). Your package covers a set number of each — more coverage means more keywords we target and a higher monthly fee.' },
+              { q: 'How long until I see results?', a: 'Most clients see noticeable improvements within 3-6 months. Google Business Profile optimisation can show results within weeks; competitive keywords may take longer. You get monthly reports so you always know where you stand.' },
+              { q: 'What\'s included in every package?', a: 'Keyword research, on-page optimisation of your website, Google Business Profile optimisation for your locations, and a monthly report on rankings and traffic. Growth and Scale add citations, link building and (Scale) content and leads reporting.' },
             ]}
           />
         </div>
       </section>
 
-      <Spotlight />
       <CTABanner />
     </>
   );

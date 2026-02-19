@@ -6,7 +6,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: 'Website Designer Bath & North East Somerset', href: '/web-design' },
+    { name: 'Website Design', href: '/web-design' },
+    { name: 'Web Design Packages', href: '/web-design-packages' },
     { name: 'Local SEO', href: '/local-seo' },
     { name: 'Google Business Profile', href: '/google-business-profile' },
     { name: 'Free SEO Audit', href: '/contact' },

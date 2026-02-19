@@ -7,21 +7,22 @@ const Services = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: 'Local SEO',
-      href: '/local-seo',
-      image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Local SEO keyword research and analytics for Bath and North East Somerset businesses',
-      description: 'Get found for searches like "plumber Bath", "electrician Keynsham", "builder Midsomer Norton". Keyword research, on-page fixes, local links.',
+      title: 'Website Design',
+      href: '/web-design',
+      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
+      imageAlt: 'Website designer in Bath and North East Somerset — mobile-first, fast, SEO-ready',
+      description: 'Our main service. We build trade websites from £399 — one-page or multi-page. The one-page package includes GBP optimisation for one service in one location. Fast, mobile-first, SEO-ready.',
       features: [
-        'Keyword research',
-        'On-page optimisation',
-        'Local link building',
-        'Monthly reporting',
+        'Mobile-first design',
+        'Fast loading speeds',
+        'Clear calls-to-action',
+        'SEO-ready',
       ],
-      color: 'from-secondary to-secondary-dark',
+      color: 'from-primary to-primary-dark',
+      badge: 'Main service',
     },
     {
       icon: (
@@ -34,33 +35,35 @@ const Services = () => {
       href: '/google-business-profile',
       image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=250&fit=crop&auto=format&q=80',
       imageAlt: 'Google Business Profile optimisation and map pack results in Bath area',
-      description: 'Dominate the local map pack. We optimise your profile, manage reviews, post updates, and track calls.',
+      description: 'One-off optimisation £150. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our website and Local SEO packages.',
       features: [
-        'Profile optimisation',
-        'Review management',
-        'Post scheduling',
-        'Insights & tracking',
+        'One-off optimisation £150',
+        'Included in website & Local SEO',
+        'Map pack visibility',
+        'Categories, keywords, services',
       ],
       color: 'from-accent to-accent-dark',
+      badge: 'One-off or included',
     },
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
       ),
-      title: 'Website Designer & Web Design',
-      href: '/web-design',
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Website designer in Bath and North East Somerset — mobile-first, fast, SEO-ready',
-      description: 'We specialise in trade websites and getting local trades found on Google. Professional website designer in Bath & North East Somerset — fast, mobile-first sites for plumbers, electricians, builders. SEO-ready.',
+      title: 'Local SEO',
+      href: '/local-seo',
+      image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop&auto=format&q=80',
+      imageAlt: 'Local SEO keyword research and analytics for Bath and North East Somerset businesses',
+      description: 'Add-on once you\'re happy with your website. Get found for "plumber Bath", "electrician Keynsham", "builder Midsomer Norton". Keyword research, on-page fixes, local links.',
       features: [
-        'Mobile-first design',
-        'Fast loading speeds',
-        'Clear calls-to-action',
-        'SEO-ready',
+        'Keyword research',
+        'On-page optimisation',
+        'Local link building',
+        'Monthly reporting',
       ],
-      color: 'from-primary to-primary-dark',
+      color: 'from-secondary to-secondary-dark',
+      badge: 'Add-on',
     },
   ];
 
@@ -83,6 +86,9 @@ const Services = () => {
             Our
             <span className="gradient-text"> Services</span>
           </h2>
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            Website design is our main service. Our one-page package includes GBP optimisation for one service in one location. We can add local SEO and other services once you&apos;re happy with your site.
+          </p>
         </div>
 
         {/* Services Grid */}
@@ -111,6 +117,11 @@ const Services = () => {
                 <div className={`absolute bottom-4 left-6 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${service.color} text-white shadow-lg`}>
                   {service.icon}
                 </div>
+                {service.badge && (
+                  <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full text-xs font-medium bg-dark-card/90 border border-white/10 text-gray-300">
+                    {service.badge}
+                  </div>
+                )}
               </div>
 
               <div className="p-6 pt-4">
@@ -155,10 +166,10 @@ const Services = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <Link
-            href="/local-seo"
+            href="/web-design"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
           >
-            See All Services
+            View our website design packages
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

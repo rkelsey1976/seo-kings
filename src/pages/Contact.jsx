@@ -99,8 +99,9 @@ const Contact = () => {
 
   const services = [
     'Website Design',
+    'Web Design Packages',
     'Local SEO',
-    'Google Business Profile',
+    'Google Business Profile (one-off £150)',
     'Full Package (All Services)',
     'Not sure yet',
   ];
@@ -420,7 +421,7 @@ const Contact = () => {
               },
               {
                 q: 'How much does SEO cost?',
-                a: 'Our packages start from £500/month for local SEO. We\'ll provide a custom quote based on your business, competition, and goals during your free consultation.',
+                a: 'Our local SEO packages start from £150/month (1 service, 1 location). We\'ll provide a custom quote based on your business, competition, and goals during your free consultation.',
               },
               {
                 q: 'Do I need a new website?',
