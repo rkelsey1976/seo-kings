@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SEO from '../../src/components/SEO';
-
-const baseUrl = 'https://seo-kings.co.uk';
+import { BASE_URL, BLOG_LINKS, AREA_LINKS, CASE_STUDY_LINKS } from '../../src/constants/sitemap';
 
 const sitemapSections = [
   {
@@ -27,49 +26,18 @@ const sitemapSections = [
   },
   {
     title: 'Blog',
-    links: [
-      { href: '/blog', label: 'Blog' },
-      { href: '/blog/beautiful-websites-that-rank', label: 'Beautiful Websites That Rank' },
-      { href: '/blog/what-is-local-seo-bath', label: 'What Is Local SEO Bath' },
-      { href: '/blog/get-more-google-reviews-bath', label: 'Get More Google Reviews' },
-      { href: '/blog/local-seo-bath', label: 'Local SEO in Bath' },
-      { href: '/blog/seo-for-plumbers-bath', label: 'SEO for Plumbers Bath' },
-      { href: '/blog/free-seo-audit-what-we-check', label: 'Free SEO Audit – What We Check' },
-      { href: '/blog/website-design-midsomer-norton-peachy-cleans', label: 'Website Design Midsomer Norton – Peachy Cleans' },
-      { href: '/blog/website-design-bath', label: 'Website Design Bath' },
-      { href: '/blog/website-design-keynsham', label: 'Website Design Keynsham' },
-      { href: '/blog/website-design-radstock', label: 'Website Design Radstock' },
-      { href: '/blog/website-design-trowbridge', label: 'Website Design Trowbridge' },
-      { href: '/blog/one-page-website-bath-banes', label: 'One-Page Website Bath & North East Somerset' },
-      { href: '/blog/why-speed-matters-for-seo', label: 'Why Speed Matters for SEO' },
-      { href: '/blog/how-we-get-you-number-one-google-maps', label: 'How We Get You to Number One on Google Maps' },
-    ],
+    links: BLOG_LINKS,
   },
   {
     title: 'Case Studies & Spotlight',
     links: [
-      { href: '/case-studies', label: 'Case Studies' },
-      { href: '/case-studies/peachy-cleans', label: 'Case Study: Peachy Cleans' },
+      ...CASE_STUDY_LINKS,
       { href: '/spotlight/peachy-cleans', label: 'Client Spotlight: Peachy Cleans' },
     ],
   },
   {
     title: 'Areas We Serve',
-    links: [
-      { href: '/areas', label: 'All Areas' },
-      { href: '/areas/bath', label: 'Bath' },
-      { href: '/areas/keynsham', label: 'Keynsham' },
-      { href: '/areas/midsomer-norton', label: 'Midsomer Norton' },
-      { href: '/areas/radstock', label: 'Radstock' },
-      { href: '/areas/peasedown-st-john', label: 'Peasedown St John' },
-      { href: '/areas/paulton', label: 'Paulton' },
-      { href: '/areas/saltford', label: 'Saltford' },
-      { href: '/areas/timsbury', label: 'Timsbury' },
-      { href: '/areas/westfield', label: 'Westfield' },
-      { href: '/areas/chew-magna', label: 'Chew Magna' },
-      { href: '/areas/temple-cloud', label: 'Temple Cloud' },
-      { href: '/areas/clutton', label: 'Clutton' },
-    ],
+    links: AREA_LINKS,
   },
   {
     title: 'Legal',
@@ -93,7 +61,7 @@ export default function SitemapPage() {
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">Sitemap</h1>
           <p className="text-gray-400 mb-10">
             All pages on the SEO Kings website. You can also view our{' '}
-            <a href={`${baseUrl}/sitemap.xml`} className="text-primary-light hover:text-white underline">
+            <a href={`${BASE_URL}/sitemap.xml`} className="text-primary-light hover:text-white underline">
               XML sitemap
             </a>{' '}
             for search engines.

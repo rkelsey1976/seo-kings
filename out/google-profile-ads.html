@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Kings – Google Business Profile Ads</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #1e293b;
+      min-height: 100vh;
+      padding: 40px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 48px;
+    }
+    .ad-note {
+      font-size: 14px;
+      color: #94A3B8;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    /* GBP post image: 1200×900 (4:3) – recommended for Search & Maps */
+    .ad {
+      width: 1200px;
+      height: 900px;
+      max-width: 100%;
+      aspect-ratio: 4 / 3;
+      background: linear-gradient(135deg, #070B14 0%, #0F1420 45%, #1a1f35 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+    }
+    .ad::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 70% 30%, rgba(124, 58, 237, 0.22) 0%, transparent 55%),
+                  radial-gradient(ellipse 50% 50% at 20% 80%, rgba(59, 130, 246, 0.18) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .ad-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      padding: 72px 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .logo-line { font-size: 20px; font-weight: 700; color: rgba(255,255,255,0.85); margin-bottom: 20px; }
+    .ad-title {
+      font-size: 48px;
+      font-weight: 800;
+      line-height: 1.15;
+      color: #fff;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+    .ad-title .g { background: linear-gradient(90deg, #A78BFA, #60A5FA); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .ad-subtitle { font-size: 24px; color: #94A3B8; margin-bottom: 32px; font-weight: 600; line-height: 1.4; max-width: 520px; }
+    .ad-bullets { margin-bottom: 40px; }
+    .ad-bullets li { font-size: 20px; color: #CBD5E1; margin-bottom: 12px; padding-left: 28px; position: relative; }
+    .ad-bullets li::before { content: ''; position: absolute; left: 0; top: 8px; width: 8px; height: 8px; background: #A78BFA; border-radius: 50%; }
+    .ad-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(90deg, #7C3AED, #3B82F6);
+      padding: 18px 36px;
+      border-radius: 12px;
+      width: fit-content;
+    }
+    .ad-cta-sub { font-size: 16px; color: #94A3B8; margin-top: 12px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <p class="ad-note">Screenshot each card below. GBP post image size: 1200×900 (4:3). Use in Google Business Profile → Posts.</p>
+
+  <!-- Ad 1: Get found on Google (minimal text – less likely to be rejected by GBP) -->
+  <div>
+    <p class="ad-note">Ad 1 – Get found on Google (revised: less image text for GBP policy)</p>
+    <div class="ad" id="ad1">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Get Found on <span class="g">Google</span></h2>
+        <p class="ad-subtitle">We help Bath & BANES trades get seen when customers search.</p>
+        <div class="ad-cta" style="margin-top: 32px;">Free profile audit →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 1 alt: Original (more text – use if your region allows it) -->
+  <div>
+    <p class="ad-note">Ad 1 alt – Get found (original, more text)</p>
+    <div class="ad" id="ad1-alt">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Get Found on <span class="g">Google</span></h2>
+        <p class="ad-subtitle">We optimise your Google Business Profile so you show up in the map pack and get more calls.</p>
+        <ul class="ad-bullets">
+          <li>Profile optimisation & keywords</li>
+          <li>Reviews & posts that win trust</li>
+          <li>More views, more calls, more jobs</li>
+        </ul>
+        <div class="ad-cta">Get your free audit →</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 2: Free audit CTA -->
+  <div>
+    <p class="ad-note">Ad 2 – Free SEO audit</p>
+    <div class="ad" id="ad2">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Free <span class="g">SEO Audit</span></h2>
+        <p class="ad-subtitle">See how we get Bath & BANES trades to page 1. No obligation. No card required.</p>
+        <ul class="ad-bullets">
+          <li>We check your Google rankings & profile</li>
+          <li>We tell you exactly what’s holding you back</li>
+          <li>Then we build a plan that gets you found</li>
+        </ul>
+        <div class="ad-cta">Book your free audit today</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 3: Trades & areas -->
+  <div>
+    <p class="ad-note">Ad 3 – Trades in every area</p>
+    <div class="ad" id="ad3">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Trades in Every <span class="g">Area</span></h2>
+        <p class="ad-subtitle">Plumbers, electricians, builders, roofers & more — we get you found on Google across Bath, Keynsham, Midsomer Norton, Radstock and BANES.</p>
+        <ul class="ad-bullets">
+          <li>Local SEO that ranks</li>
+          <li>Google Business Profile that converts</li>
+          <li>More calls, more jobs</li>
+        </ul>
+        <div class="ad-cta">Get your free audit →</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 4: Map pack / dominate -->
+  <div>
+    <p class="ad-note">Ad 4 – Dominate the map pack</p>
+    <div class="ad" id="ad4">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Dominate the <span class="g">Map Pack</span></h2>
+        <p class="ad-subtitle">When customers search "plumber Bath" or "electrician Keynsham", we get you in the top 3. More visibility, more calls.</p>
+        <ul class="ad-bullets">
+          <li>#1 BANES SEO agency</li>
+          <li>150+ local businesses helped</li>
+          <li>5★ rated. No jargon, no long contracts.</li>
+        </ul>
+        <div class="ad-cta">Free audit — no obligation</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 5: Reviews & trust -->
+  <div>
+    <p class="ad-note">Ad 5 – Reviews that win trust</p>
+    <div class="ad" id="ad5">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Reviews That <span class="g">Win Trust</span></h2>
+        <p class="ad-subtitle">Your Google Business Profile needs reviews to rank and convert. We help you get more 5★ reviews and show up when locals search.</p>
+        <ul class="ad-bullets">
+          <li>More Google reviews, more visibility</li>
+          <li>Profile that looks credible and local</li>
+          <li>Bath & BANES trades — we get you found</li>
+        </ul>
+        <div class="ad-cta">Free Google profile audit</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad 6: Website + GBP -->
+  <div>
+    <p class="ad-note">Ad 6 – Website & Google profile</p>
+    <div class="ad" id="ad6">
+      <div class="ad-content">
+        <div class="logo-line">SEO Kings</div>
+        <h2 class="ad-title">Website + <span class="g">Google Profile</span></h2>
+        <p class="ad-subtitle">Fast, mobile-friendly site plus an optimised Google Business Profile. Built for local search — plumbers, electricians, builders across BANES.</p>
+        <ul class="ad-bullets">
+          <li>Site built for local SEO</li>
+          <li>GBP that ranks in the map pack</li>
+          <li>More enquiries, more jobs</li>
+        </ul>
+        <div class="ad-cta">Get your free audit →</div>
+        <p class="ad-cta-sub">seo-kings.co.uk | 07702 264 921</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

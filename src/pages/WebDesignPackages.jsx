@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
-import Spotlight from '../components/Spotlight';
+import FAQAccordion from '../components/FAQAccordion';
 import CTABanner from '../components/CTABanner';
 
 const packages = [
@@ -14,6 +14,7 @@ const packages = [
       'Single-page design',
       'Services, contact & area info on one page',
       'Contact form & click-to-call',
+      'GBP optimisation included (one service, one location)',
       'Mobile-responsive',
       'SEO basics included',
       '12 months free hosting',
@@ -35,6 +36,7 @@ const packages = [
       'Full custom design',
       'Contact form + callback request',
       'Portfolio or gallery',
+      'GBP optimisation included (3 services, 4 locations)',
       'Mobile-responsive',
       'SEO optimised',
       '12 months free hosting',
@@ -56,6 +58,7 @@ const packages = [
       'Contact form + callback + booking',
       'Portfolio/gallery',
       'Social media integration',
+      'GBP optimisation included (5 services, 8 locations)',
       'SEO optimised',
       '12 months free hosting',
       '60-day post-launch support',
@@ -116,7 +119,7 @@ const WebDesignPackages = () => {
           </p>
           <p className="text-gray-500 text-sm">Pay monthly options available — no hidden fees</p>
           <p className="text-gray-400 text-sm mt-4 max-w-xl mx-auto">
-            We specialise in trade websites and getting local trades found on Google. Packages for Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset — one-page from £399 or full sites. Fast, mobile-friendly, built for local search.
+            Website design is our main service. Our one-page package (from £399) includes GBP optimisation for one service in one location. We can add local SEO and other services once you&apos;re happy with your site.
           </p>
         </div>
       </section>
@@ -166,6 +169,33 @@ const WebDesignPackages = () => {
               </div>
             ))}
           </div>
+          <div className="mt-12 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-xl font-bold text-white mb-4 text-center">Packages & GBP — your questions answered</h3>
+            <FAQAccordion
+              faqs={[
+                {
+                  question: 'What is a service?',
+                  answer: 'A service is one type of work or business offering. For example: plumbing is one service; electrical is another. If you do one main trade (e.g. plumber in Keynsham), that\'s one service. If you offer several distinct services (e.g. plumbing, heating, bathroom fitting), each can count as a service for GBP optimisation.',
+                },
+                {
+                  question: 'What is a location?',
+                  answer: 'A location is one area you serve. For example: Keynsham, Bath, or one postcode. If you cover multiple towns, each area counts as a location. We optimise your Google Business Profile so you show up when people search for your service in each location.',
+                },
+                {
+                  question: 'What\'s included in GBP optimisation?',
+                  answer: 'We set up and optimise your Google Business Profile so you appear in the map pack when people search locally. That includes: correct category and business details, description, service area, photos, and making sure your profile matches your website. The number of services and locations in each package is the scope we optimise for.',
+                },
+                {
+                  question: 'What if I need more services or locations than my package includes?',
+                  answer: 'You can add more later. Once you\'re happy with your website and initial GBP setup, we can add local SEO and expand to more services or locations as an add-on. Get in touch and we\'ll tailor a plan to your business.',
+                },
+                {
+                  question: 'How do the packages compare?',
+                  answer: 'Starter (£399): one-page site + GBP optimisation for 1 service, 1 location. Professional (£1,200): up to 8 pages + GBP for 3 services, 4 locations. Full Package (£1,800): up to 10 pages + GBP for 5 services, 8 locations. All include hosting, SSL, and support — we can add more services or locations as add-ons.',
+                },
+              ]}
+            />
+          </div>
         </div>
       </section>
 
@@ -203,7 +233,7 @@ const WebDesignPackages = () => {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            What's included
+            What&apos;s included
           </h2>
           <p className="text-gray-400 mb-12">
             Every package comes with the essentials to get your business found online.
@@ -220,6 +250,15 @@ const WebDesignPackages = () => {
                 {item}
               </div>
             ))}
+          </div>
+          <div className="mt-12 p-6 bg-dark-card/50 border border-white/10 rounded-2xl text-left max-w-2xl mx-auto">
+            <h3 className="text-lg font-semibold text-white mb-2">Add-ons once you&apos;re happy</h3>
+            <p className="text-gray-400 text-sm mb-4">
+              After you&apos;re happy with your website, we can add local SEO, ongoing Google Business Profile management, review management, and more — tailored to your business and locations.
+            </p>
+            <Link href="/contact" className="text-primary-light hover:text-white text-sm font-medium">
+              Ask about add-ons →
+            </Link>
           </div>
         </div>
       </section>
@@ -250,7 +289,6 @@ const WebDesignPackages = () => {
         </div>
       </section>
 
-      <Spotlight />
       <CTABanner />
     </>
   );
