@@ -5,6 +5,7 @@ export function generateStaticParams() {
   return CASE_STUDY_SLUGS.map((slug) => ({ slug }));
 }
 
-export default function Page({ params }) {
-  return <CaseStudyDetail params={params} />;
+export default async function Page({ params }) {
+  const resolved = typeof params?.then === 'function' ? await params : params;
+  return <CaseStudyDetail params={resolved} />;
 }

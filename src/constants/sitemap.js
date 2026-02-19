@@ -63,6 +63,7 @@ export const CASE_STUDY_SLUGS = [
   'radstock-dental',
   'saltford-garden-centre',
   'peachy-cleans',
+  'new-decorating',
 ];
 
 const caseStudyLabels = {
@@ -73,6 +74,7 @@ const caseStudyLabels = {
   'radstock-dental': 'Radstock Dental',
   'saltford-garden-centre': 'Saltford Garden Centre',
   'peachy-cleans': 'Peachy Cleans',
+  'new-decorating': 'New Decorating',
 };
 export const CASE_STUDY_LINKS = [
   { href: '/case-studies', label: 'Case Studies' },

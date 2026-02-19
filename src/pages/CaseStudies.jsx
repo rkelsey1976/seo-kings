@@ -30,6 +30,29 @@ const CaseStudies = () => {
       services: ['Website Design', 'Local SEO'],
       color: 'from-pink-500 to-rose-500',
     },
+    {
+      id: 2,
+      slug: 'new-decorating',
+      business: 'New Decorating',
+      industry: 'Painter & Decorator',
+      location: 'Bath, Keynsham, Midsomer Norton, Radstock & BANES',
+      logo: 'ND',
+      image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400&h=250&fit=crop&auto=format&q=80',
+      imageAlt: 'Painter and decorator Bath - New Decorating website and Google Business Profile case study',
+      challenge: 'No website and no Google listing — invisible when people searched for a painter and decorator in Bath and the surrounding areas.',
+      solution: 'New website at new-decorating.co.uk plus Google Business Profile set up and optimised so both work together. Within a week he was in the top 8 on Google Maps and ranking for long-tail keywords.',
+      results: [
+        { metric: 'New site', label: 'Live at new-decorating.co.uk' },
+        { metric: 'Top 8', label: 'On Google Maps in a week' },
+        { metric: 'Ranking', label: 'Long-tail keywords' },
+      ],
+      timeframe: 'Within a week',
+      quote: 'We had no website and no Google listing. SEO Kings built the site and sorted our Google profile — within a week we were showing up on Maps and getting found for the right searches.',
+      author: 'Jay',
+      role: 'New Decorating, Painter & Decorator',
+      services: ['Website Design', 'Google Business Profile'],
+      color: 'from-amber-600 to-orange-600',
+    },
   ];
 
   return (
