@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
-import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
+import { GOOGLE_MAPS_PLACE_URL, GOOGLE_MAPS_EMBED_SRC } from '../constants/business';
 
 const Contact = () => {
   const router = useRouter();
@@ -397,6 +397,33 @@ const Contact = () => {
                     </form>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Google Maps embed */}
+      <section className="py-16 bg-dark-lighter">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-white mb-2">Find us on Google Maps</h2>
+          <p className="text-gray-400 mb-6">
+            Visit our{' '}
+            <a href={GOOGLE_MAPS_PLACE_URL} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
+              Google Maps listing
+            </a>
+            {' '}to see our reviews, get directions, or leave a review.
+          </p>
+          <div className="rounded-2xl overflow-hidden border border-white/10 aspect-video max-h-[400px] bg-dark-card">
+            <iframe
+              src={GOOGLE_MAPS_EMBED_SRC}
+              width="100%"
+              height="100%"
+              style={{ border: 0, minHeight: 400 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SEO Kings on Google Maps"
+              className="w-full h-full min-h-[300px]"
+            />
           </div>
         </div>
       </section>

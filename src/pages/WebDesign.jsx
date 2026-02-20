@@ -249,6 +249,41 @@ const WebDesign = () => {
         </div>
       </section>
 
+      {/* What we've done – case studies */}
+      <section className="py-24 bg-dark-lighter">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
+            What we've done
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            Recent website design & local SEO results
+          </h2>
+          <p className="text-lg text-gray-400 mb-8">
+            From no web presence to ranking on Google Maps in days. Here are two recent examples:
+          </p>
+          <ul className="space-y-4 text-left max-w-2xl mx-auto">
+            <li>
+              <Link href="/case-studies/new-decorating" className="text-primary-light hover:text-white font-medium transition-colors">
+                New Decorating
+              </Link>
+              <span className="text-gray-400"> — No website or Google listing to top 8 on Google Maps in a week (painter & decorator, Bath).</span>
+            </li>
+            <li>
+              <Link href="/case-studies/peachy-cleans" className="text-primary-light hover:text-white font-medium transition-colors">
+                Peachy Cleans
+              </Link>
+              <span className="text-gray-400"> — Website and local SEO in Midsomer Norton; now found for cleaning searches in the area.</span>
+            </li>
+          </ul>
+          <Link href="/case-studies" className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold mt-8 transition-colors">
+            View all case studies
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* Pricing Teaser */}
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

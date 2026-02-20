@@ -20,6 +20,7 @@ const blogPosts = {
         paragraphs: [
           'A lot of businesses assume they have to choose: either a website that looks good or one that ranks on Google. We don’t think that way. Every site we build is designed to be both: clear, modern, and on-brand, and built from the ground up so Google can crawl it, understand it, and rank it.',
           'That means clean code, fast loading, proper structure, and content that matches what people search for. It also means a layout and visuals that make visitors want to stay, read, and get in touch. When you get both right, you get more traffic and more conversions.',
+          'Our website design starts from £399 for a one-page trade site and includes the basics that help you rank.',
         ],
       },
       {
@@ -88,6 +89,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
+          'Our local SEO service helps you get found in the map pack and for "near me" searches.',
           'Start with your Google Business Profile: make sure it’s claimed, complete, and accurate. Then look at your website: does it clearly state where you serve and what you do? From there, consistency across directories and a plan to get more Google reviews will strengthen your local visibility. If you’d like a free audit of your current setup, we’re happy to take a look and show you where the opportunities are.',
         ],
       },
@@ -132,6 +134,100 @@ const blogPosts = {
           'Don’t offer incentives in exchange for reviews — Google’s guidelines prohibit it and it can lead to penalties. Don’t ask only happy customers to review while pressuring unhappy ones to stay quiet. Don’t buy fake reviews or get friends to leave reviews if they haven’t used your business. Stick to asking real customers, at the right time, with a direct link. It’s the right way and the sustainable way.',
         ],
       },
+    ],
+  },
+  'gbp-trades-losing-customers': {
+    slug: 'gbp-trades-losing-customers',
+    title: 'Why Trades Lose Customers When They\'re Not on Google',
+    description: 'Plumbers, electricians and trades in Bath and North East Somerset lose jobs every day because they\'re not in the map pack or don\'t have a proper Google Business Profile. Here\'s how to stop losing customers to competitors.',
+    date: '2026-02-21',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'trades losing customers, Google Business Profile trades, not on Google map pack, plumber electrician Bath, GBP for trades',
+    sections: [
+      {
+        heading: 'When you\'re not on Google, someone else gets the job',
+        paragraphs: [
+          'When someone in Bath, Keynsham or North East Somerset searches "plumber near me", "electrician Keynsham" or "roofer Bath", Google shows a map with three businesses at the top. If you\'re not in that map pack — or you don\'t have a Google Business Profile at all — you\'re invisible. The click goes to a competitor. The job goes to them. Trades lose customers every day simply because they\'re not there when people search.',
+          'A lot of trades rely on word of mouth or repeat customers. That\'s great until someone needs you in a hurry, doesn\'t have your number, or is new to the area. They search Google. If your name doesn\'t show up with a map, a phone number and opening hours, they pick someone who does.',
+        ],
+      },
+      {
+        heading: 'Why a missing or poor GBP costs you work',
+        paragraphs: [
+          'Your Google Business Profile is how you show up in the map pack and on Google Maps. If it\'s not claimed, not verified, or half-empty — wrong category, no services, no description — Google has less reason to show you. Even when you do appear, an incomplete or outdated profile looks less trustworthy. People skip past and call the next one.',
+          'Trades with a complete, accurate GBP — right category, services listed, areas covered, photos and reviews — get more visibility and more calls. The ones without, or with a messy listing, lose those customers to competitors who bothered to set theirs up.',
+        ],
+      },
+      {
+        heading: 'What happens when customers search and you\'re not there',
+        paragraphs: [
+          'Someone has a burst pipe, a power cut or a leaky roof. They grab their phone and search. They don\'t scroll through pages; they look at the map, maybe the first three results, and they call. If you\'re not in that mix, you\'re not in the running. It doesn\'t matter how good your work is if nobody can find you.',
+          'The same goes for "near me" searches. Google uses the searcher\'s location. If your GBP isn\'t set up with the right area and categories, you won\'t show for those searches. You\'re losing customers you never even had a chance to quote.',
+        ],
+      },
+      {
+        heading: 'Getting your GBP set up so you stop losing customers',
+        paragraphs: [
+          'Claim and verify your Google Business Profile. Choose the right primary category (e.g. Plumber, Electrician, Roofer). Fill in your services, areas, hours, phone number and website. Write a clear description that says what you do and where you serve. Add photos and ask happy customers for reviews. Keep your details consistent with your website and any other listings.',
+          'Once your profile is complete and accurate, Google can match you to the right searches. You won\'t win every job, but you\'ll be in the game instead of invisible. For trades in Bath and North East Somerset, that often means getting into the map pack and showing up for "plumber Bath", "electrician Keynsham" and "near me" searches.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a trade in Bath, Keynsham, Midsomer Norton, Radstock or the surrounding area and you don\'t have a Google Business Profile — or yours is incomplete or out of date — you\'re almost certainly losing customers to competitors who do. We can do a free check of your current setup and show you what to fix. We also set up and optimise GBP as part of our website and local SEO packages. Get in touch for a free chat or see our Google Business Profile page below.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/local-seo', label: 'Local SEO' },
+      { href: '/contact', label: 'Free GBP check' },
+    ],
+  },
+  'google-business-profile-for-trades': {
+    slug: 'google-business-profile-for-trades',
+    title: 'What is a Google Business Profile and Why Trades Need One',
+    description: 'Your Google Business Profile is how you show up on Google Maps and in the map pack when people search for plumbers, electricians and trades. Here\'s what it is and why it matters for Bath and North East Somerset.',
+    date: '2026-02-22',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'Google Business Profile, GBP for trades, what is GBP, Google Maps trades, plumber electrician Bath',
+    sections: [
+      {
+        heading: 'What is a Google Business Profile?',
+        paragraphs: [
+          'Your Google Business Profile (GBP) is the listing Google shows when someone searches for your business by name, or when they search for a service in your area — like "plumber Bath" or "electrician Keynsham". It\'s the box that appears with your business name, address, phone number, opening hours, website link, photos and reviews. It\'s also what powers your presence on Google Maps.',
+          'If you\'ve ever searched for a local business and seen a map with three results at the top, those three are Google Business Profiles. The businesses that show there have claimed and filled out their profile so Google can match them to the search.',
+        ],
+      },
+      {
+        heading: 'Where your GBP shows up',
+        paragraphs: [
+          'Your profile can appear in the local map pack (the three businesses with a map on the main search results), on Google Maps when people search or browse by area, and in the "Knowledge Panel" when someone searches your business name. For trades in Bath, Keynsham, Midsomer Norton and North East Somerset, most new enquiries come from people searching "plumber near me", "electrician [town]" or similar — and those results are driven by GBP.',
+          'If your profile isn\'t claimed or is incomplete, Google has less to show. You might not appear in the map pack at all, or you might show with wrong or missing details. Either way, you lose visibility and trust.',
+        ],
+      },
+      {
+        heading: 'Why trades need a Google Business Profile',
+        paragraphs: [
+          'When someone has a burst pipe, a power cut or a leaky roof, they search Google. They look at the map and the first few results. If you\'re not there — or your listing is blank or wrong — they call someone else. A complete, accurate GBP puts you in the running: right category (e.g. Plumber, Electrician), services listed, areas covered, photos, reviews and a clear way to call or visit your website.',
+          'Trades who rely only on word of mouth or repeat customers miss everyone who doesn\'t already know them. A GBP gets you in front of people when they\'re actively looking for your service in your area.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you don\'t have a Google Business Profile, claim and verify yours (Google will send a postcard or you can verify by other methods). Fill in your business name, address, phone, website, hours, category, services and a short description. Add photos and ask happy customers for reviews. Keep everything consistent with your website.',
+          'If you\'re a trade in Bath and North East Somerset and want help setting up or optimising your GBP, we can do a free check and show you what to fix. We also include GBP setup and optimisation in our website and local SEO packages. Get in touch or see our Google Business Profile page below.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/contact', label: 'Free GBP check' },
+      { href: '/local-seo', label: 'Local SEO' },
     ],
   },
   'local-seo-bath': {
@@ -356,49 +452,6 @@ const blogPosts = {
       { href: '/contact', label: 'Get a free audit' },
     ],
   },
-  'no-web-presence-to-google-maps-week': {
-    slug: 'no-web-presence-to-google-maps-week',
-    title: 'From No Web Presence to Top 8 on Google Maps in a Week: How We Did It for New Decorating',
-    description: 'New Decorating had no website and no Google listing. We built both — within a week Jay was ranking for long-tail keywords and in the top 8 on Google Maps. Here\'s how our website and GBP services work together.',
-    date: '2026-02-20',
-    readTime: '5 min read',
-    author: 'SEO Kings',
-    keywords: 'website design Bath, Google Business Profile Bath, on Google Maps in a week, New Decorating, painter decorator Bath, local SEO Bath',
-    sections: [
-      {
-        heading: 'The challenge: no web presence',
-        paragraphs: [
-          'Jay at New Decorating — a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset — had no website and no Google Business Profile. When potential customers searched for a painter and decorator in Bath or the surrounding areas, he simply didn\'t show up. We built him a fast, mobile-friendly website at new-decorating.co.uk and set up and optimised his Google Business Profile so the two work together. Within a week he was ranking for some of his long-tail keywords and listing in the top 8 on Google Maps.',
-        ],
-      },
-      {
-        heading: 'What our website and GBP services include',
-        paragraphs: [
-          'Our website design gives you a clear, professional site that loads fast and is built for local search: your services, your areas, clear calls to action, and content that matches what people search for. We build from £399 — one-page or multi-page — and the one-page package includes GBP optimisation for one service in one location.',
-          'Our Google Business Profile service means we claim (or verify) your listing, set the right category and services, write an optimised description, and make sure your hours, area and contact details are correct. We don\'t sell ongoing GBP on its own — it\'s included in our website packages and in our Local SEO packages. For New Decorating we did a one-off GBP optimisation as part of getting the site live.',
-        ],
-      },
-      {
-        heading: 'Why it worked so fast',
-        paragraphs: [
-          'When you start from zero, Google has nothing to show. As soon as we had a live website and a complete, optimised Google Business Profile, Google could start listing New Decorating for relevant searches. Long-tail keywords — like "painter and decorator Keynsham" or "interior painting Bath" — are less competitive than the single word "painter", so rankings can appear quickly. The map pack and Google Maps favour businesses with a complete profile and a website that backs it up. Within a week, New Decorating was in the top 8 on Maps and ranking for several long-tail terms.',
-        ],
-      },
-      {
-        heading: 'What that means for your business',
-        paragraphs: [
-          'If you\'re a trade or local service in Bath and North East Somerset and you have no web presence — or your site and Google listing are out of date — the same approach can work for you. A new website plus a properly set-up Google Business Profile gets you visible on Google and in Maps. We don\'t promise number one overnight for the most competitive terms, but we do get trades visible for the searches that matter, often within a week when you start from zero.',
-          'Get in touch for a free audit. We\'ll look at your current setup and show you what we\'d do next. No obligation.',
-        ],
-      },
-    ],
-    ctaLinks: [
-      { href: '/blog/new-decorating-website-bath', label: 'Read the full New Decorating post' },
-      { href: '/web-design', label: 'Website design' },
-      { href: '/google-business-profile', label: 'Google Business Profile' },
-      { href: '/contact', label: 'Get a free audit' },
-    ],
-  },
   'website-design-bath': {
     slug: 'website-design-bath',
     title: 'Website Design in Bath: What We Build for Trades and Local Businesses',
@@ -522,7 +575,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Keynsham and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Keynsham and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. Our website design starts from £399 for a one-page trade site. See our web design packages or get in touch for a free quote below.',
         ],
       },
     ],
@@ -530,6 +583,115 @@ const blogPosts = {
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'how-we-build-websites-keynsham': {
+    slug: 'how-we-build-websites-keynsham',
+    title: 'How We Build Websites in Keynsham: From Keyword Research to Launch',
+    description: 'Our process for building websites for Keynsham and BS31 businesses: initial keyword research, structure, content, design and launch. So your site gets found when local customers search.',
+    date: '2026-02-19',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'website build process Keynsham, keyword research Keynsham, web design Keynsham, how we build websites BS31',
+    sections: [
+      {
+        heading: 'Why we start with keyword research',
+        paragraphs: [
+          'When we build a website for a business in Keynsham, Saltford, or the wider BS31 area, we don’t start with colours and layouts. We start with what your customers actually type into Google. That’s keyword research: finding out which phrases people use when they’re looking for your trade or service in your area.',
+          'For a plumber in Keynsham, that might be "plumber Keynsham", "emergency plumber BS31", or "plumber near me". For an electrician, "electrician Keynsham" or "electrician Saltford". Those phrases tell us what your site needs to say and how to structure it so Google can match you to the right searches. Without that step, you end up with a nice-looking site that doesn’t rank for the things that bring in work.',
+        ],
+      },
+      {
+        heading: 'What initial keyword research looks like',
+        paragraphs: [
+          'We look at what people search for in your industry and in your location. We check existing search volume (how often a phrase is used), who’s already ranking for it, and how realistic it is to compete. We also look at "near me" and map-pack behaviour — because in Keynsham and the Keynsham area, a lot of jobs come from local pack and Maps, not just the main search results.',
+          'From that we get a shortlist of target keywords: the phrases we want your site (and your Google Business Profile) to be built around. That list shapes your page titles, headings, service descriptions, and area content. Everything we write and build is aligned with what people are actually searching for.',
+        ],
+      },
+      {
+        heading: 'From keywords to site structure',
+        paragraphs: [
+          'Once we know the keywords, we plan the structure. For a one-page trade site, that might be: hero with your main offer, services (using the phrases people search for), areas you serve (Keynsham, Saltford, Bath, and so on), and a clear call to action. For a multi-page site, we might give each main service or area its own page, each optimised for relevant keywords.',
+          'We keep the structure simple and logical — both for visitors and for Google. No keyword stuffing; just clear, natural content that answers what someone searching "plumber Keynsham" or "website design Keynsham" is looking for.',
+        ],
+      },
+      {
+        heading: 'Content and design',
+        paragraphs: [
+          'Content comes next: service descriptions, area copy, and any extra pages. We use the keyword research to guide the wording without making it sound robotic. Then we design and build: mobile-first, fast loading, with clear contact points and trust signals (reviews, credentials, contact form, click-to-call).',
+          'We build so the site works with your Google Business Profile — same business name, address, phone number, service areas. Consistency across the site and GBP helps Google understand who you are and where you serve, which matters for local search in Keynsham and BS31.',
+        ],
+      },
+      {
+        heading: 'Launch and local search',
+        paragraphs: [
+          'After launch we submit the site to Google, set up or tidy your GBP if needed, and make sure everything is connected. We don’t stop at "the site is live" — we want it to start showing up for the searches we targeted. For many Keynsham businesses that means appearing in the map pack and for "near me" searches as well as for specific phrases like "electrician Keynsham".',
+          'If you want ongoing visibility, we can add local SEO and GBP management on top. But the foundation is always the same: keyword research first, then a site built to rank for the right local searches.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you’re a tradesperson or local business in Keynsham and you’re thinking about a new website — or you want one that’s built with keyword research and local search in mind from day one — we’d be happy to talk. We serve Keynsham, Saltford, Bitton, Bath and North East Somerset. Get in touch for a free chat, or see our website design and Keynsham area pages below.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/areas/keynsham', label: 'Website design Keynsham' },
+      { href: '/web-design', label: 'How we build websites' },
+      { href: '/web-design-packages', label: 'Web design packages' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+  },
+  'keynsham-gbp-keyword-research': {
+    slug: 'keynsham-gbp-keyword-research',
+    title: 'Google Business Profile Keyword Research for Keynsham & BS31',
+    description: 'How to do keyword research for your Google Business Profile in Keynsham and the BS31 area. Find the right phrases for your category, services and description so you show up in the map pack.',
+    date: '2026-02-20',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'Google Business Profile Keynsham, GBP keyword research Keynsham, Keynsham Google listing, BS31 map pack, local SEO Keynsham',
+    sections: [
+      {
+        heading: 'Why keyword research matters for your GBP in Keynsham',
+        paragraphs: [
+          'Your Google Business Profile is one of the main ways you show up when people in Keynsham, Saltford, or BS31 search for your trade or service. But Google has to understand what you do and where you serve. Keyword research for your GBP means finding the phrases people actually type in — like "plumber Keynsham", "electrician BS31", or "painter and decorator Saltford" — and using them in your category, services, description and areas so Google can match you to the right searches.',
+          'Without that step, your listing might be complete but not optimised for the searches that bring in work. With the right keywords in the right places, you stand a better chance of appearing in the map pack and in Google Maps when local customers search.',
+        ],
+      },
+      {
+        heading: 'What to research: category, services and location',
+        paragraphs: [
+          'Google uses your primary category, your services (if you add them), your description, and your service area to decide when to show your profile. So keyword research for GBP in Keynsham should cover: (1) your main category — e.g. Plumber, Electrician, Painter — and whether more specific categories exist; (2) the services you offer, phrased the way customers search; (3) the areas you serve — Keynsham, Saltford, Bath, BS31, and so on.',
+          'We look at what people search for in your industry and in your location. We check what phrases have local demand, who\'s already ranking for them, and how your listing compares. From that we get a shortlist of target keywords to use in your GBP without stuffing or sounding unnatural.',
+        ],
+      },
+      {
+        heading: 'Finding the right keywords for Keynsham and BS31',
+        paragraphs: [
+          'For Keynsham and the BS31 area, a lot of searches include the town name ("plumber Keynsham"), the postcode area ("electrician BS31"), or nearby places like Saltford, Bitton, or Bath. "Near me" searches use the searcher\'s location, so your service area and location settings need to be accurate. We use a mix of tools and manual checks to see what phrases people use, what your competitors rank for, and what\'s realistic for a well-optimised GBP to target.',
+          'Long-tail phrases — like "emergency plumber Keynsham" or "interior painter Saltford" — are often less competitive and can get you visible sooner. Your GBP description and services are the main places to use these phrases naturally so Google understands what you do and where.',
+        ],
+      },
+      {
+        heading: 'Putting keywords into your Google Business Profile',
+        paragraphs: [
+          'Once you have a shortlist, you use it in your GBP: choose the most accurate primary category (and secondary if relevant), add services that match the phrases people search for, write a description that includes your main keywords and areas without stuffing, and set your service area so it covers Keynsham, Saltford, and any other areas you serve. Keep your business name, address and phone consistent with your website and any other listings.',
+          'Google rewards relevance and consistency. A GBP that clearly states what you do, where you do it, and how to contact you — in the language people search — is more likely to show up in the map pack for "plumber Keynsham" or "electrician near me" in BS31.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a tradesperson or local business in Keynsham and your Google Business Profile isn\'t set up or isn\'t bringing in enquiries, keyword research is a good first step. We can do a free audit of your current GBP and show you which keywords to target and how to add them. We also build websites that work with your GBP so the two support each other. Get in touch for a free chat, or see our Google Business Profile and Keynsham area pages below.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/areas/keynsham', label: 'Keynsham area' },
+      { href: '/local-seo', label: 'Local SEO' },
+      { href: '/contact', label: 'Free GBP check' },
     ],
   },
   'website-design-bitton-keynsham': {
@@ -1021,7 +1183,7 @@ const BlogPost = ({ params: staticParams }) => {
                 <div className="space-y-4">
                   {section.paragraphs.map((paragraph, pIndex) => (
                     <p key={pIndex} className="text-gray-400 leading-relaxed">
-                      {paragraph}
+                      {Array.isArray(paragraph) ? paragraph : paragraph}
                     </p>
                   ))}
                 </div>

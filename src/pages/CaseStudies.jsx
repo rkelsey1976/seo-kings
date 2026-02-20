@@ -47,7 +47,7 @@ const CaseStudies = () => {
         { metric: 'Ranking', label: 'Long-tail keywords' },
       ],
       timeframe: 'Within a week',
-      quote: 'We had no website and no Google listing. SEO Kings built the site and sorted our Google profile — within a week we were showing up on Maps and getting found for the right searches.',
+      quote: 'We had no website and no Google listing — customers couldn\'t find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.',
       author: 'Jay',
       role: 'New Decorating, Painter & Decorator',
       services: ['Website Design', 'Google Business Profile'],

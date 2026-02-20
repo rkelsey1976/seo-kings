@@ -14,10 +14,11 @@ export const BLOG_SLUGS = [
   'free-seo-audit-what-we-check',
   'website-design-midsomer-norton-peachy-cleans',
   'new-decorating-website-bath',
-  'no-web-presence-to-google-maps-week',
   'website-design-bath',
   'website-designer-bath-banes',
   'website-design-keynsham',
+  'how-we-build-websites-keynsham',
+  'keynsham-gbp-keyword-research',
   'website-design-bitton-keynsham',
   'get-found-on-google-keynsham',
   'website-design-radstock',
@@ -27,6 +28,8 @@ export const BLOG_SLUGS = [
   'one-page-website-bath-banes',
   'why-speed-matters-for-seo',
   'how-we-get-you-number-one-google-maps',
+  'gbp-trades-losing-customers',
+  'google-business-profile-for-trades',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -40,10 +43,11 @@ export const BLOG_LINKS = [
   { href: '/blog/free-seo-audit-what-we-check', label: 'Free SEO Audit – What We Check' },
   { href: '/blog/website-design-midsomer-norton-peachy-cleans', label: 'Website Design Midsomer Norton – Peachy Cleans' },
   { href: '/blog/new-decorating-website-bath', label: 'New Decorating: No Web Presence to Top 8 on Google Maps in a Week' },
-  { href: '/blog/no-web-presence-to-google-maps-week', label: 'From No Web Presence to Top 8 on Google Maps in a Week' },
   { href: '/blog/website-design-bath', label: 'Website Design Bath' },
   { href: '/blog/website-designer-bath-banes', label: 'Website Designer Bath & North East Somerset' },
   { href: '/blog/website-design-keynsham', label: 'Website Design Keynsham' },
+  { href: '/blog/how-we-build-websites-keynsham', label: 'How We Build Websites in Keynsham' },
+  { href: '/blog/keynsham-gbp-keyword-research', label: 'Google Business Profile Keyword Research Keynsham' },
   { href: '/blog/website-design-bitton-keynsham', label: 'Website Design Bitton & Keynsham' },
   { href: '/blog/get-found-on-google-keynsham', label: 'Get Found on Google Keynsham' },
   { href: '/blog/website-design-radstock', label: 'Website Design Radstock' },
@@ -53,6 +57,8 @@ export const BLOG_LINKS = [
   { href: '/blog/one-page-website-bath-banes', label: 'One-Page Website Bath & North East Somerset' },
   { href: '/blog/why-speed-matters-for-seo', label: 'Why Speed Matters for SEO' },
   { href: '/blog/how-we-get-you-number-one-google-maps', label: 'How We Get You to Number One on Google Maps' },
+  { href: '/blog/gbp-trades-losing-customers', label: 'Why Trades Lose Customers When They\'re Not on Google' },
+  { href: '/blog/google-business-profile-for-trades', label: 'What is a Google Business Profile and Why Trades Need One' },
 ];
 
 export const CASE_STUDY_SLUGS = [

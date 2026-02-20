@@ -105,6 +105,30 @@ const Navbar = () => {
       description: 'Rural village near Paulton',
       postcodes: 'BA2',
     },
+    { 
+      name: 'Westfield', 
+      slug: 'westfield',
+      description: 'Village near Radstock',
+      postcodes: 'BA3',
+    },
+    { 
+      name: 'Chew Magna', 
+      slug: 'chew-magna',
+      description: 'Village in the Chew Valley',
+      postcodes: 'BS39',
+    },
+    { 
+      name: 'Temple Cloud', 
+      slug: 'temple-cloud',
+      description: 'Village between Bath and Bristol',
+      postcodes: 'BS39',
+    },
+    { 
+      name: 'Clutton', 
+      slug: 'clutton',
+      description: 'Village in the Cam Valley',
+      postcodes: 'BS39',
+    },
   ];
 
   const navLinks = [

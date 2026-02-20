@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import { GOOGLE_MAPS_PLACE_URL, GOOGLE_MAPS_EMBED_SRC } from '../constants/business';
 
 const About = () => {
   const values = [
@@ -46,29 +47,29 @@ const About = () => {
 
   const reasons = [
     {
-      title: 'We Specialise in Local',
-      description: 'Big agencies chase big contracts. We focus exclusively on local businesses in Bath and North East Somerset — it\'s all we do, and we do it better than anyone.',
+      title: 'Website Design Is What We Do',
+      description: 'We build websites for trades and local businesses in Bath and North East Somerset — fast, mobile-friendly, from one-page sites to full multi-page. It\'s our main service, and we\'re built for it.',
+    },
+    {
+      title: 'SEO & GBP So Your Site Gets Found',
+      description: 'A site that nobody finds isn\'t enough. We offer local SEO and Google Business Profile as add-ons (and as standalone services) so your site shows up on Google and in the map pack when people search.',
     },
     {
       title: 'We Speak Your Language',
-      description: 'No confusing tech talk. We explain everything in plain English so you always know what\'s happening with your marketing.',
-    },
-    {
-      title: 'We\'re Accountable',
-      description: 'Monthly reports, regular check-ins, and real metrics that matter. You\'ll always know exactly what you\'re getting for your investment.',
+      description: 'No confusing tech talk. We explain everything in plain English so you know what we\'re building and how we\'re helping you get found.',
     },
     {
       title: 'We Get Results',
-      description: 'We focus on what matters: getting you found on Google and in the map pack. See our Client Spotlight for a real example of what we\'ve achieved for a local business.',
+      description: 'We focus on what matters: a site that works and a presence on Google that brings in enquiries. See our case studies for real examples of what we\'ve done for local businesses.',
     },
   ];
 
   return (
     <>
       <SEO
-        title="About Us - Local SEO Agency in Bath"
-        description="Bath-based SEO agency for tradespeople and local businesses in Bath and North East Somerset. Our story, values, and why local businesses trust us. Get your free audit."
-        keywords="SEO agency Bath, about SEO Kings, digital marketing Bath, local SEO company Bath and North East Somerset, Bath marketing agency, SEO experts Somerset"
+        title="About Us - Website Design for Bath & North East Somerset"
+        description="We build websites for trades and local businesses in Bath and North East Somerset. SEO and Google Business Profile are add-ons we provide so your site gets found. Our story and why local businesses trust us."
+        keywords="website design Bath, about SEO Kings, web design Bath and North East Somerset, website designer Bath, local SEO add-on, sites that get found"
         canonical="/about"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -88,12 +89,13 @@ const About = () => {
                 About SEO Kings
               </span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                Helping Local Businesses
-                <span className="gradient-text"> Win Online</span>
+                We Build Websites That
+                <span className="gradient-text"> Get Found</span>
               </h1>
               <p className="text-xl text-gray-400 leading-relaxed">
-                We're a Bath-based digital marketing agency dedicated to helping tradespeople 
-                and small businesses in Bath and North East Somerset get found on Google and grow their customer base.
+                We're a Bath-based website design company for tradespeople and local businesses 
+                in Bath and North East Somerset. We build fast, clear sites — and we offer SEO and 
+                Google Business Profile as add-ons so your site is found on Google.
               </p>
             </div>
             <div className="relative hidden lg:block">
@@ -102,7 +104,7 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80"
                 srcSet="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80 600w"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                alt="SEO Kings local SEO and digital marketing for Bath and North East Somerset businesses"
+                alt="SEO Kings website design and SEO for Bath and North East Somerset businesses"
                 width={600}
                 height={450}
                 fetchPriority="high"
@@ -122,26 +124,29 @@ const About = () => {
                 Our Story
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                Born From Frustration With the Industry
+                Website Design First — SEO So You Get Found
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  We started SEO Kings after seeing too many local businesses get burned by 
-                  marketing agencies. Tradespeople paying hundreds a month for "SEO services" 
-                  with nothing to show for it. Confusing reports full of jargon. Agencies that 
-                  disappeared after cashing the cheque.
+                  We started SEO Kings to build websites for trades and local businesses in Bath 
+                  and North East Somerset — sites that look professional, load fast and work on phones. 
+                  But a great-looking site is no use if nobody finds it. So we offer SEO and Google 
+                  Business Profile as add-ons and as standalone services to make sure your site 
+                  gets found on Google and in the map pack.
                 </p>
                 <p>
-                  We knew there had to be a better way. So we built an agency that does things 
-                  differently — one focused exclusively on local businesses right here in Bath 
-                  and North East Somerset.
+                  Our main service is website design: from one-page sites from £399 to full 
+                  multi-page sites. Every site we build is set up for local search. On top of that, 
+                  we provide local SEO and GBP optimisation so your business shows up when people 
+                  search for your trade in your area.
                 </p>
                 <p>
-                  Today we work with local businesses across Bath and North East Somerset — plumbers, electricians, 
-                  cleaners, builders and more. We've seen what works (and what doesn't) in this market.
+                  Today we work with plumbers, electricians, cleaners, builders and other local 
+                  businesses across Bath, Keynsham, Midsomer Norton, Radstock and the wider area. 
+                  We've seen what works: a clear website plus a proper Google presence.
                 </p>
                 <p className="text-white font-medium">
-                  Our mission is simple: help local businesses get found by local customers.
+                  Our mission: build websites that work, and provide the SEO and GBP support so they get found.
                 </p>
               </div>
             </div>
@@ -152,7 +157,7 @@ const About = () => {
               <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=500&h=400&fit=crop&auto=format&q=80"
-                  alt="SEO Kings planning digital marketing strategy and local SEO campaign for Bath businesses"
+                  alt="SEO Kings website design and SEO for Bath and North East Somerset businesses"
                   width={500}
                   height={400}
                   loading="lazy"
@@ -168,11 +173,11 @@ const About = () => {
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Focus</span> — Local SEO & web design</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Focus</span> — Website design & SEO so you get found</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Today</span> — Helping local businesses get found on Google</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Today</span> — Websites for trades + SEO & GBP add-ons</span>
                     </div>
                   </div>
                 </div>
@@ -224,7 +229,7 @@ const About = () => {
                 Why Choose Us
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
-                We're Not Like Other Agencies
+                Why Choose Us for Your Website
               </h2>
               
               <div className="space-y-6">
@@ -262,19 +267,16 @@ const About = () => {
               </div>
 
               <blockquote className="text-lg text-gray-300 leading-relaxed mb-6">
-                "I've worked with 3 different marketing agencies before finding SEO Kings. 
-                The difference is night and day. They actually explain what they're doing, 
-                they deliver on their promises, and my phone hasn't stopped ringing since 
-                we started working together."
+                "We had no website and no Google listing, so when people searched for a painter and decorator in Bath we simply didn't show up. SEO Kings built us a proper website and sorted our Google Business Profile so everything works together. Within a week we were in the top results on Google Maps and ranking for the right searches. No jargon, no messing about — they just got it done. Really pleased with the result and would recommend them to any trade in Bath or BANES."
               </blockquote>
 
               <div className="flex items-center gap-4 pt-6 border-t border-white/10">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary/50 to-secondary/50 flex items-center justify-center text-white font-bold">
-                  DM
+                  J
                 </div>
                 <div>
-                  <div className="font-semibold text-white">Dave Mitchell</div>
-                  <div className="text-sm text-gray-500">Mitchell Plumbing, Bath</div>
+                  <div className="font-semibold text-white">Jay</div>
+                  <div className="text-sm text-gray-500">New Decorating, Painter & Decorator, Bath & BANES</div>
                 </div>
               </div>
             </div>
@@ -293,8 +295,8 @@ const About = () => {
               Proudly Serving Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We're not a faceless agency in London. We're based right here in Bath, 
-              and we only work with businesses in our local area.
+              We're not a faceless agency in London. We're based in Bath, we build websites 
+              for local businesses here, and we offer SEO and GBP so those sites get found.
             </p>
           </div>
 
@@ -334,6 +336,31 @@ const About = () => {
               {' '}or{' '}
               <Link href="/contact" className="text-primary-light hover:text-white transition-colors">get in touch</Link> if you don't see yours.
             </p>
+          </div>
+
+          {/* Google Maps embed */}
+          <div className="mt-16">
+            <h3 className="text-xl font-bold text-white mb-2 text-center">Find us on Google Maps</h3>
+            <p className="text-gray-400 mb-6 text-center max-w-xl mx-auto">
+              We're based in Bath. Visit our{' '}
+              <a href={GOOGLE_MAPS_PLACE_URL} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
+                Google Maps listing
+              </a>
+              {' '}for directions or to leave a review.
+            </p>
+            <div className="rounded-2xl overflow-hidden border border-white/10 aspect-video max-h-[350px] bg-dark-card">
+              <iframe
+                src={GOOGLE_MAPS_EMBED_SRC}
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: 350 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="SEO Kings on Google Maps"
+                className="w-full h-full min-h-[280px]"
+              />
+            </div>
           </div>
         </div>
       </section>

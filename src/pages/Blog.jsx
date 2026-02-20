@@ -1,22 +1,24 @@
-import React from 'react';
+'use client';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 
+const BLOG_SERVICES = [
+  { id: 'all', label: 'All' },
+  { id: 'web-design', label: 'Website Design' },
+  { id: 'local-seo', label: 'Local SEO' },
+  { id: 'gbp', label: 'Google Business Profile' },
+];
+
 const posts = [
-  {
-    slug: 'no-web-presence-to-google-maps-week',
-    title: 'From No Web Presence to Top 8 on Google Maps in a Week: How We Did It for New Decorating',
-    excerpt: 'New Decorating had no website and no Google listing. We built both — within a week Jay was ranking for long-tail keywords and in the top 8 on Google Maps. Here\'s how our website and GBP services work together.',
-    date: '2026-02-20',
-    readTime: '5 min read',
-  },
   {
     slug: 'new-decorating-website-bath',
     title: 'New Decorating: From No Web Presence to Top 8 on Google Maps in a Week',
     excerpt: 'Jay at New Decorating had no web presence. We built his website and optimised his Google Business Profile — within a week he was ranking for long-tail keywords and in the top 8 on Google Maps.',
     date: '2026-02-19',
     readTime: '4 min read',
+    services: ['web-design', 'gbp'],
   },
   {
     slug: 'how-we-get-you-number-one-google-maps',
@@ -24,6 +26,23 @@ const posts = [
     excerpt: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here’s how we help you get into that top spot — in plain English.',
     date: '2026-02-09',
     readTime: '5 min read',
+    services: ['gbp', 'local-seo'],
+  },
+  {
+    slug: 'gbp-trades-losing-customers',
+    title: 'Why Trades Lose Customers When They\'re Not on Google',
+    excerpt: 'Plumbers, electricians and trades lose jobs every day because they\'re not in the map pack or don\'t have a proper Google Business Profile. Here\'s how to stop losing customers to competitors.',
+    date: '2026-02-21',
+    readTime: '5 min read',
+    services: ['gbp', 'local-seo'],
+  },
+  {
+    slug: 'google-business-profile-for-trades',
+    title: 'What is a Google Business Profile and Why Trades Need One',
+    excerpt: 'Your Google Business Profile is how you show up on Google Maps and in the map pack when people search for plumbers, electricians and trades. Here\'s what it is and why it matters.',
+    date: '2026-02-22',
+    readTime: '4 min read',
+    services: ['gbp'],
   },
   {
     slug: 'free-seo-audit-what-we-check',
@@ -31,6 +50,7 @@ const posts = [
     excerpt: 'A clear breakdown of what we look at in your free audit: GBP, website, citations, and how we turn that into a plan.',
     date: '2026-02-05',
     readTime: '5 min read',
+    services: ['local-seo'],
   },
   {
     slug: 'get-more-google-reviews-bath',
@@ -38,6 +58,7 @@ const posts = [
     excerpt: 'Practical ways to ask for reviews, when to ask, and how to respond — so you build trust and stay within Google’s guidelines.',
     date: '2026-02-05',
     readTime: '4 min read',
+    services: ['gbp'],
   },
   {
     slug: 'local-seo-bath',
@@ -45,6 +66,7 @@ const posts = [
     excerpt: 'What it takes to show up in the local map results for Bath and North East Somerset: GBP, website, and consistency.',
     date: '2026-02-05',
     readTime: '5 min read',
+    services: ['local-seo'],
   },
   {
     slug: 'seo-for-plumbers-bath',
@@ -52,6 +74,7 @@ const posts = [
     excerpt: 'How plumbers in Bath and the surrounding area can get found for “plumber near me”, boiler repairs, and emergency calls.',
     date: '2026-02-05',
     readTime: '5 min read',
+    services: ['local-seo'],
   },
   {
     slug: 'what-is-local-seo-bath',
@@ -59,6 +82,7 @@ const posts = [
     excerpt: 'Local SEO gets you in front of people searching “near me” and in the map pack. Here’s how it works and why it matters.',
     date: '2026-02-05',
     readTime: '4 min read',
+    services: ['local-seo'],
   },
   {
     slug: 'beautiful-websites-that-rank',
@@ -66,6 +90,7 @@ const posts = [
     excerpt: 'We build sites that look great, load fast, and score 95+ on Lighthouse — so they rank better and convert more.',
     date: '2026-02-05',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'website-design-midsomer-norton-peachy-cleans',
@@ -73,6 +98,7 @@ const posts = [
     excerpt: 'How we built a fast, simple website for Peachy Cleans in Midsomer Norton — and got them to #1 on Google and the map pack. Web design for local businesses in the Somer Valley.',
     date: '2026-02-08',
     readTime: '5 min read',
+    services: ['web-design', 'local-seo'],
   },
   {
     slug: 'website-design-bath',
@@ -80,6 +106,7 @@ const posts = [
     excerpt: 'Fast, mobile-friendly websites for Bath businesses — from one-page sites to full multi-page. Built for local search so you get found on Google and in the map pack.',
     date: '2026-02-08',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'website-design-keynsham',
@@ -87,6 +114,23 @@ const posts = [
     excerpt: 'Web design for Keynsham and BS31 — fast sites that rank. We build for trades and local services so you get found on Google and convert more visitors into customers.',
     date: '2026-02-08',
     readTime: '4 min read',
+    services: ['web-design'],
+  },
+  {
+    slug: 'how-we-build-websites-keynsham',
+    title: 'How We Build Websites in Keynsham: From Keyword Research to Launch',
+    excerpt: 'Our process for Keynsham and BS31: initial keyword research, site structure, content and design, then launch. So your site gets found when local customers search.',
+    date: '2026-02-19',
+    readTime: '5 min read',
+    services: ['web-design'],
+  },
+  {
+    slug: 'keynsham-gbp-keyword-research',
+    title: 'Google Business Profile Keyword Research for Keynsham & BS31',
+    excerpt: 'How to do keyword research for your Google Business Profile in Keynsham and BS31. Find the right phrases for your category, services and description so you show up in the map pack.',
+    date: '2026-02-20',
+    readTime: '5 min read',
+    services: ['gbp', 'local-seo'],
   },
   {
     slug: 'website-design-bitton-keynsham',
@@ -94,6 +138,7 @@ const posts = [
     excerpt: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'get-found-on-google-keynsham',
@@ -101,6 +146,7 @@ const posts = [
     excerpt: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
+    services: ['web-design', 'local-seo'],
   },
   {
     slug: 'website-design-radstock',
@@ -108,6 +154,7 @@ const posts = [
     excerpt: 'Web design for Radstock and the Somer Valley — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'website-design-peasedown-st-john',
@@ -115,6 +162,7 @@ const posts = [
     excerpt: 'Web design for Peasedown St John and south of Bath — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
     date: '2026-02-21',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'website-design-somer-valley',
@@ -122,6 +170,7 @@ const posts = [
     excerpt: 'Web design for the Somer Valley — Radstock, Midsomer Norton, Paulton and nearby. Fast, mobile-friendly websites for trades and local businesses.',
     date: '2026-02-21',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'website-design-trowbridge',
@@ -129,6 +178,7 @@ const posts = [
     excerpt: 'Web design for Trowbridge and Wiltshire — fast sites for trades and local businesses. Built for local search so you get found on Google and in the map pack.',
     date: '2026-02-08',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'one-page-website-bath-banes',
@@ -136,6 +186,7 @@ const posts = [
     excerpt: 'Affordable one-page website design for Bath and North East Somerset — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
+    services: ['web-design'],
   },
   {
     slug: 'why-speed-matters-for-seo',
@@ -143,10 +194,20 @@ const posts = [
     excerpt: 'Page speed is a ranking factor and affects user experience. Here\'s why fast websites rank better on Google and what you can do about it.',
     date: '2026-02-08',
     readTime: '5 min read',
+    services: ['web-design', 'local-seo'],
   },
 ];
 
 const Blog = () => {
+  const [activeService, setActiveService] = useState('all');
+
+  const filteredPosts = useMemo(() => {
+    const list = activeService === 'all'
+      ? posts
+      : posts.filter((post) => post.services && post.services.includes(activeService));
+    return [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
+  }, [activeService]);
+
   return (
     <>
       <SEO
@@ -177,13 +238,34 @@ const Blog = () => {
         </div>
       </section>
 
+      {/* Service filters */}
+      <section className="py-6 border-b border-white/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-sm text-gray-500 mb-3">Filter by service</p>
+          <div className="flex flex-wrap gap-2">
+            {BLOG_SERVICES.map((service) => (
+              <button
+                key={service.id}
+                type="button"
+                onClick={() => setActiveService(service.id)}
+                className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
+                  activeService === service.id
+                    ? 'bg-primary text-white'
+                    : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 border border-white/10'
+                }`}
+              >
+                {service.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Posts */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
-            {[...posts]
-              .sort((a, b) => new Date(b.date) - new Date(a.date))
-              .map((post) => (
+            {filteredPosts.map((post) => (
               <article
                 key={post.slug}
                 className="bg-dark-card border border-white/5 rounded-2xl p-6 sm:p-8 hover:border-primary/20 transition-colors"
