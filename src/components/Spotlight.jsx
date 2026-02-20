@@ -173,7 +173,7 @@ const Spotlight = ({ variant = 'summary' }) => {
                 </div>
               </div>
               <div className="px-4 py-4 sm:px-6 sm:py-5 border-t border-white/5">
-                <p className="text-sm font-semibold text-primary">{mainImage.label}</p>
+                <p className="text-sm font-semibold text-primary-light">{mainImage.label}</p>
                 <p className="mt-1 text-sm text-gray-400">{mainImage.description}</p>
               </div>
             </div>
