@@ -163,15 +163,15 @@ const AreaDetail = ({ params: staticParams }) => {
         { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
       ],
       testimonial: {
-        label: 'Real Results in Keynsham',
-        caseTitle: 'Keynsham Electrics (BS31)',
-        resultSummary: 'Not ranking → Top 3 on Google',
-        result: '+52 Calls per month',
-        timeframe: '3 months',
-        quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.",
-        name: 'Sarah Thompson',
-        business: 'Thompson Electrical',
-        businessDisplay: 'Thompson Electrical • Keynsham',
+        label: 'Keynsham & BANES Result',
+        caseTitle: 'New Decorating, Bath & BANES',
+        resultSummary: 'No website → Top 8 on Google Maps',
+        result: 'Within a week',
+        timeframe: '1 week',
+        quote: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.",
+        name: 'Jay',
+        business: 'New Decorating',
+        businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES',
       },
       howItWorks: [
         { title: 'Free Audit', description: 'We check your Google rankings, site, and Google Business Profile. We spot what\'s holding you back in Keynsham searches.' },
@@ -1509,7 +1509,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Custom plan', description: 'Tailored for Bitton and Keynsham.' },
         { title: 'Results', description: 'Monthly updates. More leads.' },
       ],
-      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+      testimonial: { label: 'Keynsham & BANES Result', caseTitle: 'New Decorating, Bath & BANES', result: 'Within a week', quote: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.", name: 'Jay', business: 'New Decorating', businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES' },
     },
     'hanham-keynsham': {
       name: 'Hanham',
@@ -1575,7 +1575,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Custom plan', description: 'Tailored for Hanham and Keynsham.' },
         { title: 'Results', description: 'Monthly updates. More leads.' },
       ],
-      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+      testimonial: { label: 'Keynsham & BANES Result', caseTitle: 'New Decorating, Bath & BANES', result: 'Within a week', quote: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.", name: 'Jay', business: 'New Decorating', businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES' },
     },
     'oldland-keynsham': {
       name: 'Oldland',
@@ -1641,7 +1641,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Custom plan', description: 'Tailored for Oldland and Keynsham.' },
         { title: 'Results', description: 'Monthly updates. More leads.' },
       ],
-      testimonial: { label: 'Real Results in Keynsham', caseTitle: 'Keynsham Electrics (BS31)', result: '+52 Calls per month', quote: "Within 3 months I was on the first page of Google. Brilliant service. They explained everything in plain English.", name: 'Sarah Thompson', business: 'Thompson Electrical', businessDisplay: 'Thompson Electrical • Keynsham' },
+      testimonial: { label: 'Keynsham & BANES Result', caseTitle: 'New Decorating, Bath & BANES', result: 'Within a week', quote: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.", name: 'Jay', business: 'New Decorating', businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES' },
     },
 
     // Sub-areas: Midsomer Norton
