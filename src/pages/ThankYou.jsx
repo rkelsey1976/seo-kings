@@ -63,7 +63,7 @@ const ThankYou = () => {
                   <span className="text-primary-light font-bold text-sm">2</span>
                 </div>
                 <div>
-                  <h3 className="text-white font-medium">Free SEO Audit</h3>
+                  <h3 className="text-white font-medium">Free Website Quote</h3>
                   <p className="text-sm text-gray-400">We'll prepare a personalised audit showing opportunities for your business.</p>
                 </div>
               </div>

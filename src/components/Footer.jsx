@@ -10,7 +10,7 @@ const Footer = () => {
     { name: 'Web Design Packages', href: '/web-design-packages' },
     { name: 'Local SEO', href: '/local-seo' },
     { name: 'Google Business Profile', href: '/google-business-profile' },
-    { name: 'Free SEO Audit', href: '/contact' },
+    { name: 'Free Website Quote', href: '/contact' },
   ];
 
   const areas = [

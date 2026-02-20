@@ -109,8 +109,8 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title="Contact Us - Get Your Free SEO Audit"
-        description="Contact SEO Kings for a free SEO audit. We help Bath & North East Somerset businesses dominate Google. Call or use our contact form."
+        title="Contact Us – Free Website Quote | SEO Kings"
+        description="Contact SEO Kings for a free website quote. Website design from £399 plus local SEO so Bath & North East Somerset businesses get found on Google. Call or use our form."
         keywords="contact SEO Kings, free SEO audit Bath, SEO consultation Bath and North East Somerset, local SEO quote, website design quote Bath"
         canonical="/contact"
         breadcrumbs={[
@@ -134,8 +134,8 @@ const Contact = () => {
               <span className="gradient-text"> Business Together</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed">
-              Ready to dominate local search? Get your free SEO audit and discover 
-              exactly what's holding your business back online.
+              Need a new website or want to get found on Google? Get a free website quote — 
+              we'll check your current setup and tell you how we can help.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-white mb-4">Why Contact Us?</h3>
                 <ul className="space-y-3">
                   {[
-                    'Free, no-obligation SEO audit',
+                    'Free website quote, no obligation',
                     'Plain English, no jargon',
                     'Local team who understand Bath and North East Somerset',
                     'Proven results with 150+ businesses',
@@ -205,10 +205,10 @@ const Contact = () => {
             <div className="lg:col-span-3">
               <div className="bg-dark-card border border-white/5 rounded-2xl p-8">
                 <h2 className="text-2xl font-bold text-white mb-2">
-                  Get Your Free SEO Audit
+                  Get a Free Website Quote
                 </h2>
                 <p className="text-gray-400 mb-8">
-                  Fill out the form below and we'll analyse your online presence for free.
+                  Tell us about your business and we'll send a free, no-obligation quote for your website and SEO.
                 </p>
 
                     <form 

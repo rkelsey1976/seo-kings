@@ -123,7 +123,7 @@ const LocalSEO = () => {
         highlight="Bath & North East Somerset"
         description="Many of our clients use Local SEO to expand on the website we already built for them — more traffic, more calls, same site. Rank higher on Google for the searches that matter."
         features={heroFeatures}
-        ctaText="Get Your Free SEO Audit"
+        ctaText="Get a Free Website Quote"
       />
 
       {/* Expand on your website – simple one-liner */}
