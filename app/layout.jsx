@@ -16,7 +16,7 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://seo-kings.co.uk'),
   title: {
-    default: 'SEO Kings | Get Found on Google – Website & Google Listing for Bath & North East Somerset',
+    default: 'Website Design & SEO in Keynsham | Get Found on Google – SEO Kings',
     template: '%s | SEO Kings',
   },
   description: 'We help tradespeople and small businesses in Bath & North East Somerset get found on Google. Website design, Google Business Profile, getting you on the map. Free check.',

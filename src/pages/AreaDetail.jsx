@@ -2268,31 +2268,72 @@ const AreaDetail = ({ params: staticParams }) => {
     ]
   };
 
-  const serviceSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Local SEO Services",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "SEO Kings",
-      "telephone": "07702 264 921"
-    },
-    "areaServed": {
-      "@type": "City",
+  // areaServed for this area: place + optional postcodes
+  const areaServed = [
+    {
+      "@type": "Place",
       "name": area.name,
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": "Bath and North East Somerset"
+        "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")
       }
     },
-    "description": `Professional local SEO services for businesses in ${area.name}. We help local tradespeople and businesses rank higher on Google.`,
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {
-        "@type": "PriceSpecification",
-        "priceCurrency": "GBP"
-      }
+    ...(Array.isArray(area.postcodes) ? area.postcodes.map((pc) => ({ "@type": "PostalCode", "name": pc, "addressCountry": "GB" })) : [])
+  ].filter(Boolean);
+
+  const serviceWebsiteDesignSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${siteUrl}/#service-website-design-${slug}`,
+    "name": `Website Design in ${area.name}`,
+    "description": `Professional website design for businesses in ${area.name}. Fast, mobile-friendly sites from £399 with SEO and Google Business Profile optimisation. Get found on Google in ${area.name}.`,
+    "serviceType": "Website Design",
+    "provider": { "@id": `${siteUrl}/#localbusiness` },
+    "areaServed": areaServed,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Website Design Packages",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "GBP",
+            "minPrice": 399,
+            "valueAddedTaxIncluded": true
+          },
+          "url": `${siteUrl}/web-design`
+        }
+      ]
+    }
+  };
+
+  const serviceLocalSEOSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${siteUrl}/#service-local-seo-${slug}`,
+    "name": `Local SEO in ${area.name}`,
+    "description": `Local SEO for ${area.name} businesses. Rank higher in Google for local searches: on-page optimisation, Google Business Profile, local links and monthly reporting. Get found when customers search in ${area.name}.`,
+    "serviceType": "Local SEO",
+    "provider": { "@id": `${siteUrl}/#localbusiness` },
+    "areaServed": areaServed,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Local SEO Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "GBP",
+            "price": "From monthly packages",
+            "valueAddedTaxIncluded": true
+          },
+          "url": `${siteUrl}/local-seo`
+        }
+      ]
     }
   };
 
@@ -2335,7 +2376,7 @@ const AreaDetail = ({ params: staticParams }) => {
         keywords={`website design ${area.name}, website designer ${area.name}, web design ${area.name}, SEO ${area.name}, local SEO ${area.name}, Google Business Profile ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, SEO add-ons ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
-        schemas={[breadcrumbSchema, serviceSchema, faqSchema]}
+        schemas={[breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, faqSchema]}
       />
 
       {/* Hero Section */}

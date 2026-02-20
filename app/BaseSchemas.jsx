@@ -27,12 +27,21 @@ const websiteSchema = {
   inLanguage: 'en-GB',
 };
 
+// Keynsham / BS31 geo (town centre approx)
+const keynshamGeo = { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 };
+
+const keynshamAreaServed = [
+  { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
+  { '@type': 'PostalCode', name: 'BS31', addressCountry: 'GB' },
+  { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
+];
+
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'ProfessionalService'],
   '@id': `${siteUrl}/#localbusiness`,
   name: 'SEO Kings',
-  description: 'Bath-based website design and local SEO agency. We build fast websites and get tradespeople and small businesses in BANES found on Google. Website design from £399, GBP and local SEO.',
+  description: 'Website design and local SEO in Keynsham and BS31. We build fast websites and get tradespeople and small businesses in Keynsham, Bitton and the surrounding area found on Google. Website design from £399, local SEO and Google Business Profile.',
   url: siteUrl,
   telephone: '+447702264921',
   image: `${siteUrl}/og-image.jpg`,
@@ -44,20 +53,125 @@ const localBusinessSchema = {
   geo: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 },
   areaServed: [
     { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
+    { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
+    { '@type': 'PostalCode', name: 'BS31', addressCountry: 'GB' },
     { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
   ],
-  serviceArea: { '@type': 'GeoCircle', geoMidpoint: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 }, geoRadius: '20000' },
+  serviceArea: [
+    { '@type': 'GeoCircle', geoMidpoint: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 }, geoRadius: '20000' },
+    { '@type': 'GeoCircle', geoMidpoint: keynshamGeo, geoRadius: '10000' },
+  ],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'SEO Services',
+    name: 'Website Design & Local SEO in Keynsham',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Local SEO', description: 'Improve your rankings in local search results' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Website Design', description: 'Professional websites built to convert visitors into customers' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Google Business Profile Management', description: 'Optimise and manage your Google Business Profile' } },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Website Design',
+          description: 'Professional website design for Keynsham and BS31 businesses. Mobile-first, fast-loading sites built for local search. One-page sites from £399 with Google Business Profile optimisation included.',
+          areaServed: keynshamAreaServed,
+        },
+        areaServed: keynshamAreaServed,
+        availability: 'https://schema.org/InStock',
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          priceCurrency: 'GBP',
+          minPrice: 399,
+          valueAddedTaxIncluded: true,
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Local SEO',
+          description: 'Local SEO for Keynsham and BS31. Get found on Google for searches like "plumber Keynsham", "electrician BS31". On-page optimisation, Google Business Profile, local links and ongoing support.',
+          areaServed: keynshamAreaServed,
+        },
+        areaServed: keynshamAreaServed,
+        availability: 'https://schema.org/InStock',
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          priceCurrency: 'GBP',
+          price: 'From monthly packages',
+          valueAddedTaxIncluded: true,
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Google Business Profile Management',
+          description: 'Optimise and manage your Google Business Profile so you appear in local search and Google Maps in Keynsham and BS31.',
+          areaServed: keynshamAreaServed,
+        },
+        areaServed: keynshamAreaServed,
+        availability: 'https://schema.org/InStock',
+      },
     ],
   },
   openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '09:00', closes: '17:30' }],
   sameAs: ['https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
+};
+
+// Service schema: Website Design in Keynsham/BS31
+const serviceWebsiteDesignSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${siteUrl}/#service-website-design-keynsham`,
+  name: 'Website Design in Keynsham & BS31',
+  description: 'Professional website design for businesses in Keynsham and the BS31 area. Fast, mobile-friendly sites from £399 with SEO and Google Business Profile optimisation. Get found on Google in Keynsham.',
+  serviceType: 'Website Design',
+  provider: { '@id': `${siteUrl}/#localbusiness` },
+  areaServed: keynshamAreaServed,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Website Design Packages',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          priceCurrency: 'GBP',
+          minPrice: 399,
+          valueAddedTaxIncluded: true,
+        },
+        url: `${siteUrl}/web-design`,
+      },
+    ],
+  },
+};
+
+// Service schema: Local SEO in Keynsham/BS31
+const serviceLocalSEOSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${siteUrl}/#service-local-seo-keynsham`,
+  name: 'Local SEO in Keynsham & BS31',
+  description: 'Local SEO for Keynsham and BS31 businesses. Rank higher in Google for local searches: on-page optimisation, Google Business Profile, local links and monthly reporting. Get found when customers search in Keynsham.',
+  serviceType: 'Local SEO',
+  provider: { '@id': `${siteUrl}/#localbusiness` },
+  areaServed: keynshamAreaServed,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Local SEO Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          priceCurrency: 'GBP',
+          price: 'From monthly packages',
+          valueAddedTaxIncluded: true,
+        },
+        url: `${siteUrl}/local-seo`,
+      },
+    ],
+  },
 };
 
 export default function BaseSchemas() {
@@ -66,6 +180,8 @@ export default function BaseSchemas() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceWebsiteDesignSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceLocalSEOSchema) }} />
     </>
   );
 }

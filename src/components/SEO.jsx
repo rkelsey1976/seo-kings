@@ -1,8 +1,19 @@
 'use client';
 import React from 'react';
 
-// SEO meta is now handled by Next.js metadata in each app route (app/*/page.jsx).
-// This component is a no-op so pages that still import it don't break.
-const SEO = () => null;
-
-export default SEO;
+// SEO meta (title, description) is handled by Next.js metadata in each app route.
+// This component outputs JSON-LD schemas when the schemas prop is provided.
+export default function SEO({ schemas }) {
+  if (!schemas || !Array.isArray(schemas) || schemas.length === 0) return null;
+  return (
+    <>
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+    </>
+  );
+}
