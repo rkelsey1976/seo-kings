@@ -41,7 +41,7 @@ const localBusinessSchema = {
   '@type': ['LocalBusiness', 'ProfessionalService'],
   '@id': `${siteUrl}/#localbusiness`,
   name: 'SEO Kings',
-  description: 'Website design and local SEO in Keynsham and BS31. We build fast websites and get tradespeople and small businesses in Keynsham, Bitton and the surrounding area found on Google. Website design from £399, local SEO and Google Business Profile.',
+  description: 'Website design and local SEO in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website design from £399, local SEO and Google Business Profile.',
   url: siteUrl,
   telephone: '+447702264921',
   image: `${siteUrl}/og-image.jpg`,
@@ -63,7 +63,7 @@ const localBusinessSchema = {
   ],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'Website Design & Local SEO in Keynsham',
+    name: 'Website Design & Local SEO in Bath & BANES',
     itemListElement: [
       {
         '@type': 'Offer',
