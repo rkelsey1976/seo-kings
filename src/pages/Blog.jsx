@@ -14,7 +14,7 @@ const BLOG_SERVICES = [
 const posts = [
   {
     slug: 'new-decorating-website-bath',
-    title: 'New Decorating: From No Web Presence to Top 8 on Google Maps in a Week',
+    title: 'New Decorating Bath: From No Web Presence to Top 8 on Google Maps in a Week',
     excerpt: 'Jay at New Decorating had no web presence. We built his website and optimised his Google Business Profile — within a week he was ranking for long-tail keywords and in the top 8 on Google Maps.',
     date: '2026-02-19',
     readTime: '4 min read',
@@ -54,7 +54,7 @@ const posts = [
   },
   {
     slug: 'get-more-google-reviews-bath',
-    title: 'How to Get More Google Reviews (Without Breaking the Rules)',
+    title: 'How to Get More Google Reviews in Bath (Without Breaking the Rules)',
     excerpt: 'Practical ways to ask for reviews, when to ask, and how to respond — so you build trust and stay within Google’s guidelines.',
     date: '2026-02-05',
     readTime: '4 min read',
@@ -158,8 +158,8 @@ const posts = [
   },
   {
     slug: 'website-design-peasedown-st-john',
-    title: 'Website Design in Peasedown St John: What We Build for Local Businesses',
-    excerpt: 'Web design for Peasedown St John and south of Bath — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
+    title: 'Website Design in Peasedown St John, Bath & North East Somerset: What We Build for Local Businesses',
+    excerpt: 'Web design for Peasedown St John and south of Bath (BANES) — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google.',
     date: '2026-02-21',
     readTime: '4 min read',
     services: ['web-design'],
