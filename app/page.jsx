@@ -9,7 +9,7 @@ const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: tr
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
 
 export const metadata = {
-  title: 'Get Found on Google Bath & North East Somerset | Website & Google Listing for Trades – SEO Kings',
+  title: 'Website Designer Bath & North East Somerset | Get Found on Google',
   description: 'Website designer Bath & North East Somerset — we help trades get found on Google. Website design from £399, Google Business Profile, and getting you on the map. Plumbers, electricians, builders. Free check today.',
   keywords: 'website designer Bath, website design Bath, get found on Google Bath, Google Business Profile Bath, Google listing Bath, website for plumbers electricians Bath, get on Google Maps Bath and North East Somerset, website designer Bath and North East Somerset',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
