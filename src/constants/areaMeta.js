@@ -72,6 +72,22 @@ export const AREA_META = {
     metaTitle: 'Website design Twerton Bath | Website Designer & SEO Add-ons – SEO Kings',
     metaDescription: 'Website design in Twerton, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
   },
+  'weston-bath': {
+    metaTitle: 'Website design Weston Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Weston, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'oldfield-park-bath': {
+    metaTitle: 'Website design Oldfield Park Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Oldfield Park, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'bear-flat-bath': {
+    metaTitle: 'Website design Bear Flat Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Bear Flat, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'bathampton-bath': {
+    metaTitle: 'Website design Bathampton Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Bathampton, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
   'bitton-keynsham': {
     metaTitle: 'Website design Bitton Keynsham | Website Designer & SEO Add-ons – SEO Kings',
     metaDescription: 'Website design in Bitton, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
@@ -83,6 +99,14 @@ export const AREA_META = {
   'oldland-keynsham': {
     metaTitle: 'Website design Oldland Keynsham | Website Designer & SEO Add-ons – SEO Kings',
     metaDescription: 'Website design in Oldland, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'longwell-green-keynsham': {
+    metaTitle: 'Website design Longwell Green Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Longwell Green, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'warmley-keynsham': {
+    metaTitle: 'Website design Warmley Keynsham | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Warmley, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
   },
   'clandon-midsomer-norton': {
     metaTitle: 'Website design Clandown Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
