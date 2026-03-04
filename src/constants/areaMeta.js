@@ -9,8 +9,8 @@ export const AREA_META = {
     metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
   },
   keynsham: {
-    metaTitle: 'Website design Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-    metaDescription: 'Website design in Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+    metaTitle: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
+    metaDescription: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
   },
   'midsomer-norton': {
     metaTitle: 'Website design Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
@@ -87,6 +87,26 @@ export const AREA_META = {
   'bathampton-bath': {
     metaTitle: 'Website design Bathampton Bath | Website Designer & SEO Add-ons – SEO Kings',
     metaDescription: 'Website design in Bathampton, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'bathwick-bath': {
+    metaTitle: 'Website design Bathwick Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Bathwick, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'southdown-bath': {
+    metaTitle: 'Website design Southdown Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Southdown, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'batheaston-bath': {
+    metaTitle: 'Website design Batheaston Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Batheaston, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'walcot-bath': {
+    metaTitle: 'Website design Walcot Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Walcot, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'bathford-bath': {
+    metaTitle: 'Website design Bathford Bath | Website Designer & SEO Add-ons – SEO Kings',
+    metaDescription: 'Website design in Bathford, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
   },
   'bitton-keynsham': {
     metaTitle: 'Website design Bitton Keynsham | Website Designer & SEO Add-ons – SEO Kings',

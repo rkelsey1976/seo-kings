@@ -546,43 +546,79 @@ const blogPosts = {
   },
   'website-design-keynsham': {
     slug: 'website-design-keynsham',
-    title: 'Website Design in Keynsham: What We Build for Local Businesses',
-    description: 'Web design for Keynsham and BS31 — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google and in the map pack.',
+    title: 'Keynsham Website Designers: Get Found on Google in Bath & North East Somerset',
+    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
     date: '2026-02-08',
-    readTime: '4 min read',
+    readTime: '12 min read',
     author: 'SEO Kings',
-    keywords: 'website design Keynsham, web design Keynsham, website for business Keynsham, local business website BS31, Keynsham website design',
+    keywords: 'website design Keynsham, keynsham website designers, web design Keynsham, Keynsham web designer, local web design Keynsham',
     sections: [
       {
-        heading: 'Why website design in Keynsham matters',
+        heading: 'Keynsham Website Designers: Get Found on Google in Bath & North East Somerset',
         paragraphs: [
-          'Keynsham sits between Bath and Bristol, with strong local search demand for trades and services. When people in Keynsham, Saltford, or BS31 search for a plumber, electrician, or builder, they often use Google and the map pack. A fast, clear website plus a well-optimised Google Business Profile helps you show up there. This post is about what we build for Keynsham businesses and why it works for local search.',
+          'When Dave\'s plumbing business in Keynsham lost a big job to a competitor in early 2024, he found out why: the other firm showed up first on Google when the customer searched "plumber Keynsham." Dave had no website and no Google listing. He was invisible. If you run a trade or local business in Keynsham, Bristol, or Bath and you\'re not on page 1 or in the map pack, you\'re missing calls and jobs every day. This page is for you. We\'re SEO Kings, and we help businesses in Keynsham and across Bath & North East Somerset get a proper website and get found on Google. Below you\'ll find what to expect from website design Keynsham, what it typically costs, how to choose a Keynsham web designer, and what we offer. No jargon, no long contracts.',
+          'Want a free check of your current site and Google listing? Get your free audit at seo-kings.co.uk/contact. No obligation, no card required.',
         ],
       },
       {
-        heading: 'What we build for Keynsham businesses',
+        heading: 'Why Keynsham Businesses Need a Professional Website',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites — every site we build is set up for local search. That means clear location signals for Keynsham and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
-          'For Keynsham and BS31 businesses, that combination — a professional site plus local SEO and GBP work — is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Keynsham and Bath and North East Somerset in mind.',
+          'Customers in Keynsham, Bristol, Bath, and across BANES search Google for local trades and services every day. If you don\'t have a clear, fast website and a Google Business Profile that shows up in the map pack, you\'re handing work to competitors who do.',
+          'A professional website tells people you\'re a real, established business. It lists your services, your area, and how to contact you. For trades and local services, that often means big "Call" or "Get a quote" buttons so mobile users can tap once and ring you. Without a site, or with an old one that looks dated, many people simply move on to the next result.',
+          'When someone searches "electrician Keynsham" or "website design Keynsham," Google shows a mix of organic results and the local map pack (the three businesses with map pins). Getting into that pack, and onto page 1, depends on having a proper website and a well-optimised Google Business Profile. Keynsham website designers who understand local SEO don\'t just build a pretty site; they make sure your GBP is set up and optimised so you show up when it matters.',
+          'Most local searches happen on a phone. Your site has to load quickly and work on mobile. Slow or broken mobile experiences send people straight back to the search results and to your competitors. Good web design Keynsham is mobile-first: fast, simple, and built to turn visitors into calls and enquiries.',
         ],
       },
       {
-        heading: 'Built for local search',
+        heading: 'What to Expect from Website Design in Keynsham',
         paragraphs: [
-          'We make sure your website and Google Business Profile work together. Clear details on where you serve — Keynsham, Saltford, Bath, and the Bristol edge — help you rank for "electrician Keynsham", "plumber BS31", and similar searches. Fast, mobile-friendly sites keep visitors on the page and send positive signals to Google.',
+          'When you work with Keynsham website designers or a local web design team, you should get more than a static brochure. You should get a site that\'s built to help you get found and get leads.',
+          'Your site should look good and work well on phones and tablets. That means readable text, tap-friendly buttons, and fast loading. We build all our sites mobile-first so Keynsham and BANES businesses perform where most of their customers are searching.',
+          'A new website should be built with local search in mind from day one. That includes the right structure, clear service and area mentions (e.g. Keynsham, Bath, Somerset), and a Google Business Profile that\'s set up and optimised. Our website design packages from £399 include GBP optimisation for one service in one location so you can show up in the map pack as soon as you go live. See seo-kings.co.uk/web-design for more.',
+          'You don\'t want to wait weeks or pay a developer every time you need to change a phone number or add a service. We build sites that are easy to update, and we\'re on hand to help. For businesses that want to grow visibility across more areas or keywords, we offer Local SEO as an add-on once your site is live (seo-kings.co.uk/local-seo).',
+          'The goal isn\'t just to look good; it\'s to get more calls and enquiries. That means clear calls-to-action, contact forms or click-to-call buttons, and a layout that guides visitors to take the next step. We focus on conversion so your website design Keynsham investment turns into real jobs.',
         ],
       },
       {
-        heading: 'What to do next',
+        heading: 'Website Design Costs for Keynsham Businesses',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Keynsham and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. Our website design starts from £399 for a one-page trade site. See our web design packages or get in touch for a free quote below.',
+          'Pricing is one of the first questions we hear. Here\'s a straight answer so you know what to expect. For a typical small business or trade in Keynsham and the surrounding area: a simple one-page or small brochure site is roughly £400–£800. Often it includes the basics: your services, area, contact details, and a mobile-friendly layout. Some packages (including ours) include Google Business Profile optimisation for one service and one location. A multi-page small business site is roughly £800–£2,500 — more pages, more services, maybe a gallery or testimonials. Still aimed at getting you found locally and generating leads. E‑commerce or complex builds run from around £2,500 upward, depending on products, payment, and functionality.',
+          'SEO Kings\' website design starts at £399 for a one-page or multi-page site built to get you found on Google, with GBP optimisation included for one service in one location. No hidden catches. See our website design packages at seo-kings.co.uk/web-design for more detail.',
+          'Cost depends on how many pages you need, whether you need e‑commerce, and how much content (text, images) you provide. Extra locations or services for local SEO can be added via our Local SEO service (seo-kings.co.uk/local-seo) once you\'re happy with your site. After launch, you\'ll usually have hosting (often £50–£200 a year for a small site) and optionally maintenance or support. If you add Local SEO to target more keywords or areas, that\'s a monthly fee. We\'re clear about what\'s included and what\'s optional so Keynsham businesses can plan.',
+        ],
+      },
+      {
+        heading: 'How to Choose a Web Designer in Keynsham',
+        paragraphs: [
+          'Not every Keynsham web designer is the same. Here\'s what to look for so you get a site that actually gets you found.',
+          'Look for work with businesses like yours: trades, local services, small businesses. If they\'ve built sites for plumbers, electricians, or cleaners in Bath, Keynsham, or Somerset, they\'ll understand what you need: clear services, area coverage, and strong CTAs.',
+          'You want someone who knows Keynsham, Bristol, Bath, and BANES. They\'ll understand the searches people use ("plumber Keynsham," "website design Keynsham") and how to optimise for them. And when you need help, it helps to have a team that\'s focused on your area.',
+          'Ask how the project works: consultation, design, build, go live. You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.',
+          'Your site should be built with SEO and your Google listing in mind from the start. Ask whether Google Business Profile setup or optimisation is included, and what happens after launch. The best Keynsham website designers don\'t hand you a site and disappear; they help you get visible. See seo-kings.co.uk/google-business-profile for more.',
+        ],
+      },
+      {
+        heading: 'SEO Kings Website Design in Keynsham',
+        paragraphs: [
+          'We\'re a Bath & North East Somerset agency focused on getting local businesses found on Google. Keynsham is one of the areas we serve every day. We offer: website design from £399, one-page or multi-page, mobile-first, built to rank locally — our one-page package includes Google Business Profile optimisation for one service in one location (seo-kings.co.uk/google-business-profile). We set up and optimise your Google Business Profile so you show up in the map pack when people search for your trade or service in Keynsham, Bath, or BANES. And once your site is live, we can add Local SEO (seo-kings.co.uk/local-seo) to target more keywords and areas (e.g. "plumber Bath," "electrician Keynsham") with monthly reporting and ongoing optimisation.',
+          'We\'ve helped over 150 businesses in the area. One of them, Peachy Cleans (seo-kings.co.uk/spotlight/peachy-cleans), went from no website and no Google presence to number one for "cleaner Midsomer Norton" and ended up fully booked and hiring. We\'re not interested in jargon or long contracts; we want you on the map and getting more calls. Ready to see what\'s possible for your business? Get your free audit at seo-kings.co.uk/contact. We\'ll look at your current website and Google listing and show you simple ways to get higher in search and Maps. No obligation, no credit card required.',
+          'We\'re based in Bath & North East Somerset and we work only in this patch. That means we know the towns, the searches, and what works for trades and local services. When you work with us, you\'re not a number; you get a plan that fits your trade and your area. Next steps: 1) Get your free audit at seo-kings.co.uk/contact — we review your site and GBP and tell you what\'s holding you back in Keynsham and BANES searches. 2) We agree a plan (website, GBP, or both) and a clear price. 3) We build and optimise; you start showing up where it matters and get more enquiries.',
+        ],
+      },
+      {
+        heading: 'Conclusion',
+        paragraphs: [
+          'If you\'re looking for Keynsham website designers or website design Keynsham, the goal is simple: a professional, mobile-friendly site and a Google presence that gets you on page 1 and in the map pack. That\'s how you stop missing calls and start winning more local work. Get a site built for local search — fast, mobile-first, with clear CTAs. Get your Google Business Profile right so you show up when people search for your trade in Keynsham, Bath, or Bristol. Know the costs upfront — from around £400 for a simple, effective site; we start at £399 with GBP optimisation included. Choose a team that knows the area and that focuses on results, not jargon. SEO Kings helps trades and local businesses in Keynsham, Bath, Midsomer Norton, Radstock, Saltford, and across BANES get found on Google. Get your free audit today at seo-kings.co.uk/contact. No obligation, no credit card required.',
         ],
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website design services' },
+      { href: '/contact', label: 'Get your free audit' },
+      { href: '/web-design', label: 'Website design' },
       { href: '/web-design-packages', label: 'Web design packages' },
-      { href: '/contact', label: 'Get a free quote' },
+      { href: '/local-seo', label: 'Local SEO' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/areas/keynsham', label: 'Keynsham area' },
     ],
   },
   'how-we-build-websites-keynsham': {

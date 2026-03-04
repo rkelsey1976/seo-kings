@@ -53,8 +53,8 @@ export const BLOG_META = {
     description: 'Looking for a website designer in Bath or North East Somerset? We specialise in trade websites and getting local trades found on Google. Fast sites, mobile-friendly, SEO built in — plumbers, electricians, builders.',
   },
   'website-design-keynsham': {
-    title: 'Website Design in Keynsham: What We Build for Local Businesses',
-    description: 'Web design for Keynsham and BS31 — fast, mobile-friendly websites for trades and local services. Built for local search so you get found on Google and in the map pack.',
+    title: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
+    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
   },
   'how-we-build-websites-keynsham': {
     title: 'How We Build Websites in Keynsham: From Keyword Research to Launch',
