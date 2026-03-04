@@ -133,9 +133,9 @@ const AreaDetail = ({ params: staticParams }) => {
       heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
       metaTitle: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
       metaDescription: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
-      heroHeadline: 'Website design in Keynsham',
+      heroHeadline: 'Keynsham Website Designers: Website Design & SEO from £399',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'We help tradespeople and small businesses in Keynsham rank higher on Google and win more local jobs — guaranteed results.',
+      description: 'Keynsham website designers that get you found on Google. We offer website design from £399 and local SEO so trades and businesses in Keynsham show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset. We also cover nearby villages and neighbourhoods including Longwell Green, Warmley, Pensford, Compton Dando, Corston, Kelston, Whitchurch, and the wider BS31 and BS30 area.',
       heroStats: [
         { value: '150+', label: 'Local Businesses Ranked' },
@@ -146,9 +146,8 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaButtonText: 'Get Your Free Audit Today',
       heroSubtext: 'No obligation. No credit card required.',
       introParagraphs: [
-        'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31.',
-        'Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO to get your business found first — more calls, more jobs, more money in your pocket.',
+        'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
+        'We use local SEO and website design from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
       ],
       whyHeading: 'Why Choose SEO Kings in Keynsham',
       whyIntro: "We know Keynsham. We've helped local trades here get real results.",
@@ -213,6 +212,22 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'saltford', 'paulton', 'midsomer-norton', 'radstock'],
       subAreaSlugs: ['bitton-keynsham', 'hanham-keynsham', 'oldland-keynsham', 'longwell-green-keynsham', 'warmley-keynsham'],
       subAreasHeading: 'Areas near Keynsham we cover',
+      costSection: {
+        heading: 'Website design costs in Keynsham',
+        paragraphs: [
+          'Website design in Keynsham starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
+        ],
+      },
+      whatToLookForSection: {
+        heading: 'What to look for in a Keynsham web designer',
+        bullets: [
+          { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Keynsham, Bath or Somerset.' },
+          { title: 'Local knowledge', text: 'A good Keynsham web designer knows the searches people use ("plumber Keynsham", "website design Keynsham") and how to optimise for them.' },
+          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
+          { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
+        ],
+      },
       faqs: [
         {
           question: 'Can you help my Keynsham business rank in Bath and Bristol too?',
@@ -3397,7 +3412,7 @@ const AreaDetail = ({ params: staticParams }) => {
             Website designer & website design in {area.name}
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">
-            We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote from a professional website designer in {area.name}.
+            We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote from a professional website designer in {area.name}. We also offer <Link href="/google-business-profile" className="text-primary-light hover:text-white underline">Google Business Profile</Link> and <Link href="/local-seo" className="text-primary-light hover:text-white underline">Local SEO</Link> as add-ons.
           </p>
           <Link
             href="/web-design"
@@ -3418,8 +3433,55 @@ const AreaDetail = ({ params: staticParams }) => {
               </Link>
             </p>
           )}
+          <p className="mt-4 text-sm text-gray-400">
+            <Link href="/contact" className="text-primary-light hover:text-white transition-colors">Get your free audit</Link>
+            {slug === 'keynsham' && (
+              <> · See also <Link href="/spotlight/peachy-cleans" className="text-primary-light hover:text-white transition-colors">Peachy Cleans spotlight</Link></>
+            )}
+          </p>
         </div>
       </section>
+
+      {/* Optional: Website design costs (e.g. Keynsham) */}
+      {area.costSection && (
+        <section className="py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-white mb-4">
+              {area.costSection.heading}
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              {area.costSection.paragraphs.map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
+            <p className="mt-4">
+              <Link href="/web-design-packages" className="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
+                View web design packages
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Optional: What to look for in a web designer (e.g. Keynsham) */}
+      {area.whatToLookForSection && (
+        <section className="py-16 bg-dark-lighter">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-white mb-6">
+              {area.whatToLookForSection.heading}
+            </h2>
+            <ul className="space-y-4">
+              {area.whatToLookForSection.bullets.map((bullet, idx) => (
+                <li key={idx} className="bg-dark-card border border-white/5 rounded-xl p-5">
+                  <h3 className="text-lg font-semibold text-white mb-2">{bullet.title}</h3>
+                  <p className="text-gray-400">{bullet.text}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* Local Keywords Section */}
       <section className="py-16 bg-dark-lighter">
