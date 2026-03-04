@@ -80,7 +80,7 @@ const Contact = () => {
         </svg>
       ),
       label: 'Location',
-      value: 'Bath, Somerset',
+      value: '16a Culvers Road, Keynsham, BS31 2DW',
       href: null,
       description: 'Serving all of Bath and North East Somerset',
     },

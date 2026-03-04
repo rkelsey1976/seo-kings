@@ -10,8 +10,8 @@ const organizationSchema = {
   image: `${siteUrl}/og-image.jpg`,
   description: 'Website design and local SEO in Bath and BANES. We build fast, professional websites and get tradespeople and small businesses found on Google. From £399.',
   telephone: '+447702264921',
-  address: { '@type': 'PostalAddress', addressLocality: 'Bath', addressRegion: 'Somerset', postalCode: 'BA1', addressCountry: 'GB' },
-  geo: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 },
+  address: { '@type': 'PostalAddress', streetAddress: '16a Culvers Road', addressLocality: 'Keynsham', addressRegion: 'Somerset', postalCode: 'BS31 2DW', addressCountry: 'GB' },
+  geo: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 },
   sameAs: ['https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
   contactPoint: { '@type': 'ContactPoint', telephone: '+447702264921', contactType: 'customer service', areaServed: 'GB', availableLanguage: 'English' },
 };
@@ -49,8 +49,8 @@ const localBusinessSchema = {
   priceRange: '££',
   currenciesAccepted: 'GBP',
   paymentAccepted: 'Bank Transfer, Credit Card',
-  address: { '@type': 'PostalAddress', addressLocality: 'Bath', addressRegion: 'Somerset', postalCode: 'BA1', addressCountry: 'GB' },
-  geo: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 },
+  address: { '@type': 'PostalAddress', streetAddress: '16a Culvers Road', addressLocality: 'Keynsham', addressRegion: 'Somerset', postalCode: 'BS31 2DW', addressCountry: 'GB' },
+  geo: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 },
   areaServed: [
     { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
     { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
@@ -58,7 +58,7 @@ const localBusinessSchema = {
     { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
   ],
   serviceArea: [
-    { '@type': 'GeoCircle', geoMidpoint: { '@type': 'GeoCoordinates', latitude: 51.3751, longitude: -2.3617 }, geoRadius: '20000' },
+    { '@type': 'GeoCircle', geoMidpoint: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 }, geoRadius: '20000' },
     { '@type': 'GeoCircle', geoMidpoint: keynshamGeo, geoRadius: '10000' },
   ],
   hasOfferCatalog: {

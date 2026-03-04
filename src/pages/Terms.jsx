@@ -48,7 +48,7 @@ title="Terms of Service | SEO Kings"
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-white mb-4">1. Definitions</h2>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
-                  <li><strong className="text-white">"SEO Kings", "we", "our", "us":</strong> Refers to SEO Kings, a digital marketing agency based in Bath, Somerset</li>
+                  <li><strong className="text-white">"SEO Kings", "we", "our", "us":</strong> Refers to SEO Kings, a digital marketing agency based in Keynsham, Bath and North East Somerset</li>
                   <li><strong className="text-white">"Client", "you", "your":</strong> Refers to the individual or business engaging our services</li>
                   <li><strong className="text-white">"Services":</strong> Refers to all SEO, web design, and digital marketing services we provide</li>
                   <li><strong className="text-white">"Website":</strong> Refers to seo-kings.co.uk and all associated pages</li>
@@ -273,7 +273,7 @@ title="Terms of Service | SEO Kings"
                 </p>
                 <div className="mt-4 p-6 bg-dark-lighter rounded-xl border border-white/5">
                   <p className="text-white font-semibold">SEO Kings</p>
-                  <p className="text-gray-300 mt-2">Bath, Somerset, United Kingdom</p>
+                  <p className="text-gray-300 mt-2">16a Culvers Road, Keynsham, BS31 2DW, United Kingdom</p>
                   <p className="text-gray-300 mt-1">
                     Phone: <a href="tel:07702264921" className="text-primary-light hover:text-white transition-colors">07702 264 921</a>
                   </p>
