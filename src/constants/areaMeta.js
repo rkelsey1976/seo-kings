@@ -13,8 +13,8 @@ export const AREA_META = {
     metaDescription: 'Professional website designer in Keynsham BS31. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
   },
   'midsomer-norton': {
-    metaTitle: 'Website design Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
-    metaDescription: 'Website design in Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+    metaTitle: 'Website Designer in Midsomer Norton | Web Design from £399',
+    metaDescription: 'Professional website designer in Midsomer Norton BA3. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
   },
   radstock: {
     metaTitle: 'Website design Radstock | Website Designer & SEO Add-ons – SEO Kings',
