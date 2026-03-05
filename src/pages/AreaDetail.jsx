@@ -130,7 +130,7 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS31'],
       websiteDesignBlogSlug: 'website-design-keynsham',
       population: '16,000+',
-      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/1280px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
+      heroImage: '/images/keynsham/keynsham-hero.jpg',
       metaTitle: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
       metaDescription: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
       heroHeadline: 'Keynsham Website Designers: Website Design & SEO from £399',
@@ -143,8 +143,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { value: '5★', label: 'Google Rating' },
         { value: '+340%', label: 'Average Lead Increase' },
       ],
-      ctaButtonText: 'Get Your Free Audit Today',
       heroSubtext: 'No obligation. No credit card required.',
+      testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
       introParagraphs: [
         'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
         'We use local SEO and website design from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
@@ -183,6 +183,16 @@ const AreaDetail = ({ params: staticParams }) => {
       ],
       industries: ['Retail', 'Professional Services', 'Trades', 'Food & Drink', 'Healthcare'],
       landmarks: ['Keynsham High Street', 'Keynsham Memorial Park', 'Cadbury Factory Site', 'St John the Baptist Church', 'Longwell Green', 'Warmley', 'Pensford', 'Compton Dando'],
+      gallery: [
+        { src: '/images/keynsham/keynsham-health-centre.jpg', alt: 'Keynsham Health Centre', caption: 'Keynsham Health Centre' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/63/Keynsham_railway_station_-_geograph.org.uk_-_363741.jpg/800px-Keynsham_railway_station_-_geograph.org.uk_-_363741.jpg', alt: 'Keynsham railway station', caption: 'Keynsham railway station' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Keynsham_Abby_ruins.jpg/800px-Keynsham_Abby_ruins.jpg', alt: 'Keynsham Abbey ruins', caption: 'Keynsham Abbey ruins' },
+      ],
+      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design wireframe and planning' },
+      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop' },
+      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
+      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
       stats: {
         businesses: '800+',
         monthlySearches: '85K+',
@@ -3269,9 +3279,21 @@ const AreaDetail = ({ params: staticParams }) => {
               </div>
             </div>
 
-            {/* Testimonial Card(s) */}
+            {/* Right column: testimonial only */}
             {(area.testimonials && area.testimonials.length > 0 ? area.testimonials : (area.testimonial ? [area.testimonial] : [])).map((t, idx) => (
-              <div key={idx} className="bg-dark-card border border-white/10 rounded-2xl p-8">
+              <div key={idx} className="bg-dark-card border border-white/10 rounded-2xl overflow-hidden">
+                {area.testimonialImage && (
+                  <div className="relative w-full aspect-[4/3] sm:aspect-[3/2] min-h-[220px]">
+                    <img
+                      src={area.testimonialImage.src}
+                      alt={area.testimonialImage.alt}
+                      className="absolute inset-0 w-full h-full object-contain object-top bg-dark-lighter/50"
+                      loading="eager"
+                      decoding="async"
+                    />
+                  </div>
+                )}
+                <div className="p-8">
                 {t.label && (
                   <div className="text-sm font-semibold text-primary-light mb-2">{t.label}</div>
                 )}
@@ -3312,6 +3334,7 @@ const AreaDetail = ({ params: staticParams }) => {
                     </div>
                   )}
                 </div>
+                </div>
               </div>
             ))}
           </div>
@@ -3342,6 +3365,12 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.whyIntro || `With ${area.stats.monthlySearches} monthly searches and ${area.stats.businesses} local businesses competing for attention, standing out on Google is essential for ${area.name} businesses.`}
             </p>
           </div>
+
+          {area.whySectionImage && (
+            <div className="flex justify-center mb-12">
+              <img src={area.whySectionImage.src} alt={area.whySectionImage.alt} className="rounded-xl border border-white/10 object-cover max-w-2xl w-full h-64 sm:h-72" loading="lazy" decoding="async" />
+            </div>
+          )}
 
           <div className={`grid gap-8 ${(area.whyBullets?.length || 0) === 4 ? 'md:grid-cols-2 lg:grid-cols-4' : 'md:grid-cols-3'}`}>
             {(area.whyBullets || [
@@ -3377,6 +3406,12 @@ const AreaDetail = ({ params: staticParams }) => {
             </p>
           </div>
 
+          {area.servicesSectionImage && (
+            <div className="flex justify-center mb-12">
+              <img src={area.servicesSectionImage.src} alt={area.servicesSectionImage.alt} className="rounded-xl border border-white/10 object-cover max-w-xl w-full h-56" loading="lazy" decoding="async" />
+            </div>
+          )}
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div key={index} className="bg-dark-card border border-white/5 rounded-xl p-6 hover:border-primary/30 transition-all duration-300">
@@ -3407,7 +3442,13 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* Website design in [Area] – SEO for website design + location */}
       <section className="py-16 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.websiteDesignSectionImage ? 'grid lg:grid-cols-2 gap-12 items-center' : 'max-w-4xl'}`}>
+          {area.websiteDesignSectionImage && (
+            <div className="order-2 lg:order-1">
+              <img src={area.websiteDesignSectionImage.src} alt={area.websiteDesignSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-72 lg:h-80" loading="lazy" decoding="async" />
+            </div>
+          )}
+          <div className={area.websiteDesignSectionImage ? 'order-1 lg:order-2' : ''}>
           <h2 className="text-3xl font-bold text-white mb-4">
             Website designer & website design in {area.name}
           </h2>
@@ -3439,13 +3480,20 @@ const AreaDetail = ({ params: staticParams }) => {
               <> · See also <Link href="/spotlight/peachy-cleans" className="text-primary-light hover:text-white transition-colors">Peachy Cleans spotlight</Link></>
             )}
           </p>
+          </div>
         </div>
       </section>
 
       {/* Optional: Website design costs (e.g. Keynsham) */}
       {area.costSection && (
         <section className="py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.costSectionImage ? 'grid lg:grid-cols-2 gap-12 items-start' : 'max-w-4xl'}`}>
+            {area.costSectionImage && (
+              <div>
+                <img src={area.costSectionImage.src} alt={area.costSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 lg:sticky lg:top-24" loading="lazy" decoding="async" />
+              </div>
+            )}
+            <div>
             <h2 className="text-3xl font-bold text-white mb-4">
               {area.costSection.heading}
             </h2>
@@ -3460,6 +3508,7 @@ const AreaDetail = ({ params: staticParams }) => {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
             </p>
+            </div>
           </div>
         </section>
       )}
@@ -3471,6 +3520,11 @@ const AreaDetail = ({ params: staticParams }) => {
             <h2 className="text-3xl font-bold text-white mb-6">
               {area.whatToLookForSection.heading}
             </h2>
+            {area.whatToLookForSectionImage && (
+              <div className="mb-8">
+                <img src={area.whatToLookForSectionImage.src} alt={area.whatToLookForSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-56" loading="lazy" decoding="async" />
+              </div>
+            )}
             <ul className="space-y-4">
               {area.whatToLookForSection.bullets.map((bullet, idx) => (
                 <li key={idx} className="bg-dark-card border border-white/5 rounded-xl p-5">
@@ -3486,7 +3540,7 @@ const AreaDetail = ({ params: staticParams }) => {
       {/* Local Keywords Section */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className={`grid gap-12 items-center ${area.keywordsSectionImage ? 'lg:grid-cols-3' : 'lg:grid-cols-2'}`}>
             <div>
               <h2 className="text-3xl font-bold text-white mb-4">
                 {area.keywordsHeading || `Keywords We Target in ${area.name}`}
@@ -3505,6 +3559,12 @@ const AreaDetail = ({ params: staticParams }) => {
                 ))}
               </div>
             </div>
+
+            {area.keywordsSectionImage && (
+              <div className="hidden lg:block">
+                <img src={area.keywordsSectionImage.src} alt={area.keywordsSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64" loading="lazy" decoding="async" />
+              </div>
+            )}
 
             <div className="space-y-6">
               <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
