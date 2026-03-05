@@ -236,8 +236,10 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaHeadline: 'Ready to Get More Customers in Keynsham?',
       ctaSubhead: "Don't let competitors take the top spots.",
       ctaPrimaryText: 'Get Your Free Audit Today',
-      ctaSecondaryText: 'Get a Free Consultation',
+      ctaSecondaryText: '07702 264 921',
       ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Keynsham business.',
+      ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Keynsham' },
+      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: '' },
       nearbyAreas: ['bath', 'saltford', 'paulton', 'midsomer-norton', 'radstock'],
       subAreaSlugs: ['bitton-keynsham', 'hanham-keynsham', 'oldland-keynsham', 'longwell-green-keynsham', 'warmley-keynsham'],
       subAreasHeading: 'Areas near Keynsham we cover',
@@ -3830,37 +3832,66 @@ const AreaDetail = ({ params: staticParams }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            {area.ctaHeadline || `Ready to Dominate ${area.name} Search Results?`}
-          </h2>
-          <p className="text-gray-400 mb-8">
-            {area.ctaSubhead || `Join the ${area.name} businesses already ranking on page one of Google. Get your free SEO audit today and see exactly how we can help you grow.`}
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/contact"
-              className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
-            >
-              {area.ctaPrimaryText || `Get Your Free ${area.name} SEO Audit`}
-            </Link>
-            <a
-              href="tel:07702264921"
-              className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
-              aria-label="Call SEO Kings on 07702 264 921"
-            >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
-              {area.ctaSecondaryText || '07702 264 921'}
-            </a>
-          </div>
-          {area.ctaDisclaimer && (
-            <p className="mt-6 text-sm text-gray-500 max-w-xl mx-auto">
-              {area.ctaDisclaimer}
-            </p>
+      <section className={`py-16 relative overflow-hidden ${area.ctaBackgroundImage ? 'min-h-[28rem] flex items-center' : ''} ${area.ctaImage ? '' : ''}`}>
+        {area.ctaBackgroundImage && (
+          <>
+            <div
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: `url(${area.ctaBackgroundImage.src})` }}
+              aria-hidden="true"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-900/95 via-purple-800/85 to-indigo-900/80 pointer-events-none" aria-hidden="true" />
+            <div className="absolute inset-0 bg-black/50 pointer-events-none" aria-hidden="true" />
+          </>
+        )}
+        {!area.ctaBackgroundImage && area.ctaImage && (
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 pointer-events-none" aria-hidden="true" />
+        )}
+        <div className={`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full ${area.ctaImage && !area.ctaBackgroundImage ? 'grid lg:grid-cols-2 gap-10 lg:gap-12 items-center' : ''} ${area.ctaBackgroundImage ? 'max-w-4xl text-center' : ''}`}>
+          {area.ctaImage && !area.ctaBackgroundImage && (
+            <div className="order-2 lg:order-2 flex justify-center lg:justify-end">
+              <div className="relative rounded-2xl overflow-hidden border-2 border-white/10 shadow-2xl shadow-primary/20 max-w-md w-full">
+                <img
+                  src={area.ctaImage.src}
+                  alt={area.ctaImage.alt}
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
           )}
+          <div className={`${area.ctaBackgroundImage ? 'text-center' : ''} ${area.ctaImage && !area.ctaBackgroundImage ? 'order-1 lg:order-1 text-center lg:text-left' : 'max-w-4xl mx-auto text-center'}`}>
+            <h2 className={`font-bold text-white mb-4 ${area.ctaImage || area.ctaBackgroundImage ? 'text-3xl sm:text-4xl lg:text-4xl' : 'text-3xl'} ${area.ctaBackgroundImage ? 'drop-shadow-2xl [text-shadow:0_2px_8px_rgba(0,0,0,0.9)]' : ''}`}>
+              {area.ctaHeadline || `Ready to Dominate ${area.name} Search Results?`}
+            </h2>
+            <p className={`mb-8 text-lg ${area.ctaBackgroundImage ? 'text-gray-200 drop-shadow-lg [text-shadow:0_1px_4px_rgba(0,0,0,0.8)]' : 'text-gray-400'}`}>
+              {area.ctaSubhead || `Join the ${area.name} businesses already ranking on page one of Google. Get your free SEO audit today and see exactly how we can help you grow.`}
+            </p>
+            <div className={`flex flex-col sm:flex-row items-center gap-4 ${area.ctaImage && !area.ctaBackgroundImage ? 'justify-center lg:justify-start' : 'justify-center'}`}>
+              <Link
+                href="/contact"
+                className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow text-center shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:scale-105"
+              >
+                {area.ctaPrimaryText || `Get Your Free ${area.name} SEO Audit`}
+              </Link>
+              <a
+                href="tel:07702264921"
+                className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 hover:border-primary/30"
+                aria-label="Call SEO Kings on 07702 264 921"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                {area.ctaSecondaryText || '07702 264 921'}
+              </a>
+            </div>
+            {area.ctaDisclaimer && (
+              <p className={`mt-6 text-sm max-w-xl ${area.ctaImage && !area.ctaBackgroundImage ? 'lg:max-w-md text-gray-500' : 'mx-auto'} ${area.ctaBackgroundImage ? 'text-gray-300 drop-shadow-md [text-shadow:0_1px_3px_rgba(0,0,0,0.8)]' : ''}`}>
+                {area.ctaDisclaimer}
+              </p>
+            )}
+          </div>
         </div>
       </section>
     </>
