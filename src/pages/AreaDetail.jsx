@@ -131,11 +131,11 @@ const AreaDetail = ({ params: staticParams }) => {
       websiteDesignBlogSlug: 'website-design-keynsham',
       population: '16,000+',
       heroImage: '/images/keynsham/keynsham-hero.jpg',
-      metaTitle: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
-      metaDescription: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
-      heroHeadline: 'Keynsham Website Designers: Website Design & SEO from £399',
+      metaTitle: 'Website Designer in Keynsham | Web Design from £399',
+      metaDescription: 'Professional website designer in Keynsham BS31. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
+      heroHeadline: 'Website Designer in Keynsham: Web Design & SEO from £399',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'Keynsham website designers that get you found on Google. We offer website design from £399 and local SEO so trades and businesses in Keynsham show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
+      description: 'Website designer in Keynsham — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Keynsham BS31 show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset. We also cover nearby villages and neighbourhoods including Longwell Green, Warmley, Pensford, Compton Dando, Corston, Kelston, Whitchurch, and the wider BS31 and BS30 area.',
       heroStats: [
         { value: '150+', label: 'Local Businesses Ranked' },
@@ -146,8 +146,8 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubtext: 'No obligation. No credit card required.',
       testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
       introParagraphs: [
-        'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO and website design from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
+        'Looking for a website designer in Keynsham? Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
+        'We use local SEO and web design Keynsham from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
       ],
       introImage: { src: '/images/keynsham/keynsham-st-john-church.png', alt: 'St John the Baptist Church, Keynsham' },
       whyHeading: 'Why Choose SEO Kings in Keynsham',
@@ -194,6 +194,21 @@ const AreaDetail = ({ params: staticParams }) => {
       websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
       costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
       whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
+      // E-E-A-T: long-form "Why us" and process for Keynsham
+      extraContentSection: {
+        heading: 'Why SEO Kings for Keynsham',
+        subheading: 'Our approach to website design in Keynsham',
+        image: { src: '/images/keynsham/keynsham-website-designer-mobile-desktop.png', alt: 'Mobile and desktop setup — we build websites that work on every device' },
+        paragraphs: [
+          "We've been helping businesses across Bath, Keynsham and North East Somerset get found on Google for years. When you choose us as your website designer in Keynsham, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website designer Keynsham', 'web design Keynsham BS31' and your trade terms so you show up when local customers search.",
+          "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Keynsham and the surrounding area. That means you're in the race for the map pack and page one from launch, not months later.",
+          "Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. We're based in Keynsham (16a Culvers Road, BS31 2DW) and work with trades and small businesses across BS31, Bath, Bristol and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.",
+        ],
+      },
+      recentProjects: [
+        { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks and hiring new staff; we\'re expanding their visibility across Radstock, Bath, Frome, Paulton and Somerset.', caseStudySlug: 'peachy-cleans' },
+        { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website at new-decorating.co.uk and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+      ],
       stats: {
         businesses: '800+',
         monthlySearches: '85K+',
@@ -201,9 +216,12 @@ const AreaDetail = ({ params: staticParams }) => {
         avgCPC: '£1.80',
       },
       localKeywords: [
+        'website designer in Keynsham',
         'website design Keynsham',
-        'website designer Keynsham',
+        'web designer Keynsham',
         'web design Keynsham',
+        'web design Keynsham BS31',
+        'website design Keynsham BS31',
         'plumber Keynsham',
         'electrician Keynsham',
         'electrician BS31',
@@ -240,6 +258,14 @@ const AreaDetail = ({ params: staticParams }) => {
         ],
       },
       faqs: [
+        {
+          question: 'How much does website design cost in Keynsham?',
+          answer: 'Website design in Keynsham starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
+        },
+        {
+          question: 'Do you build websites optimised for local Keynsham searches?',
+          answer: 'Yes. Every site we build is optimised for local searches like "website designer Keynsham", "web design Keynsham BS31" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.',
+        },
         {
           question: 'Can you help my Keynsham business rank in Bath and Bristol too?',
           answer: 'Absolutely! Many Keynsham businesses serve customers across Bath and Bristol. We can optimise your presence for multiple locations, helping you capture customers from the wider area while dominating local Keynsham searches.',
@@ -3106,6 +3132,44 @@ const AreaDetail = ({ params: staticParams }) => {
     }))
   };
 
+  // Review schema for Keynsham (aggregate + reviews mentioning Keynsham)
+  const reviewSchema = (slug === 'keynsham') ? {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${siteUrl}/#localbusiness`,
+    "name": "SEO Kings",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "150",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Jay" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Keynsham Electrics client" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "SEO Kings got us from not ranking to top 3 in Keynsham. We now get 50+ more calls per month. Their local SEO and Google Business Profile work made the difference."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Peachy Cleans" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more."
+      }
+    ]
+  } : null;
+
+  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, faqSchema];
+  if (reviewSchema) schemasForPage.push(reviewSchema);
+
   const defaultServices = [
     { name: 'Website Design', description: `Fast, mobile-friendly sites from £399. Our main service in ${area.name}.`, icon: 'desktop' },
     { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack so you get found on Google.', icon: 'map' },
@@ -3132,7 +3196,7 @@ const AreaDetail = ({ params: staticParams }) => {
         keywords={`website design ${area.name}, website designer ${area.name}, web design ${area.name}, SEO ${area.name}, local SEO ${area.name}, Google Business Profile ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, SEO add-ons ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
-        schemas={[breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, faqSchema]}
+        schemas={schemasForPage}
       />
 
       {/* Hero Section */}
@@ -3399,6 +3463,65 @@ const AreaDetail = ({ params: staticParams }) => {
           </div>
         </div>
       </section>
+
+      {/* Optional: Why SEO Kings for [Area] + Recent projects (E-E-A-T) */}
+      {area.extraContentSection && (
+        <section className="py-16" aria-labelledby="extra-content-heading">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className={area.extraContentSection.image ? 'grid lg:grid-cols-2 gap-10 lg:gap-12 items-start mb-10' : 'max-w-3xl mb-10'}>
+              <div>
+                <h2 id="extra-content-heading" className="text-3xl font-bold text-white mb-2">
+                  {area.extraContentSection.heading}
+                </h2>
+                {area.extraContentSection.subheading && (
+                  <p className="text-lg text-primary-light font-medium mb-6">{area.extraContentSection.subheading}</p>
+                )}
+                <div className="space-y-4 text-gray-400 leading-relaxed">
+                  {area.extraContentSection.paragraphs.map((para, idx) => (
+                    <p key={idx}>{para}</p>
+                  ))}
+                </div>
+              </div>
+              {area.extraContentSection.image && (
+                <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-lg">
+                  <img
+                    src={area.extraContentSection.image.src}
+                    alt={area.extraContentSection.image.alt}
+                    className="w-full h-auto object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+            </div>
+            {area.recentProjects && area.recentProjects.length > 0 && (
+              <div className="mt-12">
+                <h3 className="text-xl font-bold text-white mb-6">Our recent website design projects in {area.name}</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  {area.recentProjects.map((project, idx) => (
+                    <div key={idx} className="bg-dark-card border border-white/5 rounded-xl p-6 flex flex-col">
+                      <div className="text-sm font-semibold text-primary-light mb-1">{project.sector}</div>
+                      <div className="text-white font-semibold mb-2">{project.outcome}</div>
+                      <p className="text-gray-400 text-sm leading-relaxed flex-grow">{project.snippet}</p>
+                      {project.caseStudySlug && (
+                        <Link
+                          href={`/case-studies/${project.caseStudySlug}`}
+                          className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-light hover:text-white transition-colors"
+                        >
+                          Read case study
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                          </svg>
+                        </Link>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Services Section */}
       <section className="py-16">

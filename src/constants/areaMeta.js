@@ -9,8 +9,8 @@ export const AREA_META = {
     metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
   },
   keynsham: {
-    metaTitle: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
-    metaDescription: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
+    metaTitle: 'Website Designer in Keynsham | Web Design from £399',
+    metaDescription: 'Professional website designer in Keynsham BS31. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
   },
   'midsomer-norton': {
     metaTitle: 'Website design Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
