@@ -149,6 +149,7 @@ const AreaDetail = ({ params: staticParams }) => {
         'Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
         'We use local SEO and website design from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
       ],
+      introImage: { src: '/images/keynsham/keynsham-st-john-church.png', alt: 'St John the Baptist Church, Keynsham' },
       whyHeading: 'Why Choose SEO Kings in Keynsham',
       whyIntro: "We know Keynsham. We've helped local trades here get real results.",
       whyBullets: [
@@ -3344,12 +3345,17 @@ const AreaDetail = ({ params: staticParams }) => {
       {/* Intro Paragraphs (optional) */}
       {area.introParagraphs && area.introParagraphs.length > 0 && (
         <section className="py-12 bg-dark-lighter">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.introImage ? 'grid lg:grid-cols-2 gap-10 items-center' : 'max-w-4xl'}`}>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
             </div>
+            {area.introImage && (
+              <div>
+                <img src={area.introImage.src} alt={area.introImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" loading="lazy" decoding="async" />
+              </div>
+            )}
           </div>
         </section>
       )}
@@ -3516,23 +3522,25 @@ const AreaDetail = ({ params: staticParams }) => {
       {/* Optional: What to look for in a web designer (e.g. Keynsham) */}
       {area.whatToLookForSection && (
         <section className="py-16 bg-dark-lighter">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-white mb-6">
-              {area.whatToLookForSection.heading}
-            </h2>
+          <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.whatToLookForSectionImage ? 'grid lg:grid-cols-2 gap-10 items-start' : 'max-w-4xl'}`}>
+            <div>
+              <h2 className="text-3xl font-bold text-white mb-6">
+                {area.whatToLookForSection.heading}
+              </h2>
+              <ul className="space-y-4">
+                {area.whatToLookForSection.bullets.map((bullet, idx) => (
+                  <li key={idx} className="bg-dark-card border border-white/5 rounded-xl p-5">
+                    <h3 className="text-lg font-semibold text-white mb-2">{bullet.title}</h3>
+                    <p className="text-gray-400">{bullet.text}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             {area.whatToLookForSectionImage && (
-              <div className="mb-8">
-                <img src={area.whatToLookForSectionImage.src} alt={area.whatToLookForSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-56" loading="lazy" decoding="async" />
+              <div className="lg:sticky lg:top-24">
+                <img src={area.whatToLookForSectionImage.src} alt={area.whatToLookForSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" loading="lazy" decoding="async" />
               </div>
             )}
-            <ul className="space-y-4">
-              {area.whatToLookForSection.bullets.map((bullet, idx) => (
-                <li key={idx} className="bg-dark-card border border-white/5 rounded-xl p-5">
-                  <h3 className="text-lg font-semibold text-white mb-2">{bullet.title}</h3>
-                  <p className="text-gray-400">{bullet.text}</p>
-                </li>
-              ))}
-            </ul>
           </div>
         </section>
       )}
