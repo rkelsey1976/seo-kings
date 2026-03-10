@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import BaseSchemas from './BaseSchemas';
+import WebDesignServiceSchema from './WebDesignServiceSchema';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import ScrollToTop from '../src/components/ScrollToTop';
@@ -16,10 +17,10 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://seo-kings.co.uk'),
   title: {
-    default: 'Website Design & SEO | Bath & North East Somerset – SEO Kings',
+    default: 'SEO Kings | Website Design Bath & North East Somerset',
     template: '%s | SEO Kings',
   },
-  description: 'We help tradespeople and small businesses in Bath & North East Somerset get found on Google. Website design, Google Business Profile, getting you on the map. Free check.',
+  description: 'We help tradespeople and small businesses in Bath & North East Somerset get found on Google. Website Design and Website Designer services, Google Business Profile, getting you on the map. Free check.',
   openGraph: { siteName: 'SEO Kings', locale: 'en_GB' },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   icons: {
@@ -40,8 +41,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-GB" className={inter.className} suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <WebDesignServiceSchema />
       </head>
       <body suppressHydrationWarning>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />

@@ -4,7 +4,13 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: false,
-  images: { unoptimized: true },
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'upload.wikimedia.org', pathname: '/**' },
+    ],
+  },
   eslint: { ignoreDuringBuilds: true },
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SectionDivider from './SectionDivider';
 
 // Main hero image – Peachy Cleans website hero (featured in large panel)
@@ -134,13 +135,12 @@ const Spotlight = ({ variant = 'summary' }) => {
           <div className="mt-10 lg:mt-0 lg:col-span-7 lg:col-start-6">
             <div className="relative rounded-2xl border border-white/10 bg-dark shadow-2xl overflow-visible ring-1 ring-white/5">
               <div className="relative aspect-[4/3] sm:aspect-[3/2] flex items-center justify-center bg-dark p-4 sm:p-6 overflow-hidden rounded-t-2xl">
-                <img
+                <Image
                   src={mainImage.src}
                   alt={mainImage.alt}
                   width={800}
                   height={533}
                   loading="lazy"
-                  decoding="async"
                   className="w-full h-full object-contain rounded-lg"
                 />
                 {/* Floating card – #1 in Google (like main hero) */}

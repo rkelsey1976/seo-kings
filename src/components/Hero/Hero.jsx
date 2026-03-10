@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import AnimatedBlob from './AnimatedBlob';
 
 const Hero = () => {
@@ -59,8 +60,7 @@ const Hero = () => {
 
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
-              <span className="animate-fade-in-up delay-100 block text-white">Website Designer in Bath & North East Somerset</span>
-              <span className="animate-fade-in-up delay-300 block gradient-text">Get More Customers From Google</span>
+              <span className="animate-fade-in-up delay-100 block text-white">Professional Website Design & SEO for Trades in Bath & North East Somerset</span>
             </h1>
 
             {/* Subheading */}
@@ -70,8 +70,8 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4 mb-10">
-              <Link href="/contact" className="animate-slide-in-bounce delay-500 w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
-                Get Your Free Audit Today
+              <Link href="/web-design-packages" className="animate-slide-in-bounce delay-500 w-full sm:w-auto bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
+                View Design Packages
               </Link>
               <Link href="/contact" className="animate-slide-in-bounce delay-600 w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2">
                 Free Consultation – No Obligation, No Card Needed
@@ -98,16 +98,13 @@ const Hero = () => {
             {/* Main Image */}
             <div className="relative animate-scale-in delay-300">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
-              <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=500&fit=crop&auto=format&q=80"
-                srcSet="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=333&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=500&fit=crop&auto=format&q=80 600w, https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=667&fit=crop&auto=format&q=80 800w"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+              <Image
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=667&fit=crop&auto=format&q=80"
                 alt="Website designer Bath — get found on Google with a fast website and optimised Google listing for local trades"
-                width={600}
-                height={500}
-                fetchPriority="high"
-                decoding="async"
-                className="relative rounded-3xl border border-white/10 shadow-2xl"
+                width={800}
+                height={667}
+                priority
+                className="relative rounded-3xl border border-white/10 shadow-2xl w-full h-auto"
               />
               
               {/* Floating Card - Rankings */}

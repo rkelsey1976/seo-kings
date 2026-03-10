@@ -179,6 +179,7 @@ const areaLabels = {
 function slugToLabel(slug) {
   return areaLabels[slug] || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
+export { slugToLabel };
 export const AREA_LINKS = [
   { href: '/areas', label: 'All Areas' },
   ...AREA_SLUGS.map((slug) => ({ href: `/areas/${slug}`, label: slugToLabel(slug) })),

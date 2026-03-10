@@ -1,8 +1,12 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+
+// Minimal blur placeholder for remote portfolio images (improves LCP/CLS)
+const BLUR_DATA_URL = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAn/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBEQACEQAD8A==';
 
 const CaseStudies = () => {
   const caseStudies = [
@@ -101,13 +105,15 @@ const CaseStudies = () => {
               >
                 {/* Header with Image */}
                 <div className="relative h-48">
-                  <img
+                  <Image
                     src={study.image}
-                    alt={study.imageAlt}
+                    alt={`${study.industry} Website Design in ${study.location}`}
                     width={400}
                     height={192}
-                    loading="lazy"
-                    decoding="async"
+                    loading={study.id === 1 ? 'eager' : 'lazy'}
+                    priority={study.id === 1}
+                    placeholder="blur"
+                    blurDataURL={BLUR_DATA_URL}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className={`absolute inset-0 bg-gradient-to-r ${study.color} opacity-70`} />

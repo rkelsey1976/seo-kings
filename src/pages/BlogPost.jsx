@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import { BASE_URL } from '../constants/sitemap';
 
 const blogPosts = {
   'beautiful-websites-that-rank': {
@@ -1175,6 +1176,28 @@ const BlogPost = ({ params: staticParams }) => {
           dateModified: post.date,
           author: post.author,
         }}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: post.title,
+            description: post.description,
+            datePublished: post.date,
+            dateModified: post.date,
+            author: { '@type': 'Organization', name: post.author || 'SEO Kings' },
+            publisher: { '@id': `${BASE_URL}/#organization` },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/blog/${post.slug}` },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}/blog` },
+              { '@type': 'ListItem', position: 3, name: post.title },
+            ],
+          },
+        ]}
       />
 
       {/* Hero */}

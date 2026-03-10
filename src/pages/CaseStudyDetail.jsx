@@ -2,10 +2,14 @@
 import React, { useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import { BASE_URL } from '../constants/sitemap';
 
 // Case study data – real client only (no made-up figures)
+const BLUR_DATA_URL = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAn/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBEQACEQAD8A==';
+
 const caseStudiesData = {
   'peachy-cleans': {
     id: 1,
@@ -139,21 +143,44 @@ const CaseStudyDetail = ({ params: staticParams }) => {
           datePublished: '2025-01-15',
           dateModified: '2026-01-28'
         }}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: `${caseStudy.business} Case Study | SEO Kings`,
+            description: `How we helped ${caseStudy.business} in ${caseStudy.location} achieve strong local SEO results.`,
+            image: caseStudy.heroImage,
+            datePublished: '2025-01-15',
+            dateModified: '2026-01-28',
+            author: { '@type': 'Organization', name: 'SEO Kings' },
+            publisher: { '@id': `${BASE_URL}/#organization` },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/case-studies/${caseStudy.slug}` },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+              { '@type': 'ListItem', position: 2, name: 'Case Studies', item: `${BASE_URL}/case-studies` },
+              { '@type': 'ListItem', position: 3, name: caseStudy.business },
+            ],
+          },
+        ]}
       />
 
       {/* Hero Section */}
       <section className={`relative pt-32 pb-20 overflow-hidden`}>
         {/* Background Image */}
         {caseStudy.heroImage && (
-          <img
+          <Image
             src={`${caseStudy.heroImage}?w=1920&h=600&fit=crop&auto=format&q=75`}
-            srcSet={`${caseStudy.heroImage}?w=800&h=400&fit=crop&auto=format&q=75 800w, ${caseStudy.heroImage}?w=1200&h=500&fit=crop&auto=format&q=75 1200w, ${caseStudy.heroImage}?w=1920&h=600&fit=crop&auto=format&q=75 1920w`}
-            sizes="100vw"
-            alt={caseStudy.heroImageAlt}
+            alt={`${caseStudy.industry} Website Design in ${caseStudy.location} — ${caseStudy.business} case study`}
             width={1920}
             height={600}
-            fetchPriority="high"
-            decoding="async"
+            priority
+            placeholder="blur"
+            blurDataURL={BLUR_DATA_URL}
+            sizes="100vw"
             className="absolute inset-0 w-full h-full object-cover"
           />
         )}

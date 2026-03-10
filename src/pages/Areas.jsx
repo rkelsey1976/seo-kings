@@ -2,6 +2,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import Image from 'next/image';
 import SEO from '../components/SEO';
 
 const BANESMap = dynamic(() => import('../components/BANESMap'), { ssr: false });
@@ -198,9 +199,9 @@ const Areas = () => {
               >
                 {/* Image */}
                 <div className="relative h-40 overflow-hidden">
-                  <img
+                  <Image
                     src={area.image}
-                    alt={`${area.name} - Local SEO services`}
+                    alt={`Website Design and Local SEO in ${area.name} — get found on Google`}
                     width={400}
                     height={300}
                     loading="lazy"

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import SectionDivider from './SectionDivider';
 
 const Testimonials = () => {
@@ -117,13 +118,12 @@ const Testimonials = () => {
               {/* Author */}
               <div className="flex items-center gap-4 pt-6 border-t border-white/5">
                 {/* Avatar */}
-                <img
+                <Image
                   src={testimonial.image}
                   alt={`${testimonial.name}, ${testimonial.trade} from ${testimonial.location} - SEO Kings client testimonial`}
                   width={48}
                   height={48}
                   loading="lazy"
-                  decoding="async"
                   className="w-12 h-12 rounded-full object-cover border-2 border-white/10"
                 />
                 <div>

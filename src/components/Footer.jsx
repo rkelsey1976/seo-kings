@@ -13,19 +13,16 @@ const Footer = () => {
     { name: 'Free Website Quote', href: '/contact' },
   ];
 
-  const areas = [
-    { name: 'Bath', slug: 'bath' },
-    { name: 'Keynsham', slug: 'keynsham' },
-    { name: 'Midsomer Norton', slug: 'midsomer-norton' },
-    { name: 'Radstock', slug: 'radstock' },
-    { name: 'Peasedown St John', slug: 'peasedown-st-john' },
-    { name: 'Paulton', slug: 'paulton' },
-    { name: 'Saltford', slug: 'saltford' },
-    { name: 'Timsbury', slug: 'timsbury' },
-    { name: 'Westfield', slug: 'westfield' },
-    { name: 'Chew Magna', slug: 'chew-magna' },
-    { name: 'Temple Cloud', slug: 'temple-cloud' },
-    { name: 'Clutton', slug: 'clutton' },
+  // Geo-silo: Bath & NE Somerset — Group A (BS31), Group B (Bath, Somer Valley)
+  const geoGroupA = [
+    { label: 'Web Design in Keynsham', slug: 'keynsham' },
+    { label: 'Web Design in Saltford', slug: 'saltford' },
+    { label: 'Web Design in Bitton', slug: 'bitton-keynsham' },
+  ];
+  const geoGroupB = [
+    { label: 'Web Design in Bath', slug: 'bath' },
+    { label: 'Web Design in Midsomer Norton', slug: 'midsomer-norton' },
+    { label: 'Web Design in Radstock', slug: 'radstock' },
   ];
 
   const company = [
@@ -157,56 +154,52 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Areas Column - Show first 4 on mobile with "View all" */}
+          {/* Areas Column — Geo-silo: Bath & North East Somerset (Group A: BS31, Group B: Bath / Somer Valley) */}
           <div>
-            <p className="text-white font-semibold text-sm uppercase tracking-wider mb-4">Areas</p>
-            <ul className="space-y-2 sm:space-y-3">
-              {/* Show first 4 areas on mobile, all on larger screens */}
-              {areas.slice(0, 4).map((area, index) => (
-                <li key={index}>
-                  <Link
-                    href={`/areas/${area.slug}`}
-                    className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-                  >
-                    {area.name}
-                  </Link>
-                </li>
-              ))}
-              {/* Hidden on mobile, shown on sm+ */}
-              {areas.slice(4).map((area, index) => (
-                <li key={index + 4} className="hidden sm:block">
-                  <Link
-                    href={`/areas/${area.slug}`}
-                    className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-                  >
-                    {area.name}
-                  </Link>
-                </li>
-              ))}
-              {/* View all areas - mobile only; on desktop show after full list */}
-              <li className="sm:hidden">
-                <Link
-                  href="/areas"
-                  className="text-primary-light hover:text-white transition-colors text-sm font-medium inline-flex items-center gap-1"
-                >
-                  View all
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </li>
-              <li className="hidden sm:block pt-2 border-t border-white/5 mt-2">
-                <Link
-                  href="/areas"
-                  className="text-primary-light hover:text-white transition-colors text-sm font-medium inline-flex items-center gap-1"
-                >
-                  View all areas
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </li>
-            </ul>
+            <p className="text-white font-semibold text-sm uppercase tracking-wider mb-4">Bath & North East Somerset</p>
+            <div className="space-y-4">
+              <div>
+                <p className="text-gray-400 text-xs uppercase tracking-wider mb-2">Keynsham, Saltford, Bitton (BS31)</p>
+                <ul className="space-y-2">
+                  {geoGroupA.map((area, index) => (
+                    <li key={index}>
+                      <Link
+                        href={`/areas/${area.slug}`}
+                        className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
+                      >
+                        {area.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p className="text-gray-400 text-xs uppercase tracking-wider mb-2">Bath (BA1/BA2), Midsomer Norton, Radstock</p>
+                <ul className="space-y-2">
+                  {geoGroupB.map((area, index) => (
+                    <li key={index}>
+                      <Link
+                        href={`/areas/${area.slug}`}
+                        className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
+                      >
+                        {area.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="pt-3 mt-3 border-t border-white/5">
+              <Link
+                href="/areas"
+                className="text-primary-light hover:text-white transition-colors text-sm font-medium inline-flex items-center gap-1"
+              >
+                View all areas
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </div>
 
           {/* Company Column */}

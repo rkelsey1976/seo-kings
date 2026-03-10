@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
+import DesignProcess from '../src/components/DesignProcess';
 import WhyChoose from '../src/components/WhyChoose';
 import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
@@ -7,6 +8,9 @@ import Reviews from '../src/components/Reviews';
 
 const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: true });
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
+
+// Revalidate every hour when using a server (ISR); ignored with output: 'export'
+export const revalidate = 3600;
 
 export const metadata = {
   title: 'Website Designer Bath & North East Somerset | Get Found on Google',
@@ -22,6 +26,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <DesignProcess />
       <WhyChoose />
       <Services />
       <HowItWorks />

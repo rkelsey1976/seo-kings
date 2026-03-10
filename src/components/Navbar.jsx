@@ -21,7 +21,7 @@ const Navbar = () => {
       color: 'from-primary to-primary-dark',
     },
     { 
-      name: 'Web Design Packages', 
+      name: 'Website Design Packages', 
       href: '/web-design-packages',
       description: 'From £399 — 1-page Starter, Professional, Full',
       icon: (

@@ -5,6 +5,29 @@ import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 import { GOOGLE_MAPS_PLACE_URL, GOOGLE_MAPS_EMBED_SRC } from '../constants/business';
 
+const contactFAQs = [
+  {
+    q: 'How long does it take to see results?',
+    a: 'Most clients see significant improvements within 3-6 months. SEO is a long-term strategy, but we focus on quick wins early on while building sustainable rankings.',
+  },
+  {
+    q: 'How much does SEO cost?',
+    a: 'Our local SEO packages start from £150/month (1 service, 1 location). We\'ll provide a custom quote based on your business, competition, and goals during your free consultation.',
+  },
+  {
+    q: 'Do I need a new website?',
+    a: 'Not necessarily. We\'ll assess your current site and recommend improvements. Sometimes a few tweaks are enough, other times a rebuild makes more sense.',
+  },
+  {
+    q: 'What areas do you cover?',
+    a: 'We work exclusively with businesses in Bath and North East Somerset. This local focus means we understand your market better than any national agency.',
+  },
+  {
+    q: 'Are there any contracts?',
+    a: 'We offer flexible monthly agreements with no long-term lock-ins. We believe in earning your business every month through results, not contracts.',
+  },
+];
+
 const Contact = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({
@@ -116,6 +139,20 @@ const Contact = () => {
         breadcrumbs={[
           { name: 'Home', url: '/' },
           { name: 'Contact' }
+        ]}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: contactFAQs.map((faq) => ({
+              '@type': 'Question',
+              name: faq.q,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.a,
+              },
+            })),
+          },
         ]}
       />
 
@@ -441,28 +478,7 @@ const Contact = () => {
           </div>
 
           <FAQAccordion 
-            faqs={[
-              {
-                q: 'How long does it take to see results?',
-                a: 'Most clients see significant improvements within 3-6 months. SEO is a long-term strategy, but we focus on quick wins early on while building sustainable rankings.',
-              },
-              {
-                q: 'How much does SEO cost?',
-                a: 'Our local SEO packages start from £150/month (1 service, 1 location). We\'ll provide a custom quote based on your business, competition, and goals during your free consultation.',
-              },
-              {
-                q: 'Do I need a new website?',
-                a: 'Not necessarily. We\'ll assess your current site and recommend improvements. Sometimes a few tweaks are enough, other times a rebuild makes more sense.',
-              },
-              {
-                q: 'What areas do you cover?',
-                a: 'We work exclusively with businesses in Bath and North East Somerset. This local focus means we understand your market better than any national agency.',
-              },
-              {
-                q: 'Are there any contracts?',
-                a: 'We offer flexible monthly agreements with no long-term lock-ins. We believe in earning your business every month through results, not contracts.',
-              },
-            ]}
+            faqs={contactFAQs}
           />
         </div>
       </section>

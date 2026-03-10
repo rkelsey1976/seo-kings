@@ -5,6 +5,8 @@ export function generateStaticParams() {
   return CASE_STUDY_SLUGS.map((slug) => ({ slug }));
 }
 
+export const revalidate = 3600;
+
 export default async function Page({ params }) {
   const resolved = typeof params?.then === 'function' ? await params : params;
   return <CaseStudyDetail params={resolved} />;

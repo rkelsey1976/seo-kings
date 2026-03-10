@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SectionDivider from './SectionDivider';
 
 const Services = () => {
@@ -103,13 +104,12 @@ const Services = () => {
               
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={service.image}
                   alt={service.imageAlt}
                   width={400}
                   height={250}
                   loading="lazy"
-                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-card to-transparent" />

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SectionDivider from './SectionDivider';
 
 const HowItWorks = () => {
@@ -68,13 +69,12 @@ const HowItWorks = () => {
               <div className="bg-dark border border-white/5 rounded-2xl overflow-hidden relative z-10 flex flex-col h-full">
                 {/* Image */}
                 <div className="relative h-48 flex-shrink-0">
-                  <img
+                  <Image
                     src={step.image}
                     alt={step.imageAlt}
                     width={400}
                     height={300}
                     loading="lazy"
-                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/50 to-transparent" />

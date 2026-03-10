@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import { GOOGLE_MAPS_PLACE_URL, GOOGLE_MAPS_EMBED_SRC } from '../constants/business';
@@ -100,14 +101,13 @@ const About = () => {
             </div>
             <div className="relative hidden lg:block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80"
-                srcSet="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop&auto=format&q=80 400w, https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=450&fit=crop&auto=format&q=80 600w"
-                sizes="(max-width: 1024px) 100vw, 50vw"
                 alt="SEO Kings website design and SEO for Bath and North East Somerset businesses"
                 width={600}
                 height={450}
-                fetchPriority="high"
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="relative rounded-3xl border border-white/10 shadow-2xl"
               />
             </div>
@@ -155,13 +155,12 @@ const About = () => {
             <div className="relative">
               {/* Main Image */}
               <div className="relative">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=500&h=400&fit=crop&auto=format&q=80"
                   alt="SEO Kings website design and SEO for Bath and North East Somerset businesses"
                   width={500}
                   height={400}
                   loading="lazy"
-                  decoding="async"
                   className="rounded-2xl border border-white/10 shadow-xl"
                 />
                 {/* Timeline Overlay */}

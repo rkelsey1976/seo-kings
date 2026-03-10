@@ -2,8 +2,21 @@
 import React, { useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
+
+/** Three specific landmarks per area for Local Authority section (SEO/local relevance). */
+const LANDMARKS_BY_SLUG = {
+  keynsham: ['Chocolate Quarter', 'Ashmead Industrial Estate', 'BS31 postcode'],
+  bath: ['Roman Baths', 'Royal Crescent', 'Pulteney Bridge'],
+  'midsomer-norton': ['Midsomer Norton High Street', 'Somer Valley', 'BA3'],
+  radstock: ['Radstock Museum', 'Somer Valley', 'B3110'],
+  'peasedown-st-john': ['Peasedown St John', 'A367', 'Bath & North East Somerset'],
+  paulton: ['Paulton', 'Cam Valley', 'A37'],
+  saltford: ['Saltford', 'Bristol & Bath Railway Path', 'BS31'],
+  'bitton-keynsham': ['Bitton', 'Chocolate Quarter', 'Keynsham'],
+};
 
 const AreaDetail = ({ params: staticParams }) => {
   const dynamicParams = useParams();
@@ -3058,6 +3071,32 @@ const AreaDetail = ({ params: staticParams }) => {
   const router = useRouter();
   const area = areasData[slug];
 
+  // Local Authority section content (dynamic by slug; uses LANDMARKS_BY_SLUG for 3 landmarks)
+  const getLocalAuthorityContent = () => {
+    const landmarks = LANDMARKS_BY_SLUG[slug];
+    if (slug === 'keynsham') {
+      return {
+        heading: 'Local Authority & Key Areas',
+        paragraphs: [
+          'Keynsham sits in Bath and North East Somerset. We help businesses across Keynsham get found on Google — including those in the Chocolate Quarter, on Ashmead Industrial Estate, and across the BS31 postcode.',
+          'A professional website and an optimised Google Business Profile help you reach customers searching for your trade or service in these areas.',
+        ],
+        landmarks: landmarks || ['Chocolate Quarter', 'Ashmead Industrial Estate', 'BS31 postcode'],
+      };
+    }
+    const county = area?.county || 'Bath and North East Somerset';
+    const name = area?.name || slug;
+    const intro = `${name} is in ${county}. We help businesses in ${name} and the surrounding area get found on Google with website design and local SEO.`;
+    return {
+      heading: `Local Authority & ${name}`,
+      paragraphs: landmarks?.length
+        ? [intro, `Key landmarks we reference for local SEO: ${landmarks[0]}, ${landmarks[1]}, and ${landmarks[2]}.`]
+        : [intro],
+      landmarks: landmarks || [],
+    };
+  };
+  const localAuthority = area ? getLocalAuthorityContent() : null;
+
   useEffect(() => {
     if (!area) router.replace('/areas');
     else if (rawSlug !== slug) router.replace(`/areas/${slug}`);
@@ -3156,14 +3195,18 @@ const AreaDetail = ({ params: staticParams }) => {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": area.faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
+    "mainEntity": (area.faqs || []).map(faq => {
+      const q = faq.question ?? faq.q;
+      const a = faq.answer ?? faq.a;
+      return {
+        "@type": "Question",
+        "name": q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": a
+        }
+      };
+    }).filter(item => item.name && item.acceptedAnswer?.text)
   };
 
   // Review schema for Keynsham and Midsomer Norton (aggregate + reviews)
@@ -3201,7 +3244,8 @@ const AreaDetail = ({ params: staticParams }) => {
     ]
   } : null;
 
-  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, faqSchema];
+  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema];
+  if (faqSchema.mainEntity.length > 0) schemasForPage.push(faqSchema);
   if (reviewSchema) schemasForPage.push(reviewSchema);
 
   const defaultServices = [
@@ -3237,12 +3281,13 @@ const AreaDetail = ({ params: staticParams }) => {
       <section className="relative pt-24 pb-16 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src={area.heroImage}
-            alt={`${area.name} - Website design and SEO add-ons`}
+            alt={`Website design and local SEO in ${area.name} — professional websites for trades and businesses`}
+            width={1280}
+            height={720}
+            priority
             className="w-full h-full object-cover opacity-20"
-            loading="eager"
-            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark via-dark/95 to-dark" />
         </div>
@@ -3383,12 +3428,13 @@ const AreaDetail = ({ params: staticParams }) => {
               <div key={idx} className="bg-dark-card border border-white/10 rounded-2xl overflow-hidden">
                 {area.testimonialImage && (
                   <div className="relative w-full aspect-[4/3] sm:aspect-[3/2] min-h-[220px]">
-                    <img
+                    <Image
                       src={area.testimonialImage.src}
                       alt={area.testimonialImage.alt}
+                      width={600}
+                      height={400}
+                      priority
                       className="absolute inset-0 w-full h-full object-contain object-top bg-dark-lighter/50"
-                      loading="eager"
-                      decoding="async"
                     />
                   </div>
                 )}
@@ -3440,7 +3486,7 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
       </section>
 
-      {/* Intro Paragraphs (optional) */}
+      {/* Intro Paragraphs (optional); Keynsham: merged with Local Authority & Key Areas in same section */}
       {area.introParagraphs && area.introParagraphs.length > 0 && (
         <section className="py-12 bg-dark-lighter">
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.introImage ? 'grid lg:grid-cols-2 gap-10 items-center' : 'max-w-4xl'}`}>
@@ -3448,12 +3494,39 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
+              {/* Keynsham: merge Local Authority & Key Areas (Chocolate Quarter, Ashmead, BS31) into this section */}
+              {slug === 'keynsham' && localAuthority && (
+                <>
+                  <h2 id="local-authority-heading" className="text-2xl font-bold text-white mt-8 mb-4 pt-6 border-t border-white/10">
+                    {localAuthority.heading}
+                  </h2>
+                  {localAuthority.paragraphs.map((para, idx) => (
+                    <p key={idx}>{para}</p>
+                  ))}
+                </>
+              )}
             </div>
             {area.introImage && (
               <div>
-                <img src={area.introImage.src} alt={area.introImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" loading="lazy" decoding="async" />
+                <Image src={area.introImage.src} alt={area.introImage.alt} width={800} height={450} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" />
               </div>
             )}
+          </div>
+        </section>
+      )}
+
+      {/* Local Authority section — for non-Keynsham areas; Keynsham content is merged above */}
+      {localAuthority && slug !== 'keynsham' && (
+        <section className="py-12 bg-dark-lighter" aria-labelledby="local-authority-heading">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="local-authority-heading" className="text-2xl font-bold text-white mb-6">
+              {localAuthority.heading}
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              {localAuthority.paragraphs.map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -3472,7 +3545,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
           {area.whySectionImage && (
             <div className="flex justify-center mb-12">
-              <img src={area.whySectionImage.src} alt={area.whySectionImage.alt} className="rounded-xl border border-white/10 object-cover max-w-2xl w-full h-64 sm:h-72" loading="lazy" decoding="async" />
+              <Image src={area.whySectionImage.src} alt={area.whySectionImage.alt} width={672} height={288} loading="lazy" className="rounded-xl border border-white/10 object-cover max-w-2xl w-full h-64 sm:h-72" />
             </div>
           )}
 
@@ -3518,12 +3591,13 @@ const AreaDetail = ({ params: staticParams }) => {
               </div>
               {area.extraContentSection.image && (
                 <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-lg">
-                  <img
+                  <Image
                     src={area.extraContentSection.image.src}
                     alt={area.extraContentSection.image.alt}
-                    className="w-full h-auto object-cover"
+                    width={800}
+                    height={450}
                     loading="lazy"
-                    decoding="async"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
               )}
@@ -3571,7 +3645,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
           {area.servicesSectionImage && (
             <div className="flex justify-center mb-12">
-              <img src={area.servicesSectionImage.src} alt={area.servicesSectionImage.alt} className="rounded-xl border border-white/10 object-cover max-w-xl w-full h-56" loading="lazy" decoding="async" />
+              <Image src={area.servicesSectionImage.src} alt={area.servicesSectionImage.alt} width={672} height={376} loading="lazy" className="rounded-xl border border-white/10 object-cover max-w-xl w-full h-56" />
             </div>
           )}
 
@@ -3608,7 +3682,7 @@ const AreaDetail = ({ params: staticParams }) => {
         <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.websiteDesignSectionImage ? 'grid lg:grid-cols-2 gap-12 items-center' : 'max-w-4xl'}`}>
           {area.websiteDesignSectionImage && (
             <div className="order-2 lg:order-1">
-              <img src={area.websiteDesignSectionImage.src} alt={area.websiteDesignSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-72 lg:h-80" loading="lazy" decoding="async" />
+              <Image src={area.websiteDesignSectionImage.src} alt={area.websiteDesignSectionImage.alt} width={800} height={356} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-72 lg:h-80" />
             </div>
           )}
           <div className={area.websiteDesignSectionImage ? 'order-1 lg:order-2' : ''}>
@@ -3653,7 +3727,7 @@ const AreaDetail = ({ params: staticParams }) => {
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.costSectionImage ? 'grid lg:grid-cols-2 gap-12 items-start' : 'max-w-4xl'}`}>
             {area.costSectionImage && (
               <div>
-                <img src={area.costSectionImage.src} alt={area.costSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 lg:sticky lg:top-24" loading="lazy" decoding="async" />
+                <Image src={area.costSectionImage.src} alt={area.costSectionImage.alt} width={600} height={384} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-64 lg:sticky lg:top-24" />
               </div>
             )}
             <div>
@@ -3695,7 +3769,7 @@ const AreaDetail = ({ params: staticParams }) => {
             </div>
             {area.whatToLookForSectionImage && (
               <div className="lg:sticky lg:top-24">
-                <img src={area.whatToLookForSectionImage.src} alt={area.whatToLookForSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" loading="lazy" decoding="async" />
+                <Image src={area.whatToLookForSectionImage.src} alt={area.whatToLookForSectionImage.alt} width={600} height={336} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-64 sm:h-72" />
               </div>
             )}
           </div>
@@ -3727,7 +3801,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
             {area.keywordsSectionImage && (
               <div className="hidden lg:block">
-                <img src={area.keywordsSectionImage.src} alt={area.keywordsSectionImage.alt} className="rounded-xl border border-white/10 object-cover w-full h-64" loading="lazy" decoding="async" />
+                <Image src={area.keywordsSectionImage.src} alt={area.keywordsSectionImage.alt} width={600} height={384} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-64" />
               </div>
             )}
 
@@ -3766,15 +3840,15 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16">
+      {/* FAQ Section — FAQPage schema for People Also Ask rich results */}
+      <section id="faq" className="py-16" aria-labelledby="faq-heading">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Frequently Asked Questions About SEO in {area.name}
+            <h2 id="faq-heading" className="text-3xl font-bold text-white mb-4">
+              Frequently Asked Questions About Website Design & SEO in {area.name}
             </h2>
             <p className="text-gray-400">
-              Common questions from {area.name} businesses about our local SEO services.
+              Common questions from {area.name} businesses about our website design and local SEO services.
             </p>
           </div>
 
@@ -3883,12 +3957,13 @@ const AreaDetail = ({ params: staticParams }) => {
           {area.ctaImage && !area.ctaBackgroundImage && (
             <div className="order-2 lg:order-2 flex justify-center lg:justify-end">
               <div className="relative rounded-2xl overflow-hidden border-2 border-white/10 shadow-2xl shadow-primary/20 max-w-md w-full">
-                <img
+                <Image
                   src={area.ctaImage.src}
                   alt={area.ctaImage.alt}
-                  className="w-full h-auto object-cover"
+                  width={448}
+                  height={300}
                   loading="lazy"
-                  decoding="async"
+                  className="w-full h-auto object-cover"
                 />
               </div>
             </div>

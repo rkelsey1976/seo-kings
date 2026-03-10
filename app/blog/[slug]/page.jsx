@@ -6,7 +6,9 @@ export function generateStaticParams() {
   return BLOG_SLUGS.map((slug) => ({ slug }));
 }
 
-// Allow paths not pre-generated at build time (e.g. new slugs) so the page still runs and BlogPost can render or redirect
+export const revalidate = 3600;
+
+// Allow paths not pre-generated at build time
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }) {
