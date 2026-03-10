@@ -18,6 +18,60 @@ const LANDMARKS_BY_SLUG = {
   'bitton-keynsham': ['Bitton', 'Chocolate Quarter', 'Keynsham'],
 };
 
+/** GeoCoordinates (lat, lng) per area for LocalBusiness schema — supports "near me" and service radius. */
+const AREA_GEO = {
+  keynsham: { latitude: 51.4139, longitude: -2.4989 },
+  bath: { latitude: 51.3811, longitude: -2.3590 },
+  'midsomer-norton': { latitude: 51.2856, longitude: -2.4858 },
+  radstock: { latitude: 51.2922, longitude: -2.4497 },
+  'peasedown-st-john': { latitude: 51.3167, longitude: -2.4242 },
+  paulton: { latitude: 51.3042, longitude: -2.5011 },
+  saltford: { latitude: 51.4014, longitude: -2.4594 },
+  timsbury: { latitude: 51.3264, longitude: -2.4792 },
+  westfield: { latitude: 51.3031, longitude: -2.4592 },
+  'chew-magna': { latitude: 51.3667, longitude: -2.6167 },
+  'temple-cloud': { latitude: 51.3236, longitude: -2.4917 },
+  clutton: { latitude: 51.3292, longitude: -2.5431 },
+  'odd-down-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'combe-down-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'widcombe-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'larkhall-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'twerton-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'weston-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'oldfield-park-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'bear-flat-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'bathampton-bath': { latitude: 51.4236, longitude: -2.3211 },
+  'bathwick-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'southdown-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'batheaston-bath': { latitude: 51.4011, longitude: -2.3192 },
+  'walcot-bath': { latitude: 51.3811, longitude: -2.3590 },
+  'bathford-bath': { latitude: 51.4014, longitude: -2.3011 },
+  'bitton-keynsham': { latitude: 51.4397, longitude: -2.4592 },
+  'hanham-keynsham': { latitude: 51.4511, longitude: -2.5094 },
+  'oldland-keynsham': { latitude: 51.4139, longitude: -2.4989 },
+  'longwell-green-keynsham': { latitude: 51.4139, longitude: -2.4989 },
+  'warmley-keynsham': { latitude: 51.4139, longitude: -2.4989 },
+  'clandon-midsomer-norton': { latitude: 51.2856, longitude: -2.4858 },
+  'farrington-gurney-midsomer-norton': { latitude: 51.2856, longitude: -2.4858 },
+  'writhlington-radstock': { latitude: 51.2922, longitude: -2.4497 },
+  'chilcompton-radstock': { latitude: 51.2922, longitude: -2.4497 },
+  'stanton-drew-chew-magna': { latitude: 51.3667, longitude: -2.6167 },
+  'chew-stoke-chew-magna': { latitude: 51.3667, longitude: -2.6167 },
+  'bishop-sutton-chew-magna': { latitude: 51.3667, longitude: -2.6167 },
+  'high-littleton-paulton': { latitude: 51.3042, longitude: -2.5011 },
+  'hallatrow-paulton': { latitude: 51.3042, longitude: -2.5011 },
+};
+
+/** Business address for schema: Keynsham-specific (our office). */
+const BUSINESS_ADDRESS_KEYNSHAM = {
+  '@type': 'PostalAddress',
+  streetAddress: '16a Culvers Road',
+  addressLocality: 'Keynsham',
+  addressRegion: 'Somerset',
+  postalCode: 'BS31 2DW',
+  addressCountry: 'GB',
+};
+
 const AreaDetail = ({ params: staticParams }) => {
   const dynamicParams = useParams();
   const rawSlug = staticParams?.slug ?? dynamicParams?.slug;
@@ -3192,6 +3246,64 @@ const AreaDetail = ({ params: staticParams }) => {
     }
   };
 
+  // Area-specific LocalBusiness (ProfessionalService) with address, serviceArea, and geo for "near me" visibility
+  const areaGeo = AREA_GEO[slug] || (area.parentSlug && AREA_GEO[area.parentSlug]) || AREA_GEO.keynsham;
+  const areaLocalBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "@id": `${siteUrl}/#localbusiness-${slug}`,
+    "name": "SEO Kings",
+    "description": `Website design and local SEO in ${area.name}. We help trades and small businesses in ${area.name} and ${area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")} get found on Google.`,
+    "url": siteUrl,
+    "telephone": "+447702264921",
+    "address": BUSINESS_ADDRESS_KEYNSHAM,
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": areaGeo.latitude,
+      "longitude": areaGeo.longitude
+    },
+    "serviceArea": [
+      {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": areaGeo.latitude,
+          "longitude": areaGeo.longitude
+        },
+        "geoRadius": "15000"
+      },
+      {
+        "@type": "Place",
+        "name": area.name,
+        "containedInPlace": { "@type": "AdministrativeArea", "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset") }
+      }
+    ],
+    "areaServed": areaServed
+  };
+  if (slug === 'keynsham' || slug === 'midsomer-norton') {
+    areaLocalBusinessSchema.aggregateRating = {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "2",
+      "bestRating": "5",
+      "worstRating": "1"
+    };
+    areaLocalBusinessSchema.review = [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Jay" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Peachy Cleans" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more."
+      }
+    ];
+  }
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3209,44 +3321,8 @@ const AreaDetail = ({ params: staticParams }) => {
     }).filter(item => item.name && item.acceptedAnswer?.text)
   };
 
-  // Review schema for Keynsham and Midsomer Norton (aggregate + reviews)
-  const reviewSchema = (slug === 'keynsham' || slug === 'midsomer-norton') ? {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${siteUrl}/#localbusiness`,
-    "name": "SEO Kings",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "150",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Jay" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend."
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Keynsham Electrics client" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "SEO Kings got us from not ranking to top 3 in Keynsham. We now get 50+ more calls per month. Their local SEO and Google Business Profile work made the difference."
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Peachy Cleans" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more."
-      }
-    ]
-  } : null;
-
-  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema];
+  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, areaLocalBusinessSchema];
   if (faqSchema.mainEntity.length > 0) schemasForPage.push(faqSchema);
-  if (reviewSchema) schemasForPage.push(reviewSchema);
 
   const defaultServices = [
     { name: 'Website Design', description: `Fast, mobile-friendly sites from £399. Our main service in ${area.name}.`, icon: 'desktop' },
