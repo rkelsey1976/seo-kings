@@ -1,0 +1,15 @@
+---
+description: SEO and content rules for area pages (Website Design [Town] pages)
+globs: app/areas/**/*.jsx, src/pages/AreaDetail.jsx, src/constants/areaMeta.js
+alwaysApply: false
+---
+
+# Area Pages SEO
+
+When editing area pages or AreaDetail.jsx:
+
+- **Schema**: Each area must have unique LocalBusiness and Service JSON-LD. Use the area’s own `area.name` and `area.postcodes` in areaServed/serviceArea (e.g. Keynsham + BS31, Bath + BA1/BA2). Keep @id per-slug (e.g. `#localbusiness-{slug}`).
+- **Metadata**: Title and meta description must include the specific town name and "Website Designer" where relevant. Keep areaMeta.js in sync with areasData metaTitle/metaDescription.
+- **Content**: Prefer a distinct "Why choose SEO Kings in [Town Name]" (or equivalent) per area to avoid duplicate content; use area-specific copy, landmarks, or stats.
+- **Links**: Include a clear link back to the homepage and links to nearby areas (e.g. nearbyAreas) for crawlability.
+- **Constraints**: Do not change CSS theme or layout; only change SEO metadata, schema, and location-specific strings.

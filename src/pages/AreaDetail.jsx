@@ -11,11 +11,42 @@ const LANDMARKS_BY_SLUG = {
   keynsham: ['Chocolate Quarter', 'Ashmead Industrial Estate', 'BS31 postcode'],
   bath: ['Roman Baths', 'Royal Crescent', 'Pulteney Bridge'],
   'midsomer-norton': ['Midsomer Norton High Street', 'Somer Valley', 'BA3'],
-  radstock: ['Radstock Museum', 'Somer Valley', 'B3110'],
-  'peasedown-st-john': ['Peasedown St John', 'A367', 'Bath & North East Somerset'],
-  paulton: ['Paulton', 'Cam Valley', 'A37'],
-  saltford: ['Saltford', 'Bristol & Bath Railway Path', 'BS31'],
+  radstock: ['Radstock Museum', 'Victoria Hall', 'BA3 postcode'],
+  'peasedown-st-john': ['Beacon Hall', 'St John the Baptist Church', 'BA2 postcode'],
+  paulton: ['Paulton Village Centre', 'Cam Valley', 'BS39 postcode'],
+  saltford: ['Saltford Manor', 'Bristol & Bath Railway Path', 'BS31 postcode'],
+  timsbury: ["St Mary's Church", 'Timsbury Playing Fields', 'BA2 postcode'],
+  westfield: ['Somer Valley', 'Westfield village', 'BA3 postcode'],
+  'chew-magna': ['Chew Valley Lake', 'Chew Magna village', 'BS40 postcode'],
+  'temple-cloud': ['Temple Cloud village', 'Cam Valley', 'BS39 postcode'],
+  clutton: ['Clutton village', 'Cam Valley', 'BS39 postcode'],
   'bitton-keynsham': ['Bitton', 'Chocolate Quarter', 'Keynsham'],
+  'odd-down-bath': ['Odd Down Park', 'Southgate', 'BA2 postcode'],
+  'combe-down-bath': ['Combe Down Stone Mines', 'Prior Park', 'BA2 postcode'],
+  'widcombe-bath': ['Widcombe Hill', 'Bath Spa Station', 'BA2 postcode'],
+  'larkhall-bath': ['Larkhall Square', 'London Road', 'BA1/BA2 postcode'],
+};
+
+/** Wikipedia URLs for schema areaServed Place sameAs (semantic context for AI/search). */
+const WIKIPEDIA_BY_SLUG = {
+  keynsham: 'https://en.wikipedia.org/wiki/Keynsham',
+  bath: 'https://en.wikipedia.org/wiki/Bath,_Somerset',
+  'midsomer-norton': 'https://en.wikipedia.org/wiki/Midsomer_Norton',
+  radstock: 'https://en.wikipedia.org/wiki/Radstock',
+  'peasedown-st-john': 'https://en.wikipedia.org/wiki/Peasedown_St_John',
+  paulton: 'https://en.wikipedia.org/wiki/Paulton',
+  saltford: 'https://en.wikipedia.org/wiki/Saltford',
+  timsbury: 'https://en.wikipedia.org/wiki/Timsbury',
+  westfield: 'https://en.wikipedia.org/wiki/Westfield,_Somerset',
+  'chew-magna': 'https://en.wikipedia.org/wiki/Chew_Magna',
+  'temple-cloud': 'https://en.wikipedia.org/wiki/Temple_Cloud',
+  clutton: 'https://en.wikipedia.org/wiki/Clutton,_Somerset',
+  'odd-down-bath': 'https://en.wikipedia.org/wiki/Bath,_Somerset',
+  'combe-down-bath': 'https://en.wikipedia.org/wiki/Combe_Down',
+  'widcombe-bath': 'https://en.wikipedia.org/wiki/Widcombe,_Bath',
+  'larkhall-bath': 'https://en.wikipedia.org/wiki/Larkhall,_Bath',
+  'bitton-keynsham': 'https://en.wikipedia.org/wiki/Bitton,_South_Gloucestershire',
+  'hanham-keynsham': 'https://en.wikipedia.org/wiki/Hanham',
 };
 
 /** GeoCoordinates (lat, lng) per area for LocalBusiness schema — supports "near me" and service radius. */
@@ -306,7 +337,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: '07702 264 921',
       ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Keynsham business.',
       ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Keynsham' },
-      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: '' },
+      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: 'Website design and local SEO in Keynsham — get found on Google' },
       nearbyAreas: ['bath', 'saltford', 'paulton', 'midsomer-norton', 'radstock'],
       subAreaSlugs: ['bitton-keynsham', 'hanham-keynsham', 'oldland-keynsham', 'longwell-green-keynsham', 'warmley-keynsham'],
       subAreasHeading: 'Areas near Keynsham we cover',
@@ -461,7 +492,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSecondaryText: '07702 264 921',
       ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Midsomer Norton business.',
       ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Midsomer Norton' },
-      ctaBackgroundImage: { src: '/images/midsomer-norton/midsomer-norton-cta-background-code.png', alt: '' },
+      ctaBackgroundImage: { src: '/images/midsomer-norton/midsomer-norton-cta-background-code.png', alt: 'Website design and local SEO in Midsomer Norton — get found on Google' },
       costSection: {
         heading: 'Website design costs in Midsomer Norton',
         paragraphs: [
@@ -3140,7 +3171,10 @@ const AreaDetail = ({ params: staticParams }) => {
     }
     const county = area?.county || 'Bath and North East Somerset';
     const name = area?.name || slug;
-    const intro = `${name} is in ${county}. We help businesses in ${name} and the surrounding area get found on Google with website design and local SEO.`;
+    const postcodeHint = Array.isArray(area?.postcodes) && area.postcodes.length
+      ? ` (${area.postcodes.join(', ')} and nearby)`
+      : '';
+    const intro = `${name} is in ${county}. We help businesses in ${name} and the surrounding area${postcodeHint} get found on Google with website design and local SEO.`;
     return {
       heading: `Local Authority & ${name}`,
       paragraphs: landmarks?.length
@@ -3177,11 +3211,13 @@ const AreaDetail = ({ params: staticParams }) => {
     ]
   };
 
-  // areaServed for this area: place + optional postcodes
+  // areaServed for this area: place (with Wikipedia sameAs when available) + postcodes
+  const placeWikipedia = WIKIPEDIA_BY_SLUG[slug] || (area.parentSlug && WIKIPEDIA_BY_SLUG[area.parentSlug]);
   const areaServed = [
     {
       "@type": "Place",
       "name": area.name,
+      ...(placeWikipedia ? { "sameAs": placeWikipedia } : {}),
       "containedInPlace": {
         "@type": "AdministrativeArea",
         "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")
@@ -3643,6 +3679,46 @@ const AreaDetail = ({ params: staticParams }) => {
               </p>
             </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* E-E-A-T: Local client testimonials (placeholder per area for trust signals) */}
+      <section className="py-16 bg-dark-lighter" aria-labelledby="local-testimonials-heading">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 id="local-testimonials-heading" className="text-3xl font-bold text-white mb-2 text-center">
+            What {area.name} clients say
+          </h2>
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-10">
+            Local businesses and trades in {area.name} trust us to get them found on Google.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {area.localTestimonials && area.localTestimonials.length > 0 ? (
+              area.localTestimonials.map((t, idx) => (
+                <div key={idx} className="bg-dark-card border border-white/10 rounded-xl p-6">
+                  <div className="flex gap-2 mb-4" aria-label="5 star rating">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <blockquote className="text-gray-300 mb-4 leading-relaxed">&ldquo;{t.quote}&rdquo;</blockquote>
+                  <div className="font-semibold text-white">{t.name}</div>
+                  <div className="text-sm text-gray-400">{t.businessDisplay || t.business}</div>
+                </div>
+              ))
+            ) : (
+              <div className="bg-dark-card border border-white/10 rounded-xl p-6 md:col-span-2 lg:col-span-3">
+                <p className="text-gray-400 leading-relaxed">
+                  We&apos;ve helped trades and businesses across {area.name}{Array.isArray(area.postcodes) && area.postcodes.length ? ` (${area.postcodes.join(', ')} and nearby)` : ''} get found on Google with website design and local SEO. Want to be the next success story? Get in touch for a free audit.
+                </p>
+                <Link href="/contact" className="inline-flex items-center gap-2 mt-4 text-primary-light font-medium hover:text-white transition-colors">
+                  Get a free audit
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </section>

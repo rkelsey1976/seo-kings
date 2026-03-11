@@ -5,6 +5,7 @@ import WhyChoose from '../src/components/WhyChoose';
 import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
 import Reviews from '../src/components/Reviews';
+import HomePageFAQSchema from './HomePageFAQSchema';
 
 const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: true });
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
@@ -25,6 +26,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
+      <HomePageFAQSchema />
       <Hero />
       <DesignProcess />
       <WhyChoose />
