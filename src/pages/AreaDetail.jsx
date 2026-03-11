@@ -3320,8 +3320,25 @@ const AreaDetail = ({ params: staticParams }) => {
     ]
   };
 
-  // areaServed for this area: place (with Wikipedia sameAs when available) + postcodes
+  // areaServed for this area: place (with Wikipedia sameAs when available) + postcodes + nearby places for richer local signal
   const placeWikipedia = WIKIPEDIA_BY_SLUG[slug] || (area.parentSlug && WIKIPEDIA_BY_SLUG[area.parentSlug]);
+  const nearbySlugs = Array.isArray(area.nearbyAreas) ? area.nearbyAreas.slice(0, 4) : [];
+  const nearbyPlaces = nearbySlugs
+    .map((s) => {
+      const a = areasData[s];
+      if (!a?.name) return null;
+      const sameAs = WIKIPEDIA_BY_SLUG[s] || (a.parentSlug && WIKIPEDIA_BY_SLUG[a.parentSlug]);
+      return {
+        "@type": "Place",
+        "name": a.name,
+        ...(sameAs ? { "sameAs": sameAs } : {}),
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": a.county === "Bristol" ? "Bath and North East Somerset" : (a.county || "Bath and North East Somerset")
+        }
+      };
+    })
+    .filter(Boolean);
   const areaServed = [
     {
       "@type": "Place",
@@ -3332,8 +3349,20 @@ const AreaDetail = ({ params: staticParams }) => {
         "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")
       }
     },
+    ...nearbyPlaces,
     ...(Array.isArray(area.postcodes) ? area.postcodes.map((pc) => ({ "@type": "PostalCode", "name": pc, "addressCountry": "GB" })) : [])
   ].filter(Boolean);
+
+  // LocalBusiness description: current area + 2–3 nearby area names so JSON-LD matches the town in the URL
+  const regionName = area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset");
+  const nearbyNames = nearbySlugs
+    .map((s) => areasData[s]?.name)
+    .filter(Boolean)
+    .slice(0, 3);
+  const areasPhrase = nearbyNames.length > 0
+    ? `${area.name}, ${nearbyNames.join(', ')} and ${regionName}`
+    : `${area.name} and ${regionName}`;
+  const localBusinessDescription = `We work in ${area.name}. Website design and local SEO in ${area.name}. We help trades and small businesses in ${areasPhrase} get found on Google.`;
 
   const serviceWebsiteDesignSchema = {
     "@context": "https://schema.org",
@@ -3398,7 +3427,7 @@ const AreaDetail = ({ params: staticParams }) => {
     "@type": ["LocalBusiness", "ProfessionalService"],
     "@id": `${siteUrl}/#localbusiness-${slug}`,
     "name": "SEO Kings",
-    "description": `We work in ${area.name}. Website design and local SEO in ${area.name}. We help trades and small businesses in ${area.name} and ${area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")} get found on Google.`,
+    "description": localBusinessDescription,
     "url": `${siteUrl}/areas/${slug}`,
     "telephone": "+447702264921",
     "address": BUSINESS_ADDRESS_KEYNSHAM,
