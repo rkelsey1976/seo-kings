@@ -2,7 +2,6 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import BaseSchemas from './BaseSchemas';
-import WebDesignServiceSchema from './WebDesignServiceSchema';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import ScrollToTop from '../src/components/ScrollToTop';
@@ -45,7 +44,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
-        <WebDesignServiceSchema />
+        <BaseSchemas />
       </head>
       <body suppressHydrationWarning>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
@@ -62,7 +61,6 @@ export default function RootLayout({ children }) {
           <textarea name="message" />
           <input name="bot-field" />
         </form>
-        <BaseSchemas />
         <div className="min-h-screen bg-dark grid-bg">
           <ScrollToTop />
           <Navbar />

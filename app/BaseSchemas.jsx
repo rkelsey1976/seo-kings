@@ -33,6 +33,14 @@ const websiteSchema = {
   description: 'Web agency and Website Designer in Bath and North East Somerset. Website Design from £399, local SEO and Google Business Profile so you get found on Google.',
   publisher: { '@id': `${siteUrl}/#organization` },
   inLanguage: 'en-GB',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteUrl}/blog?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
 };
 
 // Keynsham / BS31 geo (town centre approx)
