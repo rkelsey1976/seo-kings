@@ -121,12 +121,15 @@ const AreaDetail = ({ params: staticParams }) => {
       metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
       heroHeadline: 'Website design in Bath',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubtext: 'No obligation. No credit card required.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
       extendedDescription: 'This creates huge demand for local services — from plumbers fixing tourist rentals to builders on new developments. Customers search Google for "plumber Bath" or "electrician Bath". We get you to the top.',
       introParagraphs: [
         'We help businesses across Bath get found on Google — from the city centre to every neighbourhood. Bath is a historic city with thousands of residents and millions of visitors each year searching for plumbers, electricians, builders, and other trades.',
         'We cover the whole of Bath including Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford, and more — so you can rank for Bath and your local area.',
       ],
+      introImage: { src: '/images/bath/royal-crescent-bath.png', alt: 'Royal Crescent, Bath' },
+      testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
       heroStats: [
         { value: '95,000+', label: 'Residents' },
         { value: 'High', label: 'Competition' },
@@ -140,12 +143,18 @@ const AreaDetail = ({ params: staticParams }) => {
         avgCPC: '£2.50',
       },
       ctaButtonText: 'Get Free Audit – No Obligation',
+      whyHeading: 'Why Choose SEO Kings in Bath',
       whyIntro: 'Bath has strong local competition and high search volume. If you\'re not on page 1 or in the map pack, tourists and residents go to competitors.',
       whyBullets: [
         { title: 'Tourism boost', text: 'Millions of visitors search for services near landmarks.' },
         { title: 'High competition', text: 'Stand out with targeted local SEO.' },
         { title: 'Strong ROI', text: 'Organic rankings save money vs paid ads (often £2+ per click).' },
       ],
+      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design wireframe and planning' },
+      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop' },
+      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
+      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
@@ -162,6 +171,11 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksHeading: 'Local Landmarks We Use',
       landmarksIntro: 'We reference real Bath places to boost relevance:',
       landmarks: ['Roman Baths', 'Bath Abbey', 'Royal Crescent', 'Pulteney Bridge', 'Thermae Bath Spa'],
+      gallery: [
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/800px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg', alt: 'Roman Baths, Bath', caption: 'Roman Baths' },
+        { src: '/images/bath/royal-crescent-bath.png', alt: 'Royal Crescent, Bath', caption: 'Royal Crescent' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pulteney_Bridge_from_the_south.jpg/800px-Pulteney_Bridge_from_the_south.jpg', alt: 'Pulteney Bridge, Bath', caption: 'Pulteney Bridge' },
+      ],
       testimonial: {
         label: 'Bath Result',
         caseTitle: 'New Decorating, Bath',
@@ -171,6 +185,20 @@ const AreaDetail = ({ params: staticParams }) => {
         businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES',
         result: 'Top 8 on Google Maps in a week',
       },
+      extraContentSection: {
+        heading: 'Why SEO Kings for Bath',
+        subheading: 'Our approach to website design in Bath',
+        image: { src: '/images/keynsham/keynsham-website-designer-mobile-desktop.png', alt: 'Mobile and desktop — we build websites that work on every device' },
+        paragraphs: [
+          "We've been helping businesses across Bath and North East Somerset get found on Google for years. When you choose us for website design in Bath, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website design Bath', 'plumber Bath', 'electrician Bath' and your trade terms so you show up when local customers and visitors search.",
+          "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Bath and your neighbourhood. That means you're in the race for the map pack and page one from launch, not months later.",
+          "Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. We work with trades and small businesses across BA1, BA2, Keynsham, and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.",
+        ],
+      },
+      recentProjects: [
+        { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website at new-decorating.co.uk and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+        { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks and hiring new staff; we\'re expanding their visibility across Radstock, Bath, Frome and Somerset.', caseStudySlug: 'peachy-cleans' },
+      ],
       howItWorks: [
         { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
         { title: 'Custom plan', description: "Tailored for Bath's tourism and local market." },
@@ -197,6 +225,24 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaSubhead: 'Join Bath businesses already on page one.',
       ctaPrimaryText: 'Get a Free Website Quote',
       ctaSecondaryText: 'Free Consultation – Get Started',
+      ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Bath' },
+      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: 'Website design and local SEO in Bath — get found on Google' },
+      costSection: {
+        heading: 'Website design costs in Bath',
+        paragraphs: [
+          'Website design in Bath starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Bath businesses can plan. See our web design packages for full details.',
+        ],
+      },
+      whatToLookForSection: {
+        heading: 'What to look for in a Bath web designer',
+        bullets: [
+          { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Bath, Keynsham or Somerset.' },
+          { title: 'Local knowledge', text: 'A good Bath web designer knows the searches people use ("plumber Bath", "website design Bath") and how to optimise for them.' },
+          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
+          { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
+        ],
+      },
       nearbyHeading: 'Nearby Areas We Serve',
       nearbyAreas: ['keynsham', 'midsomer-norton', 'radstock', 'peasedown-st-john', 'paulton', 'saltford', 'timsbury'],
       websiteDesignBlogSlug: 'website-design-bath',
@@ -218,6 +264,10 @@ const AreaDetail = ({ params: staticParams }) => {
         {
           question: 'Do you specialise in Bath industries?',
           answer: "Yes — trades (plumbers, builders), hospitality, retail, and more. We know Bath's market.",
+        },
+        {
+          question: 'How much does website design cost in Bath?',
+          answer: 'Website design in Bath starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
         },
       ],
     },
@@ -3574,7 +3624,7 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
       </section>
 
-      {/* Intro Paragraphs (optional); Keynsham: merged with Local Authority & Key Areas in same section */}
+      {/* Intro Paragraphs (optional); Keynsham & Bath: merged with Local Authority in same section */}
       {area.introParagraphs && area.introParagraphs.length > 0 && (
         <section className="py-12 bg-dark-lighter">
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.introImage ? 'grid lg:grid-cols-2 gap-10 items-center' : 'max-w-4xl'}`}>
@@ -3582,8 +3632,8 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
-              {/* Keynsham: merge Local Authority & Key Areas (Chocolate Quarter, Ashmead, BS31) into this section */}
-              {slug === 'keynsham' && localAuthority && (
+              {/* Keynsham/Bath: merge Local Authority into this section */}
+              {(slug === 'keynsham' || slug === 'bath') && localAuthority && (
                 <>
                   <h2 id="local-authority-heading" className="text-2xl font-bold text-white mt-8 mb-4 pt-6 border-t border-white/10">
                     {localAuthority.heading}
@@ -3603,8 +3653,8 @@ const AreaDetail = ({ params: staticParams }) => {
         </section>
       )}
 
-      {/* Local Authority section — for non-Keynsham areas; Keynsham content is merged above */}
-      {localAuthority && slug !== 'keynsham' && (
+      {/* Local Authority section — for other areas; Keynsham & Bath content is merged above */}
+      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && (
         <section className="py-12 bg-dark-lighter" aria-labelledby="local-authority-heading">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 id="local-authority-heading" className="text-2xl font-bold text-white mb-6">
