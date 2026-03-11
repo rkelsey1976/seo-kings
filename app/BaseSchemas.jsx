@@ -130,27 +130,6 @@ const localBusinessSchema = {
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', closed: true },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Sunday', closed: true },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '5',
-    bestRating: '5',
-    worstRating: '1',
-    reviewCount: '2',
-  },
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Jay' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend.",
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Organization', name: 'Peachy Cleans' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more.",
-    },
-  ],
   sameAs: ['https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
 };
 
