@@ -13,6 +13,14 @@ const BLOG_SERVICES = [
 
 const posts = [
   {
+    slug: 'keynsham-farmers-market-2026',
+    title: 'Keynsham Farmers\' Market 2026: How Traders Can Get More Customers with a Professional Website',
+    excerpt: 'The Keynsham farmers market brings the town to life every second Saturday. How a simple website and Google Business Profile help market traders get found the other 28 days — and get more customers.',
+    date: '2026-03-11',
+    readTime: '5 min read',
+    services: ['web-design', 'gbp'],
+  },
+  {
     slug: 'new-decorating-website-bath',
     title: 'New Decorating Bath: From No Web Presence to Top 8 on Google Maps in a Week',
     excerpt: 'Jay at New Decorating had no web presence. We built his website and optimised his Google Business Profile — within a week he was ranking for long-tail keywords and in the top 8 on Google Maps.',

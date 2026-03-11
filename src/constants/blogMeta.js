@@ -100,4 +100,8 @@ export const BLOG_META = {
     title: 'How We Get You to Number One on Google Maps',
     description: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here\'s how we help you get into that top spot — in plain English.',
   },
+  'keynsham-farmers-market-2026': {
+    title: 'Keynsham Farmers\' Market 2026: How Traders Can Get More Customers with a Professional Website',
+    description: 'The Keynsham farmers market brings the town to life every second Saturday. How a simple website and Google Business Profile help market traders get found the other 28 days — and get more customers. From SEO Kings, Keynsham.',
+  },
 };
