@@ -1231,6 +1231,65 @@ const blogPosts = {
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
     ],
   },
+  'keynsham-trades-losing-jobs-google': {
+    slug: 'keynsham-trades-losing-jobs-google',
+    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)',
+    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £399 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
+    date: '2026-03-12',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham, website design Keynsham, website designer Keynsham, Google ranking Keynsham, Google Business Profile Keynsham',
+    sections: [
+      {
+        heading: 'Why Keynsham trades are losing out',
+        paragraphs: [
+          'If you\'re a plumber in Keynsham, an electrician in BS31, or a builder or roofer working around the town, you\'ve probably had this happen: a customer needed someone fast, typed "plumber near me Keynsham" or "emergency builder Keynsham" into Google — and called someone else. Not because you\'re not good at your job, but because you didn\'t show up on page one or in the map. Keynsham trades are losing jobs to Google every day. The good news? It\'s fixable, and it doesn\'t have to cost a fortune.',
+          'Keynsham\'s growing. With a population of around 20,000 and new homes going up off Manor Road and elsewhere, there\'s plenty of demand for plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, and decorator Keynsham work. People move in, they need boilers fixed, rewires, extensions, and repaints — and they search Google. The problem is simple: if you\'re not on the first page or in the map pack, you\'re invisible.',
+          'What\'s going wrong for most trades? No website or an old one — a broken site or nothing at all tells customers and Google you\'re not serious. No Google Business Profile or a poor one — your free listing is how you get into the map pack; if it\'s missing or half-empty, you don\'t show up. Bigger firms and nationals have website design Keynsham and Google Business Profile Keynsham sorted and rank for "plumber Keynsham" and "emergency builder Keynsham". New residents in the developments need a plumber or electrician fast and call whoever appears first. Town centre regeneration around Market Walk, the High Street, and the Chocolate Quarter means more demand — the trades that get the work are the ones that show up when that demand turns into a Google search.',
+        ],
+      },
+      {
+        heading: 'How a £399 website fixes it',
+        paragraphs: [
+          'You don\'t need a £5,000 site to get found. A website designer in Keynsham who builds for local search can give you a professional, mobile-friendly site from £399 that does the job.',
+          'Mobile-friendly and fast — most "plumber Keynsham" and "electrician BS31" searches happen on phones. A modern site loads quickly and works on every device. Built for local SEO — clear service pages, your areas (Keynsham, Saltford, Bitton, Longwell Green, Warmley), and the right keywords so you start showing up for Google ranking Keynsham and trade + location searches. Google Business Profile integration — your site and your GBP match; we set that up. A website design Keynsham package from £399 often includes GBP optimisation for one service and location. Easy contact — click-to-call, contact forms, and clear "Get a quote" or "Call now" so visitors reach you in one tap. That\'s how a £399 website turns "invisible on Google" into "showing up when Keynsham customers search".',
+        ],
+      },
+      {
+        heading: 'Quick wins Keynsham trades can do now',
+        paragraphs: [
+          '1. Claim and optimise your Google Business Profile — add business name, address, phone, website, category, services, and a short description. Use "Keynsham", "BS31", and your trade. We offer a free audit that includes a check of your GBP. 2. Get a simple one-page website — if you\'ve got nothing, a one-page site from £399 with Google Business Profile Keynsham optimisation gets you visible. See our web design packages or contact us for a quote. 3. Use the same details everywhere — same name, address, and phone on your van, website, GBP, and directories. 4. Target "trade + Keynsham" — in your GBP and on your site, use phrases like plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham where they fit naturally.',
+        ],
+      },
+      {
+        heading: 'Real results: New Decorating and Peachy Cleans',
+        paragraphs: [
+          'New Decorating (painter and decorator across Bath, Keynsham, and BANES) had no website and no Google listing. We built their site and set up their Google Business Profile. Within one week they were in the top 8 on Google Maps for painter and decorator searches. Read the New Decorating case study for the full story.',
+          'Peachy Cleans (Midsomer Norton) had no web presence. We built their site and optimised their GBP. They went to number one for "cleaner Midsomer Norton" and ended up fully booked and hiring. See the Peachy Cleans spotlight. Same idea: a clear site plus a complete GBP equals more visibility, more calls, more jobs.',
+        ],
+      },
+      {
+        heading: 'A few questions we hear',
+        paragraphs: [
+          '"I\'ve been trading for years without a website. Do I really need one?" Your reputation is solid locally, but new customers — including people in the new Manor Road developments — don\'t know you yet. They search Google. If you\'re not there, they call someone who is. A simple site and a proper GBP cost little and keep you in the game.',
+          '"Won\'t a £399 site look cheap?" Our £399 package is a one-page, mobile-friendly site built for local search, with GBP optimisation for one service/location. It\'s designed to look professional and load fast — and to get you found for website design Keynsham and trade searches in Keynsham and BS31. Get a free quote or ring 07702 264 921.',
+          '"How do I get on the first page of Google?" For local searches, Google looks at: a clear website with your location and services, a complete and accurate Google Business Profile, and consistent name/address/phone everywhere. We specialise in exactly that for Keynsham and BANES. Free Keynsham SEO audit — we\'ll show you what\'s missing and what to do next.',
+        ],
+      },
+      {
+        heading: 'Get your free audit and stop losing jobs to Google',
+        paragraphs: [
+          'We\'re SEO Kings, a Keynsham-based web design and local SEO agency at 16a Culvers Road, BS31 2DW. We help plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham, and other trades across Keynsham, Saltford, Bitton, Longwell Green, Warmley, and Bath & North East Somerset get found on Google. We don\'t do hype; we do clear, affordable website design Keynsham and Google Business Profile Keynsham so you show up when it matters.',
+          'What we offer: Free audit — we check your current website and Google listing (or the gap if you don\'t have them) and tell you what\'s holding you back. No obligation, no credit card. Website from £399 — one-page site plus GBP optimisation for one service/location. Phone: 07702 264 921 — call for a chat or to book your free audit. Stop losing jobs to Google. Get your free Keynsham SEO audit and we\'ll show you exactly how to get on page one and in the map.',
+        ],
+      },
+    ],
+    ctaLinks: [
+      { href: '/contact', label: 'Get your free Keynsham SEO audit' },
+      { href: '/web-design-packages', label: 'Web design packages from £399' },
+      { href: '/areas/keynsham', label: 'Website design Keynsham' },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

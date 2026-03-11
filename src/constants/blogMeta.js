@@ -104,4 +104,8 @@ export const BLOG_META = {
     title: 'Keynsham Farmers\' Market 2026: How Traders Can Get More Customers with a Professional Website',
     description: 'The Keynsham farmers market brings the town to life every second Saturday. How a simple website and Google Business Profile help market traders get found the other 28 days — and get more customers. From SEO Kings, Keynsham.',
   },
+  'keynsham-trades-losing-jobs-google': {
+    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)',
+    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £399 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
+  },
 };

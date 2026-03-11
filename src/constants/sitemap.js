@@ -31,6 +31,7 @@ export const BLOG_SLUGS = [
   'gbp-trades-losing-customers',
   'google-business-profile-for-trades',
   'keynsham-farmers-market-2026',
+  'keynsham-trades-losing-jobs-google',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -61,6 +62,7 @@ export const BLOG_LINKS = [
   { href: '/blog/gbp-trades-losing-customers', label: 'Why Trades Lose Customers When They\'re Not on Google' },
   { href: '/blog/google-business-profile-for-trades', label: 'What is a Google Business Profile and Why Trades Need One' },
   { href: '/blog/keynsham-farmers-market-2026', label: 'Keynsham Farmers\' Market 2026: How Traders Can Get More Customers with a Website' },
+  { href: '/blog/keynsham-trades-losing-jobs-google', label: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)' },
 ];
 
 export const CASE_STUDY_SLUGS = [
