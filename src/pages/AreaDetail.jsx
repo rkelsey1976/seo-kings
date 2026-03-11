@@ -3200,14 +3200,14 @@ const AreaDetail = ({ params: staticParams }) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Areas We Serve", "item": `${siteUrl}/areas` },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": { "@id": siteUrl } },
+      { "@type": "ListItem", "position": 2, "name": "Areas We Serve", "item": { "@id": `${siteUrl}/areas` } },
       ...(parentArea
         ? [
-            { "@type": "ListItem", "position": 3, "name": parentArea.name, "item": `${siteUrl}/areas/${area.parentSlug}` },
-            { "@type": "ListItem", "position": 4, "name": area.name, "item": `${siteUrl}/areas/${slug}` },
+            { "@type": "ListItem", "position": 3, "name": parentArea.name, "item": { "@id": `${siteUrl}/areas/${area.parentSlug}` } },
+            { "@type": "ListItem", "position": 4, "name": area.name, "item": { "@id": `${siteUrl}/areas/${slug}` } },
           ]
-        : [{ "@type": "ListItem", "position": 3, "name": area.name, "item": `${siteUrl}/areas/${slug}` }]),
+        : [{ "@type": "ListItem", "position": 3, "name": area.name, "item": { "@id": `${siteUrl}/areas/${slug}` } }]),
     ]
   };
 
@@ -3316,29 +3316,9 @@ const AreaDetail = ({ params: staticParams }) => {
     ],
     "areaServed": areaServed
   };
-  if (slug === 'keynsham' || slug === 'midsomer-norton') {
-    areaLocalBusinessSchema.aggregateRating = {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "2",
-      "bestRating": "5",
-      "worstRating": "1"
-    };
-    areaLocalBusinessSchema.review = [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Jay" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area. Professional, fast, and it actually works. Would recommend."
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Peachy Cleans" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We're now getting regular enquiries from our service areas — couldn't ask for more."
-      }
-    ];
-  }
+  // Note: We do not add aggregateRating/review to LocalBusiness here. Google does not show
+  // review rich results from first-party markup for your own business; it can trigger
+  // "Invalid object type" or other validation issues. Use Google Business Profile for stars.
 
   const faqSchema = {
     "@context": "https://schema.org",
