@@ -52,6 +52,67 @@ const keynshamAreaServed = [
   { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
 ];
 
+// Website Design package tiers for OfferCatalog (matches /web-design-packages)
+const websiteDesignPackageOffers = [
+  {
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'Service',
+      name: 'Starter – 1-page website',
+      description: 'Single-page site with services, contact and area info, contact form and click-to-call. Google Business Profile optimisation included for one service in one location. Mobile-responsive, SEO basics, 12 months hosting, SSL, UK support. For trades and local businesses in Bath & North East Somerset.',
+      areaServed: keynshamAreaServed,
+    },
+    name: 'Starter',
+    availability: 'https://schema.org/InStock',
+    url: `${siteUrl}/contact?package=starter`,
+    priceSpecification: {
+      '@type': 'PriceSpecification',
+      priceCurrency: 'GBP',
+      price: 399,
+      valueAddedTaxIncluded: true,
+    },
+    areaServed: keynshamAreaServed,
+  },
+  {
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'Service',
+      name: 'Professional – multi-page website',
+      description: 'Up to 8 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support. For growing businesses in Bath & North East Somerset.',
+      areaServed: keynshamAreaServed,
+    },
+    name: 'Professional',
+    availability: 'https://schema.org/InStock',
+    url: `${siteUrl}/contact?package=professional`,
+    priceSpecification: {
+      '@type': 'PriceSpecification',
+      priceCurrency: 'GBP',
+      price: 1200,
+      valueAddedTaxIncluded: true,
+    },
+    areaServed: keynshamAreaServed,
+  },
+  {
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'Service',
+      name: 'Full Package – complete website',
+      description: 'Up to 10 pages, full custom design, contact form, callback and booking, portfolio/gallery, social media integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support. Everything you need for Bath & North East Somerset.',
+      areaServed: keynshamAreaServed,
+    },
+    name: 'Full Package',
+    availability: 'https://schema.org/InStock',
+    url: `${siteUrl}/contact?package=full`,
+    priceSpecification: {
+      '@type': 'PriceSpecification',
+      priceCurrency: 'GBP',
+      price: 1800,
+      valueAddedTaxIncluded: true,
+    },
+    areaServed: keynshamAreaServed,
+  },
+];
+
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'ProfessionalService'],
@@ -82,23 +143,7 @@ const localBusinessSchema = {
     '@type': 'OfferCatalog',
     name: 'Website Design & Local SEO in Bath & BANES',
     itemListElement: [
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'Website Design',
-          description: 'Professional website design for Keynsham and BS31 businesses. Mobile-first, fast-loading sites built for local search. One-page sites from £399 with Google Business Profile optimisation included.',
-          areaServed: keynshamAreaServed,
-        },
-        areaServed: keynshamAreaServed,
-        availability: 'https://schema.org/InStock',
-        priceSpecification: {
-          '@type': 'PriceSpecification',
-          priceCurrency: 'GBP',
-          minPrice: 399,
-          valueAddedTaxIncluded: true,
-        },
-      },
+      ...websiteDesignPackageOffers,
       {
         '@type': 'Offer',
         itemOffered: {
@@ -155,19 +200,10 @@ const serviceWebsiteDesignSchema = {
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Website Design Packages',
-    itemListElement: [
-      {
-        '@type': 'Offer',
-        availability: 'https://schema.org/InStock',
-        priceSpecification: {
-          '@type': 'PriceSpecification',
-          priceCurrency: 'GBP',
-          minPrice: 399,
-          valueAddedTaxIncluded: true,
-        },
-        url: `${siteUrl}/web-design`,
-      },
-    ],
+    itemListElement: websiteDesignPackageOffers.map((o) => ({
+      ...o,
+      url: o.url || `${siteUrl}/web-design-packages`,
+    })),
   },
 };
 
