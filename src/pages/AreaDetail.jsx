@@ -832,18 +832,83 @@ const AreaDetail = ({ params: staticParams }) => {
       county: 'Bristol',
       postcodes: ['BS31'],
       population: '5,000+',
-      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Saltford_Marina_-_geograph.org.uk_-_547659.jpg',
-      metaTitle: 'Website design Saltford | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Saltford from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
-      heroHeadline: 'Website design in Saltford',
+      heroImage: '/images/saltford/saltford-hero.jpg',
+      metaTitle: 'Website Designer in Saltford | Web Design from £399',
+      metaDescription: 'Professional website designer in Saltford BS31. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
+      heroHeadline: 'Website Designer in Saltford: Web Design & SEO from £399',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'Saltford is a picturesque riverside village on the River Avon, between Bath and Bristol. About 5,000–6,000 residents enjoy an affluent community and scenic setting.',
-      extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor (England\'s oldest continuously inhabited house). Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
+      description: 'Website designer in Saltford — we get you found on Google. Saltford is a picturesque riverside village on the River Avon between Bath and Bristol. We offer web design from £399 and local SEO so trades and businesses in Saltford BS31 show up when people search "plumber Saltford", "electrician Saltford" and more.',
+      extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor. Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
       heroStats: [
-        { value: '5,000+', label: 'Residents' },
-        { value: 'Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
-        { value: '5★', label: 'Rated' },
+        { value: '150+', label: 'Local Businesses Ranked' },
+        { value: '#1', label: 'Bath & North East Somerset SEO Agency' },
+        { value: '5★', label: 'Google Rating' },
+        { value: '+340%', label: 'Average Lead Increase' },
+      ],
+      heroSubtext: 'No obligation. No credit card required.',
+      testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
+      introParagraphs: [
+        'Looking for a website designer in Saltford? Saltford is a riverside village with an affluent community. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
+        'We use local SEO and web design Saltford from £399 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
+      ],
+      introImage: { src: '/images/saltford/saltford-hero.jpg', alt: 'Saltford Marina, River Avon' },
+      whyHeading: 'Why Choose SEO Kings in Saltford',
+      whyIntro: "We know Saltford. We've helped local trades here get real results.",
+      whyBullets: [
+        { title: 'Proven in Saltford', text: 'Saltford residents value quality and search online first. We get you in the map pack and on page 1.' },
+        { title: 'Local focus', text: 'We target searches like "plumber Saltford", "electrician Saltford", "website design Saltford BS31".' },
+        { title: 'No fluff', text: 'Plain English. No long contracts. Monthly reports show your progress.' },
+        { title: 'Full service', text: 'Keyword research, on-page fixes, local links, Google Business Profile, fast website if needed.' },
+      ],
+      servicesHeading: 'Website design in Saltford — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Saltford.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Saltford and trade keywords. Keyword research, on-page, links.' },
+        { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
+      ],
+      testimonial: {
+        label: 'Saltford & BANES Result',
+        caseTitle: 'Saltford Garden Centre',
+        resultSummary: 'Professional site and local visibility',
+        result: 'More enquiries',
+        timeframe: 'Ongoing',
+        quote: "Saltford residents now find us first on Google. We've become the trusted local choice. Professional from start to finish.",
+        name: 'Saltford Garden Centre',
+        business: 'Saltford Garden Centre',
+        businessDisplay: 'Saltford Garden Centre • Saltford',
+      },
+      howItWorks: [
+        { title: 'Free Audit', description: 'We check your Google rankings, site, and Google Business Profile. We spot what\'s holding you back in Saltford searches.' },
+        { title: 'Custom Strategy', description: 'We build a plan for your trade and your area. No cookie-cutter stuff.' },
+        { title: 'Watch the Leads Roll In', description: 'We do the work. You get monthly updates and more customers.' },
+      ],
+      industries: ['Trades', 'Professional Services', 'Hospitality', 'Retail'],
+      landmarks: ['Saltford Manor', 'The Bird in Hand pub', 'River Avon', 'Saltford Brass Mill', "St Mary's Church", 'Bristol & Bath Railway Path'],
+      gallery: [
+        { src: '/images/saltford/saltford-hero.jpg', alt: 'Saltford Marina', caption: 'Saltford Marina, River Avon' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Saltford_Marina_-_geograph.org.uk_-_547659.jpg', alt: 'Saltford Marina', caption: 'Saltford Marina' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Saltford_Manor_House_-_geograph.org.uk_-_547658.jpg/800px-Saltford_Manor_House_-_geograph.org.uk_-_547658.jpg', alt: 'Saltford Manor', caption: 'Saltford Manor' },
+      ],
+      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design wireframe and planning' },
+      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop' },
+      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
+      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
+      extraContentSection: {
+        heading: 'Why SEO Kings for Saltford',
+        subheading: 'Our approach to website design in Saltford',
+        image: { src: '/images/keynsham/keynsham-website-designer-mobile-desktop.png', alt: 'Mobile and desktop setup — we build websites that work on every device' },
+        paragraphs: [
+          "We've been helping businesses across Bath, Saltford and North East Somerset get found on Google for years. When you choose us as your website designer in Saltford, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website designer Saltford', 'web design Saltford BS31' and your trade terms so you show up when local customers search.",
+          "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Saltford and the surrounding area. That means you're in the race for the map pack and page one from launch.",
+          "Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. We work with trades and small businesses across BS31, Bath, Bristol and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.",
+        ],
+      },
+      recentProjects: [
+        { sector: 'Saltford Garden Centre', outcome: 'Professional website and local visibility', snippet: 'Website and local SEO for Saltford Garden Centre. Now found when customers search for garden centre and related services in Saltford and the area.', caseStudySlug: 'saltford-garden-centre' },
+        { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Saltford and BANES.', caseStudySlug: 'new-decorating' },
       ],
       stats: {
         businesses: '150+',
@@ -851,46 +916,12 @@ const AreaDetail = ({ params: staticParams }) => {
         competitors: 'Low',
         avgCPC: '£1.40',
       },
-      ctaButtonText: 'Get Free Audit – No Obligation',
-      whyIntro: 'Saltford locals value quality services and search online first. If you\'re not visible on Google or in the map pack, you lose jobs to competitors.',
-      whyBullets: [
-        { title: 'Affluent area', text: 'Residents often choose premium trades and are willing to pay for excellence.' },
-        { title: 'Low competition', text: 'Easier to dominate searches in a village than in big cities.' },
-        { title: 'High ROI', text: 'Organic rankings save money vs paid ads long-term.' },
-      ],
-      services: [
-        { name: 'Local SEO', description: 'Rank for Saltford + trade keywords.' },
-        { name: 'Google Business Profile', description: 'Dominate the map pack with reviews and posts.' },
-        { name: 'Fast Website Design', description: 'Mobile sites that convert visitors into customers.' },
-        { name: 'Review Management', description: 'Build 5-star trust quickly.' },
-      ],
-      servicesHeading: 'Website design in Saltford — with SEO add-ons',
-      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
-      servicesLinkText: 'View All Services',
-      keywordsHeading: 'Keywords We Target',
-      keywordsIntro: 'We focus on what Saltford people actually search:',
-      industriesHeading: 'Industries We Help',
-      industries: ['Trades', 'Professional Services', 'Hospitality', 'Retail'],
-      landmarksHeading: 'Local Landmarks We Use',
-      landmarksIntro: 'We reference real Saltford places to improve local relevance:',
-      landmarks: ['Saltford Manor', 'The Bird in Hand pub', 'River Avon', 'Saltford Brass Mill', "St Mary's Church"],
-      testimonial: {
-        label: 'Real Result',
-        caseTitle: 'Cooper Plumbing & Heating, Saltford',
-        quote: "Saltford residents now find us first on Google. We've become the trusted local choice.",
-        name: 'Andy Cooper',
-        business: 'Cooper Plumbing & Heating',
-        result: '+150% revenue',
-      },
-      howItWorks: [
-        { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
-        { title: 'Custom plan', description: 'Tailored for Saltford trades and affluent customers.' },
-        { title: 'Results', description: 'Monthly reports. Watch leads grow.' },
-      ],
       localKeywords: [
+        'website designer in Saltford',
         'website design Saltford',
-        'website designer Saltford',
+        'web designer Saltford',
         'web design Saltford',
+        'web design Saltford BS31',
         'plumber Saltford',
         'electrician Saltford',
         'builder Saltford',
@@ -901,28 +932,56 @@ const AreaDetail = ({ params: staticParams }) => {
         'emergency plumber Saltford',
         'boiler repair Saltford',
       ],
-      ctaHeadline: 'Ready to Dominate Saltford Search Results?',
-      ctaSubhead: 'Join Saltford trades already ranking high.',
-      ctaPrimaryText: 'Get a Free Website Quote',
-      ctaSecondaryText: 'Free Consultation – Get Started',
+      ctaHeadline: 'Ready to Get More Customers in Saltford?',
+      ctaSubhead: "Don't let competitors take the top spots.",
+      ctaPrimaryText: 'Get Your Free Audit Today',
+      ctaSecondaryText: '07702 264 921',
+      ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Saltford business.',
+      ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Saltford' },
+      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: 'Website design and local SEO in Saltford — get found on Google' },
+      nearbyAreas: ['bath', 'keynsham', 'paulton', 'midsomer-norton', 'radstock'],
       nearbyHeading: 'Nearby Areas We Serve',
-      nearbyAreas: ['bath', 'keynsham'],
+      subAreasHeading: 'Areas near Saltford we cover',
+      costSection: {
+        heading: 'Website design costs in Saltford',
+        paragraphs: [
+          'Website design in Saltford starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
+        ],
+      },
+      whatToLookForSection: {
+        heading: 'What to look for in a Saltford web designer',
+        bullets: [
+          { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Saltford, Bath or Somerset.' },
+          { title: 'Local knowledge', text: 'A good Saltford web designer knows the searches people use ("plumber Saltford", "website design Saltford") and how to optimise for them.' },
+          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
+          { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
+        ],
+      },
       faqs: [
         {
+          question: 'How much does website design cost in Saltford?',
+          answer: 'Website design in Saltford starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
+        },
+        {
+          question: 'Do you build websites optimised for local Saltford searches?',
+          answer: 'Yes. Every site we build is optimised for local searches like "website designer Saltford", "web design Saltford BS31" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.',
+        },
+        {
+          question: 'Can you help my Saltford business rank in Bath and Keynsham too?',
+          answer: "Yes. Saltford's location between Bath and Keynsham is perfect for multi-area targeting. We build strategies that cover all so you capture customers from the wider area.",
+        },
+        {
           question: 'Is SEO effective for a small village like Saltford?',
-          answer: 'Yes. Saltford residents search online for local services. With low competition, the right strategy makes you the go-to choice quickly.',
+          answer: 'Yes. Saltford residents search online for local services. With low competition, the right strategy makes you the go-to choice quickly. We\'ve helped Saltford businesses get real results.',
         },
         {
-          question: 'Can I rank for Saltford, Bath, and Keynsham?',
-          answer: "Yes. Saltford's location between Bath and Keynsham is perfect for multi-area targeting. We build strategies that cover all.",
+          question: 'Do you offer Google Business Profile management in Saltford?',
+          answer: 'Yes, Google Business Profile optimisation is a key part of our Saltford service. We\'ll optimise your profile, manage reviews, post updates, and ensure you appear in the local map pack.',
         },
         {
-          question: "How does Saltford's affluent community affect SEO?",
-          answer: 'Customers search for premium, quality services. We tailor keywords and content to attract those willing to pay for top work.',
-        },
-        {
-          question: 'What ROI can I expect in Saltford?',
-          answer: 'Clients often see 5–10x returns in the first year. Higher order values in affluent areas mean fewer leads deliver strong profits.',
+          question: 'What results can I expect from SEO in Saltford?',
+          answer: 'Our Saltford clients typically see strong increases in website traffic and phone enquiries. With lower competition than Bath or Bristol, many achieve first-page rankings within a few months.',
         },
       ],
     },
@@ -3632,8 +3691,8 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
-              {/* Keynsham/Bath: merge Local Authority into this section */}
-              {(slug === 'keynsham' || slug === 'bath') && localAuthority && (
+              {/* Keynsham/Bath/Saltford: merge Local Authority into this section */}
+              {(slug === 'keynsham' || slug === 'bath' || slug === 'saltford') && localAuthority && (
                 <>
                   <h2 id="local-authority-heading" className="text-2xl font-bold text-white mt-8 mb-4 pt-6 border-t border-white/10">
                     {localAuthority.heading}
@@ -3653,8 +3712,8 @@ const AreaDetail = ({ params: staticParams }) => {
         </section>
       )}
 
-      {/* Local Authority section — for other areas; Keynsham & Bath content is merged above */}
-      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && (
+      {/* Local Authority section — for other areas; Keynsham, Bath & Saltford content is merged above */}
+      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && slug !== 'saltford' && (
         <section className="py-12 bg-dark-lighter" aria-labelledby="local-authority-heading">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 id="local-authority-heading" className="text-2xl font-bold text-white mb-6">
