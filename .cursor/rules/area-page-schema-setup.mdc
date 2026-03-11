@@ -1,0 +1,48 @@
+---
+description: How area page JSON-LD schema is set up (dynamic per town) — reusable for other multi-location sites
+globs: src/pages/AreaDetail.jsx, **/AreaDetail*.jsx, **/areas/**/*.jsx
+alwaysApply: false
+---
+
+# Area Page Schema Setup (for multi-location / [slug] pages)
+
+Use this pattern when you have **one page per town/area** (e.g. `/areas/[slug]`) and want **correct LocalBusiness and areaServed** so each URL’s JSON-LD matches that town (not a single hardcoded location). This avoids wrong schema (e.g. Bath page showing Saltford) and helps local SEO.
+
+## 1. Dynamic data per slug
+
+- **Single source of truth**: One `areasData` (or equivalent) keyed by `slug`, with for each area at least:
+  - `name`, `postcodes`, `county`, `nearbyAreas` (array of other slugs).
+- **Schema is derived from current page**: All JSON-LD uses `area = areasData[slug]` and `slug` from the URL. Never hardcode one town’s name or areaServed for every page.
+
+## 2. LocalBusiness description and areaServed
+
+- **Description**: Build a sentence that names the **current area first**, then 2–3 **nearby area names** (from `area.nearbyAreas`), then the region.  
+  Example: *"We help trades and small businesses in Midsomer Norton, Radstock, Peasedown St John and Bath and North East Somerset get found on Google."*
+- **areaServed**: Include:
+  - One **Place** for the current area (with `sameAs` to Wikipedia if available).
+  - Additional **Place** objects for the first few entries in `area.nearbyAreas` (resolved to names and optional sameAs).
+  - **PostalCode** entries for `area.postcodes`.
+- This keeps both `description` and `areaServed` aligned with the town in the URL.
+
+## 3. Geo and serviceArea
+
+- **geo**: Use coordinates for the **current** area (e.g. from an `AREA_GEO[slug]` map). Fallback to a parent or default only when the slug has no entry.
+- **serviceArea**: Include a GeoCircle around that same point (e.g. 15 km radius) plus a Place for the current area. So “near me” and service area match the page.
+
+## 4. Avoid wrong schema on client-side navigation
+
+- If you inject JSON-LD into `<head>` from a client component (e.g. after hydration), **remove the previous page’s JSON-LD scripts** before adding the new page’s scripts. Otherwise visiting Area A then Area B leaves both schemas in the head, and tools/crawlers may see the wrong one (e.g. Bath page containing Saltford schema).
+- **Implementation**: Give your injected `script[type="application/ld+json"]` tags a stable `data-*` attribute. In the effect that moves them to `head`, first remove any existing scripts with that attribute, then append the current page’s scripts and set the attribute on them. Re-run this when the route/slug (or schemas prop) changes.
+
+## 5. Checklist for other projects
+
+- [ ] Each area page’s JSON-LD uses the **current** slug/area only (no shared “first” area).
+- [ ] **LocalBusiness** `description` and `areaServed` list the current town + nearby towns (and region), not a fixed list like “Bath, Keynsham, Bitton” on every page.
+- [ ] **geo** and **serviceArea** use coordinates/place for the current area.
+- [ ] **Service** and **LocalBusiness** `@id` include the slug (e.g. `#localbusiness-{slug}`).
+- [ ] If JSON-LD is injected client-side, **previous page’s LD scripts are removed** when navigating to another area page.
+
+## Reference (this project)
+
+- **Area data + schema**: `src/pages/AreaDetail.jsx` — `areasData`, `areaServed`, `localBusinessDescription`, `areaLocalBusinessSchema`.
+- **Cleanup on nav**: `src/components/SEO.jsx` — remove scripts with `data-seo-kings-ld` before appending new ones.
