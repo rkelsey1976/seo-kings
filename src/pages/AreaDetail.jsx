@@ -3385,37 +3385,33 @@ const AreaDetail = ({ params: staticParams }) => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          {/* Breadcrumb */}
+          {/* Breadcrumb — JSON-LD is output via schemasForPage; no microdata here to avoid duplicate */}
           <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex flex-wrap items-center gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">
-              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
-                  <span itemProp="name">Home</span>
+            <ol className="flex flex-wrap items-center gap-2 text-sm">
+              <li>
+                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                  Home
                 </Link>
-                <meta itemProp="position" content="1" />
               </li>
               <li className="text-gray-600" aria-hidden="true">/</li>
-              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                <Link href="/areas" className="text-gray-400 hover:text-white transition-colors" itemProp="item">
-                  <span itemProp="name">Areas</span>
+              <li>
+                <Link href="/areas" className="text-gray-400 hover:text-white transition-colors">
+                  Areas
                 </Link>
-                <meta itemProp="position" content="2" />
               </li>
               {parentArea && (
                 <>
                   <li className="text-gray-600" aria-hidden="true">/</li>
-                  <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                    <Link href={`/areas/${area.parentSlug}`} className="text-gray-400 hover:text-white transition-colors" itemProp="item">
-                      <span itemProp="name">{parentArea.name}</span>
+                  <li>
+                    <Link href={`/areas/${area.parentSlug}`} className="text-gray-400 hover:text-white transition-colors">
+                      {parentArea.name}
                     </Link>
-                    <meta itemProp="position" content="3" />
                   </li>
                 </>
               )}
               <li className="text-gray-600" aria-hidden="true">/</li>
-              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                <span className="text-primary-light" itemProp="name">{area.name}</span>
-                <meta itemProp="position" content={parentArea ? "4" : "3"} />
+              <li>
+                <span className="text-primary-light">{area.name}</span>
               </li>
             </ol>
           </nav>
