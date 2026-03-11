@@ -1,5 +1,8 @@
 const siteUrl = 'https://seo-kings.co.uk';
 
+const GOOGLE_MAPS_PLACE_URL =
+  'https://www.google.com/maps/place/SEO+Kings/@51.3405512,-2.2459894,17z/data=!3m1!4b1!4m6!3m5!1s0x6ea24f9bfbc79da3:0xbe2aa102c5cf0938!8m2!3d51.3405512!4d-2.2434091!16s%2Fg%2F11zks3vh84?entry=ttu';
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -13,7 +16,7 @@ const organizationSchema = {
   telephone: '+447702264921',
   address: { '@type': 'PostalAddress', streetAddress: '16a Culvers Road', addressLocality: 'Keynsham', addressRegion: 'Somerset', postalCode: 'BS31 2DW', addressCountry: 'GB' },
   geo: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 },
-  sameAs: ['https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
+  sameAs: [GOOGLE_MAPS_PLACE_URL, 'https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+447702264921',
@@ -183,7 +186,7 @@ const localBusinessSchema = {
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', closed: true },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Sunday', closed: true },
   ],
-  sameAs: ['https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
+  sameAs: [GOOGLE_MAPS_PLACE_URL, 'https://facebook.com/seokings', 'https://linkedin.com/company/seokings', 'https://instagram.com/seokings'],
 };
 
 // Service schema: Website Design in Keynsham/BS31

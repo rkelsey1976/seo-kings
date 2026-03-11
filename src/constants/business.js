@@ -5,7 +5,7 @@
 
 // Google Maps place page — visitors can view reviews and click "Write a review"
 export const GOOGLE_MAPS_PLACE_URL =
-  'https://www.google.com/maps/place/SEO+Kings/data=!4m2!3m1!1s0x0:0xbe2aa102c5cf0938?sa=X&ved=1t:2428&hl=en';
+  'https://www.google.com/maps/place/SEO+Kings/@51.3405512,-2.2459894,17z/data=!3m1!4b1!4m6!3m5!1s0x6ea24f9bfbc79da3:0xbe2aa102c5cf0938!8m2!3d51.3405512!4d-2.2434091!16s%2Fg%2F11zks3vh84?entry=ttu';
 
 // Google Maps embed iframe src — for embedding on Contact and About. Get the exact URL from Google Maps: your place → Share → Embed a map → copy the iframe src.
 export const GOOGLE_MAPS_EMBED_SRC =

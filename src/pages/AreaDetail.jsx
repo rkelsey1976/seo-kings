@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
+import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 
 /** Three specific landmarks per area for Local Authority section (SEO/local relevance). */
 const LANDMARKS_BY_SLUG = {
@@ -3452,7 +3453,8 @@ const AreaDetail = ({ params: staticParams }) => {
         "containedInPlace": { "@type": "AdministrativeArea", "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset") }
       }
     ],
-    "areaServed": areaServed
+    "areaServed": areaServed,
+    "sameAs": GOOGLE_MAPS_PLACE_URL
   };
   // Note: We do not add aggregateRating/review to LocalBusiness here. Google does not show
   // review rich results from first-party markup for your own business; it can trigger
@@ -3679,7 +3681,7 @@ const AreaDetail = ({ params: staticParams }) => {
                   ))}
                 </div>
                 <blockquote className="text-lg text-gray-300 mb-6 leading-relaxed">
-                  "{t.quote}"
+                  &quot;{t.quote}&quot;
                 </blockquote>
                 {(t.resultSummary || t.timeframe) && (
                   <div className="flex flex-wrap gap-4 mb-4 text-sm">

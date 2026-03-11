@@ -5,6 +5,7 @@ import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 
 const WebDesign = () => {
   const heroFeatures = [
@@ -121,7 +122,8 @@ const WebDesign = () => {
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
-              "url": "https://seo-kings.co.uk"
+              "url": "https://seo-kings.co.uk",
+              "sameAs": GOOGLE_MAPS_PLACE_URL
             },
             "areaServed": [
               { "@type": "City", "name": "Bath" },
@@ -253,7 +255,7 @@ const WebDesign = () => {
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-            What we've done
+            What we&apos;ve done
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
             Recent website design & local SEO results
@@ -292,7 +294,7 @@ const WebDesign = () => {
           </h2>
           <p className="text-lg text-gray-400 mb-8">
             Our websites start from <span className="text-white font-bold">£399</span> for a 1-page trade site. 
-            Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn't agree to.
+            Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn&apos;t agree to.
           </p>
           <Link
             href="/web-design-packages"

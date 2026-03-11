@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 
 const GoogleBusinessProfile = () => {
   const heroFeatures = [
@@ -41,7 +42,8 @@ const GoogleBusinessProfile = () => {
             "provider": {
               "@type": "LocalBusiness",
               "name": "SEO Kings",
-              "url": "https://seo-kings.co.uk"
+              "url": "https://seo-kings.co.uk",
+              "sameAs": GOOGLE_MAPS_PLACE_URL
             },
             "areaServed": {
               "@type": "AdministrativeArea",

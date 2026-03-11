@@ -42,6 +42,18 @@ Use this pattern when you have **one page per town/area** (e.g. `/areas/[slug]`)
 - [ ] **Service** and **LocalBusiness** `@id` include the slug (e.g. `#localbusiness-{slug}`).
 - [ ] If JSON-LD is injected client-side, **previous page’s LD scripts are removed** when navigating to another area page.
 
+## 6. Example script tag
+
+JSON-LD is output as a script in the document (and often moved into `<head>` after hydration):
+
+```html
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":["LocalBusiness","ProfessionalService"],"@id":"https://example.com/areas/midsomer-norton#localbusiness-midsomer-norton","name":"SEO Kings","description":"We help trades and small businesses in Midsomer Norton, Radstock, Peasedown St John and Bath and North East Somerset get found on Google.","url":"https://example.com/areas/midsomer-norton","areaServed":[{"@type":"Place","name":"Midsomer Norton"},{"@type":"PostalCode","name":"BA3","addressCountry":"GB"}]}
+</script>
+```
+
+Each area page must have its own such block with the **current** area’s name, URL, and areaServed (no shared “Bath, Keynsham” on every page).
+
 ## Reference (this project)
 
 - **Area data + schema**: `src/pages/AreaDetail.jsx` — `areasData`, `areaServed`, `localBusinessDescription`, `areaLocalBusinessSchema`.

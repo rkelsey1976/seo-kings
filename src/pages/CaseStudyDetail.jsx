@@ -102,6 +102,8 @@ const caseStudiesData = {
       author: 'Jay',
       role: 'New Decorating, Painter & Decorator, Bath & BANES',
     },
+    websiteUrl: 'https://new-decorating.co.uk',
+    googleMapsUrl: 'https://www.google.com/maps/place/New+Decorating+-+Professional+Painting+and+Decorating+Services/@51.3759541,-2.3987877,11z/data=!4m10!1m2!2m1!1snew+decorating+bath!3m6!1s0x8dcb0406d73cfc5f:0xebb26563bf6fb81b!8m2!3d51.3759541!4d-2.3987877!15sChNuZXcgZGVjb3JhdGluZyBiYXRo!16s%2Fg%2F11yzn6fvqr?entry=ttu',
     services: ['Website Design', 'Google Business Profile'],
     relatedCases: ['peachy-cleans'],
   },
@@ -214,6 +216,37 @@ const CaseStudyDetail = ({ params: staticParams }) => {
           <p className="text-2xl sm:text-3xl font-medium text-white/90 max-w-3xl">
             {caseStudy.tagline}
           </p>
+
+          {(caseStudy.websiteUrl || caseStudy.googleMapsUrl) && (
+            <div className="flex flex-wrap gap-4 mt-6">
+              {caseStudy.websiteUrl && (
+                <a
+                  href={caseStudy.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg text-white font-medium transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                  </svg>
+                  View website
+                </a>
+              )}
+              {caseStudy.googleMapsUrl && (
+                <a
+                  href={caseStudy.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg text-white font-medium transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  </svg>
+                  View on Google
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </section>
 
