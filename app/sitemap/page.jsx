@@ -9,6 +9,7 @@ const sitemapSections = [
     links: [
       { href: '/', label: 'Home' },
       { href: '/about', label: 'About Us' },
+      { href: '/how-we-are-different', label: "How We're Different" },
       { href: '/contact', label: 'Contact' },
     ],
   },

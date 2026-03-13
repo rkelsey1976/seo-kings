@@ -23,7 +23,7 @@ export default function SEO({ schemas }) {
 
   if (!schemas || !Array.isArray(schemas) || schemas.length === 0) return null;
   return (
-    <div ref={containerRef} hidden aria-hidden="true">
+    <div ref={containerRef} hidden aria-hidden="true" suppressHydrationWarning>
       {schemas.map((schema, i) => (
         <script
           key={i}

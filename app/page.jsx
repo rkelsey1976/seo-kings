@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
 import DesignProcess from '../src/components/DesignProcess';
 import WhyChoose from '../src/components/WhyChoose';
+import WorkInAction from '../src/components/WorkInAction';
 import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
 import Reviews from '../src/components/Reviews';
@@ -30,6 +31,7 @@ export default function HomePage() {
       <Hero />
       <DesignProcess />
       <WhyChoose />
+      <WorkInAction />
       <Services />
       <HowItWorks />
       <Reviews />

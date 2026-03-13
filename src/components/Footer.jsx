@@ -27,6 +27,7 @@ const Footer = () => {
 
   const company = [
     { name: 'About Us', href: '/about', isRoute: true },
+    { name: "How We're Different", href: '/how-we-are-different', isRoute: true },
     { name: 'Blog', href: '/blog', isRoute: true },
     { name: 'Case Studies', href: '/case-studies', isRoute: true },
     { name: 'Contact', href: '/contact', isRoute: true },
@@ -236,7 +237,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
             <p className="text-gray-400 text-xs sm:text-sm order-2 sm:order-1">
-              © {currentYear} SEO Kings. All rights reserved.
+              <span suppressHydrationWarning>© {currentYear} SEO Kings. All rights reserved.</span>
             </p>
             <div className="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm order-1 sm:order-2">
               <Link href="/sitemap" className="text-gray-400 hover:text-white transition-colors">

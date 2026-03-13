@@ -99,12 +99,12 @@ const Hero = () => {
             <div className="relative animate-scale-in delay-300">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
               <Image
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=667&fit=crop&auto=format&q=80"
-                alt="Website designer Bath — get found on Google with a fast website and optimised Google listing for local trades"
+                src="/images/home/website-designer-bath-professional-workspace.png"
+                alt="Website designer Bath — professional setup for building fast, SEO-ready sites and getting local trades found on Google"
                 width={800}
                 height={667}
                 priority
-                className="relative rounded-3xl border border-white/10 shadow-2xl w-full h-auto"
+                className="relative rounded-3xl border border-white/10 shadow-2xl w-full h-auto object-cover"
               />
               
               {/* Floating Card - Rankings */}

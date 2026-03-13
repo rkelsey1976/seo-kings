@@ -576,44 +576,142 @@ const AreaDetail = ({ params: staticParams }) => {
       county: 'Somerset',
       postcodes: ['BA3'],
       population: '6,000+',
-      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Radstock_%28Somerset%29_St_Nicholas_Church_-_geograph.org.uk_-_67841.jpg',
-      metaTitle: 'Website design Radstock | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Radstock from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
-      heroHeadline: 'Website design in Radstock',
+      heroImage: '/images/radstock/st-nicholas-church-radstock.jpg',
+      metaTitle: 'Website Designer in Radstock | Web Design from £399 – SEO Kings',
+      metaDescription: 'Professional website designer in Radstock BA3. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
+      heroHeadline: 'Website Designer in Radstock: Web Design & SEO from £399',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'Radstock is a former mining town with a rich heritage and strong community spirit. Local businesses here serve both Radstock residents and the wider Somer Valley area.',
-      extendedDescription: 'Radstock\'s close-knit community means word-of-mouth is powerful, but increasingly locals turn to Google first. Businesses that combine great service with strong online visibility thrive in Radstock.',
-      industries: ['Trades', 'Retail', 'Services', 'Food & Drink'],
-      landmarks: ['Radstock Museum', 'Radstock Co-operative Society', 'Victoria Hall', 'St Nicholas Church'],
+      heroSubtext: 'No obligation. No credit card required.',
+      description: 'Website designer in Radstock — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Radstock BA3 show up when people search "plumber Radstock", "electrician BA3", "builder Radstock" and more. Whether you need a professional website designer in Radstock or help with your Google Business Profile, we help you get more calls and more jobs.',
+      extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Radstock and the Somer Valley. We also cover Midsomer Norton, Paulton, Peasedown St John, Westfield, Writhlington, Chilcompton, and the wider Bath and North East Somerset area.',
+      heroStats: [
+        { value: '150+', label: 'Local Businesses Ranked' },
+        { value: '#1', label: 'Somer Valley SEO Agency' },
+        { value: '5★', label: 'Google Rating' },
+        { value: '+180%', label: 'Porter Electrical leads' },
+      ],
+      testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
+      introParagraphs: [
+        'Looking for a website designer in Radstock? Radstock is a former mining town with a strong community and growing local economy. Customers search Google for plumbers, electricians, builders, and other trades right here in BA3. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
+        'We use local SEO and web design Radstock from £399 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
+      ],
+      introImage: { src: '/images/radstock/st-nicholas-church-radstock.jpg', alt: 'St Nicholas Church, Radstock — local landmark in BA3' },
+      whyHeading: 'Why Choose SEO Kings in Radstock',
+      whyIntro: "We know Radstock and the Somer Valley. We've helped local trades here get real results.",
+      whyBullets: [
+        { title: 'Proven in the Somer Valley', text: 'Peachy Cleans (Midsomer Norton) went from no website to #1 on Google. Same approach for Radstock.' },
+        { title: 'Local focus', text: 'We target searches like "plumber Radstock", "electrician BA3", "builder Radstock", "website design Radstock".' },
+        { title: 'No fluff', text: 'Plain English. No long contracts. Monthly reports show your progress.' },
+        { title: 'Full service', text: 'Keyword research, on-page fixes, local links, Google Business Profile, fast website if needed.' },
+      ],
+      servicesHeading: 'Website design in Radstock — with SEO add-ons',
+      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
+      services: [
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Radstock.' },
+        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Radstock and trade keywords. Keyword research, on-page, links.' },
+        { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
+      ],
+      servicesLinkText: 'View All Services',
+      keywordsHeading: 'Keywords We Target',
+      keywordsIntro: 'We focus on what people in Radstock and the Somer Valley search:',
+      industries: ['Trades', 'Retail', 'Professional Services', 'Food & Drink', 'Healthcare'],
+      landmarks: ['Radstock Museum', 'Victoria Hall', 'St Nicholas Church', 'Radstock Co-operative Society', 'The Island', 'Writhlington', 'Chilcompton'],
+      gallery: [
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Radstock_%28Somerset%29_St_Nicholas_Church_-_geograph.org.uk_-_67841.jpg', alt: 'St Nicholas Church, Radstock', caption: 'St Nicholas Church, Radstock' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Radstock_Museum_-_geograph.org.uk_-_67839.jpg/800px-Radstock_Museum_-_geograph.org.uk_-_67839.jpg', alt: 'Radstock Museum', caption: 'Radstock Museum' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Radstock_railway_station_-_geograph.org.uk_-_67842.jpg/800px-Radstock_railway_station_-_geograph.org.uk_-_67842.jpg', alt: 'Radstock railway station', caption: 'Radstock railway station' },
+      ],
+      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design wireframe and planning' },
+      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop' },
+      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
+      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
+      testimonial: {
+        label: 'Radstock & Somer Valley Result',
+        caseTitle: 'Porter Electrical, Radstock',
+        resultSummary: '+180% leads',
+        result: '+180% leads',
+        timeframe: 'Ongoing',
+        quote: "Being a small town, I didn't think SEO would work for us. I was wrong - we're now the go-to electrician in Radstock.",
+        name: 'James Porter',
+        business: 'Porter Electrical',
+        businessDisplay: 'Porter Electrical • Electrician, Radstock',
+      },
+      howItWorks: [
+        { title: 'Free Audit', description: 'We check your Google rankings, site, and Google Business Profile. We spot what\'s holding you back in Radstock searches.' },
+        { title: 'Custom Strategy', description: 'We build a plan for your trade and your area. No cookie-cutter stuff.' },
+        { title: 'Watch the Leads Roll In', description: 'We do the work. You get monthly updates and more customers.' },
+      ],
+      extraContentSection: {
+        heading: 'Why SEO Kings for Radstock',
+        subheading: 'Our approach to website design in Radstock',
+        image: { src: '/images/midsomer-norton/midsomer-norton-website-designer-mobile-desktop.png', alt: 'Mobile and desktop — we build websites that work on every device' },
+        paragraphs: [
+          "We've been helping businesses across Radstock, Midsomer Norton and the Somer Valley get found on Google for years. When you choose us as your website designer in Radstock, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website designer Radstock', 'web design Radstock BA3' and your trade terms so you show up when local customers search.",
+          "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Radstock and the Somer Valley. That means you're in the race for the map pack and page one from launch, not months later.",
+          "Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. We work with trades and small businesses across BA3, Midsomer Norton, Bath, Paulton and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.",
+        ],
+      },
+      recentProjects: [
+        { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks; we\'re expanding their visibility across Radstock, Bath, Frome and Somerset.', caseStudySlug: 'peachy-cleans' },
+        { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+      ],
       stats: {
         businesses: '250+',
         monthlySearches: '25K+',
         competitors: 'Low',
         avgCPC: '£1.20',
       },
-      testimonial: {
-        quote: "Being a small town, I didn't think SEO would work for us. I was wrong - we're now the go-to electrician in Radstock.",
-        name: 'James Porter',
-        business: 'Porter Electrical',
-        result: '+180% leads',
-      },
       localKeywords: [
-        'website design Radstock',
         'website designer Radstock',
+        'website design Radstock',
+        'web designer Radstock',
         'web design Radstock',
+        'web design Radstock BA3',
         'plumber Radstock',
         'electrician Radstock',
+        'electrician BA3',
         'builder Radstock',
         'handyman Radstock',
         'garage Radstock',
         'decorator Radstock',
+        'roofer Radstock',
+        'cleaner Radstock',
       ],
+      ctaHeadline: 'Ready to Get More Customers in Radstock?',
+      ctaSubhead: "Don't let competitors take the top spots in the Somer Valley.",
+      ctaPrimaryText: 'Get Your Free Audit Today',
+      ctaSecondaryText: '07702 264 921',
+      ctaDisclaimer: 'No obligation. No credit card needed. Just real help for your Radstock business.',
+      ctaImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website design and development — get found on Google in Radstock' },
+      ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.png', alt: 'Website design and local SEO in Radstock — get found on Google' },
       nearbyHeading: 'Nearby Areas We Serve',
-      nearbyAreas: ['midsomer-norton', 'paulton', 'peasedown-st-john'],
+      nearbyAreas: ['midsomer-norton', 'paulton', 'peasedown-st-john', 'bath', 'keynsham'],
       subAreaSlugs: ['writhlington-radstock', 'chilcompton-radstock'],
       websiteDesignBlogSlug: 'website-design-radstock',
       subAreasHeading: 'Areas near Radstock we cover',
+      costSection: {
+        heading: 'Website design costs in Radstock',
+        paragraphs: [
+          'Website design in Radstock starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
+        ],
+      },
+      whatToLookForSection: {
+        heading: 'What to look for in a Radstock web designer',
+        bullets: [
+          { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Radstock, Midsomer Norton or the Somer Valley.' },
+          { title: 'Local knowledge', text: 'A good Radstock web designer knows the searches people use ("plumber Radstock", "website design Radstock") and how to optimise for them.' },
+          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
+          { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
+        ],
+      },
       faqs: [
+        {
+          question: 'How much does website design cost in Radstock?',
+          answer: 'Website design in Radstock starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
+        },
         {
           question: 'Is there enough search volume in Radstock for SEO to work?',
           answer: 'Yes! While individual search volumes may be smaller, the conversion rates are typically higher as searchers have strong local intent. Combined with lower competition, Radstock offers excellent SEO opportunities.',
@@ -630,9 +728,11 @@ const AreaDetail = ({ params: staticParams }) => {
           question: 'Do you have experience with Radstock businesses?',
           answer: 'Yes! We\'ve helped multiple Radstock businesses dominate local search. Our local knowledge of the Somer Valley gives us an edge in creating effective local SEO strategies.',
         },
+        {
+          question: 'Do you build websites optimised for local Radstock searches?',
+          answer: 'Yes. Every site we build is optimised for local searches like "website designer Radstock", "web design Radstock BA3" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.',
+        },
       ],
-      servicesHeading: 'Website design in Radstock — with SEO add-ons',
-      servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
     },
     'peasedown-st-john': {
       name: 'Peasedown St John',
@@ -3722,8 +3822,8 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
-              {/* Keynsham/Bath/Saltford: merge Local Authority into this section */}
-              {(slug === 'keynsham' || slug === 'bath' || slug === 'saltford') && localAuthority && (
+              {/* Keynsham/Bath/Saltford/Radstock: merge Local Authority into this section */}
+              {(slug === 'keynsham' || slug === 'bath' || slug === 'saltford' || slug === 'radstock') && localAuthority && (
                 <>
                   <h2 id="local-authority-heading" className="text-2xl font-bold text-white mt-8 mb-4 pt-6 border-t border-white/10">
                     {localAuthority.heading}
@@ -3744,7 +3844,7 @@ const AreaDetail = ({ params: staticParams }) => {
       )}
 
       {/* Local Authority section — for other areas; Keynsham, Bath & Saltford content is merged above */}
-      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && slug !== 'saltford' && (
+      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && slug !== 'saltford' && slug !== 'radstock' && (
         <section className="py-12 bg-dark-lighter" aria-labelledby="local-authority-heading">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 id="local-authority-heading" className="text-2xl font-bold text-white mb-6">

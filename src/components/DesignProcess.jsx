@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import SectionDivider from './SectionDivider';
 
 const steps = [
@@ -49,13 +50,25 @@ export default function DesignProcess() {
     <section className="py-24 relative" aria-labelledby="design-process-heading">
       <SectionDivider />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 id="design-process-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
             Our Design
             <span className="gradient-text"> Process</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
             From brief to live in four clear steps — built for conversion and local search so you get more leads, not just a pretty site.
+          </p>
+        </div>
+
+        {/* Get on the map — visual break (icon only; map image used once in WhyChoose) */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 p-6 rounded-2xl bg-white/5 border border-white/10">
+          <div className="relative w-40 sm:w-48 flex-shrink-0 flex items-center justify-center rounded-xl bg-primary/10 border border-primary/20 p-6" aria-hidden="true">
+            <svg className="w-24 h-24 sm:w-28 sm:h-28 text-primary-light" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+          </div>
+          <p className="text-gray-300 text-center sm:text-left text-lg max-w-md">
+            We get you <strong className="text-white">on the map</strong> — so when people in Bath & North East Somerset search for your trade, you show up in the map pack and get the call.
           </p>
         </div>
 

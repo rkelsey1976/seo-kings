@@ -193,6 +193,7 @@ export const AREA_LINKS = [
 export const STATIC_ROUTES = [
   { path: '/', lastmod: '2026-02-21', changefreq: 'weekly', priority: 1.0 },
   { path: '/about', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
+  { path: '/how-we-are-different', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-packages', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
