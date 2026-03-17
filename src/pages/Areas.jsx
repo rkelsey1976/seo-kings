@@ -118,6 +118,26 @@ const Areas = () => {
           { name: 'Home', url: '/' },
           { name: 'Areas We Serve' }
         ]}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Areas We Serve', item: 'https://seo-kings.co.uk/areas' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            '@id': 'https://seo-kings.co.uk/areas',
+            name: 'Areas We Serve — Bath & North East Somerset',
+            description: 'Local SEO and website design services across Bath and North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock and nearby get found on Google.',
+            url: 'https://seo-kings.co.uk/areas',
+            isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
+            provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+          },
+        ]}
       />
 
       {/* Hero Section */}

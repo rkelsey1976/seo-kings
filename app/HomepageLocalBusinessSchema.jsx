@@ -68,8 +68,8 @@ const websiteDesignPackageOffers = [
 
 const homepageLocalBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': ['LocalBusiness', 'ProfessionalService'],
-  '@id': `${siteUrl}/#localbusiness`,
+  '@type': ['Organization', 'LocalBusiness', 'ProfessionalService'],
+  '@id': `${siteUrl}/#organization`,
   name: 'SEO Kings',
   description:
     'SEO Kings is a web agency and Website Designer in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website Design from £399, local SEO and Google Business Profile.',
@@ -104,7 +104,6 @@ const homepageLocalBusinessSchema = {
       sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset',
     },
   ],
-  parentOrganization: { '@id': `${siteUrl}/#organization` },
   serviceArea: [
     {
       '@type': 'GeoCircle',

@@ -193,7 +193,7 @@ const WebDesignerNearMe = () => {
       name: 'Website Designer Near Me — Bath, Keynsham, Radstock & Somerset',
       description:
         'Local website designer covering Bath, Keynsham, Midsomer Norton, Radstock and all of Bath and North East Somerset. Fast, mobile-first websites from £399 with local SEO built in.',
-      provider: { '@id': 'https://seo-kings.co.uk/#localbusiness' },
+      provider: { '@id': 'https://seo-kings.co.uk/#organization' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/website-designer-near-me' },
       areaServed: [
         { '@type': 'City', name: 'Bath' },

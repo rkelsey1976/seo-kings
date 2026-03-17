@@ -67,7 +67,7 @@ const webDesignServiceSchema = {
   name: 'Website Design Bath & Somerset',
   description: 'Professional Website Design and website designer services from a Bath and Somerset web agency. We build mobile-first sites for trades and small businesses: Starter from £399 (1-page + GBP 1 service/1 location), Professional £1,200 (up to 8 pages + GBP 3 services/4 locations), Full £1,800 (up to 10 pages + GBP 5 services/8 locations). Get found on Google.',
   serviceType: 'Website Design',
-  provider: { '@id': `${siteUrl}/#localbusiness` },
+  provider: { '@id': `${siteUrl}/#organization` },
   areaServed: [
     { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
     { '@type': 'AdministrativeArea', name: 'Somerset', sameAs: 'https://en.wikipedia.org/wiki/Somerset' },

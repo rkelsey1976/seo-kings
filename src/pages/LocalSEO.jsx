@@ -91,23 +91,41 @@ const LocalSEO = () => {
         schemas={[
           {
             '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
             '@type': 'Service',
             '@id': 'https://seo-kings.co.uk/#service-local-seo',
-            'serviceType': 'Local SEO',
-            'name': 'Local SEO Services',
-            'description': 'Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.',
-            'provider': { '@id': 'https://seo-kings.co.uk/#localbusiness' },
-            'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/local-seo' },
-            'areaServed': { '@type': 'AdministrativeArea', 'name': 'Bath and North East Somerset' },
-            'hasOfferCatalog': {
+            serviceType: 'Local SEO',
+            name: 'Local SEO Services',
+            description: 'Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.',
+            provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/local-seo' },
+            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            hasOfferCatalog: {
               '@type': 'OfferCatalog',
-              'name': 'Local SEO Packages',
-              'itemListElement': [
-                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Starter Local SEO', 'description': '1 service, 1 location — keyword research, on-page optimisation, GBP, monthly report' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 150, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
-                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Growth Local SEO', 'description': '3 services, 4 locations — full local SEO with citations and link building' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 300, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
-                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Scale Local SEO', 'description': '5 services, 8 locations — maximum coverage with content and leads reporting' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 450, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
+              name: 'Local SEO Packages',
+              itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Starter Local SEO', description: '1 service, 1 location — keyword research, on-page optimisation, GBP, monthly report' }, priceSpecification: { '@type': 'PriceSpecification', price: 150, priceCurrency: 'GBP', unitText: 'per month' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Growth Local SEO', description: '3 services, 4 locations — full local SEO with citations and link building' }, priceSpecification: { '@type': 'PriceSpecification', price: 300, priceCurrency: 'GBP', unitText: 'per month' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Scale Local SEO', description: '5 services, 8 locations — maximum coverage with content and leads reporting' }, priceSpecification: { '@type': 'PriceSpecification', price: 450, priceCurrency: 'GBP', unitText: 'per month' } },
               ],
             },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'What is local SEO?', acceptedAnswer: { '@type': 'Answer', text: 'Local SEO gets you found when people search for your services in your area — for example "plumber Bath" or "electrician Keynsham". We optimise your website and Google Business Profile so you rank higher in local search results and get more calls.' } },
+              { '@type': 'Question', name: 'How long until I see results from local SEO?', acceptedAnswer: { '@type': 'Answer', text: 'Most clients see noticeable improvements within 3–6 months. Google Business Profile optimisation can show results within weeks; competitive keywords may take longer. You get monthly reports so you always know where you stand.' } },
+              { '@type': 'Question', name: 'What is included in every local SEO package?', acceptedAnswer: { '@type': 'Answer', text: 'Every package includes keyword research, on-page optimisation of your website, Google Business Profile optimisation for your locations, and a monthly report on rankings and traffic. Growth and Scale add citations and link building.' } },
+              { '@type': 'Question', name: 'I already have a website from you — is Local SEO for me?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Many clients add Local SEO once their website is live. We work on the site we built for you and your Google Business Profile to get more traffic and more calls — no new website needed.' } },
+            ],
           },
         ]}
       />

@@ -33,34 +33,43 @@ const GoogleBusinessProfile = () => {
         schemas={[
           {
             '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Google Business Profile', item: 'https://seo-kings.co.uk/google-business-profile' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
             '@type': 'Service',
             '@id': 'https://seo-kings.co.uk/#service-google-business-profile',
-            'serviceType': 'Google Business Profile Optimisation',
-            'name': 'Google Business Profile Optimisation',
-            'description': 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP is included in Local SEO and website packages.',
-            'provider': { '@id': 'https://seo-kings.co.uk/#localbusiness' },
-            'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/google-business-profile' },
-            'areaServed': { '@type': 'AdministrativeArea', 'name': 'Bath and North East Somerset' },
-            'hasOfferCatalog': {
+            serviceType: 'Google Business Profile Optimisation',
+            name: 'Google Business Profile Optimisation',
+            description: 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP is included in Local SEO and website packages.',
+            provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/google-business-profile' },
+            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            hasOfferCatalog: {
               '@type': 'OfferCatalog',
-              'name': 'GBP Services',
-              'itemListElement': [
+              name: 'GBP Services',
+              itemListElement: [
                 {
                   '@type': 'Offer',
-                  'itemOffered': {
-                    '@type': 'Service',
-                    'name': 'GBP Optimisation (one-off)',
-                    'description': 'Full Google Business Profile optimisation: categories, services, keywords, hours, area',
-                  },
-                  'priceSpecification': {
-                    '@type': 'PriceSpecification',
-                    'price': 150,
-                    'priceCurrency': 'GBP',
-                    'unitText': 'one-off',
-                  },
+                  itemOffered: { '@type': 'Service', name: 'GBP Optimisation (one-off)', description: 'Full Google Business Profile optimisation: categories, services, keywords, hours, area' },
+                  priceSpecification: { '@type': 'PriceSpecification', price: 150, priceCurrency: 'GBP', unitText: 'one-off' },
                 },
               ],
             },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'What is Google Business Profile?', acceptedAnswer: { '@type': 'Answer', text: 'Google Business Profile (formerly Google My Business) is how your business appears on Google Search and Maps — your name, hours, reviews, photos and more. Optimising it helps you show up in the map pack when people search locally for your trade.' } },
+              { '@type': 'Question', name: 'What is included in the one-off £150 GBP optimisation?', acceptedAnswer: { '@type': 'Answer', text: 'A single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and service area so your profile is set up correctly for local search. You pay once — no ongoing fee.' } },
+              { '@type': 'Question', name: 'Do you offer ongoing Google Business Profile management?', acceptedAnswer: { '@type': 'Answer', text: 'We include ongoing GBP management — posts, reviews, photos and reporting — inside our Local SEO and website design packages. It is not sold as a standalone monthly product.' } },
+              { '@type': 'Question', name: 'I want a website and Google Business Profile — what do I get?', acceptedAnswer: { '@type': 'Answer', text: 'Our website packages include GBP optimisation — one service, one location on the Starter package; more on higher packages. So you get the site and the profile together without paying separately.' } },
+            ],
           },
         ]}
       />

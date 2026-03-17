@@ -143,14 +143,44 @@ const Contact = () => {
         schemas={[
           {
             '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://seo-kings.co.uk/contact' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': ['LocalBusiness', 'ProfessionalService'],
+            '@id': 'https://seo-kings.co.uk/contact#localbusiness',
+            name: 'SEO Kings',
+            url: 'https://seo-kings.co.uk',
+            telephone: '+447702264921',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '16a Culvers Road',
+              addressLocality: 'Keynsham',
+              addressRegion: 'Somerset',
+              postalCode: 'BS31 2DW',
+              addressCountry: 'GB',
+            },
+            geo: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 },
+            openingHoursSpecification: [
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Monday', opens: '09:00', closes: '17:30' },
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Tuesday', opens: '09:00', closes: '17:30' },
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Wednesday', opens: '09:00', closes: '17:30' },
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Thursday', opens: '09:00', closes: '17:30' },
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '09:00', closes: '17:30' },
+            ],
+            parentOrganization: { '@id': 'https://seo-kings.co.uk/#organization' },
+          },
+          {
+            '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: contactFAQs.map((faq) => ({
               '@type': 'Question',
               name: faq.q,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.a,
-              },
+              acceptedAnswer: { '@type': 'Answer', text: faq.a },
             })),
           },
         ]}

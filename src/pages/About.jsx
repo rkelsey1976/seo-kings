@@ -76,6 +76,26 @@ const About = () => {
           { name: 'Home', url: '/' },
           { name: 'About Us' }
         ]}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'About Us', item: 'https://seo-kings.co.uk/about' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'AboutPage',
+            '@id': 'https://seo-kings.co.uk/about',
+            name: 'About SEO Kings',
+            description: 'We build websites for trades and local businesses in Bath and North East Somerset. Our story and why local businesses trust us.',
+            url: 'https://seo-kings.co.uk/about',
+            isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
+            about: { '@id': 'https://seo-kings.co.uk/#organization' },
+          },
+        ]}
       />
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">

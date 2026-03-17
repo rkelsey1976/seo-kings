@@ -235,6 +235,26 @@ const Blog = () => {
           { name: 'Home', url: '/' },
           { name: 'Blog' },
         ]}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://seo-kings.co.uk/blog' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Blog',
+            '@id': 'https://seo-kings.co.uk/blog',
+            name: 'SEO Kings Blog — Local SEO & Web Design Tips',
+            description: 'Tips on local SEO, web design, and getting your Bath & North East Somerset business found on Google.',
+            url: 'https://seo-kings.co.uk/blog',
+            isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
+            publisher: { '@id': 'https://seo-kings.co.uk/#organization' },
+          },
+        ]}
       />
 
       {/* Hero */}

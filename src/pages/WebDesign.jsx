@@ -110,6 +110,26 @@ const WebDesign = () => {
           { name: 'Home', url: '/' },
           { name: 'Website Design' }
         ]}
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+              { '@type': 'ListItem', position: 2, name: 'Website Design', item: 'https://seo-kings.co.uk/web-design' },
+            ],
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our Starter package is £399 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation for one service in one location. Multi-page sites start at £1,200. We provide a detailed quote after understanding your requirements.' } },
+              { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
+              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £399 for a one-page site with GBP included for one service in one location.' } },
+              { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
+            ],
+          },
+        ]}
       />
       <ServicePageHero
         badge="Our main service"
