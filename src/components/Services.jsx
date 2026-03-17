@@ -13,8 +13,8 @@ const Services = () => {
       ),
       title: 'Website Design',
       href: '/web-design',
-      image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Website designer in Bath and North East Somerset — mobile-first, fast, SEO-ready',
+      image: '/images/keynsham/keynsham-webdesign-laptop.png',
+      imageAlt: 'Website design for trades in Bath and North East Somerset — mobile-first, fast, SEO-ready',
       description: 'Our main service. We build trade websites from £399 — one-page or multi-page. The one-page package includes GBP optimisation for one service in one location. Fast, mobile-first, SEO-ready.',
       features: [
         'Mobile-first design',
@@ -34,8 +34,8 @@ const Services = () => {
       ),
       title: 'Google Business Profile',
       href: '/google-business-profile',
-      image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Google Business Profile optimisation and map pack results in Bath area',
+      image: '/gbp-map-pack.png',
+      imageAlt: 'Google Business Profile optimisation — map pack results for Bath and North East Somerset businesses',
       description: 'One-off optimisation £150. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our website and Local SEO packages.',
       features: [
         'One-off optimisation £150',
@@ -54,8 +54,8 @@ const Services = () => {
       ),
       title: 'Local SEO',
       href: '/local-seo',
-      image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&h=250&fit=crop&auto=format&q=80',
-      imageAlt: 'Local SEO keyword research and analytics for Bath and North East Somerset businesses',
+      image: '/gbp-win-local-leads.png',
+      imageAlt: 'Local SEO for Bath and North East Somerset — get found on Google and win more local leads',
       description: 'Add-on once you\'re happy with your website. Get found for "plumber Bath", "electrician Keynsham", "builder Midsomer Norton". Keyword research, on-page fixes, local links.',
       features: [
         'Keyword research',
@@ -80,9 +80,6 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-            Our Services
-          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
             Our
             <span className="gradient-text"> Services</span>
@@ -166,7 +163,7 @@ const Services = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <Link
-            href="/web-design"
+            href="/web-design-packages"
             className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
           >
             View our website design packages

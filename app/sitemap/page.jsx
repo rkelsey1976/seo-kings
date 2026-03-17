@@ -17,6 +17,7 @@ const sitemapSections = [
     title: 'Services',
     links: [
       { href: '/web-design', label: 'Website Design' },
+      { href: '/website-designer-near-me', label: 'Website Designer Near Me' },
       { href: '/web-design-packages', label: 'Web Design Packages' },
       { href: '/local-seo', label: 'Local SEO' },
       { href: '/local-seo/plumbers', label: 'Local SEO for Plumbers' },

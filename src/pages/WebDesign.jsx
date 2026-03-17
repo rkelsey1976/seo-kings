@@ -5,8 +5,6 @@ import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
-import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
-
 const WebDesign = () => {
   const heroFeatures = [
     'Mobile-First',
@@ -112,51 +110,6 @@ const WebDesign = () => {
           { name: 'Home', url: '/' },
           { name: 'Website Design' }
         ]}
-        schemas={[
-          {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "serviceType": "Website Design",
-            "name": "Website Designer & Website Design for Local Businesses in Bath & North East Somerset",
-            "description": "Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Custom website design for tradespeople and small businesses in Bath & North East Somerset. Mobile-friendly, fast-loading sites built to convert.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "name": "SEO Kings",
-              "url": "https://seo-kings.co.uk",
-              "sameAs": GOOGLE_MAPS_PLACE_URL
-            },
-            "areaServed": [
-              { "@type": "City", "name": "Bath" },
-              { "@type": "AdministrativeArea", "name": "Bath and North East Somerset" },
-              { "@type": "City", "name": "Keynsham" },
-              { "@type": "City", "name": "Midsomer Norton" },
-              { "@type": "City", "name": "Radstock" },
-              { "@type": "City", "name": "Trowbridge" },
-              { "@type": "AdministrativeArea", "name": "Somerset" },
-              { "@type": "AdministrativeArea", "name": "Wiltshire" }
-            ],
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Website Design Packages",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Business Website",
-                    "description": "Professional 5-page website for local businesses"
-                  },
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "price": "1500",
-                    "priceCurrency": "GBP",
-                    "minPrice": "1500"
-                  }
-                }
-              ]
-            }
-          }
-        ]}
       />
       <ServicePageHero
         badge="Our main service"
@@ -248,6 +201,13 @@ const WebDesign = () => {
             <Link href="/areas/clutton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Clutton</Link>
             <Link href="/web-design-packages" className="px-4 py-2 bg-primary/20 border border-primary/30 rounded-full text-sm text-primary-light hover:text-white transition-all">All packages</Link>
           </div>
+          <p className="text-sm text-gray-500 mt-6">
+            Looking for a{' '}
+            <Link href="/website-designer-near-me" className="text-primary-light hover:underline">
+              website designer near you
+            </Link>
+            ? See all areas we cover.
+          </p>
         </div>
       </section>
 

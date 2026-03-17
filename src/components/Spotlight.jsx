@@ -60,13 +60,104 @@ const CheckIcon = () => (
 
 /**
  * Client Spotlight – Peachy Cleans
- * Feature-section layout (Tailwind UI style): headline, offset feature list + screenshot panel, testimonial, CTA.
- * variant="summary" (default): homepage – main screenshot + feature list + quote + CTAs
- * variant="full": full case study with What We Built, How It Helps, Results, then proof images
+ * variant="summary" (default): compact homepage teaser card — heading, 3 result chips, quote, link
+ * variant="full": full case study with What We Built, How It Helps, Results, proof images, CTA
  */
 const Spotlight = ({ variant = 'summary' }) => {
   const isFull = variant === 'full';
 
+  /* ── SUMMARY (homepage teaser) ─────────────────────────────────────────── */
+  if (!isFull) {
+    return (
+      <section className="py-16 bg-dark-lighter relative" id="spotlight">
+        <SectionDivider fill="dark-lighter" />
+        {backgroundPattern}
+
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          {/* Compact card */}
+          <div className="rounded-2xl border border-white/10 bg-dark-card/60 overflow-hidden">
+            <div className="grid md:grid-cols-5 gap-0">
+
+              {/* Left — text content (3 cols) */}
+              <div className="md:col-span-3 p-6 sm:p-8 flex flex-col justify-between gap-6">
+                <div>
+                  <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary text-xs font-medium mb-4">
+                    Client Spotlight
+                  </span>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight">
+                    Peachy Cleans —{' '}
+                    <span className="gradient-text">#1 on Google</span>{' '}
+                    &amp; top of Maps in Midsomer Norton
+                  </h2>
+
+                  {/* 3 result chips */}
+                  <ul className="flex flex-wrap gap-2 mb-5" aria-label="Key results">
+                    <li className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-medium">
+                      <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                      </svg>
+                      #1 Google — cleaner Midsomer Norton
+                    </li>
+                    <li className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/20 text-primary-light text-xs font-medium">
+                      <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      Top of Google Maps
+                    </li>
+                    <li className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 text-xs font-medium">
+                      <svg className="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      Fully booked — hired new staff
+                    </li>
+                  </ul>
+
+                  {/* Testimonial */}
+                  <blockquote className="border-l-2 border-primary/40 pl-4 text-gray-300 text-sm leading-relaxed italic">
+                    &ldquo;SEO Kings built our website and got us found across Midsomer Norton, Radstock and Bath. We&apos;re now having fully booked weeks and have had to hire new staff to keep up.&rdquo;
+                  </blockquote>
+                  <p className="mt-2 text-xs text-gray-500 pl-4">
+                    Alisha Kelsey ·{' '}
+                    <a href="https://peachycleans.info/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white transition-colors">
+                      Peachy Cleans
+                    </a>
+                    {' '}· Midsomer Norton
+                  </p>
+                </div>
+
+                <Link
+                  href="/spotlight/peachy-cleans"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors self-start"
+                >
+                  Read the full story
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
+
+              {/* Right — screenshot thumbnail (2 cols) */}
+              <div className="md:col-span-2 relative min-h-[200px] md:min-h-0 bg-dark border-t md:border-t-0 md:border-l border-white/5">
+                <Image
+                  src={mainImage.src}
+                  alt={mainImage.alt}
+                  fill
+                  loading="lazy"
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-card/60 via-transparent to-transparent" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  /* ── FULL (case study page) ─────────────────────────────────────────────── */
   return (
     <section className="py-24 bg-dark-lighter relative" id="spotlight">
       <SectionDivider fill="dark-lighter" />
@@ -82,23 +173,18 @@ const Spotlight = ({ variant = 'summary' }) => {
             Peachy Cleans – <span className="gradient-text">Number 1 on Google</span> &amp; Top of Maps in Midsomer Norton
           </h2>
           <p className="text-lg text-gray-400 leading-relaxed">
-            {isFull ? (
-              <>Peachy Cleans shows up number 1 when people search &ldquo;cleaner Midsomer Norton&rdquo; on Google. They also appear near the top of Google Maps results. We built them a simple, fast one-page website and helped their Google listing stand out. They&apos;re now having fully booked weeks and hiring new staff. We&apos;re now working with them to target multiple areas and multiple keywords on Google so they show up across Midsomer Norton, Radstock, Bath, Frome and surrounding areas.</>
-            ) : (
-              <>We built them a simple, fast one-page website and got them to #1 for &ldquo;cleaner Midsomer Norton&rdquo; on Google and near the top of Maps. They&apos;re now having fully booked weeks and hiring new staff. We&apos;re now working with them to target multiple areas and multiple keywords on Google.</>
-            )}
+            Peachy Cleans shows up number 1 when people search &ldquo;cleaner Midsomer Norton&rdquo; on Google. They also appear near the top of Google Maps results. We built them a simple, fast one-page website and helped their Google listing stand out. They&apos;re now having fully booked weeks and hiring new staff. We&apos;re now working with them to target multiple areas and multiple keywords on Google so they show up across Midsomer Norton, Radstock, Bath, Frome and surrounding areas.
           </p>
         </div>
 
-        {/* Feature section: offset layout – feature list left, large screenshot right (summary) or stacked (full) */}
+        {/* Feature section: offset layout */}
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-12 lg:gap-y-16 xl:gap-x-16 mb-20">
-          {/* Left: feature list – 2x2 style */}
           <div className="lg:col-span-5 lg:col-start-1">
             <div className="space-y-10">
               <div>
                 <h3 className="text-base font-semibold text-primary mb-4">What we did</h3>
                 <ul className="space-y-3">
-                  {(isFull ? whatWeBuilt : whatWeBuilt.slice(0, 4)).map((item, i) => (
+                  {whatWeBuilt.map((item, i) => (
                     <li key={i} className="flex gap-3 text-gray-300">
                       <CheckIcon />
                       <span className="text-sm sm:text-base">{item}</span>
@@ -109,7 +195,7 @@ const Spotlight = ({ variant = 'summary' }) => {
               <div>
                 <h3 className="text-base font-semibold text-primary mb-4">The results</h3>
                 <ul className="space-y-3">
-                  {(isFull ? results : results.slice(0, 3)).map((item, i) => (
+                  {results.map((item, i) => (
                     <li key={i} className="flex gap-3 text-gray-300">
                       <CheckIcon />
                       <span className="text-sm sm:text-base">{item}</span>
@@ -131,7 +217,7 @@ const Spotlight = ({ variant = 'summary' }) => {
             </div>
           </div>
 
-          {/* Right: large bordered screenshot panel – feature-section style */}
+          {/* Right: large screenshot panel */}
           <div className="mt-10 lg:mt-0 lg:col-span-7 lg:col-start-6">
             <div className="relative rounded-2xl border border-white/10 bg-dark shadow-2xl overflow-visible ring-1 ring-white/5">
               <div className="relative aspect-[4/3] sm:aspect-[3/2] flex items-center justify-center bg-dark p-4 sm:p-6 overflow-hidden rounded-t-2xl">
@@ -143,7 +229,6 @@ const Spotlight = ({ variant = 'summary' }) => {
                   loading="lazy"
                   className="w-full h-full object-contain rounded-lg"
                 />
-                {/* Floating card – #1 in Google (like main hero) */}
                 <div className="absolute left-4 top-4 sm:left-6 sm:-left-4 sm:top-1/4 bg-dark-card border border-white/10 rounded-xl p-3 sm:p-4 shadow-xl z-10 animate-float-card-left delay-700" aria-hidden="true">
                   <div className="flex items-center gap-2 sm:gap-3">
                     <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0">
@@ -157,7 +242,6 @@ const Spotlight = ({ variant = 'summary' }) => {
                     </div>
                   </div>
                 </div>
-                {/* Floating card – More Calls (like main hero) */}
                 <div className="absolute right-4 bottom-4 sm:right-6 sm:-right-2 sm:bottom-1/4 bg-dark-card border border-white/10 rounded-xl p-3 sm:p-4 shadow-xl z-10 animate-float-card-right delay-900" aria-hidden="true">
                   <div className="flex items-center gap-2 sm:gap-3">
                     <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-primary/20 flex items-center justify-center flex-shrink-0">
@@ -180,28 +264,26 @@ const Spotlight = ({ variant = 'summary' }) => {
           </div>
         </div>
 
-        {/* How It Helps – full variant only */}
-        {isFull && (
-          <div className="mb-20">
-            <h3 className="text-2xl font-bold text-white mb-6 text-center">How It Helps Them Show Up High</h3>
-            <p className="text-gray-400 text-center max-w-2xl mx-auto mb-8">
-              We made the website and Google listing work well together:
-            </p>
-            <ul className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-              {howItHelps.map((item, i) => (
-                <li key={i} className="flex gap-3 text-gray-300">
-                  <CheckIcon />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-gray-400 text-center max-w-2xl mx-auto mt-8">
-              Now, when someone searches &ldquo;cleaner Midsomer Norton&rdquo;: Peachy Cleans appears number 1 in the main Google results and near the top of Google Maps. People searching on phones see them right away – more calls and bookings from local customers, without paying for ads. They&apos;re now having fully booked weeks and hiring new staff. We&apos;re now working with them to target multiple areas (Midsomer Norton, Radstock, Bath, Frome, Paulton, Peasedown St John, Wells and surrounding Somerset) and multiple keywords on Google so they show up across their full service area.
-            </p>
-          </div>
-        )}
+        {/* How It Helps */}
+        <div className="mb-20">
+          <h3 className="text-2xl font-bold text-white mb-6 text-center">How It Helps Them Show Up High</h3>
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-8">
+            We made the website and Google listing work well together:
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            {howItHelps.map((item, i) => (
+              <li key={i} className="flex gap-3 text-gray-300">
+                <CheckIcon />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="text-gray-400 text-center max-w-2xl mx-auto mt-8">
+            Now, when someone searches &ldquo;cleaner Midsomer Norton&rdquo;: Peachy Cleans appears number 1 in the main Google results and near the top of Google Maps. People searching on phones see them right away – more calls and bookings from local customers, without paying for ads. They&apos;re now having fully booked weeks and hiring new staff. We&apos;re now working with them to target multiple areas (Midsomer Norton, Radstock, Bath, Frome, Paulton, Peasedown St John, Wells and surrounding Somerset) and multiple keywords on Google so they show up across their full service area.
+          </p>
+        </div>
 
-        {/* With testimonial – contained panel, feature-section style */}
+        {/* Testimonial panel */}
         <div className="mx-auto max-w-4xl mb-20">
           <div className="rounded-2xl border border-white/10 bg-dark-card/50 px-6 py-10 sm:px-10 sm:py-12 text-center">
             <blockquote className="text-xl sm:text-2xl text-gray-300 leading-relaxed mb-8">
@@ -209,63 +291,34 @@ const Spotlight = ({ variant = 'summary' }) => {
             </blockquote>
             <div className="mb-8">
               <p className="font-semibold text-white">Alisha Kelsey</p>
-              <a
-                href="https://peachycleans.info/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:text-white transition-colors text-sm"
-              >
+              <a href="https://peachycleans.info/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white transition-colors text-sm">
                 Peachy Cleans
               </a>
               <span className="text-gray-500 text-sm"> · Midsomer Norton</span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {isFull ? (
-                <>
-                  <Link
-                    href="/case-studies/peachy-cleans"
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
-                  >
-                    Read the full case study
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </Link>
-                  <a
-                    href="https://peachycleans.info/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border border-white/20 hover:border-primary/50 text-gray-300 hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
-                  >
-                    Visit peachycleans.info
-                  </a>
-                </>
-              ) : (
-                <>
-                  <Link
-                    href="/spotlight/peachy-cleans"
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
-                  >
-                    Read the full story
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </Link>
-                  <a
-                    href="https://peachycleans.info/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border border-white/20 hover:border-primary/50 text-gray-300 hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
-                  >
-                    Visit peachycleans.info
-                  </a>
-                </>
-              )}
+              <Link
+                href="/case-studies/peachy-cleans"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
+              >
+                Read the full case study
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+              <a
+                href="https://peachycleans.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-white/20 hover:border-primary/50 text-gray-300 hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
+              >
+                Visit peachycleans.info
+              </a>
             </div>
           </div>
         </div>
 
-        {/* CTA – simple, centered */}
+        {/* CTA */}
         <div className="text-center">
           <h3 className="text-2xl font-bold text-white mb-4">Want the same for your business?</h3>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8">
@@ -280,11 +333,9 @@ const Spotlight = ({ variant = 'summary' }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          {isFull && (
-            <p className="text-gray-500 text-sm mt-6">
-              #LocalCleaning #MidsomerNorton #BathNorthEastSomerset #MoreCustomers
-            </p>
-          )}
+          <p className="text-gray-500 text-sm mt-6">
+            #LocalCleaning #MidsomerNorton #BathNorthEastSomerset #MoreCustomers
+          </p>
         </div>
       </div>
     </section>

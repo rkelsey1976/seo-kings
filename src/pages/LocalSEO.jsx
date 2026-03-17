@@ -4,8 +4,6 @@ import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
-import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
-
 const localSeoPackages = [
   {
     name: 'Starter',
@@ -92,31 +90,25 @@ const LocalSEO = () => {
         ]}
         schemas={[
           {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "serviceType": "Local SEO",
-            "name": "Local SEO Services",
-            "description": "Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "name": "SEO Kings",
-              "url": "https://seo-kings.co.uk",
-              "sameAs": GOOGLE_MAPS_PLACE_URL
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            '@id': 'https://seo-kings.co.uk/#service-local-seo',
+            'serviceType': 'Local SEO',
+            'name': 'Local SEO Services',
+            'description': 'Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.',
+            'provider': { '@id': 'https://seo-kings.co.uk/#localbusiness' },
+            'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/local-seo' },
+            'areaServed': { '@type': 'AdministrativeArea', 'name': 'Bath and North East Somerset' },
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'Local SEO Packages',
+              'itemListElement': [
+                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Starter Local SEO', 'description': '1 service, 1 location — keyword research, on-page optimisation, GBP, monthly report' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 150, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
+                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Growth Local SEO', 'description': '3 services, 4 locations — full local SEO with citations and link building' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 300, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
+                { '@type': 'Offer', 'itemOffered': { '@type': 'Service', 'name': 'Scale Local SEO', 'description': '5 services, 8 locations — maximum coverage with content and leads reporting' }, 'priceSpecification': { '@type': 'PriceSpecification', 'price': 450, 'priceCurrency': 'GBP', 'unitText': 'per month' } },
+              ],
             },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Bath and North East Somerset"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Local SEO Packages",
-              "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Starter Local SEO", "description": "1 service, 1 location — keyword research, on-page optimisation, GBP, monthly report" }, "priceSpecification": { "@type": "PriceSpecification", "price": "150", "priceCurrency": "GBP", "unitText": "per month" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Growth Local SEO", "description": "3 services, 4 locations — full local SEO with citations and link building" }, "priceSpecification": { "@type": "PriceSpecification", "price": "300", "priceCurrency": "GBP", "unitText": "per month" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Scale Local SEO", "description": "5 services, 8 locations — maximum coverage with content and leads reporting" }, "priceSpecification": { "@type": "PriceSpecification", "price": "450", "priceCurrency": "GBP", "unitText": "per month" } }
-              ]
-            }
-          }
+          },
         ]}
       />
       <ServicePageHero

@@ -3465,62 +3465,6 @@ const AreaDetail = ({ params: staticParams }) => {
     : `${area.name} and ${regionName}`;
   const localBusinessDescription = `We work in ${area.name}. Website design and local SEO in ${area.name}. We help trades and small businesses in ${areasPhrase} get found on Google.`;
 
-  const serviceWebsiteDesignSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": `${siteUrl}/#service-website-design-${slug}`,
-    "name": `Website Design in ${area.name}`,
-    "description": `We work in ${area.name}. Professional website design for businesses in ${area.name}. Fast, mobile-friendly sites from £399 with SEO and Google Business Profile optimisation. Get found on Google in ${area.name}.`,
-    "serviceType": "Website Design",
-    "provider": { "@id": `${siteUrl}/areas/${slug}#localbusiness-${slug}` },
-    "areaServed": areaServed,
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Website Design Packages",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "priceSpecification": {
-            "@type": "PriceSpecification",
-            "priceCurrency": "GBP",
-            "minPrice": 399,
-            "valueAddedTaxIncluded": true
-          },
-          "url": `${siteUrl}/web-design`
-        }
-      ]
-    }
-  };
-
-  const serviceLocalSEOSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": `${siteUrl}/#service-local-seo-${slug}`,
-    "name": `Local SEO in ${area.name}`,
-    "description": `We work in ${area.name}. Local SEO for ${area.name} businesses. Rank higher in Google for local searches: on-page optimisation, Google Business Profile, local links and monthly reporting. Get found when customers search in ${area.name}.`,
-    "serviceType": "Local SEO",
-    "provider": { "@id": `${siteUrl}/areas/${slug}#localbusiness-${slug}` },
-    "areaServed": areaServed,
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Local SEO Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "priceSpecification": {
-            "@type": "PriceSpecification",
-            "priceCurrency": "GBP",
-            "price": "From monthly packages",
-            "valueAddedTaxIncluded": true
-          },
-          "url": `${siteUrl}/local-seo`
-        }
-      ]
-    }
-  };
-
   // Area-specific LocalBusiness (ProfessionalService) with address, serviceArea, and geo for "near me" visibility
   const areaGeo = AREA_GEO[slug] || (area.parentSlug && AREA_GEO[area.parentSlug]) || AREA_GEO.keynsham;
   const areaLocalBusinessSchema = {
@@ -3554,6 +3498,8 @@ const AreaDetail = ({ params: staticParams }) => {
       }
     ],
     "areaServed": areaServed,
+    "parentOrganization": { "@id": `${siteUrl}/#organization` },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": `${siteUrl}/areas/${slug}` },
     "sameAs": GOOGLE_MAPS_PLACE_URL
   };
   // Note: We do not add aggregateRating/review to LocalBusiness here. Google does not show
@@ -3577,7 +3523,7 @@ const AreaDetail = ({ params: staticParams }) => {
     }).filter(item => item.name && item.acceptedAnswer?.text)
   };
 
-  const schemasForPage = [breadcrumbSchema, serviceWebsiteDesignSchema, serviceLocalSEOSchema, areaLocalBusinessSchema];
+  const schemasForPage = [breadcrumbSchema, areaLocalBusinessSchema];
   if (faqSchema.mainEntity.length > 0) schemasForPage.push(faqSchema);
 
   const defaultServices = [

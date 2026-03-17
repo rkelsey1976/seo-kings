@@ -21,11 +21,8 @@ const WhyChoose = () => {
             Why Choose
             <span className="gradient-text"> SEO Kings</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Customers in Bath, Keynsham, Midsomer Norton, Radstock and across Bath and North East Somerset search Google for local trades every day. If you&apos;re not on page 1 or in the map pack, you miss calls and jobs.
-          </p>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10 lg:mb-8">
-            We fix that with <strong className="text-gray-300">website design</strong> and getting your <strong className="text-gray-300">Google listing</strong> right — so you get found when it matters.
+            We specialise in <strong className="text-gray-300">website design</strong> and <strong className="text-gray-300">local SEO</strong> for trades and small businesses — so you get found on Google when customers in your area are searching.
           </p>
         </div>
 
@@ -49,6 +46,7 @@ const WhyChoose = () => {
                 alt="Get on the map — Google Map Pack and local search visibility for Bath and North East Somerset businesses"
                 width={480}
                 height={360}
+                loading="lazy"
                 className="w-full h-auto object-contain"
                 sizes="(max-width: 1024px) 100vw, 480px"
               />

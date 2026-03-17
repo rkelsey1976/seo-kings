@@ -138,6 +138,13 @@ const Areas = () => {
             <p className="animate-fade-in-up delay-200 text-xl text-gray-300 max-w-3xl mx-auto">
               Proud to help local businesses across Bath and North East Somerset dominate Google search results.
             </p>
+            <p className="animate-fade-in-up delay-300 text-sm text-gray-500 mt-4">
+              Searching for a{' '}
+              <Link href="/website-designer-near-me" className="text-primary-light hover:underline">
+                website designer near me
+              </Link>
+              ? See our full coverage map and all areas.
+            </p>
           </div>
         </div>
       </section>

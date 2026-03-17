@@ -74,6 +74,7 @@ const webDesignServiceSchema = {
     { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
   ],
   sameAs: 'https://en.wikipedia.org/wiki/Web_design',
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${siteUrl}/web-design` },
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Website Design Packages',

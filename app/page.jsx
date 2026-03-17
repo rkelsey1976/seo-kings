@@ -2,11 +2,13 @@ import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
 import DesignProcess from '../src/components/DesignProcess';
 import WhyChoose from '../src/components/WhyChoose';
-import WorkInAction from '../src/components/WorkInAction';
 import Services from '../src/components/Services';
 import HowItWorks from '../src/components/HowItWorks';
 import Reviews from '../src/components/Reviews';
+import HomepageFAQ from '../src/components/HomepageFAQ';
+import AreasCovered from '../src/components/AreasCovered';
 import HomePageFAQSchema from './HomePageFAQSchema';
+import HomepageLocalBusinessSchema from './HomepageLocalBusinessSchema';
 
 const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: true });
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
@@ -16,7 +18,7 @@ export const revalidate = 3600;
 
 export const metadata = {
   title: 'Website Designer Bath & North East Somerset | Get Found on Google',
-  description: 'Website designer Bath & North East Somerset — we help trades get found on Google. Website design from £399, Google Business Profile, and getting you on the map. Plumbers, electricians, builders. Free check today.',
+  description: 'Website designer Bath & North East Somerset — website design from £399, Google Business Profile and local SEO for trades. Get found on Google. Free check today.',
   keywords: 'website designer Bath, website design Bath, get found on Google Bath, Google Business Profile Bath, Google listing Bath, website for plumbers electricians Bath, get on Google Maps Bath and North East Somerset, website designer Bath and North East Somerset',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   other: {
@@ -27,15 +29,17 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
+      <HomepageLocalBusinessSchema />
       <HomePageFAQSchema />
       <Hero />
       <DesignProcess />
       <WhyChoose />
-      <WorkInAction />
+      <AreasCovered />
       <Services />
       <HowItWorks />
       <Reviews />
       <Spotlight />
+      <HomepageFAQ />
       <CTABanner />
     </>
   );

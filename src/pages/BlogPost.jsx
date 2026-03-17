@@ -1332,7 +1332,7 @@ const BlogPost = ({ params: staticParams }) => {
             description: post.description,
             datePublished: post.date,
             dateModified: post.date,
-            author: { '@type': 'Organization', name: post.author || 'SEO Kings' },
+            author: { '@type': 'Person', name: post.author || 'SEO Kings' },
             publisher: { '@id': `${BASE_URL}/#organization` },
             mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/blog/${post.slug}` },
           },

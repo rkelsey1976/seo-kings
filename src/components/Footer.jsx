@@ -50,8 +50,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-              Helping tradespeople and local businesses in Bath & North East Somerset 
-              get found on Google and grow their customer base.
+              Crafting high-performance websites for tradespeople and local businesses in Bath &amp; North East Somerset. We build the sites that help you get found on Google and grow your customer base.
             </p>
           </div>
 

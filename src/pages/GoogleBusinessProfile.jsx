@@ -4,8 +4,6 @@ import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
-import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
-
 const GoogleBusinessProfile = () => {
   const heroFeatures = [
     'One-off optimisation',
@@ -34,42 +32,36 @@ const GoogleBusinessProfile = () => {
         ]}
         schemas={[
           {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "serviceType": "Google Business Profile Optimisation",
-            "name": "Google Business Profile Optimisation",
-            "description": "One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP is included in Local SEO and website packages.",
-            "provider": {
-              "@type": "LocalBusiness",
-              "name": "SEO Kings",
-              "url": "https://seo-kings.co.uk",
-              "sameAs": GOOGLE_MAPS_PLACE_URL
-            },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Bath and North East Somerset"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "GBP Services",
-              "itemListElement": [
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            '@id': 'https://seo-kings.co.uk/#service-google-business-profile',
+            'serviceType': 'Google Business Profile Optimisation',
+            'name': 'Google Business Profile Optimisation',
+            'description': 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP is included in Local SEO and website packages.',
+            'provider': { '@id': 'https://seo-kings.co.uk/#localbusiness' },
+            'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/google-business-profile' },
+            'areaServed': { '@type': 'AdministrativeArea', 'name': 'Bath and North East Somerset' },
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'GBP Services',
+              'itemListElement': [
                 {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "GBP Optimisation (one-off)",
-                    "description": "Full Google Business Profile optimisation: categories, services, keywords, hours, area"
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'GBP Optimisation (one-off)',
+                    'description': 'Full Google Business Profile optimisation: categories, services, keywords, hours, area',
                   },
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "price": "150",
-                    "priceCurrency": "GBP",
-                    "unitText": "one-off"
-                  }
-                }
-              ]
-            }
-          }
+                  'priceSpecification': {
+                    '@type': 'PriceSpecification',
+                    'price': 150,
+                    'priceCurrency': 'GBP',
+                    'unitText': 'one-off',
+                  },
+                },
+              ],
+            },
+          },
         ]}
       />
       <ServicePageHero
