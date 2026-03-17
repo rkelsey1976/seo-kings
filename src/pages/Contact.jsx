@@ -172,7 +172,7 @@ const Contact = () => {
               { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Thursday', opens: '09:00', closes: '17:30' },
               { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '09:00', closes: '17:30' },
             ],
-            parentOrganization: { '@id': 'https://seo-kings.co.uk/#organization' },
+            parentOrganization: { '@type': 'Organization', '@id': 'https://seo-kings.co.uk/#organization' },
           },
           {
             '@context': 'https://schema.org',

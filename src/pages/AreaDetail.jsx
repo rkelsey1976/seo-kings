@@ -3497,7 +3497,7 @@ const AreaDetail = ({ params: staticParams }) => {
       }
     ],
     "areaServed": areaServed,
-    "parentOrganization": { "@id": `${siteUrl}/#organization` },
+    "parentOrganization": { "@type": "Organization", "@id": `${siteUrl}/#organization` },
     "mainEntityOfPage": { "@type": "WebPage", "@id": `${siteUrl}/areas/${slug}` },
     "sameAs": GOOGLE_MAPS_PLACE_URL
   };
