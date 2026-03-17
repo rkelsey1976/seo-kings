@@ -94,10 +94,6 @@ const homepageLocalBusinessSchema = {
     { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
     { '@type': 'City', name: 'Midsomer Norton', sameAs: 'https://en.wikipedia.org/wiki/Midsomer_Norton' },
     { '@type': 'City', name: 'Radstock', sameAs: 'https://en.wikipedia.org/wiki/Radstock' },
-    { '@type': 'PostalCode', name: 'BS31', addressCountry: 'GB' },
-    { '@type': 'PostalCode', name: 'BA1', addressCountry: 'GB' },
-    { '@type': 'PostalCode', name: 'BA2', addressCountry: 'GB' },
-    { '@type': 'PostalCode', name: 'BA3', addressCountry: 'GB' },
     {
       '@type': 'AdministrativeArea',
       name: 'Bath and North East Somerset',

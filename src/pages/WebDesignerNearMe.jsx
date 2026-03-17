@@ -206,12 +206,6 @@ const WebDesignerNearMe = () => {
         { '@type': 'City', name: 'Timsbury' },
         { '@type': 'City', name: 'Chew Magna' },
         { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
-        { '@type': 'PostalCode', name: 'BA1', addressCountry: 'GB' },
-        { '@type': 'PostalCode', name: 'BA2', addressCountry: 'GB' },
-        { '@type': 'PostalCode', name: 'BA3', addressCountry: 'GB' },
-        { '@type': 'PostalCode', name: 'BS31', addressCountry: 'GB' },
-        { '@type': 'PostalCode', name: 'BS39', addressCountry: 'GB' },
-        { '@type': 'PostalCode', name: 'BS40', addressCountry: 'GB' },
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',

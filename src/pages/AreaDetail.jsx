@@ -3451,7 +3451,6 @@ const AreaDetail = ({ params: staticParams }) => {
       }
     },
     ...nearbyPlaces,
-    ...(Array.isArray(area.postcodes) ? area.postcodes.map((pc) => ({ "@type": "PostalCode", "name": pc, "addressCountry": "GB" })) : [])
   ].filter(Boolean);
 
   // LocalBusiness description: current area + 2–3 nearby area names so JSON-LD matches the town in the URL
