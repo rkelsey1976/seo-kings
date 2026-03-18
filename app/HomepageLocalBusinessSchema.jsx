@@ -153,6 +153,7 @@ const homepageLocalBusinessSchema = {
   mainEntityOfPage: { '@type': 'WebPage', '@id': siteUrl },
   sameAs: [
     GOOGLE_MAPS_PLACE_URL,
+    'https://uk.trustpilot.com/review/seo-kings.co.uk',
     'https://facebook.com/seokings',
     'https://linkedin.com/company/seokings',
     'https://instagram.com/seokings',

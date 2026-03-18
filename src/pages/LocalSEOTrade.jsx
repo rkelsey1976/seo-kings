@@ -104,7 +104,6 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       <SEO
         title={trade.metaTitle}
         description={trade.metaDescription}
-        keywords={`SEO for ${trade.name.toLowerCase()}, local SEO ${trade.name.toLowerCase()} Bath, ${trade.name.toLowerCase()} Bath and North East Somerset, Google ranking ${trade.name.toLowerCase()}`}
         canonical={`/local-seo/${tradeSlug}`}
         breadcrumbs={[
           { name: 'Home', url: '/' },

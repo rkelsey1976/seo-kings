@@ -75,7 +75,6 @@ const WhyWeAreDifferent = () => {
       <SEO
         title="Why We're Different | Website Design & SEO for Bath & North East Somerset"
         description="No jargon, no long contracts, no hidden fees. We're a local Bath & BANES agency that builds websites and gets you found on Google. Free check before you commit."
-        keywords="why choose SEO Kings, website designer Bath different, local SEO Bath transparent, no jargon web design, Bath North East Somerset agency"
         canonical="/why-we-are-different"
         breadcrumbs={[
           { name: 'Home', url: '/' },

@@ -129,7 +129,6 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       <SEO
         title={`${caseStudy.business} Case Study | SEO Kings`}
         description={`How we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Local SEO results.`}
-        keywords={`${caseStudy.industry} SEO, ${caseStudy.location} SEO, local SEO case study, ${caseStudy.business}`}
         canonical={`/case-studies/${caseStudy.slug}`}
         ogType="article"
         breadcrumbs={[

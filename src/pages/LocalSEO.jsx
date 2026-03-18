@@ -82,7 +82,6 @@ const LocalSEO = () => {
       <SEO
         title="Local SEO Services in Bath & North East Somerset"
         description="Local SEO in Bath & North East Somerset. We help tradespeople and small businesses rank #1 on Google. Keyword research, on-page SEO, link building. Free audit."
-        keywords="local SEO Bath, SEO services Bath and North East Somerset, SEO company Bath, SEO for plumbers, SEO for electricians, local search optimisation, Google ranking Bath, SEO agency Somerset"
         canonical="/local-seo"
         breadcrumbs={[
           { name: 'Home', url: '/' },

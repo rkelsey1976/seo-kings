@@ -104,7 +104,6 @@ const WebDesign = () => {
       <SEO
         title="Website Designer Bath | Web Design Bath & North East Somerset & Trowbridge – SEO Kings"
         description="Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
-        keywords="website designer, website designer Bath, website designer Bath and North East Somerset, website design Bath, web design Bath, website design Bath and North East Somerset, one-page website, affordable website, website for trades, web design Keynsham, website design Trowbridge, web design Midsomer Norton, website for tradesmen, local business website Somerset"
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },

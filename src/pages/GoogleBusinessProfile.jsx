@@ -24,7 +24,6 @@ const GoogleBusinessProfile = () => {
       <SEO
         title="Google Business Profile Optimisation in Bath"
         description="One-off Google Business Profile optimisation for £150. We also include GBP in our Local SEO and website packages — no need to buy it separately."
-        keywords="Google Business Profile Bath, GBP optimisation Bath and North East Somerset, Google Maps SEO, one-off GBP, map pack ranking"
         canonical="/google-business-profile"
         breadcrumbs={[
           { name: 'Home', url: '/' },

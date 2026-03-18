@@ -1308,7 +1308,6 @@ const BlogPost = ({ params: staticParams }) => {
       <SEO
         title={post.title}
         description={post.description}
-        keywords={post.keywords || 'local SEO Bath, web design Bath and North East Somerset, SEO Bath and North East Somerset'}
         canonical={`/blog/${post.slug}`}
         ogType="article"
         breadcrumbs={[

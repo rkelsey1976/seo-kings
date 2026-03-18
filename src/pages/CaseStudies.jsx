@@ -64,7 +64,6 @@ const CaseStudies = () => {
       <SEO
         title="Case Studies - SEO Results for Bath and North East Somerset Businesses"
         description="Real SEO case studies from Bath & North East Somerset. See how we helped tradespeople and local businesses dominate Google and get more customers."
-        keywords="SEO case studies, SEO results Bath, local SEO success stories, Bath and North East Somerset business growth, SEO ROI examples"
         canonical="/case-studies"
         breadcrumbs={[
           { name: 'Home', url: '/' },

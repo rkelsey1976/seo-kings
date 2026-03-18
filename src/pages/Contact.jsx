@@ -134,7 +134,6 @@ const Contact = () => {
       <SEO
         title="Contact Us – Free Website Quote | SEO Kings"
         description="Contact SEO Kings for a free website quote. Website design from £399 plus local SEO so Bath & North East Somerset businesses get found on Google. Call or use our form."
-        keywords="contact SEO Kings, free SEO audit Bath, SEO consultation Bath and North East Somerset, local SEO quote, website design quote Bath"
         canonical="/contact"
         breadcrumbs={[
           { name: 'Home', url: '/' },

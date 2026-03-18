@@ -3548,7 +3548,6 @@ const AreaDetail = ({ params: staticParams }) => {
       <SEO
         title={area.metaTitle || `Website design ${area.name} | Website Designer & SEO Add-ons – SEO Kings`}
         description={area.metaDescription || `Website design in ${area.name}. Our main service from £399. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.`}
-        keywords={`website design ${area.name}, website designer ${area.name}, web design ${area.name}, SEO ${area.name}, local SEO ${area.name}, Google Business Profile ${area.name}, ${area.localKeywords.slice(0, 5).join(', ')}, SEO add-ons ${area.name}`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
         schemas={schemasForPage}

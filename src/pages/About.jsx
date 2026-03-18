@@ -70,7 +70,6 @@ const About = () => {
       <SEO
         title="About Us - Website Design for Bath & North East Somerset"
         description="We build websites for trades and local businesses in Bath and North East Somerset. SEO and Google Business Profile are add-ons we provide so your site gets found. Our story and why local businesses trust us."
-        keywords="website design Bath, about SEO Kings, web design Bath and North East Somerset, website designer Bath, local SEO add-on, sites that get found"
         canonical="/about"
         breadcrumbs={[
           { name: 'Home', url: '/' },

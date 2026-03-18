@@ -229,7 +229,6 @@ const Blog = () => {
       <SEO
         title="Blog | Local SEO & Web Design Tips"
         description="Tips on local SEO, web design, and getting your Bath & North East Somerset business found on Google. From the team at SEO Kings."
-        keywords="SEO blog Bath, web design blog Bath and North East Somerset, local SEO tips, Lighthouse performance"
         canonical="/blog"
         breadcrumbs={[
           { name: 'Home', url: '/' },
