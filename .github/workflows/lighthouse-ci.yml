@@ -1,0 +1,50 @@
+name: Lighthouse CI
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Public URLs to audit (one per line)'
+        required: true
+        default: |
+          https://example.com/
+      run_link_check:
+        description: 'Run lychee link check on the first non-empty URL line'
+        type: boolean
+        default: true
+
+jobs:
+  lhci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          configPath: ./lighthouserc.cjs
+          urls: |
+            ${{ github.event.inputs.urls }}
+
+  link-check:
+    runs-on: ubuntu-latest
+    if: ${{ inputs.run_link_check }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve first URL
+        id: first
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: |
+          FIRST=$(printf '%s\n' "$URLS" | sed '/^[[:space:]]*$/d' | head -n1)
+          if [ -z "$FIRST" ]; then
+            echo "No URL found in urls input."
+            exit 1
+          fi
+          echo "url=$FIRST" >> "$GITHUB_OUTPUT"
+
+      - name: Check links from seed page
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --max-concurrency 4 --no-progress ${{ steps.first.outputs.url }}
