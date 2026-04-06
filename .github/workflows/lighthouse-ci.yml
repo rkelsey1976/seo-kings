@@ -7,7 +7,7 @@ on:
         description: 'Public URLs to audit (one per line)'
         required: true
         default: |
-          https://example.com/
+          https://seo-kings.co.uk/
       run_link_check:
         description: 'Run lychee link check on the first non-empty URL line'
         type: boolean
