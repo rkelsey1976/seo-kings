@@ -663,7 +663,7 @@ const blogPosts = {
       {
         heading: 'Launch and local search',
         paragraphs: [
-          'After launch we submit the site to Google, set up or tidy your GBP if needed, and make sure everything is connected. We don’t stop at "the site is live" — we want it to start showing up for the searches we targeted. For many Keynsham businesses that means appearing in the map pack and for "near me" searches as well as for specific phrases like "electrician Keynsham".',
+          ‘After launch we submit the site to Google, set up or tidy your GBP if needed, and make sure everything is connected. We don’t stop at "the site is live" — we want it to start showing up for the searches we targeted. For many Keynsham businesses that means appearing in the map pack and for "near me" searches as well as for specific phrases like "electrician Keynsham". See our [Keynsham web design service](https://seo-kings.co.uk/areas/keynsham) to see how we bring this process to life for real businesses.’,
           'If you want ongoing visibility, we can add local SEO and GBP management on top. But the foundation is always the same: keyword research first, then a site built to rank for the right local searches.',
         ],
       },
@@ -693,7 +693,7 @@ const blogPosts = {
       {
         heading: 'Why keyword research matters for your GBP in Keynsham',
         paragraphs: [
-          'Your Google Business Profile is one of the main ways you show up when people in Keynsham, Saltford, or BS31 search for your trade or service. But Google has to understand what you do and where you serve. Keyword research for your GBP means finding the phrases people actually type in — like "plumber Keynsham", "electrician BS31", or "painter and decorator Saltford" — and using them in your category, services, description and areas so Google can match you to the right searches.',
+          'Your Google Business Profile is one of the main ways you show up when people in Keynsham, Saltford, or BS31 search for your trade or service. But Google has to understand what you do and where you serve. Keyword research for your GBP means finding the phrases people actually type in — like "plumber Keynsham", "electrician BS31", or "painter and decorator Saltford" — and using them in your category, services, description and areas so Google can match you to the right searches. Our [Keynsham web design service](https://seo-kings.co.uk/areas/keynsham) includes GBP keyword research and optimisation as part of every package.',
           'Without that step, your listing might be complete but not optimised for the searches that bring in work. With the right keywords in the right places, you stand a better chance of appearing in the map pack and in Google Maps when local customers search.',
         ],
       },
@@ -763,7 +763,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Bitton or the Keynsham area and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our Keynsham area page, web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Bitton or the Keynsham area and you need a new website — or your current one is slow or not set up for local search — we\'d be happy to talk. We offer a free check and build websites from £399. See our [Keynsham web design service](https://seo-kings.co.uk/areas/keynsham) to find out more, or get in touch for a free quote.',
         ],
       },
     ],
