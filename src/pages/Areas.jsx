@@ -110,8 +110,8 @@ const Areas = () => {
   return (
     <>
       <SEO
-        title="Areas We Serve | Local SEO Services in Bath & North East Somerset"
-        description="Local SEO across Bath & North East Somerset. We help businesses in Bath, Keynsham, Midsomer Norton, Radstock and nearby get found on Google."
+        title="Website Design & Local SEO Services | 41 Areas in Bath & North East Somerset"
+        description="Professional website design from £399 across Bath, Keynsham, Midsomer Norton, Radstock and 37 other areas. Local SEO and Google Business Profile services for trades and small businesses."
         canonical="/areas"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -152,17 +152,17 @@ const Areas = () => {
               Service Areas
             </span>
             <h1 className="animate-fade-in-up delay-100 text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
-              Areas We <span className="gradient-text">Serve</span>
+              Website Design in <span className="gradient-text">Bath & North East Somerset</span>
             </h1>
             <p className="animate-fade-in-up delay-200 text-xl text-gray-300 max-w-3xl mx-auto">
-              Proud to help local businesses across Bath and North East Somerset dominate Google search results.
+              Professional website design from £399 covering 41 areas across Bath and North East Somerset. We help local trades and businesses get found on Google.
             </p>
             <p className="animate-fade-in-up delay-300 text-sm text-gray-500 mt-4">
               Searching for a{' '}
               <Link href="/website-designer-near-me" className="text-primary-light hover:underline">
                 website designer near me
               </Link>
-              ? See our full coverage map and all areas.
+              ? See our full coverage below.
             </p>
           </div>
         </div>
@@ -184,20 +184,20 @@ const Areas = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10 border-t border-white/10">
               <div className="p-6 text-center">
-                <div className="text-3xl font-bold gradient-text">8</div>
-                <div className="text-sm text-gray-400">Areas Covered</div>
+                <div className="text-3xl font-bold gradient-text">41</div>
+                <div className="text-sm text-gray-400">Areas & Neighbourhoods</div>
               </div>
               <div className="p-6 text-center">
-                <div className="text-3xl font-bold gradient-text">150+</div>
-                <div className="text-sm text-gray-400">Local Clients</div>
+                <div className="text-3xl font-bold gradient-text">£399</div>
+                <div className="text-sm text-gray-400">Website Design from</div>
               </div>
               <div className="p-6 text-center">
-                <div className="text-3xl font-bold gradient-text">140k+</div>
+                <div className="text-3xl font-bold gradient-text">150K+</div>
                 <div className="text-sm text-gray-400">Population Reach</div>
               </div>
               <div className="p-6 text-center">
-                <div className="text-3xl font-bold gradient-text">100%</div>
-                <div className="text-sm text-gray-400">Local Focus</div>
+                <div className="text-3xl font-bold gradient-text">5★</div>
+                <div className="text-sm text-gray-400">Google Rated</div>
               </div>
             </div>
           </div>
@@ -209,10 +209,10 @@ const Areas = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">
-              Local SEO Services in Every Area
+              Website Design & Local SEO in Every Area
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Click on your area to learn more about our local SEO services and see results from businesses just like yours.
+              Choose your area below to see website design packages, local SEO services, and real results from trades and businesses just like yours.
             </p>
           </div>
 
@@ -268,10 +268,10 @@ const Areas = () => {
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Don't See Your Area?
+            Ready for a Website That Ranks?
           </h2>
           <p className="text-gray-400 mb-8">
-            We also serve businesses in surrounding areas. Get in touch to see how we can help your business get found on Google.
+            We cover 41 areas across Bath and North East Somerset. Not sure if we serve your location? Get in touch — we likely do, or can help nearby.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
