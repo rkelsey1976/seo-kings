@@ -20,7 +20,12 @@ export const metadata = {
     template: '%s | SEO Kings',
   },
   description: 'We help tradespeople and small businesses in Bath & North East Somerset get found on Google. Website Design and Website Designer services, Google Business Profile, getting you on the map. Free check.',
-  openGraph: { siteName: 'SEO Kings', locale: 'en_GB' },
+  openGraph: {
+    siteName: 'SEO Kings',
+    locale: 'en_GB',
+    type: 'website',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'SEO Kings — Website Design & Local SEO for Bath & North East Somerset' }],
+  },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }, { url: '/favicon.ico', sizes: 'any' }],
@@ -31,6 +36,11 @@ export const metadata = {
     'geo.placename': 'Bath',
     'theme-color': '#7C3AED',
     'msapplication-TileColor': '#0F172A',
+    'twitter:card': 'summary_large_image',
+    'twitter:site': '@seokings',
+    'twitter:title': 'SEO Kings | Website Design Bath & North East Somerset',
+    'twitter:description': 'Website Design and Local SEO for tradespeople and small businesses. Get found on Google.',
+    'twitter:image': 'https://seo-kings.co.uk/og-image.jpg',
   },
 };
 
