@@ -20,7 +20,7 @@ const blogPosts = {
       {
         heading: 'Beautiful design and strong rankings — not either/or',
         paragraphs: [
-          'A lot of businesses assume they have to choose: either a website that looks good or one that ranks on Google. We don’t think that way. Every site we build is designed to be both: clear, modern, and on-brand, and built from the ground up so Google can crawl it, understand it, and rank it.',
+          'A lot of businesses assume they have to choose: either a website that looks good or one that ranks on Google. We don't think that way. Every site we build is designed to be both: clear, modern, and on-brand, and built from the ground up so Google can crawl it, understand it, and rank it.',
           'That means clean code, fast loading, proper structure, and content that matches what people search for. It also means a layout and visuals that make visitors want to stay, read, and get in touch. When you get both right, you get more traffic and more conversions.',
           'Our website design starts from £399 for a one-page trade site and includes the basics that help you rank.',
         ],
@@ -29,28 +29,28 @@ const blogPosts = {
         heading: 'Built for speed and performance',
         paragraphs: [
           'Slow sites hurt rankings and lose customers. We build every website with performance in mind from day one: optimised images, minimal bloat, and a stack that loads quickly on mobile and desktop. We aim for Lighthouse performance scores of 95 and above so your site is fast, efficient, and favoured by both users and Google.',
-          'That doesn’t mean boring or plain. It means we choose the right tech, assets, and structure so your site looks great without sacrificing speed. Fast, beautiful, and rankable.',
+          'That doesn't mean boring or plain. It means we choose the right tech, assets, and structure so your site looks great without sacrificing speed. Fast, beautiful, and rankable.',
         ],
       },
       {
         heading: 'Optimised for Google from the start',
         paragraphs: [
-          'Every page we build is set up for search: clear titles and meta descriptions, sensible headings, semantic HTML, and content that answers the questions your customers are typing into Google. We don’t bolt SEO on afterwards — it’s part of how we design and build.',
-          'We also make sure your site works well on every device, is easy for Google to crawl, and has the right technical foundations (canonicals, schema, clean URLs). So when we say “websites that rank well”, we mean they’re built to rank, not just to look good.',
+          'Every page we build is set up for search: clear titles and meta descriptions, sensible headings, semantic HTML, and content that answers the questions your customers are typing into Google. We don't bolt SEO on afterwards — it's part of how we design and build.',
+          'We also make sure your site works well on every device, is easy for Google to crawl, and has the right technical foundations (canonicals, schema, clean URLs). So when we say "websites that rank well", we mean they're built to rank, not just to look good.',
         ],
       },
       {
         heading: 'Lighthouse scores of 95+',
         paragraphs: [
-          'We use Google’s Lighthouse to measure performance, accessibility, best practices, and SEO. Our target is 95 and above across the board. That means your site loads quickly, works for people with different needs, follows modern best practices, and is set up for search.',
-          'Hitting those scores isn’t luck — it’s how we build. Right from the first design and the first line of code, we keep performance and SEO in mind so your site doesn’t just look professional; it performs like it.',
+          'We use Google's Lighthouse to measure performance, accessibility, best practices, and SEO. Our target is 95 and above across the board. That means your site loads quickly, works for people with different needs, follows modern best practices, and is set up for search.',
+          'Hitting those scores isn't luck — it's how we build. Right from the first design and the first line of code, we keep performance and SEO in mind so your site doesn't just look professional; it performs like it.',
         ],
       },
       {
         heading: 'What that means for your business',
         paragraphs: [
-          'A beautiful, fast, well-optimised website does three things: it ranks better for the searches that matter in Bath and North East Somerset, it keeps visitors on the page instead of bouncing, and it makes it easy for them to call or fill in a form. That’s how you turn “looking good” into more enquiries and more jobs.',
-          'If you want a site that looks the part and ranks the part — with Lighthouse scores of 95+ to back it up — we’d be happy to talk. Get in touch for a free audit or a no-obligation chat about your next website.',
+          'A beautiful, fast, well-optimised website does three things: it ranks better for the searches that matter in Bath and North East Somerset, it keeps visitors on the page instead of bouncing, and it makes it easy for them to call or fill in a form. That's how you turn "looking good" into more enquiries and more jobs.',
+          'If you want a site that looks the part and ranks the part — with Lighthouse scores of 95+ to back it up — we'd be happy to talk. Get in touch for a free audit or a no-obligation chat about your next website.',
         ],
       },
     ],
@@ -67,7 +67,7 @@ const blogPosts = {
       {
         heading: 'What is local SEO?',
         paragraphs: [
-          'Local SEO is the work that helps your business show up when people search for what you do in a specific place — like "plumber Bath" or "electrician near me". It focuses on the results that appear with a map: the local map pack (the three businesses that show with a map on Google) and local listings. For tradespeople, builders, and service businesses in Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset, that’s often where the clicks and calls come from.',
+          'Local SEO is the work that helps your business show up when people search for what you do in a specific place — like "plumber Bath" or "electrician near me". It focuses on the results that appear with a map: the local map pack (the three businesses that show with a map on Google) and local listings. For tradespeople, builders, and service businesses in Bath, Keynsham, Midsomer Norton, and across Bath and North East Somerset, that's often where the clicks and calls come from.',
         ],
       },
       {
@@ -79,20 +79,20 @@ const blogPosts = {
       {
         heading: '"Near me" and local intent',
         paragraphs: [
-          'A lot of local searches don’t even say the town name — people search "plumber near me" or "emergency electrician near me". Google uses their location to show nearby businesses. If your Google Business Profile and website are set up correctly for your area, you can show up for those searches. That’s why getting your location, service areas, and categories right is so important.',
+          'A lot of local searches don't even say the town name — people search "plumber near me" or "emergency electrician near me". Google uses their location to show nearby businesses. If your Google Business Profile and website are set up correctly for your area, you can show up for those searches. That's why getting your location, service areas, and categories right is so important.',
         ],
       },
       {
         heading: 'Why it matters for Bath & North East Somerset',
         paragraphs: [
-          'Bath and the wider Bath and North East Somerset area have strong local search demand. People look for trades and services in Bath, Keynsham, Radstock, Peasedown St John, and the villages. Local SEO helps you capture that demand instead of losing it to competitors. If you’re not in the map pack or not showing for "near me" searches, you’re missing calls and jobs. A clear local SEO strategy — GBP, website, and citations — puts you in the game.',
+          'Bath and the wider Bath and North East Somerset area have strong local search demand. People look for trades and services in Bath, Keynsham, Radstock, Peasedown St John, and the villages. Local SEO helps you capture that demand instead of losing it to competitors. If you're not in the map pack or not showing for "near me" searches, you're missing calls and jobs. A clear local SEO strategy — GBP, website, and citations — puts you in the game.',
         ],
       },
       {
         heading: 'What to do next',
         paragraphs: [
           'Our local SEO service helps you get found in the map pack and for "near me" searches.',
-          'Start with your Google Business Profile: make sure it’s claimed, complete, and accurate. Then look at your website: does it clearly state where you serve and what you do? From there, consistency across directories and a plan to get more Google reviews will strengthen your local visibility. If you’d like a free audit of your current setup, we’re happy to take a look and show you where the opportunities are.',
+          'Start with your Google Business Profile: make sure it's claimed, complete, and accurate. Then look at your website: does it clearly state where you serve and what you do? From there, consistency across directories and a plan to get more Google reviews will strengthen your local visibility. If you'd like a free audit of your current setup, we're happy to take a look and show you where the opportunities are.',
         ],
       },
     ],
@@ -115,13 +115,13 @@ const blogPosts = {
       {
         heading: 'Ask at the right time',
         paragraphs: [
-          'The best time to ask for a review is when the customer is happy — right after a completed job, a successful repair, or a positive follow-up. Don’t wait weeks. Send a quick message or mention it in person while the experience is fresh. Make it easy: give them a direct link to your Google Business Profile review form so they don’t have to search for it.',
+          'The best time to ask for a review is when the customer is happy — right after a completed job, a successful repair, or a positive follow-up. Don't wait weeks. Send a quick message or mention it in person while the experience is fresh. Make it easy: give them a direct link to your Google Business Profile review form so they don't have to search for it.',
         ],
       },
       {
         heading: 'Make it easy with a direct link',
         paragraphs: [
-          'Google provides a short link that takes customers straight to the review form for your business. Add it to your email signature, your job-completion messages, or a simple "Leave us a review" page on your website. The fewer steps between "I’ll leave a review" and actually leaving one, the more reviews you’ll get.',
+          'Google provides a short link that takes customers straight to the review form for your business. Add it to your email signature, your job-completion messages, or a simple "Leave us a review" page on your website. The fewer steps between "I'll leave a review" and actually leaving one, the more reviews you'll get.',
         ],
       },
       {
@@ -133,7 +133,7 @@ const blogPosts = {
       {
         heading: 'What not to do',
         paragraphs: [
-          'Don’t offer incentives in exchange for reviews — Google’s guidelines prohibit it and it can lead to penalties. Don’t ask only happy customers to review while pressuring unhappy ones to stay quiet. Don’t buy fake reviews or get friends to leave reviews if they haven’t used your business. Stick to asking real customers, at the right time, with a direct link. It’s the right way and the sustainable way.',
+          'Don't offer incentives in exchange for reviews — Google's guidelines prohibit it and it can lead to penalties. Don't ask only happy customers to review while pressuring unhappy ones to stay quiet. Don't buy fake reviews or get friends to leave reviews if they haven't used your business. Stick to asking real customers, at the right time, with a direct link. It's the right way and the sustainable way.',
         ],
       },
     ],
@@ -244,13 +244,13 @@ const blogPosts = {
       {
         heading: 'What is the map pack?',
         paragraphs: [
-          'When someone searches for a service in Bath — "plumber Bath", "electrician Bath", "roofer near me" — Google often shows a map with three local businesses at the top of the results. That’s the local map pack. Getting into those three spots means more visibility, more clicks to your website or "Call" button, and more enquiries. Local SEO is how you get there.',
+          'When someone searches for a service in Bath — "plumber Bath", "electrician Bath", "roofer near me" — Google often shows a map with three local businesses at the top of the results. That's the local map pack. Getting into those three spots means more visibility, more clicks to your website or "Call" button, and more enquiries. Local SEO is how you get there.',
         ],
       },
       {
         heading: 'Optimise your Google Business Profile',
         paragraphs: [
-          'Your Google Business Profile is central to map pack rankings. Make sure it’s claimed, verified, and fully filled out: correct business name, address, phone, website, opening hours, and service area. Choose the right primary and secondary categories (e.g. Plumber, Electrician). Write a clear business description that includes your services and areas (Bath, Keynsham, North East Somerset). Add photos regularly and use Google Posts to share updates and offers. The more complete and active your profile, the better Google can match you to local searches.',
+          'Your Google Business Profile is central to map pack rankings. Make sure it's claimed, verified, and fully filled out: correct business name, address, phone, website, opening hours, and service area. Choose the right primary and secondary categories (e.g. Plumber, Electrician). Write a clear business description that includes your services and areas (Bath, Keynsham, North East Somerset). Add photos regularly and use Google Posts to share updates and offers. The more complete and active your profile, the better Google can match you to local searches.',
         ],
       },
       {
@@ -285,7 +285,7 @@ const blogPosts = {
       {
         heading: 'Why plumbers need to show up locally',
         paragraphs: [
-          'Most people search for a plumber when they have a problem — a leak, a broken boiler, a blocked drain. They search "plumber Bath", "emergency plumber near me", or "boiler repair Keynsham". If your business doesn’t appear in the map pack or at the top of local results, you miss those jobs. Local SEO gets your name in front of people at the moment they’re looking.',
+          'Most people search for a plumber when they have a problem — a leak, a broken boiler, a blocked drain. They search "plumber Bath", "emergency plumber near me", or "boiler repair Keynsham". If your business doesn't appear in the map pack or at the top of local results, you miss those jobs. Local SEO gets your name in front of people at the moment they're looking.',
         ],
       },
       {
@@ -309,7 +309,7 @@ const blogPosts = {
       {
         heading: 'Next steps for Bath & North East Somerset plumbers',
         paragraphs: [
-          'Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free local SEO audit for plumbers and other trades in Bath and North East Somerset. Get in touch and we’ll take a look.',
+          'Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free local SEO audit for plumbers and other trades in Bath and North East Somerset. Get in touch and we'll take a look.',
         ],
       },
     ],
@@ -326,19 +326,19 @@ const blogPosts = {
       {
         heading: 'What is a local SEO audit?',
         paragraphs: [
-          'A local SEO audit is a review of how your business appears in local search — on Google Maps, in the map pack, and on your website. We look at what’s working, what’s missing, and what’s holding you back. The goal is to give you a clear picture and a practical plan, not a pile of jargon.',
+          'A local SEO audit is a review of how your business appears in local search — on Google Maps, in the map pack, and on your website. We look at what's working, what's missing, and what's holding you back. The goal is to give you a clear picture and a practical plan, not a pile of jargon.',
         ],
       },
       {
         heading: 'Your Google Business Profile',
         paragraphs: [
-          'We check whether your GBP is claimed and verified, and whether it’s fully filled out: business name, address, phone, website, hours, and service area. We look at your categories (primary and secondary), your business description, and whether it matches what you do and where you serve. We also check how active you are — photos, posts, Q&A — because an up-to-date profile tends to perform better.',
+          'We check whether your GBP is claimed and verified, and whether it's fully filled out: business name, address, phone, website, hours, and service area. We look at your categories (primary and secondary), your business description, and whether it matches what you do and where you serve. We also check how active you are — photos, posts, Q&A — because an up-to-date profile tends to perform better.',
         ],
       },
       {
         heading: 'Your website',
         paragraphs: [
-          'We look at whether your site clearly states your location and services, and whether it’s set up for search. That includes titles and meta descriptions, headings, and content that answers the kinds of questions your customers search for. We check technical basics: speed, mobile-friendliness, and whether your name, address, and phone number on the site match your GBP exactly.',
+          'We look at whether your site clearly states your location and services, and whether it's set up for search. That includes titles and meta descriptions, headings, and content that answers the kinds of questions your customers search for. We check technical basics: speed, mobile-friendliness, and whether your name, address, and phone number on the site match your GBP exactly.',
         ],
       },
       {
@@ -350,7 +350,7 @@ const blogPosts = {
       {
         heading: 'What you get from the audit',
         paragraphs: [
-          'You get a straightforward report that explains what we found and what to do next. No fluff, no mystery. We’ll tell you the quick wins and the longer-term steps so you can prioritise. If you want help implementing the plan, we can talk about that too. The audit is free and no-obligation — it’s a way to see where you stand and decide what you want to do next. Get in touch to request yours.',
+          'You get a straightforward report that explains what we found and what to do next. No fluff, no mystery. We'll tell you the quick wins and the longer-term steps so you can prioritise. If you want help implementing the plan, we can talk about that too. The audit is free and no-obligation — it's a way to see where you stand and decide what you want to do next. Get in touch to request yours.',
         ],
       },
     ],
@@ -415,36 +415,36 @@ const blogPosts = {
       {
         heading: 'What we did for Jay at New Decorating',
         paragraphs: [
-          'Last week we launched a new website for Jay New — New Decorating, a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset. We built the site at new-decorating.co.uk and optimised his Google Business Profile so the two work together. He’s already showing up in Google Maps and ranking well for long-tail keywords. This post is a quick look at what we delivered and why it’s working.',
-          'Jay has over 25 years’ experience and wanted a clear online presence: a fast site that shows his services (interior and exterior painting, wallpaper, feature walls), his areas, and how to get a free quote. He also needed his Google listing set up and optimised so local customers can find him when they search for a painter and decorator in Bath or the surrounding areas.',
+          'Last week we launched a new website for Jay New — New Decorating, a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset. We built the site at new-decorating.co.uk and optimised his Google Business Profile so the two work together. He's already showing up in Google Maps and ranking well for long-tail keywords. This post is a quick look at what we delivered and why it's working.',
+          'Jay has over 25 years' experience and wanted a clear online presence: a fast site that shows his services (interior and exterior painting, wallpaper, feature walls), his areas, and how to get a free quote. He also needed his Google listing set up and optimised so local customers can find him when they search for a painter and decorator in Bath or the surrounding areas.',
         ],
       },
       {
         heading: 'The new website',
         paragraphs: [
           'The new site is clean, mobile-friendly and built for local search. It highlights his services — interior painting, exterior painting, wallpaper and feature walls — with clear calls to action to get a quote or view his work. We included his service areas (Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Frome and surrounding villages), a gallery, FAQs, and his Google reviews so visitors can see what his customers say.',
-          'We built it to load fast and work on every device. For a painter and decorator in Bath, that matters: a lot of “painter decorator near me” and “painter Bath” searches happen on phones. A fast, clear site keeps people on the page and helps Google rank you better.',
+          'We built it to load fast and work on every device. For a painter and decorator in Bath, that matters: a lot of "painter decorator near me" and "painter Bath" searches happen on phones. A fast, clear site keeps people on the page and helps Google rank you better.',
         ],
       },
       {
         heading: 'Google Business Profile optimisation',
         paragraphs: [
-          'A website on its own isn’t enough for local visibility. We claimed and optimised Jay’s Google Business Profile so it matches the site: same areas, same services, same message. We made sure his category, description, hours and service area are correct and that his profile looks professional and trustworthy.',
-          'When someone searches “painter and decorator Bath” or “painter decorator Keynsham”, Google can now show New Decorating in the map pack and in Maps. The site and the GBP support each other — that’s how you get found locally without relying on ads.',
+          'A website on its own isn't enough for local visibility. We claimed and optimised Jay's Google Business Profile so it matches the site: same areas, same services, same message. We made sure his category, description, hours and service area are correct and that his profile looks professional and trustworthy.',
+          'When someone searches "painter and decorator Bath" or "painter decorator Keynsham", Google can now show New Decorating in the map pack and in Maps. The site and the GBP support each other — that's how you get found locally without relying on ads.',
         ],
       },
       {
         heading: 'Within a week: long-tail rankings and top 8 on Google Maps',
         paragraphs: [
           'We only launched a week ago, but the combination of a new, optimised site and a properly set-up Google Business Profile paid off quickly. New Decorating is now showing in the top 8 on Google Maps when people search in Bath and the surrounding areas, and the site is ranking for long-tail keywords — the kind of specific searches that turn into real enquiries.',
-          'That’s exactly what we aim for: a fast site and a GBP that work together so you get visible quickly. We don’t promise overnight number-one for the most competitive terms, but we do get trades visible for the searches that matter in their area.',
+          'That's exactly what we aim for: a fast site and a GBP that work together so you get visible quickly. We don't promise overnight number-one for the most competitive terms, but we do get trades visible for the searches that matter in their area.',
         ],
       },
       {
         heading: 'What that means for your trade',
         paragraphs: [
-          'If you’re a painter and decorator, or any trade in Bath and North East Somerset, and you need a new website or your Google listing isn’t working for you — we can help. We specialise in trade websites and getting local trades found on Google. We’ll build a site that looks professional and loads fast, optimise your GBP, and get the two working together so you show up in Maps and in search.',
-          'Get in touch for a free audit. We’ll look at your current site and Google listing and tell you what we’d do next. No obligation.',
+          'If you're a painter and decorator, or any trade in Bath and North East Somerset, and you need a new website or your Google listing isn't working for you — we can help. We specialise in trade websites and getting local trades found on Google. We'll build a site that looks professional and loads fast, optimise your GBP, and get the two working together so you show up in Maps and in search.',
+          'Get in touch for a free audit. We'll look at your current site and Google listing and tell you what we'd do next. No obligation.',
         ],
       },
     ],
@@ -497,7 +497,7 @@ const blogPosts = {
   },
   'website-designer-bath-banes': {
     slug: 'website-designer-bath-banes',
-    title: 'Website Designer Bath & North East Somerset: What to Look For (and Why We’re Different)',
+    title: 'Website Designer Bath & North East Somerset: What to Look For (and Why We're Different)',
     description: 'Looking for a website designer in Bath or North East Somerset? We specialise in trade websites and getting local trades found on Google. Fast sites, mobile-friendly, SEO built in — plumbers, electricians, builders.',
     date: '2026-02-12',
     readTime: '5 min read',
@@ -505,10 +505,10 @@ const blogPosts = {
     keywords: 'website designer, website designer Bath, website designer Bath and North East Somerset, web design Bath, professional website designer, website designer for trades, hire website designer',
     sections: [
       {
-        heading: 'Why “website designer” isn’t just about looks',
+        heading: 'Why "website designer" isn't just about looks',
         paragraphs: [
-          'A lot of people search for a “website designer” in Bath or North East Somerset when they really need three things: a site that looks professional, one that loads fast and works on phones, and one that helps them get found on Google. The best website designer for a local business does all three — so you don’t just get a pretty page; you get a site that brings in enquiries.',
-          'We specialise in trade websites and getting local trades found on Google. We’re a website designer and local SEO agency in Bath: every site we build is mobile-first, fast, and set up for local search from day one. Plumbers, electricians, builders — we don’t hand over a site and walk away; we build something that works for Google and for your customers.',
+          'A lot of people search for a "website designer" in Bath or North East Somerset when they really need three things: a site that looks professional, one that loads fast and works on phones, and one that helps them get found on Google. The best website designer for a local business does all three — so you don't just get a pretty page; you get a site that brings in enquiries.',
+          'We specialise in trade websites and getting local trades found on Google. We're a website designer and local SEO agency in Bath: every site we build is mobile-first, fast, and set up for local search from day one. Plumbers, electricians, builders — we don't hand over a site and walk away; we build something that works for Google and for your customers.',
         ],
       },
       {
@@ -516,27 +516,27 @@ const blogPosts = {
         paragraphs: [
           'First, speed. Slow sites lose visitors and rank lower on Google. Ask whether your website designer builds for performance — optimised images, clean code, fast hosting. We aim for Lighthouse scores of 95+ so your site loads in seconds.',
           'Second, mobile. Most local searches happen on phones. Your site needs to look and work great on every device. A good website designer will build mobile-first, not as an afterthought.',
-          'Third, local SEO. If you’re a plumber, electrician, or trade in Bath, Keynsham, or Midsomer Norton, your site should help you show up when people search “plumber Bath” or “electrician near me”. That means clear location signals, proper structure, and — ideally — a designer who also understands Google Business Profile so your website and your listing work together.',
+          'Third, local SEO. If you're a plumber, electrician, or trade in Bath, Keynsham, or Midsomer Norton, your site should help you show up when people search "plumber Bath" or "electrician near me". That means clear location signals, proper structure, and — ideally — a designer who also understands Google Business Profile so your website and your listing work together.',
         ],
       },
       {
-        heading: 'Website designer vs DIY: when it’s worth hiring',
+        heading: 'Website designer vs DIY: when it's worth hiring',
         paragraphs: [
-          'DIY website builders are cheap, but they often produce slow, generic sites that don’t rank well. A professional website designer in Bath or North East Somerset can give you a custom site that’s fast, on-brand, and built for local search — without you spending time learning builders or fixing technical issues.',
-          'We offer one-page sites from £399 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months’ hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
+          'DIY website builders are cheap, but they often produce slow, generic sites that don't rank well. A professional website designer in Bath or North East Somerset can give you a custom site that's fast, on-brand, and built for local search — without you spending time learning builders or fixing technical issues.',
+          'We offer one-page sites from £399 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months' hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
         ],
       },
       {
         heading: 'How we work as your website designer',
         paragraphs: [
-          'We start with a quick chat about your business, your customers, and where you want to show up (Bath, Keynsham, Radstock, Trowbridge, etc.). We then design and build your site, test it on every device, and make sure it’s set up for Google and for your area.',
-          'If you already have a Google Business Profile, we can help optimise it so it works with your new site. If you don’t, we can help you claim and set it up. Website and GBP together = more visibility and more enquiries.',
+          'We start with a quick chat about your business, your customers, and where you want to show up (Bath, Keynsham, Radstock, Trowbridge, etc.). We then design and build your site, test it on every device, and make sure it's set up for Google and for your area.',
+          'If you already have a Google Business Profile, we can help optimise it so it works with your new site. If you don't, we can help you claim and set it up. Website and GBP together = more visibility and more enquiries.',
         ],
       },
       {
         heading: 'Get in touch',
         paragraphs: [
-          'If you’re looking for a website designer in Bath, Keynsham, Midsomer Norton, Radstock, or anywhere in Bath and North East Somerset — and you want a site that looks great, loads fast, and helps you get found on Google — we’d be happy to talk. We offer a free audit so you can see where you stand and what we’d recommend. No obligation.',
+          'If you're looking for a website designer in Bath, Keynsham, Midsomer Norton, Radstock, or anywhere in Bath and North East Somerset — and you want a site that looks great, loads fast, and helps you get found on Google — we'd be happy to talk. We offer a free audit so you can see where you stand and what we'd recommend. No obligation.',
         ],
       },
     ],
@@ -635,14 +635,14 @@ const blogPosts = {
       {
         heading: 'Why we start with keyword research',
         paragraphs: [
-          'When we build a website for a business in Keynsham, Saltford, or the wider BS31 area, we don’t start with colours and layouts. We start with what your customers actually type into Google. That’s keyword research: finding out which phrases people use when they’re looking for your trade or service in your area.',
-          'For a plumber in Keynsham, that might be "plumber Keynsham", "emergency plumber BS31", or "plumber near me". For an electrician, "electrician Keynsham" or "electrician Saltford". Those phrases tell us what your site needs to say and how to structure it so Google can match you to the right searches. Without that step, you end up with a nice-looking site that doesn’t rank for the things that bring in work.',
+          'When we build a website for a business in Keynsham, Saltford, or the wider BS31 area, we don't start with colours and layouts. We start with what your customers actually type into Google. That's keyword research: finding out which phrases people use when they're looking for your trade or service in your area.',
+          'For a plumber in Keynsham, that might be "plumber Keynsham", "emergency plumber BS31", or "plumber near me". For an electrician, "electrician Keynsham" or "electrician Saltford". Those phrases tell us what your site needs to say and how to structure it so Google can match you to the right searches. Without that step, you end up with a nice-looking site that doesn't rank for the things that bring in work.',
         ],
       },
       {
         heading: 'What initial keyword research looks like',
         paragraphs: [
-          'We look at what people search for in your industry and in your location. We check existing search volume (how often a phrase is used), who’s already ranking for it, and how realistic it is to compete. We also look at "near me" and map-pack behaviour — because in Keynsham and the Keynsham area, a lot of jobs come from local pack and Maps, not just the main search results.',
+          'We look at what people search for in your industry and in your location. We check existing search volume (how often a phrase is used), who's already ranking for it, and how realistic it is to compete. We also look at "near me" and map-pack behaviour — because in Keynsham and the Keynsham area, a lot of jobs come from local pack and Maps, not just the main search results.',
           'From that we get a shortlist of target keywords: the phrases we want your site (and your Google Business Profile) to be built around. That list shapes your page titles, headings, service descriptions, and area content. Everything we write and build is aligned with what people are actually searching for.',
         ],
       },
@@ -663,14 +663,14 @@ const blogPosts = {
       {
         heading: 'Launch and local search',
         paragraphs: [
-          ‘After launch we submit the site to Google, set up or tidy your GBP if needed, and make sure everything is connected. We don’t stop at "the site is live" — we want it to start showing up for the searches we targeted. For many Keynsham businesses that means appearing in the map pack and for "near me" searches as well as for specific phrases like "electrician Keynsham". See our [Keynsham web design service](https://seo-kings.co.uk/areas/keynsham) to see how we bring this process to life for real businesses.’,
+          'After launch we submit the site to Google, set up or tidy your GBP if needed, and make sure everything is connected. We don't stop at "the site is live" — we want it to start showing up for the searches we targeted. For many Keynsham businesses that means appearing in the map pack and for "near me" searches as well as for specific phrases like "electrician Keynsham". See our [Keynsham web design service](https://seo-kings.co.uk/areas/keynsham) to see how we bring this process to life for real businesses.',
           'If you want ongoing visibility, we can add local SEO and GBP management on top. But the foundation is always the same: keyword research first, then a site built to rank for the right local searches.',
         ],
       },
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you’re a tradesperson or local business in Keynsham and you’re thinking about a new website — or you want one that’s built with keyword research and local search in mind from day one — we’d be happy to talk. We serve Keynsham, Saltford, Bitton, Bath and North East Somerset. Get in touch for a free chat, or see our website design and Keynsham area pages below.',
+          'If you're a tradesperson or local business in Keynsham and you're thinking about a new website — or you want one that's built with keyword research and local search in mind from day one — we'd be happy to talk. We serve Keynsham, Saltford, Bitton, Bath and North East Somerset. Get in touch for a free chat, or see our website design and Keynsham area pages below.',
         ],
       },
     ],
@@ -1089,52 +1089,52 @@ const blogPosts = {
   'how-we-get-you-number-one-google-maps': {
     slug: 'how-we-get-you-number-one-google-maps',
     title: 'How We Get You to Number One on Google Maps',
-    description: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here’s how we help you get into that top spot — in plain English.',
+    description: 'When people search for a plumber, electrician or cleaner near them, Google shows a map with three businesses at the top. Here's how we help you get into that top spot — in plain English.',
     date: '2026-02-09',
     readTime: '5 min read',
     author: 'SEO Kings',
     keywords: 'number one Google Maps, rank first Google Maps, map pack Bath, local search top spot, get found on Google Maps',
     sections: [
       {
-        heading: 'What we mean by “number one on Google Maps”',
+        heading: 'What we mean by "number one on Google Maps"',
         paragraphs: [
-          'When someone types “plumber Bath” or “cleaner near me” into Google, they often see a map with three businesses right at the top. That’s the bit we care about. Get into one of those three spots and you get more calls, more clicks and more jobs. Miss it and a lot of that work goes to someone else.',
-          'So “number one” for us means: getting your business into that top map section — and ideally in the first position — when people in your area search for what you do. We do this for trades and local businesses in Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge and the surrounding areas.',
+          'When someone types "plumber Bath" or "cleaner near me" into Google, they often see a map with three businesses right at the top. That's the bit we care about. Get into one of those three spots and you get more calls, more clicks and more jobs. Miss it and a lot of that work goes to someone else.',
+          'So "number one" for us means: getting your business into that top map section — and ideally in the first position — when people in your area search for what you do. We do this for trades and local businesses in Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge and the surrounding areas.',
         ],
       },
       {
-        heading: 'Google is basically asking: “Is this business real, relevant and good?”',
+        heading: 'Google is basically asking: "Is this business real, relevant and good?"',
         paragraphs: [
-          'Google doesn’t magic those top spots out of nowhere. It’s trying to show people businesses that are real, in the right place, and that other people have had a good experience with. So we make sure your business answers those questions clearly.',
+          'Google doesn't magic those top spots out of nowhere. It's trying to show people businesses that are real, in the right place, and that other people have had a good experience with. So we make sure your business answers those questions clearly.',
           'That means: your name, address, phone number and website are correct and the same everywhere Google looks. It means your Google Business Profile (your free listing on Google Maps and Search) is filled out properly and kept up to date. And it means your website actually backs up what you do and where you work, so Google can join the dots.',
         ],
       },
       {
         heading: 'Your Google Business Profile has to do the heavy lifting',
         paragraphs: [
-          'Your Google Business Profile is the main thing Google uses to decide whether to show you on the map. If it’s incomplete, wrong or rarely updated, you’re starting with a handicap. We get it claimed, verified and filled in properly: the right categories, a clear description of what you do and where you serve, opening hours, photos and a link to your website.',
-          'We also help you keep it active. Google likes to see that a business is still going — so we use posts, updates and new photos in a way that makes sense for your business. We don’t give away every trick we use, but the idea is simple: your profile should look like a real, busy, trustworthy business that’s worth showing at the top.',
+          'Your Google Business Profile is the main thing Google uses to decide whether to show you on the map. If it's incomplete, wrong or rarely updated, you're starting with a handicap. We get it claimed, verified and filled in properly: the right categories, a clear description of what you do and where you serve, opening hours, photos and a link to your website.',
+          'We also help you keep it active. Google likes to see that a business is still going — so we use posts, updates and new photos in a way that makes sense for your business. We don't give away every trick we use, but the idea is simple: your profile should look like a real, busy, trustworthy business that's worth showing at the top.',
         ],
       },
       {
         heading: 'Your website has to back you up',
         paragraphs: [
-          'Google looks at your website as well. If your site is slow, hard to use on a phone or doesn’t clearly say what you do and where you work, it’s harder to get to number one. We build or fix sites so they load quickly, work well on mobiles and spell out your services and areas in a way both customers and Google understand.',
-          'We make sure the details on your site match your Google listing exactly. Conflicting information makes Google less confident about showing you at the top. When your website and your Google profile tell the same story, you’re in a much stronger position.',
+          'Google looks at your website as well. If your site is slow, hard to use on a phone or doesn't clearly say what you do and where you work, it's harder to get to number one. We build or fix sites so they load quickly, work well on mobiles and spell out your services and areas in a way both customers and Google understand.',
+          'We make sure the details on your site match your Google listing exactly. Conflicting information makes Google less confident about showing you at the top. When your website and your Google profile tell the same story, you're in a much stronger position.',
         ],
       },
       {
         heading: 'Reviews and reputation matter',
         paragraphs: [
-          'Reviews don’t just help customers choose you — they help Google decide who to put at the top. We help you get more genuine Google reviews from real customers and respond to them in a way that looks professional. We don’t buy reviews or do anything that breaks Google’s rules; we focus on asking the right people at the right time and making it easy for them to leave a review.',
-          'Over time, a steady flow of good reviews and thoughtful replies sends a clear signal: this business is real, people use it and they’re happy. That’s the kind of signal that supports a top spot on the map.',
+          'Reviews don't just help customers choose you — they help Google decide who to put at the top. We help you get more genuine Google reviews from real customers and respond to them in a way that looks professional. We don't buy reviews or do anything that breaks Google's rules; we focus on asking the right people at the right time and making it easy for them to leave a review.',
+          'Over time, a steady flow of good reviews and thoughtful replies sends a clear signal: this business is real, people use it and they're happy. That's the kind of signal that supports a top spot on the map.',
         ],
       },
       {
-        heading: 'We don’t promise magic — we promise a proper plan',
+        heading: 'We don't promise magic — we promise a proper plan',
         paragraphs: [
-          'Nobody can guarantee you’ll be number one tomorrow. Google’s algorithm changes, and your competitors are trying too. What we do is put in place the things that actually move the needle: a complete, accurate Google Business Profile, a website that supports it, consistent details everywhere and a sensible approach to reviews and activity.',
-          'We’ve done this for local businesses in Bath, North East Somerset and beyond — including getting clients to number one for their main search terms. If you want to see where you stand and what would help you most, we offer a free check of your Google listing and website. No jargon, no hard sell — just a clear picture and next steps in language you can understand.',
+          'Nobody can guarantee you'll be number one tomorrow. Google's algorithm changes, and your competitors are trying too. What we do is put in place the things that actually move the needle: a complete, accurate Google Business Profile, a website that supports it, consistent details everywhere and a sensible approach to reviews and activity.',
+          'We've done this for local businesses in Bath, North East Somerset and beyond — including getting clients to number one for their main search terms. If you want to see where you stand and what would help you most, we offer a free check of your Google listing and website. No jargon, no hard sell — just a clear picture and next steps in language you can understand.',
         ],
       },
     ],
