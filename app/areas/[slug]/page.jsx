@@ -64,6 +64,7 @@ export function generateMetadata({ params }) {
   return {
     title: { absolute: title },
     description: area?.metaDescription,
+    alternates: { canonical: `https://seo-kings.co.uk/areas/${slug}` },
     other: GEO_META[slug] ?? { 'geo.region': 'GB-BST', 'geo.placename': 'Bath' },
   };
 }
