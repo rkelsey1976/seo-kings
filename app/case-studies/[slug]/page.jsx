@@ -6,6 +6,7 @@ export function generateStaticParams() {
 }
 
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 export default async function Page({ params }) {
   const resolved = typeof params?.then === 'function' ? await params : params;

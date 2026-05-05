@@ -66,23 +66,11 @@ export const BLOG_LINKS = [
 ];
 
 export const CASE_STUDY_SLUGS = [
-  'mitchell-plumbing',
-  'keynsham-electrics',
-  'norton-roofing',
-  'the-bath-kitchen',
-  'radstock-dental',
-  'saltford-garden-centre',
   'peachy-cleans',
   'new-decorating',
 ];
 
 const caseStudyLabels = {
-  'mitchell-plumbing': 'Mitchell Plumbing',
-  'keynsham-electrics': 'Keynsham Electrics',
-  'norton-roofing': 'Norton Roofing',
-  'the-bath-kitchen': 'The Bath Kitchen',
-  'radstock-dental': 'Radstock Dental',
-  'saltford-garden-centre': 'Saltford Garden Centre',
   'peachy-cleans': 'Peachy Cleans',
   'new-decorating': 'New Decorating',
 };
