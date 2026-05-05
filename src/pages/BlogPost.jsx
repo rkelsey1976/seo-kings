@@ -1329,6 +1329,9 @@ const BlogPost = ({ params: staticParams }) => {
             '@type': 'BlogPosting',
             headline: post.title,
             description: post.description,
+            image: post.featureImage?.src
+              ? `${BASE_URL}${post.featureImage.src}`
+              : `${BASE_URL}/og-image.jpg`,
             datePublished: post.date,
             dateModified: post.date,
             author: { '@type': 'Person', name: post.author || 'SEO Kings' },

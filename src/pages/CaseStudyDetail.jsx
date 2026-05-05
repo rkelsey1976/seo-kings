@@ -153,9 +153,15 @@ const CaseStudyDetail = ({ params: staticParams }) => {
             image: caseStudy.heroImage,
             datePublished: '2025-01-15',
             dateModified: '2026-01-28',
-            author: { '@type': 'Person', name: 'SEO Kings' },
+            author: { '@type': 'Organization', '@id': `${BASE_URL}/#organization` },
             publisher: { '@id': `${BASE_URL}/#organization` },
             mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/case-studies/${caseStudy.slug}` },
+            about: {
+              '@type': 'LocalBusiness',
+              name: caseStudy.business,
+              description: `${caseStudy.industry} in ${caseStudy.location}`,
+              ...(caseStudy.websiteUrl ? { url: caseStudy.websiteUrl } : {}),
+            },
           },
           {
             '@context': 'https://schema.org',
