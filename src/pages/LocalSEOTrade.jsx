@@ -101,16 +101,6 @@ const LocalSEOTrade = ({ params: staticParams }) => {
 
   return (
     <>
-      <SEO
-        title={trade.metaTitle}
-        description={trade.metaDescription}
-        canonical={`/local-seo/${tradeSlug}`}
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: `For ${trade.name}` },
-        ]}
-      />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

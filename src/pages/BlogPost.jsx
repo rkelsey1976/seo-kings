@@ -1316,7 +1316,7 @@ const BlogPost = ({ params: staticParams }) => {
           { name: post.title },
         ]}
         article={{
-          type: 'Article',
+          type: 'BlogPosting',
           headline: post.title,
           description: post.description,
           datePublished: post.date,
@@ -1326,7 +1326,7 @@ const BlogPost = ({ params: staticParams }) => {
         schemas={[
           {
             '@context': 'https://schema.org',
-            '@type': 'Article',
+            '@type': 'BlogPosting',
             headline: post.title,
             description: post.description,
             datePublished: post.date,

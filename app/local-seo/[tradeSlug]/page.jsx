@@ -1,9 +1,27 @@
 import LocalSEOTrade from '../../../src/pages/LocalSEOTrade';
+import TradePageSchema from './TradePageSchema';
+import { TRADE_META } from '../../../src/constants/tradeMeta';
 
 export function generateStaticParams() {
   return [{ tradeSlug: 'plumbers' }, { tradeSlug: 'electricians' }, { tradeSlug: 'roofers' }];
 }
 
+export function generateMetadata({ params }) {
+  const slug = params?.tradeSlug;
+  const meta = TRADE_META[slug];
+  if (!meta) return {};
+  return {
+    title: meta.metaTitle,
+    description: meta.metaDescription,
+    alternates: { canonical: `https://seo-kings.co.uk/local-seo/${slug}` },
+  };
+}
+
 export default function Page({ params }) {
-  return <LocalSEOTrade params={params} />;
+  return (
+    <>
+      <TradePageSchema slug={params?.tradeSlug} />
+      <LocalSEOTrade params={params} />
+    </>
+  );
 }
