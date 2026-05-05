@@ -179,7 +179,7 @@ export const AREA_LINKS = [
 
 /** Static routes for XML sitemap: path, lastmod (YYYY-MM-DD), changefreq, priority */
 export const STATIC_ROUTES = [
-  { path: '/', lastmod: '2026-03-13', changefreq: 'weekly', priority: 1.0 },
+  { path: '/', lastmod: '2026-05-05', changefreq: 'weekly', priority: 1.0 },
   { path: '/about', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.8 },
   { path: '/how-we-are-different', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
@@ -191,18 +191,18 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/electricians', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/roofers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
-  { path: '/blog', lastmod: '2026-03-13', changefreq: 'weekly', priority: 0.8 },
+  { path: '/blog', lastmod: '2026-05-05', changefreq: 'weekly', priority: 0.8 },
   { path: '/case-studies', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
-  { path: '/sitemap', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.5 },
+  { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
+  { path: '/sitemap', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.5 },
   { path: '/privacy', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
   { path: '/terms', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
 ];
 
 /** Build all URLs for XML sitemap */
 export function getSitemapUrls() {
-  const today = '2026-03-13';
+  const today = '2026-05-05';
   const urls = [
     ...STATIC_ROUTES.map((r) => ({
       url: `${BASE_URL}${r.path}`,
