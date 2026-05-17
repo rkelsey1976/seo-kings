@@ -27,12 +27,17 @@ const Footer = () => {
             <div>
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Contact</p>
               <div className="space-y-3">
+                <address className="not-italic text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.55)' }}>
+                  16a Culvers Road<br />
+                  Keynsham, Somerset<br />
+                  BS31 2DW
+                </address>
                 <a href="tel:07702264921" className="block text-sm text-white hover:opacity-80 transition-opacity">
                   07702 264 921
                 </a>
-                <a 
-                  href="https://wa.me/447702264921" 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/447702264921"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="block text-sm hover:opacity-80 transition-opacity"
                   style={{ color: 'rgba(255,255,255,0.55)' }}
