@@ -34,6 +34,7 @@ const Footer = () => {
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
                   { label: 'Website Designer Keynsham', href: '/website-designer-keynsham' },
+                  { label: 'Website Designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
                   { label: 'Blog', href: '/blog' },
                 ].map(({ label, href }) => (
                   <li key={href}>
