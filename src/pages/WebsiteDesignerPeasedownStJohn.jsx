@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import FAQAccordion from '../components/FAQAccordion';
 
 const results = [
   {
@@ -290,14 +291,7 @@ const WebsiteDesignerPeasedownStJohn = () => {
           <div className="max-w-3xl">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>FAQs</p>
             <h2 className="text-3xl font-bold text-white mb-10">Common questions</h2>
-            <div className="space-y-6">
-              {faqs.map((faq) => (
-                <div key={faq.q} className="border-b border-white/[0.06] pb-6 last:border-0">
-                  <h3 className="text-white font-semibold mb-2">{faq.q}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{faq.a}</p>
-                </div>
-              ))}
-            </div>
+            <FAQAccordion faqs={faqs} />
           </div>
         </div>
       </section>
