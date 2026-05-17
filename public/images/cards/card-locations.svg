@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" fill="none">
+  <rect width="800" height="240" fill="#0B1324"/>
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <path d="M0 60h800M0 120h800M0 180h800"/>
+    <path d="M100 0v240M200 0v240M300 0v240M400 0v240M500 0v240M600 0v240M700 0v240"/>
+  </g>
+  <!-- Location pins scattered -->
+  <g opacity="0.25">
+    <path d="M150 130c0-8 6-14 14-14s14 6 14 14c0 11-14 26-14 26s-14-15-14-26z" fill="#4A90A4"/>
+    <circle cx="164" cy="128" r="4" fill="white"/>
+  </g>
+  <g opacity="0.35">
+    <path d="M280 100c0-8 6-14 14-14s14 6 14 14c0 11-14 26-14 26s-14-15-14-26z" fill="#4A90A4"/>
+    <circle cx="294" cy="98" r="4" fill="white"/>
+  </g>
+  <g opacity="0.3">
+    <path d="M410 140c0-8 6-14 14-14s14 6 14 14c0 11-14 26-14 26s-14-15-14-26z" fill="#4A90A4"/>
+    <circle cx="424" cy="138" r="4" fill="white"/>
+  </g>
+  <g opacity="0.4">
+    <path d="M540 110c0-8 6-14 14-14s14 6 14 14c0 11-14 26-14 26s-14-15-14-26z" fill="#4A90A4"/>
+    <circle cx="554" cy="108" r="4" fill="white"/>
+  </g>
+  <g opacity="0.2">
+    <path d="M670 150c0-8 6-14 14-14s14 6 14 14c0 11-14 26-14 26s-14-15-14-26z" fill="#4A90A4"/>
+    <circle cx="684" cy="148" r="4" fill="white"/>
+  </g>
+  <!-- Road lines connecting -->
+  <path d="M164 144 Q220 120 294 114" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <path d="M294 114 Q350 125 424 152" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <path d="M424 152 Q480 135 554 122" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <path d="M554 122 Q610 140 684 158" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <!-- Accent orbs -->
+  <circle cx="80" cy="60" r="30" fill="#4A90A4" opacity="0.04"/>
+  <circle cx="720" cy="180" r="30" fill="#E8715A" opacity="0.03"/>
+</svg>
