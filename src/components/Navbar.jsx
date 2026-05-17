@@ -132,6 +132,7 @@ const Navbar = () => {
   ];
 
   const navLinks = [
+    { name: 'Services', href: '/services', isRoute: true },
     { name: 'Case Studies', href: '/case-studies', isRoute: true },
     { name: "How We're Different", href: '/how-we-are-different', isRoute: true },
     { name: 'About', href: '/about', isRoute: true },
