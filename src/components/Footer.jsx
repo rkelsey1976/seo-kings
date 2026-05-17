@@ -33,6 +33,7 @@ const Footer = () => {
                   { label: 'Web Design Packages', href: '/web-design-packages' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
+                  { label: 'Blog', href: '/blog' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
