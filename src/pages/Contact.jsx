@@ -242,7 +242,7 @@ const Contact = () => {
                     'Free website quote, no obligation',
                     'Plain English, no jargon',
                     'Local team who understand Bath and North East Somerset',
-                    'Proven results with 150+ businesses',
+                    'Real results — verified client case studies',
                   ].map((point, index) => (
                     <li key={index} className="flex items-center gap-3 text-gray-400 text-sm">
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

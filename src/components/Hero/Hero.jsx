@@ -18,7 +18,7 @@ const Hero = ({
       <div className="absolute inset-0">
         <Image
           src="/images/home/hero-laptop.jpg"
-          alt=""
+          alt="Web designer working on a laptop — SEO Kings, Bath"
           fill
           priority
           className="object-cover"

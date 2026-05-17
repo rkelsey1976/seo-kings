@@ -64,9 +64,9 @@ const localSeoPackages = [
 ];
 
 const results = [
-  { metric: '340%', label: 'Average traffic increase', subtext: 'Within 6 months' },
-  { metric: '#1', label: 'Google rankings achieved', subtext: 'For local search terms' },
-  { metric: '£2.4M', label: 'Revenue generated', subtext: 'For Bath and North East Somerset clients in 2025' },
+  { metric: '#1', label: 'Organic search result', subtext: '"Exterior painter Bath" — New Decorating' },
+  { metric: 'Map Pack', label: 'Google Maps ranking', subtext: '"Cleaning Midsomer Norton" — Peachy Cleans' },
+  { metric: '< 1 week', label: 'Average time to first rankings', subtext: 'For new sites with GBP set up' },
 ];
 
 const heroFeatures = [
