@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
         <BaseSchemas />
       </head>
       <body suppressHydrationWarning>
-        <GrainTexture opacity={0.04} blendMode="multiply" animated zIndex={9999} />
+        <GrainTexture opacity={0.04} blendMode="multiply" zIndex={9999} />
         <WhatsAppButton />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
         <Script id="ga" strategy="lazyOnload">

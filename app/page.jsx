@@ -1,14 +1,14 @@
 import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
-import MarqueeText from '../src/components/MarqueeText';
-import StepsScroll from '../src/components/StepsScroll';
-import BentoGrid from '../src/components/BentoGrid';
-import FAQTestimonials from '../src/components/FAQTestimonials';
 import HomePageFAQSchema from './HomePageFAQSchema';
 import HomepageLocalBusinessSchema from './HomepageLocalBusinessSchema';
 
-const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: true });
-const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: true });
+const MarqueeText = dynamic(() => import('../src/components/MarqueeText'), { ssr: false });
+const BentoGrid = dynamic(() => import('../src/components/BentoGrid'), { ssr: false });
+const StepsScroll = dynamic(() => import('../src/components/StepsScroll'), { ssr: false });
+const FAQTestimonials = dynamic(() => import('../src/components/FAQTestimonials'), { ssr: false });
+const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: false });
+const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: false });
 
 export const revalidate = 3600;
 

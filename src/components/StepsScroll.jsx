@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef, useState, useId } from 'react';
-import PropTypes from 'prop-types';
 import Image from 'next/image';
 
 /**
@@ -158,19 +157,5 @@ const StepsScroll = ({ steps, accentColor = '#C4732C', className = '' }) => {
   );
 };
 
-StepsScroll.propTypes = {
-  steps: PropTypes.arrayOf(
-    PropTypes.shape({
-      heading: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      imageAlt: PropTypes.string,
-      number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      tag: PropTypes.string,
-    })
-  ).isRequired,
-  accentColor: PropTypes.string,
-  className: PropTypes.string,
-};
 
 export default StepsScroll;
