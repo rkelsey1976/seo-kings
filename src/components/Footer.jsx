@@ -15,10 +15,10 @@ const Footer = () => {
               <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
               </svg>
-              <span className="text-lg font-bold text-white tracking-tight">SEOKings</span>
+              <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
-              Websites that get you calls. Bath & BANES.
+              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £399. Google Business Profile included.
             </p>
           </div>
 

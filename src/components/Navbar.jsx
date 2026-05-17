@@ -186,7 +186,7 @@ const Navbar = () => {
                   <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
                 </svg>
                 <span className="text-xl font-bold text-white">
-                  SEOKings
+                  SEO Kings
                 </span>
               </Link>
             </div>
