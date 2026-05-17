@@ -22,31 +22,30 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Services */}
-          <div>
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Services</p>
-            <ul className="space-y-2.5">
-              {[
-                { label: 'Website Design', href: '/web-design' },
-                { label: 'Web Design Packages', href: '/web-design-packages' },
-                { label: 'Google Business Profile', href: '/google-business-profile' },
-                { label: 'Local SEO', href: '/local-seo' },
-              ].map(({ label, href }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    className="text-sm transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.55)' }}
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact */}
+          {/* Contact + Services + Follow */}
           <div className="flex flex-col sm:flex-row gap-10 sm:gap-16">
+            {/* Services */}
+            <div>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Services</p>
+              <ul className="space-y-2.5">
+                {[
+                  { label: 'Website Design', href: '/web-design' },
+                  { label: 'Web Design Packages', href: '/web-design-packages' },
+                  { label: 'Google Business Profile', href: '/google-business-profile' },
+                  { label: 'Local SEO', href: '/local-seo' },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="text-sm transition-colors hover:text-white"
+                      style={{ color: 'rgba(255,255,255,0.55)' }}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div>
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Contact</p>
               <div className="space-y-3">
