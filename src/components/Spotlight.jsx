@@ -5,7 +5,7 @@ import SectionDivider from './SectionDivider';
 
 // Main hero image – Peachy Cleans website hero (featured in large panel)
 const mainImage = {
-  src: '/spotlight/peachy-hero.png',
+  src: '/spotlight/peachy-hero.webp',
   alt: 'Peachy Cleans website hero – professional cleaning services in Midsomer Norton, Radstock, Bath and surrounding areas',
   label: 'Live website',
   description: 'Peachy Cleans website at peachycleans.info – committed to ensuring cleanliness meets excellence.',

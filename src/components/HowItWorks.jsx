@@ -8,7 +8,7 @@ const HowItWorks = () => {
       number: '01',
       title: 'Free Audit',
       description: 'We review your current Google rankings, website (or we build you one — website design from £399), and Google Business Profile. We tell you exactly what\'s holding you back in Bath & North East Somerset searches and give you a clear action plan — no jargon, no obligation.',
-      image: '/images/home/local-seo-get-found-google-analytics.png',
+      image: '/images/home/local-seo-get-found-google-analytics.webp',
       imageAlt: 'Local SEO audit — checking Google rankings and website visibility for Bath and North East Somerset businesses',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -20,7 +20,7 @@ const HowItWorks = () => {
       number: '02',
       title: 'Custom Strategy',
       description: 'We build a plan around your trade, your location, and the customers you want to reach. That means the right keywords for your area, a website structure that converts visitors to leads, and a Google Business Profile set up to appear in the map pack — not a one-size-fits-all template.',
-      image: '/images/home/website-design-planning-trades-bath.png',
+      image: '/images/home/website-design-planning-trades-bath.webp',
       imageAlt: 'Website design planning for trades in Bath — custom strategy built around your business and local area',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -32,7 +32,7 @@ const HowItWorks = () => {
       number: '03',
       title: 'Results',
       description: 'We do the work — you get more calls, more enquiries, more jobs. Most clients see their Google Business Profile ranking improve within the first month. We send monthly updates so you always know what\'s working and where you stand in local search.',
-      image: '/images/home/website-design-workflow-bath-somerset.png',
+      image: '/images/home/website-design-workflow-bath-somerset.webp',
       imageAlt: 'Website design and local SEO results — more calls and enquiries from Google for trades in Bath Somerset',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

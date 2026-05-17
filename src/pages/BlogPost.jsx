@@ -1152,7 +1152,7 @@ const blogPosts = {
     author: 'SEO Kings',
     keywords: 'Keynsham farmers market, website for traders Keynsham, local business website BS31, artisan producers Keynsham website, Keynsham market stall online sales, website design Keynsham, Google Business Profile Keynsham',
     featureImage: {
-      src: '/images/blog/keynsham-farmers-market.png',
+      src: '/images/blog/keynsham-farmers-market.webp',
       alt: 'Busy Keynsham Farmers\' Market with green and white striped stalls, clock tower and shoppers at Market Walk',
     },
     sections: [

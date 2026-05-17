@@ -17,7 +17,7 @@ const Hero = ({
       {/* ══════ HERO BACKGROUND IMAGE — neon laptop ══════ */}
       <div className="absolute inset-0">
         <Image
-          src="/images/home/hero-laptop.jpg"
+          src="/images/home/hero-laptop.webp"
           alt="Web designer working on a laptop — SEO Kings, Bath"
           fill
           priority

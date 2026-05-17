@@ -42,7 +42,7 @@ const howItWorksSteps = [
     tag: 'Discovery',
     heading: 'We audit where the calls are going.',
     description: 'We check where you rank, what your competitors are doing, and where the missed calls are. Takes 10 minutes. The report is yours either way.',
-    image: '/images/home/website-designer-bath-professional-workspace.png',
+    image: '/images/home/website-designer-bath-professional-workspace.webp',
     imageAlt: 'Website designer Bath — professional setup for building fast, SEO-ready sites',
   },
   {
@@ -50,7 +50,7 @@ const howItWorksSteps = [
     tag: 'Build',
     heading: 'Your site goes live in under 2 weeks.',
     description: 'Mobile-first, fast-loading, built to show up when customers search "[your trade] near me" in Bath, Keynsham or wherever you work.',
-    image: '/images/home/local-seo-get-found-google-analytics.png',
+    image: '/images/home/local-seo-get-found-google-analytics.webp',
     imageAlt: 'Local SEO audit — Google rankings and visibility for Bath businesses',
   },
   {
@@ -58,7 +58,7 @@ const howItWorksSteps = [
     tag: 'Win',
     heading: 'The calls come in.',
     description: 'You get a monthly ranking report showing exactly where you sit and what\'s moved. Most clients see calls within the first 30 days.',
-    image: '/images/home/website-design-workflow-bath-somerset.png',
+    image: '/images/home/website-design-workflow-bath-somerset.webp',
     imageAlt: 'Website design results — real local search wins for trades in Bath and Somerset',
   },
 ];
@@ -74,7 +74,7 @@ const bentoCells = [
     body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £399. Multi-page from £599. Click-to-call, quote form, and GBP set-up included.',
     href: '/web-design',
     theme: 'dark',
-    imageBg: '/images/cards/bg-website.png',
+    imageBg: '/images/cards/bg-website.webp',
     accentColor: '#E8715A',
   },
   {
@@ -85,7 +85,7 @@ const bentoCells = [
     body: 'Peachy Cleans — Map Pack "cleaning Midsomer Norton". New Decorating — #1 organic "exterior painter Bath". Aurelian Massage — ranking for "massage Bath". Exact keywords. Exact positions.',
     href: '/case-studies',
     theme: 'dark',
-    imageBg: '/images/keynsham/keynsham-cta-background-code.png',
+    imageBg: '/images/keynsham/keynsham-cta-background-code.webp',
     accentColor: '#4A90A4',
   },
   {
@@ -94,7 +94,7 @@ const bentoCells = [
     body: 'Claim, verify and fully optimise your GBP. Show up in the Map Pack — the top 3 results that capture 60% of local clicks. One-off £150 or included with every site.',
     href: '/google-business-profile',
     theme: 'dark',
-    imageBg: '/images/keynsham/keynsham-code-screen.png',
+    imageBg: '/images/keynsham/keynsham-code-screen.webp',
     accentColor: '#4A90A4',
   },
   {
@@ -104,7 +104,7 @@ const bentoCells = [
     body: 'Keyword research, on-page optimisation, local citations, and monthly ranking reports. Know exactly where you sit and what\'s improving every month.',
     href: '/local-seo',
     theme: 'dark',
-    imageBg: '/images/keynsham/keynsham-coding.png',
+    imageBg: '/images/keynsham/keynsham-coding.webp',
     accentColor: '#E8715A',
   },
 ];

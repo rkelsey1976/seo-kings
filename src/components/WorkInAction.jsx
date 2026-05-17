@@ -4,15 +4,15 @@ import SectionDivider from './SectionDivider';
 
 const images = [
   {
-    src: '/images/home/website-design-workflow-bath-somerset.png',
+    src: '/images/home/website-design-workflow-bath-somerset.webp',
     alt: 'Website design Bath Somerset — clear layout and SEO built in from day one',
   },
   {
-    src: '/images/home/local-seo-get-found-google-analytics.png',
+    src: '/images/home/local-seo-get-found-google-analytics.webp',
     alt: 'Local SEO Bath — get found on Google and track what works for your business',
   },
   {
-    src: '/images/home/website-design-planning-trades-bath.png',
+    src: '/images/home/website-design-planning-trades-bath.webp',
     alt: 'Website design planning for trades in Bath — we start with your goals so your site converts',
   },
 ];
