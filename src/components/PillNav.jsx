@@ -4,7 +4,7 @@ import Link from 'next/link';
 import MagneticButton from './library/MagneticButton';
 
 const navItems = [
-  { name: 'Services', href: '/web-design' },
+  { name: 'Services', href: '/services' },
   { name: 'Areas', href: '/areas' },
   { name: 'Case Studies', href: '/case-studies' },
   { name: 'About', href: '/about' },
