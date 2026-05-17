@@ -35,6 +35,7 @@ const Footer = () => {
                   { label: 'Local SEO', href: '/local-seo' },
                   { label: 'Website Designer Keynsham', href: '/website-designer-keynsham' },
                   { label: 'Website Designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
+                  { label: 'Website Designer Radstock', href: '/website-designer-radstock' },
                   { label: 'Blog', href: '/blog' },
                 ].map(({ label, href }) => (
                   <li key={href}>
