@@ -127,7 +127,7 @@ const FAQTestimonials = () => {
                     </div>
                     <div>
                       <div className="text-sm font-semibold text-white">{t.name}</div>
-                      <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                      <div className="text-xs" style={{ color: 'rgba(255,255,255,0.65)' }}>
                         {t.business} · {t.location}
                       </div>
                     </div>

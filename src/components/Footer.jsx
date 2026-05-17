@@ -17,7 +17,7 @@ const Footer = () => {
               </svg>
               <span className="text-lg font-bold text-white tracking-tight">SEOKings</span>
             </Link>
-            <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.45)' }}>
+            <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
               Websites that get you calls. Bath & BANES.
             </p>
           </div>
@@ -90,12 +90,12 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs" style={{ color: 'rgba(255,255,255,0.3)' }}>
+          <p className="text-xs" style={{ color: 'rgba(255,255,255,0.55)' }}>
             <span suppressHydrationWarning>© {currentYear} SEO Kings</span>
           </p>
-          <div className="flex items-center gap-6 text-xs" style={{ color: 'rgba(255,255,255,0.3)' }}>
-            <Link href="/privacy" className="hover:text-white/60 transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-white/60 transition-colors">Terms</Link>
+          <div className="flex items-center gap-6 text-xs" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
           </div>
         </div>
       </div>

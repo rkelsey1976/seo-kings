@@ -123,7 +123,7 @@ const StepsScroll = ({ steps, accentColor = '#C4732C', className = '' }) => {
             <div className="flex items-center gap-3 mb-5">
               <span
                 className="text-5xl font-bold leading-none tabular-nums"
-                style={{ color: accentColor, opacity: 0.25 }}
+                style={{ color: accentColor, opacity: 0.45 }}
                 aria-hidden="true"
               >
                 {pad(step.number ?? i + 1)}

@@ -142,7 +142,7 @@ const WebsiteDesignerKeynsham = () => {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#E8715A' }}
+                style={{ backgroundColor: '#C25245' }}
               >
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,7 +230,7 @@ const WebsiteDesignerKeynsham = () => {
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#E8715A' }}
+                style={{ backgroundColor: '#C25245' }}
               >
                 Get a Free Quote
               </Link>
