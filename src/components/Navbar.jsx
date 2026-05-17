@@ -132,7 +132,6 @@ const Navbar = () => {
   ];
 
   const navLinks = [
-    { name: 'Services', href: '/services', isRoute: true },
     { name: 'Case Studies', href: '/case-studies', isRoute: true },
     { name: "How We're Different", href: '/how-we-are-different', isRoute: true },
     { name: 'About', href: '/about', isRoute: true },
@@ -194,20 +193,14 @@ const Navbar = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
-              {/* Services Dropdown Trigger */}
-              <button 
-                className={`flex items-center gap-1 transition-colors duration-200 text-sm font-medium ${isServicesOpen ? 'text-white' : 'text-gray-300 hover:text-white'}`}
-                onClick={() => {
-                  setIsServicesOpen(!isServicesOpen);
-                  setIsAreasOpen(false);
-                }}
-                aria-expanded={isServicesOpen}
+              {/* Services Link */}
+              <Link
+                href="/services"
+                className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium"
+                onClick={closeAllMenus}
               >
                 Services
-                <svg className={`w-4 h-4 transition-transform duration-300 ${isServicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
+              </Link>
 
               {/* Areas Dropdown Trigger */}
               <button 
@@ -447,24 +440,15 @@ const Navbar = () => {
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex flex-col gap-4">
-              {/* Mobile Services Links */}
+              {/* Mobile Services Link */}
               <div className="border-b border-white/5 pb-4">
-                <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Services</div>
-                {services.map((service) => (
-                  <Link
-                    key={service.name}
-                    href={service.href}
-                    className="flex items-center gap-3 py-3 text-gray-300 hover:text-white transition-colors duration-200"
-                    onClick={closeAllMenus}
-                  >
-                    <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${service.color} flex items-center justify-center text-white`} aria-hidden="true">
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        {service.icon.props.children}
-                      </svg>
-                    </div>
-                    <span className="font-medium">{service.name}</span>
-                  </Link>
-                ))}
+                <Link
+                  href="/services"
+                  className="flex items-center py-3 text-gray-300 hover:text-white transition-colors duration-200 font-medium"
+                  onClick={closeAllMenus}
+                >
+                  Services
+                </Link>
               </div>
 
               {/* Mobile Areas Links */}
