@@ -21,6 +21,8 @@ const sitemapSections = [
       { href: '/website-designer-keynsham', label: 'Website Designer Keynsham' },
       { href: '/website-designer-midsomer-norton', label: 'Website Designer Midsomer Norton' },
       { href: '/website-designer-radstock', label: 'Website Designer Radstock' },
+      { href: '/website-designer-saltford', label: 'Website Designer Saltford' },
+      { href: '/website-designer-peasedown-st-john', label: 'Website Designer Peasedown St John' },
       { href: '/web-design-packages', label: 'Web Design Packages' },
       { href: '/local-seo', label: 'Local SEO' },
       { href: '/local-seo/plumbers', label: 'Local SEO for Plumbers' },
