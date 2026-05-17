@@ -68,11 +68,13 @@ export const BLOG_LINKS = [
 export const CASE_STUDY_SLUGS = [
   'peachy-cleans',
   'new-decorating',
+  'aurelian-massage',
 ];
 
 const caseStudyLabels = {
   'peachy-cleans': 'Peachy Cleans',
   'new-decorating': 'New Decorating',
+  'aurelian-massage': 'Aurelian Massage',
 };
 export const CASE_STUDY_LINKS = [
   { href: '/case-studies', label: 'Case Studies' },
