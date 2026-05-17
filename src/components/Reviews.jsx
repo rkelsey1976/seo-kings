@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionDivider from './SectionDivider';
+import TestimonialPullquote from './TestimonialPullquote';
 import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 import { REVIEWS } from '../constants/reviews';
 
@@ -28,25 +29,29 @@ const Reviews = () => {
           </p>
         </div>
 
+        {/* Featured testimonial — editorial pullquote */}
         {REVIEWS.length > 0 && (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-12">
-            {REVIEWS.map((review, index) => (
-              <article
+          <TestimonialPullquote
+            quote={REVIEWS[0].quote}
+            name={REVIEWS[0].name}
+            role={REVIEWS[0].business + (REVIEWS[0].location ? ` · ${REVIEWS[0].location}` : '')}
+            stars={REVIEWS[0].stars || 5}
+            variant="full"
+            className="mb-16"
+          />
+        )}
+
+        {REVIEWS.length > 1 && (
+          <div className="grid sm:grid-cols-2 gap-6 lg:gap-8 mb-12">
+            {REVIEWS.slice(1, 3).map((review, index) => (
+              <TestimonialPullquote
                 key={index}
-                className="bg-dark-card border border-white/5 rounded-2xl p-6 lg:p-8 flex flex-col h-full"
-              >
-                <StarRating stars={review.stars} />
-                <blockquote className="mt-4 text-gray-300 leading-relaxed flex-1">
-                  &ldquo;{review.quote}&rdquo;
-                </blockquote>
-                <footer className="mt-6 pt-4 border-t border-white/5">
-                  <div className="font-semibold text-white">{review.name}</div>
-                  <div className="text-sm text-gray-400">
-                    {review.business}
-                    {review.location && ` • ${review.location}`}
-                  </div>
-                </footer>
-              </article>
+                quote={review.quote}
+                name={review.name}
+                role={review.business + (review.location ? ` · ${review.location}` : '')}
+                stars={review.stars || 5}
+                variant="card"
+              />
             ))}
           </div>
         )}

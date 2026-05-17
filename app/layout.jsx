@@ -1,16 +1,26 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import Script from 'next/script';
 import BaseSchemas from './BaseSchemas';
-import Navbar from '../src/components/Navbar';
+import Navbar from '../src/components/PillNav';
 import Footer from '../src/components/Footer';
 import ScrollToTop from '../src/components/ScrollToTop';
+import WhatsAppButton from '../src/components/WhatsAppButton';
+import GrainTexture from '../src/components/library/GrainTexture';
 
-const inter = Inter({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700'],
   display: 'swap',
   preload: true,
+  variable: '--font-sans',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  display: 'swap',
+  variable: '--font-mono',
 });
 
 export const metadata = {
@@ -34,8 +44,8 @@ export const metadata = {
   other: {
     'geo.region': 'GB-BST',
     'geo.placename': 'Bath',
-    'theme-color': '#7C3AED',
-    'msapplication-TileColor': '#0F172A',
+    'theme-color': '#E8715A',
+    'msapplication-TileColor': '#0B1324',
     'twitter:card': 'summary_large_image',
     'twitter:site': '@seokings',
     'twitter:title': 'SEO Kings | Website Design Bath & North East Somerset',
@@ -48,15 +58,15 @@ export const viewport = { width: 'device-width', initialScale: 1 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-GB" className={inter.className} suppressHydrationWarning>
+    <html lang="en-GB" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} font-sans`} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://images.unsplash.com" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <BaseSchemas />
       </head>
       <body suppressHydrationWarning>
+        <GrainTexture opacity={0.04} blendMode="multiply" animated zIndex={9999} />
+        <WhatsAppButton />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
         <Script id="ga" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9JWXCPHP71');`}
@@ -71,7 +81,7 @@ export default function RootLayout({ children }) {
           <textarea name="message" />
           <input name="bot-field" />
         </form>
-        <div className="min-h-screen bg-dark grid-bg">
+        <div className="min-h-screen bg-dark">
           <ScrollToTop />
           <Navbar />
           <main id="main-content" role="main">

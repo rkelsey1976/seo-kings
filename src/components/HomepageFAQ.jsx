@@ -4,23 +4,23 @@ import FAQAccordion from './FAQAccordion';
 export const homepageFAQs = [
   {
     question: 'How much does a website cost in Bath?',
-    answer: 'Our websites start at £399 for a one-page trade site with contact form, click-to-call and Google Business Profile optimisation included. Multi-page sites start at £1,200. No hidden fees, no monthly retainer unless you choose to add Local SEO.',
+    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £1,200. No hidden fees.',
   },
   {
     question: 'How long does it take to build a website?',
-    answer: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. We keep you updated throughout and aim to get you online and getting found as quickly as possible.',
+    answer: 'Most one-page sites are live within 2 weeks. We keep you updated throughout.',
   },
   {
     question: 'Do I need a website to appear on Google Maps?',
-    answer: 'No — you can appear on Google Maps with just a Google Business Profile. But having a website alongside it significantly improves your visibility in local search results, helps you rank for more keywords, and gives customers more reasons to choose you over a competitor.',
+    answer: 'No — but having one doubles your chance of showing up in the Map Pack, where 60% of local clicks go.',
   },
   {
     question: 'What results can I expect from local SEO?',
-    answer: 'Most clients see their Google Business Profile ranking improve within the first month. Our client Peachy Cleans went from invisible to number 1 for "cleaner Midsomer Norton" — now they have fully booked weeks and have hired new staff. Results depend on your trade and how competitive your area is, but we show you exactly where you stand and what we are doing each month.',
+    answer: 'Most clients see ranking improvements within 30 days. Peachy Cleans went from invisible to #1 for "cleaner Midsomer Norton" — but results vary by area and competition.',
   },
   {
-    question: 'Do you work with tradespeople in Bath and North East Somerset?',
-    answer: 'Yes — that is our focus. We work with plumbers, electricians, builders, roofers, landscapers and other local trades across Bath, Keynsham, Midsomer Norton, Radstock and the surrounding area. We know the local market and what it takes to get you found by customers in your area.',
+    question: 'What trades do you work with?',
+    answer: 'Plumbers, electricians, builders, cleaners, painters — any trade in Bath & BANES that needs local customers.',
   },
 ];
 

@@ -32,13 +32,10 @@ const Contact = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     phone: '',
     business: '',
-    service: '',
     message: '',
-    website: '',
-    'bot-field': '', // Netlify honeypot - must be sent (empty for real users)
+ 'bot-field': '', // Netlify honeypot - must be sent (empty for real users)
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -118,15 +115,6 @@ const Contact = () => {
       href: GOOGLE_MAPS_PLACE_URL,
       description: 'View our reviews or write one',
     },
-  ];
-
-  const services = [
-    'Website Design',
-    'Web Design Packages',
-    'Local SEO',
-    'Google Business Profile (one-off £150)',
-    'Full Package (All Services)',
-    'Not sure yet',
   ];
 
   return (
@@ -316,37 +304,18 @@ const Contact = () => {
                           />
                         </div>
 
-                        {/* Email */}
-                        <div>
-                          <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                            Email Address <span aria-hidden="true">*</span>
-                            <span className="sr-only">(required)</span>
-                          </label>
-                          <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            aria-required="true"
-                            autoComplete="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors"
-                            placeholder="john@example.com"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="grid md:grid-cols-2 gap-6">
                         {/* Phone */}
                         <div>
                           <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
-                            Phone Number
+                            Phone Number <span aria-hidden="true">*</span>
+                            <span className="sr-only">(required)</span>
                           </label>
                           <input
                             type="tel"
                             id="phone"
                             name="phone"
+                            required
+                            aria-required="true"
                             autoComplete="tel"
                             value={formData.phone}
                             onChange={handleChange}
@@ -354,7 +323,9 @@ const Contact = () => {
                             placeholder="07702 264 921"
                           />
                         </div>
+                      </div>
 
+                      <div className="grid md:grid-cols-1 gap-6">
                         {/* Business Name */}
                         <div>
                           <label htmlFor="business" className="block text-sm font-medium text-gray-300 mb-2">
@@ -373,49 +344,6 @@ const Contact = () => {
                             className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors"
                             placeholder="Smith's Plumbing"
                           />
-                        </div>
-                      </div>
-
-                      <div className="grid md:grid-cols-2 gap-6">
-                        {/* Website */}
-                        <div>
-                          <label htmlFor="website" className="block text-sm font-medium text-gray-300 mb-2">
-                            Current Website (if any)
-                          </label>
-                          <input
-                            type="url"
-                            id="website"
-                            name="website"
-                            autoComplete="url"
-                            value={formData.website}
-                            onChange={handleChange}
-                            className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors"
-                            placeholder="https://yourwebsite.com"
-                          />
-                        </div>
-
-                        {/* Service */}
-                        <div>
-                          <label htmlFor="service" className="block text-sm font-medium text-gray-300 mb-2">
-                            Service Interested In <span aria-hidden="true">*</span>
-                            <span className="sr-only">(required)</span>
-                          </label>
-                          <select
-                            id="service"
-                            name="service"
-                            required
-                            aria-required="true"
-                            value={formData.service}
-                            onChange={handleChange}
-                            className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors"
-                          >
-                            <option value="" className="bg-dark">Select a service</option>
-                            {services.map((service, index) => (
-                              <option key={index} value={service} className="bg-dark">
-                                {service}
-                              </option>
-                            ))}
-                          </select>
                         </div>
                       </div>
 

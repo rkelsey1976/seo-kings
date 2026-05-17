@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #070B14;
+  background-color: #0B1D3A;
   color: #F8FAFC;
   overflow-x: hidden;
 }
@@ -21,16 +21,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0F1420;
+  background: #142942;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #7C3AED;
+  background: #C4732C;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #A78BFA;
+  background: #D48A4C;
 }
 
 /* Blob animation delays */
@@ -195,27 +195,14 @@ body {
 }
 
 .gradient-text-animated {
-  background: linear-gradient(
-    90deg,
-    #7C3AED 0%,
-    #3B82F6 25%,
-    #06B6D4 50%,
-    #3B82F6 75%,
-    #7C3AED 100%
-  );
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: shimmer 3s linear infinite;
+  color: #C4732C;
+  text-shadow: 0 2px 4px rgba(196, 115, 44, 0.3);
 }
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #7C3AED 0%, #3B82F6 50%, #06B6D4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #C4732C;
+  text-shadow: 0 1px 2px rgba(196, 115, 44, 0.2);
 }
 
 /* Button hover glow effect */
@@ -224,20 +211,20 @@ body {
 }
 
 .btn-glow:hover {
-  box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
+  box-shadow: 0 0 30px rgba(196, 115, 44, 0.5);
 }
 
 /* Subtle grid background */
 .grid-bg {
   background-image: 
-    linear-gradient(rgba(124, 58, 237, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(124, 58, 237, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(196, 115, 44, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(196, 115, 44, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
 /* Accessibility: Focus visible styles */
 *:focus-visible {
-  outline: 2px solid #A78BFA;
+  outline: 2px solid #C4732C;
   outline-offset: 2px;
 }
 
@@ -304,7 +291,7 @@ body {
 
 /* Leaflet Map Customizations */
 .leaflet-container {
-  background-color: #0F172A;
+  background-color: #142942;
   font-family: 'Inter', sans-serif;
 }
 
@@ -386,7 +373,7 @@ body {
 }
 
 .leaflet-control-attribution a {
-  color: #A78BFA !important;
+  color: #C4732C !important;
 }
 
 /* Slow bounce animation for success page */
@@ -401,4 +388,72 @@ body {
 
 .animate-bounce-slow {
   animation: bounce-slow 2s ease-in-out infinite;
+}
+
+/* Marquee */
+@keyframes marquee-scroll-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-scroll-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.marquee-track {
+  will-change: transform;
+  width: max-content;
+}
+
+.marquee-left {
+  animation: marquee-scroll-left var(--marquee-speed, 30s) linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-scroll-right var(--marquee-speed, 30s) linear infinite;
+}
+
+.marquee-track.pause-on-hover:hover {
+  animation-play-state: paused;
+}
+
+/* Grain texture */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: var(--grain-z, 9999);
+  opacity: var(--grain-opacity, 0.04);
+  mix-blend-mode: var(--grain-blend, multiply);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+.grain-animated {
+  animation: grain-drift 8s steps(2, end) infinite;
+}
+
+@keyframes grain-drift {
+  0%   { background-position: 0 0; }
+  10%  { background-position: -5% -10%; }
+  20%  { background-position: -15% 5%; }
+  30%  { background-position: 7% -25%; }
+  40%  { background-position: -5% 25%; }
+  50%  { background-position: -15% 10%; }
+  60%  { background-position: 15% 0; }
+  70%  { background-position: 0 15%; }
+  80%  { background-position: 3% 35%; }
+  90%  { background-position: -10% 10%; }
+  100% { background-position: 0 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain-animated {
+    animation: none;
+  }
+  .marquee-left,
+  .marquee-right {
+    animation: none;
+  }
 }
