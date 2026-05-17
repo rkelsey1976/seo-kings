@@ -187,6 +187,7 @@ export const STATIC_ROUTES = [
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-near-me', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-keynsham', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-packages', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/plumbers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },

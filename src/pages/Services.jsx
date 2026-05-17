@@ -48,7 +48,7 @@ const services = [
       'Included free with every website',
     ],
     cta: 'View Google Business Profile',
-    accentColor: '#4A90A4',
+    accentColor: '#E8715A',
   },
   {
     name: 'Local SEO',
@@ -63,7 +63,7 @@ const services = [
       'No long-term contracts',
     ],
     cta: 'View Local SEO',
-    accentColor: '#4A90A4',
+    accentColor: '#E8715A',
   },
 ];
 

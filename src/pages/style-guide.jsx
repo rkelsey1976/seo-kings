@@ -10,7 +10,7 @@ const colors = [
   { name: 'Coral', hex: '#E8715A', text: '#FFF' },
   { name: 'Coral Light', hex: '#F0856E', text: '#FFF' },
   { name: 'Coral Dark', hex: '#C95E48', text: '#FFF' },
-  { name: 'Teal', hex: '#4A90A4', text: '#FFF' },
+  { name: 'Teal', hex: '#E8715A', text: '#FFF' },
   { name: 'Teal Light', hex: '#5EA3B6', text: '#FFF' },
   { name: 'Teal Dark', hex: '#3A7A8C', text: '#FFF' },
   { name: 'Text Muted', hex: 'rgba(255,255,255,0.55)', text: '#0B1324' },
@@ -128,10 +128,10 @@ export default function StyleGuide() {
                 <dl className="space-y-3">
                   {[
                     ['Website Design card', '#E8715A', 'Core service = urgency'],
-                    ['Rankings / Proof card', '#4A90A4', 'Data = trust'],
-                    ['GBP card', '#4A90A4', 'Google = blue brand'],
+                    ['Rankings / Proof card', '#E8715A', 'Data = trust'],
+                    ['GBP card', '#E8715A', 'Google = blue brand'],
                     ['Local SEO card', '#E8715A', 'Upsell = warmth'],
-                    ['Coverage card', '#4A90A4', 'Geography = calm'],
+                    ['Coverage card', '#E8715A', 'Geography = calm'],
                   ].map(([name, hex, reason]) => (
                     <div key={name} className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
@@ -288,13 +288,13 @@ export default function StyleGuide() {
                   <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#E8715A', backgroundColor: '#E8715A18', border: '1px solid #E8715A30' }}>
                     Core Service
                   </span>
-                  <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#4A90A4', backgroundColor: '#4A90A418', border: '1px solid #4A90A430' }}>
+                  <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#E8715A', backgroundColor: '#E8715A18', border: '1px solid #E8715A30' }}>
                     Results
                   </span>
                   <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#E8715A', backgroundColor: '#E8715A18', border: '1px solid #E8715A30' }}>
                     Add-on
                   </span>
-                  <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#4A90A4', backgroundColor: '#4A90A418', border: '1px solid #4A90A430' }}>
+                  <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full" style={{ color: '#E8715A', backgroundColor: '#E8715A18', border: '1px solid #E8715A30' }}>
                     Coverage
                   </span>
                 </div>
@@ -306,7 +306,7 @@ export default function StyleGuide() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                   {/* Standard card */}
                   <div className="rounded-2xl border border-white/[0.06] p-6 bg-[#0E1628] shadow-border card-lift">
-                    <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full mb-4" style={{ color: '#4A90A4', backgroundColor: '#4A90A418', border: '1px solid #4A90A430' }}>
+                    <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase font-mono px-3 py-1.5 rounded-full mb-4" style={{ color: '#E8715A', backgroundColor: '#E8715A18', border: '1px solid #E8715A30' }}>
                       Results
                     </span>
                     <h3 className="text-xl font-semibold text-white">Rankings You Can Verify</h3>
@@ -444,7 +444,7 @@ export default function StyleGuide() {
                     <tr><td className="px-4 py-3 text-white/70">Background</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">#0B1324</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">bg-[#0B1324]</td></tr>
                     <tr><td className="px-4 py-3 text-white/70">Card BG</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">#0E1628</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">bg-[#0E1628]</td></tr>
                     <tr><td className="px-4 py-3 text-white/70">Primary accent</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">#E8715A</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">text-coral / bg-coral</td></tr>
-                    <tr><td className="px-4 py-3 text-white/70">Secondary accent</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">#4A90A4</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">text-teal / bg-[#4A90A4]</td></tr>
+                    <tr><td className="px-4 py-3 text-white/70">Secondary accent</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">#E8715A</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">text-teal / bg-[#E8715A]</td></tr>
                     <tr><td className="px-4 py-3 text-white/70">Text body</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">rgba(255,255,255,0.55)</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">text-white/55</td></tr>
                     <tr><td className="px-4 py-3 text-white/70">Border</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">rgba(255,255,255,0.06)</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">border-white/[0.06]</td></tr>
                     <tr><td className="px-4 py-3 text-white/70">Border hover</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">rgba(232,113,90,0.25)</td><td className="px-4 py-3 font-mono text-[11px] text-white/40">border-coral/25</td></tr>

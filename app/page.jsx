@@ -86,7 +86,7 @@ const bentoCells = [
     href: '/case-studies',
     theme: 'dark',
     imageBg: '/images/keynsham/keynsham-cta-background-code.webp',
-    accentColor: '#4A90A4',
+    accentColor: '#E8715A',
   },
   {
     tag: 'Included',
@@ -95,7 +95,7 @@ const bentoCells = [
     href: '/google-business-profile',
     theme: 'dark',
     imageBg: '/images/keynsham/keynsham-code-screen.webp',
-    accentColor: '#4A90A4',
+    accentColor: '#E8715A',
   },
   {
     colSpan: 2,
@@ -122,9 +122,9 @@ export default function HomePage() {
       </section>
 
       {/* What You Get — Bento Grid */}
-      <section id="services" className="py-28 lg:py-32 relative">
+      <section id="services" className="py-16 lg:py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="mb-20">
+          <div className="mb-10">
             <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Services</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
               What You Get
@@ -138,9 +138,9 @@ export default function HomePage() {
       </section>
 
       {/* How It Works — StepsScroll */}
-      <section className="py-28 lg:py-32 relative" style={{ background: "#0B1324" }}>
+      <section className="py-16 lg:py-20 relative" style={{ background: "#0B1324" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="mb-20">
+          <div className="mb-10">
             <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Process</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
               How It Works

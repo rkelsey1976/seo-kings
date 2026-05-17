@@ -112,7 +112,7 @@ const StepsScroll = ({ steps, accentColor = '#C4732C', className = '' }) => {
       </div>
 
       {/* Steps panel */}
-      <div className="py-20 lg:py-32 lg:pl-16 space-y-0">
+      <div className="lg:pl-16 space-y-0">
         {steps.map((step, i) => (
           <div
             key={i}

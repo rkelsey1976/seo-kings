@@ -208,7 +208,7 @@ const WebsiteDesignerKeynsham = () => {
 
             {/* Pricing card */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2" style={{ color: '#4A90A4' }}>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2" style={{ color: '#E8715A' }}>
                 Pricing
               </p>
               <div className="space-y-4 mb-8">

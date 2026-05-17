@@ -22,7 +22,7 @@ export const homepageFAQs = [
   },
   {
     question: 'What trades do you work with?',
-    answer: 'Plumbers, electricians, builders, cleaners, painters — any trade in Bath \u0026 BANES that needs local customers.',
+    answer: 'Plumbers, electricians, builders, cleaners, painters — any trade in Bath & BANES that needs local customers.',
   },
 ];
 
@@ -64,49 +64,43 @@ const StarRating = ({ rating }) => (
 
 const FAQTestimonials = () => {
   return (
-    <section className="py-28 lg:py-32 relative">
+    <section className="py-16 lg:py-20 relative">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-16">
-        {/* Eyebrow only — no umbrella heading */}
-        <div className="mb-16">
-          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Questions \u0026 Proof</span>
+
+        {/* Row 1: FAQs — centered, full width */}
+        <div className="max-w-3xl mx-auto mb-16">
+          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>FAQ</span>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 mb-2">
+            Common Questions
+          </h2>
+          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            Real answers from real work in Bath & BANES.
+          </p>
+          <FAQAccordion faqs={homepageFAQs} />
         </div>
 
-        {/* Split layout */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
-          {/* Left: FAQ */}
-          <div>
-            <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-2">
-              Common Questions
-            </h2>
-            <p className="text-base mb-6" style={{ color: 'rgba(255,255,255,0.55)' }}>
-              Real answers from real work in Bath \u0026 BANES.
-            </p>
-            <div className="flex items-center gap-3 mb-6">
-              <svg className="w-5 h-5 text-[#4A90A4]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className="text-sm font-semibold text-white tracking-wide">Frequently Asked</span>
-            </div>
-            <FAQAccordion faqs={homepageFAQs} />
-          </div>
+        {/* Divider */}
+        <div className="border-t border-white/[0.06] mb-16" />
 
-          {/* Right: Testimonials */}
-          <div className="flex flex-col gap-6">
-            <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-2">
-              What Clients Say
-            </h2>
-            <p className="text-base mb-6" style={{ color: 'rgba(255,255,255,0.55)' }}>
-              Straight from tradespeople we've worked with.
-            </p>
+        {/* Row 2: Testimonials — 2-column grid */}
+        <div>
+          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Proof</span>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 mb-2">
+            What Clients Say
+          </h2>
+          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            Straight from tradespeople we've worked with.
+          </p>
 
+          <div className="grid sm:grid-cols-2 gap-6">
             {testimonials.map((t, i) => (
               <div
                 key={i}
                 className="relative p-6 rounded-2xl border border-white/[0.06] bg-[#0E1628]/60"
               >
-                {/* Result badge */}
                 {t.result && (
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium mb-4"
+                  <div
+                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium mb-4"
                     style={{ backgroundColor: 'rgba(232,113,90,0.12)', color: '#E8715A', border: '1px solid rgba(232,113,90,0.2)' }}
                   >
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -138,6 +132,7 @@ const FAQTestimonials = () => {
             ))}
           </div>
         </div>
+
       </div>
     </section>
   );

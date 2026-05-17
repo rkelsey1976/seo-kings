@@ -83,7 +83,7 @@ const LibraryPage = () => {
                 Hover to see 3D tilt + glare follow cursor.
               </TiltCardDemo>
 
-              <TiltCardDemo className="h-48" title="Card B (subtle)" accent="#4A90A4" maxRot={8} persp={600}>
+              <TiltCardDemo className="h-48" title="Card B (subtle)" accent="#E8715A" maxRot={8} persp={600}>
                 maxRotation: 8, perspective: 600. Gentler feel.
               </TiltCardDemo>
 
@@ -129,7 +129,7 @@ const LibraryPage = () => {
                 Strong pull (0.6)
               </MagneticButtonDemo>
 
-              <MagneticButtonDemo strength={0.15} className="px-8 py-4 rounded-full bg-[#4A90A4] text-white font-semibold text-sm">
+              <MagneticButtonDemo strength={0.15} className="px-8 py-4 rounded-full bg-[#E8715A] text-white font-semibold text-sm">
                 Gentle (0.15)
               </MagneticButtonDemo>
             </div>
@@ -348,7 +348,7 @@ const Prop = ({ name, type, default: def, desc }) => (
   <div className="rounded-lg border border-white/[0.06] bg-[#0E1628]/40 p-4">
     <div className="flex items-center gap-2 mb-1">
       <code className="text-sm font-mono text-white">{name}</code>
-      <span className="text-xs font-mono px-1.5 py-0.5 rounded" style={{ background: 'rgba(74,144,164,0.15)', color: '#4A90A4' }}>{type}</span>
+      <span className="text-xs font-mono px-1.5 py-0.5 rounded" style={{ background: 'rgba(232,113,90,0.15)', color: '#E8715A' }}>{type}</span>
     </div>
     <p className="text-xs mb-1" style={{ color: 'rgba(255,255,255,0.35)' }}>{desc}</p>
     <p className="text-xs font-mono" style={{ color: 'rgba(255,255,255,0.2)' }}>default: {def}</p>
@@ -359,7 +359,7 @@ const CodeBlock = ({ code }) => (
   <div className="mt-6 rounded-xl border border-white/[0.06] bg-[#080c14] overflow-hidden">
     <div className="flex items-center gap-1.5 px-4 py-2 border-b border-white/[0.06]">
       <span className="w-2.5 h-2.5 rounded-full bg-[#E8715A]/40" />
-      <span className="w-2.5 h-2.5 rounded-full bg-[#4A90A4]/40" />
+      <span className="w-2.5 h-2.5 rounded-full bg-[#E8715A]/40" />
       <span className="w-2.5 h-2.5 rounded-full bg-white/10" />
       <span className="ml-auto text-[10px] font-mono uppercase tracking-wider" style={{ color: 'rgba(255,255,255,0.2)' }}>Usage</span>
     </div>
