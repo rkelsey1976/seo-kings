@@ -57,6 +57,31 @@ const CaseStudies = () => {
       services: ['Website Design', 'Google Business Profile'],
       color: 'from-amber-600 to-orange-600',
     },
+    {
+      id: 3,
+      slug: 'aurelian-massage',
+      business: 'Aurelian Massage',
+      industry: 'Massage Therapy & Wellness',
+      location: 'Bath City Centre, BA2',
+      logo: 'AM',
+      image: 'https://aurelianmassage.com/_next/image?url=%2Ftherapist-hero.png&w=400&q=75',
+      imageAlt: 'Aurelian Massage Bath — massage therapy website and Google Business Profile case study',
+      tagline: 'New business, no online presence — live in under a week and already getting calls',
+      challenge: 'Brand new business with no website, no social media, and no online presence — competing with established Bath spas from a standing start.',
+      overview: 'Ross launched Aurelian Massage with no website and no social media. We built a full multi-page site from scratch in under a week, integrated online booking, and got him appearing in Google searches for massage therapy in Bath straight away.',
+      solution: 'Full Next.js website built at aurelianmassage.com with individual treatment pages, Fresha booking integration, Google Business Profile setup, and schema markup. Live in under a week.',
+      timeframe: 'Under 1 week',
+      results: [
+        { metric: 'Under 1 week', label: 'From brief to live' },
+        { metric: 'Already ranking', label: 'For massage Bath searches' },
+        { metric: 'Calls & bookings', label: 'Within days of launch' },
+      ],
+      testimonial: "Brand new business, no website, no social media. SEO Kings built everything from scratch in under a week. I'm already getting calls from people finding me on Google in Bath. Couldn't ask for more.",
+      author: 'Ross',
+      role: 'Aurelian Massage, Bath City Centre',
+      services: ['Website Design', 'Google Business Profile'],
+      color: 'from-amber-400 to-yellow-600',
+    },
   ];
 
   return (

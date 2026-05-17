@@ -117,10 +117,10 @@ const AreaDetail = ({ params: staticParams }) => {
       county: 'Somerset',
       postcodes: ['BA1', 'BA2'],
       population: '95,000+',
-      heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/1280px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
-      metaTitle: 'Website design Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
-      heroHeadline: 'Website design in Bath',
+      heroImage: '/images/bath/royal-crescent-bath.png',
+      metaTitle: 'Website Designer Bath | Web Design from £399 | SEO Kings',
+      metaDescription: 'Website designer in Bath from £399. We build fast, mobile-friendly websites for tradespeople and local businesses in BA1 and BA2. Google Business Profile included. Free check.',
+      heroHeadline: 'Website Designer in Bath for Trades & Local Businesses',
       heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
       heroSubtext: 'No obligation. No credit card required.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
@@ -134,7 +134,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '95,000+', label: 'Residents' },
         { value: 'High', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -146,16 +146,30 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaButtonText: 'Get Free Audit – No Obligation',
       whyHeading: 'Why Choose SEO Kings in Bath',
       whyIntro: 'Bath has strong local competition and high search volume. If you\'re not on page 1 or in the map pack, tourists and residents go to competitors.',
-      whyBullets: [
-        { title: 'Tourism boost', text: 'Millions of visitors search for services near landmarks.' },
-        { title: 'High competition', text: 'Stand out with targeted local SEO.' },
-        { title: 'Strong ROI', text: 'Organic rankings save money vs paid ads (often £2+ per click).' },
+      localTestimonials: [
+        {
+          quote: "Brand new business, no website, no social media. SEO Kings built everything from scratch in under a week. I'm already getting calls from people finding me on Google in Bath. Couldn't ask for more.",
+          name: 'Ross',
+          business: 'Aurelian Massage',
+          businessDisplay: 'Aurelian Massage • Massage Therapy, Bath City Centre',
+        },
+        {
+          quote: "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area.",
+          name: 'Jay',
+          business: 'New Decorating',
+          businessDisplay: 'New Decorating • Painter & Decorator, Bath & BANES',
+        },
       ],
-      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design wireframe and planning' },
-      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop' },
-      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development and coding' },
-      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Web development' },
-      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup' },
+      whyBullets: [
+        { title: 'Tourism & short-let demand', text: 'Bath attracts over 6 million visitors a year. A huge slice stays in short-let properties, holiday cottages, and B&Bs — all of which need regular maintenance, emergency repairs, and renovation work. If your website targets this market, you\'re accessing demand your competitors ignore.' },
+        { title: 'High competition', text: 'Stand out with targeted local SEO and a Google Business Profile that appears in the map pack when customers search for your trade in BA1 and BA2.' },
+        { title: 'Strong ROI', text: 'Organic rankings save money vs paid ads (often £2+ per click for trade searches in Bath). Rank once, get found for months.' },
+      ],
+      whySectionImage: { src: '/images/keynsham/keynsham-wireframe.png', alt: 'Website design planning and wireframe for a Bath trade business' },
+      servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.png', alt: 'Web design on laptop for a Bath local business' },
+      websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.png', alt: 'Website development for Bath tradespeople and local businesses' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.png', alt: 'Website development screen — web design costs in Bath from £399' },
+      whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.png', alt: 'Website design mockup for a Bath trade business' },
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
@@ -251,20 +265,20 @@ const AreaDetail = ({ params: staticParams }) => {
       subAreasHeading: 'Bath neighbourhoods we cover',
       faqs: [
         {
-          question: 'How long to rank in Bath?',
-          answer: 'Typically 3–6 months for good improvements. High competition means some keywords take longer. We give monthly reports to track progress.',
+          question: 'How long does it take to rank in Bath?',
+          answer: 'Most Bath businesses see meaningful Google Business Profile improvements within 4–8 weeks. Organic rankings for competitive keywords like "plumber Bath" typically take 3–6 months depending on your existing domain authority and local competition. We provide monthly reports so you can track exactly where you\'re gaining ground.',
         },
         {
-          question: 'What SEO services for Bath?',
-          answer: 'Full local SEO: Google Business Profile optimisation, on-page fixes, citations, reviews, and content for Bath searches.',
+          question: 'What SEO services do you offer in Bath?',
+          answer: 'Full local SEO: Google Business Profile optimisation, on-page fixes, citations, reviews, and content for Bath searches. We specialise in trades — plumbers, electricians, builders, decorators — across BA1, BA2, and the wider Bath and North East Somerset area.',
         },
         {
-          question: 'How much for Bath businesses?',
-          answer: 'Local SEO starts from £150/month (1 service, 1 location). Depends on competition and goals. Free audit for custom quote.',
+          question: 'How much does local SEO cost for a Bath business?',
+          answer: 'Local SEO starts from £150/month for one service in one location. Depends on competition and goals. Website design starts from £399. Free audit for a custom quote — no obligation.',
         },
         {
-          question: 'Do you specialise in Bath industries?',
-          answer: "Yes — trades (plumbers, builders), hospitality, retail, and more. We know Bath's market.",
+          question: 'Do you specialise in particular Bath industries?',
+          answer: "Yes — trades (plumbers, builders, electricians), hospitality, retail, and more. We know Bath's market and the tourism and short-let demand that creates consistent work for local tradespeople.",
         },
         {
           question: 'How much does website design cost in Bath?',
@@ -287,10 +301,10 @@ const AreaDetail = ({ params: staticParams }) => {
       description: 'Website designer in Keynsham — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Keynsham BS31 show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset. We also cover nearby villages and neighbourhoods including Longwell Green, Warmley, Pensford, Compton Dando, Corston, Kelston, Whitchurch, and the wider BS31 and BS30 area.',
       heroStats: [
-        { value: '150+', label: 'Local Businesses Ranked' },
-        { value: '#1', label: 'Bath & North East Somerset SEO Agency' },
+        { value: '£399', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
-        { value: '+340%', label: 'Average Lead Increase' },
+        { value: '5★', label: 'Google Rating' },
+        { value: '1 week', label: 'Average Time to Launch' },
       ],
       heroSubtext: 'No obligation. No credit card required.',
       testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
@@ -303,7 +317,7 @@ const AreaDetail = ({ params: staticParams }) => {
       whyHeading: 'Why Choose SEO Kings in Keynsham',
       whyIntro: "We know Keynsham. We've helped local trades here get real results.",
       whyBullets: [
-        { title: 'Proven in Keynsham', text: 'See Keynsham Electrics go from not ranking to top 3, +52 calls per month in just 3 months.' },
+        { title: 'Proven in Keynsham', text: 'We\'ve helped local trades in BS31 get found on Google — from map pack appearances to page one rankings for trade searches.' },
         { title: 'Local focus', text: 'We target searches like "plumber Keynsham", "electrician BS31", "emergency builder Keynsham".' },
         { title: 'No fluff', text: 'Plain English. No long contracts. Monthly reports show your progress.' },
         { title: 'Full service', text: 'Keyword research, on-page fixes, local links, Google Business Profile, fast website if needed.' },
@@ -450,8 +464,8 @@ const AreaDetail = ({ params: staticParams }) => {
       description: 'Website designer in Midsomer Norton — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Midsomer Norton BA3 show up when people search "plumber Midsomer Norton", "electrician BA3", "cleaner Midsomer Norton" and more. Whether you need a professional website designer in Midsomer Norton or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, cleaners, and more in Midsomer Norton and the Somer Valley. We also cover Radstock, Paulton, Peasedown St John, Westfield, and the wider Bath and North East Somerset area.',
       heroStats: [
-        { value: '150+', label: 'Local Businesses Ranked' },
-        { value: '#1', label: 'Somer Valley SEO Agency' },
+        { value: '£399', label: 'Starting Price' },
+        { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: 'Fully booked', label: 'Peachy Cleans result' },
       ],
@@ -586,8 +600,8 @@ const AreaDetail = ({ params: staticParams }) => {
       description: 'Website designer in Radstock — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Radstock BA3 show up when people search "plumber Radstock", "electrician BA3", "builder Radstock" and more. Whether you need a professional website designer in Radstock or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Radstock and the Somer Valley. We also cover Midsomer Norton, Paulton, Peasedown St John, Westfield, Writhlington, Chilcompton, and the wider Bath and North East Somerset area.',
       heroStats: [
-        { value: '150+', label: 'Local Businesses Ranked' },
-        { value: '#1', label: 'Somer Valley SEO Agency' },
+        { value: '£399', label: 'Starting Price' },
+        { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: '+180%', label: 'Porter Electrical leads' },
       ],
@@ -753,7 +767,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '6,500+', label: 'Residents' },
         { value: 'Low', label: 'Competition' },
-        { value: 'Proven Results', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -841,7 +855,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '5,300+', label: 'Residents' },
         { value: 'Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -942,10 +956,10 @@ const AreaDetail = ({ params: staticParams }) => {
       description: 'Website designer in Saltford — we get you found on Google. Saltford is a picturesque riverside village on the River Avon between Bath and Bristol. We offer web design from £399 and local SEO so trades and businesses in Saltford BS31 show up when people search "plumber Saltford", "electrician Saltford" and more.',
       extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor. Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
       heroStats: [
-        { value: '150+', label: 'Local Businesses Ranked' },
-        { value: '#1', label: 'Bath & North East Somerset SEO Agency' },
+        { value: '£399', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
-        { value: '+340%', label: 'Average Lead Increase' },
+        { value: '5★', label: 'Google Rating' },
+        { value: '1 week', label: 'Average Time to Launch' },
       ],
       heroSubtext: 'No obligation. No credit card required.',
       testimonialImage: { src: '/images/keynsham/keynsham-developer.png', alt: 'Web developer at work' },
@@ -1103,7 +1117,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '2,600+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: {
@@ -1202,7 +1216,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '2,000+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '50+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.80' },
@@ -1282,7 +1296,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '1,200+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '40+', monthlySearches: '4K+', competitors: 'Very Low', avgCPC: '£0.90' },
@@ -1365,7 +1379,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '1,500+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '45+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.85' },
@@ -1444,7 +1458,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: '1,800+', label: 'Residents' },
         { value: 'Very Low', label: 'Competition' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       stats: { businesses: '50+', monthlySearches: '5K+', competitors: 'Very Low', avgCPC: '£0.85' },
@@ -1527,7 +1541,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1594,7 +1608,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1660,7 +1674,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1726,7 +1740,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA1, BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1792,7 +1806,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1858,7 +1872,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA1', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1924,7 +1938,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -1990,7 +2004,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2056,7 +2070,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2122,7 +2136,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2188,7 +2202,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA2', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2254,7 +2268,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Bath' },
         { value: 'BA1', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2320,7 +2334,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Part of', label: 'Bath' },
         { value: 'BA1', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2386,7 +2400,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Bath' },
         { value: 'BA1', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2454,7 +2468,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Keynsham' },
         { value: 'BS30, BS31', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2520,7 +2534,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Keynsham' },
         { value: 'BS15, BS30', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2586,7 +2600,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Keynsham' },
         { value: 'BS30', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2652,7 +2666,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Keynsham' },
         { value: 'BS30', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2718,7 +2732,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Keynsham' },
         { value: 'BS30', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2786,7 +2800,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Midsomer Norton' },
         { value: 'BA3', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2852,7 +2866,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Midsomer Norton' },
         { value: 'BA3, BS39', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2919,7 +2933,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Radstock' },
         { value: 'BA3', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -2984,7 +2998,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Radstock' },
         { value: 'BA3', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -3051,7 +3065,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Chew Valley', label: 'Near Chew Magna' },
         { value: 'BS39', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -3116,7 +3130,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Chew Valley', label: 'Near Chew Magna' },
         { value: 'BS40', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -3181,7 +3195,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Chew Valley', label: 'Near Chew Magna' },
         { value: 'BS39', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -3248,7 +3262,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Paulton' },
         { value: 'BS39', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -3313,7 +3327,7 @@ const AreaDetail = ({ params: staticParams }) => {
       heroStats: [
         { value: 'Near', label: 'Paulton' },
         { value: 'BS39', label: 'Postcode' },
-        { value: 'Proven', label: 'in Bath & North East Somerset' },
+        { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
       ],
       ctaButtonText: 'Get Free Check – No Obligation',
@@ -4089,34 +4103,21 @@ const AreaDetail = ({ params: staticParams }) => {
         </section>
       )}
 
-      {/* Local Keywords Section */}
+      {/* What We Target Section */}
       <section className="py-16 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className={`grid gap-12 items-center ${area.keywordsSectionImage ? 'lg:grid-cols-3' : 'lg:grid-cols-2'}`}>
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl font-bold text-white mb-4">
-                {area.keywordsHeading || `Keywords We Target in ${area.name}`}
+                How we get {area.name} businesses found on Google
               </h2>
-              <p className="text-gray-400 mb-6">
-                {area.keywordsIntro || `We help you rank for the search terms your potential customers are actually using to find services in ${area.name}. These high-intent local keywords drive qualified leads directly to your business.`}
+              <p className="text-gray-400 mb-4 leading-relaxed">
+                We research the exact searches your customers use — whether that's "{area.localKeywords[0]}", "{area.localKeywords[2] || area.localKeywords[1]}", or emergency calls at short notice. Every site we build targets those specific terms from day one.
               </p>
-              <div className="flex flex-wrap gap-3">
-                {area.localKeywords.map((keyword, index) => (
-                  <span
-                    key={index}
-                    className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:bg-white/10 hover:border-primary/30 transition-all"
-                  >
-                    {keyword}
-                  </span>
-                ))}
-              </div>
+              <p className="text-gray-400 leading-relaxed">
+                We combine on-page optimisation with a well-structured Google Business Profile so you show up in both the map pack and standard search results — doubling your visibility for the same effort.
+              </p>
             </div>
-
-            {area.keywordsSectionImage && (
-              <div className="hidden lg:block">
-                <Image src={area.keywordsSectionImage.src} alt={area.keywordsSectionImage.alt} width={600} height={384} loading="lazy" className="rounded-xl border border-white/10 object-cover w-full h-64" />
-              </div>
-            )}
 
             <div className="space-y-6">
               <div className="bg-dark-card border border-white/10 rounded-2xl p-6">

@@ -13,9 +13,9 @@ export const REVIEWS = [
   },
   {
     quote: "SEO Kings built our website and got us visible on Google. We're now having fully booked weeks and have had to hire new staff to keep up. Professional from start to finish.",
-    name: 'Peachy Cleans',
+    name: 'Jade',
     business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
+    location: 'Professional Cleaning Services, Midsomer Norton',
     stars: 5,
   },
 ];

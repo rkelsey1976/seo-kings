@@ -5,31 +5,34 @@ import SectionDivider from './SectionDivider';
 const Results = () => {
   const caseStudies = [
     {
-      business: 'Bath Plumbing Co.',
-      trade: 'Plumber',
-      location: 'Bath',
-      result: 'From page 5 → #1 for "plumber Bath"',
-      metric: 'Huge increase in calls',
-      metricLabel: '',
-      timeframe: '',
-    },
-    {
-      business: 'Keynsham Electrics',
-      trade: 'Electrician',
-      location: 'Keynsham',
-      result: 'Not ranking → Top 3 in Keynsham',
-      metric: '+52 calls per month',
-      metricLabel: 'in 3 months',
-      timeframe: '3 months',
-    },
-    {
-      business: 'Norton Roofing',
-      trade: 'Roofer',
+      business: 'Peachy Cleans',
+      trade: 'Cleaning Services',
       location: 'Midsomer Norton',
-      result: '£180K in new contracts',
-      metric: 'Dominating Midsomer Norton searches',
+      result: 'No website → #1 on Google & top of Maps',
+      metric: 'Fully booked weeks, hired new staff',
       metricLabel: '',
-      timeframe: '',
+      timeframe: 'Ongoing',
+      slug: 'peachy-cleans',
+    },
+    {
+      business: 'New Decorating',
+      trade: 'Painter & Decorator',
+      location: 'Bath & BANES',
+      result: 'No website, no GBP → top 8 on Google Maps',
+      metric: 'Ranking for painter & decorator searches across Bath',
+      metricLabel: '',
+      timeframe: '1 week',
+      slug: 'new-decorating',
+    },
+    {
+      business: 'Aurelian Massage',
+      trade: 'Massage Therapy',
+      location: 'Bath City Centre',
+      result: 'New business → live in under a week',
+      metric: 'Already getting calls from Google in Bath',
+      metricLabel: '',
+      timeframe: 'Under 1 week',
+      slug: 'aurelian-massage',
     },
   ];
 
@@ -45,12 +48,12 @@ const Results = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-4">
-            Proven Results
-          </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            <span className="gradient-text">Proven Results</span>
+            Real Clients, <span className="gradient-text">Real Results</span>
           </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Three businesses that came to us with no online presence — and left ranking on Google.
+          </p>
         </div>
 
         {/* Case Studies */}
@@ -86,6 +89,12 @@ const Results = () => {
                   )}
                   {study.timeframe && (
                     <div className="text-sm text-gray-400 mt-1">{study.timeframe}</div>
+                  )}
+                  {study.slug && (
+                    <Link href={`/case-studies/${study.slug}`} className="inline-flex items-center gap-1 mt-4 text-sm text-primary-light hover:text-white transition-colors">
+                      Read case study
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                    </Link>
                   )}
                 </div>
               </div>

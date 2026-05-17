@@ -5,8 +5,8 @@
  */
 export const AREA_META = {
   bath: {
-    metaTitle: 'Website design Bath | Website Designer & SEO Add-ons – SEO Kings',
-    metaDescription: 'Website design in Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so plumbers, electricians, builders and trades get found on Google. Free check.',
+    metaTitle: 'Website Designer Bath | Web Design from £399 | SEO Kings',
+    metaDescription: 'Website designer in Bath from £399. We build fast, mobile-friendly websites for tradespeople and local businesses. Google Business Profile and local SEO add-ons included. Free check.',
   },
   keynsham: {
     metaTitle: 'Website Designer in Keynsham | Web Design from £399',
