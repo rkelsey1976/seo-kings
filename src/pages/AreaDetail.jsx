@@ -7,26 +7,6 @@ import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 import { GOOGLE_MAPS_PLACE_URL } from '../constants/business';
 
-/** Three specific landmarks per area for Local Authority section (SEO/local relevance). */
-const LANDMARKS_BY_SLUG = {
-  keynsham: ['Chocolate Quarter', 'Ashmead Industrial Estate', 'BS31 postcode'],
-  bath: ['Roman Baths', 'Royal Crescent', 'Pulteney Bridge'],
-  'midsomer-norton': ['Midsomer Norton High Street', 'Somer Valley', 'BA3'],
-  radstock: ['Radstock Museum', 'Victoria Hall', 'BA3 postcode'],
-  'peasedown-st-john': ['Beacon Hall', 'St John the Baptist Church', 'BA2 postcode'],
-  paulton: ['Paulton Village Centre', 'Cam Valley', 'BS39 postcode'],
-  saltford: ['Saltford Manor', 'Bristol & Bath Railway Path', 'BS31 postcode'],
-  timsbury: ["St Mary's Church", 'Timsbury Playing Fields', 'BA2 postcode'],
-  westfield: ['Somer Valley', 'Westfield village', 'BA3 postcode'],
-  'chew-magna': ['Chew Valley Lake', 'Chew Magna village', 'BS40 postcode'],
-  'temple-cloud': ['Temple Cloud village', 'Cam Valley', 'BS39 postcode'],
-  clutton: ['Clutton village', 'Cam Valley', 'BS39 postcode'],
-  'bitton-keynsham': ['Bitton', 'Chocolate Quarter', 'Keynsham'],
-  'odd-down-bath': ['Odd Down Park', 'Southgate', 'BA2 postcode'],
-  'combe-down-bath': ['Combe Down Stone Mines', 'Prior Park', 'BA2 postcode'],
-  'widcombe-bath': ['Widcombe Hill', 'Bath Spa Station', 'BA2 postcode'],
-  'larkhall-bath': ['Larkhall Square', 'London Road', 'BA1/BA2 postcode'],
-};
 
 /** Wikipedia URLs for schema areaServed Place sameAs (semantic context for AI/search). */
 const WIKIPEDIA_BY_SLUG = {
@@ -3381,34 +3361,6 @@ const AreaDetail = ({ params: staticParams }) => {
   const router = useRouter();
   const area = areasData[slug];
 
-  // Local Authority section content (dynamic by slug; uses LANDMARKS_BY_SLUG for 3 landmarks)
-  const getLocalAuthorityContent = () => {
-    const landmarks = LANDMARKS_BY_SLUG[slug];
-    if (slug === 'keynsham') {
-      return {
-        heading: 'Local Authority & Key Areas',
-        paragraphs: [
-          'Keynsham sits in Bath and North East Somerset. We help businesses across Keynsham get found on Google — including those in the Chocolate Quarter, on Ashmead Industrial Estate, and across the BS31 postcode.',
-          'A professional website and an optimised Google Business Profile help you reach customers searching for your trade or service in these areas.',
-        ],
-        landmarks: landmarks || ['Chocolate Quarter', 'Ashmead Industrial Estate', 'BS31 postcode'],
-      };
-    }
-    const county = area?.county || 'Bath and North East Somerset';
-    const name = area?.name || slug;
-    const postcodeHint = Array.isArray(area?.postcodes) && area.postcodes.length
-      ? ` (${area.postcodes.join(', ')} and nearby)`
-      : '';
-    const intro = `${name} is in ${county}. We help businesses in ${name} and the surrounding area${postcodeHint} get found on Google with website design and local SEO.`;
-    return {
-      heading: `Local Authority & ${name}`,
-      paragraphs: landmarks?.length
-        ? [intro, `Key landmarks we reference for local SEO: ${landmarks[0]}, ${landmarks[1]}, and ${landmarks[2]}.`]
-        : [intro],
-      landmarks: landmarks || [],
-    };
-  };
-  const localAuthority = area ? getLocalAuthorityContent() : null;
 
   useEffect(() => {
     if (!area) router.replace('/areas');
@@ -3781,17 +3733,6 @@ const AreaDetail = ({ params: staticParams }) => {
               {area.introParagraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}
-              {/* Keynsham/Bath/Saltford/Radstock: merge Local Authority into this section */}
-              {(slug === 'keynsham' || slug === 'bath' || slug === 'saltford' || slug === 'radstock') && localAuthority && (
-                <>
-                  <h2 id="local-authority-heading" className="text-2xl font-bold text-white mt-8 mb-4 pt-6 border-t border-white/10">
-                    {localAuthority.heading}
-                  </h2>
-                  {localAuthority.paragraphs.map((para, idx) => (
-                    <p key={idx}>{para}</p>
-                  ))}
-                </>
-              )}
             </div>
             {area.introImage && (
               <div>
@@ -3802,21 +3743,6 @@ const AreaDetail = ({ params: staticParams }) => {
         </section>
       )}
 
-      {/* Local Authority section — for other areas; Keynsham, Bath & Saltford content is merged above */}
-      {localAuthority && slug !== 'keynsham' && slug !== 'bath' && slug !== 'saltford' && slug !== 'radstock' && (
-        <section className="py-12 bg-dark-lighter" aria-labelledby="local-authority-heading">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 id="local-authority-heading" className="text-2xl font-bold text-white mb-6">
-              {localAuthority.heading}
-            </h2>
-            <div className="space-y-4 text-gray-400 leading-relaxed">
-              {localAuthority.paragraphs.map((para, idx) => (
-                <p key={idx}>{para}</p>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Why SEO in [Area] Section */}
       <section className="py-16 bg-dark-lighter">
