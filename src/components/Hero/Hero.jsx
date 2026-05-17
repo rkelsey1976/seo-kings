@@ -67,7 +67,7 @@ const Hero = ({
             {/* Tagline */}
             <div className="mb-6">
               <span className="text-coral font-medium tracking-wide uppercase text-[12px] md:text-[13px]">
-                Website Design + Local SEO — Bath & North East Somerset
+                Website Design + Local SEO<br />Bath & North East Somerset
               </span>
             </div>
 
