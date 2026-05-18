@@ -227,8 +227,8 @@ const Blog = () => {
   return (
     <>
       <SEO
-        title="Blog | Local SEO & Web Design Tips"
-        description="Tips on local SEO, web design, and getting your Bath & North East Somerset business found on Google. From the team at SEO Kings."
+        title="Local SEO & Web Design Tips — SEO Kings Blog"
+        description="Free guides on ranking on Google, getting more reviews and building websites that win customers — written for Bath & Somerset tradespeople and local businesses."
         canonical="/blog"
         breadcrumbs={[
           { name: 'Home', url: '/' },

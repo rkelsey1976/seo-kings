@@ -14,7 +14,7 @@ export const BLOG_META = {
   },
   'get-more-google-reviews-bath': {
     title: 'How to Get More Google Reviews in Bath (Without Breaking the Rules)',
-    description: 'Practical ways to ask for Google reviews, when to ask, and how to respond — so you build trust and stay within Google\'s guidelines.',
+    description: 'Practical steps for Bath businesses: when and how to ask for Google reviews, how to respond, and how it helps you rank higher in the map pack.',
   },
   'gbp-trades-losing-customers': {
     title: 'Why Trades Lose Customers When They\'re Not on Google',

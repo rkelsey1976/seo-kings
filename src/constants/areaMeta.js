@@ -5,8 +5,8 @@
  */
 export const AREA_META = {
   bath: {
-    metaTitle: 'Website Designer Bath | Web Design from £399',
-    metaDescription: 'Website designer in Bath from £399. We build fast, mobile-friendly websites for tradespeople and local businesses. Google Business Profile and local SEO add-ons included. Free check.',
+    metaTitle: 'Web Design & SEO in Bath | Trades & Local Businesses | SEO Kings',
+    metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £399, local SEO from £150/month. Free audit — no obligation.',
   },
   keynsham: {
     metaTitle: 'Website Designer Keynsham | Web Design from £399',
@@ -30,7 +30,7 @@ export const AREA_META = {
   },
   saltford: {
     metaTitle: 'Website Designer Saltford | Web Design from £399',
-    metaDescription: 'Website design in Saltford from £399. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+    metaDescription: 'Fast, mobile-friendly website for your Saltford business from £399. Local SEO & Google Business Profile built in so you show up when customers search. Free check.',
   },
   timsbury: {
     metaTitle: 'Website Designer Timsbury | Web Design from £399',
