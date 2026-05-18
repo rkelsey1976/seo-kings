@@ -33,6 +33,7 @@ const Footer = () => {
                   { label: 'Web Design Packages', href: '/web-design-packages' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
+                  { label: 'Website Designer Bath', href: '/website-designer-bath' },
                   { label: 'Website Designer Keynsham', href: '/website-designer-keynsham' },
                   { label: 'Website Designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
                   { label: 'Website Designer Radstock', href: '/website-designer-radstock' },

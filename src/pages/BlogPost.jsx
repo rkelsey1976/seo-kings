@@ -449,6 +449,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/contact', label: 'Get a free audit' },
@@ -490,6 +491,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer in Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
@@ -541,6 +543,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Website designer packages' },
       { href: '/contact', label: 'Get a free quote' },

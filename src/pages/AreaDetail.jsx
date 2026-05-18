@@ -187,7 +187,7 @@ const AreaDetail = ({ params: staticParams }) => {
         paragraphs: [
           "We've been helping businesses across Bath and North East Somerset get found on Google for years. When you choose us for website design in Bath, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website design Bath', 'plumber Bath', 'electrician Bath' and your trade terms so you show up when local customers and visitors search.",
           "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Bath and your neighbourhood. That means you're in the race for the map pack and page one from launch, not months later.",
-          "Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. We work with trades and small businesses across BA1, BA2, Keynsham, and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.",
+          <>Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. Whether it's a new site or a <Link href="/website-designer-bath" className="text-primary hover:underline">website redesign in Bath</Link>, we work with trades and small businesses across BA1, BA2, Keynsham, and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.</>,
         ],
       },
       recentProjects: [
