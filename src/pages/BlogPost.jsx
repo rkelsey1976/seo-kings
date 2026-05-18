@@ -96,6 +96,12 @@ const blogPosts = {
         ],
       },
     ],
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/local-seo', label: 'Local SEO packages' },
+      { href: '/contact', label: 'Free SEO audit' },
+    ],
   },
   'get-more-google-reviews-bath': {
     slug: 'get-more-google-reviews-bath',
@@ -183,6 +189,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/local-seo', label: 'Local SEO' },
       { href: '/contact', label: 'Free GBP check' },
@@ -271,6 +278,12 @@ const blogPosts = {
           'Reviews affect both trust and rankings. Encourage happy customers to leave Google reviews and respond to every one. Keep your GBP updated with posts, photos, and accurate info. Local SEO in Bath is competitive; the businesses that stay on top are the ones that keep their profile and website in good shape over time. If you want a clear picture of where you stand and what to do next, a free local SEO audit can help.',
         ],
       },
+    ],
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
+      { href: '/contact', label: 'Free SEO audit' },
     ],
   },
   'seo-for-plumbers-bath': {
@@ -680,8 +693,8 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/website-designer-keynsham', label: 'Website redesign Keynsham' },
+      { href: '/website-redesign', label: 'Website redesign service' },
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
-      { href: '/web-design', label: 'How we build websites' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
     ],
@@ -1037,7 +1050,8 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/web-design', label: 'Website design services' },
+      { href: '/website-designer-trowbridge', label: 'Website designer Trowbridge' },
+      { href: '/website-redesign', label: 'Website redesign' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
     ],
