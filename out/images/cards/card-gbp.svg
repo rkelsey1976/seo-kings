@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0B1324"/>
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800"/>
+    <path d="M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <!-- Map base -->
+  <path d="M200 350 L280 120 L450 80 L580 180 L650 380 Z" fill="#121C2C" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Streets -->
+  <path d="M280 120 L450 350" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <path d="M450 80 L450 350" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <path d="M200 250 L650 250" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <path d="M580 180 L280 380" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- Map Pack 3 listings -->
+  <g>
+    <rect x="520" y="90" width="140" height="70" rx="6" fill="#0E1628" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="535" y="105" width="24" height="24" rx="4" fill="#4A90A4" opacity="0.5"/>
+    <rect x="570" y="110" width="70" height="6" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="570" y="122" width="50" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="570" y="135" width="35" height="4" rx="2" fill="#4A90A4" opacity="0.7"/>
+  </g>
+  <g>
+    <rect x="520" y="175" width="140" height="70" rx="6" fill="#0E1628" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="535" y="190" width="24" height="24" rx="4" fill="#4A90A4" opacity="0.5"/>
+    <rect x="570" y="195" width="70" height="6" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="570" y="207" width="50" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="570" y="220" width="35" height="4" rx="2" fill="#4A90A4" opacity="0.7"/>
+  </g>
+  <g>
+    <rect x="520" y="260" width="140" height="70" rx="6" fill="#0E1628" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="535" y="275" width="24" height="24" rx="4" fill="#4A90A4" opacity="0.5"/>
+    <rect x="570" y="280" width="70" height="6" rx="2" fill="rgba(255,255,255,0.2)"/>
+    <rect x="570" y="292" width="50" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="570" y="305" width="35" height="4" rx="2" fill="#4A90A4" opacity="0.7"/>
+  </g>
+  <!-- Google "G" mark -->
+  <circle cx="400" cy="220" r="36" fill="#0E1628" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="400" y="232" fill="rgba(255,255,255,0.6)" font-family="system-ui,sans-serif" font-size="28" font-weight="bold" text-anchor="middle">G</text>
+  <!-- Location pins -->
+  <path d="M350 180c0-16 12-28 28-28s28 12 28 28c0 22-28 52-28 52s-28-30-28-52z" fill="#4A90A4"/>
+  <circle cx="378" cy="178" r="8" fill="white"/>
+  <path d="M430 160c0-16 12-28 28-28s28 12 28 28c0 22-28 52-28 52s-28-30-28-52z" fill="#4A90A4" opacity="0.5"/>
+  <circle cx="458" cy="158" r="8" fill="white"/>
+  <path d="M310 260c0-16 12-28 28-28s28 12 28 28c0 22-28 52-28 52s-28-30-28-52z" fill="#4A90A4" opacity="0.3"/>
+  <circle cx="338" cy="258" r="8" fill="white"/>
+  <!-- Accent orbs -->
+  <circle cx="120" cy="100" r="50" fill="#4A90A4" opacity="0.05"/>
+  <circle cx="700" cy="400" r="40" fill="#E8715A" opacity="0.04"/>
+</svg>

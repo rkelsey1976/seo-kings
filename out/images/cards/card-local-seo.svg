@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0B1324"/>
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800"/>
+    <path d="M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <!-- Dashboard panel -->
+  <rect x="180" y="90" width="440" height="320" rx="10" fill="#121C2C" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Header -->
+  <rect x="180" y="90" width="440" height="44" rx="10" fill="#0E1628"/>
+  <rect x="200" y="108" width="100" height="8" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="550" y="108" width="50" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <!-- Chart area -->
+  <rect x="200" y="150" width="260" height="100" rx="6" fill="#0E1628"/>
+  <!-- Line chart -->
+  <path d="M210 230 L240 210 L270 215 L300 180 L330 175 L360 185 L390 160 L420 165 L450 140" stroke="#E8715A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M210 230 L240 210 L270 215 L300 180 L330 175 L360 185 L390 160 L420 165 L450 140 L450 250 L210 250Z" fill="#E8715A" opacity="0.08"/>
+  <!-- Axis labels -->
+  <text x="210" y="268" fill="rgba(255,255,255,0.25)" font-family="monospace" font-size="9">Jan</text>
+  <text x="270" y="268" fill="rgba(255,255,255,0.25)" font-family="monospace" font-size="9">Feb</text>
+  <text x="330" y="268" fill="rgba(255,255,255,0.25)" font-family="monospace" font-size="9">Mar</text>
+  <text x="390" y="268" fill="rgba(255,255,255,0.25)" font-family="monospace" font-size="9">Apr</text>
+  <text x="450" y="268" fill="rgba(255,255,255,0.25)" font-family="monospace" font-size="9">May</text>
+  <!-- Metric cards right side -->
+  <rect x="475" y="150" width="125" height="46" rx="6" fill="#0E1628"/>
+  <text x="490" y="175" fill="rgba(255,255,255,0.5)" font-family="monospace" font-size="10">Impressions</text>
+  <text x="490" y="195" fill="#E8715A" font-family="monospace" font-size="18" font-weight="bold">+247%</text>
+  <rect x="475" y="204" width="125" height="46" rx="6" fill="#0E1628"/>
+  <text x="490" y="229" fill="rgba(255,255,255,0.5)" font-family="monospace" font-size="10">Clicks</text>
+  <text x="490" y="249" fill="#4A90A4" font-family="monospace" font-size="18" font-weight="bold">+156%</text>
+  <!-- Bottom ranking table -->
+  <rect x="200" y="268" width="400" height="120" rx="6" fill="#0E1628"/>
+  <rect x="210" y="282" width="80" height="6" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="210" y="300" width="380" height="1" fill="rgba(255,255,255,0.06)"/>
+  <!-- Row 1 -->
+  <rect x="210" y="310" width="120" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="318" fill="#E8715A" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end">#1</text>
+  <rect x="210" y="335" width="1" fill="rgba(255,255,255,0.04)"/>
+  <!-- Row 2 -->
+  <rect x="210" y="340" width="150" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="348" fill="#4A90A4" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end">#2</text>
+  <rect x="210" y="365" width="1" fill="rgba(255,255,255,0.04)"/>
+  <!-- Row 3 -->
+  <rect x="210" y="370" width="100" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="378" fill="#4A90A4" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end">#3</text>
+  <!-- Accent orbs -->
+  <circle cx="680" cy="100" r="50" fill="#E8715A" opacity="0.06"/>
+  <circle cx="130" cy="400" r="40" fill="#4A90A4" opacity="0.04"/>
+</svg>

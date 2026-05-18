@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Background removed — photo shows through -->
+  <!-- subtle grid -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800"/>
+    <path d="M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <!-- laptop frame -->
+  <rect x="180" y="80" width="440" height="280" rx="12" fill="#121C2C" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="195" y="95" width="410" height="250" rx="4" fill="#0E1628"/>
+  <!-- browser chrome -->
+  <rect x="195" y="95" width="410" height="28" rx="4" fill="#121C2C"/>
+  <circle cx="212" cy="109" r="4" fill="#E8715A" opacity="0.6"/>
+  <circle cx="228" cy="109" r="4" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="244" cy="109" r="4" fill="rgba(255,255,255,0.15)"/>
+  <!-- website wireframe on screen -->
+  <rect x="220" y="138" width="120" height="8" rx="2" fill="#E8715A" opacity="0.8"/>
+  <rect x="220" y="155" width="80" height="6" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="220" y="170" width="360" height="60" rx="4" fill="#121C2C" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect x="235" y="182" width="100" height="36" rx="3" fill="#4A90A4" opacity="0.3"/>
+  <rect x="350" y="182" width="100" height="36" rx="3" fill="rgba(255,255,255,0.05)"/>
+  <rect x="465" y="182" width="100" height="36" rx="3" fill="rgba(255,255,255,0.05)"/>
+  <rect x="220" y="245" width="200" height="8" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="220" y="260" width="360" height="40" rx="4" fill="#121C2C" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect x="235" y="272" width="60" height="16" rx="3" fill="#E8715A" opacity="0.4"/>
+  <rect x="220" y="315" width="360" height="20" rx="3" fill="rgba(255,255,255,0.04)"/>
+  <!-- keyboard base -->
+  <path d="M160 360h480l-20 30h-440z" fill="#121C2C" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- floating accent orbs -->
+  <circle cx="680" cy="120" r="60" fill="#E8715A" opacity="0.08"/>
+  <circle cx="140" cy="350" r="50" fill="#4A90A4" opacity="0.06"/>
+  <circle cx="650" cy="380" r="40" fill="#4A90A4" opacity="0.05"/>
+</svg>
