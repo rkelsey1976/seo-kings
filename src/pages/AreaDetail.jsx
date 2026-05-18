@@ -94,6 +94,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'bath': {
       name: 'Bath',
       fullName: 'Bath, Somerset',
+      designerHref: '/website-designer-bath',
       county: 'Somerset',
       postcodes: ['BA1', 'BA2'],
       population: '95,000+',
@@ -269,6 +270,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'keynsham': {
       name: 'Keynsham',
       fullName: 'Keynsham, Bristol',
+      designerHref: '/website-designer-keynsham',
       county: 'Bristol',
       postcodes: ['BS31'],
       websiteDesignBlogSlug: 'website-design-keynsham',
@@ -433,6 +435,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'midsomer-norton': {
       name: 'Midsomer Norton',
       fullName: 'Midsomer Norton, Somerset',
+      designerHref: '/website-designer-midsomer-norton',
       county: 'Somerset',
       postcodes: ['BA3'],
       population: '11,000+',
@@ -568,6 +571,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'radstock': {
       name: 'Radstock',
       fullName: 'Radstock, Somerset',
+      designerHref: '/website-designer-radstock',
       county: 'Somerset',
       postcodes: ['BA3'],
       population: '6,000+',
@@ -732,6 +736,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'peasedown-st-john': {
       name: 'Peasedown St John',
       fullName: 'Peasedown St John, Somerset',
+      designerHref: '/website-designer-peasedown-st-john',
       county: 'Somerset',
       postcodes: ['BA2'],
       population: '6,500+',
@@ -925,6 +930,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'saltford': {
       name: 'Saltford',
       fullName: 'Saltford, Bristol',
+      designerHref: '/website-designer-saltford',
       county: 'Bristol',
       postcodes: ['BS31'],
       population: '5,000+',
@@ -3946,7 +3952,7 @@ const AreaDetail = ({ params: staticParams }) => {
             We build fast, mobile-friendly websites for {area.name} businesses — from one-page sites to full multi-page sites. Every site we build is set up for local search so you get found on Google and in the map pack. If you need a new site or your current one is slow or outdated, we can help. Get a free quote from a professional website designer in {area.name}. We also offer <Link href="/google-business-profile" className="text-primary-light hover:text-white underline">Google Business Profile</Link> and <Link href="/local-seo" className="text-primary-light hover:text-white underline">Local SEO</Link> as add-ons.
           </p>
           <Link
-            href="/web-design"
+            href={area.designerHref || '/web-design'}
             className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold transition-colors"
           >
             Website designer in {area.name}
