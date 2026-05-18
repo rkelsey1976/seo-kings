@@ -859,6 +859,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-midsomer-norton', label: 'Website designer Midsomer Norton' },
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
@@ -942,6 +943,8 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-radstock', label: 'Website designer Radstock' },
+      { href: '/website-designer-midsomer-norton', label: 'Website designer Midsomer Norton' },
       { href: '/areas/radstock', label: 'Website design Radstock' },
       { href: '/areas/midsomer-norton', label: 'Website design Midsomer Norton' },
       { href: '/areas/paulton', label: 'Website design Paulton' },
@@ -990,6 +993,8 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-midsomer-norton', label: 'Website designer Midsomer Norton' },
+      { href: '/website-designer-radstock', label: 'Website designer Radstock' },
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
