@@ -5,11 +5,11 @@
 
 // Google Maps place page — visitors can view reviews and click "Write a review"
 export const GOOGLE_MAPS_PLACE_URL =
-  'https://www.google.com/maps/place/SEO+Kings/@51.3405512,-2.2459894,17z/data=!3m1!4b1!4m6!3m5!1s0x6ea24f9bfbc79da3:0xbe2aa102c5cf0938!8m2!3d51.3405512!4d-2.2434091!16s%2Fg%2F11zks3vh84?entry=ttu';
+  'https://www.google.com/maps/place/SEO+Kings/@51.4146602,-2.8149845,10z/data=!4m6!3m5!1s0x6336f883e105215f:0xa48c1533c75af07c!8m2!3d51.4082228!4d-2.4520036!16s%2Fg%2F11nj8kvxfx';
 
 // Google Maps embed iframe src — for embedding on Contact and About. Get the exact URL from Google Maps: your place → Share → Embed a map → copy the iframe src.
 export const GOOGLE_MAPS_EMBED_SRC =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39798.5!2d-2.359!3d51.381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe2aa102c5cf0938!2sSEO%20Kings!5e0!3m2!1sen!2suk';
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159277.9983531994!2d-2.45200365!3d51.40822275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6336f883e105215f%3A0xa48c1533c75af07c!2sSEO%20Kings!5e0!3m2!1sen!2suk!4v1779109284266!5m2!1sen!2suk';
 
 export const PHONE_NUMBER = '07702 264 921';
 export const PHONE_HREF = 'tel:07702264921';
