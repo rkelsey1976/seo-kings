@@ -616,6 +616,7 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/contact', label: 'Get your free audit' },
+      { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/web-design', label: 'Website design' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/local-seo', label: 'Local SEO' },
@@ -675,6 +676,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-keynsham', label: 'Website redesign Keynsham' },
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
       { href: '/web-design', label: 'How we build websites' },
       { href: '/web-design-packages', label: 'Web design packages' },
@@ -726,6 +728,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/areas/keynsham', label: 'Keynsham area' },
       { href: '/local-seo', label: 'Local SEO' },
@@ -768,6 +771,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
       { href: '/areas/bitton-keynsham', label: 'Bitton & Keynsham area' },
       { href: '/web-design', label: 'Web design packages' },
@@ -809,6 +813,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
+      { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/areas/keynsham', label: 'Keynsham area' },
       { href: '/local-seo', label: 'Local SEO' },
       { href: '/web-design', label: 'Website design' },
@@ -1286,6 +1291,7 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/contact', label: 'Get your free Keynsham SEO audit' },
+      { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/web-design-packages', label: 'Web design packages from £399' },
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
     ],
