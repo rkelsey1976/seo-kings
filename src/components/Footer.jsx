@@ -33,17 +33,7 @@ const Footer = () => {
                   { label: 'Web Design Packages', href: '/web-design-packages' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
-                  { label: 'Local SEO Bath', href: '/local-seo/bath' },
-                  { label: 'Local SEO Keynsham', href: '/local-seo/keynsham' },
-                  { label: 'Local SEO Midsomer Norton', href: '/local-seo/midsomer-norton' },
                   { label: 'Website Redesign', href: '/website-redesign' },
-                  { label: 'Website Designer Trowbridge', href: '/website-designer-trowbridge' },
-                  { label: 'Website Designer Bath', href: '/website-designer-bath' },
-                  { label: 'Website Designer Keynsham', href: '/website-designer-keynsham' },
-                  { label: 'Website Designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
-                  { label: 'Website Designer Radstock', href: '/website-designer-radstock' },
-                  { label: 'Website Designer Saltford', href: '/website-designer-saltford' },
-                  { label: 'Website Designer Peasedown St John', href: '/website-designer-peasedown-st-john' },
                   { label: 'Blog', href: '/blog' },
                 ].map(({ label, href }) => (
                   <li key={href}>
