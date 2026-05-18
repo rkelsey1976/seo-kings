@@ -732,9 +732,9 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
+      { href: '/local-seo/keynsham', label: 'Local SEO Keynsham' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/areas/keynsham', label: 'Keynsham area' },
-      { href: '/local-seo', label: 'Local SEO' },
       { href: '/contact', label: 'Free GBP check' },
     ],
   },
@@ -817,8 +817,8 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
+      { href: '/local-seo/keynsham', label: 'Local SEO Keynsham' },
       { href: '/areas/keynsham', label: 'Keynsham area' },
-      { href: '/local-seo', label: 'Local SEO' },
       { href: '/web-design', label: 'Website design' },
       { href: '/contact', label: 'Free check' },
     ],
@@ -860,6 +860,7 @@ const blogPosts = {
     ],
     ctaLinks: [
       { href: '/website-designer-midsomer-norton', label: 'Website designer Midsomer Norton' },
+      { href: '/local-seo/midsomer-norton', label: 'Local SEO Midsomer Norton' },
       { href: '/web-design', label: 'Website design services' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
@@ -945,9 +946,9 @@ const blogPosts = {
     ctaLinks: [
       { href: '/website-designer-radstock', label: 'Website designer Radstock' },
       { href: '/website-designer-midsomer-norton', label: 'Website designer Midsomer Norton' },
+      { href: '/local-seo/midsomer-norton', label: 'Local SEO Midsomer Norton' },
       { href: '/areas/radstock', label: 'Website design Radstock' },
       { href: '/areas/midsomer-norton', label: 'Website design Midsomer Norton' },
-      { href: '/areas/paulton', label: 'Website design Paulton' },
       { href: '/web-design', label: 'Website design services' },
       { href: '/contact', label: 'Get a free quote' },
     ],
@@ -1300,6 +1301,7 @@ const blogPosts = {
     ctaLinks: [
       { href: '/contact', label: 'Get your free Keynsham SEO audit' },
       { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
+      { href: '/local-seo/keynsham', label: 'Local SEO Keynsham' },
       { href: '/web-design-packages', label: 'Web design packages from £399' },
       { href: '/areas/keynsham', label: 'Website design Keynsham' },
     ],
