@@ -152,14 +152,13 @@ const AreaDetail = ({ params: staticParams }) => {
       costSectionImage: { src: '/images/keynsham/keynsham-code-screen.webp', alt: 'Website development screen — web design costs in Bath from £399' },
       whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.webp', alt: 'Website design mockup for a Bath trade business' },
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bath.' },
-        { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bath + trade keywords.' },
-        { name: 'Review Management', description: 'Add-on: build 5-star trust quickly.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399, built to rank for your trade and location from day one.', href: '/website-designer-bath' },
+        { name: 'Local SEO', description: 'Get into the map pack and onto page 1 for Bath trade searches. From £150/month.', href: '/local-seo/bath' },
+        { name: 'Google Business Profile', description: 'Optimise your GBP so you show up in Maps and the local pack when customers search in BA1 and BA2.', href: '/google-business-profile' },
       ],
       servicesHeading: 'What we do for Bath businesses',
       servicesSubtext: 'Website design, local SEO and Google Business Profile — all focused on getting Bath trades and local businesses found on Google and winning more customers.',
-      servicesLinkText: 'View All Services',
+      servicesLinkText: 'View all Bath services',
       keywordsHeading: 'Keywords We Target',
       keywordsIntro: 'We focus on what Bath people and visitors search:',
       industriesHeading: 'Industries We Help',
@@ -183,12 +182,12 @@ const AreaDetail = ({ params: staticParams }) => {
       },
       extraContentSection: {
         heading: 'Why SEO Kings for Bath',
-        subheading: 'Our approach to website design in Bath',
+        subheading: 'Web design & SEO that actually gets you found',
         image: { src: '/images/keynsham/keynsham-website-designer-mobile-desktop.webp', alt: 'Mobile and desktop — we build websites that work on every device' },
         paragraphs: [
-          "We've been helping businesses across Bath and North East Somerset get found on Google for years. When you choose us for website design in Bath, we don't just build a pretty site — we optimise for the searches that matter. From day one we target phrases like 'website design Bath', 'plumber Bath', 'electrician Bath' and your trade terms so you show up when local customers and visitors search.",
-          "Every site we build is set up for local SEO. We integrate your Google Business Profile from the start, use the right location and service schema, and structure content so Google understands you serve Bath and your neighbourhood. That means you're in the race for the map pack and page one from launch, not months later.",
-          <>Our process is straightforward: we start with a free audit so you see where you stand, then we design and build a mobile-friendly site that fits your business. Whether it's a new site or a <Link href="/website-designer-bath" className="text-primary hover:underline">website redesign in Bath</Link>, we work with trades and small businesses across BA1, BA2, Keynsham, and Somerset. No long contracts, no jargon — just clear reporting and results you can measure.</>,
+          "We've been helping trades and local businesses across Bath and North East Somerset get found on Google for years. We don't just build pretty sites — we optimise for the searches that actually bring customers. From day one we target phrases like 'plumber Bath', 'electrician BA1' and your specific trade terms so you show up when local customers and visitors search.",
+          "Every site we build is set up for local SEO from the start. We integrate your Google Business Profile, use the right location and service schema, and structure content so Google understands exactly where you serve and what you do. That means you're in the race for the map pack and page one from launch — not months later.",
+          <>Whether you need a <Link href="/website-designer-bath" className="text-primary hover:underline">new website</Link>, <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO in Bath</Link>, or both — we start with a free audit so you see exactly where you stand. No long contracts, no jargon. Just clear reporting and results you can measure.</>,
         ],
       },
       recentProjects: [
@@ -219,24 +218,24 @@ const AreaDetail = ({ params: staticParams }) => {
       ],
       ctaHeadline: 'Ready to Dominate Bath Search Results?',
       ctaSubhead: 'Join Bath businesses already on page one.',
-      ctaPrimaryText: 'Get a Free Website Quote',
+      ctaPrimaryText: 'Get a Free Audit',
       ctaSecondaryText: 'Free Consultation – Get Started',
       ctaImage: { src: '/images/keynsham/keynsham-coding.webp', alt: 'Website design and development — get found on Google in Bath' },
       ctaBackgroundImage: { src: '/images/keynsham/keynsham-cta-background-code.webp', alt: 'Website design and local SEO in Bath — get found on Google' },
       costSection: {
-        heading: 'Website design costs in Bath',
+        heading: 'What it costs to get found in Bath',
         paragraphs: [
-          'Website design in Bath starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Bath businesses can plan. See our web design packages for full details.',
+          'Website design starts at £399 for a fast, mobile-friendly site built for local search — Google Business Profile set-up included. Local SEO starts from £150/month and covers GBP optimisation, on-page fixes, citations and link building. Most Bath clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need and get a clear quote — no obligation.',
         ],
       },
       whatToLookForSection: {
-        heading: 'What to look for in a Bath web designer',
+        heading: 'What to look for in a Bath digital partner',
         bullets: [
-          { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Bath, Keynsham or Somerset.' },
-          { title: 'Local knowledge', text: 'A good Bath web designer knows the searches people use ("plumber Bath", "website design Bath") and how to optimise for them.' },
-          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
-          { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
-          { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
+          { title: 'Track record with local businesses', text: 'Look for real results with trades and local businesses in Bath and North East Somerset — not just a portfolio of pretty sites.' },
+          { title: 'Local knowledge', text: 'A good Bath partner knows the searches people use ("plumber Bath", "electrician BA1") and how competitive each one is.' },
+          { title: 'SEO and GBP built in from day one', text: 'Don\'t pay for a site and then pay again to make it rank. Ask if Google Business Profile and local SEO are included — we build them in.' },
+          { title: 'Clear pricing and no lock-in', text: 'You should know exactly what you\'re getting and what it costs. We\'re upfront about everything — no long contracts, no surprises.' },
+          { title: 'Monthly reporting', text: 'You should be able to see what\'s working. We send monthly reports covering rankings, traffic and leads — in plain English.' },
         ],
       },
       nearbyHeading: 'Nearby Areas We Serve',
@@ -3904,18 +3903,30 @@ const AreaDetail = ({ params: staticParams }) => {
             </div>
           )}
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <div key={index} className="bg-dark-card border border-white/5 rounded-xl p-6 hover:border-primary/30 transition-all duration-300">
-                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
+          <div className={`grid md:grid-cols-2 gap-6 ${services.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-4'}`}>
+            {services.map((service, index) => {
+              const inner = (
+                <>
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-semibold text-white mb-2">{service.name}</h3>
+                  <p className="text-sm text-gray-400">{service.description}</p>
+                  {service.href && <span className="mt-4 inline-block text-xs font-medium text-primary-light">Learn more →</span>}
+                </>
+              );
+              return service.href ? (
+                <Link key={index} href={service.href} className="bg-dark-card border border-white/5 rounded-xl p-6 hover:border-primary/30 transition-all duration-300 block">
+                  {inner}
+                </Link>
+              ) : (
+                <div key={index} className="bg-dark-card border border-white/5 rounded-xl p-6 hover:border-primary/30 transition-all duration-300">
+                  {inner}
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{service.name}</h3>
-                <p className="text-sm text-gray-400">{service.description}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <div className="mt-12 text-center">
