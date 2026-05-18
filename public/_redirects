@@ -1,2 +1,5 @@
+# 301 redirects — consolidate cannibalising pages
+/blog/website-design-bath    /areas/bath    301
+
 # SPA: serve index.html for all routes so React Router can handle them
 /*    /index.html   200
