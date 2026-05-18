@@ -271,11 +271,11 @@ const RadstockHub = () => {
               </div>
               <div className="mt-auto">
                 <Link
-                  href="/local-seo"
+                  href="/local-seo/radstock"
                   className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
                   style={{ backgroundColor: '#C25245' }}
                 >
-                  View Local SEO Packages →
+                  Local SEO in Radstock →
                 </Link>
               </div>
             </div>
