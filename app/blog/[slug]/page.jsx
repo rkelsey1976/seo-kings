@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   return {
     title: meta.title,
     description: meta.description || undefined,
-    alternates: { canonical: `https://seo-kings.co.uk/blog/${slug}` },
+    alternates: { canonical: meta.canonical ?? `https://seo-kings.co.uk/blog/${slug}` },
   };
 }
 

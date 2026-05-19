@@ -68,7 +68,7 @@ const FAQTestimonials = () => {
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-16">
 
         {/* Row 1: FAQs — centered, full width */}
-        <div className="max-w-3xl mx-auto mb-16">
+        <div className="max-w-3xl mx-auto mb-16 text-center">
           <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>FAQ</span>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 mb-2">
             Common Questions
