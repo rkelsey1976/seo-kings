@@ -125,7 +125,7 @@ const LocalSEOMidsomerNorton = () => {
   return (
     <>
       <SEO
-        title="Local SEO Midsomer Norton | SEO Agency BA3 | SEO Kings"
+        title="Local SEO Midsomer Norton | SEO Agency BA3"
         description="Local SEO for Midsomer Norton businesses. Google Business Profile, website SEO and review growth from £150/month. Serving BA3 and the Somer Valley. Free audit."
         canonical="/local-seo/midsomer-norton"
         breadcrumbs={[

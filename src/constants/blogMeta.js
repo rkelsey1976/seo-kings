@@ -44,6 +44,7 @@ export const BLOG_META = {
   'website-design-midsomer-norton-peachy-cleans': {
     title: 'Website We Built for Peachy Cleans: Web Design in Midsomer Norton That Gets Found on Google',
     description: 'How we built a fast, simple website for Peachy Cleans in Midsomer Norton — and got them to number one on Google and the map pack for local cleaning searches. Web design for local businesses in the Somer Valley.',
+    canonical: 'https://seo-kings.co.uk/website-designer-midsomer-norton',
   },
   'new-decorating-website-bath': {
     title: 'New Decorating Bath: From No Web Presence to Top 8 on Google Maps in a Week',
@@ -59,7 +60,7 @@ export const BLOG_META = {
     canonical: 'https://seo-kings.co.uk/website-designer-bath',
   },
   'website-design-keynsham': {
-    title: 'Keynsham Website Designers | Web Design from £399 | SEO Kings',
+    title: 'Keynsham Website Designers | Web Design from £399',
     description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
     canonical: 'https://seo-kings.co.uk/website-designer-keynsham',
   },

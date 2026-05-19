@@ -129,7 +129,7 @@ const WebsiteRedesign = () => {
   return (
     <>
       <SEO
-        title="Website Redesign | Rebuild Your Site from £399 | SEO Kings"
+        title="Website Redesign | Rebuild Your Site from £399"
         description="Website redesign for trades and local businesses. Fast, SEO-ready rebuilds from £399. Bath, Keynsham, Trowbridge and Somerset. Free audit — no obligation."
         canonical="/website-redesign"
         breadcrumbs={[

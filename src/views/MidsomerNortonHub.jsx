@@ -116,7 +116,7 @@ const MidsomerNortonHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Midsomer Norton | Somer Valley Trades | SEO Kings"
+        title="Web Design & SEO in Midsomer Norton | Somer Valley Trades"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Midsomer Norton BA3. Websites from £399, local SEO from £150/month. Free audit."
         canonical="/areas/midsomer-norton"
         breadcrumbs={[

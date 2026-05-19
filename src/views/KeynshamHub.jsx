@@ -116,7 +116,7 @@ const KeynshamHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Keynsham BS31 | Trades & Local Businesses | SEO Kings"
+        title="Web Design & SEO in Keynsham BS31 | Trades & Local Businesses"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Keynsham BS31. Websites from £399, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/keynsham"
         breadcrumbs={[

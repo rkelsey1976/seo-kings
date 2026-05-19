@@ -125,7 +125,7 @@ const LocalSEOKeynsham = () => {
   return (
     <>
       <SEO
-        title="Local SEO Keynsham | Search Engine Optimisation BS31 | SEO Kings"
+        title="Local SEO Keynsham | Search Engine Optimisation BS31"
         description="Local SEO for Keynsham businesses. Google Business Profile, website SEO and review growth from £150/month. Based in Keynsham BS31. Free audit."
         canonical="/local-seo/keynsham"
         breadcrumbs={[

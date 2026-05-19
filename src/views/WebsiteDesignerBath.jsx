@@ -114,7 +114,7 @@ const WebsiteDesignerBath = () => {
   return (
     <>
       <SEO
-        title="Website Designer Bath | Web Design from £399 | SEO Kings"
+        title="Website Designer Bath | Web Design from £399"
         description="Website designer serving Bath BA1 & BA2. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
         canonical="/website-designer-bath"
         breadcrumbs={[

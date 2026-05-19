@@ -118,7 +118,7 @@ const WebsiteDesignerTrowbridge = () => {
   return (
     <>
       <SEO
-        title="Website Designer Trowbridge | Web Design from £399 | SEO Kings"
+        title="Website Designer Trowbridge | Web Design from £399"
         description="Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
         canonical="/website-designer-trowbridge"
         breadcrumbs={[

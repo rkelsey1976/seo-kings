@@ -179,7 +179,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
   return (
     <>
       <SEO
-        title={`${caseStudy.business} Case Study | SEO Kings`}
+        title={`${caseStudy.business} Case Study`}
         description={`How we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Local SEO results.`}
         canonical={`/case-studies/${caseStudy.slug}`}
         ogType="article"

@@ -116,7 +116,7 @@ const TempleCloudHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Temple Cloud | BS39 Trades & Businesses | SEO Kings"
+        title="Web Design & SEO in Temple Cloud | BS39 Trades & Businesses"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Temple Cloud BS39. Websites from £399, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/temple-cloud"
         breadcrumbs={[

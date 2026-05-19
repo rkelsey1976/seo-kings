@@ -116,7 +116,7 @@ const TimsburyHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Timsbury | BA2 Trades & Businesses | SEO Kings"
+        title="Web Design & SEO in Timsbury | BA2 Trades & Businesses"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Timsbury BA2. Websites from £399, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/timsbury"
         breadcrumbs={[

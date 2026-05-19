@@ -116,7 +116,7 @@ const ChewMagnaHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Chew Magna | Chew Valley Trades | SEO Kings"
+        title="Web Design & SEO in Chew Magna | Chew Valley Trades"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Chew Magna BS40. Websites from £399, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/chew-magna"
         breadcrumbs={[

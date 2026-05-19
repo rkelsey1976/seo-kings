@@ -125,7 +125,7 @@ const LocalSEOBath = () => {
   return (
     <>
       <SEO
-        title="Local SEO Bath | Search Engine Optimisation BA1 & BA2 | SEO Kings"
+        title="Local SEO Bath | Search Engine Optimisation BA1 & BA2"
         description="Local SEO for Bath businesses. Google Business Profile optimisation, website SEO and review growth from £150/month. Serving BA1 & BA2. Free audit."
         canonical="/local-seo/bath"
         breadcrumbs={[

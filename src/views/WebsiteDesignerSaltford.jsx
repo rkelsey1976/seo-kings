@@ -115,7 +115,7 @@ const WebsiteDesignerSaltford = () => {
   return (
     <>
       <SEO
-        title="Website Designer Saltford | Web Design from £399 | SEO Kings"
+        title="Website Designer Saltford | Web Design from £399"
         description="Website designer serving Saltford. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
         canonical="/website-designer-saltford"
         breadcrumbs={[

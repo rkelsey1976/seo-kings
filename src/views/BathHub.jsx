@@ -116,7 +116,7 @@ const BathHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Bath | Trades & Local Businesses | SEO Kings"
+        title="Web Design & SEO in Bath | Trades & Local Businesses"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £399, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/bath"
         breadcrumbs={[

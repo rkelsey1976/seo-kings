@@ -115,7 +115,7 @@ const WebsiteDesignerPeasedownStJohn = () => {
   return (
     <>
       <SEO
-        title="Website Designer Peasedown St John | Web Design from £399 | SEO Kings"
+        title="Website Designer Peasedown St John | Web Design from £399"
         description="Website designer serving Peasedown St John BA2. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
         canonical="/website-designer-peasedown-st-john"
         breadcrumbs={[

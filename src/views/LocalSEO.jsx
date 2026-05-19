@@ -80,7 +80,7 @@ const LocalSEO = () => {
   return (
     <>
       <SEO
-        title="Local SEO for Trades in Bath & North East Somerset | SEO Kings"
+        title="Local SEO for Trades in Bath & North East Somerset"
         description="Get your trade or local business into the map pack and onto page 1. Google Business Profile, on-page SEO & link building from £150/month. Free audit."
         canonical="/local-seo"
         breadcrumbs={[

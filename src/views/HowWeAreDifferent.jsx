@@ -28,7 +28,7 @@ const HowWeAreDifferent = () => {
   return (
     <>
       <SEO
-        title="How We're Different – Website Designer That Gets You Calls | SEO Kings"
+        title="How We're Different – Website Designer That Gets You Calls"
         description="We're not like other website designers. We combine website design with local and hyper-local SEO so your site gets found on Google and gets you calls. Bath & North East Somerset."
         canonical="/how-we-are-different"
         breadcrumbs={[

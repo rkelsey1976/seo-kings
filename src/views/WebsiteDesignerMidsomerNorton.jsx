@@ -115,7 +115,7 @@ const WebsiteDesignerMidsomerNorton = () => {
   return (
     <>
       <SEO
-        title="Website Designer Midsomer Norton | Web Design from £399 | SEO Kings"
+        title="Website Designer Midsomer Norton | Web Design from £399"
         description="Website designer serving Midsomer Norton BA3. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
         canonical="/website-designer-midsomer-norton"
         breadcrumbs={[
