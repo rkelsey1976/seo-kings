@@ -1,4 +1,4 @@
-import RadstockHub from '../../../src/pages/RadstockHub';
+import RadstockHub from '../../../src/views/RadstockHub';
 
 export const revalidate = 3600;
 

@@ -1,4 +1,4 @@
-import CluttonHub from '../../../src/pages/CluttonHub';
+import CluttonHub from '../../../src/views/CluttonHub';
 
 export const revalidate = 3600;
 

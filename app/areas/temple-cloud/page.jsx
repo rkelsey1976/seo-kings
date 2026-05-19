@@ -1,4 +1,4 @@
-import TempleCloudHub from '../../../src/pages/TempleCloudHub';
+import TempleCloudHub from '../../../src/views/TempleCloudHub';
 
 export const revalidate = 3600;
 

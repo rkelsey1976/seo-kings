@@ -1,4 +1,4 @@
-import KeynshamHub from '../../../src/pages/KeynshamHub';
+import KeynshamHub from '../../../src/views/KeynshamHub';
 
 export const revalidate = 3600;
 

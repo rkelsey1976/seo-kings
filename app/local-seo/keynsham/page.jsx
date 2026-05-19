@@ -1,4 +1,4 @@
-import LocalSEOKeynsham from '../../../src/pages/LocalSEOKeynsham';
+import LocalSEOKeynsham from '../../../src/views/LocalSEOKeynsham';
 
 export const revalidate = 3600;
 

@@ -1,4 +1,4 @@
-import LocalSEOBath from '../../../src/pages/LocalSEOBath';
+import LocalSEOBath from '../../../src/views/LocalSEOBath';
 
 export const revalidate = 3600;
 

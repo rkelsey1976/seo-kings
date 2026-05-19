@@ -1,4 +1,4 @@
-import Blog from '../../src/pages/Blog';
+import Blog from '../../src/views/Blog';
 
 export const revalidate = 3600;
 

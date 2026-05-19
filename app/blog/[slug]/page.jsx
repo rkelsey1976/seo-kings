@@ -1,4 +1,4 @@
-import BlogPost from '../../../src/pages/BlogPost';
+import BlogPost from '../../../src/views/BlogPost';
 import { BLOG_SLUGS } from '../../../src/constants/sitemap';
 import { BLOG_META } from '../../../src/constants/blogMeta';
 

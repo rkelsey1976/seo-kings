@@ -1,4 +1,4 @@
-import Privacy from '../../src/pages/Privacy';
+import Privacy from '../../src/views/Privacy';
 
 export const metadata = {
   title: { absolute: 'Privacy Policy | SEO Kings' },

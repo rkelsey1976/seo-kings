@@ -1,4 +1,4 @@
-import Areas from '../../src/pages/Areas';
+import Areas from '../../src/views/Areas';
 
 export const revalidate = 3600;
 

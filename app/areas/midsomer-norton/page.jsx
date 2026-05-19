@@ -1,4 +1,4 @@
-import MidsomerNortonHub from '../../../src/pages/MidsomerNortonHub';
+import MidsomerNortonHub from '../../../src/views/MidsomerNortonHub';
 
 export const revalidate = 3600;
 

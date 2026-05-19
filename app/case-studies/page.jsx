@@ -1,4 +1,4 @@
-import CaseStudies from '../../src/pages/CaseStudies';
+import CaseStudies from '../../src/views/CaseStudies';
 
 export const revalidate = 3600;
 

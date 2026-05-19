@@ -1,4 +1,4 @@
-import PeasedownHub from '../../../src/pages/PeasedownHub';
+import PeasedownHub from '../../../src/views/PeasedownHub';
 
 export const revalidate = 3600;
 

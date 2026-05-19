@@ -1,4 +1,4 @@
-import BathHub from '../../../src/pages/BathHub';
+import BathHub from '../../../src/views/BathHub';
 
 export const revalidate = 3600;
 

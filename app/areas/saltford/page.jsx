@@ -1,4 +1,4 @@
-import SaltfordHub from '../../../src/pages/SaltfordHub';
+import SaltfordHub from '../../../src/views/SaltfordHub';
 
 export const revalidate = 3600;
 

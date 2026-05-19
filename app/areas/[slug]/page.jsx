@@ -1,4 +1,4 @@
-import AreaDetail from '../../../src/pages/AreaDetail';
+import AreaDetail from '../../../src/views/AreaDetail';
 import { AREA_SLUGS } from '../../../src/constants/sitemap';
 import { AREA_META } from '../../../src/constants/areaMeta';
 

@@ -1,4 +1,4 @@
-import WebsiteDesignerRadstock from '../../src/pages/WebsiteDesignerRadstock';
+import WebsiteDesignerRadstock from '../../src/views/WebsiteDesignerRadstock';
 
 export const revalidate = 3600;
 

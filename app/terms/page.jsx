@@ -1,4 +1,4 @@
-import Terms from '../../src/pages/Terms';
+import Terms from '../../src/views/Terms';
 
 export const metadata = {
   title: { absolute: 'Terms of Service | SEO Kings' },

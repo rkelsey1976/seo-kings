@@ -1,4 +1,4 @@
-import WebsiteDesignerSaltford from '../../src/pages/WebsiteDesignerSaltford';
+import WebsiteDesignerSaltford from '../../src/views/WebsiteDesignerSaltford';
 
 export const revalidate = 3600;
 

@@ -1,4 +1,4 @@
-import GoogleBusinessProfile from '../../src/pages/GoogleBusinessProfile';
+import GoogleBusinessProfile from '../../src/views/GoogleBusinessProfile';
 
 export const revalidate = 3600;
 

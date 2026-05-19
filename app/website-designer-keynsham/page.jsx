@@ -1,4 +1,4 @@
-import WebsiteDesignerKeynsham from '../../src/pages/WebsiteDesignerKeynsham';
+import WebsiteDesignerKeynsham from '../../src/views/WebsiteDesignerKeynsham';
 
 export const revalidate = 3600;
 

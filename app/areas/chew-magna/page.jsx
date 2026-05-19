@@ -1,4 +1,4 @@
-import ChewMagnaHub from '../../../src/pages/ChewMagnaHub';
+import ChewMagnaHub from '../../../src/views/ChewMagnaHub';
 
 export const revalidate = 3600;
 

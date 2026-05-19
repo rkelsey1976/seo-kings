@@ -1,4 +1,4 @@
-import CaseStudyDetail from '../../../src/pages/CaseStudyDetail';
+import CaseStudyDetail from '../../../src/views/CaseStudyDetail';
 import { CASE_STUDY_SLUGS } from '../../../src/constants/sitemap';
 
 export function generateStaticParams() {

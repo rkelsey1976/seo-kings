@@ -1,4 +1,4 @@
-import WebDesignerNearMe from '../../src/pages/WebDesignerNearMe';
+import WebDesignerNearMe from '../../src/views/WebDesignerNearMe';
 
 export const revalidate = 3600;
 

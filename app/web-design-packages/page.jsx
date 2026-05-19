@@ -1,4 +1,4 @@
-import WebDesignPackages from '../../src/pages/WebDesignPackages';
+import WebDesignPackages from '../../src/views/WebDesignPackages';
 
 export const revalidate = 3600;
 

@@ -1,4 +1,4 @@
-import About from '../../src/pages/About';
+import About from '../../src/views/About';
 
 export const revalidate = 3600;
 

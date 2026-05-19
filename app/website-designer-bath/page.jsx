@@ -1,4 +1,4 @@
-import WebsiteDesignerBath from '../../src/pages/WebsiteDesignerBath';
+import WebsiteDesignerBath from '../../src/views/WebsiteDesignerBath';
 
 export const revalidate = 3600;
 

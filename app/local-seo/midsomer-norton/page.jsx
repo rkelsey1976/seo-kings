@@ -1,4 +1,4 @@
-import LocalSEOMidsomerNorton from '../../../src/pages/LocalSEOMidsomerNorton';
+import LocalSEOMidsomerNorton from '../../../src/views/LocalSEOMidsomerNorton';
 
 export const revalidate = 3600;
 

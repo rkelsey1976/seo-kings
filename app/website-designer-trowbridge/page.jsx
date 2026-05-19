@@ -1,4 +1,4 @@
-import WebsiteDesignerTrowbridge from '../../src/pages/WebsiteDesignerTrowbridge';
+import WebsiteDesignerTrowbridge from '../../src/views/WebsiteDesignerTrowbridge';
 
 export const revalidate = 3600;
 

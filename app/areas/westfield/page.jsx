@@ -1,4 +1,4 @@
-import WestfieldHub from '../../../src/pages/WestfieldHub';
+import WestfieldHub from '../../../src/views/WestfieldHub';
 
 export const revalidate = 3600;
 

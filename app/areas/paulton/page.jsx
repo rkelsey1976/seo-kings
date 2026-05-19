@@ -1,4 +1,4 @@
-import PaultonHub from '../../../src/pages/PaultonHub';
+import PaultonHub from '../../../src/views/PaultonHub';
 
 export const revalidate = 3600;
 

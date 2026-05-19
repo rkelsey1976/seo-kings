@@ -1,4 +1,4 @@
-import LocalSEO from '../../src/pages/LocalSEO';
+import LocalSEO from '../../src/views/LocalSEO';
 
 export const revalidate = 3600;
 

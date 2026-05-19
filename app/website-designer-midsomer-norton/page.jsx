@@ -1,4 +1,4 @@
-import WebsiteDesignerMidsomerNorton from '../../src/pages/WebsiteDesignerMidsomerNorton';
+import WebsiteDesignerMidsomerNorton from '../../src/views/WebsiteDesignerMidsomerNorton';
 
 export const revalidate = 3600;
 

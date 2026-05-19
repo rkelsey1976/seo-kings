@@ -1,4 +1,4 @@
-import HowWeAreDifferent from '../../src/pages/HowWeAreDifferent';
+import HowWeAreDifferent from '../../src/views/HowWeAreDifferent';
 
 export const revalidate = 3600;
 

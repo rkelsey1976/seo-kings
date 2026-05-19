@@ -1,4 +1,4 @@
-import Services from '../../src/pages/Services';
+import Services from '../../src/views/Services';
 
 export const revalidate = 3600;
 

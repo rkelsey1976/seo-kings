@@ -1,4 +1,4 @@
-import WebDesign from '../../src/pages/WebDesign';
+import WebDesign from '../../src/views/WebDesign';
 import WebDesignServiceSchema from '../WebDesignServiceSchema';
 
 export const revalidate = 3600;

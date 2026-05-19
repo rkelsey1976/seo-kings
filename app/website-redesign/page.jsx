@@ -1,4 +1,4 @@
-import WebsiteRedesign from '../../src/pages/WebsiteRedesign';
+import WebsiteRedesign from '../../src/views/WebsiteRedesign';
 
 export const revalidate = 3600;
 

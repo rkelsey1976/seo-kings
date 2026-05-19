@@ -1,4 +1,4 @@
-import LocalSEOTrade from '../../../src/pages/LocalSEOTrade';
+import LocalSEOTrade from '../../../src/views/LocalSEOTrade';
 import TradePageSchema from './TradePageSchema';
 import { TRADE_META } from '../../../src/constants/tradeMeta';
 

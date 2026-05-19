@@ -1,4 +1,4 @@
-import TimsburyHub from '../../../src/pages/TimsburyHub';
+import TimsburyHub from '../../../src/views/TimsburyHub';
 
 export const revalidate = 3600;
 

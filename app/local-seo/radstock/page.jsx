@@ -1,4 +1,4 @@
-import LocalSEORadstock from '../../../src/pages/LocalSEORadstock';
+import LocalSEORadstock from '../../../src/views/LocalSEORadstock';
 
 export const revalidate = 3600;
 
