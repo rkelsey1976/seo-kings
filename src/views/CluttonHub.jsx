@@ -127,8 +127,15 @@ const CluttonHub = () => {
       />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+      <section
+        className="relative pt-32 pb-20 overflow-hidden"
+        style={{
+          backgroundImage: 'url(/images/areas/clutton.webp)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-dark/75 via-dark/70 to-dark" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <span
