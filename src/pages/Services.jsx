@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
@@ -88,7 +89,16 @@ const Services = () => {
 
       {/* Hero */}
       <section className="relative pt-32 pb-16 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
+        <div className="absolute inset-0">
+          <Image
+            src="/images/website-design/web-design-planning-wireframe.webp"
+            alt="Web design planning and wireframing session"
+            fill
+            priority
+            className="object-cover object-center opacity-15"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark/80 via-dark/70 to-dark" />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
