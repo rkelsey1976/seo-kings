@@ -15,7 +15,7 @@ const Areas = () => {
       description: 'Historic city centre and surrounding areas',
       postcodes: 'BA1, BA2',
       population: '90,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg/640px-Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg',
+      image: '/images/areas/bath-roman-baths.jpg',
     },
     {
       name: 'Keynsham',
@@ -23,7 +23,7 @@ const Areas = () => {
       description: 'Town between Bath and Bristol',
       postcodes: 'BS31',
       population: '16,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg/640px-Keynsham_Health_Centre_-_geograph.org.uk_-_4733516.jpg',
+      image: '/images/areas/keynsham-health-centre.jpg',
     },
     {
       name: 'Midsomer Norton',
@@ -31,7 +31,7 @@ const Areas = () => {
       description: 'Market town in the Somer Valley',
       postcodes: 'BA3',
       population: '12,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Midsomer_Norton%2C_the_River_Somer_alongside_the_High_Street_-_geograph.org.uk_-_1987837.jpg',
+      image: '/images/areas/midsomer-norton.jpg',
     },
     {
       name: 'Radstock',
@@ -39,7 +39,7 @@ const Areas = () => {
       description: 'Former mining town with rich heritage',
       postcodes: 'BA3',
       population: '6,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Radstock_%28Somerset%29_St_Nicholas_Church_-_geograph.org.uk_-_67841.jpg',
+      image: '/images/areas/radstock.jpg',
     },
     {
       name: 'Peasedown St John',
@@ -47,7 +47,7 @@ const Areas = () => {
       description: 'Growing village south of Bath',
       postcodes: 'BA2',
       population: '6,500+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Prince_of_Wales%2C_Peasedown_St_John_-_geograph.org.uk_-_1827688.jpg/640px-Prince_of_Wales%2C_Peasedown_St_John_-_geograph.org.uk_-_1827688.jpg',
+      image: '/images/areas/peasedown-st-john.jpg',
     },
     {
       name: 'Paulton',
@@ -55,7 +55,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley',
       postcodes: 'BS39',
       population: '5,500+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Paulton_Memorial_Park_-_geograph.org.uk_-_5152197.jpg/640px-Paulton_Memorial_Park_-_geograph.org.uk_-_5152197.jpg',
+      image: '/images/areas/paulton.jpg',
     },
     {
       name: 'Saltford',
@@ -63,7 +63,7 @@ const Areas = () => {
       description: 'Riverside village on the River Avon',
       postcodes: 'BS31',
       population: '4,500+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Saltford_Marina_-_geograph.org.uk_-_547659.jpg',
+      image: '/images/areas/saltford-marina.jpg',
     },
     {
       name: 'Timsbury',
@@ -71,7 +71,7 @@ const Areas = () => {
       description: 'Rural village near Paulton',
       postcodes: 'BA2',
       population: '3,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/St_Mary%27s%2C_Timsbury_-_geograph.org.uk_-_4344316.jpg/640px-St_Mary%27s%2C_Timsbury_-_geograph.org.uk_-_4344316.jpg',
+      image: '/images/areas/timsbury.jpg',
     },
     {
       name: 'Westfield',
@@ -79,7 +79,7 @@ const Areas = () => {
       description: 'Village in the Somer Valley near Radstock',
       postcodes: 'BA3',
       population: '2,000+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Waterside_Valley%2C_Westfield%2C_Somerset.jpg',
+      image: '/images/areas/westfield.jpg',
     },
     {
       name: 'Chew Magna',
@@ -87,7 +87,7 @@ const Areas = () => {
       description: 'Village in the Chew Valley',
       postcodes: 'BS40',
       population: '1,200+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bath_And_North_East_Somerset_-_Chew_Magna_Scenery_%28geograph_5442137%29.jpg/640px-Bath_And_North_East_Somerset_-_Chew_Magna_Scenery_%28geograph_5442137%29.jpg',
+      image: '/images/areas/chew-magna.jpg',
     },
     {
       name: 'Temple Cloud',
@@ -95,7 +95,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley near Paulton',
       postcodes: 'BS39',
       population: '1,500+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/3/36/The_A37_at_Temple_Cloud_-_geograph.org.uk_-_1084282.jpg',
+      image: '/images/areas/temple-cloud.jpg',
     },
     {
       name: 'Clutton',
@@ -103,7 +103,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley near Temple Cloud',
       postcodes: 'BS39',
       population: '1,800+',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Clutton_Hill%2C_at_the_top_of_Clutton_Hill_-_geograph.org.uk_-_1162747.jpg',
+      image: '/images/areas/clutton.jpg',
     },
   ];
 
