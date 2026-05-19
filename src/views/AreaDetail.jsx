@@ -1004,7 +1004,6 @@ const AreaDetail = ({ params: staticParams }) => {
         ],
       },
       recentProjects: [
-        { sector: 'Saltford Garden Centre', outcome: 'Professional website and local visibility', snippet: 'Website and local SEO for Saltford Garden Centre. Now found when customers search for garden centre and related services in Saltford and the area.' },
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Saltford and BANES.', caseStudySlug: 'new-decorating' },
       ],
       stats: {
