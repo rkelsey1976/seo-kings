@@ -15,7 +15,7 @@ const Areas = () => {
       description: 'Historic city centre and surrounding areas',
       postcodes: 'BA1, BA2',
       population: '90,000+',
-      image: '/images/areas/bath-roman-baths.jpg',
+      image: '/images/areas/bath-roman-baths.webp',
     },
     {
       name: 'Keynsham',
@@ -23,7 +23,7 @@ const Areas = () => {
       description: 'Town between Bath and Bristol',
       postcodes: 'BS31',
       population: '16,000+',
-      image: '/images/areas/keynsham-health-centre.jpg',
+      image: '/images/areas/keynsham-health-centre.webp',
     },
     {
       name: 'Midsomer Norton',
@@ -31,7 +31,7 @@ const Areas = () => {
       description: 'Market town in the Somer Valley',
       postcodes: 'BA3',
       population: '12,000+',
-      image: '/images/areas/midsomer-norton.jpg',
+      image: '/images/areas/midsomer-norton.webp',
     },
     {
       name: 'Radstock',
@@ -39,7 +39,7 @@ const Areas = () => {
       description: 'Former mining town with rich heritage',
       postcodes: 'BA3',
       population: '6,000+',
-      image: '/images/areas/radstock.jpg',
+      image: '/images/areas/radstock.webp',
     },
     {
       name: 'Peasedown St John',
@@ -47,7 +47,7 @@ const Areas = () => {
       description: 'Growing village south of Bath',
       postcodes: 'BA2',
       population: '6,500+',
-      image: '/images/areas/peasedown-st-john.jpg',
+      image: '/images/areas/peasedown-st-john.webp',
     },
     {
       name: 'Paulton',
@@ -55,7 +55,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley',
       postcodes: 'BS39',
       population: '5,500+',
-      image: '/images/areas/paulton.jpg',
+      image: '/images/areas/paulton.webp',
     },
     {
       name: 'Saltford',
@@ -63,7 +63,7 @@ const Areas = () => {
       description: 'Riverside village on the River Avon',
       postcodes: 'BS31',
       population: '4,500+',
-      image: '/images/areas/saltford-marina.jpg',
+      image: '/images/areas/saltford-marina.webp',
     },
     {
       name: 'Timsbury',
@@ -71,7 +71,7 @@ const Areas = () => {
       description: 'Rural village near Paulton',
       postcodes: 'BA2',
       population: '3,000+',
-      image: '/images/areas/timsbury.jpg',
+      image: '/images/areas/timsbury.webp',
     },
     {
       name: 'Westfield',
@@ -79,7 +79,7 @@ const Areas = () => {
       description: 'Village in the Somer Valley near Radstock',
       postcodes: 'BA3',
       population: '2,000+',
-      image: '/images/areas/westfield.jpg',
+      image: '/images/areas/westfield.webp',
     },
     {
       name: 'Chew Magna',
@@ -87,7 +87,7 @@ const Areas = () => {
       description: 'Village in the Chew Valley',
       postcodes: 'BS40',
       population: '1,200+',
-      image: '/images/areas/chew-magna.jpg',
+      image: '/images/areas/chew-magna.webp',
     },
     {
       name: 'Temple Cloud',
@@ -95,7 +95,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley near Paulton',
       postcodes: 'BS39',
       population: '1,500+',
-      image: '/images/areas/temple-cloud.jpg',
+      image: '/images/areas/temple-cloud.webp',
     },
     {
       name: 'Clutton',
@@ -103,7 +103,7 @@ const Areas = () => {
       description: 'Village in the Cam Valley near Temple Cloud',
       postcodes: 'BS39',
       population: '1,800+',
-      image: '/images/areas/clutton.jpg',
+      image: '/images/areas/clutton.webp',
     },
   ];
 
