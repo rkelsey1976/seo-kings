@@ -147,6 +147,8 @@ const StepsScroll = ({ steps, accentColor = '#C4732C', className = '' }) => {
                 alt={step.imageAlt ?? step.heading}
                 width={600}
                 height={260}
+                loading="lazy"
+                sizes="100vw"
                 className="w-full h-full object-cover"
               />
             </div>

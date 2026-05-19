@@ -92,8 +92,8 @@ export default function RootLayout({ children }) {
         <GrainTexture opacity={0.04} blendMode="multiply" zIndex={9999} />
         <CookieBanner />
         <WhatsAppButton />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
-        <Script id="ga" strategy="lazyOnload">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="afterInteractive" />
+        <Script id="ga" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9JWXCPHP71');`}
         </Script>
         <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>
