@@ -37,7 +37,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 flex flex-col h-full cursor-pointer
                 ${isFeatured ? 'min-h-[420px] md:min-h-[540px]' : 'min-h-[280px] md:min-h-[320px]'}
               `}
-              aria-labelledby={cell.href && cell.heading ? `bento-heading-${i}` : undefined}
+              aria-label={cell.href && cell.heading ? cell.heading : undefined}
             >
               {/* ── Photo background ── */}
               {cell.imageBg && (
@@ -89,7 +89,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
               />
 
               {/* ── Content ── */}
-              <div className={`relative z-10 flex flex-col justify-between h-full p-6 lg:p-8`}>
+              <div className={`relative z-10 flex flex-col justify-between h-full p-6 lg:p-8`} aria-hidden="true">
                 {/* Top: tag */}
                 <div>
                   {cell.tag && (
