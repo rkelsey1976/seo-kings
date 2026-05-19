@@ -137,7 +137,7 @@ const WebDesignPackages = () => {
                 }`}
               >
                 {pkg.popular && (
-                  <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-primary to-secondary py-2 text-center text-white text-sm font-semibold">
+                  <div className="absolute top-0 left-0 right-0 bg-primary py-2 text-center text-white text-sm font-semibold">
                     Most popular
                   </div>
                 )}
@@ -274,7 +274,7 @@ const WebDesignPackages = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact?subject=web-design-packages"
-              className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity text-center"
+              className="bg-primary text-white px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity text-center"
             >
               Get free quote
             </Link>

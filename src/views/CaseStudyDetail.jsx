@@ -474,7 +474,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
             </p>
             <Link
               href="/spotlight/peachy-cleans"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
+              className="inline-flex items-center gap-2 bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
             >
               View full Client Spotlight
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

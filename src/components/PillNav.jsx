@@ -47,7 +47,7 @@ const PillNav = () => {
             <Link
               key={item.name}
               href={item.href}
-              className="px-4 py-2 text-sm text-gray-300 hover:text-white rounded-full hover:bg-white/5 transition-all duration-200"
+              className="px-4 py-2 text-sm text-white hover:text-white rounded-full hover:bg-white/5 transition-all duration-200"
             >
               {item.name}
             </Link>
@@ -60,7 +60,7 @@ const PillNav = () => {
             as={Link}
             href="/contact"
             strength={0.35}
-            className="hidden md:inline-flex items-center px-6 py-2.5 rounded-full text-sm font-semibold text-white bg-coral hover:bg-[#d65a3f] transition-colors duration-200"
+            className="hidden md:inline-flex items-center px-6 py-2.5 rounded-full text-sm font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors duration-200"
           >
             Get Started
           </MagneticButton>
@@ -101,7 +101,7 @@ const PillNav = () => {
             <div className="mt-2 pt-2 border-t border-white/10">
               <Link
                 href="/contact"
-                className="flex items-center justify-center px-4 py-2.5 rounded-xl text-sm font-semibold text-white bg-coral hover:bg-[#d65a3f] transition-colors"
+                className="flex items-center justify-center px-4 py-2.5 rounded-xl text-sm font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started

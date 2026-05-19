@@ -240,7 +240,7 @@ const Navbar = () => {
               ))}
               <a 
                 href="/contact" 
-                className="bg-primary hover:bg-primary-light text-white px-5 py-2 rounded-lg font-medium transition-all duration-200 btn-glow"
+                className="bg-primary hover:bg-primary-light text-dark px-5 py-2 rounded-lg font-medium transition-all duration-200 btn-glow"
                 onClick={closeAllMenus}
               >
                 Get Started
@@ -420,7 +420,7 @@ const Navbar = () => {
                   </div>
                   <Link
                     href="/contact"
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-6 py-3 rounded-xl font-semibold text-sm text-center transition-all duration-300 btn-glow"
+                    className="w-full bg-primary hover:bg-primary-light text-dark px-6 py-3 rounded-xl font-semibold text-sm text-center transition-all duration-300 btn-glow"
                     onClick={closeAllMenus}
                   >
                     Get Your Free Audit
@@ -501,7 +501,7 @@ const Navbar = () => {
               ))}
               <a 
                 href="/contact" 
-                className="bg-primary hover:bg-primary-light text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 w-full mt-2 text-center block"
+                className="bg-primary hover:bg-primary-light text-dark px-5 py-3 rounded-lg font-medium transition-all duration-200 w-full mt-2 text-center block"
                 onClick={closeAllMenus}
               >
                 Get Started

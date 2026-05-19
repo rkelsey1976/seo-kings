@@ -181,7 +181,7 @@ const WhyWeAreDifferent = () => {
               </p>
               <Link
                 href="/case-studies"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
               >
                 View case studies
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

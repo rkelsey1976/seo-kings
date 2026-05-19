@@ -1458,7 +1458,7 @@ const BlogPost = ({ params: staticParams }) => {
                     key={i}
                     href={link.href}
                     className={i === 0
-                      ? 'bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center'
+                      ? 'bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center'
                       : 'border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center'}
                   >
                     {link.label}
@@ -1468,7 +1468,7 @@ const BlogPost = ({ params: staticParams }) => {
                 <>
                   <Link
                     href="/contact"
-                    className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
+                    className="bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
                   >
                     Get a free audit
                   </Link>

@@ -37,7 +37,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 flex flex-col h-full cursor-pointer
                 ${isFeatured ? 'min-h-[420px] md:min-h-[540px]' : 'min-h-[280px] md:min-h-[320px]'}
               `}
-              aria-label={cell.href ? cell.heading : undefined}
+              aria-labelledby={cell.href && cell.heading ? `bento-heading-${i}` : undefined}
             >
               {/* ── Photo background ── */}
               {cell.imageBg && (
@@ -48,7 +48,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                     fill
                     className="object-cover"
                     sizes={cell.colSpan === 2 ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
                   />
                 </div>
               )}
@@ -130,10 +130,11 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 {/* Bottom: heading + body + link */}
                 <div>
                   {cell.heading && (
-                    <h3
-                      className={`font-semibold leading-snug text-white ${isFeatured ? 'text-2xl lg:text-3xl' : 'text-lg lg:text-xl'}`}
-                      style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6)' }}
-                    >
+                  <h3
+                    id={cell.heading ? `bento-heading-${i}` : undefined}
+                    className={`font-semibold leading-snug text-white ${isFeatured ? 'text-2xl lg:text-3xl' : 'text-lg lg:text-xl'}`}
+                    style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6)' }}
+                  >
                       {cell.heading}
                     </h3>
                   )}
@@ -146,6 +147,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                     <div
                       className="mt-5 flex items-center gap-2 text-xs font-semibold tracking-wide opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0"
                       style={{ color: accent }}
+                      aria-hidden="true"
                     >
                       View details
                       <ArrowRight />

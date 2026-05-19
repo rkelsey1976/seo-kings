@@ -126,7 +126,7 @@ const LocalSEOTrade = ({ params: staticParams }) => {
             {trade.intro}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="bg-gradient-to-r from-primary to-secondary hover:from-primary-light hover:to-secondary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 text-center">
+            <Link href="/contact" className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 text-center">
               Get a Free Website Quote
             </Link>
             <a href="tel:07702264921" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3" aria-label="Call SEO Kings on 07702 264 921">

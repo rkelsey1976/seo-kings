@@ -12,6 +12,9 @@ const nextConfig = {
     ],
   },
   eslint: { ignoreDuringBuilds: true },
+  experimental: {
+    cssChunking: true,
+  },
 };
 
 module.exports = nextConfig;
