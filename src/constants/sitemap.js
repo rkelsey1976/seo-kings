@@ -85,10 +85,7 @@ export const CASE_STUDY_LINKS = [
 export const AREA_SLUGS = [
   // bath, keynsham, midsomer-norton, radstock have bespoke static routes
   // under app/areas/[town]/page.jsx and must NOT be in generateStaticParams
-  'peasedown-st-john',
-  'paulton',
-  'saltford',
-  'timsbury',
+  // peasedown-st-john, paulton, saltford, timsbury have bespoke static routes
   'westfield',
   'chew-magna',
   'temple-cloud',
@@ -208,6 +205,10 @@ export const STATIC_ROUTES = [
   { path: '/areas/keynsham', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/midsomer-norton', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/radstock', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/peasedown-st-john', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/paulton', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/saltford', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/timsbury', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
   { path: '/sitemap', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.5 },
   { path: '/privacy', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
