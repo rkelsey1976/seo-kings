@@ -226,7 +226,7 @@ const About = () => {
                 key={index}
                 className="bg-dark border border-white/5 rounded-2xl p-6 hover:border-white/10 transition-all duration-300"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary text-white mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary text-white mb-4">
                   {value.icon}
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">{value.title}</h3>
@@ -253,7 +253,7 @@ const About = () => {
               <div className="space-y-6">
                 {reasons.map((reason, index) => (
                   <div key={index} className="flex gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-sm">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-bold text-sm">
                       {index + 1}
                     </div>
                     <div>
@@ -269,7 +269,7 @@ const About = () => {
             <div className="bg-dark-card border border-white/10 rounded-2xl p-8 relative">
               {/* Quote Icon */}
               <div className="absolute -top-4 left-8">
-                <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>

@@ -212,7 +212,7 @@ const Contact = () => {
               <div className="space-y-6 mb-10">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white flex-shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white flex-shrink-0">
                       {item.icon}
                     </div>
                     <div>

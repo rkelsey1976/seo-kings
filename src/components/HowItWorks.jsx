@@ -78,7 +78,7 @@ const HowItWorks = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/50 to-transparent" />
                   {/* Number Badge */}
-                  <div className="absolute top-4 left-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary text-white text-lg font-bold shadow-lg">
+                  <div className="absolute top-4 left-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white text-lg font-bold shadow-lg">
                     {step.number}
                   </div>
                 </div>

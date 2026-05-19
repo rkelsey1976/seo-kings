@@ -133,7 +133,7 @@ const BANESMap = () => {
           <span className="text-gray-300">Bath & North East Somerset boundary</span>
         </div>
         <div className="flex items-center gap-2 text-sm mt-2">
-          <div className="w-4 h-4 rounded-full bg-gradient-to-br from-primary to-secondary border-2 border-white" />
+          <div className="w-4 h-4 rounded-full bg-primary border-2 border-white" />
           <span className="text-gray-300">Service Areas</span>
         </div>
       </div>

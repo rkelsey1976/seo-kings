@@ -181,7 +181,7 @@ const WebDesign = () => {
                 )}
                 
                 <div className="relative bg-dark-card border border-white/5 rounded-2xl p-6 text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary text-white text-xl font-bold mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary text-white text-xl font-bold mb-4">
                     {item.step}
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>

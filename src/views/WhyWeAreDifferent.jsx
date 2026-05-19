@@ -125,7 +125,7 @@ const WhyWeAreDifferent = () => {
                 key={index}
                 className="bg-dark-card border border-white/5 rounded-2xl p-6 hover:border-white/10 transition-all duration-300"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary text-white mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary text-white mb-4">
                   {item.icon}
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>

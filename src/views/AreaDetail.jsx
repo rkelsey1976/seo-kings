@@ -3769,7 +3769,7 @@ const AreaDetail = ({ params: staticParams }) => {
               { title: 'Cost-Effective', text: `Organic rankings in ${area.name} cost less than paid ads and keep working 24/7. Invest once, get found for years.` },
             ].slice(0, area.whyBullets?.length || 3)).map((bullet, idx) => (
             <div key={idx} className="bg-dark-card border border-white/5 rounded-xl p-6">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
+              <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -3906,7 +3906,7 @@ const AreaDetail = ({ params: staticParams }) => {
             {services.map((service, index) => {
               const inner = (
                 <>
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center mb-4">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -4123,7 +4123,7 @@ const AreaDetail = ({ params: staticParams }) => {
             <div className="grid md:grid-cols-3 gap-8">
               {area.howItWorks.map((step, idx) => (
                 <div key={idx} className="bg-dark-card border border-white/5 rounded-xl p-6 text-center">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center mx-auto mb-4 text-white font-bold">
+                  <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center mx-auto mb-4 text-white font-bold">
                     {idx + 1}
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-2">{step.title}</h3>

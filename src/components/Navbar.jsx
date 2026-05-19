@@ -368,7 +368,7 @@ const Navbar = () => {
                       onClick={closeAllMenus}
                     >
                       {/* Location Icon */}
-                      <div className="flex-shrink-0 w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-200" aria-hidden="true">
+                      <div className="flex-shrink-0 w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-200" aria-hidden="true">
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         </svg>
@@ -406,7 +406,7 @@ const Navbar = () => {
               <div className="md:col-span-2">
                 <div className="bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 rounded-2xl p-6 h-full flex flex-col">
                   <div className="flex-1">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white mb-4">
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
