@@ -7,6 +7,7 @@ import Footer from '../src/components/Footer';
 import ScrollToTop from '../src/components/ScrollToTop';
 import WhatsAppButton from '../src/components/WhatsAppButton';
 import GrainTexture from '../src/components/library/GrainTexture';
+import CookieBanner from '../src/components/CookieBanner';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -63,9 +64,33 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <BaseSchemas />
+        {/* Google Consent Mode v2 — must run before gtag.js */}
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            analytics_storage: 'denied',
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            wait_for_update: 500
+          });
+          try {
+            var consent = localStorage.getItem('cookie_consent');
+            if (consent === 'granted') {
+              gtag('consent', 'update', {
+                analytics_storage: 'granted',
+                ad_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted'
+              });
+            }
+          } catch(e) {}
+        `}} />
       </head>
       <body suppressHydrationWarning>
         <GrainTexture opacity={0.04} blendMode="multiply" zIndex={9999} />
+        <CookieBanner />
         <WhatsAppButton />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-9JWXCPHP71" strategy="lazyOnload" />
         <Script id="ga" strategy="lazyOnload">
