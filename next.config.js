@@ -15,6 +15,15 @@ const nextConfig = {
   experimental: {
     cssChunking: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/brandkit',
+        destination: '/brandkit/index.html',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
