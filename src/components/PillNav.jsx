@@ -86,7 +86,7 @@ const PillNav = () => {
       {/* Mobile dropdown — full viewport */}
       {isOpen && (
         <div className="md:hidden fixed inset-0 top-20 z-40
-          bg-[#0B1324]/95 backdrop-blur-xl
+          bg-[#0B1324]
           flex flex-col justify-center items-center">
           <div className="flex flex-col items-center gap-2 w-full max-w-xs px-6">
             {navItems.map((item) => (
