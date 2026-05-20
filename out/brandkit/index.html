@@ -932,15 +932,204 @@
     }
 
     // -- Downloads --
+    // Keynsham business coordinates (16a Culvers Road, BS31 2DW)
+    const GPS_LAT = 51.4139;
+    const GPS_LON = -2.4989;
+
+    function addGPStoJPEG(canvas, filename) {
+      // Convert canvas to JPEG blob and inject GPS EXIF using piexif-like approach
+      // piexif is not available in browser, so we embed GPS as a text metadata in PNG tEXt chunk
+      // and offer a separate "Download with GPS" that creates a JPEG with proper EXIF
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.95);
+      // For now, we store GPS info in the filename and add a comment
+      // Google reads GPS from EXIF — we embed it using a binary approach
+      return dataUrl;
+    }
+
+    // Embed GPS EXIF data into JPEG using pure JS (no library needed)
+    function createJPEGwithGPS(canvas, lat, lon) {
+      // Get raw JPEG data from canvas
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.95);
+      const base64 = dataUrl.split(',')[1];
+      const binary = atob(base64);
+      const bytes = new Uint8Array(binary.length);
+      for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+
+      // Convert lat/lon to DMS
+      function toDMS(dec) {
+        const d = Math.floor(dec);
+        const mFloat = (dec - d) * 60;
+        const m = Math.floor(mFloat);
+        const sFloat = (mFloat - m) * 60;
+        const s = Math.round(sFloat * 1000) / 1000;
+        return [[d, 1], [m, 1], [Math.round(s * 1000), 1000]];
+      }
+
+      const latDMS = toDMS(lat);
+      const lonDMS = toDMS(lon);
+      const latRef = lat >= 0 ? 'N' : 'S';
+      const lonRef = lon >= 0 ? 'E' : 'W';
+
+      // Build GPS IFD
+      function rational(n, d) {
+        const buf = new ArrayBuffer(8);
+        const dv = new DataView(buf);
+        dv.setUint32(0, n);
+        dv.setUint32(4, d);
+        return new Uint8Array(buf);
+      }
+
+      function srational(n, d) { return rational(n, d); }
+
+      // Build minimal EXIF with GPS
+      // GPS IFD entries
+      const gpsEntries = [
+        [0x0001, 2, 2, new Uint8Array([0x4E, 0x00])], // GPSLatitudeRef = 'N'
+        [0x0002, 5, 6, null], // GPSLatitude (filled later)
+        [0x0003, 2, 2, new Uint8Array([0x57, 0x00])], // GPSLongitudeRef = 'W'
+        [0x0004, 5, 6, null], // GPSLongitude (filled later)
+      ];
+
+      // We'll create a minimal EXIF segment
+      // JPEG marker: FF E1 [length_hi length_lo] "Exif\0\0" [TIFF header] [IFD0] [GPS IFD]
+      
+      // Simplified approach: create the EXIF as a binary blob
+      const exifHeader = new TextEncoder().encode('Exif\0\0');
+      
+      // TIFF header (little-endian)
+      const tiffHeader = new Uint8Array([...[0x49, 0x49], ...[0x2A, 0x00], ...[0x08, 0x00, 0x00, 0x00]]);
+      
+      // IFD0 with 1 entry (GPS IFD pointer)
+      const ifd0Count = new Uint8Array([0x01, 0x00]);
+      // Tag 0x8825 (GPSInfo), Type LONG (4), Count 1, value = offset to GPS IFD
+      // IFD0 starts at offset 8, has 2+6=8 bytes for count+entry, GPS IFD starts after
+      const ifd0Entry = new Uint8Array([
+        0x25, 0x88, // tag: GPSInfo
+        0x04, 0x00, // type: LONG
+        0x01, 0x00, 0x00, 0x00, // count: 1
+        0x1A, 0x00, 0x00, 0x00, // value: offset 26 = 8 (TIFF) + 2 (count) + 12 (entry) + 4 (next IFD pointer) = 26 ... let's calculate properly
+      ]);
+
+      // Total IFD0: 2 (count) + 12 (entry) + 4 (next IFD = 0) = 18 bytes
+      // GPS IFD offset = 8 (TIFF header) + 18 (IFD0) = 26
+      const gpsIfdOffset = 26;
+      ifd0Entry[8] = gpsIfdOffset & 0xFF;
+      ifd0Entry[9] = (gpsIfdOffset >> 8) & 0xFF;
+      
+      const nextIfd0 = new Uint8Array([0x00, 0x00, 0x00, 0x00]); // no next IFD
+
+      // GPS IFD: 4 entries
+      // 0x0001 GPSLatitudeRef (ASCII, 2 bytes)
+      // 0x0002 GPSLatitude (RATIONAL, 6 values = 3 rationals)
+      // 0x0003 GPSLongitudeRef (ASCII, 2 bytes)
+      // 0x0004 GPSLongitude (RATIONAL, 6 values = 3 rationals)
+      const gpsEntryCount = new Uint8Array([0x04, 0x00]);
+      
+      // GPS IFD entries (12 bytes each)
+      // Entry 1: GPSLatitudeRef
+      const e1 = new Uint8Array([0x01, 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x4E, 0x00, 0x00, 0x00]); // 'N\0'
+      // Entry 2: GPSLatitude (3 rationals at offset TBD)
+      const e2 = new Uint8Array([0x02, 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]); // offset filled later
+      // Entry 3: GPSLongitudeRef
+      const e3 = new Uint8Array([0x03, 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x57, 0x00, 0x00, 0x00]); // 'W\0'
+      // Entry 4: GPSLongitude (3 rationals at offset TBD)
+      const e4 = new Uint8Array([0x04, 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]); // offset filled later
+
+      const gpsNextIfd = new Uint8Array([0x00, 0x00, 0x00, 0x00]);
+
+      // After GPS IFD: rational data for lat (3 × 8 = 24 bytes) and lon (3 × 8 = 24 bytes)
+      // GPS IFD = 2 (count) + 48 (4 entries) + 4 (next) = 54 bytes
+      // Data starts at: gpsIfdOffset + 54 = 26 + 54 = 80
+      const gpsDataOffset = gpsIfdOffset + 2 + 48 + 4;
+      e2[8] = gpsDataOffset & 0xFF;
+      e2[9] = (gpsDataOffset >> 8) & 0xFF;
+      e4[8] = (gpsDataOffset + 24) & 0xFF;
+      e4[9] = ((gpsDataOffset + 24) >> 8) & 0xFF;
+
+      // Build rational data
+      function ratBytes(num, den) {
+        const buf = new ArrayBuffer(8);
+        const dv = new DataView(buf);
+        dv.setUint32(0, num);
+        dv.setUint32(4, den);
+        return new Uint8Array(buf);
+      }
+
+      const latData = new Uint8Array([
+        ...ratBytes(latDMS[0][0], latDMS[0][1]),
+        ...ratBytes(latDMS[1][0], latDMS[1][1]),
+        ...ratBytes(latDMS[2][0], latDMS[2][1]),
+      ]);
+      const lonData = new Uint8Array([
+        ...ratBytes(lonDMS[0][0], lonDMS[0][1]),
+        ...ratBytes(lonDMS[1][0], lonDMS[1][1]),
+        ...ratBytes(lonDMS[2][0], lonDMS[2][1]),
+      ]);
+
+      // Assemble TIFF block
+      const tiffBlock = new Uint8Array([
+        ...tiffHeader,    // 8 bytes
+        ...ifd0Count,     // 2
+        ...ifd0Entry,     // 12
+        ...nextIfd0,      // 4
+        ...gpsEntryCount, // 2
+        ...e1, ...e2, ...e3, ...e4, // 48
+        ...gpsNextIfd,    // 4
+        ...latData,       // 24
+        ...lonData,       // 24
+      ]);
+
+      // EXIF APP1 segment
+      const exifLen = exifHeader.length + tiffBlock.length;
+      const app1Len = exifLen + 2; // +2 for length field itself
+      const app1 = new Uint8Array([
+        0xFF, 0xE1,
+        (app1Len >> 8) & 0xFF, app1Len & 0xFF,
+        ...exifHeader,
+        ...tiffBlock,
+      ]);
+
+      // Find JPEG SOI marker and insert EXIF after it
+      // JPEG starts with FF D8, then may have existing APP1
+      let insertPos = 2; // after SOI (FF D8)
+      
+      // If existing APP1 (FF E1), skip it
+      if (bytes[2] === 0xFF && bytes[3] === 0xE1) {
+        const existingLen = (bytes[4] << 8) | bytes[5];
+        insertPos = 2 + existingLen + 2;
+      }
+
+      const result = new Uint8Array(bytes.length + app1.length);
+      result.set(bytes.slice(0, insertPos), 0);
+      result.set(app1, insertPos);
+      result.set(bytes.slice(insertPos), insertPos + app1.length);
+
+      // Convert back to blob URL
+      const blob = new Blob([result], { type: 'image/jpeg' });
+      return URL.createObjectURL(blob);
+    }
+
     function downloadPNG() {
       const canvas = document.getElementById('canvas');
       const s = sizes[currentTab];
-      const name = currentTab === 'og' ? 'og-image' : currentTab === 'twitter' ? 'twitter-header' : currentTab === 'facebook' ? 'facebook-cover' : 'linkedin-banner';
+      const name = currentTab === 'og' ? 'og-image' : currentTab === 'twitter' ? 'twitter-header' : currentTab === 'facebook' ? 'facebook-cover' : currentTab === 'linkedin' ? 'linkedin-banner' : currentTab === 'gbp' ? 'gbp-cover' : 'gbp-post';
       const link = document.createElement('a');
       link.download = name + '-' + s.w + 'x' + s.h + '.png';
       link.href = canvas.toDataURL('image/png');
       link.click();
       showToast('Downloaded ' + s.label + ' (' + s.w + '×' + s.h + ')');
+    }
+
+    function downloadJPEG_GPS() {
+      const canvas = document.getElementById('canvas');
+      const s = sizes[currentTab];
+      const name = currentTab === 'gbp' ? 'gbp-cover' : currentTab === 'gbp-post' ? 'gbp-post' : 'social';
+      const url = createJPEGwithGPS(canvas, GPS_LAT, GPS_LON);
+      const link = document.createElement('a');
+      link.download = name + '-' + s.w + 'x' + s.h + '-gps.jpg';
+      link.href = url;
+      link.click();
+      showToast('Downloaded ' + s.label + ' JPEG with GPS (' + s.w + '×' + s.h + ')');
     }
 
     function downloadAllSizes() {

@@ -83,30 +83,33 @@ const PillNav = () => {
         </div>
       </div>
 
-      {/* Mobile dropdown */}
+      {/* Mobile dropdown — full viewport */}
       {isOpen && (
-        <div className="md:hidden p-4
-          bg-[#0B1324]/95 backdrop-blur-xl
-          border-b border-white/[0.06]">
-          <div className="flex flex-col gap-0.5">
+        <div className="md:hidden fixed inset-0 top-20 z-40
+          bg-[#0B1324]/98 backdrop-blur-2xl
+          flex flex-col justify-center items-center">
+          <div className="flex flex-col items-center gap-2 w-full max-w-xs px-6">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="px-4 py-2.5 text-sm text-gray-300 hover:text-white rounded-xl hover:bg-white/5 transition-colors"
+                className="w-full text-center px-4 py-3.5 text-lg font-medium text-gray-300 hover:text-white rounded-xl hover:bg-white/5 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </Link>
             ))}
-            <div className="mt-2 pt-2 border-t border-white/10">
+            <div className="mt-4 w-full">
               <Link
                 href="/contact"
-                className="flex items-center justify-center px-4 py-2.5 rounded-xl text-sm font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors"
+                className="flex items-center justify-center w-full px-6 py-3.5 rounded-xl text-base font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started
               </Link>
+            </div>
+            <div className="mt-6 text-center">
+              <a href="tel:07702264921" className="text-sm text-gray-400 hover:text-white transition-colors">07702 264 921</a>
             </div>
           </div>
         </div>
