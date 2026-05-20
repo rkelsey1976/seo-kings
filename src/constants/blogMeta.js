@@ -63,6 +63,7 @@ export const BLOG_META = {
     title: 'Keynsham Website Designers | Web Design from £399',
     description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
     canonical: 'https://seo-kings.co.uk/website-designer-keynsham',
+    robots: 'noindex, follow',
   },
   'how-we-build-websites-keynsham': {
     title: 'How We Build Websites in Keynsham: From Keyword Research to Launch',

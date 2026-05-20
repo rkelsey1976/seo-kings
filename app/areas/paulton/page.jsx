@@ -1,4 +1,5 @@
 import PaultonHub from '../../../src/views/PaultonHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <PaultonHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Paulton', path: '/areas/paulton' },
+      ]} />
+      <PaultonHub />
+    </>
+  );
 }

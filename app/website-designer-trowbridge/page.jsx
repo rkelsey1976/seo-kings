@@ -1,4 +1,5 @@
 import WebsiteDesignerTrowbridge from '../../src/views/WebsiteDesignerTrowbridge';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebsiteDesignerTrowbridge />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Trowbridge', path: '/website-designer-trowbridge' },
+      ]} />
+      <WebsiteDesignerTrowbridge />
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import WebDesignerNearMe from '../../src/views/WebDesignerNearMe';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebDesignerNearMe />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Near Me', path: '/website-designer-near-me' },
+      ]} />
+      <WebDesignerNearMe />
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import TempleCloudHub from '../../../src/views/TempleCloudHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <TempleCloudHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Temple Cloud', path: '/areas/temple-cloud' },
+      ]} />
+      <TempleCloudHub />
+    </>
+  );
 }

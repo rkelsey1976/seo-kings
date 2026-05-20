@@ -1,4 +1,5 @@
 import KeynshamHub from '../../../src/views/KeynshamHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <KeynshamHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Keynsham', path: '/areas/keynsham' },
+      ]} />
+      <KeynshamHub />
+    </>
+  );
 }

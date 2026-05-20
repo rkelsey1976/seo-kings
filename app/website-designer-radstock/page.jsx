@@ -1,4 +1,5 @@
 import WebsiteDesignerRadstock from '../../src/views/WebsiteDesignerRadstock';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebsiteDesignerRadstock />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Radstock', path: '/website-designer-radstock' },
+      ]} />
+      <WebsiteDesignerRadstock />
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import CluttonHub from '../../../src/views/CluttonHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <CluttonHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Clutton', path: '/areas/clutton' },
+      ]} />
+      <CluttonHub />
+    </>
+  );
 }

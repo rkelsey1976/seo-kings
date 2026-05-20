@@ -364,6 +364,7 @@
         <a href="#typography">Typography</a>
         <a href="#logo">Logo</a>
         <a href="#social">Social Assets</a>
+        <a href="#mockup">Mockup</a>
       </nav>
     </div>
   </header>
@@ -479,12 +480,13 @@
     <div class="container">
       <div class="section-label">04 / Social Assets</div>
       <div class="section-title">Generate Social Banners</div>
-      <div class="section-desc">Twitter header, Facebook cover, LinkedIn banner and OG image generator. Upload an image for the background.</div>
+      <div class="section-desc">Twitter header, Facebook cover, LinkedIn banner, OG image and Facebook post generator. Upload an image for the background.</div>
 
       <div class="social-tabs">
         <button class="social-tab active" onclick="switchTab('og')">OG Image</button>
         <button class="social-tab" onclick="switchTab('twitter')">Twitter Header</button>
         <button class="social-tab" onclick="switchTab('facebook')">Facebook Cover</button>
+        <button class="social-tab" onclick="switchTab('facebook-post')">Facebook Post</button>
         <button class="social-tab" onclick="switchTab('linkedin')">LinkedIn Banner</button>
         <button class="social-tab" onclick="switchTab('gbp')">GBP Cover</button>
         <button class="social-tab" onclick="switchTab('gbp-post')">GBP Post</button>
@@ -597,6 +599,71 @@
     </div>
   </section>
 
+  <!-- MOCKUP TOOL -->
+  <section id="mockup">
+    <div class="container">
+      <div class="section-label">05 / Mockup</div>
+      <div class="section-title">Website Mockup Generator</div>
+      <div class="section-desc">Upload a device frame and a website screenshot. Position the screenshot inside the screen area, then download.</div>
+
+      <div class="canvas-area">
+        <div class="canvas-controls">
+
+          <div class="control-group">
+            <div class="control-group-title">Device Frame</div>
+            <div class="upload-zone" id="frameUploadZone" onclick="document.getElementById('frameInput').click()">
+              <div class="upload-icon">🖥️</div>
+              <div class="upload-text" id="frameUploadText">Upload laptop/device frame image</div>
+              <div class="upload-filename" id="frameFilename"></div>
+            </div>
+            <input type="file" id="frameInput" accept="image/*" style="display:none">
+            <button class="remove-img" id="removeFrameBtn" onclick="removeFrame()">Remove Frame</button>
+          </div>
+
+          <div class="control-group">
+            <div class="control-group-title">Website Screenshot</div>
+            <div class="upload-zone" id="screenUploadZone" onclick="document.getElementById('screenInput').click()">
+              <div class="upload-icon">📸</div>
+              <div class="upload-text" id="screenUploadText">Upload website screenshot</div>
+              <div class="upload-filename" id="screenFilename"></div>
+            </div>
+            <input type="file" id="screenInput" accept="image/*" style="display:none">
+            <button class="remove-img" id="removeScreenBtn" onclick="removeScreen()">Remove Screenshot</button>
+          </div>
+
+          <div class="control-group">
+            <div class="control-group-title">Screen Position (% of frame)</div>
+            <label>Left: <span id="mockupXVal">12.7</span>%</label>
+            <input type="range" id="mockupX" min="0" max="50" step="0.1" value="12.7" oninput="updateMockupPos(); renderMockup();">
+            <label>Top: <span id="mockupYVal">5.0</span>%</label>
+            <input type="range" id="mockupY" min="0" max="40" step="0.1" value="5.0" oninput="updateMockupPos(); renderMockup();">
+            <label>Width: <span id="mockupWVal">74.6</span>%</label>
+            <input type="range" id="mockupW" min="20" max="100" step="0.1" value="74.6" oninput="updateMockupPos(); renderMockup();">
+            <label>Height: <span id="mockupHVal">73.0</span>%</label>
+            <input type="range" id="mockupH" min="20" max="100" step="0.1" value="73.0" oninput="updateMockupPos(); renderMockup();">
+          </div>
+
+          <div class="control-group">
+            <div class="control-group-title">Background</div>
+            <select id="mockupBg" onchange="renderMockup()">
+              <option value="light">Light grey (default)</option>
+              <option value="white">White</option>
+              <option value="dark">Dark navy</option>
+              <option value="transparent">Transparent (PNG)</option>
+            </select>
+          </div>
+
+          <button class="download-btn" onclick="downloadMockup()">Download PNG</button>
+        </div>
+
+        <div class="canvas-preview">
+          <canvas id="mockupCanvas"></canvas>
+          <p style="font-size: 12px; color: var(--gray-500); margin-top: 12px;">Adjust Left / Top / Width / Height sliders to align the screenshot with the screen area.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer style="padding: 40px 0; text-align: center; color: var(--gray-500); font-size: 13px;">
     <div class="container">SEO Kings Brand Kit — Dev tool, noindex. Not for public use.</div>
   </footer>
@@ -617,6 +684,7 @@
       og: { w: 1200, h: 630, label: 'OG Image' },
       twitter: { w: 1500, h: 500, label: 'Twitter Header' },
       facebook: { w: 820, h: 312, label: 'Facebook Cover' },
+      'facebook-post': { w: 1200, h: 630, label: 'Facebook Post' },
       linkedin: { w: 1584, h: 396, label: 'LinkedIn Banner' },
       gbp: { w: 1080, h: 608, label: 'GBP Cover' },
       'gbp-post': { w: 1080, h: 1080, label: 'GBP Post' },
@@ -626,6 +694,7 @@
       { w: 1200, h: 630, name: 'og-image' },
       { w: 1500, h: 500, name: 'twitter-header' },
       { w: 820, h: 312, name: 'facebook-cover' },
+      { w: 1200, h: 630, name: 'facebook-post' },
       { w: 1584, h: 396, name: 'linkedin-banner' },
       { w: 1080, h: 608, name: 'gbp-cover' },
       { w: 1080, h: 1080, name: 'gbp-post' },
@@ -1152,7 +1221,7 @@
     function downloadPNG() {
       const canvas = document.getElementById('canvas');
       const s = sizes[currentTab];
-      const name = currentTab === 'og' ? 'og-image' : currentTab === 'twitter' ? 'twitter-header' : currentTab === 'facebook' ? 'facebook-cover' : currentTab === 'linkedin' ? 'linkedin-banner' : currentTab === 'gbp' ? 'gbp-cover' : 'gbp-post';
+      const name = currentTab === 'og' ? 'og-image' : currentTab === 'twitter' ? 'twitter-header' : currentTab === 'facebook' ? 'facebook-cover' : currentTab === 'facebook-post' ? 'facebook-post' : currentTab === 'linkedin' ? 'linkedin-banner' : currentTab === 'gbp' ? 'gbp-cover' : 'gbp-post';
       const link = document.createElement('a');
       link.download = name + '-' + s.w + 'x' + s.h + '.png';
       link.href = canvas.toDataURL('image/png');
@@ -1247,6 +1316,173 @@
 
     document.fonts.ready.then(() => renderCanvas());
     renderCanvas();
+
+    // =====================================================
+    // MOCKUP TOOL
+    // =====================================================
+    let mockupFrameImg = null;
+    let mockupScreenImg = null;
+
+    const frameInput = document.getElementById('frameInput');
+    const screenInput = document.getElementById('screenInput');
+
+    frameInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(ev) {
+        const img = new Image();
+        img.onload = function() {
+          mockupFrameImg = img;
+          document.getElementById('frameUploadZone').classList.add('has-image');
+          document.getElementById('frameUploadText').textContent = 'Frame loaded ✓';
+          document.getElementById('frameFilename').textContent = file.name;
+          document.getElementById('removeFrameBtn').classList.add('visible');
+          renderMockup();
+        };
+        img.src = ev.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+
+    screenInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(ev) {
+        const img = new Image();
+        img.onload = function() {
+          mockupScreenImg = img;
+          document.getElementById('screenUploadZone').classList.add('has-image');
+          document.getElementById('screenUploadText').textContent = 'Screenshot loaded ✓';
+          document.getElementById('screenFilename').textContent = file.name;
+          document.getElementById('removeScreenBtn').classList.add('visible');
+          renderMockup();
+        };
+        img.src = ev.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+
+    // Drag & drop for frame
+    const frameZone = document.getElementById('frameUploadZone');
+    frameZone.addEventListener('dragover', e => { e.preventDefault(); frameZone.style.borderColor = 'var(--coral-500)'; });
+    frameZone.addEventListener('dragleave', e => { e.preventDefault(); frameZone.style.borderColor = ''; });
+    frameZone.addEventListener('drop', e => {
+      e.preventDefault(); frameZone.style.borderColor = '';
+      const file = e.dataTransfer.files[0];
+      if (file) { const dt = new DataTransfer(); dt.items.add(file); frameInput.files = dt.files; frameInput.dispatchEvent(new Event('change')); }
+    });
+
+    // Drag & drop for screenshot
+    const screenZone = document.getElementById('screenUploadZone');
+    screenZone.addEventListener('dragover', e => { e.preventDefault(); screenZone.style.borderColor = 'var(--coral-500)'; });
+    screenZone.addEventListener('dragleave', e => { e.preventDefault(); screenZone.style.borderColor = ''; });
+    screenZone.addEventListener('drop', e => {
+      e.preventDefault(); screenZone.style.borderColor = '';
+      const file = e.dataTransfer.files[0];
+      if (file) { const dt = new DataTransfer(); dt.items.add(file); screenInput.files = dt.files; screenInput.dispatchEvent(new Event('change')); }
+    });
+
+    function removeFrame() {
+      mockupFrameImg = null;
+      frameInput.value = '';
+      document.getElementById('frameUploadZone').classList.remove('has-image');
+      document.getElementById('frameUploadText').textContent = 'Upload laptop/device frame image';
+      document.getElementById('frameFilename').textContent = '';
+      document.getElementById('removeFrameBtn').classList.remove('visible');
+      renderMockup();
+    }
+
+    function removeScreen() {
+      mockupScreenImg = null;
+      screenInput.value = '';
+      document.getElementById('screenUploadZone').classList.remove('has-image');
+      document.getElementById('screenUploadText').textContent = 'Upload website screenshot';
+      document.getElementById('screenFilename').textContent = '';
+      document.getElementById('removeScreenBtn').classList.remove('visible');
+      renderMockup();
+    }
+
+    function updateMockupPos() {
+      document.getElementById('mockupXVal').textContent = parseFloat(document.getElementById('mockupX').value).toFixed(1);
+      document.getElementById('mockupYVal').textContent = parseFloat(document.getElementById('mockupY').value).toFixed(1);
+      document.getElementById('mockupWVal').textContent = parseFloat(document.getElementById('mockupW').value).toFixed(1);
+      document.getElementById('mockupHVal').textContent = parseFloat(document.getElementById('mockupH').value).toFixed(1);
+    }
+
+    function renderMockup() {
+      const canvas = document.getElementById('mockupCanvas');
+      const ctx = canvas.getContext('2d');
+
+      const bg = document.getElementById('mockupBg').value;
+
+      // If no frame, show placeholder
+      if (!mockupFrameImg) {
+        canvas.width = 800;
+        canvas.height = 500;
+        ctx.fillStyle = bg === 'dark' ? '#0B1324' : bg === 'white' ? '#FFFFFF' : '#F0F0F0';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = 'rgba(255,255,255,0.2)';
+        ctx.font = '500 16px Space Grotesk, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('Upload a device frame to get started', canvas.width / 2, canvas.height / 2);
+        ctx.textAlign = 'left';
+        canvas.style.width = '100%';
+        canvas.style.height = 'auto';
+        return;
+      }
+
+      // Size canvas to frame image's natural dimensions
+      const fw = mockupFrameImg.naturalWidth;
+      const fh = mockupFrameImg.naturalHeight;
+      canvas.width = fw;
+      canvas.height = fh;
+
+      // Background
+      if (bg === 'transparent') {
+        ctx.clearRect(0, 0, fw, fh);
+      } else {
+        ctx.fillStyle = bg === 'dark' ? '#0B1324' : bg === 'white' ? '#FFFFFF' : '#F0F2F5';
+        ctx.fillRect(0, 0, fw, fh);
+      }
+
+      // Screenshot — drawn first (behind frame)
+      if (mockupScreenImg) {
+        const xPct = parseFloat(document.getElementById('mockupX').value) / 100;
+        const yPct = parseFloat(document.getElementById('mockupY').value) / 100;
+        const wPct = parseFloat(document.getElementById('mockupW').value) / 100;
+        const hPct = parseFloat(document.getElementById('mockupH').value) / 100;
+
+        const sx = fw * xPct;
+        const sy = fh * yPct;
+        const sw = fw * wPct;
+        const sh = fh * hPct;
+
+        ctx.drawImage(mockupScreenImg, sx, sy, sw, sh);
+      }
+
+      // Frame on top
+      ctx.drawImage(mockupFrameImg, 0, 0, fw, fh);
+
+      // Scale preview to fit the panel
+      canvas.style.width = '100%';
+      canvas.style.height = 'auto';
+    }
+
+    function downloadMockup() {
+      if (!mockupFrameImg) { showToast('Upload a device frame first'); return; }
+      const canvas = document.getElementById('mockupCanvas');
+      const bg = document.getElementById('mockupBg').value;
+      const link = document.createElement('a');
+      link.download = 'seo-kings-mockup.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+      showToast('Mockup downloaded!');
+    }
+
+    renderMockup();
   </script>
 </body>
 </html>

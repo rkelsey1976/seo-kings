@@ -1,4 +1,5 @@
 import RadstockHub from '../../../src/views/RadstockHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <RadstockHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Radstock', path: '/areas/radstock' },
+      ]} />
+      <RadstockHub />
+    </>
+  );
 }

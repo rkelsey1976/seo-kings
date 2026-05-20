@@ -263,29 +263,11 @@ const Navbar = () => {
                 aria-controls="mobile-menu"
                 aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  {isMenuOpen ? (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  ) : (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  )}
-                </svg>
+                <div className="w-6 h-6 flex flex-col justify-center items-center gap-[5px]" aria-hidden="true">
+                  <span className={`block w-5 h-0.5 bg-current rounded-full transition-all duration-300 origin-center ${isMenuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
+                  <span className={`block w-5 h-0.5 bg-current rounded-full transition-all duration-200 ${isMenuOpen ? 'opacity-0 scale-x-0' : ''}`} />
+                  <span className={`block w-5 h-0.5 bg-current rounded-full transition-all duration-300 origin-center ${isMenuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
+                </div>
               </button>
             </div>
           </div>
@@ -435,84 +417,92 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div 
-          id="mobile-menu"
-          className="md:hidden bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-out max-h-screen opacity-100"
-        >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex flex-col gap-4">
-              {/* Mobile Services Link */}
-              <div className="border-b border-white/5 pb-4">
-                <Link
-                  href="/services"
-                  className="flex items-center py-3 text-gray-300 hover:text-white transition-colors duration-200 font-medium"
-                  onClick={closeAllMenus}
-                >
-                  Services
-                </Link>
-              </div>
+      {/* Mobile Menu — always in DOM, animated via max-h + opacity */}
+      <div
+        id="mobile-menu"
+        aria-hidden={!isMenuOpen}
+        className={`md:hidden bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-in-out ${
+          isMenuOpen ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
+        }`}
+      >
+        <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 transition-transform duration-300 ${isMenuOpen ? 'translate-y-0' : '-translate-y-3'}`}>
+          <div className="flex flex-col gap-4">
 
-              {/* Mobile Areas Links */}
-              <div className="border-b border-white/5 pb-4">
-                <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Areas We Serve</div>
-                <div className="grid grid-cols-2 gap-2">
-                  {areas.map((area) => (
-                    <Link
-                      key={area.slug}
-                      href={`/areas/${area.slug}`}
-                      className="flex items-center gap-2 py-2 text-gray-300 hover:text-white transition-colors duration-200"
-                      onClick={closeAllMenus}
-                    >
-                      <svg className="w-4 h-4 text-primary-light flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      </svg>
-                      <span className="text-sm font-medium">{area.name}</span>
-                    </Link>
-                  ))}
-                </div>
+            {/* Mobile Services Link */}
+            <div className={`border-b border-white/5 pb-4 transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isMenuOpen ? '60ms' : '0ms' }}>
+              <Link
+                href="/services"
+                className="flex items-center py-3 text-gray-300 hover:text-white transition-colors duration-200 font-medium"
+                onClick={closeAllMenus}
+              >
+                Services
+              </Link>
+            </div>
+
+            {/* Mobile Areas Links */}
+            <div className={`border-b border-white/5 pb-4 transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isMenuOpen ? '120ms' : '0ms' }}>
+              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Areas We Serve</div>
+              <div className="grid grid-cols-2 gap-2">
+                {areas.map((area) => (
+                  <Link
+                    key={area.slug}
+                    href={`/areas/${area.slug}`}
+                    className="flex items-center gap-2 py-2 text-gray-300 hover:text-white transition-colors duration-200"
+                    onClick={closeAllMenus}
+                  >
+                    <svg className="w-4 h-4 text-primary-light flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    </svg>
+                    <span className="text-sm font-medium">{area.name}</span>
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href="/areas"
+                className="flex items-center gap-2 py-2 mt-2 text-primary-light hover:text-white transition-colors duration-200"
+                onClick={closeAllMenus}
+              >
+                <span className="text-sm font-medium">View all areas →</span>
+              </Link>
+            </div>
+
+            {navLinks.map((link, i) => (
+              link.isRoute ? (
                 <Link
-                  href="/areas"
-                  className="flex items-center gap-2 py-2 mt-2 text-primary-light hover:text-white transition-colors duration-200"
+                  key={link.name}
+                  href={link.href}
+                  className={`text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium py-2 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}
+                  style={{ transitionDelay: isMenuOpen ? `${180 + i * 50}ms` : '0ms' }}
                   onClick={closeAllMenus}
                 >
-                  <span className="text-sm font-medium">View all areas →</span>
+                  {link.name}
                 </Link>
-              </div>
-              
-              {navLinks.map((link) => (
-                link.isRoute ? (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium py-2"
-                    onClick={closeAllMenus}
-                  >
-                    {link.name}
-                  </Link>
-                ) : (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium py-2"
-                    onClick={closeAllMenus}
-                  >
-                    {link.name}
-                  </a>
-                )
-              ))}
-              <a 
-                href="/contact" 
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className={`text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium py-2 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}
+                  style={{ transitionDelay: isMenuOpen ? `${180 + i * 50}ms` : '0ms' }}
+                  onClick={closeAllMenus}
+                >
+                  {link.name}
+                </a>
+              )
+            ))}
+
+            <div className={`transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isMenuOpen ? '380ms' : '0ms' }}>
+              <a
+                href="/contact"
                 className="bg-primary hover:bg-primary-light text-dark px-5 py-3 rounded-lg font-medium transition-all duration-200 w-full mt-2 text-center block"
                 onClick={closeAllMenus}
               >
                 Get Started
               </a>
             </div>
+
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 };

@@ -1,4 +1,5 @@
 import WebsiteDesignerSaltford from '../../src/views/WebsiteDesignerSaltford';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebsiteDesignerSaltford />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Saltford', path: '/website-designer-saltford' },
+      ]} />
+      <WebsiteDesignerSaltford />
+    </>
+  );
 }

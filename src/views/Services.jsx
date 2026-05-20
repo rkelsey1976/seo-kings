@@ -65,6 +65,36 @@ const services = [
     cta: 'View Local SEO',
     accentColor: '#E8715A',
   },
+  {
+    name: 'Website Redesign',
+    slug: 'website-redesign',
+    price: 'From £399',
+    tag: 'Add-on',
+    description: 'Got a site that looks dated, loads slowly, or isn\'t getting you any enquiries? We redesign it from the ground up — fast, mobile-first, and built to rank. Keep your domain, ditch everything else.',
+    bullets: [
+      'Full redesign — not a facelift',
+      'Mobile-first and faster than before',
+      'SEO foundations rebuilt from scratch',
+      'Same domain, completely new site',
+    ],
+    cta: 'View Website Redesign',
+    accentColor: '#E8715A',
+  },
+  {
+    name: 'Social Media Integration',
+    slug: 'services',
+    price: 'Included',
+    tag: 'Add-on',
+    description: 'Your website and social profiles working together. We link your Facebook, Instagram and Google Business Profile so customers can find, follow and contact you from wherever they land.',
+    bullets: [
+      'Facebook and Instagram linked',
+      'Google Business Profile connected',
+      'Click-to-follow buttons on your site',
+      'Consistent branding across all platforms',
+    ],
+    cta: 'Get in Touch',
+    accentColor: '#E8715A',
+  },
 ];
 
 const results = [

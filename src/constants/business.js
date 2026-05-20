@@ -44,4 +44,12 @@ export const GBP_SERVICES = [
     name: 'Free local SEO audit',
     description: 'Free check of your website and Google listing. We show you what\'s holding you back and how to improve.',
   },
+  {
+    name: 'Website redesign',
+    description: 'Existing site looking dated or not getting enquiries? We redesign from the ground up — fast, mobile-first and built to rank. Keep your domain, ditch everything else.',
+  },
+  {
+    name: 'Social media integration',
+    description: 'We connect your website to your Facebook, Instagram and Google Business Profile so customers can find, follow and contact you from wherever they land.',
+  },
 ];

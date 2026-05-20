@@ -1,4 +1,5 @@
 import LocalSEOKeynsham from '../../../src/views/LocalSEOKeynsham';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LocalSEOKeynsham />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Local SEO', path: '/local-seo' },
+        { name: 'Keynsham', path: '/local-seo/keynsham' },
+      ]} />
+      <LocalSEOKeynsham />
+    </>
+  );
 }

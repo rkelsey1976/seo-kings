@@ -1,4 +1,5 @@
 import TimsburyHub from '../../../src/views/TimsburyHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <TimsburyHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Timsbury', path: '/areas/timsbury' },
+      ]} />
+      <TimsburyHub />
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import PeasedownHub from '../../../src/views/PeasedownHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <PeasedownHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Peasedown St John', path: '/areas/peasedown-st-john' },
+      ]} />
+      <PeasedownHub />
+    </>
+  );
 }

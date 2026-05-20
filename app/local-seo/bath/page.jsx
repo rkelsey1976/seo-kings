@@ -1,4 +1,5 @@
 import LocalSEOBath from '../../../src/views/LocalSEOBath';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LocalSEOBath />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Local SEO', path: '/local-seo' },
+        { name: 'Bath', path: '/local-seo/bath' },
+      ]} />
+      <LocalSEOBath />
+    </>
+  );
 }

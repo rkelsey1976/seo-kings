@@ -21,6 +21,10 @@ const CASE_STUDY_META = {
     title: 'Aurelian Massage: Ranking for "Massage Bath" | SEO Kings',
     description: 'How we got Aurelian Massage ranking on Google for competitive Bath massage searches — with a fast, mobile-first site and targeted local SEO.',
   },
+  'bath-painter': {
+    title: 'Bath Painter: Bespoke Website for a Heritage Decorator | SEO Kings',
+    description: 'Building a bespoke website for Bath Painter — an experienced painter and decorator serving Bath, Keynsham and the surrounding area, specialising in heritage and period properties.',
+  },
 };
 
 export async function generateMetadata({ params }) {

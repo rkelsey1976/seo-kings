@@ -1,4 +1,5 @@
 import WestfieldHub from '../../../src/views/WestfieldHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WestfieldHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Westfield', path: '/areas/westfield' },
+      ]} />
+      <WestfieldHub />
+    </>
+  );
 }

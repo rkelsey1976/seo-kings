@@ -1,4 +1,5 @@
 import WebsiteDesignerBath from '../../src/views/WebsiteDesignerBath';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebsiteDesignerBath />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Bath', path: '/website-designer-bath' },
+      ]} />
+      <WebsiteDesignerBath />
+    </>
+  );
 }

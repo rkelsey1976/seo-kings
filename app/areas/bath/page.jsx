@@ -1,4 +1,5 @@
 import BathHub from '../../../src/views/BathHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <BathHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Bath', path: '/areas/bath' },
+      ]} />
+      <BathHub />
+    </>
+  );
 }

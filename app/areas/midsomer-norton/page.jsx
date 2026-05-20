@@ -1,4 +1,5 @@
 import MidsomerNortonHub from '../../../src/views/MidsomerNortonHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <MidsomerNortonHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Midsomer Norton', path: '/areas/midsomer-norton' },
+      ]} />
+      <MidsomerNortonHub />
+    </>
+  );
 }

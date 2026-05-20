@@ -1,4 +1,5 @@
 import SaltfordHub from '../../../src/views/SaltfordHub';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -10,5 +11,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <SaltfordHub />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Areas', path: '/areas' },
+        { name: 'Saltford', path: '/areas/saltford' },
+      ]} />
+      <SaltfordHub />
+    </>
+  );
 }

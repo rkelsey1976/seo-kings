@@ -1,4 +1,5 @@
 import WebsiteDesignerPeasedownStJohn from '../../src/views/WebsiteDesignerPeasedownStJohn';
+import BreadcrumbSchema from '../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,13 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <WebsiteDesignerPeasedownStJohn />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Website Designer Peasedown St John', path: '/website-designer-peasedown-st-john' },
+      ]} />
+      <WebsiteDesignerPeasedownStJohn />
+    </>
+  );
 }

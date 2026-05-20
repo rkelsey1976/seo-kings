@@ -1,4 +1,5 @@
 import LocalSEORadstock from '../../../src/views/LocalSEORadstock';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LocalSEORadstock />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Local SEO', path: '/local-seo' },
+        { name: 'Radstock', path: '/local-seo/radstock' },
+      ]} />
+      <LocalSEORadstock />
+    </>
+  );
 }

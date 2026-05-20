@@ -1,4 +1,5 @@
 import LocalSEOMidsomerNorton from '../../../src/views/LocalSEOMidsomerNorton';
+import BreadcrumbSchema from '../../BreadcrumbSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,14 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LocalSEOMidsomerNorton />;
+  return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: 'Home', path: '/' },
+        { name: 'Local SEO', path: '/local-seo' },
+        { name: 'Midsomer Norton', path: '/local-seo/midsomer-norton' },
+      ]} />
+      <LocalSEOMidsomerNorton />
+    </>
+  );
 }

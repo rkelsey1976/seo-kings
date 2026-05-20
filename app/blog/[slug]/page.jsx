@@ -21,6 +21,7 @@ export async function generateMetadata({ params }) {
     title: meta.title,
     description: meta.description || undefined,
     alternates: { canonical: meta.canonical ?? `https://seo-kings.co.uk/blog/${slug}` },
+    ...(meta.robots ? { robots: meta.robots } : {}),
   };
 }
 

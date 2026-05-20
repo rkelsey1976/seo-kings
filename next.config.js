@@ -2,7 +2,7 @@
 // If you see "Expected to use Webpack bindings... Turbopack bindings" error:
 // Run `npm run dev` (do NOT use `next dev --turbo`). Delete the .next folder and try again.
 const nextConfig = {
-  output: 'export',
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
   trailingSlash: false,
   images: {
     unoptimized: true,
@@ -13,7 +13,7 @@ const nextConfig = {
   },
   eslint: { ignoreDuringBuilds: true },
   experimental: {
-    cssChunking: true,
+    cssChunking: 'loose',
   },
   async redirects() {
     return [

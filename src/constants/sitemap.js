@@ -67,6 +67,7 @@ export const CASE_STUDY_SLUGS = [
   'peachy-cleans',
   'new-decorating',
   'aurelian-massage',
+  'bath-painter',
 ];
 
 const caseStudyLabels = {
