@@ -100,7 +100,7 @@ const services = [
     slug: 'contact',
     price: 'From £150',
     tag: 'Add-on',
-    description: 'A clean, professional logo that works everywhere — your website, Google Business Profile, van signage and social media. We\'ve designed logos for trades and local businesses across Bath and Somerset, including New Decorating and Aurelian Massage.',
+    description: 'A clean, professional logo that works everywhere — your website, Google Business Profile, van signage and social media. Designed for trades and local businesses across Bath and Somerset.',
     bullets: [
       'Professional logo built for your trade',
       'Supplied in PNG, SVG and PDF formats',

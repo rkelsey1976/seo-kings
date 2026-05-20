@@ -79,7 +79,6 @@ const caseStudiesData = {
       'Needed to get visible quickly without relying on word of mouth alone',
     ],
     solution: [
-      'Logo designed from scratch — clean, professional mark that works on the web, GBP and van signage',
       'New website built from scratch at new-decorating.co.uk — fast and mobile-friendly',
       'Google Business Profile claimed, verified and fully optimised (category, services, description, hours, area)',
       'Website and GBP aligned so the same areas, services and message appear everywhere',
@@ -105,7 +104,7 @@ const caseStudiesData = {
     },
     websiteUrl: 'https://new-decorating.co.uk',
     googleMapsUrl: 'https://www.google.com/maps/place/New+Decorating+-+Professional+Painting+and+Decorating+Services/@51.3759541,-2.3987877,11z/data=!4m10!1m2!2m1!1snew+decorating+bath!3m6!1s0x8dcb0406d73cfc5f:0xebb26563bf6fb81b!8m2!3d51.3759541!4d-2.3987877!15sChNuZXcgZGVjb3JhdGluZyBiYXRo!16s%2Fg%2F11yzn6fvqr?entry=ttu',
-    services: ['Logo Design', 'Website Design', 'Google Business Profile'],
+    services: ['Website Design', 'Google Business Profile'],
     relatedCases: ['peachy-cleans', 'aurelian-massage'],
   },
   'bath-painter': {
@@ -178,7 +177,6 @@ const caseStudiesData = {
       'Had to rank for competitive Bath wellness keywords from a standing start',
     ],
     solution: [
-      'Logo designed from scratch — premium mark reflecting the luxury wellness positioning',
       'Full multi-page Next.js website built from scratch at aurelianmassage.com',
       'Premium design reflecting the luxury positioning — clean, calm, conversion-focused',
       'Individual treatment pages for every service with SEO-optimised content',
@@ -208,7 +206,7 @@ const caseStudiesData = {
       role: 'Aurelian Massage, Bath City Centre',
     },
     websiteUrl: 'https://aurelianmassage.com',
-    services: ['Logo Design', 'Website Design', 'Google Business Profile'],
+    services: ['Website Design', 'Google Business Profile'],
     relatedCases: ['new-decorating', 'peachy-cleans'],
   },
 };

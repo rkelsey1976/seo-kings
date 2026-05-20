@@ -13,7 +13,7 @@ const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: fa
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'Websites That Get You Calls — £399 | SEO Kings Bath',
+  title: 'Web Design for Bath Trades — £399 | SEO Kings Bath',
   description: 'Fast website design + Google Business Profile for trades in Bath, Keynsham & Midsomer Norton. From £399. Get found on Google. Free audit — no card needed.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   other: {

@@ -7,7 +7,7 @@ import MagneticButton from '../library/MagneticButton';
 import SplitTextHero from '../library/SplitTextHero';
 
 const Hero = ({
-  title = 'Websites That Get You Calls',
+  title = 'Web Design for Bath Trades That Gets You Calls',
   subtitle = 'A fast local website and Google Business Profile, built for trades in Bath & BANES. Live in under 2 weeks. From £399.',
   primaryCta = { href: '/contact', text: 'Get Your Free Audit' },
   secondaryCta = { href: 'tel:07702264921', text: '07702 264 921' },
