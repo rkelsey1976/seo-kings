@@ -150,6 +150,41 @@ const homepageLocalBusinessSchema = {
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Thursday', opens: '09:00', closes: '17:30' },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '09:00', closes: '17:30' },
   ],
+  hasCredential: [
+    {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'Getting Started with JavaScript, v2',
+      credentialCategory: 'Certificate',
+      recognizedBy: {
+        '@type': 'Organization',
+        name: 'Frontend Masters',
+        url: 'https://frontendmasters.com',
+      },
+      url: 'https://static.frontendmasters.com/ud/c/17d759b157/PCLLiLkdZh/getting-started-javascript-v2.pdf',
+    },
+    {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'Complete Intro to Web Development, v2',
+      credentialCategory: 'Certificate',
+      recognizedBy: {
+        '@type': 'Organization',
+        name: 'Frontend Masters',
+        url: 'https://frontendmasters.com',
+      },
+      url: 'https://static.frontendmasters.com/ud/c/17d759b157/nPKnbMgPYe/web-development-v2.pdf',
+    },
+    {
+      '@type': 'EducationalOccupationalCredential',
+      name: 'Getting Started with CSS',
+      credentialCategory: 'Certificate',
+      recognizedBy: {
+        '@type': 'Organization',
+        name: 'Frontend Masters',
+        url: 'https://frontendmasters.com',
+      },
+      url: 'https://static.frontendmasters.com/ud/c/17d759b157/jQdKurJCyS/getting-started-css.pdf',
+    },
+  ],
   knowsAbout: [
     'Web Design',
     'Website Development',
