@@ -465,8 +465,11 @@
       </div>
       <div style="margin-top: 24px;">
         <button class="download-btn secondary" onclick="downloadSVG('crown-white')">Crown (White) SVG</button>
+        <button class="download-btn secondary" onclick="downloadLogoPNG('crown-white')">Crown (White) PNG</button>
         <button class="download-btn secondary" onclick="downloadSVG('crown-black')">Crown (Black) SVG</button>
+        <button class="download-btn secondary" onclick="downloadLogoPNG('crown-black')">Crown (Black) PNG</button>
         <button class="download-btn secondary" onclick="downloadSVG('crown-coral')">Crown (Coral) SVG</button>
+        <button class="download-btn secondary" onclick="downloadLogoPNG('crown-coral')">Crown (Coral) PNG</button>
       </div>
     </div>
   </section>
@@ -969,6 +972,36 @@
       link.href = url;
       link.click();
       showToast('Downloaded ' + type + ' SVG');
+    }
+
+    function downloadLogoPNG(type) {
+      const svgUrl = type === 'crown-white' ? 'seo-kings-crown-white.svg'
+                   : type === 'crown-black' ? 'seo-kings-crown-black.svg'
+                   : 'seo-kings-crown-coral.svg';
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function() {
+        const size = 1024;
+        const canvas = document.createElement('canvas');
+        canvas.width = size;
+        canvas.height = size;
+        const ctx = canvas.getContext('2d');
+        // Transparent background
+        ctx.clearRect(0, 0, size, size);
+        // Draw logo centered and fitting within the canvas
+        const scale = size / Math.max(img.naturalWidth, img.naturalHeight);
+        const drawW = img.naturalWidth * scale;
+        const drawH = img.naturalHeight * scale;
+        const x = (size - drawW) / 2;
+        const y = (size - drawH) / 2;
+        ctx.drawImage(img, x, y, drawW, drawH);
+        const link = document.createElement('a');
+        link.download = 'seo-kings-' + type + '.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        showToast('Downloaded ' + type + ' PNG');
+      };
+      img.src = svgUrl;
     }
 
     function showToast(msg) {
