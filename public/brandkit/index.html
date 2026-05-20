@@ -539,6 +539,43 @@
           </div>
 
           <div class="control-group">
+            <div class="control-group-title">Location (GPS)</div>
+            <label>Town / Area</label>
+            <select id="geoLocation" onchange="updateGeoLabel()">
+              <option value="none">No GPS data</option>
+              <option value="keynsham">Keynsham</option>
+              <option value="bath">Bath</option>
+              <option value="bristol">Bristol</option>
+              <option value="wells">Wells</option>
+              <option value="frome">Frome</option>
+              <option value="glastonbury">Glastonbury</option>
+              <option value="cheltenham">Cheltenham</option>
+              <option value="taunton">Taunton</option>
+              <option value="yeovil">Yeovil</option>
+              <option value="trowbridge">Trowbridge</option>
+              <option value="warminster">Warminster</option>
+              <option value="weston-super-mare">Weston-super-Mare</option>
+              <option value="midsomer-norton">Midsomer Norton</option>
+              <option value="radstock">Radstock</option>
+              <option value="shepton-mallet">Shepton Mallet</option>
+              <option value="bridgwater">Bridgwater</option>
+              <option value="stroud">Stroud</option>
+              <option value="tewkesbury">Tewkesbury</option>
+              <option value="custom">Custom...</option>
+            </select>
+            <div id="customGeoFields" style="display:none;">
+              <label>Latitude</label>
+              <input type="number" id="customLat" step="0.0001" value="51.3811" oninput="updateGeoLabel()">
+              <label>Longitude</label>
+              <input type="number" id="customLon" step="0.0001" value="-2.3590" oninput="updateGeoLabel()">
+              <label>Location Name</label>
+              <input type="text" id="customGeoName" value="Custom Location" oninput="updateGeoLabel()">
+            </div>
+            <div id="geoInfo" style="display:none; margin-top: 8px; padding: 8px 12px; background: rgba(255,255,255,0.05); border-radius: 6px; font-size: 11px; color: var(--gray-400);">
+            </div>
+          </div>
+
+          <div class="control-group">
             <div class="control-group-title">Accent Colour</div>
             <div style="display: flex; gap: 8px; margin-bottom: 16px;">
               <div style="width: 32px; height: 32px; border-radius: 6px; background: #E8715A; cursor: pointer; border: 2px solid white;" onclick="setAccent('#E8715A')" class="accent-swatch active"></div>
@@ -549,6 +586,7 @@
           </div>
 
           <button class="download-btn" onclick="downloadPNG()">Download PNG</button>
+          <button class="download-btn secondary" onclick="downloadJPEG_GPS()">Download JPEG + GPS</button>
           <button class="download-btn secondary" onclick="downloadAllSizes()">Download All Sizes</button>
         </div>
 
@@ -932,9 +970,54 @@
     }
 
     // -- Downloads --
-    // Keynsham business coordinates (16a Culvers Road, BS31 2DW)
-    const GPS_LAT = 51.4139;
-    const GPS_LON = -2.4989;
+    // -- Geo Locations --
+    const geoLocations = {
+      keynsham:        { lat: 51.3963, lon: -2.4996, name: 'Keynsham, Somerset' },
+      bath:            { lat: 51.3811, lon: -2.3590, name: 'Bath, Somerset' },
+      bristol:         { lat: 51.4545, lon: -2.5879, name: 'Bristol' },
+      wells:           { lat: 51.2349, lon: -2.6456, name: 'Wells, Somerset' },
+      frome:           { lat: 51.2277, lon: -2.3219, name: 'Frome, Somerset' },
+      glastonbury:     { lat: 51.1477, lon: -2.7000, name: 'Glastonbury, Somerset' },
+      cheltenham:      { lat: 51.8979, lon: -2.0744, name: 'Cheltenham, Gloucestershire' },
+      taunton:         { lat: 51.0148, lon: -3.1010, name: 'Taunton, Somerset' },
+      yeovil:          { lat: 50.9416, lon: -2.6331, name: 'Yeovil, Somerset' },
+      trowbridge:      { lat: 51.3179, lon: -2.2080, name: 'Trowbridge, Wiltshire' },
+      warminster:      { lat: 51.2040, lon: -2.1786, name: 'Warminster, Wiltshire' },
+      'weston-super-mare': { lat: 51.3492, lon: -2.9773, name: 'Weston-super-Mare, Somerset' },
+      'midsomer-norton':  { lat: 51.2875, lon: -2.4860, name: 'Midsomer Norton, Somerset' },
+      radstock:        { lat: 51.2890, lon: -2.4540, name: 'Radstock, Somerset' },
+      'shepton-mallet':    { lat: 51.1880, lon: -2.5430, name: 'Shepton Mallet, Somerset' },
+      bridgwater:      { lat: 51.1280, lon: -2.9980, name: 'Bridgwater, Somerset' },
+      stroud:          { lat: 51.7460, lon: -2.2180, name: 'Stroud, Gloucestershire' },
+      tewkesbury:      { lat: 51.9910, lon: -2.1520, name: 'Tewkesbury, Gloucestershire' },
+    };
+
+    function getGeo() {
+      const sel = document.getElementById('geoLocation').value;
+      if (sel === 'none') return null;
+      if (sel === 'custom') {
+        return {
+          lat: parseFloat(document.getElementById('customLat').value),
+          lon: parseFloat(document.getElementById('customLon').value),
+          name: document.getElementById('customGeoName').value
+        };
+      }
+      return geoLocations[sel] || null;
+    }
+
+    function updateGeoLabel() {
+      const sel = document.getElementById('geoLocation').value;
+      const customFields = document.getElementById('customGeoFields');
+      const geoInfo = document.getElementById('geoInfo');
+      customFields.style.display = sel === 'custom' ? 'block' : 'none';
+      const geo = getGeo();
+      if (geo) {
+        geoInfo.style.display = 'block';
+        geoInfo.textContent = geo.name + ' — ' + geo.lat.toFixed(4) + ', ' + geo.lon.toFixed(4);
+      } else {
+        geoInfo.style.display = 'none';
+      }
+    }
 
     function addGPStoJPEG(canvas, filename) {
       // Convert canvas to JPEG blob and inject GPS EXIF using piexif-like approach
@@ -1121,15 +1204,17 @@
     }
 
     function downloadJPEG_GPS() {
+      const geo = getGeo();
+      if (!geo) { showToast('Select a location first'); return; }
       const canvas = document.getElementById('canvas');
       const s = sizes[currentTab];
       const name = currentTab === 'gbp' ? 'gbp-cover' : currentTab === 'gbp-post' ? 'gbp-post' : 'social';
-      const url = createJPEGwithGPS(canvas, GPS_LAT, GPS_LON);
+      const url = createJPEGwithGPS(canvas, geo.lat, geo.lon);
       const link = document.createElement('a');
-      link.download = name + '-' + s.w + 'x' + s.h + '-gps.jpg';
+      link.download = name + '-' + s.w + 'x' + s.h + '-' + geo.name.replace(/[^a-zA-Z]/g, '-').toLowerCase() + '-gps.jpg';
       link.href = url;
       link.click();
-      showToast('Downloaded ' + s.label + ' JPEG with GPS (' + s.w + '×' + s.h + ')');
+      showToast('Downloaded ' + s.label + ' JPEG with GPS (' + geo.name + ')');
     }
 
     function downloadAllSizes() {
