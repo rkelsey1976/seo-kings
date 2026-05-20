@@ -12,6 +12,7 @@ export const BLOG_META = {
     title: 'What Is Local SEO and Why It Matters for Bath & North East Somerset Businesses',
     description: "Local SEO gets your business in front of people searching \"near me\" and in Google's map pack. Here's how it works and why it matters for Bath and North East Somerset.",
     canonical: 'https://seo-kings.co.uk/local-seo/bath',
+    robots: 'noindex, follow',
   },
   'get-more-google-reviews-bath': {
     title: 'How to Get More Google Reviews in Bath (Without Breaking the Rules)',
@@ -31,6 +32,7 @@ export const BLOG_META = {
     title: 'Local SEO in Bath: How to Rank in the Map Pack',
     description: 'What it takes to show up in the local map results for Bath and North East Somerset: Google Business Profile, website, and consistency.',
     canonical: 'https://seo-kings.co.uk/local-seo/bath',
+    robots: 'noindex, follow',
   },
   'seo-for-plumbers-bath': {
     title: 'SEO for Plumbers in Bath & North East Somerset: Get More Plumbing Jobs from Google',
