@@ -1,7 +1,7 @@
 # 301 redirects — consolidate cannibalising pages
-/blog/website-design-bath                   /areas/bath                  301
-/blog/website-design-keynsham               /website-designer-keynsham   301
-/case-studies/saltford-garden-centre        /case-studies                301
+/blog/website-design-bath                   /areas/bath                  301!
+/blog/website-design-keynsham               /website-designer-keynsham   301!
+/case-studies/saltford-garden-centre        /case-studies                301!
 
 # Explicit rewrites for static pages — must come before the catch-all
 /local-seo/bath              /local-seo/bath.html              200
