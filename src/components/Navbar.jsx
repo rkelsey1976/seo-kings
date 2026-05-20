@@ -181,13 +181,16 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center gap-2" onClick={closeAllMenus}>
-                <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
-                </svg>
-                <span className="text-xl font-bold text-white">
-                  SEO Kings
-                </span>
+              <Link href="/" className="flex items-center gap-2.5" onClick={closeAllMenus}>
+                <img src="/crown-logo.svg" alt="SEO Kings" className="h-10 w-auto" />
+                <div className="flex flex-col leading-none">
+                  <span className="text-lg font-bold text-white tracking-tight">
+                    SEO Kings
+                  </span>
+                  <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#4A90A4' }}>
+                    Website Designer &amp; Local SEO
+                  </span>
+                </div>
               </Link>
             </div>
 

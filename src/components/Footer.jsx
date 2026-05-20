@@ -12,10 +12,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:max-w-xs">
             <Link href="/" className="inline-flex items-center gap-2.5 mb-4">
-              <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M2 20h20v-2H2v2zm2-4h16l1-9-5 3-4-6-4 6-5-3 1 9z"/>
-              </svg>
-              <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
+              <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto" />
+              <div className="flex flex-col leading-none">
+                <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
+                <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#4A90A4' }}>Website Designer &amp; Local SEO</span>
+              </div>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
               Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £399. Google Business Profile included.
