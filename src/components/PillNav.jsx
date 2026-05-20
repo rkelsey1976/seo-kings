@@ -32,13 +32,14 @@ const PillNav = () => {
         {/* Logo */}
         <Link 
           href="/" 
-          className="flex items-center gap-2"
+          className="flex items-center gap-2.5"
           onClick={() => setIsOpen(false)}
         >
-          <svg className="w-6 h-6 text-coral" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-          </svg>
-          <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
+          <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto" />
+          <div className="flex flex-col leading-none">
+            <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
+            <span className="text-[9px] font-mono font-medium tracking-[0.1em] uppercase" style={{ color: '#4A90A4' }}>Website Designer &amp; Local SEO</span>
+          </div>
         </Link>
 
         {/* Desktop links */}
