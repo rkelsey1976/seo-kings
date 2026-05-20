@@ -24,8 +24,8 @@ const results = [
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Midsomer Norton" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank for Midsomer Norton, Radstock and Somer Valley trade searches',
+  'Google Business Profile set-up — Somer Valley is less competitive than Bath, faster to rank',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
   'Live in under 2 weeks',
@@ -287,10 +287,10 @@ const WebsiteDesignerMidsomerNorton = () => {
             </p>
             <h2 className="text-3xl font-bold text-white mb-6">We know the Somer Valley</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham, just a short drive from Midsomer Norton. We've already got a local business into the Google Map Pack for Midsomer Norton searches — Peachy Cleans now ranks for "cleaning Midsomer Norton" and gets regular enquiries as a result.
+              SEO Kings is based in Keynsham, just a short drive from Midsomer Norton. The Somer Valley market is genuinely different to Bath — less competition, lower barriers to ranking, and local customers who search specifically for trades in BA3 rather than driving into the city. We've already put a Midsomer Norton business into the Google Map Pack: Peachy Cleans now ranks for "cleaning Midsomer Norton" and gets regular enquiries directly from that listing.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We serve businesses across Midsomer Norton, Radstock, Paulton, Peasedown St John and the wider BA3 postcode. Your website gets built around your actual business and your actual customers — not a generic template.
+              That local advantage is real. A well-built site and an optimised Google Business Profile in Midsomer Norton can rank faster and more consistently than the same work would in Bath. We serve businesses across Midsomer Norton, Radstock, Paulton, Peasedown St John and the wider BA3 postcode.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />

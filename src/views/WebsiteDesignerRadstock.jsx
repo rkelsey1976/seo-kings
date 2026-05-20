@@ -24,8 +24,8 @@ const results = [
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Radstock" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank for Radstock, Midsomer Norton and Somer Valley trade searches',
+  'Google Business Profile set-up — BA3 competition is low, Map Pack rankings come quickly',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
   'Live in under 2 weeks',
@@ -287,10 +287,10 @@ const WebsiteDesignerRadstock = () => {
             </p>
             <h2 className="text-3xl font-bold text-white mb-6">We know the Somer Valley</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — close enough to know the Radstock and Somer Valley market well. We've already delivered Map Pack rankings for a business in nearby Midsomer Norton, and we bring that same local SEO approach to every site we build in the BA3 area.
+              SEO Kings is based in Keynsham, and Radstock sits squarely in our patch. BA3 is one of the least contested local markets we work in — most trades here have no website or a poor one, which means ranking well is genuinely achievable in a short timeframe. We've already put a business from nearby Midsomer Norton into the Google Map Pack, and Radstock follows the same pattern: low competition, clear search demand, real results.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We serve businesses across Radstock, Midsomer Norton, Peasedown St John, Westfield, Writhlington and the wider BA3 postcode. Your site gets built around your actual customers — not a generic template.
+              We serve businesses across Radstock, Midsomer Norton, Westfield, Writhlington, Peasedown St John and the surrounding BA3 area. If you're a trade in Radstock without a website, you're leaving calls on the table every week.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />

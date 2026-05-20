@@ -7,11 +7,11 @@ import FAQAccordion from '../components/FAQAccordion';
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Trowbridge" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank for Trowbridge, Bradford on Avon and wider Wiltshire trade searches',
+  'Google Business Profile set-up for BA14 — lower competition than Bath or Bristol',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
-  'Live in under 2 weeks',
+  'Remote-friendly process — most work done online, no need for regular meetings',
 ];
 
 const results = [
@@ -289,10 +289,10 @@ const WebsiteDesignerTrowbridge = () => {
             </p>
             <h2 className="text-3xl font-bold text-white mb-6">Web design for Trowbridge and the surrounding area</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We're based in Keynsham, Somerset — about 25 minutes from Trowbridge. We serve businesses across Wiltshire including Trowbridge, Bradford on Avon, Melksham, Westbury, Warminster and Chippenham.
+              We're based in Keynsham, Somerset — about 25 minutes from Trowbridge. Wiltshire is a different market to Bath: less tourist traffic, more working trades, and a customer base that searches locally rather than browsing. BA14 is less competitive online than BA1 or BA2, which means a properly built site here can rank faster and stay ranked with less ongoing effort.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Most of our process works remotely and runs smoothly. We're happy to visit your Trowbridge premises or meet over video call. Your website gets built around your actual business, not a generic template.
+              We work with Trowbridge businesses remotely — the process runs smoothly without the need for regular face-to-face meetings, though we're happy to visit if that suits you better. We cover Trowbridge, Bradford on Avon, Melksham, Westbury, Warminster and Chippenham.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />

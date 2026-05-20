@@ -24,8 +24,8 @@ const results = [
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Saltford" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank across Saltford, Keynsham and the Bath–Bristol corridor',
+  'Google Business Profile set-up — reach customers in both BS31 and BA1 postcodes',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
   'Live in under 2 weeks',
@@ -269,10 +269,10 @@ const WebsiteDesignerSaltford = () => {
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Local to you</p>
             <h2 className="text-3xl font-bold text-white mb-6">Right on your doorstep</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based at 16a Culvers Road, Keynsham — minutes from Saltford. When we say local, we mean it. We know which searches bring in customers in this corridor between Bath and Bristol, and we build every site to target them.
+              SEO Kings is based in Keynsham — minutes from Saltford. The BS31 corridor between Bath and Bristol is an unusual market: trades here can legitimately target both cities, which doubles the potential search audience compared to a business operating in just one. We build every Saltford site to capture both Bath and Bristol-adjacent searches, not just the immediate postcode.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We serve businesses across Saltford, Keynsham, Bath and the wider BS31 postcode. Your site gets built around your actual customers — not a generic template.
+              Saltford itself is a small, high-income village — the kind of place where tradespeople doing quality work can build a strong local reputation fast. Online visibility is the missing piece for most businesses here. We serve Saltford, Keynsham, Bitton, Swineford and the wider BS31 area.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />

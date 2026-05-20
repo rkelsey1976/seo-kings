@@ -24,11 +24,11 @@ const results = [
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Keynsham" and your trade',
+  'Built to rank for "website designer Keynsham" and trade searches across BS31',
   'Google Business Profile set-up and optimisation',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
-  'Live in under 2 weeks',
+  'We\'re based in Keynsham — meet us before you commit',
 ];
 
 const faqs = [

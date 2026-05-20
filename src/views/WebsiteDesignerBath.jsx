@@ -14,18 +14,18 @@ const results = [
     slug: 'new-decorating',
   },
   {
-    business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
-    result: 'Map Pack',
-    keyword: '"cleaning Midsomer Norton"',
-    slug: 'peachy-cleans',
+    business: 'Aurelian Massage',
+    location: 'Bath City Centre',
+    result: 'Ranking',
+    keyword: '"massage Bath"',
+    slug: 'aurelian-massage',
   },
 ];
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Bath" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank for "website designer Bath" and trade searches across BA1 & BA2',
+  'Google Business Profile optimised for Bath\'s competitive Map Pack',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
   'Live in under 2 weeks',
@@ -286,10 +286,13 @@ const WebsiteDesignerBath = () => {
             </p>
             <h2 className="text-3xl font-bold text-white mb-6">We know the Bath market</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — 10 minutes from Bath city centre. We build websites for trades and local businesses across Bath, from Widcombe and Oldfield Park to Larkhall, Bear Flat, Twerton and Bathampton. We know which postcodes are competitive and which searches convert.
+              SEO Kings is based in Keynsham — 10 minutes from Bath city centre. Bath is one of the most competitive local markets in the South West. More businesses, more agencies, more noise. Getting into the Map Pack or the top organic results here takes a properly built site and a well-optimised Google Business Profile working together — not one without the other.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              We've built sites for trades across Bath — painters and decorators, massage therapists, builders — and we know which BA1 and BA2 searches actually drive calls versus which ones just look good on a report. We cover the full city: Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Weston and Bathwick.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We're happy to meet you in Bath or at our Keynsham office. Your site gets built around your actual business and the areas of Bath you want to work in — not a generic template with your name dropped in.
+              We're happy to meet you in Bath or at our Keynsham office. Your site gets built around your trade and the specific areas of Bath you want to work in.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />

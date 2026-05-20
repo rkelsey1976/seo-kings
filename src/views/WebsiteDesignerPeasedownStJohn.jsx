@@ -24,8 +24,8 @@ const results = [
 
 const included = [
   'Mobile-first design — fast on any device',
-  'Built to rank for "website designer Peasedown St John" and your trade',
-  'Google Business Profile set-up and optimisation',
+  'Built to rank for Peasedown St John, Radstock and south-Bath trade searches',
+  'Google Business Profile set-up for BA2 — targets both Bath and Somer Valley customers',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
   'Live in under 2 weeks',
@@ -269,10 +269,10 @@ const WebsiteDesignerPeasedownStJohn = () => {
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Local to you</p>
             <h2 className="text-3xl font-bold text-white mb-6">We cover Bath and the surrounding villages</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham and covers the full North East Somerset area — including Peasedown St John, Radstock, Bath and the BA2 postcode. We know what local customers in this area search for, and we build every site to show up for those searches.
+              SEO Kings is based in Keynsham, and Peasedown St John is part of our regular patch. BA2 is an interesting postcode for trades — it sits between Bath's competitive market and the lower-competition Somer Valley, which means a well-optimised site can pull in searches from both directions. Customers in Peasedown often search for both Bath-based and Radstock-based trades, so targeting both sets of keywords matters.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Whether you're a plumber, electrician, builder or cleaner in Peasedown St John, we'll build you a site that actually brings in calls — and set up your Google Business Profile to put you on the map.
+              Competition for local trades in Peasedown St John is low. Most businesses here have little or no web presence, which means a proper site and Google Business Profile will put you ahead of the majority of your local competition quickly. We cover Peasedown St John, Dunkerton, Camerton, Radstock and the surrounding BA2 and BA3 areas.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />
