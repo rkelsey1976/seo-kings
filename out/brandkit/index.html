@@ -63,27 +63,11 @@
       gap: 12px;
     }
 
-    .header-brand svg {
-      width: 40px;
-      height: 40px;
-    }
+    .header-brand img { height: 36px; }
+    .header-brand h1 { font-size: 20px; font-weight: 700; color: var(--white); }
+    .header-brand span { font-size: 13px; color: var(--coral-500); font-weight: 500; }
 
-    .header-brand h1 {
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--white);
-    }
-
-    .header-brand span {
-      font-size: 13px;
-      color: var(--coral-500);
-      font-weight: 500;
-    }
-
-    nav {
-      display: flex;
-      gap: 4px;
-    }
+    nav { display: flex; gap: 4px; }
 
     nav a {
       font-family: var(--font-heading);
@@ -97,23 +81,11 @@
       letter-spacing: 0.02em;
     }
 
-    nav a:hover, nav a.active {
-      color: var(--white);
-      background: rgba(232, 113, 90, 0.15);
-    }
+    nav a:hover, nav a.active { color: var(--white); background: rgba(232, 113, 90, 0.15); }
+    nav a.active { color: var(--coral-500); }
 
-    nav a.active {
-      color: var(--coral-500);
-    }
-
-    section {
-      padding: 60px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
-    section:last-child {
-      border-bottom: none;
-    }
+    section { padding: 60px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
+    section:last-child { border-bottom: none; }
 
     .section-label {
       font-family: var(--font-mono);
@@ -125,11 +97,7 @@
       margin-bottom: 8px;
     }
 
-    .section-title {
-      font-size: 32px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
+    .section-title { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
 
     .section-desc {
       color: var(--gray-400);
@@ -138,7 +106,6 @@
       max-width: 600px;
     }
 
-    /* Colour swatches */
     .colour-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -154,39 +121,13 @@
       transition: transform 0.2s, box-shadow 0.2s;
     }
 
-    .colour-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-    }
+    .colour-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+    .colour-swatch { height: 100px; }
+    .colour-info { padding: 12px 16px; }
+    .colour-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .colour-hex { font-family: var(--font-mono); font-size: 13px; color: var(--gray-400); }
+    .colour-var { font-family: var(--font-mono); font-size: 11px; color: var(--gray-500); margin-top: 2px; }
 
-    .colour-swatch {
-      height: 100px;
-    }
-
-    .colour-info {
-      padding: 12px 16px;
-    }
-
-    .colour-name {
-      font-size: 14px;
-      font-weight: 600;
-      margin-bottom: 2px;
-    }
-
-    .colour-hex {
-      font-family: var(--font-mono);
-      font-size: 13px;
-      color: var(--gray-400);
-    }
-
-    .colour-var {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--gray-500);
-      margin-top: 2px;
-    }
-
-    /* Typography */
     .type-sample {
       padding: 32px;
       background: var(--navy-800);
@@ -204,25 +145,10 @@
       margin-bottom: 8px;
     }
 
-    .type-sample .specimen {
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 1.1;
-      margin-bottom: 8px;
-    }
+    .type-sample .specimen { font-size: 48px; font-weight: 700; line-height: 1.1; margin-bottom: 8px; }
+    .type-sample .meta { font-family: var(--font-mono); font-size: 12px; color: var(--gray-500); }
 
-    .type-sample .meta {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      color: var(--gray-500);
-    }
-
-    /* Social preview cards */
-    .social-tabs {
-      display: flex;
-      gap: 4px;
-      margin-bottom: 24px;
-    }
+    .social-tabs { display: flex; gap: 4px; margin-bottom: 24px; flex-wrap: wrap; }
 
     .social-tab {
       font-family: var(--font-heading);
@@ -237,28 +163,12 @@
       transition: all 0.2s;
     }
 
-    .social-tab:hover {
-      color: var(--white);
-      border-color: rgba(232, 113, 90, 0.4);
-    }
+    .social-tab:hover { color: var(--white); border-color: rgba(232, 113, 90, 0.4); }
+    .social-tab.active { background: var(--coral-500); color: var(--white); border-color: var(--coral-500); }
 
-    .social-tab.active {
-      background: var(--coral-500);
-      color: var(--white);
-      border-color: var(--coral-500);
-    }
+    .canvas-area { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
 
-    .canvas-area {
-      display: flex;
-      gap: 32px;
-      align-items: flex-start;
-      flex-wrap: wrap;
-    }
-
-    .canvas-controls {
-      min-width: 280px;
-      flex-shrink: 0;
-    }
+    .canvas-controls { min-width: 280px; flex-shrink: 0; flex: 0 0 320px; }
 
     .canvas-controls label {
       display: block;
@@ -282,21 +192,30 @@
       transition: border-color 0.2s;
     }
 
-    .canvas-controls textarea {
-      resize: vertical;
-      min-height: 80px;
-    }
+    .canvas-controls textarea { resize: vertical; min-height: 80px; }
 
     .canvas-controls input[type="text"]:focus,
-    .canvas-controls textarea:focus {
-      outline: none;
-      border-color: var(--coral-500);
+    .canvas-controls textarea:focus { outline: none; border-color: var(--coral-500); }
+
+    .canvas-controls input[type="range"] {
+      width: 100%;
+      margin-bottom: 16px;
+      accent-color: #E8715A;
     }
 
-    .canvas-preview {
-      flex: 1;
-      min-width: 300px;
+    .canvas-controls select {
+      width: 100%;
+      padding: 10px 14px;
+      background: var(--navy-700);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      color: var(--white);
+      font-family: var(--font-heading);
+      font-size: 14px;
+      margin-bottom: 16px;
     }
+
+    .canvas-preview { flex: 1; min-width: 300px; }
 
     canvas {
       border-radius: 12px;
@@ -323,28 +242,65 @@
       margin-right: 8px;
     }
 
-    .download-btn:hover {
-      background: var(--coral-400);
-      transform: translateY(-1px);
-      box-shadow: 0 4px 16px rgba(232, 113, 90, 0.4);
+    .download-btn:hover { background: var(--coral-400); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(232, 113, 90, 0.4); }
+    .download-btn.secondary { background: var(--navy-700); border: 1px solid rgba(255, 255, 255, 0.1); }
+    .download-btn.secondary:hover { background: var(--navy-600); border-color: var(--coral-500); }
+
+    .upload-zone {
+      margin-bottom: 16px;
+      border: 2px dashed rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      background: rgba(255, 255, 255, 0.02);
     }
 
-    .download-btn.secondary {
-      background: var(--navy-700);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+    .upload-zone:hover { border-color: var(--coral-500); background: rgba(232, 113, 90, 0.05); }
+    .upload-zone.has-image { border-color: var(--teal-500); background: rgba(74, 144, 164, 0.05); }
+
+    .upload-zone .upload-icon { font-size: 28px; margin-bottom: 8px; }
+    .upload-zone .upload-text { font-size: 14px; color: var(--gray-400); }
+    .upload-zone .upload-filename { font-size: 12px; color: var(--teal-400); margin-top: 4px; font-family: var(--font-mono); }
+
+    .remove-img {
+      display: none;
+      margin-top: 8px;
+      padding: 6px 14px;
+      background: rgba(194, 82, 69, 0.15);
+      border: 1px solid rgba(194, 82, 69, 0.3);
+      border-radius: 6px;
+      color: var(--coral-400);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      width: 100%;
     }
 
-    .download-btn.secondary:hover {
-      background: var(--navy-600);
-      border-color: var(--coral-500);
+    .remove-img.visible { display: block; }
+    .remove-img:hover { background: rgba(194, 82, 69, 0.25); }
+
+    .control-group {
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    /* Logo section */
-    .logo-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
+    .control-group:last-child { border-bottom: none; }
+
+    .control-group-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--teal-500);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
     }
+
+    .logo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 
     .logo-card {
       background: var(--navy-800);
@@ -357,28 +313,8 @@
       min-height: 200px;
     }
 
-    .logo-card.light {
-      background: #F8FAFC;
-    }
+    .logo-card.light { background: #F8FAFC; }
 
-    /* Business card */
-    .biz-card-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-    }
-
-    .biz-card-preview {
-      background: var(--navy-800);
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      padding: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /* Toast */
     .toast {
       position: fixed;
       bottom: 24px;
@@ -397,17 +333,13 @@
       pointer-events: none;
     }
 
-    .toast.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .toast.show { opacity: 1; transform: translateY(0); }
 
-    /* Responsive */
     @media (max-width: 768px) {
       .colour-grid { grid-template-columns: repeat(2, 1fr); }
       .logo-grid { grid-template-columns: 1fr; }
-      .biz-card-grid { grid-template-columns: 1fr; }
       .canvas-area { flex-direction: column; }
+      .canvas-controls { flex: 1; min-width: 100%; }
       nav { display: none; }
       .section-title { font-size: 24px; }
     }
@@ -416,14 +348,12 @@
 <body>
 
   <div class="toast" id="toast">Copied!</div>
+  <input type="file" id="imageInput" accept="image/*" style="display:none">
 
   <header>
     <div class="container">
       <div class="header-brand">
-        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="40" height="40" rx="8" fill="#E8715A"/>
-          <path d="M10 28V12h6l4 8 4-8h6v16h-4v-10l-4 8h-4l-4-8v10h-4z" fill="white"/>
-        </svg>
+        <img src="seo-kings-crown-white.svg" alt="Crown" style="height: 36px;">
         <div>
           <h1>SEO Kings</h1>
           <span>Brand Kit</span>
@@ -447,67 +377,35 @@
       <div class="colour-grid">
         <div class="colour-card" onclick="copyColour('#0B1324')">
           <div class="colour-swatch" style="background: #0B1324;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Navy 900</div>
-            <div class="colour-hex">#0B1324</div>
-            <div class="colour-var">--navy-900 / bg</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Navy 900</div><div class="colour-hex">#0B1324</div><div class="colour-var">--navy-900 / bg</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#121C2C')">
           <div class="colour-swatch" style="background: #121C2C;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Navy 800</div>
-            <div class="colour-hex">#121C2C</div>
-            <div class="colour-var">--navy-800 / cards</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Navy 800</div><div class="colour-hex">#121C2C</div><div class="colour-var">--navy-800 / cards</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#1E293B')">
           <div class="colour-swatch" style="background: #1E293B;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Navy 600</div>
-            <div class="colour-hex">#1E293B</div>
-            <div class="colour-var">--navy-600 / elevated</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Navy 600</div><div class="colour-hex">#1E293B</div><div class="colour-var">--navy-600 / elevated</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#E8715A')">
           <div class="colour-swatch" style="background: #E8715A;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Coral</div>
-            <div class="colour-hex">#E8715A</div>
-            <div class="colour-var">primary / CTA / accent</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Coral</div><div class="colour-hex">#E8715A</div><div class="colour-var">primary / CTA / accent</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#C25245')">
           <div class="colour-swatch" style="background: #C25245;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Coral Dark</div>
-            <div class="colour-hex">#C25245</div>
-            <div class="colour-var">hover / pressed</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Coral Dark</div><div class="colour-hex">#C25245</div><div class="colour-var">hover / pressed</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#F0856E')">
           <div class="colour-swatch" style="background: #F0856E;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Coral Light</div>
-            <div class="colour-hex">#F0856E</div>
-            <div class="colour-var">highlights / badges</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Coral Light</div><div class="colour-hex">#F0856E</div><div class="colour-var">highlights / badges</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#4A90A4')">
           <div class="colour-swatch" style="background: #4A90A4;"></div>
-          <div class="colour-info">
-            <div class="colour-name">Teal</div>
-            <div class="colour-hex">#4A90A4</div>
-            <div class="colour-var">secondary / links</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">Teal</div><div class="colour-hex">#4A90A4</div><div class="colour-var">secondary / links</div></div>
         </div>
         <div class="colour-card" onclick="copyColour('#F8FAFC')">
           <div class="colour-swatch" style="background: #F8FAFC; border-bottom: 1px solid rgba(0,0,0,0.1);"></div>
-          <div class="colour-info">
-            <div class="colour-name">White</div>
-            <div class="colour-hex">#F8FAFC</div>
-            <div class="colour-var">body text / bg-alt</div>
-          </div>
+          <div class="colour-info"><div class="colour-name">White</div><div class="colour-hex">#F8FAFC</div><div class="colour-var">body text / bg-alt</div></div>
         </div>
       </div>
     </div>
@@ -519,19 +417,16 @@
       <div class="section-label">02 / Typography</div>
       <div class="section-title">Type System</div>
       <div class="section-desc">Space Grotesk for headings and body. JetBrains Mono for code and labels.</div>
-
       <div class="type-sample">
         <div class="label">Primary / Heading + Body — Space Grotesk</div>
         <div class="specimen" style="font-family: 'Space Grotesk', sans-serif;">Websites That Get You Calls</div>
         <div class="meta">Weights: 400, 500, 600, 700 &middot; Variable &middot; Google Fonts</div>
       </div>
-
       <div class="type-sample">
         <div class="label">Monospace / Labels — JetBrains Mono</div>
         <div class="specimen" style="font-family: 'JetBrains Mono', monospace; font-size: 36px;">01 / Services</div>
         <div class="meta">Weights: 400, 500, 600 &middot; Used for: section labels, code, prices</div>
       </div>
-
       <div class="type-sample">
         <div class="label">Heading Scale</div>
         <div style="font-family: 'Space Grotesk', sans-serif;">
@@ -551,30 +446,27 @@
     <div class="container">
       <div class="section-label">03 / Logo</div>
       <div class="section-title">Logo Marks</div>
-      <div class="section-desc">The crown-M logomark in coral on dark, and reversed on light. Minimum clear space: 16px.</div>
-
+      <div class="section-desc">The crown logomark — sharp, angular, distinctive. On dark (white) and on light (black). Minimum clear space: 16px.</div>
       <div class="logo-grid">
-        <div class="logo-card">
-          <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 200px;">
-            <rect x="8" y="8" width="44" height="44" rx="10" fill="#E8715A"/>
-            <path d="M18 42V18h10.5l6.3 10.5L41.1 18H51.6V42H43.5V25.5L37.2 36h-4.5l-6.3-10.5V42H18z" fill="white"/>
-            <text x="68" y="28" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">SEO Kings</text>
-            <text x="68" y="44" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="500" fill="#4A90A4" letter-spacing="0.1em">WEBSITE DESIGN &amp; LOCAL SEO</text>
-          </svg>
+        <div class="logo-card" style="flex-direction: column; gap: 20px;">
+          <img src="seo-kings-crown-white.svg" alt="Crown logo white" style="height: 120px;">
+          <div style="display: flex; gap: 8px;">
+            <img src="seo-kings-crown-coral.svg" alt="Crown logo coral" style="height: 40px;">
+            <img src="seo-kings-crown-white.svg" alt="Crown logo white" style="height: 40px;">
+          </div>
         </div>
-        <div class="logo-card light">
-          <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 200px;">
-            <rect x="8" y="8" width="44" height="44" rx="10" fill="#E8715A"/>
-            <path d="M18 42V18h10.5l6.3 10.5L41.1 18H51.6V42H43.5V25.5L37.2 36h-4.5l-6.3-10.5V42H18z" fill="white"/>
-            <text x="68" y="28" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#0B1324">SEO Kings</text>
-            <text x="68" y="44" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="500" fill="#4A90A4" letter-spacing="0.1em">WEBSITE DESIGN &amp; LOCAL SEO</text>
-          </svg>
+        <div class="logo-card light" style="flex-direction: column; gap: 20px;">
+          <img src="seo-kings-crown-black.svg" alt="Crown logo black" style="height: 120px;">
+          <div style="display: flex; gap: 8px;">
+            <img src="seo-kings-crown-coral.svg" alt="Crown logo coral" style="height: 40px;">
+            <img src="seo-kings-crown-black.svg" alt="Crown logo black" style="height: 40px;">
+          </div>
         </div>
       </div>
-
       <div style="margin-top: 24px;">
-        <button class="download-btn secondary" onclick="downloadSVG('logo-dark')">Download Logo (Dark) SVG</button>
-        <button class="download-btn secondary" onclick="downloadSVG('logo-light')">Download Logo (Light) SVG</button>
+        <button class="download-btn secondary" onclick="downloadSVG('crown-white')">Crown (White) SVG</button>
+        <button class="download-btn secondary" onclick="downloadSVG('crown-black')">Crown (Black) SVG</button>
+        <button class="download-btn secondary" onclick="downloadSVG('crown-coral')">Crown (Coral) SVG</button>
       </div>
     </div>
   </section>
@@ -584,7 +476,7 @@
     <div class="container">
       <div class="section-label">04 / Social Assets</div>
       <div class="section-title">Generate Social Banners</div>
-      <div class="section-desc">Twitter header, Facebook cover, LinkedIn banner and OG image generator. All rendered at exact platform dimensions.</div>
+      <div class="section-desc">Twitter header, Facebook cover, LinkedIn banner and OG image generator. Upload an image for the background.</div>
 
       <div class="social-tabs">
         <button class="social-tab active" onclick="switchTab('og')">OG Image</button>
@@ -595,24 +487,48 @@
 
       <div class="canvas-area">
         <div class="canvas-controls">
-          <label>Headline</label>
-          <input type="text" id="headline" value="Websites That Get You Calls" oninput="renderCanvas()">
 
-          <label>Subheadline</label>
-          <input type="text" id="subheadline" value="Website Design & Local SEO from £399" oninput="renderCanvas()">
+          <div class="control-group">
+            <div class="control-group-title">Background Image</div>
+            <div class="upload-zone" id="uploadZone" onclick="document.getElementById('imageInput').click()">
+              <div class="upload-icon">📷</div>
+              <div class="upload-text" id="uploadText">Click or drag to upload image</div>
+              <div class="upload-filename" id="uploadFilename"></div>
+            </div>
+            <button class="remove-img" id="removeImgBtn" onclick="removeImage()">Remove Image</button>
+            <div id="imageControls" style="display:none;">
+              <label>Image Opacity: <span id="opacityVal">30</span>%</label>
+              <input type="range" id="imageOpacity" min="5" max="80" value="30" oninput="updateOpacityVal(); renderCanvas();">
+              <label>Image Position</label>
+              <select id="imagePosition" onchange="renderCanvas()">
+                <option value="center">Center</option>
+                <option value="left">Left</option>
+                <option value="right" selected>Right</option>
+              </select>
+            </div>
+          </div>
 
-          <label>Tag / Badge</label>
-          <input type="text" id="tagline" value="Bath & North East Somerset" oninput="renderCanvas()">
+          <div class="control-group">
+            <div class="control-group-title">Text</div>
+            <label>Headline</label>
+            <input type="text" id="headline" value="Websites That Get You Calls" oninput="renderCanvas()">
+            <label>Subheadline</label>
+            <input type="text" id="subheadline" value="Website Design & Local SEO from £399" oninput="renderCanvas()">
+            <label>Tag / Badge</label>
+            <input type="text" id="tagline" value="Bath & North East Somerset" oninput="renderCanvas()">
+            <label>CTA Text</label>
+            <input type="text" id="cta" value="Free Audit →" oninput="renderCanvas()">
+          </div>
 
-          <label>CTA Text</label>
-          <input type="text" id="cta" value="Free Audit →" oninput="renderCanvas()">
-
-          <label>Accent Colour</label>
-          <div style="display: flex; gap: 8px; margin-bottom: 16px;">
-            <div style="width: 32px; height: 32px; border-radius: 6px; background: #E8715A; cursor: pointer; border: 2px solid white;" onclick="setAccent('#E8715A')" class="accent-swatch active"></div>
-            <div style="width: 32px; height: 32px; border-radius: 6px; background: #4A90A4; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#4A90A4')" class="accent-swatch"></div>
-            <div style="width: 32px; height: 32px; border-radius: 6px; background: #F0856E; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#F0856E')" class="accent-swatch"></div>
-            <div style="width: 32px; height: 32px; border-radius: 6px; background: #5EA3B6; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#5EA3B6')" class="accent-swatch"></div>
+          <div class="control-group">
+            <div class="control-group-title">Style</div>
+            <label>Accent Colour</label>
+            <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+              <div style="width: 32px; height: 32px; border-radius: 6px; background: #E8715A; cursor: pointer; border: 2px solid white;" onclick="setAccent('#E8715A')" class="accent-swatch active"></div>
+              <div style="width: 32px; height: 32px; border-radius: 6px; background: #4A90A4; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#4A90A4')" class="accent-swatch"></div>
+              <div style="width: 32px; height: 32px; border-radius: 6px; background: #F0856E; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#F0856E')" class="accent-swatch"></div>
+              <div style="width: 32px; height: 32px; border-radius: 6px; background: #5EA3B6; cursor: pointer; border: 2px solid transparent;" onclick="setAccent('#5EA3B6')" class="accent-swatch"></div>
+            </div>
           </div>
 
           <button class="download-btn" onclick="downloadPNG()">Download PNG</button>
@@ -627,15 +543,20 @@
   </section>
 
   <footer style="padding: 40px 0; text-align: center; color: var(--gray-500); font-size: 13px;">
-    <div class="container">
-      SEO Kings Brand Kit — Dev tool, noindex. Not for public use.
-    </div>
+    <div class="container">SEO Kings Brand Kit — Dev tool, noindex. Not for public use.</div>
   </footer>
 
   <script>
-    // -- State --
     let currentTab = 'og';
     let accentColour = '#E8715A';
+    let bgImage = null;
+
+    // Preload crown logo for canvas rendering
+    const crownImg = new Image();
+    crownImg.crossOrigin = 'anonymous';
+    crownImg.src = 'seo-kings-crown-white.svg';
+    let crownLoaded = false;
+    crownImg.onload = () => { crownLoaded = true; renderCanvas(); };
 
     const sizes = {
       og: { w: 1200, h: 630, label: 'OG Image' },
@@ -651,12 +572,63 @@
       { w: 1584, h: 396, name: 'linkedin-banner' },
     ];
 
-    const logoSVG = `<svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="60" height="60" rx="12" fill="#E8715A"/>
-      <path d="M14 46V14h13l8 14 8-14h13v32H41V27L33 40h-6l-8-13v19H14z" fill="white"/>
-    </svg>`;
+    // -- Image upload --
+    const imageInput = document.getElementById('imageInput');
+    const uploadZone = document.getElementById('uploadZone');
+    const imgControls = document.getElementById('imageControls');
+    const removeBtn = document.getElementById('removeImgBtn');
 
-    // -- Tab switching --
+    imageInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(ev) {
+        const img = new Image();
+        img.onload = function() {
+          bgImage = img;
+          uploadZone.classList.add('has-image');
+          document.getElementById('uploadText').textContent = 'Image loaded ✓';
+          document.getElementById('uploadFilename').textContent = file.name;
+          imgControls.style.display = 'block';
+          removeBtn.classList.add('visible');
+          renderCanvas();
+        };
+        img.src = ev.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+
+    // Drag & drop
+    uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.style.borderColor = 'var(--coral-500)'; });
+    uploadZone.addEventListener('dragleave', e => { e.preventDefault(); uploadZone.style.borderColor = ''; });
+    uploadZone.addEventListener('drop', e => {
+      e.preventDefault();
+      uploadZone.style.borderColor = '';
+      const file = e.dataTransfer.files[0];
+      if (file) {
+        const dt = new DataTransfer();
+        dt.items.add(file);
+        imageInput.files = dt.files;
+        imageInput.dispatchEvent(new Event('change'));
+      }
+    });
+
+    function removeImage() {
+      bgImage = null;
+      imageInput.value = '';
+      uploadZone.classList.remove('has-image');
+      document.getElementById('uploadText').textContent = 'Click or drag to upload image';
+      document.getElementById('uploadFilename').textContent = '';
+      imgControls.style.display = 'none';
+      removeBtn.classList.remove('visible');
+      renderCanvas();
+    }
+
+    function updateOpacityVal() {
+      document.getElementById('opacityVal').textContent = document.getElementById('imageOpacity').value;
+    }
+
+    // -- Tab / accent --
     function switchTab(tab) {
       currentTab = tab;
       document.querySelectorAll('.social-tab').forEach(t => t.classList.remove('active'));
@@ -664,7 +636,6 @@
       renderCanvas();
     }
 
-    // -- Accent colour --
     function setAccent(colour) {
       accentColour = colour;
       document.querySelectorAll('.accent-swatch').forEach(s => s.style.borderColor = 'transparent');
@@ -672,154 +643,191 @@
       renderCanvas();
     }
 
-    // -- Copy colour --
     function copyColour(hex) {
       navigator.clipboard.writeText(hex);
       const toast = document.getElementById('toast');
-      toast.textContent = `Copied ${hex}`;
+      toast.textContent = 'Copied ' + hex;
       toast.classList.add('show');
       setTimeout(() => toast.classList.remove('show'), 1500);
     }
 
     // -- Render --
+    function drawBanner(canvas, w, h, headline, subheadline, tagline, cta, img, imgOpacity, imgPosition) {
+      const ctx = canvas.getContext('2d');
+      canvas.width = w;
+      canvas.height = h;
+
+      // Background
+      ctx.fillStyle = '#0B1324';
+      ctx.fillRect(0, 0, w, h);
+
+      // Background image
+      if (img) {
+        ctx.save();
+        ctx.globalAlpha = imgOpacity / 100;
+        // Cover: fill canvas maintaining aspect ratio
+        const imgRatio = img.width / img.height;
+        const canvasRatio = w / h;
+        let drawW, drawH, drawX, drawY;
+        if (imgRatio > canvasRatio) {
+          drawH = h;
+          drawW = h * imgRatio;
+        } else {
+          drawW = w;
+          drawH = w / imgRatio;
+        }
+        // Position
+        if (imgPosition === 'left') {
+          drawX = 0;
+          drawY = (h - drawH) / 2;
+        } else if (imgPosition === 'right') {
+          drawX = w - drawW;
+          drawY = (h - drawH) / 2;
+        } else {
+          drawX = (w - drawW) / 2;
+          drawY = (h - drawH) / 2;
+        }
+        ctx.drawImage(img, drawX, drawY, drawW, drawH);
+        ctx.restore();
+
+        // Dark overlay gradient — stronger on the left where text goes
+        ctx.save();
+        const overlay = ctx.createLinearGradient(0, 0, w * 0.7, 0);
+        overlay.addColorStop(0, 'rgba(11, 19, 36, 0.92)');
+        overlay.addColorStop(0.5, 'rgba(11, 19, 36, 0.75)');
+        overlay.addColorStop(1, 'rgba(11, 19, 36, 0.15)');
+        ctx.fillStyle = overlay;
+        ctx.fillRect(0, 0, w, h);
+        ctx.restore();
+      } else {
+        // Subtle grid (no image)
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
+        ctx.lineWidth = 1;
+        for (let x = 0; x < w; x += 60) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke(); }
+        for (let y = 0; y < h; y += 60) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke(); }
+
+        // Accent orbs (no image)
+        ctx.save();
+        ctx.globalAlpha = 0.08;
+        ctx.fillStyle = accentColour;
+        ctx.beginPath();
+        ctx.arc(w * 0.85, h * 0.2, Math.min(w, h) * 0.25, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = '#4A90A4';
+        ctx.beginPath();
+        ctx.arc(w * 0.15, h * 0.8, Math.min(w, h) * 0.2, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+
+      // Logo — crown SVG
+      const unit = Math.min(w, h);
+      const logoSize = unit * 0.065;
+      const logoX = w * 0.06;
+      const logoY = h * 0.12;
+      if (crownLoaded) {
+        ctx.drawImage(crownImg, logoX, logoY, logoSize, logoSize);
+      }
+
+      // Brand name + tag badge
+      const brandX = logoX + logoSize + w * 0.015;
+      ctx.fillStyle = '#F8FAFC';
+      ctx.font = `700 ${unit * 0.03}px 'Space Grotesk', sans-serif`;
+      ctx.textBaseline = 'middle';
+      ctx.fillText('SEO Kings', brandX, logoY + logoSize * 0.45);
+
+      // Tag badge
+      ctx.font = `500 ${unit * 0.016}px 'JetBrains Mono', monospace`;
+      const tagW = ctx.measureText(tagline.toUpperCase()).width + 16;
+      const tagY = logoY + logoSize * 0.45 + unit * 0.022;
+      ctx.fillStyle = 'rgba(74, 144, 164, 0.18)';
+      roundRect(ctx, brandX, tagY, tagW, unit * 0.024, 4);
+      ctx.fill();
+      ctx.fillStyle = '#5EA3B6';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(tagline.toUpperCase(), brandX + 8, tagY + unit * 0.012);
+
+      // Headline — with word wrapping
+      const headX = w * 0.06;
+      const headStartY = h * 0.38;
+      const headSize = unit * 0.075;
+      ctx.font = `700 ${headSize}px 'Space Grotesk', sans-serif`;
+      ctx.fillStyle = '#F8FAFC';
+      ctx.textBaseline = 'top';
+
+      // Word wrap the headline
+      const maxLineWidth = w * 0.65;
+      const words = headline.split(' ');
+      const lines = [];
+      let currentLine = '';
+      for (const word of words) {
+        const testLine = currentLine ? currentLine + ' ' + word : word;
+        if (ctx.measureText(testLine).width > maxLineWidth && currentLine) {
+          lines.push(currentLine);
+          currentLine = word;
+        } else {
+          currentLine = testLine;
+        }
+      }
+      if (currentLine) lines.push(currentLine);
+
+      const lineH = headSize * 1.15;
+      lines.forEach((line, i) => {
+        ctx.fillText(line, headX, headStartY + i * lineH);
+      });
+
+      const headEndY = headStartY + lines.length * lineH;
+
+      // Subheadline
+      const subSize = headSize * 0.5;
+      ctx.fillStyle = accentColour;
+      ctx.font = `600 ${subSize}px 'Space Grotesk', sans-serif`;
+      ctx.fillText(subheadline, headX, headEndY + headSize * 0.3);
+
+      // CTA pill
+      if (cta) {
+        const ctaSize = headSize * 0.4;
+        ctx.font = `600 ${ctaSize}px 'Space Grotesk', sans-serif`;
+        const ctaW = ctx.measureText(cta).width + 44;
+        const ctaX = headX;
+        const ctaY = headEndY + headSize * 1.6;
+        ctx.fillStyle = accentColour;
+        roundRect(ctx, ctaX, ctaY, ctaW, ctaSize * 2.4, ctaSize * 1.2);
+        ctx.fill();
+        ctx.fillStyle = '#FFFFFF';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(cta, ctaX + 22, ctaY + ctaSize * 1.2);
+      }
+
+      // URL bottom-left
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
+      ctx.font = `500 ${unit * 0.02}px 'JetBrains Mono', monospace`;
+      ctx.textBaseline = 'bottom';
+      ctx.fillText('seo-kings.co.uk', w * 0.06, h * 0.94);
+
+      // Dimension label bottom-right
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.12)';
+      ctx.font = `400 ${unit * 0.018}px 'JetBrains Mono', monospace`;
+      ctx.textAlign = 'right';
+      ctx.fillText(w + '×' + h, w * 0.95, h * 0.94);
+      ctx.textAlign = 'left';
+    }
+
     function renderCanvas() {
       const canvas = document.getElementById('canvas');
-      const ctx = canvas.getContext('2d');
       const s = sizes[currentTab];
-      const scale = Math.min(600 / s.w, 400 / s.h, 1);
-      canvas.width = s.w;
-      canvas.height = s.h;
-      canvas.style.width = s.w * scale + 'px';
-      canvas.style.height = s.h * scale + 'px';
+      const scale = Math.min(700 / s.w, 450 / s.h, 1);
+      canvas.style.width = Math.round(s.w * scale) + 'px';
+      canvas.style.height = Math.round(s.h * scale) + 'px';
 
       const headline = document.getElementById('headline').value;
       const subheadline = document.getElementById('subheadline').value;
       const tagline = document.getElementById('tagline').value;
       const cta = document.getElementById('cta').value;
+      const imgOpacity = parseInt(document.getElementById('imageOpacity').value);
+      const imgPosition = document.getElementById('imagePosition').value;
 
-      // Background
-      ctx.fillStyle = '#0B1324';
-      ctx.fillRect(0, 0, s.w, s.h);
-
-      // Subtle grid
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
-      ctx.lineWidth = 1;
-      for (let x = 0; x < s.w; x += 60) {
-        ctx.beginPath();
-        ctx.moveTo(x, 0);
-        ctx.lineTo(x, s.h);
-        ctx.stroke();
-      }
-      for (let y = 0; y < s.h; y += 60) {
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(s.w, y);
-        ctx.stroke();
-      }
-
-      // Accent orbs
-      ctx.save();
-      ctx.globalAlpha = 0.08;
-      ctx.fillStyle = accentColour;
-      ctx.beginPath();
-      ctx.arc(s.w * 0.85, s.h * 0.2, Math.min(s.w, s.h) * 0.25, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = '#4A90A4';
-      ctx.beginPath();
-      ctx.arc(s.w * 0.15, s.h * 0.8, Math.min(s.w, s.h) * 0.2, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.restore();
-
-      // Logo mark (drawn as path, not image)
-      ctx.save();
-      const logoSize = Math.min(s.w, s.h) * 0.08;
-      const logoX = s.w * 0.07;
-      const logoY = s.h * 0.18;
-      ctx.fillStyle = accentColour;
-      roundRect(ctx, logoX - logoSize * 0.1, logoY - logoSize * 0.1, logoSize * 1.2, logoSize * 1.2, logoSize * 0.15);
-      ctx.fill();
-      // M shape
-      ctx.fillStyle = 'white';
-      const mx = logoX + logoSize * 0.1;
-      const my = logoY + logoSize * 0.1;
-      const mw = logoSize;
-      ctx.beginPath();
-      ctx.moveTo(mx, my + logoSize * 0.85);
-      ctx.lineTo(mx, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.35, my + logoSize * 0.5);
-      ctx.lineTo(mx + logoSize * 0.5, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.8, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.8, my + logoSize * 0.85);
-      ctx.lineTo(mx + logoSize * 0.6, my + logoSize * 0.85);
-      ctx.lineTo(mx + logoSize * 0.6, my + logoSize * 0.4);
-      ctx.lineTo(mx + logoSize * 0.45, my + logoSize * 0.7);
-      ctx.lineTo(mx + logoSize * 0.35, my + logoSize * 0.7);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.4);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.85);
-      ctx.closePath();
-      ctx.fill();
-      ctx.restore();
-
-      // Brand name next to logo
-      ctx.fillStyle = '#F8FAFC';
-      ctx.font = `700 ${logoSize * 0.45}px 'Space Grotesk', sans-serif`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText('SEO Kings', logoX + logoSize * 1.4, logoY + logoSize * 0.5);
-
-      // Tag badge
-      ctx.font = `500 ${logoSize * 0.22}px 'JetBrains Mono', monospace`;
-      const tagW = ctx.measureText(tagline.toUpperCase()).width + 24;
-      const tagX = logoX + logoSize * 1.4;
-      const tagY = logoY + logoSize * 0.5 + logoSize * 0.3;
-      ctx.fillStyle = 'rgba(74, 144, 164, 0.15)';
-      roundRect(ctx, tagX, tagY, tagW, logoSize * 0.32, 4);
-      ctx.fill();
-      ctx.fillStyle = '#5EA3B6';
-      ctx.fillText(tagline.toUpperCase(), tagX + 12, tagY + logoSize * 0.23);
-
-      // Headline
-      const headlineSize = Math.min(s.w, s.h) * 0.1;
-      ctx.fillStyle = '#F8FAFC';
-      ctx.font = `700 ${headlineSize}px 'Space Grotesk', sans-serif`;
-      ctx.textBaseline = 'top';
-      const headX = s.w * 0.07;
-      const headY = s.h * 0.42;
-      ctx.fillText(headline, headX, headY);
-
-      // Subheadline
-      ctx.fillStyle = accentColour;
-      ctx.font = `600 ${headlineSize * 0.45}px 'Space Grotesk', sans-serif`;
-      ctx.fillText(subheadline, headX, headY + headlineSize * 1.25);
-
-      // CTA pill
-      if (cta) {
-        const ctaSize = headlineSize * 0.38;
-        ctx.font = `600 ${ctaSize}px 'Space Grotesk', sans-serif`;
-        const ctaW = ctx.measureText(cta).width + 40;
-        const ctaX = headX;
-        const ctaY = headY + headlineSize * 1.8;
-        ctx.fillStyle = accentColour;
-        roundRect(ctx, ctaX, ctaY, ctaW, ctaSize * 2.2, ctaSize * 1.1);
-        ctx.fill();
-        ctx.fillStyle = '#FFFFFF';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(cta, ctaX + 20, ctaY + ctaSize * 1.1);
-      }
-
-      // Website URL
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
-      ctx.font = `500 ${Math.min(s.w, s.h) * 0.025}px 'JetBrains Mono', monospace`;
-      ctx.textBaseline = 'bottom';
-      ctx.fillText('seo-kings.co.uk', s.w * 0.07, s.h * 0.95);
-
-      // Dimension label
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
-      ctx.font = `400 ${Math.min(s.w, s.h) * 0.022}px 'JetBrains Mono', monospace`;
-      ctx.textBaseline = 'bottom';
-      ctx.textAlign = 'right';
-      ctx.fillText(`${s.w}×${s.h}`, s.w * 0.95, s.h * 0.95);
-      ctx.textAlign = 'left';
+      drawBanner(canvas, s.w, s.h, headline, subheadline, tagline, cta, bgImage, imgOpacity, imgPosition);
     }
 
     function roundRect(ctx, x, y, w, h, r) {
@@ -840,188 +848,46 @@
     function downloadPNG() {
       const canvas = document.getElementById('canvas');
       const s = sizes[currentTab];
-      const name = `${currentTab === 'og' ? 'og-image' : currentTab.replace('facebook', 'facebook-cover').replace('twitter', 'twitter-header').replace('linkedin', 'linkedin-banner')}`;
+      const name = currentTab === 'og' ? 'og-image' : currentTab === 'twitter' ? 'twitter-header' : currentTab === 'facebook' ? 'facebook-cover' : 'linkedin-banner';
       const link = document.createElement('a');
-      link.download = `${name}-${s.w}x${s.h}.png`;
+      link.download = name + '-' + s.w + 'x' + s.h + '.png';
       link.href = canvas.toDataURL('image/png');
       link.click();
-      showToast(`Downloaded ${s.label} (${s.w}×${s.h})`);
+      showToast('Downloaded ' + s.label + ' (' + s.w + '×' + s.h + ')');
     }
 
     function downloadAllSizes() {
-      const origTab = currentTab;
       const headline = document.getElementById('headline').value;
       const subheadline = document.getElementById('subheadline').value;
       const tagline = document.getElementById('tagline').value;
       const cta = document.getElementById('cta').value;
+      const imgOpacity = parseInt(document.getElementById('imageOpacity').value);
+      const imgPosition = document.getElementById('imagePosition').value;
 
       allDownloadSizes.forEach((size, i) => {
         setTimeout(() => {
-          // Temporarily set canvas to this size
-          const canvas = document.getElementById('canvas');
-          const ctx = canvas.getContext('2d');
-          canvas.width = size.w;
-          canvas.height = size.h;
-
-          // Reuse render logic
-          currentTab = 'og'; // hack: use OG rendering but with custom dimensions
-          renderCanvasAt(canvas, size.w, size.h, headline, subheadline, tagline, cta);
-
+          const offscreen = document.createElement('canvas');
+          drawBanner(offscreen, size.w, size.h, headline, subheadline, tagline, cta, bgImage, imgOpacity, imgPosition);
           const link = document.createElement('a');
-          link.download = `${size.name}-${size.w}x${size.h}.png`;
-          link.href = canvas.toDataURL('image/png');
+          link.download = size.name + '-' + size.w + 'x' + size.h + '.png';
+          link.href = offscreen.toDataURL('image/png');
           link.click();
-        }, i * 500);
+        }, i * 600);
       });
 
-      // Restore
-      setTimeout(() => {
-        currentTab = origTab;
-        renderCanvas();
-        showToast('Downloaded all 4 sizes');
-      }, allDownloadSizes.length * 500 + 200);
+      setTimeout(() => showToast('Downloaded all 4 sizes'), allDownloadSizes.length * 600 + 300);
     }
 
-    function renderCanvasAt(canvas, w, h, headline, subheadline, tagline, cta) {
-      const ctx = canvas.getContext('2d');
-      canvas.width = w;
-      canvas.height = h;
-
-      // Background
-      ctx.fillStyle = '#0B1324';
-      ctx.fillRect(0, 0, w, h);
-
-      // Grid
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
-      ctx.lineWidth = 1;
-      for (let x = 0; x < w; x += 60) {
-        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke();
-      }
-      for (let y = 0; y < h; y += 60) {
-        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke();
-      }
-
-      // Orbs
-      ctx.save();
-      ctx.globalAlpha = 0.08;
-      ctx.fillStyle = accentColour;
-      ctx.beginPath();
-      ctx.arc(w * 0.85, h * 0.2, Math.min(w, h) * 0.25, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = '#4A90A4';
-      ctx.beginPath();
-      ctx.arc(w * 0.15, h * 0.8, Math.min(w, h) * 0.2, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.restore();
-
-      // Logo
-      const logoSize = Math.min(w, h) * 0.08;
-      const logoX = w * 0.07;
-      const logoY = h * 0.18;
-      ctx.fillStyle = accentColour;
-      roundRect(ctx, logoX - logoSize * 0.1, logoY - logoSize * 0.1, logoSize * 1.2, logoSize * 1.2, logoSize * 0.15);
-      ctx.fill();
-      ctx.fillStyle = 'white';
-      const mx = logoX + logoSize * 0.1;
-      const my = logoY + logoSize * 0.1;
-      ctx.beginPath();
-      ctx.moveTo(mx, my + logoSize * 0.85);
-      ctx.lineTo(mx, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.35, my + logoSize * 0.5);
-      ctx.lineTo(mx + logoSize * 0.5, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.8, my + logoSize * 0.1);
-      ctx.lineTo(mx + logoSize * 0.8, my + logoSize * 0.85);
-      ctx.lineTo(mx + logoSize * 0.6, my + logoSize * 0.85);
-      ctx.lineTo(mx + logoSize * 0.6, my + logoSize * 0.4);
-      ctx.lineTo(mx + logoSize * 0.45, my + logoSize * 0.7);
-      ctx.lineTo(mx + logoSize * 0.35, my + logoSize * 0.7);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.4);
-      ctx.lineTo(mx + logoSize * 0.2, my + logoSize * 0.85);
-      ctx.closePath();
-      ctx.fill();
-
-      // Brand name
-      ctx.fillStyle = '#F8FAFC';
-      ctx.font = `700 ${logoSize * 0.45}px 'Space Grotesk', sans-serif`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText('SEO Kings', logoX + logoSize * 1.4, logoY + logoSize * 0.5);
-
-      // Tag badge
-      ctx.font = `500 ${logoSize * 0.22}px 'JetBrains Mono', monospace`;
-      const tagW = ctx.measureText(tagline.toUpperCase()).width + 24;
-      const tagX = logoX + logoSize * 1.4;
-      const tagY = logoY + logoSize * 0.5 + logoSize * 0.3;
-      ctx.fillStyle = 'rgba(74, 144, 164, 0.15)';
-      roundRect(ctx, tagX, tagY, tagW, logoSize * 0.32, 4);
-      ctx.fill();
-      ctx.fillStyle = '#5EA3B6';
-      ctx.fillText(tagline.toUpperCase(), tagX + 12, tagY + logoSize * 0.23);
-
-      // Headline
-      const headlineSize = Math.min(w, h) * 0.1;
-      ctx.fillStyle = '#F8FAFC';
-      ctx.font = `700 ${headlineSize}px 'Space Grotesk', sans-serif`;
-      ctx.textBaseline = 'top';
-      ctx.fillText(headline, w * 0.07, h * 0.42);
-
-      // Subheadline
-      ctx.fillStyle = accentColour;
-      ctx.font = `600 ${headlineSize * 0.45}px 'Space Grotesk', sans-serif`;
-      ctx.fillText(subheadline, w * 0.07, h * 0.42 + headlineSize * 1.25);
-
-      // CTA pill
-      if (cta) {
-        const ctaSize = headlineSize * 0.38;
-        ctx.font = `600 ${ctaSize}px 'Space Grotesk', sans-serif`;
-        const ctaW = ctx.measureText(cta).width + 40;
-        const ctaX = w * 0.07;
-        const ctaY = h * 0.42 + headlineSize * 1.8;
-        ctx.fillStyle = accentColour;
-        roundRect(ctx, ctaX, ctaY, ctaW, ctaSize * 2.2, ctaSize * 1.1);
-        ctx.fill();
-        ctx.fillStyle = '#FFFFFF';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(cta, ctaX + 20, ctaY + ctaSize * 1.1);
-      }
-
-      // URL
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
-      ctx.font = `500 ${Math.min(w, h) * 0.025}px 'JetBrains Mono', monospace`;
-      ctx.textBaseline = 'bottom';
-      ctx.fillText('seo-kings.co.uk', w * 0.07, h * 0.95);
-
-      // Size label
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
-      ctx.font = `400 ${Math.min(w, h) * 0.022}px 'JetBrains Mono', monospace`;
-      ctx.textAlign = 'right';
-      ctx.fillText(`${w}×${h}`, w * 0.95, h * 0.95);
-      ctx.textAlign = 'left';
-    }
-
-    // SVG Downloads
-    const logoDarkSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
-      <rect x="8" y="8" width="44" height="44" rx="10" fill="#E8715A"/>
-      <path d="M18 42V18h10.5l6.3 10.5L41.1 18H51.6V42H43.5V25.5L37.2 36h-4.5l-6.3-10.5V42H18z" fill="white"/>
-      <text x="68" y="28" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">SEO Kings</text>
-      <text x="68" y="44" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="500" fill="#4A90A4" letter-spacing="0.1em">WEBSITE DESIGN &amp; LOCAL SEO</text>
-    </svg>`;
-
-    const logoLightSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
-      <rect x="8" y="8" width="44" height="44" rx="10" fill="#E8715A"/>
-      <path d="M18 42V18h10.5l6.3 10.5L41.1 18H51.6V42H43.5V25.5L37.2 36h-4.5l-6.3-10.5V42H18z" fill="white"/>
-      <text x="68" y="28" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#0B1324">SEO Kings</text>
-      <text x="68" y="44" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="500" fill="#4A90A4" letter-spacing="0.1em">WEBSITE DESIGN &amp; LOCAL SEO</text>
-    </svg>`;
-
+    // SVG Downloads — crown logo files
     function downloadSVG(type) {
-      const svg = type === 'logo-dark' ? logoDarkSVG : logoLightSVG;
-      const blob = new Blob([svg], { type: 'image/svg+xml' });
+      const url = type === 'crown-white' ? 'seo-kings-crown-white.svg'
+                : type === 'crown-black' ? 'seo-kings-crown-black.svg'
+                : 'seo-kings-crown-coral.svg';
       const link = document.createElement('a');
-      link.download = `seo-kings-${type}.svg`;
-      link.href = URL.createObjectURL(blob);
+      link.download = 'seo-kings-' + type + '.svg';
+      link.href = url;
       link.click();
-      showToast(`Downloaded ${type} SVG`);
+      showToast('Downloaded ' + type + ' SVG');
     }
 
     function showToast(msg) {
@@ -1031,12 +897,7 @@
       setTimeout(() => toast.classList.remove('show'), 2000);
     }
 
-    // Load fonts then render
-    document.fonts.ready.then(() => {
-      renderCanvas();
-    });
-
-    // Initial render
+    document.fonts.ready.then(() => renderCanvas());
     renderCanvas();
   </script>
 </body>

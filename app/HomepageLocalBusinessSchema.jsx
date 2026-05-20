@@ -110,7 +110,7 @@ const homepageLocalBusinessSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: 5,
-    reviewCount: 2,
+    reviewCount: 3,
     bestRating: 5,
     worstRating: 1,
   },
@@ -149,6 +149,18 @@ const homepageLocalBusinessSchema = {
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Wednesday', opens: '09:00', closes: '17:30' },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Thursday', opens: '09:00', closes: '17:30' },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '09:00', closes: '17:30' },
+  ],
+  knowsAbout: [
+    'Web Design',
+    'Website Development',
+    'Local SEO',
+    'Google Business Profile Optimisation',
+    'Search Engine Optimisation',
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'Node.js',
+    'Small Business Websites',
   ],
   mainEntityOfPage: { '@type': 'WebPage', '@id': siteUrl },
   sameAs: [
