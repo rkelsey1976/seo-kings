@@ -86,7 +86,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Local SEO agency serving Radstock and BA3. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across the Somer Valley and Bath.',
       url: 'https://seo-kings.co.uk/local-seo/radstock',

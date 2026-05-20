@@ -86,7 +86,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Local SEO agency based in Keynsham offering Google Business Profile optimisation, website SEO and review growth for trades and local businesses across BS31 and Bath & North East Somerset.',
       url: 'https://seo-kings.co.uk/local-seo/keynsham',

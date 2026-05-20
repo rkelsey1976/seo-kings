@@ -66,7 +66,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Web design, local SEO and Google Business Profile agency serving Paulton BS39 and the Somer Valley. Fast, mobile-first websites from £399 and local SEO from £150/month for trades and local businesses across Paulton, Midsomer Norton and Bath.',
       url: 'https://seo-kings.co.uk/areas/paulton',

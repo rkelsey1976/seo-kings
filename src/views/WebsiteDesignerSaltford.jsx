@@ -75,7 +75,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Website designer serving Saltford and surrounding areas — web design from £399 for trades and local businesses across BS31, Bath and North East Somerset.',
       url: 'https://seo-kings.co.uk/website-designer-saltford',
@@ -288,7 +288,7 @@ const WebsiteDesignerSaltford = () => {
       {/* FAQ */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>FAQs</p>
             <h2 className="text-3xl font-bold text-white mb-10">Common questions</h2>
             <FAQAccordion faqs={faqs} />

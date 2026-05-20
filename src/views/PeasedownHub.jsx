@@ -66,7 +66,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Web design, local SEO and Google Business Profile agency serving Peasedown St John BA2 and the surrounding south BANES villages. Fast, mobile-first websites from £399 and local SEO from £150/month for trades and local businesses across Peasedown St John, Bath and Radstock.',
       url: 'https://seo-kings.co.uk/areas/peasedown-st-john',

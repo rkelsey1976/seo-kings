@@ -212,6 +212,8 @@ export const STATIC_ROUTES = [
   { path: '/areas/temple-cloud', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/clutton', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
+  { path: '/services', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
+  { path: '/web-design-packages', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
   { path: '/sitemap', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.5 },
   { path: '/privacy', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
   { path: '/terms', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },

@@ -79,6 +79,7 @@ const caseStudiesData = {
       'Needed to get visible quickly without relying on word of mouth alone',
     ],
     solution: [
+      'Logo designed from scratch — clean, professional mark that works on the web, GBP and van signage',
       'New website built from scratch at new-decorating.co.uk — fast and mobile-friendly',
       'Google Business Profile claimed, verified and fully optimised (category, services, description, hours, area)',
       'Website and GBP aligned so the same areas, services and message appear everywhere',
@@ -104,7 +105,7 @@ const caseStudiesData = {
     },
     websiteUrl: 'https://new-decorating.co.uk',
     googleMapsUrl: 'https://www.google.com/maps/place/New+Decorating+-+Professional+Painting+and+Decorating+Services/@51.3759541,-2.3987877,11z/data=!4m10!1m2!2m1!1snew+decorating+bath!3m6!1s0x8dcb0406d73cfc5f:0xebb26563bf6fb81b!8m2!3d51.3759541!4d-2.3987877!15sChNuZXcgZGVjb3JhdGluZyBiYXRo!16s%2Fg%2F11yzn6fvqr?entry=ttu',
-    services: ['Website Design', 'Google Business Profile'],
+    services: ['Logo Design', 'Website Design', 'Google Business Profile'],
     relatedCases: ['peachy-cleans', 'aurelian-massage'],
   },
   'bath-painter': {
@@ -118,15 +119,18 @@ const caseStudiesData = {
     heroImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f',
     heroImageAlt: 'Painter and decorator Bath — Bath Painter bespoke website design case study',
     color: 'from-blue-600 to-indigo-700',
-    overview: 'Bath Painter is an experienced painter and decorator serving Bath, Keynsham and the surrounding area, with particular expertise in heritage and period properties — from Georgian terraces on the Royal Crescent to modern homes in Keynsham. The business was getting work through word of mouth but had no dedicated website, leaving them invisible when customers searched online. We are currently building a full bespoke website to showcase their work and get them ranking for painting and decorating searches across Bath and North East Somerset.',
+    overview: 'Bath Painter is an experienced painter and decorator serving Bath, Keynsham and the surrounding area, with particular expertise in heritage and period properties — from Georgian terraces on the Royal Crescent to modern homes in Keynsham. The business was getting work through word of mouth but had no dedicated website, leaving them invisible when customers searched online. We are currently building a full bespoke website to showcase their work, alongside a complete brand package — logo, business cards, and a custom social media branding toolkit so they can create consistent, professional posts across Facebook and Instagram.',
     challenge: [
       'No dedicated website — potential customers searching online couldn\'t find the business',
       'Missing out on searches like "painter and decorator Bath" and "heritage property decorator"',
       'Word-of-mouth only — no way to scale enquiries digitally',
-      'Competing with trades that already had an established online presence',
+      'No brand identity — nothing consistent across social media or printed materials',
       'Needed a premium look to reflect the quality of heritage property work',
     ],
     solution: [
+      'Logo designed from scratch — clean, professional mark suited to both digital and print',
+      'Business cards designed to match the brand — ready to hand out on every job',
+      'Custom social media branding toolkit — branded templates so every post looks consistent',
       'Full bespoke website designed and built to showcase interior, exterior and heritage work',
       'Service pages targeting Bath, Keynsham and surrounding area searches',
       'Portfolio section to display quality of finish on period and modern properties',
@@ -135,11 +139,12 @@ const caseStudiesData = {
     ],
     results: [
       { metric: 'In build', label: 'Bespoke website', description: 'Full site covering interior, exterior and heritage work' },
+      { metric: 'Complete', label: 'Brand identity', description: 'Logo, business cards and social media toolkit delivered' },
       { metric: 'Heritage', label: 'Property specialists', description: 'Period properties from the Royal Crescent to Keynsham' },
       { metric: 'Coming soon', label: 'SEO & GBP', description: 'Local SEO and Google Business Profile post-launch' },
     ],
     timeline: [
-      { month: 'Phase 1', title: 'Brief & structure', description: 'Goals, services, areas and site structure agreed' },
+      { month: 'Phase 1', title: 'Brand & identity', description: 'Logo designed, business cards and social media toolkit built' },
       { month: 'Phase 2', title: 'Design & build', description: 'Bespoke website in development — service pages, portfolio, contact' },
       { month: 'Phase 3', title: 'Launch & SEO', description: 'Site launch, GBP setup and local SEO — coming soon' },
       { month: 'Phase 4', title: 'Results', description: 'Rankings and enquiries — watch this space' },
@@ -150,7 +155,7 @@ const caseStudiesData = {
       role: 'Painter & Decorator, Bath & Keynsham',
     },
     websiteUrl: null,
-    services: ['Website Design', 'Local SEO'],
+    services: ['Logo Design', 'Business Cards', 'Social Media Branding', 'Website Design', 'Local SEO'],
     relatedCases: ['new-decorating', 'aurelian-massage'],
   },
   'aurelian-massage': {
@@ -173,6 +178,7 @@ const caseStudiesData = {
       'Had to rank for competitive Bath wellness keywords from a standing start',
     ],
     solution: [
+      'Logo designed from scratch — premium mark reflecting the luxury wellness positioning',
       'Full multi-page Next.js website built from scratch at aurelianmassage.com',
       'Premium design reflecting the luxury positioning — clean, calm, conversion-focused',
       'Individual treatment pages for every service with SEO-optimised content',
@@ -197,12 +203,12 @@ const caseStudiesData = {
       { month: 'Week 1', title: 'Results', description: 'Already appearing in Google searches for massage therapy in Bath — calls and bookings coming in' },
     ],
     testimonial: {
-      quote: "Brand new business, no website, no social media. SEO Kings built everything from scratch in under a week. I'm already getting calls from people finding me on Google in Bath. Couldn't ask for more.",
+      quote: "I honestly couldn't be happier with the work that's been done on my website and SEO. The website looks incredibly polished, clean, and professional — exactly what I had in mind, if not better. What really stood out was how quickly everything was completed without compromising on quality. It felt like a real collaboration rather than just a service. The SEO work behind the scenes has also been excellent — fast, professional, knowledgeable, and genuinely invested in delivering the best possible outcome.",
       author: 'Ross',
       role: 'Aurelian Massage, Bath City Centre',
     },
     websiteUrl: 'https://aurelianmassage.com',
-    services: ['Website Design', 'Google Business Profile'],
+    services: ['Logo Design', 'Website Design', 'Google Business Profile'],
     relatedCases: ['new-decorating', 'peachy-cleans'],
   },
 };

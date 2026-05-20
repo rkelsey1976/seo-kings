@@ -66,7 +66,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Web design, local SEO and Google Business Profile agency serving Bath BA1 & BA2. Fast, mobile-first websites from £399 and local SEO from £150/month for trades and local businesses across Bath and North East Somerset.',
       url: 'https://seo-kings.co.uk/areas/bath',
@@ -407,7 +407,11 @@ const BathHub = () => {
               SEO Kings is based in Keynsham — 10 minutes from Bath city centre. We work exclusively across Bath and North East Somerset. We know which searches drive enquiries in BA1 and BA2, which trade categories are most competitive in the map pack, and what it takes to move from invisible to page one.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We cover the whole of Bath — city centre, Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Combe Down, Odd Down, Weston, Bathampton, Bathwick, Walcot, Southdown, Batheaston and Bathford.
+              We cover the whole of Bath — city centre and every neighbourhood. See our dedicated area pages below, or explore our{' '}
+              <Link href="/website-designer-bath" className="text-primary-light hover:text-white transition-colors">website design Bath</Link>{' '}
+              and{' '}
+              <Link href="/local-seo/bath" className="text-primary-light hover:text-white transition-colors">local SEO Bath</Link>{' '}
+              service pages.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
               SEO Kings<br />
@@ -416,6 +420,44 @@ const BathHub = () => {
               BS31 2DW<br />
               <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
+          </div>
+        </div>
+      </section>
+
+      {/* Bath Neighbourhoods */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Bath Neighbourhoods</p>
+          <h2 className="text-3xl font-bold text-white mb-2">Bath areas we cover</h2>
+          <p className="text-gray-400 mb-8">Website design and local SEO across every part of Bath — click your area for local information.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {[
+              { name: 'Odd Down', slug: 'odd-down-bath' },
+              { name: 'Combe Down', slug: 'combe-down-bath' },
+              { name: 'Widcombe', slug: 'widcombe-bath' },
+              { name: 'Larkhall', slug: 'larkhall-bath' },
+              { name: 'Twerton', slug: 'twerton-bath' },
+              { name: 'Weston', slug: 'weston-bath' },
+              { name: 'Oldfield Park', slug: 'oldfield-park-bath' },
+              { name: 'Bear Flat', slug: 'bear-flat-bath' },
+              { name: 'Bathampton', slug: 'bathampton-bath' },
+              { name: 'Bathwick', slug: 'bathwick-bath' },
+              { name: 'Southdown', slug: 'southdown-bath' },
+              { name: 'Batheaston', slug: 'batheaston-bath' },
+              { name: 'Walcot', slug: 'walcot-bath' },
+              { name: 'Bathford', slug: 'bathford-bath' },
+            ].map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

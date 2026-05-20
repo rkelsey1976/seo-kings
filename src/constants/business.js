@@ -52,4 +52,8 @@ export const GBP_SERVICES = [
     name: 'Social media integration',
     description: 'We connect your website to your Facebook, Instagram and Google Business Profile so customers can find, follow and contact you from wherever they land.',
   },
+  {
+    name: 'Logo design',
+    description: 'Professional logo design for trades and local businesses from £150. Supplied in PNG, SVG and PDF — ready for your website, Google Business Profile, van signage and social media.',
+  },
 ];

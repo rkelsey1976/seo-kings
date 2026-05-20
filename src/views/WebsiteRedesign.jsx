@@ -90,7 +90,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Website redesign service for trades and local businesses across Bath, Keynsham, Trowbridge and Somerset. Fast, SEO-ready rebuilds from £399.',
       url: 'https://seo-kings.co.uk/website-redesign',

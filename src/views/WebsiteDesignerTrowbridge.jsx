@@ -79,7 +79,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites from £399 for trades and local businesses, with Google Business Profile included.',
       url: 'https://seo-kings.co.uk/website-designer-trowbridge',
@@ -308,7 +308,7 @@ const WebsiteDesignerTrowbridge = () => {
       {/* FAQ */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
               FAQs
             </p>

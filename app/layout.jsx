@@ -43,7 +43,7 @@ export const metadata = {
     apple: '/apple-touch-icon.png',
   },
   other: {
-    'geo.region': 'GB-BST',
+    'geo.region': 'GB-BAS',
     'geo.placename': 'Bath',
     'theme-color': '#E8715A',
     'msapplication-TileColor': '#0B1324',

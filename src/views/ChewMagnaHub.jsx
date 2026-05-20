@@ -66,7 +66,7 @@ const schema = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://seo-kings.co.uk/#business',
+      '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       description: 'Web design, local SEO and Google Business Profile agency serving Chew Magna BS40 and the Chew Valley. Fast, mobile-first websites from £399 and local SEO from £150/month for trades and local businesses across Chew Magna, Bath and Bristol.',
       url: 'https://seo-kings.co.uk/areas/chew-magna',
