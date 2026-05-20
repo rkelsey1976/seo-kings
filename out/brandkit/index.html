@@ -487,6 +487,7 @@
         <button class="social-tab" onclick="switchTab('facebook')">Facebook Cover</button>
         <button class="social-tab" onclick="switchTab('linkedin')">LinkedIn Banner</button>
         <button class="social-tab" onclick="switchTab('gbp')">GBP Cover</button>
+        <button class="social-tab" onclick="switchTab('gbp-post')">GBP Post</button>
       </div>
 
       <div class="canvas-area">
@@ -580,6 +581,7 @@
       facebook: { w: 820, h: 312, label: 'Facebook Cover' },
       linkedin: { w: 1584, h: 396, label: 'LinkedIn Banner' },
       gbp: { w: 1080, h: 608, label: 'GBP Cover' },
+      'gbp-post': { w: 1080, h: 1080, label: 'GBP Post' },
     };
 
     const allDownloadSizes = [
@@ -588,6 +590,7 @@
       { w: 820, h: 312, name: 'facebook-cover' },
       { w: 1584, h: 396, name: 'linkedin-banner' },
       { w: 1080, h: 608, name: 'gbp-cover' },
+      { w: 1080, h: 1080, name: 'gbp-post' },
     ];
 
     // -- Image upload --
