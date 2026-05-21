@@ -250,8 +250,8 @@ const WebDesignForPainterDecorators = () => {
             <div className="space-y-4 mb-8">
               {[
                 { name: 'Starter', desc: '1-page site — services, gallery and contact', price: 'From £250' },
-                { name: 'Professional', desc: '3-page site — home with gallery, 1 service page, contact', price: 'From £599' },
-                { name: 'Full', desc: '5+ pages — home, interior, exterior, heritage, gallery, service areas', price: 'From £999' },
+                { name: 'Professional', desc: '3-page site — home with gallery, 1 service page, contact', price: 'From £350' },
+                { name: 'Full', desc: '5+ pages — home, interior, exterior, heritage, gallery, service areas', price: 'From £450' },
               ].map((pkg) => (
                 <div key={pkg.name} className="flex items-center justify-between py-4 border-b border-white/[0.06] last:border-0">
                   <div>

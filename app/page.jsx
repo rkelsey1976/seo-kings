@@ -71,7 +71,7 @@ const bentoCells = [
     statLabel: 'ONE-PAGE SITES FROM',
     tag: 'Core Service',
     heading: 'Website Design for Trades',
-    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £250. Multi-page from £599. Click-to-call, quote form, and GBP set-up included.',
+    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £250. Multi-page from £350. Click-to-call, quote form, and GBP set-up included.',
     href: '/web-design',
     theme: 'dark',
     imageBg: '/images/cards/bg-website.webp',
@@ -91,7 +91,7 @@ const bentoCells = [
   {
     tag: 'Included',
     heading: 'Google Business Profile',
-    body: 'Claim, verify and fully optimise your GBP. Show up in the Map Pack — the top 3 results that capture 60% of local clicks. One-off £150 or included with every site.',
+    body: 'Claim, verify and fully optimise your GBP. Show up in the Map Pack — the top 3 results that capture 60% of local clicks. One-off £100 or included with every site.',
     href: '/google-business-profile',
     theme: 'dark',
     imageBg: '/images/keynsham/keynsham-code-screen.webp',

@@ -218,8 +218,8 @@ const WebDesignForElectricians = () => {
             <div className="space-y-4 mb-8">
               {[
                 { name: 'Starter', desc: '1-page site — services summary, contact, accreditation display', price: 'From £250' },
-                { name: 'Professional', desc: '3-page site — home, 1 service page (EICR or consumer unit), contact', price: 'From £599' },
-                { name: 'Full', desc: '5+ pages — home, EICR, consumer unit, EV charger, service areas, about', price: 'From £999' },
+                { name: 'Professional', desc: '3-page site — home, 1 service page (EICR or consumer unit), contact', price: 'From £350' },
+                { name: 'Full', desc: '5+ pages — home, EICR, consumer unit, EV charger, service areas, about', price: 'From £450' },
               ].map((pkg) => (
                 <div key={pkg.name} className="flex items-center justify-between py-4 border-b border-white/[0.06] last:border-0">
                   <div>

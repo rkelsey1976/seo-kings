@@ -14,13 +14,13 @@ const pricing = [
   },
   {
     name: 'Professional',
-    price: '£599',
+    price: '£350',
     desc: '8-page site with service + area pages, gallery, review integration',
     features: ['8 pages including Bath + 2 service pages', 'Before/after photo gallery', 'Google reviews integration', 'Service area pages for Bath neighbourhoods', 'Enhanced local SEO', 'Monthly reporting for 3 months'],
   },
   {
     name: 'Premium',
-    price: '£999',
+    price: '£450',
     desc: 'Full site with blog, local SEO campaign, monthly reporting',
     features: ['12+ pages with full service + area structure', 'Blog with Bath-specific content', '6-month local SEO campaign', 'Google Business Profile optimisation', 'Citation building across Bath directories', 'Monthly reporting and strategy calls'],
   },

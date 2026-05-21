@@ -46,7 +46,7 @@ const results = [
 const faqs = [
   {
     q: 'How much does a website redesign cost?',
-    a: 'A full redesign starts from £250 for a one-page site, £599 for three pages. We audit your existing site first so you know exactly what\'s involved and what it will cost before we start.',
+    a: 'A full redesign starts from £250 for a one-page site, £350 for three pages. It\'s £250 base + £50 per additional page. We audit your existing site first so you know exactly what\'s involved and what it will cost before we start.',
   },
   {
     q: 'Will I lose my Google rankings when you redesign my site?',
@@ -248,8 +248,8 @@ const WebsiteRedesign = () => {
               <div className="space-y-4 mb-8">
                 {[
                   { name: 'Starter Redesign', pages: '1-page rebuild', price: 'From £250' },
-                  { name: 'Professional Redesign', pages: '3-page rebuild', price: 'From £599' },
-                  { name: 'Full Redesign', pages: '5+ pages', price: 'From £999' },
+                  { name: 'Professional Redesign', pages: '3-page rebuild', price: 'From £350' },
+                  { name: 'Full Redesign', pages: '5+ pages', price: 'From £450' },
                 ].map((pkg) => (
                   <div key={pkg.name} className="flex items-center justify-between py-3 border-b border-white/[0.06] last:border-0">
                     <div>

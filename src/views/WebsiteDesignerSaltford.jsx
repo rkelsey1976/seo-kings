@@ -35,7 +35,7 @@ const included = [
 const faqs = [
   {
     q: 'How much does a website cost in Saltford?',
-    a: 'A one-page site starts at £250. Multi-page sites from £599. All include Google Business Profile set-up — no hidden extras. See our packages page for full pricing.',
+    a: 'A one-page site starts at £250. Multi-page sites are £250 base + £50 per page — a 3-page site is £350, a 5-page site is £450. All include GBP set-up. See our packages page for full pricing.',
   },
   {
     q: 'Do you work with businesses in Saltford?',
@@ -213,8 +213,8 @@ const WebsiteDesignerSaltford = () => {
               <div className="space-y-4 mb-8">
                 {[
                   { name: 'Starter', pages: '1-page site', price: 'From £250' },
-                  { name: 'Professional', pages: '3-page site', price: 'From £599' },
-                  { name: 'Full', pages: '5+ pages', price: 'From £999' },
+                  { name: 'Professional', pages: '3-page site', price: 'From £350' },
+                  { name: 'Full', pages: '5+ pages', price: 'From £450' },
                 ].map((pkg) => (
                   <div key={pkg.name} className="flex items-center justify-between py-3 border-b border-white/[0.06] last:border-0">
                     <div>
