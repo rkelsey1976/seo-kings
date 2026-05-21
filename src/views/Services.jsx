@@ -110,6 +110,21 @@ const services = [
     cta: 'Get in Touch',
     accentColor: '#E8715A',
   },
+  {
+    name: 'Website Hosting',
+    slug: 'hosting',
+    price: '6 months free',
+    tag: 'Add-on',
+    description: 'SSL, daily backups, uptime monitoring and content tweaks — so your site stays fast, secure and up to date. Free for 6 months with every website, then £199/year.',
+    bullets: [
+      'Free SSL certificate included',
+      'Daily automated backups',
+      'Uptime monitoring and alerts',
+      'Content tweaks and updates',
+    ],
+    cta: 'View Hosting',
+    accentColor: '#E8715A',
+  },
 ];
 
 const results = [
