@@ -248,39 +248,64 @@ const LocalSEO = () => {
               Local SEO for Your Trade
             </h2>
             <p className="text-gray-400">
-              Plumbers, electricians, roofers — we help you get found when customers in Bath & North East Somerset search.
+              Plumbers, electricians, roofers, builders and more — we help you get found when customers in Bath & North East Somerset search.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link
-              href="/local-seo/plumbers"
-              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
-            >
+            <Link href="/local-seo/plumbers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Plumbers</h3>
               <p className="text-gray-400 text-sm mb-4">Rank for &quot;plumber Bath&quot;, &quot;plumber Keynsham&quot; and get more jobs from Google.</p>
-              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-              </span>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
             </Link>
-            <Link
-              href="/local-seo/electricians"
-              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
-            >
+            <Link href="/local-seo/electricians" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Electricians</h3>
               <p className="text-gray-400 text-sm mb-4">Get found for &quot;electrician Bath&quot;, &quot;electrician Keynsham&quot; and win more work.</p>
-              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-              </span>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
             </Link>
-            <Link
-              href="/local-seo/roofers"
-              className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group"
-            >
+            <Link href="/local-seo/roofers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Roofers</h3>
               <p className="text-gray-400 text-sm mb-4">Rank for &quot;roofer Bath&quot;, &quot;roofing Keynsham&quot; and get more enquiries.</p>
-              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-              </span>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/builders" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Builders</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;builder Bath&quot;, &quot;building services Keynsham&quot; and win more projects.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/landscapers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Landscapers</h3>
+              <p className="text-gray-400 text-sm mb-4">Get found for &quot;landscaper Bath&quot;, &quot;garden design Keynsham&quot; and grow your client base.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/cleaners" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Cleaning Services</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;cleaner Bath&quot;, &quot;cleaning services Keynsham&quot; and get regular bookings.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/painters-decorators" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Painters & Decorators</h3>
+              <p className="text-gray-400 text-sm mb-4">Get found for &quot;painter Bath&quot;, &quot;decorator Keynsham&quot; and fill your diary.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/kitchen-fitters" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Kitchen Fitters</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;kitchen fitter Bath&quot;, &quot;kitchen installation Keynsham&quot; and win high-value jobs.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/bathroom-fitters" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Bathroom Fitters</h3>
+              <p className="text-gray-400 text-sm mb-4">Get found for &quot;bathroom fitter Bath&quot;, &quot;wet room Keynsham&quot; and grow your pipeline.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/heating-engineers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Heating Engineers</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for &quot;heating engineer Bath&quot;, &quot;boiler repair Keynsham&quot; and get emergency calls.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/plasterers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Plasterers</h3>
+              <p className="text-gray-400 text-sm mb-4">Get found for &quot;plasterer Bath&quot;, &quot;rendering Keynsham&quot; and keep your schedule full.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
             </Link>
           </div>
         </div>
