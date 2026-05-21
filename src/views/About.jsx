@@ -147,21 +147,19 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  We started SEO Kings to build websites for trades and local businesses in Bath 
-                  and North East Somerset — sites that look professional, load fast and work on phones. 
-                  But a great-looking site is no use if nobody finds it. So we offer SEO and Google 
-                  Business Profile as add-ons and as standalone services to make sure your site 
+                  We started SEO Kings to build websites for trades and local businesses in Bath
+                  and North East Somerset — sites that look professional, load fast and work on phones.
+                  Behind every site is 20 years of development experience and 15 years of graphic design,
+                  so you're not funding someone's learning curve.
+                </p>
+                <p>
+                  But a great-looking site is no use if nobody finds it. So we offer SEO and Google
+                  Business Profile as add-ons and as standalone services to make sure your site
                   gets found on Google and in the map pack.
                 </p>
                 <p>
-                  Our main service is website design: from one-page sites from £250 to full 
-                  multi-page sites. Every site we build is set up for local search. On top of that, 
-                  we provide local SEO and GBP optimisation so your business shows up when people 
-                  search for your trade in your area.
-                </p>
-                <p>
-                  Today we work with plumbers, electricians, cleaners, builders and other local 
-                  businesses across Bath, Keynsham, Midsomer Norton, Radstock and the wider area. 
+                  Today we work with plumbers, electricians, cleaners, builders and other local
+                  businesses across Bath, Keynsham, Midsomer Norton, Radstock and the wider area.
                   We've seen what works: a clear website plus a proper Google presence.
                 </p>
                 <p className="text-white font-medium">
@@ -187,15 +185,15 @@ const About = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Founded</span> — Bath & North East Somerset</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">20 years</span> — web development experience</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Focus</span> — Website design & SEO so you get found</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">15 years</span> — graphic design experience</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Today</span> — Websites for trades + SEO & GBP add-ons</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">Based</span> — Keynsham, serving Bath & BANES</span>
                     </div>
                   </div>
                 </div>
