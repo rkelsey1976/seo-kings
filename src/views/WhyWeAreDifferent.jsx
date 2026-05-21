@@ -40,7 +40,7 @@ const WhyWeAreDifferent = () => {
         </svg>
       ),
       title: 'Transparent, Fair Pricing',
-      description: 'We quote clearly: no hidden fees, no surprise add-ons. You\'ll see what\'s included before we start. From £399 for a one-page site to full multi-page and SEO — you know where you stand.',
+      description: 'We quote clearly: no hidden fees, no surprise add-ons. You\'ll see what\'s included before we start. From £250 for a one-page site to full multi-page and SEO — you know where you stand.',
     },
     {
       icon: (

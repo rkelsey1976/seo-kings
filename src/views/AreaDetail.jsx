@@ -100,9 +100,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '95,000+',
       heroImage: '/images/bath/royal-crescent-bath.webp',
       metaTitle: 'Web Design & SEO in Bath | Trades & Local Businesses',
-      metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £399, local SEO from £150/month. Free audit — no obligation.',
+      metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       heroHeadline: 'Web Design & SEO in Bath for Trades & Local Businesses',
-      heroSubhead: 'Website design from £399. Local SEO from £150/month. Google Business Profile included.',
+      heroSubhead: 'Website design from £250. Local SEO from £150/month. Google Business Profile included.',
       heroSubtext: 'No obligation. No credit card required.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
       extendedDescription: 'This creates huge demand for local services — from plumbers fixing tourist rentals to builders on new developments. Customers search Google for "plumber Bath" or "electrician Bath". We get you to the top.',
@@ -149,10 +149,10 @@ const AreaDetail = ({ params: staticParams }) => {
       whySectionImage: { src: '/images/keynsham/keynsham-wireframe.webp', alt: 'Website design planning and wireframe for a Bath trade business' },
       servicesSectionImage: { src: '/images/keynsham/keynsham-webdesign-laptop.webp', alt: 'Web design on laptop for a Bath local business' },
       websiteDesignSectionImage: { src: '/images/keynsham/keynsham-coding.webp', alt: 'Website development for Bath tradespeople and local businesses' },
-      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.webp', alt: 'Website development screen — web design costs in Bath from £399' },
+      costSectionImage: { src: '/images/keynsham/keynsham-code-screen.webp', alt: 'Website development screen — web design costs in Bath from £250' },
       whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.webp', alt: 'Website design mockup for a Bath trade business' },
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399, built to rank for your trade and location from day one.', href: '/website-designer-bath' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250, built to rank for your trade and location from day one.', href: '/website-designer-bath' },
         { name: 'Local SEO', description: 'Get into the map pack and onto page 1 for Bath trade searches. From £150/month.', href: '/local-seo/bath' },
         { name: 'Google Business Profile', description: 'Optimise your GBP so you show up in Maps and the local pack when customers search in BA1 and BA2.', href: '/google-business-profile' },
       ],
@@ -225,7 +225,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'What it costs to get found in Bath',
         paragraphs: [
-          'Website design starts at £399 for a fast, mobile-friendly site built for local search — Google Business Profile set-up included. Local SEO starts from £150/month and covers GBP optimisation, on-page fixes, citations and link building. Most Bath clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need and get a clear quote — no obligation.',
+          'Website design starts at £250 for a fast, mobile-friendly site built for local search — Google Business Profile set-up included. Local SEO starts from £150/month and covers GBP optimisation, on-page fixes, citations and link building. Most Bath clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need and get a clear quote — no obligation.',
         ],
       },
       whatToLookForSection: {
@@ -246,7 +246,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'What services do you offer in Bath?',
-          answer: 'Three core services: website design (from £399), local SEO (from £150/month), and Google Business Profile optimisation. Most Bath clients start with a website and add SEO once it\'s live. We also offer review management. Free audit to work out what you actually need.',
+          answer: 'Three core services: website design (from £250), local SEO (from £150/month), and Google Business Profile optimisation. Most Bath clients start with a website and add SEO once it\'s live. We also offer review management. Free audit to work out what you actually need.',
         },
         {
           question: 'Do I need a website AND local SEO in Bath?',
@@ -262,7 +262,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'How much does it cost to get found on Google in Bath?',
-          answer: 'Website design starts at £399. Local SEO from £150/month. Google Business Profile optimisation is included in both. Bath is competitive — the investment pays back quickly when you\'re getting calls instead of losing them to page-one competitors. Free audit, no obligation.',
+          answer: 'Website design starts at £250. Local SEO from £150/month. Google Business Profile optimisation is included in both. Bath is competitive — the investment pays back quickly when you\'re getting calls instead of losing them to page-one competitors. Free audit, no obligation.',
         },
       ],
     },
@@ -276,13 +276,13 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '16,000+',
       heroImage: '/images/keynsham/keynsham-hero.webp',
       metaTitle: 'Web Design & SEO in Keynsham BS31 | Trades & Local Businesses',
-      metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Keynsham BS31. Websites from £399, local SEO from £150/month. Free audit — no obligation.',
+      metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Keynsham BS31. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       heroHeadline: 'Web Design & SEO in Keynsham for Trades & Local Businesses',
-      heroSubhead: 'Website design from £399. Local SEO from £150/month. Google Business Profile included.',
-      description: 'Website designer in Keynsham — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Keynsham BS31 show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
+      heroSubhead: 'Website design from £250. Local SEO from £150/month. Google Business Profile included.',
+      description: 'Website designer in Keynsham — we get you found on Google. We offer web design from £250 and local SEO so trades and businesses in Keynsham BS31 show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset. We also cover nearby villages and neighbourhoods including Longwell Green, Warmley, Pensford, Compton Dando, Corston, Kelston, Whitchurch, and the wider BS31 and BS30 area.',
       heroStats: [
-        { value: '£399', label: 'Starting Price' },
+        { value: '£250', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: '1 week', label: 'Average Time to Launch' },
@@ -291,7 +291,7 @@ const AreaDetail = ({ params: staticParams }) => {
       testimonialImage: { src: '/images/keynsham/keynsham-developer.webp', alt: 'Web developer at work' },
       introParagraphs: [
         'Looking for a website designer in Keynsham? Keynsham is a busy market town with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO and web design Keynsham from £399 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
+        'We use local SEO and web design Keynsham from £250 to get your business found first — more calls, more jobs, more money in your pocket. See our website design and local SEO pages for details, or get a free audit.',
         'Keynsham is a thriving market town with strong local business density. From the historic Cadbury factory site and the High Street to the surrounding postcodes (BS31, BS30), there\'s consistent demand for local trades and services. When customers search "website design Keynsham" or "plumber Keynsham", they\'re looking for someone local who understands the area. That\'s us.',
       ],
       introImage: { src: '/images/keynsham/keynsham-st-john-church.webp', alt: 'St John the Baptist Church, Keynsham' },
@@ -306,7 +306,7 @@ const AreaDetail = ({ params: staticParams }) => {
       servicesHeading: 'What we do for Keynsham businesses',
       servicesSubtext: 'Website design, local SEO and Google Business Profile — all focused on getting Keynsham trades and local businesses found on Google and winning more customers.',
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
         { name: 'Local SEO', description: 'Add-on: rank for Keynsham and trade keywords. Keyword research, on-page, links.' },
         { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
@@ -391,7 +391,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Keynsham',
         paragraphs: [
-          'Website design in Keynsham starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
+          'Website design in Keynsham starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -407,7 +407,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'What services do you offer in Keynsham?',
-          answer: 'Three core services: website design (from £399), local SEO (from £150/month), and Google Business Profile optimisation. Most Keynsham clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need.',
+          answer: 'Three core services: website design (from £250), local SEO (from £150/month), and Google Business Profile optimisation. Most Keynsham clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need.',
         },
         {
           question: 'Do I need a website AND local SEO in Keynsham?',
@@ -423,7 +423,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'How much does it cost to get found on Google in Keynsham?',
-          answer: 'Website design starts at £399. Local SEO from £150/month. Google Business Profile optimisation is included in both. Keynsham is less competitive than Bath — your money goes further here. Free audit, no obligation.',
+          answer: 'Website design starts at £250. Local SEO from £150/month. Google Business Profile optimisation is included in both. Keynsham is less competitive than Bath — your money goes further here. Free audit, no obligation.',
         },
       ],
     },
@@ -435,14 +435,14 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '11,000+',
       heroImage: '/images/areas/midsomer-norton.webp',
-      metaTitle: 'Website Designer in Midsomer Norton | Web Design from £399',
-      metaDescription: 'Professional website designer in Midsomer Norton BA3. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
-      heroHeadline: 'Website Designer in Midsomer Norton: Web Design & SEO from £399',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'Website designer in Midsomer Norton — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Midsomer Norton BA3 show up when people search "plumber Midsomer Norton", "electrician BA3", "cleaner Midsomer Norton" and more. Whether you need a professional website designer in Midsomer Norton or help with your Google Business Profile, we help you get more calls and more jobs.',
+      metaTitle: 'Website Designer in Midsomer Norton | Web Design from £250',
+      metaDescription: 'Professional website designer in Midsomer Norton BA3. Mobile-friendly web design from £250 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
+      heroHeadline: 'Website Designer in Midsomer Norton: Web Design & SEO from £250',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
+      description: 'Website designer in Midsomer Norton — we get you found on Google. We offer web design from £250 and local SEO so trades and businesses in Midsomer Norton BA3 show up when people search "plumber Midsomer Norton", "electrician BA3", "cleaner Midsomer Norton" and more. Whether you need a professional website designer in Midsomer Norton or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, cleaners, and more in Midsomer Norton and the Somer Valley. We also cover Radstock, Paulton, Peasedown St John, Westfield, and the wider Bath and North East Somerset area.',
       heroStats: [
-        { value: '£399', label: 'Starting Price' },
+        { value: '£250', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: 'Fully booked', label: 'Peachy Cleans result' },
@@ -451,7 +451,7 @@ const AreaDetail = ({ params: staticParams }) => {
       testimonialImage: { src: '/images/keynsham/keynsham-developer.webp', alt: 'Web developer at work' },
       introParagraphs: [
         'Looking for a website designer in Midsomer Norton? Midsomer Norton is a busy market town in the Somer Valley with thousands of local homes and businesses. Customers search Google for plumbers, electricians, builders, cleaners and other trades right here in BA3. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO and web design Midsomer Norton from £399 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
+        'We use local SEO and web design Midsomer Norton from £250 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
       ],
       introImage: { src: '/images/midsomer-norton/midsomer-norton-website-designer-mobile-desktop.webp', alt: 'Mobile and desktop — we build websites that work on every device' },
       whyHeading: 'Why Choose SEO Kings in Midsomer Norton',
@@ -465,7 +465,7 @@ const AreaDetail = ({ params: staticParams }) => {
       servicesHeading: 'Website design in Midsomer Norton — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Midsomer Norton.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Midsomer Norton.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
         { name: 'Local SEO', description: 'Add-on: rank for Midsomer Norton and trade keywords. Keyword research, on-page, links.' },
         { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
@@ -540,7 +540,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Midsomer Norton',
         paragraphs: [
-          'Website design in Midsomer Norton starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
+          'Website design in Midsomer Norton starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookFor: {
@@ -551,7 +551,7 @@ const AreaDetail = ({ params: staticParams }) => {
         ],
       },
       faqs: [
-        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.' },
+        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.' },
         { question: 'Do you build websites optimised for local Midsomer Norton searches?', answer: 'Yes. Every site we build is optimised for local searches like "website designer Midsomer Norton", "web design Midsomer Norton BA3" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.' },
         { question: 'Is SEO worth it for a small Midsomer Norton business?', answer: 'Yes. Smaller towns like Midsomer Norton have lower competition. A good local setup can quickly put you at the top and bring steady jobs.' },
         { question: 'How do you target Midsomer Norton specifically?', answer: 'We use local keywords, optimise your Google Business Profile, build citations in Bath and North East Somerset directories, and earn links from nearby sites.' },
@@ -571,15 +571,15 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       population: '6,000+',
       heroImage: '/images/radstock/st-nicholas-church-radstock.webp',
-      metaTitle: 'Website Designer in Radstock | Web Design from £399 – SEO Kings',
-      metaDescription: 'Professional website designer in Radstock BA3. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
-      heroHeadline: 'Website Designer in Radstock: Web Design & SEO from £399',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      metaTitle: 'Website Designer in Radstock | Web Design from £250 – SEO Kings',
+      metaDescription: 'Professional website designer in Radstock BA3. Mobile-friendly web design from £250 with built-in local SEO & Google Business Profile. Free audit for Somer Valley, Bath & Somerset.',
+      heroHeadline: 'Website Designer in Radstock: Web Design & SEO from £250',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       heroSubtext: 'No obligation. No credit card required.',
-      description: 'Website designer in Radstock — we get you found on Google. We offer web design from £399 and local SEO so trades and businesses in Radstock BA3 show up when people search "plumber Radstock", "electrician BA3", "builder Radstock" and more. Whether you need a professional website designer in Radstock or help with your Google Business Profile, we help you get more calls and more jobs.',
+      description: 'Website designer in Radstock — we get you found on Google. We offer web design from £250 and local SEO so trades and businesses in Radstock BA3 show up when people search "plumber Radstock", "electrician BA3", "builder Radstock" and more. Whether you need a professional website designer in Radstock or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Radstock and the Somer Valley. We also cover Midsomer Norton, Paulton, Peasedown St John, Westfield, Writhlington, Chilcompton, and the wider Bath and North East Somerset area.',
       heroStats: [
-        { value: '£399', label: 'Starting Price' },
+        { value: '£250', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: '+180%', label: 'Porter Electrical leads' },
@@ -587,7 +587,7 @@ const AreaDetail = ({ params: staticParams }) => {
       testimonialImage: { src: '/images/keynsham/keynsham-developer.webp', alt: 'Web developer at work' },
       introParagraphs: [
         'Looking for a website designer in Radstock? Radstock is a former mining town with a strong community and growing local economy. Customers search Google for plumbers, electricians, builders, and other trades right here in BA3. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO and web design Radstock from £399 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
+        'We use local SEO and web design Radstock from £250 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
       ],
       introImage: { src: '/images/radstock/st-nicholas-church-radstock.webp', alt: 'St Nicholas Church, Radstock — local landmark in BA3' },
       whyHeading: 'Why Choose SEO Kings in Radstock',
@@ -601,7 +601,7 @@ const AreaDetail = ({ params: staticParams }) => {
       servicesHeading: 'Website design in Radstock — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Radstock.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Radstock.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
         { name: 'Local SEO', description: 'Add-on: rank for Radstock and trade keywords. Keyword research, on-page, links.' },
         { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
@@ -688,7 +688,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Radstock',
         paragraphs: [
-          'Website design in Radstock starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
+          'Website design in Radstock starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -704,7 +704,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Radstock?',
-          answer: 'Website design in Radstock starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
+          answer: 'Website design in Radstock starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
         },
         {
           question: 'Is there enough search volume in Radstock for SEO to work?',
@@ -737,9 +737,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '6,500+',
       heroImage: '/images/areas/peasedown-st-john.webp',
       metaTitle: 'Website design Peasedown St John | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Peasedown St John from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Peasedown St John from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Peasedown St John',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Peasedown St John is a growing village just south of Bath. New homes mean more people need local trades. Plumbers, electricians, builders – customers search Google right here.',
       extendedDescription: 'We get you found first.',
       industries: ['Trades', 'Retail', 'Services', 'Childcare'],
@@ -827,9 +827,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '5,300+',
       heroImage: '/images/areas/paulton.webp',
       metaTitle: 'Website design Paulton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Paulton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Paulton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Paulton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Paulton is a friendly village in the Cam Valley with about 5,300–6,500 residents. Well-connected to Bath and nearby towns. Businesses here serve locals plus visitors to the area (including nearby Paultons Park).',
       extendedDescription: 'Customers search Google for "plumber Paulton" or "cleaner Paulton". We get you found first.',
       heroStats: [
@@ -930,14 +930,14 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS31'],
       population: '5,000+',
       heroImage: '/images/saltford/saltford-hero.webp',
-      metaTitle: 'Website Designer in Saltford | Web Design from £399',
-      metaDescription: 'Professional website designer in Saltford BS31. Mobile-friendly web design from £399 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
-      heroHeadline: 'Website Designer in Saltford: Web Design & SEO from £399',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
-      description: 'Website designer in Saltford — we get you found on Google. Saltford is a picturesque riverside village on the River Avon between Bath and Bristol. We offer web design from £399 and local SEO so trades and businesses in Saltford BS31 show up when people search "plumber Saltford", "electrician Saltford" and more.',
+      metaTitle: 'Website Designer in Saltford | Web Design from £250',
+      metaDescription: 'Professional website designer in Saltford BS31. Mobile-friendly web design from £250 with built-in local SEO & Google Business Profile optimisation. Free audit for Bath, Bristol & Somerset businesses.',
+      heroHeadline: 'Website Designer in Saltford: Web Design & SEO from £250',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
+      description: 'Website designer in Saltford — we get you found on Google. Saltford is a picturesque riverside village on the River Avon between Bath and Bristol. We offer web design from £250 and local SEO so trades and businesses in Saltford BS31 show up when people search "plumber Saltford", "electrician Saltford" and more.',
       extendedDescription: 'Local trades serve both villagers and visitors drawn to historic spots like Saltford Manor. Customers search Google for "plumber Saltford" or "electrician Saltford". We get you to the top spots.',
       heroStats: [
-        { value: '£399', label: 'Starting Price' },
+        { value: '£250', label: 'Starting Price' },
         { value: '5★', label: 'Google Rating' },
         { value: '5★', label: 'Google Rating' },
         { value: '1 week', label: 'Average Time to Launch' },
@@ -946,7 +946,7 @@ const AreaDetail = ({ params: staticParams }) => {
       testimonialImage: { src: '/images/keynsham/keynsham-developer.webp', alt: 'Web developer at work' },
       introParagraphs: [
         'Looking for a website designer in Saltford? Saltford is a riverside village with an affluent community. Customers search Google for plumbers, electricians, builders, and other trades right here in BS31. Most trades miss out because they don\'t show up on page 1 or in the map pack. We fix that.',
-        'We use local SEO and web design Saltford from £399 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
+        'We use local SEO and web design Saltford from £250 to get your business found first — more calls, more jobs. See our website design and local SEO pages for details, or get a free audit.',
       ],
       introImage: { src: '/images/saltford/saltford-hero.webp', alt: 'Saltford Marina, River Avon' },
       whyHeading: 'Why Choose SEO Kings in Saltford',
@@ -960,7 +960,7 @@ const AreaDetail = ({ params: staticParams }) => {
       servicesHeading: 'Website design in Saltford — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Saltford.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Saltford.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack. More views, calls, and wins.' },
         { name: 'Local SEO', description: 'Add-on: rank for Saltford and trade keywords. Keyword research, on-page, links.' },
         { name: 'Review Management', description: 'Add-on: build trust with 5★ reviews. Monthly reporting.' },
@@ -1041,7 +1041,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Saltford',
         paragraphs: [
-          'Website design in Saltford starts at £399 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
+          'Website design in Saltford starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -1057,7 +1057,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Saltford?',
-          answer: 'Website design in Saltford starts at £399 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
+          answer: 'Website design in Saltford starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
         },
         {
           question: 'Do you build websites optimised for local Saltford searches?',
@@ -1089,9 +1089,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '2,600+',
       heroImage: '/images/areas/timsbury.webp',
       metaTitle: 'Website design Timsbury | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Timsbury from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Timsbury from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Timsbury',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Timsbury is a charming rural village near Paulton and Midsomer Norton. Around 2,600 residents enjoy a close-knit community and peaceful setting.',
       extendedDescription: 'Local trades benefit from strong word-of-mouth plus growing online searches. Customers search Google for "builder Timsbury" or "plumber Timsbury". We get you found first.',
       heroStats: [
@@ -1188,9 +1188,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '2,000+',
       heroImage: '/images/areas/westfield.webp',
       metaTitle: 'Website design Westfield | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Westfield from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Westfield from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Westfield',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Westfield is a village in the Somer Valley, near Radstock and Midsomer Norton. Local trades serve residents and the wider area.',
       extendedDescription: 'People in Westfield and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
@@ -1268,9 +1268,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '1,200+',
       heroImage: '/images/areas/chew-magna.webp',
       metaTitle: 'Website design Chew Magna | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Chew Magna from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Chew Magna from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Chew Magna',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Chew Magna is a village in the Chew Valley, between Bristol and Bath. A strong community and scenic setting attract residents and visitors.',
       extendedDescription: 'Local trades serve Chew Magna and the wider Chew Valley. Customers search Google for "plumber Chew Magna" or "electrician Chew Valley". We get you found first.',
       heroStats: [
@@ -1351,9 +1351,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '1,500+',
       heroImage: '/images/areas/temple-cloud.webp',
       metaTitle: 'Website design Temple Cloud | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Temple Cloud from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Temple Cloud from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Temple Cloud',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Temple Cloud is a village in the Cam Valley, near Paulton and Clutton. Local trades serve the village and surrounding areas.',
       extendedDescription: 'People in Temple Cloud and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
@@ -1430,9 +1430,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: '1,800+',
       heroImage: '/images/areas/clutton.webp',
       metaTitle: 'Website design Clutton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Clutton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
+      metaDescription: 'Website design in Clutton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so trades get found on Google. Free check.',
       heroHeadline: 'Website design in Clutton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Clutton is a village in the Cam Valley, near Temple Cloud and Paulton. Local trades serve the village and the wider area.',
       extendedDescription: 'People in Clutton and nearby search Google for local services. We get your business to the top of local search and the map pack.',
       heroStats: [
@@ -1513,9 +1513,9 @@ const AreaDetail = ({ params: staticParams }) => {
       population: null,
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Odd Down Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Odd Down, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Odd Down, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Odd Down, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Odd Down is a residential area in the south of Bath. Part of Bath and North East Somerset, it has strong demand for local trades — plumbers, electricians, builders, decorators.',
       extendedDescription: 'Customers search "plumber Odd Down" or "electrician Bath". We get you found on Google and in the map pack.',
       heroStats: [
@@ -1532,7 +1532,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads for long-term leads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Odd Down, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Odd Down, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
         { name: 'Local SEO', description: 'Add-on: rank for Odd Down and Bath + trade keywords.' },
       ],
@@ -1563,7 +1563,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath', 'keynsham', 'peasedown-st-john'],
       faqs: [
         { question: 'Do you cover Odd Down specifically?', answer: 'Yes. We target Odd Down and Bath so you show up when local customers search.' },
-        { question: 'Website design in Odd Down?', answer: 'Yes. We build fast, mobile-friendly websites for Bath and North East Somerset businesses. From £399 for a one-page site.' },
+        { question: 'Website design in Odd Down?', answer: 'Yes. We build fast, mobile-friendly websites for Bath and North East Somerset businesses. From £250 for a one-page site.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1580,9 +1580,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Combe Down Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Combe Down, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Combe Down, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Combe Down, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Combe Down is a village and area on the southern edge of Bath. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Combe Down" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1599,7 +1599,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Combe Down, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Combe Down, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Combe Down and Bath + trade keywords.' },
       ],
@@ -1629,7 +1629,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath', 'peasedown-st-john'],
       faqs: [
         { question: 'Do you cover Combe Down?', answer: 'Yes. We target Combe Down and Bath so you show up when local customers search.' },
-        { question: 'Website design in Combe Down?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Combe Down?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1646,9 +1646,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Widcombe Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Widcombe, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Widcombe, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Widcombe, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Widcombe is a sought-after area of Bath with Georgian terraces and period homes. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Widcombe" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1665,7 +1665,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Widcombe, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Widcombe, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Widcombe and Bath + trade keywords.' },
       ],
@@ -1695,7 +1695,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'larkhall-bath', 'twerton-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Widcombe?', answer: 'Yes. We target Widcombe and Bath so you show up when local customers search.' },
-        { question: 'Website design in Widcombe?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Widcombe?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1712,9 +1712,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1', 'BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Larkhall Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Larkhall, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Larkhall, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Larkhall, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Larkhall is a vibrant area of Bath with independent shops and local businesses. Part of Bath and North East Somerset, it has strong demand for trades and services.',
       extendedDescription: 'Customers search "plumber Larkhall" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1731,7 +1731,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Larkhall, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Larkhall, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Larkhall and Bath + trade keywords.' },
       ],
@@ -1761,7 +1761,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'twerton-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Larkhall?', answer: 'Yes. We target Larkhall and Bath so you show up when local customers search.' },
-        { question: 'Website design in Larkhall?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Larkhall?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1778,9 +1778,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Twerton Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Twerton, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Twerton, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Twerton, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Twerton is an area in the west of Bath. Part of Bath and North East Somerset, it has strong demand for local trades — plumbers, electricians, builders, decorators.',
       extendedDescription: 'Customers search "plumber Twerton" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1797,7 +1797,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Twerton, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Twerton, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Twerton and Bath + trade keywords.' },
       ],
@@ -1827,7 +1827,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'larkhall-bath', 'keynsham', 'saltford'],
       faqs: [
         { question: 'Do you cover Twerton?', answer: 'Yes. We target Twerton and Bath so you show up when local customers search.' },
-        { question: 'Website design in Twerton?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Twerton?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1844,9 +1844,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Weston Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Weston, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Weston, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Weston, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Weston is a residential area in the north of Bath. Part of Bath and North East Somerset, it has strong demand for local trades — plumbers, electricians, builders, decorators.',
       extendedDescription: 'Customers search "plumber Weston Bath" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1863,7 +1863,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Weston, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Weston, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Weston and Bath + trade keywords.' },
       ],
@@ -1893,7 +1893,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'widcombe-bath', 'larkhall-bath', 'twerton-bath', 'keynsham', 'saltford'],
       faqs: [
         { question: 'Do you cover Weston?', answer: 'Yes. We target Weston and Bath so you show up when local customers search.' },
-        { question: 'Website design in Weston?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Weston?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1910,9 +1910,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Oldfield Park Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Oldfield Park, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Oldfield Park, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Oldfield Park, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Oldfield Park is a popular residential area south of the river in Bath. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Oldfield Park" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1929,7 +1929,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Oldfield Park, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Oldfield Park, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Oldfield Park and Bath + trade keywords.' },
       ],
@@ -1959,7 +1959,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'widcombe-bath', 'bear-flat-bath', 'odd-down-bath', 'twerton-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Oldfield Park?', answer: 'Yes. We target Oldfield Park and Bath so you show up when local customers search.' },
-        { question: 'Website design in Oldfield Park?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Oldfield Park?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1976,9 +1976,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Bear Flat Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bear Flat, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bear Flat, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bear Flat, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bear Flat is a well-known area in south Bath with a strong local high street. Part of Bath and North East Somerset, it has strong demand for trades and services.',
       extendedDescription: 'Customers search "plumber Bear Flat" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -1995,7 +1995,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bear Flat, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bear Flat, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bear Flat and Bath + trade keywords.' },
       ],
@@ -2025,7 +2025,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'odd-down-bath', 'oldfield-park-bath', 'combe-down-bath', 'widcombe-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Bear Flat?', answer: 'Yes. We target Bear Flat and Bath so you show up when local customers search.' },
-        { question: 'Website design in Bear Flat?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bear Flat?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2042,9 +2042,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Bathampton Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bathampton, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bathampton, near Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bathampton, near Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathampton is a village on the eastern edge of Bath, on the Kennet & Avon Canal. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Bathampton" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2061,7 +2061,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bathampton, near Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathampton, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bathampton and Bath + trade keywords.' },
       ],
@@ -2091,7 +2091,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'widcombe-bath', 'larkhall-bath', 'keynsham', 'saltford'],
       faqs: [
         { question: 'Do you cover Bathampton?', answer: 'Yes. We target Bathampton and Bath so you show up when local customers search.' },
-        { question: 'Website design in Bathampton?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bathampton?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2108,9 +2108,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Bathwick Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bathwick, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bathwick, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bathwick, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathwick is an area east of Bath city centre, home to the university and the Kennet & Avon Canal. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Bathwick" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2127,7 +2127,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bathwick, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathwick, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bathwick and Bath + trade keywords.' },
       ],
@@ -2157,7 +2157,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'widcombe-bath', 'bathampton-bath', 'larkhall-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Bathwick?', answer: 'Yes. We target Bathwick and Bath so you show up when local customers search.' },
-        { question: 'Website design in Bathwick?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bathwick?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2174,9 +2174,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA2'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Southdown Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Southdown, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Southdown, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Southdown, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Southdown is a residential area in south Bath with a busy local high street. Part of Bath and North East Somerset, it has strong demand for plumbers, electricians, builders, and decorators.',
       extendedDescription: 'Customers search "plumber Southdown" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2193,7 +2193,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Southdown, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Southdown, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Southdown and Bath + trade keywords.' },
       ],
@@ -2223,7 +2223,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'bear-flat-bath', 'odd-down-bath', 'combe-down-bath', 'widcombe-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Southdown?', answer: 'Yes. We target Southdown and Bath so you show up when local customers search.' },
-        { question: 'Website design in Southdown?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Southdown?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2240,9 +2240,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Batheaston Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Batheaston, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Batheaston, near Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Batheaston, near Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Batheaston is a village on the eastern edge of Bath, on the A4. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Batheaston" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2259,7 +2259,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Batheaston, near Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Batheaston, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Batheaston and Bath + trade keywords.' },
       ],
@@ -2289,7 +2289,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'bathford-bath', 'bathampton-bath', 'bathwick-bath', 'keynsham', 'saltford'],
       faqs: [
         { question: 'Do you cover Batheaston?', answer: 'Yes. We target Batheaston and Bath so you show up when local customers search.' },
-        { question: 'Website design in Batheaston?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Batheaston?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2306,9 +2306,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Walcot Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Walcot, Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Walcot, Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Walcot, Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Walcot is an area north of Bath city centre, known for Walcot Street and independent shops. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Walcot" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2325,7 +2325,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Walcot, Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Walcot, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Walcot and Bath + trade keywords.' },
       ],
@@ -2355,7 +2355,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'weston-bath', 'larkhall-bath', 'widcombe-bath', 'keynsham'],
       faqs: [
         { question: 'Do you cover Walcot?', answer: 'Yes. We target Walcot and Bath so you show up when local customers search.' },
-        { question: 'Website design in Walcot?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Walcot?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2372,9 +2372,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA1'],
       heroImage: '/images/areas/bath-roman-baths.webp',
       metaTitle: 'Website design Bathford Bath | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bathford, near Bath from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bathford, near Bath from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bathford, near Bath',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathford is a village east of Bath on the A36. Part of Bath and North East Somerset, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Bathford" or "electrician Bath". We get you on the map and on page one.',
       heroStats: [
@@ -2391,7 +2391,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bathford, near Bath.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathford, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bathford and Bath + trade keywords.' },
       ],
@@ -2421,7 +2421,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['bath', 'batheaston-bath', 'bathampton-bath', 'bathwick-bath', 'keynsham', 'saltford'],
       faqs: [
         { question: 'Do you cover Bathford?', answer: 'Yes. We target Bathford and Bath so you show up when local customers search.' },
-        { question: 'Website design in Bathford?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bathford?', answer: 'Yes. We build fast websites for Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2440,9 +2440,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS30', 'BS31'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
       metaTitle: 'Website design Bitton Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bitton, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bitton, near Keynsham from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bitton, near Keynsham',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bitton is a village between Keynsham and Bristol. Part of the BS30/BS31 area, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Bitton" or "electrician Keynsham". We get you on the map and on page one.',
       heroStats: [
@@ -2459,7 +2459,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bitton, near Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bitton, near Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bitton and Keynsham + trade keywords.' },
       ],
@@ -2489,7 +2489,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'hanham-keynsham', 'oldland-keynsham', 'bath', 'saltford', 'paulton'],
       faqs: [
         { question: 'Do you cover Bitton?', answer: 'Yes. We target Bitton and Keynsham so you show up when local customers search.' },
-        { question: 'Website design in Bitton?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bitton?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2506,9 +2506,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS15', 'BS30'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
       metaTitle: 'Website design Hanham Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Hanham, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Hanham, near Keynsham from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Hanham, near Keynsham',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Hanham is a village between Keynsham and Bristol. Part of the BS15/BS30 area, it has strong demand for local trades and services.',
       extendedDescription: 'Customers search "plumber Hanham" or "electrician Keynsham". We get you on the map and on page one.',
       heroStats: [
@@ -2525,7 +2525,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Hanham, near Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Hanham, near Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Hanham and Keynsham + trade keywords.' },
       ],
@@ -2555,7 +2555,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'bitton-keynsham', 'bath', 'saltford', 'oldland-keynsham'],
       faqs: [
         { question: 'Do you cover Hanham?', answer: 'Yes. We target Hanham and Keynsham so you show up when local customers search.' },
-        { question: 'Website design in Hanham?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Hanham?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2572,9 +2572,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS30'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
       metaTitle: 'Website design Oldland Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Oldland, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Oldland, near Keynsham from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Oldland, near Keynsham',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Oldland is a village near Keynsham and Bitton in the BS30 area. Part of the Keynsham catchment, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Oldland" or "electrician Keynsham". We get you on the map and on page one.',
       heroStats: [
@@ -2591,7 +2591,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Oldland, near Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Oldland, near Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Oldland and Keynsham + trade keywords.' },
       ],
@@ -2621,7 +2621,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'bitton-keynsham', 'hanham-keynsham', 'bath', 'saltford'],
       faqs: [
         { question: 'Do you cover Oldland?', answer: 'Yes. We target Oldland and Keynsham so you show up when local customers search.' },
-        { question: 'Website design in Oldland?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Oldland?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2638,9 +2638,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS30'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
       metaTitle: 'Website design Longwell Green Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Longwell Green, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Longwell Green, near Keynsham from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Longwell Green, near Keynsham',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Longwell Green is a village near Keynsham and Hanham in the BS30 area. Part of the Keynsham catchment, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Longwell Green" or "electrician Keynsham". We get you on the map and on page one.',
       heroStats: [
@@ -2657,7 +2657,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Longwell Green, near Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Longwell Green, near Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Longwell Green and Keynsham + trade keywords.' },
       ],
@@ -2687,7 +2687,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'hanham-keynsham', 'bitton-keynsham', 'bath', 'saltford'],
       faqs: [
         { question: 'Do you cover Longwell Green?', answer: 'Yes. We target Longwell Green and Keynsham so you show up when local customers search.' },
-        { question: 'Website design in Longwell Green?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Longwell Green?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2704,9 +2704,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS30'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
       metaTitle: 'Website design Warmley Keynsham | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Warmley, near Keynsham from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Warmley, near Keynsham from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Warmley, near Keynsham',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Warmley is an area near Keynsham and Hanham in the BS30 area. Part of the Keynsham catchment, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Warmley" or "electrician Keynsham". We get you on the map and on page one.',
       heroStats: [
@@ -2723,7 +2723,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Warmley, near Keynsham.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Warmley, near Keynsham.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Warmley and Keynsham + trade keywords.' },
       ],
@@ -2753,7 +2753,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'hanham-keynsham', 'longwell-green-keynsham', 'bath', 'saltford'],
       faqs: [
         { question: 'Do you cover Warmley?', answer: 'Yes. We target Warmley and Keynsham so you show up when local customers search.' },
-        { question: 'Website design in Warmley?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Warmley?', answer: 'Yes. We build fast websites for Keynsham and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2772,9 +2772,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       heroImage: '/images/areas/midsomer-norton.webp',
       metaTitle: 'Website design Clandown Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Clandown, near Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Clandown, near Midsomer Norton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Clandown, near Midsomer Norton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Clandown is an area near Midsomer Norton in the Somer Valley. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Clandown" or "electrician Midsomer Norton". We get you on the map and on page one.',
       heroStats: [
@@ -2791,7 +2791,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Clandown, near Midsomer Norton.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Clandown, near Midsomer Norton.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Clandown and Midsomer Norton + trade keywords.' },
       ],
@@ -2821,7 +2821,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['midsomer-norton', 'radstock', 'westfield', 'paulton', 'bath'],
       faqs: [
         { question: 'Do you cover Clandown?', answer: 'Yes. We target Clandown and Midsomer Norton so you show up when local customers search.' },
-        { question: 'Website design in Clandown?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Clandown?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2838,9 +2838,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3', 'BS39'],
       heroImage: '/images/areas/midsomer-norton.webp',
       metaTitle: 'Website design Farrington Gurney Midsomer Norton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Farrington Gurney, near Midsomer Norton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Farrington Gurney, near Midsomer Norton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Farrington Gurney, near Midsomer Norton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Farrington Gurney is a village in the Somer Valley, near Midsomer Norton and Paulton. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Farrington Gurney" or "electrician Midsomer Norton". We get you on the map and on page one.',
       heroStats: [
@@ -2857,7 +2857,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Farrington Gurney, near Midsomer Norton.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Farrington Gurney, near Midsomer Norton.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Farrington Gurney and Midsomer Norton + trade keywords.' },
       ],
@@ -2886,7 +2886,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['midsomer-norton', 'clandon-midsomer-norton', 'paulton', 'radstock', 'bath'],
       faqs: [
         { question: 'Do you cover Farrington Gurney?', answer: 'Yes. We target Farrington Gurney and Midsomer Norton so you show up when local customers search.' },
-        { question: 'Website design in Farrington Gurney?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Farrington Gurney?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2905,9 +2905,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       heroImage: '/images/areas/radstock.webp',
       metaTitle: 'Website design Writhlington Radstock | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Writhlington, near Radstock from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Writhlington, near Radstock from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Writhlington, near Radstock',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Writhlington is a village near Radstock in the Somer Valley. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Writhlington" or "electrician Radstock". We get you on the map and on page one.',
       heroStats: [
@@ -2924,7 +2924,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Writhlington, near Radstock.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Writhlington, near Radstock.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Writhlington and Radstock + trade keywords.' },
       ],
@@ -2953,7 +2953,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['radstock', 'chilcompton-radstock', 'midsomer-norton', 'paulton', 'bath'],
       faqs: [
         { question: 'Do you cover Writhlington?', answer: 'Yes. We target Writhlington and Radstock so you show up when local customers search.' },
-        { question: 'Website design in Writhlington?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Writhlington?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2970,9 +2970,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BA3'],
       heroImage: '/images/areas/radstock.webp',
       metaTitle: 'Website design Chilcompton Radstock | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Chilcompton, near Radstock from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Chilcompton, near Radstock from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Chilcompton, near Radstock',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Chilcompton is a village near Radstock in the Somer Valley. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Chilcompton" or "electrician Radstock". We get you on the map and on page one.',
       heroStats: [
@@ -2989,7 +2989,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Chilcompton, near Radstock.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Chilcompton, near Radstock.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Chilcompton and Radstock + trade keywords.' },
       ],
@@ -3018,7 +3018,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['radstock', 'writhlington-radstock', 'midsomer-norton', 'paulton', 'bath'],
       faqs: [
         { question: 'Do you cover Chilcompton?', answer: 'Yes. We target Chilcompton and Radstock so you show up when local customers search.' },
-        { question: 'Website design in Chilcompton?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Chilcompton?', answer: 'Yes. We build fast websites for Somer Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3037,9 +3037,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       heroImage: '/images/areas/chew-magna.webp',
       metaTitle: 'Website design Stanton Drew Chew Valley | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Stanton Drew, Chew Valley from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Stanton Drew, Chew Valley from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Stanton Drew, Chew Valley',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Stanton Drew is a village in the Chew Valley, known for its stone circle. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Stanton Drew" or "electrician Chew Valley". We get you on the map and on page one.',
       heroStats: [
@@ -3056,7 +3056,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Stanton Drew, Chew Valley.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Stanton Drew, Chew Valley.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Stanton Drew and Chew Valley + trade keywords.' },
       ],
@@ -3085,7 +3085,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['chew-magna', 'chew-stoke-chew-magna', 'bishop-sutton-chew-magna', 'keynsham', 'bath'],
       faqs: [
         { question: 'Do you cover Stanton Drew?', answer: 'Yes. We target Stanton Drew and Chew Valley so you show up when local customers search.' },
-        { question: 'Website design in Stanton Drew?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Stanton Drew?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3102,9 +3102,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS40'],
       heroImage: '/images/areas/chew-magna.webp',
       metaTitle: 'Website design Chew Stoke Chew Valley | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Chew Stoke, Chew Valley from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Chew Stoke, Chew Valley from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Chew Stoke, Chew Valley',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Chew Stoke is a village in the Chew Valley, near Chew Magna and Chew Valley Lake. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Chew Stoke" or "electrician Chew Valley". We get you on the map and on page one.',
       heroStats: [
@@ -3121,7 +3121,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Chew Stoke, Chew Valley.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Chew Stoke, Chew Valley.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Chew Stoke and Chew Valley + trade keywords.' },
       ],
@@ -3150,7 +3150,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['chew-magna', 'stanton-drew-chew-magna', 'bishop-sutton-chew-magna', 'keynsham', 'bath'],
       faqs: [
         { question: 'Do you cover Chew Stoke?', answer: 'Yes. We target Chew Stoke and Chew Valley so you show up when local customers search.' },
-        { question: 'Website design in Chew Stoke?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Chew Stoke?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3167,9 +3167,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       heroImage: '/images/areas/chew-magna.webp',
       metaTitle: 'Website design Bishop Sutton Chew Valley | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Bishop Sutton, Chew Valley from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Bishop Sutton, Chew Valley from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Bishop Sutton, Chew Valley',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bishop Sutton is a village in the Chew Valley, near Chew Magna. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Bishop Sutton" or "electrician Chew Valley". We get you on the map and on page one.',
       heroStats: [
@@ -3186,7 +3186,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Bishop Sutton, Chew Valley.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bishop Sutton, Chew Valley.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Bishop Sutton and Chew Valley + trade keywords.' },
       ],
@@ -3215,7 +3215,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['chew-magna', 'stanton-drew-chew-magna', 'chew-stoke-chew-magna', 'keynsham', 'paulton'],
       faqs: [
         { question: 'Do you cover Bishop Sutton?', answer: 'Yes. We target Bishop Sutton and Chew Valley so you show up when local customers search.' },
-        { question: 'Website design in Bishop Sutton?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Bishop Sutton?', answer: 'Yes. We build fast websites for Chew Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3234,9 +3234,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       heroImage: '/images/areas/paulton.webp',
       metaTitle: 'Website design High Littleton Paulton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in High Littleton, near Paulton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in High Littleton, near Paulton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in High Littleton, near Paulton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'High Littleton is a village in the Cam Valley, near Paulton. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber High Littleton" or "electrician Paulton". We get you on the map and on page one.',
       heroStats: [
@@ -3253,7 +3253,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in High Littleton, near Paulton.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in High Littleton, near Paulton.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for High Littleton and Paulton + trade keywords.' },
       ],
@@ -3282,7 +3282,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['paulton', 'hallatrow-paulton', 'midsomer-norton', 'radstock', 'bath'],
       faqs: [
         { question: 'Do you cover High Littleton?', answer: 'Yes. We target High Littleton and Paulton so you show up when local customers search.' },
-        { question: 'Website design in High Littleton?', answer: 'Yes. We build fast websites for Cam Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in High Littleton?', answer: 'Yes. We build fast websites for Cam Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3299,9 +3299,9 @@ const AreaDetail = ({ params: staticParams }) => {
       postcodes: ['BS39'],
       heroImage: '/images/areas/paulton.webp',
       metaTitle: 'Website design Hallatrow Paulton | Website Designer & SEO Add-ons – SEO Kings',
-      metaDescription: 'Website design in Hallatrow, near Paulton from £399. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+      metaDescription: 'Website design in Hallatrow, near Paulton from £250. Our main service. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
       heroHeadline: 'Website design in Hallatrow, near Paulton',
-      heroSubhead: 'From £399. We also offer SEO add-ons so you get found on Google.',
+      heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Hallatrow is a village in the Cam Valley, near Paulton. Part of Bath and North East Somerset, it has strong demand for local trades.',
       extendedDescription: 'Customers search "plumber Hallatrow" or "electrician Paulton". We get you on the map and on page one.',
       heroStats: [
@@ -3318,7 +3318,7 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Strong ROI', text: 'Organic rankings beat paid ads.' },
       ],
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £399. Our main service in Hallatrow, near Paulton.' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Hallatrow, near Paulton.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
         { name: 'Local SEO', description: 'Add-on: rank for Hallatrow and Paulton + trade keywords.' },
       ],
@@ -3347,7 +3347,7 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['paulton', 'high-littleton-paulton', 'midsomer-norton', 'radstock', 'temple-cloud'],
       faqs: [
         { question: 'Do you cover Hallatrow?', answer: 'Yes. We target Hallatrow and Paulton so you show up when local customers search.' },
-        { question: 'Website design in Hallatrow?', answer: 'Yes. We build fast websites for Cam Valley and Bath and North East Somerset businesses. From £399.' },
+        { question: 'Website design in Hallatrow?', answer: 'Yes. We build fast websites for Cam Valley and Bath and North East Somerset businesses. From £250.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -3493,7 +3493,7 @@ const AreaDetail = ({ params: staticParams }) => {
   if (faqSchema.mainEntity.length > 0) schemasForPage.push(faqSchema);
 
   const defaultServices = [
-    { name: 'Website Design', description: `Fast, mobile-friendly sites from £399. Our main service in ${area.name}.`, icon: 'desktop' },
+    { name: 'Website Design', description: `Fast, mobile-friendly sites from £250. Our main service in ${area.name}.`, icon: 'desktop' },
     { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack so you get found on Google.', icon: 'map' },
     { name: 'Local SEO', description: `Add-on: rank for "${area.name}" and trade searches.`, icon: 'search' },
     { name: 'Review Management', description: 'Add-on: build trust and credibility with 5★ reviews.', icon: 'star' },
@@ -3514,7 +3514,7 @@ const AreaDetail = ({ params: staticParams }) => {
     <>
       <SEO
         title={area.metaTitle || `Website design ${area.name} | Website Designer & SEO Add-ons – SEO Kings`}
-        description={area.metaDescription || `Website design in ${area.name}. Our main service from £399. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.`}
+        description={area.metaDescription || `Website design in ${area.name}. Our main service from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.`}
         canonical={`/areas/${slug}`}
         geoPlacename={area.name}
         schemas={schemasForPage}

@@ -16,7 +16,7 @@ export const PHONE_HREF = 'tel:07702264921';
 
 /** Google Business Profile description (750 char max). Copy into Google Business Profile → Edit profile → Business description. Website-design focused for local search. */
 export const GBP_DESCRIPTION =
-  'SEO Kings is a Keynsham-based website design and local SEO agency for tradespeople and small businesses across Bath and North East Somerset (BANES). We build fast, professional websites and get you found on Google — website design from £399, plus Google Business Profile optimisation and local SEO so you rank in your area. We work with plumbers, electricians, roofers, cleaners and other local service businesses. Website designer in Bath, Keynsham, Midsomer Norton, Radstock and BANES. We\'ve helped over 150 local businesses improve their visibility and grow their enquiries. No jargon, clear reports, honest pricing. Free local SEO audit. Based in Keynsham, serving BANES.';
+  'SEO Kings is a Keynsham-based website design and local SEO agency for tradespeople and small businesses across Bath and North East Somerset (BANES). We build fast, professional websites and get you found on Google — website design from £250, plus Google Business Profile optimisation and local SEO so you rank in your area. We work with plumbers, electricians, roofers, cleaners and other local service businesses. Website designer in Bath, Keynsham, Midsomer Norton, Radstock and BANES. We\'ve helped over 150 local businesses improve their visibility and grow their enquiries. No jargon, clear reports, honest pricing. Free local SEO audit. Based in Keynsham, serving BANES.';
 
 /**
  * Custom services for Google Business Profile.
@@ -26,7 +26,7 @@ export const GBP_DESCRIPTION =
 export const GBP_SERVICES = [
   {
     name: 'Website design',
-    description: 'Fast, mobile-friendly websites from £399. For trades and small businesses in Bath and North East Somerset.',
+    description: 'Fast, mobile-friendly websites from £250. For trades and small businesses in Bath and North East Somerset.',
   },
   {
     name: 'Web design packages',
@@ -38,7 +38,7 @@ export const GBP_SERVICES = [
   },
   {
     name: 'Google Business Profile optimisation',
-    description: 'One-off £150. We optimise your Google listing (categories, keywords, description, hours). Also included in our website and Local SEO packages.',
+    description: 'One-off £100. We optimise your Google listing (categories, keywords, description, hours). Also included in our website and Local SEO packages.',
   },
   {
     name: 'Free local SEO audit',
@@ -54,6 +54,6 @@ export const GBP_SERVICES = [
   },
   {
     name: 'Logo design',
-    description: 'Professional logo design for trades and local businesses from £150. Supplied in PNG, SVG and PDF — ready for your website, Google Business Profile, van signage and social media.',
+    description: 'Professional logo design for trades and local businesses from £100. Supplied in PNG, SVG and PDF — ready for your website, Google Business Profile, van signage and social media.',
   },
 ];

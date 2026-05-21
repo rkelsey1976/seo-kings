@@ -2,7 +2,7 @@ const siteUrl = 'https://seo-kings.co.uk';
 
 /**
  * WebDesignService JSON-LD for rich snippets: pricing (OfferCatalog).
- * Three package tiers matching /web-design-packages: Starter £399, Professional £599, Full £999.
+ * Per-page pricing: £250 base + £50 per page. Three representative examples shown.
  * Review/AggregateRating omitted: Google does not show review rich results from first-party
  * (self-serving) markup; use Google Business Profile for stars in search/Maps.
  */
@@ -11,16 +11,16 @@ const webDesignPackageOffers = [
     '@type': 'Offer',
     itemOffered: {
       '@type': 'Service',
-      name: 'Starter – 1-page website',
-      description: 'Single-page site with services, contact and area info, contact form and click-to-call. Google Business Profile optimisation for one service, one location. Mobile-responsive, SEO basics, 12 months hosting, SSL, UK support.',
+      name: '1-page website',
+      description: 'Single-page site with services, contact form, click-to-call, and area info. Mobile-responsive, SEO basics, 6 months free hosting, SSL, UK support.',
     },
-    name: 'Starter',
+    name: '1-page website',
     availability: 'https://schema.org/InStock',
-    url: `${siteUrl}/contact?package=starter`,
+    url: `${siteUrl}/web-design-packages`,
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 399,
+      price: 250,
       valueAddedTaxIncluded: true,
     },
   },
@@ -28,16 +28,16 @@ const webDesignPackageOffers = [
     '@type': 'Offer',
     itemOffered: {
       '@type': 'Service',
-      name: 'Professional – multi-page website',
-      description: '3–5 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
+      name: '3-page website',
+      description: 'Home, services and contact pages. Full custom design, contact form, portfolio or gallery option. Mobile-responsive, SEO optimised, 6 months free hosting.',
     },
-    name: 'Professional',
+    name: '3-page website',
     availability: 'https://schema.org/InStock',
-    url: `${siteUrl}/contact?package=professional`,
+    url: `${siteUrl}/web-design-packages`,
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 599,
+      price: 350,
       valueAddedTaxIncluded: true,
     },
   },
@@ -45,16 +45,16 @@ const webDesignPackageOffers = [
     '@type': 'Offer',
     itemOffered: {
       '@type': 'Service',
-      name: 'Full Package – complete website',
-      description: '5+ pages, full custom design, contact form, callback and booking, portfolio/gallery, social integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
+      name: '5-page website',
+      description: 'Full site with individual service pages for better local rankings. Home, service pages, gallery, contact. SEO optimised, 6 months free hosting.',
     },
-    name: 'Full Package',
+    name: '5-page website',
     availability: 'https://schema.org/InStock',
-    url: `${siteUrl}/contact?package=full`,
+    url: `${siteUrl}/web-design-packages`,
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 999,
+      price: 450,
       valueAddedTaxIncluded: true,
     },
   },
@@ -65,7 +65,7 @@ const webDesignServiceSchema = {
   '@type': 'Service',
   '@id': `${siteUrl}/#service-website-design`,
   name: 'Website Design Bath & Somerset',
-  description: 'Professional Website Design and website designer services from a Bath and Somerset web agency. We build mobile-first sites for trades and small businesses: Starter from £399 (1-page + GBP 1 service/1 location), Professional £599 (3–5 pages + GBP 3 services/4 locations), Full £999 (5+ pages + GBP 5 services/8 locations). Get found on Google.',
+  description: 'Professional website design for trades and small businesses in Bath & Somerset. Per-page pricing from £250 — £250 base + £50 per page. All sites include mobile-responsive design, SEO basics, contact form, click-to-call, 6 months free hosting, and SSL. Google Business Profile optimisation available as an add-on.',
   serviceType: 'Website Design',
   provider: { '@id': `${siteUrl}/#organization` },
   areaServed: [
@@ -77,7 +77,7 @@ const webDesignServiceSchema = {
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${siteUrl}/web-design` },
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'Website Design Packages',
+    name: 'Website Design — Per-Page Pricing',
     itemListElement: webDesignPackageOffers,
   },
 };

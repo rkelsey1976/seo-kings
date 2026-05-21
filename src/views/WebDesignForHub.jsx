@@ -90,8 +90,8 @@ const WebDesignForHub = () => {
   return (
     <>
       <SEO
-        title="Web Design for Trades in Bath & Somerset | From £399"
-        description="Professional websites built for tradespeople in Bath & North East Somerset. Plumbers, electricians, builders and more — from £399 one-off. Free audit."
+        title="Web Design for Trades in Bath & Somerset | From £250"
+        description="Professional websites built for tradespeople in Bath & North East Somerset. Plumbers, electricians, builders and more — from £250 one-off. Free audit."
         canonical="/web-design-for"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -112,7 +112,7 @@ const WebDesignForHub = () => {
             '@id': 'https://seo-kings.co.uk/#service-web-design-for-trades',
             serviceType: 'Web Design',
             name: 'Web Design for Trades',
-            description: 'Professional trade-specific web design services for tradespeople and small businesses in Bath & North East Somerset. Websites built to generate leads from £399.',
+            description: 'Professional trade-specific web design services for tradespeople and small businesses in Bath & North East Somerset. Websites built to generate leads from £250.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/web-design-for' },
             areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
@@ -130,7 +130,7 @@ const WebDesignForHub = () => {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'How much does a trade website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our trade websites start from £399 for a 1-page starter site. A 5-page professional site is £599, and a full 7+ page site with blog and content writing is £999. All prices are one-off — no ongoing website fees.' } },
+              { '@type': 'Question', name: 'How much does a trade website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our trade websites start from £250 for a 1-page starter site. A 5-page professional site is £599, and a full 7+ page site with blog and content writing is £999. All prices are one-off — no ongoing website fees.' } },
               { '@type': 'Question', name: 'How long does it take to build my website?', acceptedAnswer: { '@type': 'Answer', text: 'Most trade websites are live within 2–3 weeks. A single-page starter site can be ready sooner. We keep you involved at every stage with previews and revisions.' } },
               { '@type': 'Question', name: 'Do you write the content for my website?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Our Professional and Full packages include content written specifically for your trade and area. Starter sites include basic content based on the information you provide. We make sure every page is optimised for the searches your customers make.' } },
               { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. Every website we build is mobile-responsive. Most of your potential customers will find you on their phone, so we design mobile-first with click-to-call buttons and fast load times.' } },
@@ -144,7 +144,7 @@ const WebDesignForHub = () => {
         badge="Web Design for Trades"
         title="Websites Built for Your Trade"
         highlight="in Bath & Somerset"
-        description="Professional, mobile-friendly websites designed for tradespeople — from plumbers to plasterers. Get found on Google, showcase your work, and turn visitors into jobs. From £399 one-off."
+        description="Professional, mobile-friendly websites designed for tradespeople — from plumbers to plasterers. Get found on Google, showcase your work, and turn visitors into jobs. From £250 one-off."
         features={['Mobile-First Design', 'Local SEO Ready', '6 months free hosting', 'Lead-Generating', 'Fast & Secure']}
         ctaText="Get a Free Website Quote"
       />
@@ -271,14 +271,14 @@ const WebDesignForHub = () => {
               <div className="flex items-center justify-between py-1">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
 
           <p className="text-center text-gray-500 text-sm mt-6">
-            All prices one-off. Hosting free for 6 months, then £199/year. No long contracts.
+            All prices one-off. Hosting free for 6 months, then £50/year. No long contracts.
           </p>
         </div>
       </section>
@@ -297,7 +297,7 @@ const WebDesignForHub = () => {
 
           <FAQAccordion
             faqs={[
-              { q: 'How much does a trade website cost?', a: 'Our trade websites start from £399 for a 1-page starter site. A 5-page professional site is £599, and a full 7+ page site with blog and content writing is £999. All prices are one-off — no ongoing website fees.' },
+              { q: 'How much does a trade website cost?', a: 'Our trade websites start from £250 for a 1-page starter site. A 5-page professional site is £599, and a full 7+ page site with blog and content writing is £999. All prices are one-off — no ongoing website fees.' },
               { q: 'How long does it take to build my website?', a: 'Most trade websites are live within 2–3 weeks. A single-page starter site can be ready sooner. We keep you involved at every stage with previews and revisions.' },
               { q: 'Do you write the content for my website?', a: 'Yes. Our Professional and Full packages include content written specifically for your trade and area. Starter sites include basic content based on the information you provide. We make sure every page is optimised for the searches your customers make.' },
               { q: 'Will my website work on mobile phones?', a: 'Absolutely. Every website we build is mobile-responsive. Most of your potential customers will find you on their phone, so we design mobile-first with click-to-call buttons and fast load times.' },

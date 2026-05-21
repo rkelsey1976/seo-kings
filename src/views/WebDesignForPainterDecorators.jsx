@@ -73,7 +73,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/painters-decorators',
       url: 'https://seo-kings.co.uk/web-design-for/painters-decorators',
       name: 'Web Design for Painters & Decorators | SEO Kings',
-      description: 'Websites for painters and decorators in Bath & Somerset. Gallery-first design, heritage property pages, Google Business Profile included. From £399.',
+      description: 'Websites for painters and decorators in Bath & Somerset. Gallery-first design, heritage property pages, Google Business Profile included. From £250.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -99,7 +99,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Painter and decorator website from £399 including Google Business Profile set-up',
+        description: 'Painter and decorator website from £250 including Google Business Profile set-up',
       },
     },
     {
@@ -132,8 +132,8 @@ const WebDesignForPainterDecorators = () => {
   return (
     <>
       <SEO
-        title="Web Design for Painters & Decorators Bath & Somerset | From £399"
-        description="Websites for painters and decorators in Bath & Somerset. Gallery-first design, interior, exterior and heritage property pages, GBP included. From £399."
+        title="Web Design for Painters & Decorators Bath & Somerset | From £250"
+        description="Websites for painters and decorators in Bath & Somerset. Gallery-first design, interior, exterior and heritage property pages, GBP included. From £250."
         canonical="/web-design-for/painters-decorators"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -159,7 +159,7 @@ const WebDesignForPainterDecorators = () => {
               Decorating is a trust-first business. Customers let you into their home for days — sometimes weeks. They want to see your work before they call. Without a gallery and a professional website, you're invisible to anyone who hasn't been personally recommended to you.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for painters and decorators in Bath, Keynsham and across North East Somerset. Gallery-first design, dedicated pages for every service, and Google Business Profile set-up as standard. We've already got a Bath decorator to number one on Google. From £399.
+              We build websites for painters and decorators in Bath, Keynsham and across North East Somerset. Gallery-first design, dedicated pages for every service, and Google Business Profile set-up as standard. We've already got a Bath decorator to number one on Google. From £250.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -172,7 +172,7 @@ const WebDesignForPainterDecorators = () => {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-10">
-              {['From £399', 'Gallery included', 'Heritage property pages', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
+              {['From £250', 'Gallery included', 'Heritage property pages', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
                   <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   {t}
@@ -249,7 +249,7 @@ const WebDesignForPainterDecorators = () => {
             <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Straightforward pricing, no surprises</h2>
             <div className="space-y-4 mb-8">
               {[
-                { name: 'Starter', desc: '1-page site — services, gallery and contact', price: 'From £399' },
+                { name: 'Starter', desc: '1-page site — services, gallery and contact', price: 'From £250' },
                 { name: 'Professional', desc: '3-page site — home with gallery, 1 service page, contact', price: 'From £599' },
                 { name: 'Full', desc: '5+ pages — home, interior, exterior, heritage, gallery, service areas', price: 'From £999' },
               ].map((pkg) => (
@@ -266,12 +266,12 @@ const WebDesignForPainterDecorators = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

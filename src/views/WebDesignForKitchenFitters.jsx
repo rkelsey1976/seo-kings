@@ -67,7 +67,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/kitchen-fitters',
       url: 'https://seo-kings.co.uk/web-design-for/kitchen-fitters',
       name: 'Web Design for Kitchen Fitters | SEO Kings',
-      description: 'Websites for kitchen fitters in Bath & Somerset. Fast, mobile-first, built to rank for local search. Project galleries, before/after photos, FMB badge display, dedicated service pages, Google Business Profile included. From £399.',
+      description: 'Websites for kitchen fitters in Bath & Somerset. Fast, mobile-first, built to rank for local search. Project galleries, before/after photos, FMB badge display, dedicated service pages, Google Business Profile included. From £250.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -93,7 +93,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Kitchen fitter website from £399 including Google Business Profile set-up',
+        description: 'Kitchen fitter website from £250 including Google Business Profile set-up',
       },
     },
     {
@@ -126,8 +126,8 @@ const WebDesignForKitchenFitters = () => {
   return (
     <>
       <SEO
-        title="Web Design for Kitchen Fitters Bath & Somerset | From £399"
-        description="Websites for kitchen fitters in Bath & Somerset. Fast, mobile-first, built for local search. Project galleries, before/after photos, FMB badges, service pages, Google Business Profile included. From £399."
+        title="Web Design for Kitchen Fitters Bath & Somerset | From £250"
+        description="Websites for kitchen fitters in Bath & Somerset. Fast, mobile-first, built for local search. Project galleries, before/after photos, FMB badges, service pages, Google Business Profile included. From £250."
         canonical="/web-design-for/kitchen-fitters"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -153,7 +153,7 @@ const WebDesignForKitchenFitters = () => {
               Kitchen fitting is a visual, trust-driven business. Customers spend weeks browsing before/after photos, reading reviews and comparing fitters before they ever pick up the phone. If your website doesn't showcase your work beautifully and prominently display your credentials, those enquiries go to the fitter whose site does.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for kitchen fitters in Bath, Keynsham, Midsomer Norton and across North East Somerset — with project galleries, before/after photos, FMB and Trustatrader badge display, dedicated service pages, and Google Business Profile optimisation as standard. From £399.
+              We build websites for kitchen fitters in Bath, Keynsham, Midsomer Norton and across North East Somerset — with project galleries, before/after photos, FMB and Trustatrader badge display, dedicated service pages, and Google Business Profile optimisation as standard. From £250.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -166,7 +166,7 @@ const WebDesignForKitchenFitters = () => {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-10">
-              {['From £399', 'FMB/Trustatrader badges included', 'Before/after gallery as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
+              {['From £250', 'FMB/Trustatrader badges included', 'Before/after gallery as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
                   <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   {t}
@@ -240,7 +240,7 @@ const WebDesignForKitchenFitters = () => {
             <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Straightforward pricing, no surprises</h2>
             <div className="space-y-4 mb-8">
               {[
-                { name: 'Starter', desc: '1-page site — home, services summary, contact', price: 'From £399' },
+                { name: 'Starter', desc: '1-page site — home, services summary, contact', price: 'From £250' },
                 { name: 'Professional', desc: '3-page site — home, 1 service page with gallery, contact', price: 'From £599' },
                 { name: 'Full', desc: '5+ pages — home, service pages, before/after gallery, planning permission, about', price: 'From £999' },
               ].map((pkg) => (
@@ -257,12 +257,12 @@ const WebDesignForKitchenFitters = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

@@ -2,8 +2,8 @@ export const TRADE_LOCATION_META = {
   plumbers: {
     tradeName: 'Plumbers',
     tradeSlug: 'plumbers',
-    metaTitle: 'Web Design for Plumbers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for plumbers in Bath that rank on Google. Gas Safe badge, emergency page, dedicated service pages. Local SEO for Bath plumbers from £399.',
+    metaTitle: 'Web Design for Plumbers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for plumbers in Bath that rank on Google. Gas Safe badge, emergency page, dedicated service pages. Local SEO for Bath plumbers from £250.',
     headline: 'Web Design for Plumbers in Bath',
     intro: 'Bath has thousands of period properties — Georgian terraces, Victorian conversions, listed buildings — all with complex plumbing. When someone in Bath searches "plumber Bath" or "emergency plumber Bath", they need someone local and qualified. Your website has to show that you understand Bath properties and Bath plumbing issues. We build plumber websites that do exactly that.',
     bathSpecifics: [
@@ -31,8 +31,8 @@ export const TRADE_LOCATION_META = {
   electricians: {
     tradeName: 'Electricians',
     tradeSlug: 'electricians',
-    metaTitle: 'Web Design for Electricians in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for electricians in Bath that rank on Google. NICEIC/Part P badges, service pages, area coverage. Local SEO for Bath electricians from £399.',
+    metaTitle: 'Web Design for Electricians in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for electricians in Bath that rank on Google. NICEIC/Part P badges, service pages, area coverage. Local SEO for Bath electricians from £250.',
     headline: 'Web Design for Electricians in Bath',
     intro: 'Bath\'s housing stock ranges from Georgian townhouses to modern developments — and the electrical needs are just as varied. Period properties need rewiring and consumer unit upgrades. New builds need full installations. When someone searches "electrician Bath", they want someone who knows the local building stock. We build electrician websites that prove you do.',
     bathSpecifics: [
@@ -60,8 +60,8 @@ export const TRADE_LOCATION_META = {
   roofers: {
     tradeName: 'Roofers',
     tradeSlug: 'roofers',
-    metaTitle: 'Web Design for Roofers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for roofers in Bath that rank on Google. Before/after gallery, emergency page, insurance work. Local SEO for Bath roofers from £399.',
+    metaTitle: 'Web Design for Roofers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for roofers in Bath that rank on Google. Before/after gallery, emergency page, insurance work. Local SEO for Bath roofers from £250.',
     headline: 'Web Design for Roofers in Bath',
     intro: 'Bath\'s rooftops define the city — from Georgian slate to Victorian clay tile to modern flat roofs on extensions. Roofing work in Bath means understanding period properties, conservation area restrictions, and heritage materials. When someone searches "roofer Bath", they need a specialist, not a general builder. We build roofer websites that show you are one.',
     bathSpecifics: [
@@ -89,8 +89,8 @@ export const TRADE_LOCATION_META = {
   builders: {
     tradeName: 'Builders',
     tradeSlug: 'builders',
-    metaTitle: 'Web Design for Builders in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for builders in Bath that rank on Google. Project galleries, service pages, planning expertise. Local SEO for Bath builders from £399.',
+    metaTitle: 'Web Design for Builders in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for builders in Bath that rank on Google. Project galleries, service pages, planning expertise. Local SEO for Bath builders from £250.',
     headline: 'Web Design for Builders in Bath',
     intro: 'Building in Bath is different. Conservation area rules, listed building consent, Bath stone matching, planning permission quagmires — Bath homeowners need a builder who understands all of it before they pick up the phone. We build websites that show you do, so when they search "builder Bath", they call you.',
     bathSpecifics: [
@@ -118,8 +118,8 @@ export const TRADE_LOCATION_META = {
   landscapers: {
     tradeName: 'Landscapers',
     tradeSlug: 'landscapers',
-    metaTitle: 'Web Design for Landscapers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for landscapers in Bath that rank on Google. Before/after gallery, garden design pages, area coverage. Local SEO for Bath landscapers from £399.',
+    metaTitle: 'Web Design for Landscapers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for landscapers in Bath that rank on Google. Before/after gallery, garden design pages, area coverage. Local SEO for Bath landscapers from £250.',
     headline: 'Web Design for Landscapers in Bath',
     intro: 'Bath gardens are like no other — steep hillsides, walled Georgian courtyards, lime-rich soil, and views that homeowners want to make the most of. When someone searches "landscaper Bath" or "garden design Bath", they want a local expert who understands the terrain. We build landscaper websites that prove you are one.',
     bathSpecifics: [
@@ -147,8 +147,8 @@ export const TRADE_LOCATION_META = {
   cleaners: {
     tradeName: 'Cleaning Services',
     tradeSlug: 'cleaners',
-    metaTitle: 'Web Design for Cleaning Services in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for cleaners in Bath that rank on Google. Service pages, area coverage, review integration. Local SEO for Bath cleaning businesses from £399.',
+    metaTitle: 'Web Design for Cleaning Services in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for cleaners in Bath that rank on Google. Service pages, area coverage, review integration. Local SEO for Bath cleaning businesses from £250.',
     headline: 'Web Design for Cleaning Services in Bath',
     intro: 'Bath has a huge cleaning market — student rentals, holiday lets, professional households, and commercial premises across the city centre. But most Bath cleaning businesses have no website or a poor one. When someone searches "cleaner Bath", a professional, fast, mobile-friendly website is often enough to win the job.',
     bathSpecifics: [
@@ -176,8 +176,8 @@ export const TRADE_LOCATION_META = {
   'painters-decorators': {
     tradeName: 'Painters & Decorators',
     tradeSlug: 'painters-decorators',
-    metaTitle: 'Web Design for Painters & Decorators in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for painters and decorators in Bath that rank on Google. Heritage painting, period properties, service pages. Local SEO for Bath decorators from £399.',
+    metaTitle: 'Web Design for Painters & Decorators in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for painters and decorators in Bath that rank on Google. Heritage painting, period properties, service pages. Local SEO for Bath decorators from £250.',
     headline: 'Web Design for Painters & Decorators in Bath',
     intro: 'More period properties per square mile than almost anywhere in the UK. Bath decorators work on Georgian townhouses, Victorian villas, listed interiors, and modern homes — and each needs a different approach. When someone searches "painter decorator Bath", they want someone who gets Bath. We build decorator websites that show you do.',
     bathSpecifics: [
@@ -205,8 +205,8 @@ export const TRADE_LOCATION_META = {
   'kitchen-fitters': {
     tradeName: 'Kitchen Fitters',
     tradeSlug: 'kitchen-fitters',
-    metaTitle: 'Web Design for Kitchen Fitters in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for kitchen fitters in Bath that rank on Google. Project galleries, service pages, area coverage. Local SEO for Bath kitchen fitters from £399.',
+    metaTitle: 'Web Design for Kitchen Fitters in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for kitchen fitters in Bath that rank on Google. Project galleries, service pages, area coverage. Local SEO for Bath kitchen fitters from £250.',
     headline: 'Web Design for Kitchen Fitters in Bath',
     intro: 'Bath homeowners spend big on kitchens — period property renovations, modern extensions, open-plan living. When they search "kitchen fitter Bath" or "kitchen design Bath", they want to see your work before they call. We build kitchen fitter websites that showcase your projects and convert searches into enquiries.',
     bathSpecifics: [
@@ -234,8 +234,8 @@ export const TRADE_LOCATION_META = {
   'bathroom-fitters': {
     tradeName: 'Bathroom Fitters',
     tradeSlug: 'bathroom-fitters',
-    metaTitle: 'Web Design for Bathroom Fitters in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for bathroom fitters in Bath that rank on Google. Project galleries, wet room pages, area coverage. Local SEO for Bath bathroom fitters from £399.',
+    metaTitle: 'Web Design for Bathroom Fitters in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for bathroom fitters in Bath that rank on Google. Project galleries, wet room pages, area coverage. Local SEO for Bath bathroom fitters from £250.',
     headline: 'Web Design for Bathroom Fitters in Bath',
     intro: 'Bathroom renovations are one of the biggest home investments in Bath — from Georgian ensuites to wet rooms in modern extensions. When someone searches "bathroom fitter Bath", they want to see proof you can deliver. We build websites that show your best work and turn searches into bookings.',
     bathSpecifics: [
@@ -263,8 +263,8 @@ export const TRADE_LOCATION_META = {
   'heating-engineers': {
     tradeName: 'Heating Engineers',
     tradeSlug: 'heating-engineers',
-    metaTitle: 'Web Design for Heating Engineers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for heating engineers in Bath that rank on Google. Gas Safe badge, emergency page, boiler service pages. Local SEO for Bath heating engineers from £399.',
+    metaTitle: 'Web Design for Heating Engineers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for heating engineers in Bath that rank on Google. Gas Safe badge, emergency page, boiler service pages. Local SEO for Bath heating engineers from £250.',
     headline: 'Web Design for Heating Engineers in Bath',
     intro: 'When a boiler breaks in Bath, it\'s an emergency. "Heating engineer Bath", "boiler repair Bath", "emergency gas engineer" — these are urgent, high-intent searches from people who need you now. We build heating engineer websites that show your Gas Safe credentials, your emergency response, and your local knowledge.',
     bathSpecifics: [
@@ -292,8 +292,8 @@ export const TRADE_LOCATION_META = {
   plasterers: {
     tradeName: 'Plasterers',
     tradeSlug: 'plasterers',
-    metaTitle: 'Web Design for Plasterers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for plasterers in Bath that rank on Google. Service pages, before/after gallery, area coverage. Local SEO for Bath plasterers from £399.',
+    metaTitle: 'Web Design for Plasterers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for plasterers in Bath that rank on Google. Service pages, before/after gallery, area coverage. Local SEO for Bath plasterers from £250.',
     headline: 'Web Design for Plasterers in Bath',
     intro: 'Bath\'s period properties need specialist plastering — lime plaster, traditional cornicing, decorative ceiling roses, and artex removal from 20th-century homes. When someone searches "plasterer Bath", they want someone who understands Bath\'s building stock. We build plasterer websites that prove you do.',
     bathSpecifics: [
@@ -321,8 +321,8 @@ export const TRADE_LOCATION_META = {
   'gas-engineers': {
     tradeName: 'Gas Engineers',
     tradeSlug: 'gas-engineers',
-    metaTitle: 'Web Design for Gas Engineers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for Gas Safe engineers in Bath that rank on Google. Gas Safe badge, emergency page, boiler pages. Local SEO for Bath gas engineers from £399.',
+    metaTitle: 'Web Design for Gas Engineers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for Gas Safe engineers in Bath that rank on Google. Gas Safe badge, emergency page, boiler pages. Local SEO for Bath gas engineers from £250.',
     headline: 'Web Design for Gas Engineers in Bath',
     intro: 'When a boiler breaks in Bath, homeowners reach for their phone. "Gas engineer Bath", "boiler repair Bath", "emergency gas safe plumber" — these are urgent, high-value searches. We build gas engineer websites that show your Gas Safe credentials front and centre, your emergency availability, and your local knowledge of Bath properties.',
     bathSpecifics: [
@@ -350,8 +350,8 @@ export const TRADE_LOCATION_META = {
   'loft-conversions': {
     tradeName: 'Loft Conversion Specialists',
     tradeSlug: 'loft-conversions',
-    metaTitle: 'Web Design for Loft Conversion Specialists in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for loft conversion specialists in Bath that rank on Google. Project galleries, planning pages, area coverage. Local SEO from £399.',
+    metaTitle: 'Web Design for Loft Conversion Specialists in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for loft conversion specialists in Bath that rank on Google. Project galleries, planning pages, area coverage. Local SEO from £250.',
     headline: 'Web Design for Loft Conversion Specialists in Bath',
     intro: 'Loft conversions are one of the highest-value home improvements in Bath — £20-50k projects from homeowners who need more space without moving. "Loft conversion Bath", "dormer loft Keynsham" — these are considered, high-value searches. We build websites that showcase your projects and win these big contracts.',
     bathSpecifics: [
@@ -379,8 +379,8 @@ export const TRADE_LOCATION_META = {
   'extension-builders': {
     tradeName: 'Extension Builders',
     tradeSlug: 'extension-builders',
-    metaTitle: 'Web Design for Extension Builders in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for extension builders in Bath that rank on Google. Project galleries, planning pages, area coverage. Local SEO for Bath extension builders from £399.',
+    metaTitle: 'Web Design for Extension Builders in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for extension builders in Bath that rank on Google. Project galleries, planning pages, area coverage. Local SEO for Bath extension builders from £250.',
     headline: 'Web Design for Extension Builders in Bath',
     intro: 'Home extensions in Bath are big business — £30-80k projects from homeowners who cannot or will not move. "House extension Bath", "single storey extension Keynsham" — these are considered, high-value searches from people with budgets. We build extension builder websites that showcase your projects and convert these searches into contracts.',
     bathSpecifics: [
@@ -408,8 +408,8 @@ export const TRADE_LOCATION_META = {
   'drainage-engineers': {
     tradeName: 'Drainage Engineers',
     tradeSlug: 'drainage-engineers',
-    metaTitle: 'Web Design for Drainage Engineers in Bath | From £399 | SEO Kings',
-    metaDescription: 'Websites for drainage engineers in Bath that rank on Google.emergency page, CCTV survey pages, area coverage. Local SEO for Bath drainage engineers from £399.',
+    metaTitle: 'Web Design for Drainage Engineers in Bath | From £250 | SEO Kings',
+    metaDescription: 'Websites for drainage engineers in Bath that rank on Google.emergency page, CCTV survey pages, area coverage. Local SEO for Bath drainage engineers from £250.',
     headline: 'Web Design for Drainage Engineers in Bath',
     intro: 'Drainage problems are urgent and expensive. When a Bath homeowner searches "drain unblocking Bath" or "CCTV drain survey Bath", they need help now — and they call the first number they see. We build drainage engineer websites that show your 24/7 availability, your specialist equipment and your local knowledge of Bath drains.',
     bathSpecifics: [

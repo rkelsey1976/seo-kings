@@ -35,7 +35,7 @@ const included = [
 const faqs = [
   {
     q: 'How much does a website cost in Radstock?',
-    a: 'A one-page site starts at £399. Multi-page sites from £599. All include Google Business Profile set-up — no hidden extras. See our packages page for full pricing.',
+    a: 'A one-page site starts at £250. Multi-page sites from £599. All include Google Business Profile set-up — no hidden extras. See our packages page for full pricing.',
   },
   {
     q: 'Do you work with businesses in Radstock?',
@@ -63,7 +63,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/website-designer-radstock',
       url: 'https://seo-kings.co.uk/website-designer-radstock',
       name: 'Website Designer Radstock | SEO Kings',
-      description: 'Website designer serving Radstock BA3. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included.',
+      description: 'Website designer serving Radstock BA3. Fast, mobile-first websites for trades and local businesses from £250. Google Business Profile included.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -78,7 +78,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Website designer serving Radstock and the Somer Valley — web design from £399 for trades and local businesses across BA3, Bath and North East Somerset.',
+      description: 'Website designer serving Radstock and the Somer Valley — web design from £250 for trades and local businesses across BA3, Bath and North East Somerset.',
       url: 'https://seo-kings.co.uk/website-designer-radstock',
       telephone: '+447702264921',
       address: {
@@ -116,8 +116,8 @@ const WebsiteDesignerRadstock = () => {
   return (
     <>
       <SEO
-        title="Website Designer Radstock | Web Design from £399"
-        description="Website designer serving Radstock BA3. Fast, mobile-first websites for trades and local businesses from £399. Google Business Profile included. Free audit."
+        title="Website Designer Radstock | Web Design from £250"
+        description="Website designer serving Radstock BA3. Fast, mobile-first websites for trades and local businesses from £250. Google Business Profile included. Free audit."
         canonical="/website-designer-radstock"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -139,7 +139,7 @@ const WebsiteDesignerRadstock = () => {
               <span className="text-primary">Radstock</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build fast, Google-ready websites for trades and local businesses in Radstock BA3. From £399 — with Google Business Profile set-up included. Live in under 2 weeks.
+              We build fast, Google-ready websites for trades and local businesses in Radstock BA3. From £250 — with Google Business Profile set-up included. Live in under 2 weeks.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -165,7 +165,7 @@ const WebsiteDesignerRadstock = () => {
             {/* Trust signals */}
             <div className="flex flex-wrap gap-6 mt-10">
               {[
-                { label: 'From £399' },
+                { label: 'From £250' },
                 { label: '6 months free hosting' },
                 { label: 'Live in under 2 weeks' },
                 { label: 'GBP set-up included' },
@@ -214,7 +214,7 @@ const WebsiteDesignerRadstock = () => {
               </p>
               <div className="space-y-4 mb-8">
                 {[
-                  { name: 'Starter', pages: '1-page site', price: 'From £399' },
+                  { name: 'Starter', pages: '1-page site', price: 'From £250' },
                   { name: 'Professional', pages: '3-page site', price: 'From £599' },
                   { name: 'Full', pages: '5+ pages', price: 'From £999' },
                 ].map((pkg) => (
@@ -231,12 +231,12 @@ const WebsiteDesignerRadstock = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-              <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £199/year. No hidden fees.</p>
+              <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £50/year. No hidden fees.</p>
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"

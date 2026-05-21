@@ -5,7 +5,7 @@ import SectionDivider from './SectionDivider';
 const WhyChoose = () => {
   const bullets = [
     'Website designer for trades: plumbers, electricians, builders, roofers, landscapers',
-    'Website design from £399 — one-page or full site, built to get you found on Google',
+    'Website design from £250 — one-page or full site, built to get you found on Google',
     'Focus on Bath & North East Somerset',
     'No long contracts or complicated jargon',
     'Google Business Profile set up and optimised so you show up in the map pack',

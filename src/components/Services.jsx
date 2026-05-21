@@ -15,7 +15,7 @@ const Services = () => {
       href: '/web-design',
       image: '/images/keynsham/keynsham-webdesign-laptop.webp',
       imageAlt: 'Website design for trades in Bath and North East Somerset — mobile-first, fast, SEO-ready',
-      description: 'Our main service. We build trade websites from £399 — one-page or multi-page. The one-page package includes GBP optimisation for one service in one location. Fast, mobile-first, SEO-ready.',
+      description: 'Our main service. We build trade websites from £250 — one-page or multi-page. The one-page package includes GBP optimisation for one service in one location. Fast, mobile-first, SEO-ready.',
       features: [
         'Mobile-first design',
         'Fast loading speeds',
@@ -36,9 +36,9 @@ const Services = () => {
       href: '/google-business-profile',
       image: '/gbp-map-pack.webp',
       imageAlt: 'Google Business Profile optimisation — map pack results for Bath and North East Somerset businesses',
-      description: 'One-off optimisation £150. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our website and Local SEO packages.',
+      description: 'One-off optimisation £100. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our website and Local SEO packages.',
       features: [
-        'One-off optimisation £150',
+        'One-off optimisation £100',
         'Included in website & Local SEO',
         'Map pack visibility',
         'Categories, keywords, services',

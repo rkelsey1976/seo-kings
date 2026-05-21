@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: 'Do I need a website as well as local SEO?',
-    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £399. Many Bath clients do website and SEO together as a package — one team, one plan.",
+    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250. Many Bath clients do website and SEO together as a package — one team, one plan.",
   },
   {
     q: 'What parts of Bath do you cover?',
@@ -298,7 +298,7 @@ const LocalSEOBath = () => {
               We cover all of Bath: city centre, Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Odd Down, Weston, Bathwick, Walcot, Southdown, Batheaston and Bathford.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, SEO-ready sites from £399. See our <Link href="/website-designer-bath" className="underline hover:text-white transition-colors text-primary">website design Bath</Link> page, or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
+              Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-bath" className="underline hover:text-white transition-colors text-primary">website design Bath</Link> page, or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
@@ -330,7 +330,7 @@ const LocalSEOBath = () => {
             <Link href="/website-designer-bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">Website Designer Bath</div>
-                <div className="text-xs text-gray-500">Fast, mobile-first websites for Bath trades — from £399</div>
+                <div className="text-xs text-gray-500">Fast, mobile-first websites for Bath trades — from £250</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

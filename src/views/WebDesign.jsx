@@ -103,7 +103,7 @@ const WebDesign = () => {
     <>
       <SEO
         title="Website Designer Bath | Web Design Bath & North East Somerset & Trowbridge – SEO Kings"
-        description="Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
+        description="Website design is our main service. From £250 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -122,9 +122,9 @@ const WebDesign = () => {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our Starter package is £399 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation for one service in one location. Multi-page sites start at £599. We provide a detailed quote after understanding your requirements.' } },
+              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our Starter package is £250 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation for one service in one location. Multi-page sites start at £599. We provide a detailed quote after understanding your requirements.' } },
               { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
-              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £399 for a one-page site with GBP included for one service in one location.' } },
+              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site with GBP included for one service in one location.' } },
               { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
             ],
           },
@@ -134,7 +134,7 @@ const WebDesign = () => {
         badge="Our main service"
         title="Website Designer in Bath & North East Somerset — Sites That Turn Visitors Into"
         highlight="Customers"
-        description="Website design is our main service. From £399 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
+        description="Website design is our main service. From £250 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
         features={heroFeatures}
         ctaText="Get a Free Quote"
       />
@@ -152,7 +152,7 @@ const WebDesign = () => {
             Website Design Is Our Main Service
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £399 for a one-page site with everything a trade needs — services, contact, area info — plus <strong className="text-gray-300">GBP optimisation included for one service in one location</strong>. Every site is fast, mobile-friendly, and set up for local search. Once you&apos;re happy with your website, we can add local SEO, ongoing GBP management, and more. No DIY builder; we build it so it works for you.
+            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £250 for a one-page site with everything a trade needs — services, contact, area info — plus <strong className="text-gray-300">GBP optimisation included for one service in one location</strong>. Every site is fast, mobile-friendly, and set up for local search. Once you&apos;re happy with your website, we can add local SEO, ongoing GBP management, and more. No DIY builder; we build it so it works for you.
           </p>
         </div>
       </section>
@@ -203,7 +203,7 @@ const WebDesign = () => {
             Website designer & website design in <span className="gradient-text">Bath, North East Somerset & Beyond</span>
           </h2>
           <p className="text-lg text-gray-400 mb-8">
-            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset (BANES). We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £399 to full multi-page sites — get a free quote.
+            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset (BANES). We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £250 to full multi-page sites — get a free quote.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/website-designer-bath" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Bath</Link>
@@ -273,7 +273,7 @@ const WebDesign = () => {
             Transparent Pricing, No Surprises
           </h2>
           <p className="text-lg text-gray-400 mb-8">
-            Our websites start from <span className="text-white font-bold">£399</span> for a 1-page trade site. 
+            Our websites start from <span className="text-white font-bold">£250</span> for a 1-page trade site. 
             Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn&apos;t agree to.
           </p>
           <Link
@@ -324,7 +324,7 @@ const WebDesign = () => {
             faqs={[
               {
                 q: 'Do you do website design in BANES?',
-                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. Website designer Bath and North East Somerset is our main service; from £399 for a one-page site with GBP included for one service in one location.',
+                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. Website designer Bath and North East Somerset is our main service; from £250 for a one-page site with GBP included for one service in one location.',
               },
               {
                 q: 'What do you mean by "one service, one location"?',
@@ -332,7 +332,7 @@ const WebDesign = () => {
               },
               {
                 q: 'Do you do one-page websites?',
-                a: 'Yes. Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, and GBP optimisation included for one service in one location. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
+                a: 'Yes. Our Starter package is a one-page website from £250 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, and GBP optimisation included for one service in one location. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
               },
               {
                 q: 'How long does it take to build a website?',
@@ -340,7 +340,7 @@ const WebDesign = () => {
               },
               {
                 q: 'How much does a website cost?',
-                a: 'Our Starter package is £399 for a 1-page site with everything a trade needs. We also offer multi-page packages from £599. We provide a detailed quote after understanding your requirements.',
+                a: 'Our Starter package is £250 for a 1-page site with everything a trade needs. We also offer multi-page packages from £599. We provide a detailed quote after understanding your requirements.',
               },
               {
                 q: 'Will my website work on mobile phones?',

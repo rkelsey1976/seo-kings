@@ -9,7 +9,7 @@ const GoogleBusinessProfile = () => {
     'One-off optimisation',
     'Right categories & keywords',
     'Map pack visibility',
-    'From £150'
+    'From £100'
   ];
 
   const oneOffIncludes = [
@@ -23,7 +23,7 @@ const GoogleBusinessProfile = () => {
     <>
       <SEO
         title="Google Business Profile Optimisation in Bath"
-        description="One-off Google Business Profile optimisation for £150. We also include GBP in our Local SEO and website packages — no need to buy it separately."
+        description="One-off Google Business Profile optimisation for £100. We also include GBP in our Local SEO and website packages — no need to buy it separately."
         canonical="/google-business-profile"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -65,7 +65,7 @@ const GoogleBusinessProfile = () => {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What is Google Business Profile?', acceptedAnswer: { '@type': 'Answer', text: 'Google Business Profile (formerly Google My Business) is how your business appears on Google Search and Maps — your name, hours, reviews, photos and more. Optimising it helps you show up in the map pack when people search locally for your trade.' } },
-              { '@type': 'Question', name: 'What is included in the one-off £150 GBP optimisation?', acceptedAnswer: { '@type': 'Answer', text: 'A single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and service area so your profile is set up correctly for local search. You pay once — no ongoing fee.' } },
+              { '@type': 'Question', name: 'What is included in the one-off £100 GBP optimisation?', acceptedAnswer: { '@type': 'Answer', text: 'A single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and service area so your profile is set up correctly for local search. You pay once — no ongoing fee.' } },
               { '@type': 'Question', name: 'Do you offer ongoing Google Business Profile management?', acceptedAnswer: { '@type': 'Answer', text: 'We include ongoing GBP management — posts, reviews, photos and reporting — inside our Local SEO and website design packages. It is not sold as a standalone monthly product.' } },
               { '@type': 'Question', name: 'I want a website and Google Business Profile — what do I get?', acceptedAnswer: { '@type': 'Answer', text: 'Our website packages include GBP optimisation — one service, one location on the Starter package; more on higher packages. So you get the site and the profile together without paying separately.' } },
             ],
@@ -75,17 +75,17 @@ const GoogleBusinessProfile = () => {
       <ServicePageHero
         badge="Google Business Profile"
         title="Get Your Profile Optimised —"
-        highlight="One-Off £150"
+        highlight="One-Off £100"
         description="We optimise your Google Business Profile so you show up better in the map pack. Categories, keywords, services — done once. Ongoing GBP (posts, reviews) is included in our Local SEO and website packages."
         features={heroFeatures}
         ctaText="Get Your GBP Optimised"
       />
 
-      {/* One-off £150 — what's included */}
+      {/* One-off £100 — what's included */}
       <section className="py-20 bg-dark-lighter border-y border-white/5">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-            One-Off GBP Optimisation — £150
+            One-Off GBP Optimisation — £100
           </h2>
           <p className="text-gray-400 mb-8">
             We do a full optimisation once. You get a profile that’s set up right for local search.
@@ -101,7 +101,7 @@ const GoogleBusinessProfile = () => {
             ))}
           </ul>
           <Link href="/contact?service=gbp" className="inline-block bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 text-white px-6 py-3 rounded-xl font-semibold transition-all">
-            Get your GBP optimised — £150
+            Get your GBP optimised — £100
           </Link>
         </div>
       </section>
@@ -150,7 +150,7 @@ const GoogleBusinessProfile = () => {
           <FAQAccordion
             faqs={[
               {
-                q: 'What is the one-off £150?',
+                q: 'What is the one-off £100?',
                 a: 'It’s a single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and area so your profile is set up right for local search. You pay once — no ongoing fee for this.',
               },
               {

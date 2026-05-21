@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: 'What does it cost?',
-    a: 'Websites from £399. Local SEO from £150/month — includes GBP optimisation, on-page fixes, citations and monthly reporting. Free audit first, no obligation.',
+    a: 'Websites from £250. Local SEO from £150/month — includes GBP optimisation, on-page fixes, citations and monthly reporting. Free audit first, no obligation.',
   },
 ];
 
@@ -54,7 +54,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/areas/westfield',
       url: 'https://seo-kings.co.uk/areas/westfield',
       name: 'Web Design & SEO in Westfield | BA3 Somer Valley Trades | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Westfield BA3. Websites from £399, local SEO from £150/month. Free audit — no obligation.',
+      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Westfield BA3. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -69,7 +69,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile agency serving Westfield BA3 and the Somer Valley. Fast, mobile-first websites from £399 and local SEO from £150/month for trades and local businesses across Westfield, Midsomer Norton and Radstock.',
+      description: 'Web design, local SEO and Google Business Profile agency serving Westfield BA3 and the Somer Valley. Fast, mobile-first websites from £250 and local SEO from £150/month for trades and local businesses across Westfield, Midsomer Norton and Radstock.',
       url: 'https://seo-kings.co.uk/areas/westfield',
       telephone: '+447702264921',
       address: {
@@ -118,7 +118,7 @@ const WestfieldHub = () => {
     <>
       <SEO
         title="Web Design & SEO in Westfield | BA3 Somer Valley Trades"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Westfield BA3. Websites from £399, local SEO from £150/month. Free audit — no obligation."
+        description="Web design, local SEO and Google Business Profile for trades and local businesses in Westfield BA3. Websites from £250, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/westfield"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -178,7 +178,7 @@ const WestfieldHub = () => {
             {/* Trust signals */}
             <div className="flex flex-wrap gap-6 mt-10">
               {[
-                { label: 'Websites from £399' },
+                { label: 'Websites from £250' },
                 { label: 'SEO from £150/month' },
                 { label: 'Somer Valley specialists' },
                 { label: '5★ Rated' },
@@ -215,7 +215,7 @@ const WestfieldHub = () => {
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
               <SectionTag className="mb-3">Website Design</SectionTag>
               <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
-              <p className="text-xl font-bold mb-3 text-primary">From £399</p>
+              <p className="text-xl font-bold mb-3 text-primary">From £250</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Fast, mobile-first websites for Westfield trades and local businesses — built for local search from day one, not as an afterthought.
               </p>
@@ -319,12 +319,12 @@ const WestfieldHub = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-4">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mt-4">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
 
         </div>
       </section>

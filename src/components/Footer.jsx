@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
-              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £399. Google Business Profile included.
+              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £250. Google Business Profile included.
             </p>
           </div>
 

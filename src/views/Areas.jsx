@@ -111,7 +111,7 @@ const Areas = () => {
     <>
       <SEO
         title="Website Design & Local SEO Services | 41 Areas in Bath & North East Somerset"
-        description="Professional website design from £399 across Bath, Keynsham, Midsomer Norton, Radstock and 37 other areas. Local SEO and Google Business Profile services for trades and small businesses."
+        description="Professional website design from £250 across Bath, Keynsham, Midsomer Norton, Radstock and 37 other areas. Local SEO and Google Business Profile services for trades and small businesses."
         canonical="/areas"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -159,7 +159,7 @@ const Areas = () => {
               Website Design in <span className="gradient-text">Bath & North East Somerset</span>
             </h1>
             <p className="animate-fade-in-up delay-200 text-xl text-gray-300 max-w-3xl mx-auto">
-              Professional website design from £399 covering 41 areas across Bath and North East Somerset. We help local trades and businesses get found on Google.
+              Professional website design from £250 covering 41 areas across Bath and North East Somerset. We help local trades and businesses get found on Google.
             </p>
             <p className="animate-fade-in-up delay-300 text-sm text-gray-500 mt-4">
               Searching for a{' '}
@@ -192,7 +192,7 @@ const Areas = () => {
                 <div className="text-sm text-gray-400">Areas & Neighbourhoods</div>
               </div>
               <div className="p-6 text-center">
-                <div className="text-3xl font-bold gradient-text">£399</div>
+                <div className="text-3xl font-bold gradient-text">£250</div>
                 <div className="text-sm text-gray-400">Website Design from</div>
               </div>
               <div className="p-6 text-center">

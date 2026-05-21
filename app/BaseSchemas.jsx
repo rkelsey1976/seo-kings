@@ -12,7 +12,7 @@ const websiteSchema = {
   '@id': `${siteUrl}/#website`,
   url: siteUrl,
   name: 'SEO Kings',
-  description: 'Web agency and Website Designer in Bath and North East Somerset. Website Design from £399, local SEO and Google Business Profile so you get found on Google.',
+  description: 'Web agency and Website Designer in Bath and North East Somerset. Website Design from £250, local SEO and Google Business Profile so you get found on Google.',
   publisher: { '@id': `${siteUrl}/#organization` },
   inLanguage: 'en-GB',
   potentialAction: {

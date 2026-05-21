@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Web Design for Landscapers Bath & Somerset | From £399 | SEO Kings' },
-  description: 'Websites for landscapers and gardeners that rank on Google and get you enquiries. Before/after galleries, service pages, seasonal content. Serving Bath, Keynsham and Somerset from £399.',
+  title: { absolute: 'Web Design for Landscapers Bath & Somerset | From £250 | SEO Kings' },
+  description: 'Websites for landscapers and gardeners that rank on Google and get you enquiries. Before/after galleries, service pages, seasonal content. Serving Bath, Keynsham and Somerset from £250.',
   alternates: { canonical: 'https://seo-kings.co.uk/web-design-for/landscapers' },
 };
 

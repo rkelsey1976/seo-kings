@@ -63,7 +63,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/plumbers',
       url: 'https://seo-kings.co.uk/web-design-for/plumbers',
       name: 'Web Design for Plumbers | SEO Kings',
-      description: 'Websites for plumbers in Bath & Somerset. Fast, mobile-first, built to rank for emergency and local search. Gas Safe badge display, dedicated service pages, Google Business Profile included. From £399.',
+      description: 'Websites for plumbers in Bath & Somerset. Fast, mobile-first, built to rank for emergency and local search. Gas Safe badge display, dedicated service pages, Google Business Profile included. From £250.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -89,7 +89,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Plumber website from £399 including Google Business Profile set-up',
+        description: 'Plumber website from £250 including Google Business Profile set-up',
       },
     },
     {
@@ -122,8 +122,8 @@ const WebDesignForPlumbers = () => {
   return (
     <>
       <SEO
-        title="Web Design for Plumbers Bath & Somerset | From £399"
-        description="Websites for plumbers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. Gas Safe display, service pages, Google Business Profile included. From £399."
+        title="Web Design for Plumbers Bath & Somerset | From £250"
+        description="Websites for plumbers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. Gas Safe display, service pages, Google Business Profile included. From £250."
         canonical="/web-design-for/plumbers"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -149,7 +149,7 @@ const WebDesignForPlumbers = () => {
               Most plumbing leads come from emergency searches. A burst pipe at 11pm, a boiler that won't fire on a cold morning. The customer is on their phone and they'll call the first plumber they can find who looks trustworthy and is clearly available. If your website isn't fast, mobile-friendly and prominent in local search, those calls go to someone else.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for plumbers in Bath, Keynsham, Midsomer Norton and across North East Somerset — with Gas Safe badge display, dedicated emergency pages, and Google Business Profile optimisation as standard. From £399.
+              We build websites for plumbers in Bath, Keynsham, Midsomer Norton and across North East Somerset — with Gas Safe badge display, dedicated emergency pages, and Google Business Profile optimisation as standard. From £250.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -162,7 +162,7 @@ const WebDesignForPlumbers = () => {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-10">
-              {['From £399', 'Gas Safe badge included', 'Emergency page as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
+              {['From £250', 'Gas Safe badge included', 'Emergency page as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
                   <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   {t}
@@ -236,7 +236,7 @@ const WebDesignForPlumbers = () => {
             <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Straightforward pricing, no surprises</h2>
             <div className="space-y-4 mb-8">
               {[
-                { name: 'Starter', desc: '1-page site — home, services summary, contact', price: 'From £399' },
+                { name: 'Starter', desc: '1-page site — home, services summary, contact', price: 'From £250' },
                 { name: 'Professional', desc: '3-page site — home, 1 service page, contact', price: 'From £599' },
                 { name: 'Full', desc: '5+ pages — home, emergency, service pages, service areas, about', price: 'From £999' },
               ].map((pkg) => (
@@ -253,12 +253,12 @@ const WebDesignForPlumbers = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

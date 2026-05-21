@@ -59,12 +59,12 @@ export const BLOG_META = {
   },
   'get-found-on-google-keynsham': {
     title: 'Get Found on Google in Keynsham, Bitton & the Areas We Serve',
-    description: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
+    description: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £250, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
     robots: 'noindex, follow',
   },
   'keynsham-trades-losing-jobs-google': {
-    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)',
-    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £399 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
+    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £250 Website Fixes It)',
+    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £250 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
     robots: 'noindex, follow',
   },
   'keynsham-farmers-market-2026': {
@@ -74,7 +74,7 @@ export const BLOG_META = {
   },
   'one-page-website-bath-banes': {
     title: 'One-Page Website for Small Business Bath & North East Somerset: When It Works and What We Build',
-    description: 'Affordable one-page website design for Bath and North East Somerset — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    description: 'Affordable one-page website design for Bath and North East Somerset — from £250. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     robots: 'noindex, follow',
   },
 
@@ -105,13 +105,13 @@ export const BLOG_META = {
     robots: 'noindex, follow',
   },
   'website-design-keynsham': {
-    title: 'Keynsham Website Designers | Web Design from £399',
-    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
+    title: 'Keynsham Website Designers | Web Design from £250',
+    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £250. Free audit.',
     robots: 'noindex, follow',
   },
   'website-design-bitton-keynsham': {
     title: 'Website Design in Bitton & the Keynsham Area: What We Build for Local Trades',
-    description: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
+    description: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £250 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
     robots: 'noindex, follow',
   },
   'website-design-radstock': {

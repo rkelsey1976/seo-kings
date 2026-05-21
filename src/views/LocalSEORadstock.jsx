@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: 'Do I need a website as well as local SEO?',
-    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger and gives you more ranking opportunities. If you don't have one, we build fast, SEO-ready sites from £399 — and many Radstock clients do website and SEO together as a package.",
+    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger and gives you more ranking opportunities. If you don't have one, we build fast, SEO-ready sites from £250 — and many Radstock clients do website and SEO together as a package.",
   },
   {
     q: 'What areas near Radstock do you cover?',
@@ -298,7 +298,7 @@ const LocalSEORadstock = () => {
               We cover all of the BA3 area: Radstock, Midsomer Norton, Westfield, Writhlington, Peasedown St John, Chilcompton, Paulton and the wider Somer Valley. We target the exact postcodes your customers search from.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, SEO-ready sites from £399. See our <Link href="/website-designer-radstock" className="underline hover:text-white transition-colors text-primary">website design Radstock</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
+              Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-radstock" className="underline hover:text-white transition-colors text-primary">website design Radstock</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />

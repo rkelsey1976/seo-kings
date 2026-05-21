@@ -14,8 +14,8 @@ const BLOG_SERVICES = [
 const posts = [
   {
     slug: 'keynsham-trades-losing-jobs-google',
-    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)',
-    excerpt: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £399 website plus GBP gets you back in the game.',
+    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £250 Website Fixes It)',
+    excerpt: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £250 website plus GBP gets you back in the game.',
     date: '2026-03-12',
     readTime: '5 min read',
     services: ['web-design', 'gbp', 'local-seo'],
@@ -151,7 +151,7 @@ const posts = [
   {
     slug: 'website-design-bitton-keynsham',
     title: 'Website Design in Bitton & the Keynsham Area: What We Build for Local Trades',
-    excerpt: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
+    excerpt: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £250 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
     services: ['web-design'],
@@ -159,7 +159,7 @@ const posts = [
   {
     slug: 'get-found-on-google-keynsham',
     title: 'Get Found on Google in Keynsham, Bitton & the Areas We Serve',
-    excerpt: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
+    excerpt: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £250, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
     services: ['web-design', 'local-seo'],
@@ -199,7 +199,7 @@ const posts = [
   {
     slug: 'one-page-website-bath-banes',
     title: 'One-Page Website for Small Business Bath & North East Somerset: When It Works and What We Build',
-    excerpt: 'Affordable one-page website design for Bath and North East Somerset — from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    excerpt: 'Affordable one-page website design for Bath and North East Somerset — from £250. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
     services: ['web-design'],

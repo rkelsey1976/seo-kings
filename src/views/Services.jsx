@@ -9,9 +9,9 @@ const services = [
   {
     name: 'Website Design',
     slug: 'web-design',
-    price: 'From £399',
+    price: 'From £250',
     tag: 'Core Service',
-    description: 'A fast, mobile-first website built to rank for your trade locally. One-page sites from £399. Multi-page from £599. Click-to-call, quote form, and Google Business Profile set-up included.',
+    description: 'A fast, mobile-first website built to rank for your trade locally. One-page sites from £250. Multi-page from £599. Click-to-call, quote form, and Google Business Profile set-up included.',
     bullets: [
       'Live in under 2 weeks',
       'Mobile-first and fast-loading',
@@ -24,11 +24,11 @@ const services = [
   {
     name: 'Website Design Packages',
     slug: 'web-design-packages',
-    price: 'From £399',
+    price: 'From £250',
     tag: 'Pricing',
     description: 'Three clear packages — Starter, Professional, and Full — so you know exactly what you\'re getting and what it costs. No hidden fees.',
     bullets: [
-      'Starter (1-page) from £399',
+      'Starter (1-page) from £250',
       'Professional (3-page) from £599',
       'Full (5+ page) from £999',
       'All include GBP set-up',
@@ -39,7 +39,7 @@ const services = [
   {
     name: 'Google Business Profile',
     slug: 'google-business-profile',
-    price: '£150 one-off',
+    price: '£100 one-off',
     tag: 'Add-on',
     description: 'Claim, verify and fully optimise your GBP so you show up in the Map Pack — the top 3 results that capture the majority of local clicks. Included with all website packages.',
     bullets: [
@@ -69,7 +69,7 @@ const services = [
   {
     name: 'Website Redesign',
     slug: 'website-redesign',
-    price: 'From £399',
+    price: 'From £250',
     tag: 'Add-on',
     description: 'Got a site that looks dated, loads slowly, or isn\'t getting you any enquiries? We redesign it from the ground up — fast, mobile-first, and built to rank. Keep your domain, ditch everything else.',
     bullets: [
@@ -99,7 +99,7 @@ const services = [
   {
     name: 'Logo Design',
     slug: 'contact',
-    price: 'From £150',
+    price: 'From £100',
     tag: 'Add-on',
     description: 'A clean, professional logo that works everywhere — your website, Google Business Profile, van signage and social media. Designed for trades and local businesses across Bath and Somerset.',
     bullets: [
@@ -116,7 +116,7 @@ const services = [
     slug: 'hosting',
     price: '6 months free',
     tag: 'Add-on',
-    description: 'SSL, daily backups, uptime monitoring and content tweaks — so your site stays fast, secure and up to date. Free for 6 months with every website, then £199/year.',
+    description: 'SSL, daily backups, uptime monitoring and content tweaks — so your site stays fast, secure and up to date. Free for 6 months with every website, then £50/year.',
     bullets: [
       'Free SSL certificate included',
       'Daily automated backups',
@@ -139,7 +139,7 @@ const Services = () => {
     <>
       <SEO
         title="Web Design & Local SEO Services Bath"
-        description="Website design from £399, Google Business Profile set-up, and local SEO for trades in Bath & North East Somerset. See all services and pricing."
+        description="Website design from £250, Google Business Profile set-up, and local SEO for trades in Bath & North East Somerset. See all services and pricing."
         canonical="/services"
         breadcrumbs={[
           { name: 'Home', url: '/' },

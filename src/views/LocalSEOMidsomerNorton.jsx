@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: 'Do I need a website as well as local SEO?',
-    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger and gives you more ranking opportunities. If you don't have one, we build fast, SEO-ready sites from £399 — and many Midsomer Norton clients do website and SEO together as a package.",
+    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger and gives you more ranking opportunities. If you don't have one, we build fast, SEO-ready sites from £250 — and many Midsomer Norton clients do website and SEO together as a package.",
   },
   {
     q: 'What areas near Midsomer Norton do you cover?',
@@ -298,7 +298,7 @@ const LocalSEOMidsomerNorton = () => {
               We cover all of the BA3 area: Midsomer Norton, Radstock, Paulton, Westfield, Peasedown St John, Timsbury, High Littleton, Hallatrow, Clandown, Writhlington and Chilcompton.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, SEO-ready sites from £399. See our <Link href="/website-designer-midsomer-norton" className="underline hover:text-white transition-colors text-primary">website design Midsomer Norton</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
+              Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-midsomer-norton" className="underline hover:text-white transition-colors text-primary">website design Midsomer Norton</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />

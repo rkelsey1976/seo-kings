@@ -6,7 +6,7 @@ import FAQAccordion from './FAQAccordion';
 export const homepageFAQs = [
   {
     question: 'How much does a website cost in Bath?',
-    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £599. No hidden fees.',
+    answer: '£250 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £599. No hidden fees.',
   },
   {
     question: 'How long does it take to build a website?',

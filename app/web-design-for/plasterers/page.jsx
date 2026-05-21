@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Web Design for Plasterers Bath & Somerset | From £399 | SEO Kings' },
-  description: 'Websites for plasterers that rank on Google and generate enquiries. Before/after gallery, service pages, lime plaster. From £399.',
+  title: { absolute: 'Web Design for Plasterers Bath & Somerset | From £250 | SEO Kings' },
+  description: 'Websites for plasterers that rank on Google and generate enquiries. Before/after gallery, service pages, lime plaster. From £250.',
   alternates: { canonical: 'https://seo-kings.co.uk/web-design-for/plasterers' },
 };
 

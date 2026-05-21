@@ -60,7 +60,7 @@ export const BLOG_LINKS = [
   { href: '/blog/gbp-trades-losing-customers', label: 'Why Trades Lose Customers When They\'re Not on Google' },
   { href: '/blog/google-business-profile-for-trades', label: 'What is a Google Business Profile and Why Trades Need One' },
   { href: '/blog/keynsham-farmers-market-2026', label: 'Keynsham Farmers\' Market 2026: How Traders Can Get More Customers with a Website' },
-  { href: '/blog/keynsham-trades-losing-jobs-google', label: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)' },
+  { href: '/blog/keynsham-trades-losing-jobs-google', label: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £250 Website Fixes It)' },
 ];
 
 export const CASE_STUDY_SLUGS = [

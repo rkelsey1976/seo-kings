@@ -7,7 +7,7 @@ const HowItWorks = () => {
     {
       number: '01',
       title: 'Free Audit',
-      description: 'We review your current Google rankings, website (or we build you one — website design from £399), and Google Business Profile. We tell you exactly what\'s holding you back in Bath & North East Somerset searches and give you a clear action plan — no jargon, no obligation.',
+      description: 'We review your current Google rankings, website (or we build you one — website design from £250), and Google Business Profile. We tell you exactly what\'s holding you back in Bath & North East Somerset searches and give you a clear action plan — no jargon, no obligation.',
       image: '/images/home/local-seo-get-found-google-analytics.webp',
       imageAlt: 'Local SEO audit — checking Google rankings and website visibility for Bath and North East Somerset businesses',
       icon: (

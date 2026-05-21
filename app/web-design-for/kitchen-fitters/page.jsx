@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Web Design for Kitchen Fitters Bath & Somerset | From £399 | SEO Kings' },
-  description: 'Websites for kitchen fitters that rank on Google and generate enquiries. Project galleries, service pages, planning permission. From £399.',
+  title: { absolute: 'Web Design for Kitchen Fitters Bath & Somerset | From £250 | SEO Kings' },
+  description: 'Websites for kitchen fitters that rank on Google and generate enquiries. Project galleries, service pages, planning permission. From £250.',
   alternates: { canonical: 'https://seo-kings.co.uk/web-design-for/kitchen-fitters' },
 };
 

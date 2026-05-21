@@ -22,7 +22,7 @@ const blogPosts = {
         paragraphs: [
           'A lot of businesses assume they have to choose: either a website that looks good or one that ranks on Google. We don\'t think that way. Every site we build is designed to be both: clear, modern, and on-brand, and built from the ground up so Google can crawl it, understand it, and rank it.',
           'That means clean code, fast loading, proper structure, and content that matches what people search for. It also means a layout and visuals that make visitors want to stay, read, and get in touch. When you get both right, you get more traffic and more conversions.',
-          'Our website design starts from £399 for a one-page trade site and includes the basics that help you rank.',
+          'Our website design starts from £250 for a one-page trade site and includes the basics that help you rank.',
         ],
       },
       {
@@ -486,7 +486,7 @@ const blogPosts = {
       {
         heading: 'What we build for Bath businesses',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites - every site we build is set up for local search from day one. That means clear location signals, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £250 to full multi-page sites - every site we build is set up for local search from day one. That means clear location signals, mobile-friendly design, and structure that Google can crawl and rank.',
           'For Bath businesses, that combination - a professional site plus local SEO and GBP work - is what gets you found when local customers search. You don\'t need a huge, expensive build; you need something clear, fast, and built with Bath and North East Somerset in mind.',
         ],
       },
@@ -538,7 +538,7 @@ const blogPosts = {
         heading: 'Website designer vs DIY: when it\'s worth hiring',
         paragraphs: [
           'DIY website builders are cheap, but they often produce slow, generic sites that don\'t rank well. A professional website designer in Bath or North East Somerset can give you a custom site that\'s fast, on-brand, and built for local search - without you spending time learning builders or fixing technical issues.',
-          'We offer one-page sites from £399 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months\' hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
+          'We offer one-page sites from £250 and full multi-page sites for growing businesses. Every package includes SEO basics, mobile design, and 12 months\' hosting. So you get a website designer who delivers the lot: design, speed, and findability.',
         ],
       },
       {
@@ -565,7 +565,7 @@ const blogPosts = {
   'website-design-keynsham': {
     slug: 'website-design-keynsham',
     title: 'Keynsham Website Designers: Get Found on Google in Bath & North East Somerset',
-    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £399. Free audit.',
+    description: 'Keynsham website designers that get you found on Google. Mobile-friendly sites & local SEO for Bath, Bristol & Somerset. From £250. Free audit.',
     date: '2026-02-08',
     readTime: '12 min read',
     author: 'SEO Kings',
@@ -592,7 +592,7 @@ const blogPosts = {
         paragraphs: [
           'When you work with Keynsham website designers or a local web design team, you should get more than a static brochure. You should get a site that\'s built to help you get found and get leads.',
           'Your site should look good and work well on phones and tablets. That means readable text, tap-friendly buttons, and fast loading. We build all our sites mobile-first so Keynsham and BANES businesses perform where most of their customers are searching.',
-          'A new website should be built with local search in mind from day one. That includes the right structure, clear service and area mentions (e.g. Keynsham, Bath, Somerset), and a Google Business Profile that\'s set up and optimised. Our [website design packages from £399](https://seo-kings.co.uk/website-designer-keynsham) include GBP optimisation for one service in one location so you can show up in the map pack as soon as you go live.',
+          'A new website should be built with local search in mind from day one. That includes the right structure, clear service and area mentions (e.g. Keynsham, Bath, Somerset), and a Google Business Profile that\'s set up and optimised. Our [website design packages from £250](https://seo-kings.co.uk/website-designer-keynsham) include GBP optimisation for one service in one location so you can show up in the map pack as soon as you go live.',
           'You don\'t want to wait weeks or pay a developer every time you need to change a phone number or add a service. We build sites that are easy to update, and we\'re on hand to help. For businesses that want to grow visibility across more areas or keywords, we offer Local SEO as an add-on once your site is live (seo-kings.co.uk/local-seo).',
           'The goal isn\'t just to look good; it\'s to get more calls and enquiries. That means clear calls-to-action, contact forms or click-to-call buttons, and a layout that guides visitors to take the next step. We focus on conversion so your website design Keynsham investment turns into real jobs.',
         ],
@@ -601,7 +601,7 @@ const blogPosts = {
         heading: 'Website Design Costs for Keynsham Businesses',
         paragraphs: [
           'Pricing is one of the first questions we hear. Here\'s a straight answer so you know what to expect. For a typical small business or trade in Keynsham and the surrounding area: a simple one-page or small brochure site is roughly £400-£800. Often it includes the basics: your services, area, contact details, and a mobile-friendly layout. Some packages (including ours) include Google Business Profile optimisation for one service and one location. A multi-page small business site is roughly £800-£2,500 - more pages, more services, maybe a gallery or testimonials. Still aimed at getting you found locally and generating leads. E-commerce or complex builds run from around £2,500 upward, depending on products, payment, and functionality.',
-          'SEO Kings\' website design starts at £399 for a one-page or multi-page site built to get you found on Google, with GBP optimisation included for one service in one location. No hidden catches. See our website design packages at seo-kings.co.uk/web-design for more detail.',
+          'SEO Kings\' website design starts at £250 for a one-page or multi-page site built to get you found on Google, with GBP optimisation included for one service in one location. No hidden catches. See our website design packages at seo-kings.co.uk/web-design for more detail.',
           'Cost depends on how many pages you need, whether you need e-commerce, and how much content (text, images) you provide. Extra locations or services for local SEO can be added via our Local SEO service (seo-kings.co.uk/local-seo) once you\'re happy with your site. After launch, you\'ll usually have hosting (often £50-£200 a year for a small site) and optionally maintenance or support. If you add Local SEO to target more keywords or areas, that\'s a monthly fee. We\'re clear about what\'s included and what\'s optional so Keynsham businesses can plan.',
         ],
       },
@@ -618,7 +618,7 @@ const blogPosts = {
       {
         heading: 'SEO Kings Website Design in Keynsham',
         paragraphs: [
-          'We\'re a Bath & North East Somerset agency focused on getting local businesses found on Google. Keynsham is one of the areas we serve every day. Check out our [Keynsham web design service](https://seo-kings.co.uk/website-designer-keynsham) to see how we structure sites for local search. We offer: website design from £399, one-page or multi-page, mobile-first, built to rank locally - our one-page package includes Google Business Profile optimisation for one service in one location. We set up and optimise your Google Business Profile so you show up in the map pack when people search for your trade or service in Keynsham, Bath, or BANES. And once your site is live, we can add Local SEO to target more keywords and areas (e.g. "plumber Bath," "electrician Keynsham") with monthly reporting and ongoing optimisation.',
+          'We\'re a Bath & North East Somerset agency focused on getting local businesses found on Google. Keynsham is one of the areas we serve every day. Check out our [Keynsham web design service](https://seo-kings.co.uk/website-designer-keynsham) to see how we structure sites for local search. We offer: website design from £250, one-page or multi-page, mobile-first, built to rank locally - our one-page package includes Google Business Profile optimisation for one service in one location. We set up and optimise your Google Business Profile so you show up in the map pack when people search for your trade or service in Keynsham, Bath, or BANES. And once your site is live, we can add Local SEO to target more keywords and areas (e.g. "plumber Bath," "electrician Keynsham") with monthly reporting and ongoing optimisation.',
           'We\'ve helped over 150 businesses in the area. One of them, Peachy Cleans (seo-kings.co.uk/spotlight/peachy-cleans), went from no website and no Google presence to number one for "cleaner Midsomer Norton" and ended up fully booked and hiring. We\'re not interested in jargon or long contracts; we want you on the map and getting more calls. Ready to see what\'s possible for your business? Get your free audit at seo-kings.co.uk/contact. We\'ll look at your current website and Google listing and show you simple ways to get higher in search and Maps. No obligation, no credit card required.',
           'We\'re based in Bath & North East Somerset and we work only in this patch. That means we know the towns, the searches, and what works for trades and local services. When you work with us, you\'re not a number; you get a plan that fits your trade and your area. Next steps: 1) Get your free audit at seo-kings.co.uk/contact - we review your site and GBP and tell you what\'s holding you back in Keynsham and BANES searches. 2) We agree a plan (website, GBP, or both) and a clear price. 3) We build and optimise; you start showing up where it matters and get more enquiries.',
         ],
@@ -626,7 +626,7 @@ const blogPosts = {
       {
         heading: 'Conclusion',
         paragraphs: [
-          'If you\'re looking for Keynsham website designers or website design Keynsham, the goal is simple: a professional, mobile-friendly site and a Google presence that gets you on page 1 and in the map pack. That\'s how you stop missing calls and start winning more local work. Get a site built for local search - fast, mobile-first, with clear CTAs. Get your Google Business Profile right so you show up when people search for your trade in Keynsham, Bath, or Bristol. Know the costs upfront - from around £400 for a simple, effective site; we start at £399 with GBP optimisation included. Choose a team that knows the area and that focuses on results, not jargon. SEO Kings helps trades and local businesses in Keynsham, Bath, Midsomer Norton, Radstock, Saltford, and across BANES get found on Google. Get your free audit today at seo-kings.co.uk/contact. No obligation, no credit card required.',
+          'If you\'re looking for Keynsham website designers or website design Keynsham, the goal is simple: a professional, mobile-friendly site and a Google presence that gets you on page 1 and in the map pack. That\'s how you stop missing calls and start winning more local work. Get a site built for local search - fast, mobile-first, with clear CTAs. Get your Google Business Profile right so you show up when people search for your trade in Keynsham, Bath, or Bristol. Know the costs upfront - from around £400 for a simple, effective site; we start at £250 with GBP optimisation included. Choose a team that knows the area and that focuses on results, not jargon. SEO Kings helps trades and local businesses in Keynsham, Bath, Midsomer Norton, Radstock, Saltford, and across BANES get found on Google. Get your free audit today at seo-kings.co.uk/contact. No obligation, no credit card required.',
         ],
       },
     ],
@@ -754,7 +754,7 @@ const blogPosts = {
   'website-design-bitton-keynsham': {
     slug: 'website-design-bitton-keynsham',
     title: 'Website Design in Bitton & the Keynsham Area: What We Build for Local Trades',
-    description: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
+    description: 'Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £250 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
     author: 'SEO Kings',
@@ -769,7 +769,7 @@ const blogPosts = {
       {
         heading: 'What we build for Bitton and Keynsham area businesses',
         paragraphs: [
-          'We build the same for Bitton and the Keynsham area as we do for Keynsham: fast, mobile-friendly websites from £399, with Google Business Profile and local SEO as add-ons. Every site we build is set up for local search - clear location signals for Bitton, Keynsham, Saltford, and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build the same for Bitton and the Keynsham area as we do for Keynsham: fast, mobile-friendly websites from £250, with Google Business Profile and local SEO as add-ons. Every site we build is set up for local search - clear location signals for Bitton, Keynsham, Saltford, and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
           'Areas we serve include Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock and across Bath and North East Somerset. You don\'t need a huge build; you need something clear, fast, and built with the Keynsham area in mind.',
         ],
       },
@@ -782,7 +782,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Bitton or the Keynsham area and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £399. See our [Keynsham web design service](https://seo-kings.co.uk/website-designer-keynsham) to find out more, or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Bitton or the Keynsham area and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £250. See our [Keynsham web design service](https://seo-kings.co.uk/website-designer-keynsham) to find out more, or get in touch for a free quote.',
         ],
       },
     ],
@@ -797,7 +797,7 @@ const blogPosts = {
   'get-found-on-google-keynsham': {
     slug: 'get-found-on-google-keynsham',
     title: 'Get Found on Google in Keynsham, Bitton & the Areas We Serve',
-    description: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
+    description: 'How trades in Keynsham and the Keynsham area get found on Google. Website from £250, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and North East Somerset.',
     date: '2026-02-12',
     readTime: '4 min read',
     author: 'SEO Kings',
@@ -812,7 +812,7 @@ const blogPosts = {
       {
         heading: 'What "get found" means in practice',
         paragraphs: [
-          'Getting found on Google in Keynsham and the areas we serve comes down to three things: a website that loads fast and clearly says where you serve, a complete and optimised Google Business Profile, and the same areas and services everywhere so Google and your customers see a consistent picture. We do all three for Keynsham and Bath and North East Somerset - website design from £399, plus Google Business Profile and local SEO as add-ons.',
+          'Getting found on Google in Keynsham and the areas we serve comes down to three things: a website that loads fast and clearly says where you serve, a complete and optimised Google Business Profile, and the same areas and services everywhere so Google and your customers see a consistent picture. We do all three for Keynsham and Bath and North East Somerset - website design from £250, plus Google Business Profile and local SEO as add-ons.',
         ],
       },
       {
@@ -854,7 +854,7 @@ const blogPosts = {
       {
         heading: 'What we build for Radstock and Somer Valley businesses',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £250 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
           'For Radstock businesses, that combination - a professional site plus local SEO and GBP work - is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with the Somer Valley in mind.',
         ],
       },
@@ -867,7 +867,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Radstock or the Somer Valley and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Radstock or the Somer Valley and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £250. See our web design packages or get in touch for a free quote.',
         ],
       },
     ],
@@ -897,7 +897,7 @@ const blogPosts = {
       {
         heading: 'What we build for Peasedown St John businesses',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Peasedown St John, Bath, Radstock, Midsomer Norton and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £250 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Peasedown St John, Bath, Radstock, Midsomer Norton and the surrounding area, mobile-friendly design, and structure that Google can crawl and rank.',
           'For Peasedown businesses, that combination - a professional site plus local SEO and GBP work - is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Bath and North East Somerset in mind.',
         ],
       },
@@ -910,7 +910,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Peasedown St John or south of Bath and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £399. See our Peasedown St John area page, web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Peasedown St John or south of Bath and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £250. See our Peasedown St John area page, web design packages or get in touch for a free quote.',
         ],
       },
     ],
@@ -939,7 +939,7 @@ const blogPosts = {
       {
         heading: 'What we build for Somer Valley businesses',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, Peasedown St John, Bath and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £250 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Radstock, Midsomer Norton, Paulton, Peasedown St John, Bath and the Somer Valley, mobile-friendly design, and structure that Google can crawl and rank.',
           'For Somer Valley businesses, that combination - a professional site plus local SEO and GBP work - is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with the Somer Valley in mind.',
         ],
       },
@@ -952,7 +952,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Radstock, Midsomer Norton, Paulton or the Somer Valley and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £399. See our area pages for Radstock, Midsomer Norton and Paulton, web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Radstock, Midsomer Norton, Paulton or the Somer Valley and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £250. See our area pages for Radstock, Midsomer Norton and Paulton, web design packages or get in touch for a free quote.',
         ],
       },
     ],
@@ -969,7 +969,7 @@ const blogPosts = {
   'one-page-website-bath-banes': {
     slug: 'one-page-website-bath-banes',
     title: 'One-Page Website for Small Business Bath & North East Somerset: When It Works and What We Build',
-    description: 'Affordable one-page website design for Bath and North East Somerset - from £399. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
+    description: 'Affordable one-page website design for Bath and North East Somerset - from £250. When a single-page site works for trades and local businesses, and what we include so it ranks on Google.',
     date: '2026-02-08',
     readTime: '4 min read',
     author: 'SEO Kings',
@@ -984,7 +984,7 @@ const blogPosts = {
       {
         heading: 'When a one-page website works best',
         paragraphs: [
-          'A one-page website works well when you offer a focused set of services, serve a clear area, and want a simple, professional online presence without a big budget. Plumbers, electricians, cleaners, builders, and other local trades often don\'t need dozens of pages - they need a site that looks good, loads fast, and makes it easy for customers to call or message. That\'s what we build from £399.',
+          'A one-page website works well when you offer a focused set of services, serve a clear area, and want a simple, professional online presence without a big budget. Plumbers, electricians, cleaners, builders, and other local trades often don\'t need dozens of pages - they need a site that looks good, loads fast, and makes it easy for customers to call or message. That\'s what we build from £250.',
         ],
       },
       {
@@ -994,9 +994,9 @@ const blogPosts = {
         ],
       },
       {
-        heading: 'Affordable website design from £399',
+        heading: 'Affordable website design from £250',
         paragraphs: [
-          'Our Starter package is a one-page website from £399 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, 12 months free hosting, and SSL. It\'s affordable website design for Bath and North East Somerset - no hidden fees, no ongoing costs you didn\'t agree to. If you later need more pages, we can expand it or you can move to a larger package.',
+          'Our Starter package is a one-page website from £250 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, 12 months free hosting, and SSL. It\'s affordable website design for Bath and North East Somerset - no hidden fees, no ongoing costs you didn\'t agree to. If you later need more pages, we can expand it or you can move to a larger package.',
         ],
       },
       {
@@ -1032,7 +1032,7 @@ const blogPosts = {
       {
         heading: 'What we build for Trowbridge businesses',
         paragraphs: [
-          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £399 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Trowbridge and Wiltshire, mobile-friendly design, and structure that Google can crawl and rank.',
+          'We build websites that load quickly on phones and desktops, list your services and areas clearly, and make it easy for visitors to call or message. From a simple one-page site from £250 to full multi-page sites - every site we build is set up for local search. That means clear location signals for Trowbridge and Wiltshire, mobile-friendly design, and structure that Google can crawl and rank.',
           'For Trowbridge businesses, that combination - a professional site plus local SEO and GBP work - is what gets you found when local customers search. You don\'t need a huge build; you need something clear, fast, and built with Trowbridge and Wiltshire in mind.',
         ],
       },
@@ -1045,7 +1045,7 @@ const blogPosts = {
       {
         heading: 'What to do next',
         paragraphs: [
-          'If you\'re a tradesperson or local business in Trowbridge or Wiltshire and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £399. See our web design packages or get in touch for a free quote.',
+          'If you\'re a tradesperson or local business in Trowbridge or Wiltshire and you need a new website - or your current one is slow or not set up for local search - we\'d be happy to talk. We offer a free check and build websites from £250. See our web design packages or get in touch for a free quote.',
         ],
       },
     ],
@@ -1224,7 +1224,7 @@ const blogPosts = {
         paragraphs: [
           'You don\'t have to do everything at once. Here are some quick wins that make a real difference.',
           '1. Claim (or create) your Google Business Profile - Use your market address or a service-area setup so you show up for "Keynsham farmers market" and related searches. Add a short description, your stall/products, and your phone number. We can check your GBP for free and tell you what to fix.',
-          '2. Get a simple one-page website - From £399 we build a one-page site plus Google Business Profile optimisation for one service/location. Ideal for a local business website in BS31 that just needs to be clear, fast, and findable. See our web design packages or contact us for a quote.',
+          '2. Get a simple one-page website - From £250 we build a one-page site plus Google Business Profile optimisation for one service/location. Ideal for a local business website in BS31 that just needs to be clear, fast, and findable. See our web design packages or contact us for a quote.',
           '3. Use the same details everywhere - Same business name, phone (07702 264 921 if you\'re us!), and location on your stall, website, and GBP. Consistency helps Google (and customers) trust you.',
           '4. Add a few good photos - Stall, produce, you at the market. They go on your site and your GBP and make you more clickable in search and on Maps.',
         ],
@@ -1239,7 +1239,7 @@ const blogPosts = {
         heading: 'A few questions we hear from traders',
         paragraphs: [
           '"I only trade at the market - do I really need a website?" You don\'t have to, but if people search for you or for the market between Saturdays and find nothing, they\'ll go elsewhere. A one-page site and a GBP cost little and keep you visible all month.',
-          '"Won\'t a website be expensive?" Our £399 starter package includes a one-page, mobile-friendly site and GBP optimisation for one service/location. It\'s built for local search so you show up when people search website design Keynsham, the market, or your type of produce. Get a free quote or ring 07702 264 921.',
+          '"Won\'t a website be expensive?" Our £250 starter package includes a one-page, mobile-friendly site and GBP optimisation for one service/location. It\'s built for local search so you show up when people search website design Keynsham, the market, or your type of produce. Get a free quote or ring 07702 264 921.',
           '"I\'m not technical." You don\'t need to be. We build the site and set up (or tidy up) your Google listing. You send us your wording and photos; we handle the rest. After that, you just keep your market dates and contact details up to date.',
           '"How do I get on the first page of Google?" For local searches, Google cares about: a clear website with your location and services, a complete and accurate Google Business Profile, and consistent name/address/phone everywhere. We specialise in exactly that for Keynsham and BANES - get your free Keynsham SEO audit to see what\'s missing.',
         ],
@@ -1248,21 +1248,21 @@ const blogPosts = {
         heading: 'Get your free Keynsham SEO audit and next steps',
         paragraphs: [
           'We\'re SEO Kings, a Keynsham-based web design and local SEO agency (BS31 2DW). We work with trades and small businesses across Keynsham, Bath, and North East Somerset - from plumber Keynsham and electrician BS31 to builder Keynsham and, yes, market traders and artisan producers in Keynsham. We don\'t do hard sell; we do clear, affordable website design in Keynsham and Google Business Profile in Keynsham so you get found on Google and get more customers.',
-          'What we offer: Free Keynsham SEO audit - we review your current site and Google listing (or the gap if you don\'t have them) and tell you what\'s holding you back. No obligation, no credit card. Starter package from £399 - one-page website plus GBP optimisation for one service/location. Ideal as a first local business website in BS31 or a website for traders in Keynsham. Phone: 07702 264 921 - call for a chat or to book your free audit.',
+          'What we offer: Free Keynsham SEO audit - we review your current site and Google listing (or the gap if you don\'t have them) and tell you what\'s holding you back. No obligation, no credit card. Starter package from £250 - one-page website plus GBP optimisation for one service/location. Ideal as a first local business website in BS31 or a website for traders in Keynsham. Phone: 07702 264 921 - call for a chat or to book your free audit.',
           'Whether you\'re at the Keynsham farmers market every second Saturday or you\'re a trade that serves the area, a professional website and a proper Google presence turn the other 28 days into more enquiries and more sales. Get your free Keynsham SEO audit and we\'ll show you exactly what to do next.',
         ],
       },
     ],
     ctaLinks: [
       { href: '/contact', label: 'Get your free Keynsham SEO audit' },
-      { href: '/web-design-packages', label: 'Web design packages from £399' },
+      { href: '/web-design-packages', label: 'Web design packages from £250' },
       { href: '/website-designer-keynsham', label: 'Website design Keynsham' },
     ],
   },
   'keynsham-trades-losing-jobs-google': {
     slug: 'keynsham-trades-losing-jobs-google',
-    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)',
-    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £399 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
+    title: 'Why Keynsham Trades Are Losing Jobs to Google (And How a £250 Website Fixes It)',
+    description: 'Keynsham trades miss calls because they don\'t show on page 1 or Maps when people search. Why it happens and how a £250 website plus Google Business Profile gets you back in the game. From SEO Kings, Keynsham.',
     date: '2026-03-12',
     readTime: '5 min read',
     author: 'SEO Kings',
@@ -1277,16 +1277,16 @@ const blogPosts = {
         ],
       },
       {
-        heading: 'How a £399 website fixes it',
+        heading: 'How a £250 website fixes it',
         paragraphs: [
-          'You don\'t need a £5,000 site to get found. A website designer in Keynsham who builds for local search can give you a professional, mobile-friendly site from £399 that does the job.',
-          'Mobile-friendly and fast - most "plumber Keynsham" and "electrician BS31" searches happen on phones. A modern site loads quickly and works on every device. Built for local SEO - clear service pages, your areas (Keynsham, Saltford, Bitton, Longwell Green, Warmley), and the right keywords so you start showing up for Google ranking Keynsham and trade + location searches. Google Business Profile integration - your site and your GBP match; we set that up. A website design Keynsham package from £399 often includes GBP optimisation for one service and location. Easy contact - click-to-call, contact forms, and clear "Get a quote" or "Call now" so visitors reach you in one tap. That\'s how a £399 website turns "invisible on Google" into "showing up when Keynsham customers search".',
+          'You don\'t need a £5,000 site to get found. A website designer in Keynsham who builds for local search can give you a professional, mobile-friendly site from £250 that does the job.',
+          'Mobile-friendly and fast - most "plumber Keynsham" and "electrician BS31" searches happen on phones. A modern site loads quickly and works on every device. Built for local SEO - clear service pages, your areas (Keynsham, Saltford, Bitton, Longwell Green, Warmley), and the right keywords so you start showing up for Google ranking Keynsham and trade + location searches. Google Business Profile integration - your site and your GBP match; we set that up. A website design Keynsham package from £250 often includes GBP optimisation for one service and location. Easy contact - click-to-call, contact forms, and clear "Get a quote" or "Call now" so visitors reach you in one tap. That\'s how a £250 website turns "invisible on Google" into "showing up when Keynsham customers search".',
         ],
       },
       {
         heading: 'Quick wins Keynsham trades can do now',
         paragraphs: [
-          '1. Claim and optimise your Google Business Profile - add business name, address, phone, website, category, services, and a short description. Use "Keynsham", "BS31", and your trade. We offer a free audit that includes a check of your GBP. 2. Get a simple one-page website - if you\'ve got nothing, a one-page site from £399 with Google Business Profile Keynsham optimisation gets you visible. See our web design packages or contact us for a quote. 3. Use the same details everywhere - same name, address, and phone on your van, website, GBP, and directories. 4. Target "trade + Keynsham" - in your GBP and on your site, use phrases like plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham where they fit naturally.',
+          '1. Claim and optimise your Google Business Profile - add business name, address, phone, website, category, services, and a short description. Use "Keynsham", "BS31", and your trade. We offer a free audit that includes a check of your GBP. 2. Get a simple one-page website - if you\'ve got nothing, a one-page site from £250 with Google Business Profile Keynsham optimisation gets you visible. See our web design packages or contact us for a quote. 3. Use the same details everywhere - same name, address, and phone on your van, website, GBP, and directories. 4. Target "trade + Keynsham" - in your GBP and on your site, use phrases like plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham where they fit naturally.',
         ],
       },
       {
@@ -1300,7 +1300,7 @@ const blogPosts = {
         heading: 'A few questions we hear',
         paragraphs: [
           '"I\'ve been trading for years without a website. Do I really need one?" Your reputation is solid locally, but new customers - including people in the new Manor Road developments - don\'t know you yet. They search Google. If you\'re not there, they call someone who is. A simple site and a proper GBP cost little and keep you in the game.',
-          '"Won\'t a £399 site look cheap?" Our £399 package is a one-page, mobile-friendly site built for local search, with GBP optimisation for one service/location. It\'s designed to look professional and load fast - and to get you found for website design Keynsham and trade searches in Keynsham and BS31. Get a free quote or ring 07702 264 921.',
+          '"Won\'t a £250 site look cheap?" Our £250 package is a one-page, mobile-friendly site built for local search, with GBP optimisation for one service/location. It\'s designed to look professional and load fast - and to get you found for website design Keynsham and trade searches in Keynsham and BS31. Get a free quote or ring 07702 264 921.',
           '"How do I get on the first page of Google?" For local searches, Google looks at: a clear website with your location and services, a complete and accurate Google Business Profile, and consistent name/address/phone everywhere. We specialise in exactly that for Keynsham and BANES. Free Keynsham SEO audit - we\'ll show you what\'s missing and what to do next.',
         ],
       },
@@ -1308,7 +1308,7 @@ const blogPosts = {
         heading: 'Get your free audit and stop losing jobs to Google',
         paragraphs: [
           'We\'re SEO Kings, a Keynsham-based web design and local SEO agency at 16a Culvers Road, BS31 2DW. We help plumber Keynsham, electrician BS31, builder Keynsham, roofer Keynsham, decorator Keynsham, and other trades across Keynsham, Saltford, Bitton, Longwell Green, Warmley, and Bath & North East Somerset get found on Google. We don\'t do hype; we do clear, affordable website design Keynsham and Google Business Profile Keynsham so you show up when it matters.',
-          'What we offer: Free audit - we check your current website and Google listing (or the gap if you don\'t have them) and tell you what\'s holding you back. No obligation, no credit card. Website from £399 - one-page site plus GBP optimisation for one service/location. Phone: 07702 264 921 - call for a chat or to book your free audit. Stop losing jobs to Google. Get your free Keynsham SEO audit and we\'ll show you exactly how to get on page one and in the map.',
+          'What we offer: Free audit - we check your current website and Google listing (or the gap if you don\'t have them) and tell you what\'s holding you back. No obligation, no credit card. Website from £250 - one-page site plus GBP optimisation for one service/location. Phone: 07702 264 921 - call for a chat or to book your free audit. Stop losing jobs to Google. Get your free Keynsham SEO audit and we\'ll show you exactly how to get on page one and in the map.',
         ],
       },
     ],
@@ -1316,7 +1316,7 @@ const blogPosts = {
       { href: '/contact', label: 'Get your free Keynsham SEO audit' },
       { href: '/website-designer-keynsham', label: 'Website designer Keynsham' },
       { href: '/local-seo/keynsham', label: 'Local SEO Keynsham' },
-      { href: '/web-design-packages', label: 'Web design packages from £399' },
+      { href: '/web-design-packages', label: 'Web design packages from £250' },
       { href: '/website-designer-keynsham', label: 'Website design Keynsham' },
     ],
   },

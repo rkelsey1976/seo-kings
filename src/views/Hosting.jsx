@@ -9,7 +9,7 @@ import FAQAccordion from '../components/FAQAccordion';
 const faqs = [
   {
     q: 'Is hosting included with my website?',
-    a: 'You get 6 months of hosting free with every website we build. After that, hosting is £199 per year. No surprise bills — we remind you before it renews, and there are no lock-in contracts.',
+    a: 'You get 6 months of hosting free with every website we build. After that, hosting is £50 per year. No surprise bills — we remind you before it renews, and there are no lock-in contracts.',
   },
   {
     q: 'What does hosting include?',
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'Can I host my site somewhere else?',
-    a: 'Yes. Your site is yours. If you want to move it to another host, we package everything up and hand it over. But most clients stay because £199/year for hosting, backups, monitoring and content tweaks is hard to beat.',
+    a: 'Yes. Your site is yours. If you want to move it to another host, we package everything up and hand it over. But most clients stay because £50/year for hosting, backups, monitoring and content tweaks is hard to beat.',
   },
   {
     q: 'What happens if my site goes down?',
@@ -99,7 +99,7 @@ const Hosting = () => {
     <>
       <SEO
         title="Website Hosting for Trades — Bath & Somerset | SEO Kings"
-        description="Website hosting with SSL, daily backups, uptime monitoring and content tweaks. 6 months free with every website, then £199/year. No lock-in. Bath & Somerset."
+        description="Website hosting with SSL, daily backups, uptime monitoring and content tweaks. 6 months free with every website, then £50/year. No lock-in. Bath & Somerset."
         canonical="/hosting"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -122,7 +122,7 @@ const Hosting = () => {
             '@id': 'https://seo-kings.co.uk/hosting/#service',
             serviceType: 'Website Hosting',
             name: 'Website Hosting and Maintenance',
-            description: 'Website hosting with SSL, daily backups, uptime monitoring and content tweaks for trades and local businesses in Bath & Somerset. 6 months free, then £199/year.',
+            description: 'Website hosting with SSL, daily backups, uptime monitoring and content tweaks for trades and local businesses in Bath & Somerset. 6 months free, then £50/year.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
             offers: {
@@ -154,8 +154,8 @@ const Hosting = () => {
         badge="Website Hosting"
         title="Hosting That Handles Itself"
         highlight="So You Don't Have To"
-        description="SSL, backups, monitoring, content tweaks — all included. 6 months free with every website, then £199/year. You focus on the job. We keep your site fast, secure and online."
-        features={['6 months free', '£199/year after', 'No lock-in contracts', 'Direct support']}
+        description="SSL, backups, monitoring, content tweaks — all included. 6 months free with every website, then £50/year. You focus on the job. We keep your site fast, secure and online."
+        features={['6 months free', '£50/year after', 'No lock-in contracts', 'Direct support']}
         ctaText="Get Your Free Audit"
       />
 
@@ -191,8 +191,8 @@ const Hosting = () => {
             Simple, flat-rate hosting
           </h2>
           <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 mb-6">
-            <div className="text-5xl font-bold mb-2 text-primary">£199<span className="text-xl font-medium text-gray-400">/year</span></div>
-            <p className="text-gray-400 mb-6">6 months free with every website, then £199/year. No lock-in.</p>
+            <div className="text-5xl font-bold mb-2 text-primary">£50<span className="text-xl font-medium text-gray-400">/year</span></div>
+            <p className="text-gray-400 mb-6">6 months free with every website, then £50/year. No lock-in.</p>
             <ul className="space-y-3 text-left max-w-md mx-auto">
               {[
                 'Free SSL certificate — auto-renewed',
@@ -235,7 +235,7 @@ const Hosting = () => {
                   With us, if your site goes down at 2am on a Sunday, we fix it. If you need a phone number changed on a Friday evening, you message us and it is done. Your site is hosted by the person who built it — not a call centre.
                 </p>
                 <p>
-                  £199/year works out at less than £17/month. For that, you never have to think about SSL renewals, backup plugins, server updates, or why your site is slow. We handle all of it.
+                  £50/year works out at less than £5/month. For that, you never have to think about SSL renewals, backup plugins, server updates, or why your site is slow. We handle all of it.
                 </p>
               </div>
             </div>

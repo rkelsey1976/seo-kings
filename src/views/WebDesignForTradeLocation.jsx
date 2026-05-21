@@ -8,7 +8,7 @@ import { TRADE_LOCATION_META } from '../constants/tradeLocationMeta';
 const pricing = [
   {
     name: 'Starter',
-    price: '£399',
+    price: '£250',
     desc: '5-page site with Bath service page, mobile-friendly, SEO-ready',
     features: ['5 pages including Bath page', 'Mobile-responsive design', 'Click-to-call on every page', 'Google Maps embedding for Bath', 'Basic SEO setup', 'Contact form'],
   },
@@ -54,7 +54,7 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
             Web Design for {data.tradeName} in Bath
           </span>
           <div className="flex flex-wrap gap-3 mb-6">
-            {['From £399', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
+            {['From £250', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
               <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
                 <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                 {t}
@@ -174,13 +174,13 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
               <div className="flex items-center justify-between py-1">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
           <p className="text-gray-500 text-sm text-center mt-4">
-            All prices one-off. Hosting free for 6 months, then £199/year. No long contracts.
+            All prices one-off. Hosting free for 6 months, then £50/year. No long contracts.
           </p>
         </div>
       </section>

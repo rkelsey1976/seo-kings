@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'Do I need a website for local SEO?',
-    a: "You can do a lot with Google Business Profile alone, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £399 — often the best starting point for a Keynsham trade.",
+    a: "You can do a lot with Google Business Profile alone, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250 — often the best starting point for a Keynsham trade.",
   },
   {
     q: 'Do you cover Bitton, Saltford, Oldland and the surrounding villages?',
@@ -298,7 +298,7 @@ const LocalSEOKeynsham = () => {
               We cover all of BS31: Keynsham town centre, Bitton, Saltford, Oldland, Longwell Green and Warmley. If your customers are in these postcodes, we know how to reach them.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, Google-ready sites from £399. Many Keynsham clients do website and SEO together — one team, one plan. See our <Link href="/website-designer-keynsham" className="underline hover:text-white transition-colors text-primary">website design Keynsham</Link> page for details.
+              Need a website too? We build fast, Google-ready sites from £250. Many Keynsham clients do website and SEO together — one team, one plan. See our <Link href="/website-designer-keynsham" className="underline hover:text-white transition-colors text-primary">website design Keynsham</Link> page for details.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />

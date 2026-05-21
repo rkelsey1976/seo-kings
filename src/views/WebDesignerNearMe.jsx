@@ -91,7 +91,7 @@ const areaLabels = {
   'hallatrow-paulton': { label: 'Hallatrow', postcode: 'BS39' },
 };
 
-const heroFeatures = ['From £399', 'Mobile-First', 'Local SEO Ready', 'Free Audit'];
+const heroFeatures = ['From £250', 'Mobile-First', 'Local SEO Ready', 'Free Audit'];
 
 const whyLocalFeatures = [
   {
@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     question: 'How much does a website cost?',
-    answer: "Web design starts from £399 for a one-page site. That includes a professional, mobile-first design and Google Business Profile optimisation for one service in one location. We can add local SEO, additional pages, and ongoing support as add-ons. No hidden fees, no long contracts.",
+    answer: "Web design starts from £250 for a one-page site. That includes a professional, mobile-first design and Google Business Profile optimisation for one service in one location. We can add local SEO, additional pages, and ongoing support as add-ons. No hidden fees, no long contracts.",
   },
   {
     question: 'How long does it take?',
@@ -192,7 +192,7 @@ const WebDesignerNearMe = () => {
       serviceType: 'Website Design',
       name: 'Website Designer Near Me — Bath, Keynsham, Radstock & Somerset',
       description:
-        'Local website designer covering Bath, Keynsham, Midsomer Norton, Radstock and all of Bath and North East Somerset. Fast, mobile-first websites from £399 with local SEO built in.',
+        'Local website designer covering Bath, Keynsham, Midsomer Norton, Radstock and all of Bath and North East Somerset. Fast, mobile-first websites from £250 with local SEO built in.',
       provider: { '@id': 'https://seo-kings.co.uk/#organization' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/website-designer-near-me' },
       areaServed: [
@@ -246,7 +246,7 @@ const WebDesignerNearMe = () => {
     <>
       <SEO
         title="Website Designer Near Me | Bath, Keynsham, Radstock & Somerset – SEO Kings"
-        description="Looking for a website designer near you? We cover Bath, Keynsham, Midsomer Norton, Radstock & all of Bath and North East Somerset. Web design from £399. Free audit."
+        description="Looking for a website designer near you? We cover Bath, Keynsham, Midsomer Norton, Radstock & all of Bath and North East Somerset. Web design from £250. Free audit."
         canonical="/website-designer-near-me"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -259,7 +259,7 @@ const WebDesignerNearMe = () => {
         badge="Local website designer"
         title="Website Designer Near You — Bath, Keynsham, Radstock &"
         highlight="All of Somerset"
-        description="Based in Keynsham, we design and build websites for trades and small businesses across Bath and North East Somerset. We know your area, we can meet face-to-face, and we get you found on Google. From £399 with local SEO included."
+        description="Based in Keynsham, we design and build websites for trades and small businesses across Bath and North East Somerset. We know your area, we can meet face-to-face, and we get you found on Google. From £250 with local SEO included."
         features={heroFeatures}
         ctaText="Get a Free Audit"
       />

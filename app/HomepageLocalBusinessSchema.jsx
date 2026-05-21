@@ -72,7 +72,7 @@ const homepageLocalBusinessSchema = {
   '@id': `${siteUrl}/#organization`,
   name: 'SEO Kings',
   description:
-    'SEO Kings is a web agency and Website Designer in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website Design from £399, local SEO and Google Business Profile.',
+    'SEO Kings is a web agency and Website Designer in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website Design from £250, local SEO and Google Business Profile.',
   url: siteUrl,
   telephone: '+447702264921',
   image: `${siteUrl}/og-image.jpg`,

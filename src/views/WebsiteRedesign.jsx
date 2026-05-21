@@ -46,7 +46,7 @@ const results = [
 const faqs = [
   {
     q: 'How much does a website redesign cost?',
-    a: 'A full redesign starts from £399 for a one-page site, £599 for three pages. We audit your existing site first so you know exactly what\'s involved and what it will cost before we start.',
+    a: 'A full redesign starts from £250 for a one-page site, £599 for three pages. We audit your existing site first so you know exactly what\'s involved and what it will cost before we start.',
   },
   {
     q: 'Will I lose my Google rankings when you redesign my site?',
@@ -78,7 +78,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/website-redesign',
       url: 'https://seo-kings.co.uk/website-redesign',
       name: 'Website Redesign | SEO Kings',
-      description: 'Website redesign for trades and local businesses. Fast rebuilds from £399 that rank on Google. Serving Bath, Keynsham, Trowbridge and Somerset. Free audit.',
+      description: 'Website redesign for trades and local businesses. Fast rebuilds from £250 that rank on Google. Serving Bath, Keynsham, Trowbridge and Somerset. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -93,7 +93,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Website redesign service for trades and local businesses across Bath, Keynsham, Trowbridge and Somerset. Fast, SEO-ready rebuilds from £399.',
+      description: 'Website redesign service for trades and local businesses across Bath, Keynsham, Trowbridge and Somerset. Fast, SEO-ready rebuilds from £250.',
       url: 'https://seo-kings.co.uk/website-redesign',
       telephone: '+447702264921',
       address: {
@@ -130,8 +130,8 @@ const WebsiteRedesign = () => {
   return (
     <>
       <SEO
-        title="Website Redesign | Rebuild Your Site from £399"
-        description="Website redesign for trades and local businesses. Fast, SEO-ready rebuilds from £399. Bath, Keynsham, Trowbridge and Somerset. Free audit — no obligation."
+        title="Website Redesign | Rebuild Your Site from £250"
+        description="Website redesign for trades and local businesses. Fast, SEO-ready rebuilds from £250. Bath, Keynsham, Trowbridge and Somerset. Free audit — no obligation."
         canonical="/website-redesign"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -178,7 +178,7 @@ const WebsiteRedesign = () => {
 
             <div className="flex flex-wrap gap-6 mt-10">
               {[
-                { label: 'From £399' },
+                { label: 'From £250' },
                 { label: 'Live in under 2 weeks' },
                 { label: 'Rankings protected' },
                 { label: 'Free audit first' },
@@ -247,7 +247,7 @@ const WebsiteRedesign = () => {
               <SectionTag className="mb-2">Pricing</SectionTag>
               <div className="space-y-4 mb-8">
                 {[
-                  { name: 'Starter Redesign', pages: '1-page rebuild', price: 'From £399' },
+                  { name: 'Starter Redesign', pages: '1-page rebuild', price: 'From £250' },
                   { name: 'Professional Redesign', pages: '3-page rebuild', price: 'From £599' },
                   { name: 'Full Redesign', pages: '5+ pages', price: 'From £999' },
                 ].map((pkg) => (

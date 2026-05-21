@@ -13,8 +13,8 @@ const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: fa
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'Web Design for Bath Trades — £399 | SEO Kings Bath',
-  description: 'Fast website design + Google Business Profile for trades in Bath, Keynsham & Midsomer Norton. From £399. Get found on Google. Free audit — no card needed.',
+  title: 'Web Design for Bath Trades — £250 | SEO Kings Bath',
+  description: 'Fast website design + Google Business Profile for trades in Bath, Keynsham & Midsomer Norton. From £250. Get found on Google. Free audit — no card needed.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   other: {
     'trustpilot-one-time-domain-verification-id': '7d8c84ad-2a23-4a65-8cf6-2ac075ac9030',
@@ -31,7 +31,7 @@ const marqueeItems = [
   "Peachy Cleans — Map Pack · 'cleaning Midsomer Norton'",
   "New Decorating — #1 organic · 'exterior painter Bath'",
   "Aurelian Massage — ranking · 'massage Bath'",
-  "Websites from £399 — live in 2 weeks",
+  "Websites from £250 — live in 2 weeks",
   "Google Business Profile included",
   "No contracts. No lock-in.",
 ];
@@ -67,11 +67,11 @@ const bentoCells = [
   {
     colSpan: 2,
     featured: true,
-    stat: '£399',
+    stat: '£250',
     statLabel: 'ONE-PAGE SITES FROM',
     tag: 'Core Service',
     heading: 'Website Design for Trades',
-    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £399. Multi-page from £599. Click-to-call, quote form, and GBP set-up included.',
+    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £250. Multi-page from £599. Click-to-call, quote form, and GBP set-up included.',
     href: '/web-design',
     theme: 'dark',
     imageBg: '/images/cards/bg-website.webp',

@@ -8,7 +8,7 @@ import SplitTextHero from '../library/SplitTextHero';
 
 const Hero = ({
   title = 'Web Design for Bath Trades That Gets You Calls',
-  subtitle = 'A fast local website and Google Business Profile, built for trades in Bath & BANES. Live in under 2 weeks. From £399.',
+  subtitle = 'A fast local website and Google Business Profile, built for trades in Bath & BANES. Live in under 2 weeks. From £250.',
   primaryCta = { href: '/contact', text: 'Get Your Free Audit' },
   secondaryCta = { href: 'tel:07702264921', text: '07702 264 921' },
 } = {}) => {
@@ -111,7 +111,7 @@ const Hero = ({
             {/* Minimal social proof row */}
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500">
               <div className="flex items-center gap-2">
-                <span className="text-gray-400 font-semibold">From £399</span>
+                <span className="text-gray-400 font-semibold">From £250</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-gray-400 font-semibold">Live in 2 weeks</span>

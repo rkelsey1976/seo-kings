@@ -154,7 +154,7 @@ const About = () => {
                   gets found on Google and in the map pack.
                 </p>
                 <p>
-                  Our main service is website design: from one-page sites from £399 to full 
+                  Our main service is website design: from one-page sites from £250 to full 
                   multi-page sites. Every site we build is set up for local search. On top of that, 
                   we provide local SEO and GBP optimisation so your business shows up when people 
                   search for your trade in your area.
