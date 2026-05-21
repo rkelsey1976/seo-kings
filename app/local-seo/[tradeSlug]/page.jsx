@@ -11,6 +11,10 @@ export function generateStaticParams() {
     { tradeSlug: 'landscapers' },
     { tradeSlug: 'cleaners' },
     { tradeSlug: 'painters-decorators' },
+    { tradeSlug: 'kitchen-fitters' },
+    { tradeSlug: 'bathroom-fitters' },
+    { tradeSlug: 'heating-engineers' },
+    { tradeSlug: 'plasterers' },
   ];
 }
 

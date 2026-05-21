@@ -76,4 +76,24 @@ export const TRADE_META = {
       { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
     ],
   },
+  'kitchen-fitters': {
+    name: 'Kitchen Fitters',
+    metaTitle: 'Local SEO for Kitchen Fitters in Bath & North East Somerset',
+    metaDescription: 'Get more kitchen fitting enquiries from Google. We help kitchen fitters in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  'bathroom-fitters': {
+    name: 'Bathroom Fitters',
+    metaTitle: 'Local SEO for Bathroom Fitters in Bath & North East Somerset',
+    metaDescription: 'Get more bathroom fitting enquiries from Google. We help bathroom fitters in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  'heating-engineers': {
+    name: 'Heating Engineers',
+    metaTitle: 'Local SEO for Heating Engineers in Bath & North East Somerset',
+    metaDescription: 'Get more boiler and heating jobs from Google. We help heating engineers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  plasterers: {
+    name: 'Plasterers',
+    metaTitle: 'Local SEO for Plasterers in Bath & North East Somerset',
+    metaDescription: 'Get more plastering jobs from Google. We help plasterers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
 };

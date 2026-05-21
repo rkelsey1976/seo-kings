@@ -57,7 +57,7 @@ export default function TradePageSchema({ slug }) {
       parentOrganization: { '@type': 'Organization', '@id': `${BASE_URL}/#organization` },
       mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
     },
-    {
+    ...(trade.faqs && trade.faqs.length ? [{
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
       mainEntity: trade.faqs.map(({ q, a }) => ({
@@ -65,7 +65,7 @@ export default function TradePageSchema({ slug }) {
         name: q,
         acceptedAnswer: { '@type': 'Answer', text: a },
       })),
-    },
+    }] : []),
   ];
 
   return (
