@@ -307,6 +307,26 @@ const LocalSEO = () => {
               <p className="text-gray-400 text-sm mb-4">Get found for &quot;plasterer Bath&quot;, &quot;rendering Keynsham&quot; and keep your schedule full.</p>
               <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
             </Link>
+            <Link href="/local-seo/gas-engineers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Gas Engineers</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for gas engineer Bath, boiler repair Keynsham and get emergency calls.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/loft-conversions" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Loft Conversions</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for loft conversion Bath, dormer Keynsham and win high-value contracts.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/extension-builders" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Extension Builders</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for house extension Bath, extension builder Keynsham and win big projects.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
+            <Link href="/local-seo/drainage-engineers" className="block p-6 bg-dark-card border border-white/10 rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-light transition-colors">For Drainage Engineers</h3>
+              <p className="text-gray-400 text-sm mb-4">Rank for drain unblocking Bath, CCTV drain survey Keynsham and get emergency calls.</p>
+              <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+            </Link>
           </div>
         </div>
       </section>

@@ -96,4 +96,24 @@ export const TRADE_META = {
     metaTitle: 'Local SEO for Plasterers in Bath & North East Somerset',
     metaDescription: 'Get more plastering jobs from Google. We help plasterers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
   },
+  'gas-engineers': {
+    name: 'Gas Engineers',
+    metaTitle: 'Local SEO for Gas Engineers in Bath & North East Somerset',
+    metaDescription: 'Get more boiler repair and gas engineer enquiries from Google. We help Gas Safe engineers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  'loft-conversions': {
+    name: 'Loft Conversion Specialists',
+    metaTitle: 'Local SEO for Loft Conversion Specialists in Bath & North East Somerset',
+    metaDescription: 'Get more loft conversion enquiries from Google. We help loft converters in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  'extension-builders': {
+    name: 'Extension Builders',
+    metaTitle: 'Local SEO for Extension Builders in Bath & North East Somerset',
+    metaDescription: 'Get more extension enquiries from Google. We help extension builders in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
+  'drainage-engineers': {
+    name: 'Drainage Engineers',
+    metaTitle: 'Local SEO for Drainage Engineers in Bath & North East Somerset',
+    metaDescription: 'Get more drainage enquiries from Google. We help drainage engineers in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+  },
 };

@@ -17,6 +17,10 @@ const trades = [
   { name: 'Bathroom Fitters', slug: 'bathroom-fitters', description: 'Websites for bathroom fitters — gallery-led design that sells your work.' },
   { name: 'Heating Engineers', slug: 'heating-engineers', description: 'Websites for heating engineers that highlight Gas Safe credentials and local trust.' },
   { name: 'Plasterers', slug: 'plasterers', description: 'Professional websites for plasterers — get found locally and win more contracts.' },
+  { name: 'Gas Engineers', slug: 'gas-engineers', description: 'Rank for gas engineer Bath, boiler repair Keynsham and get emergency calls.' },
+  { name: 'Loft Conversions', slug: 'loft-conversions', description: 'Rank for loft conversion Bath, dormer Keynsham and win high-value contracts.' },
+  { name: 'Extension Builders', slug: 'extension-builders', description: 'Rank for house extension Bath, extension builder Keynsham and win big projects.' },
+  { name: 'Drainage Engineers', slug: 'drainage-engineers', description: 'Rank for drain unblocking Bath, CCTV drain survey Keynsham and get emergency calls.' },
 ];
 
 const pricingTiers = [

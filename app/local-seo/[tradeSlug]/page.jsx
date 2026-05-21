@@ -15,6 +15,10 @@ export function generateStaticParams() {
     { tradeSlug: 'bathroom-fitters' },
     { tradeSlug: 'heating-engineers' },
     { tradeSlug: 'plasterers' },
+    { tradeSlug: 'gas-engineers' },
+    { tradeSlug: 'loft-conversions' },
+    { tradeSlug: 'extension-builders' },
+    { tradeSlug: 'drainage-engineers' },
   ];
 }
 
