@@ -32,4 +32,48 @@ export const TRADE_META = {
       { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
     ],
   },
+  builders: {
+    name: 'Builders',
+    metaTitle: 'Local SEO for Builders in Bath & North East Somerset',
+    metaDescription: 'Get more building enquiries from Google. We help builders in Bath, Keynsham, Midsomer Norton and Bath and North East Somerset rank #1 for local searches. Free audit.',
+    faqs: [
+      { q: 'How much does SEO cost for a builder?', a: "Our local SEO packages start from £150/month. Builder projects tend to be high-value, so even one extra enquiry a month from SEO can pay for itself many times over. We give you a free audit first with a clear plan and cost." },
+      { q: 'How long until I see more enquiries?', a: 'Most builders see noticeable improvements within 3–6 months. Google Business Profile optimisation can bring leads sooner. Ranking for competitive terms like "builder Bath" takes consistent work over a few months.' },
+      { q: 'Can you help with my website too?', a: 'Yes. We build fast, mobile-friendly websites designed for builders — service pages, project galleries, testimonials and clear calls to action. We can do website and SEO together so everything works as one.' },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
+    ],
+  },
+  landscapers: {
+    name: 'Landscapers',
+    metaTitle: 'Local SEO for Landscapers in Bath & North East Somerset',
+    metaDescription: 'Get more landscaping jobs from Google. We help landscapers and gardeners in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+    faqs: [
+      { q: 'How much does SEO cost for a landscaper?', a: "Our local SEO packages start from £150/month. Landscaping projects often run into thousands, so one extra job from Google more than covers the cost. Free audit first — no obligation." },
+      { q: 'How long until I see results?', a: 'Most landscapers see improvements in 3–6 months. Seasonal keywords like "garden clearance spring" can rank faster. GBP optimisation often brings results within weeks.' },
+      { q: 'Do you work with one-man bands?', a: 'Yes. Many of our clients are sole traders or small teams. Local SEO levels the playing field — a well-optimised one-man band can outrank a bigger company in the map pack.' },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
+    ],
+  },
+  cleaners: {
+    name: 'Cleaning Services',
+    metaTitle: 'Local SEO for Cleaning Services in Bath & North East Somerset',
+    metaDescription: 'Get more cleaning enquiries from Google. We help cleaners in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+    faqs: [
+      { q: 'How much does SEO cost for a cleaning business?', a: "Our local SEO packages start from £150/month. Cleaning services often see a fast return — even two extra regular clients a month covers your SEO investment. Free audit with no obligation." },
+      { q: 'How long until I get more enquiries?', a: 'Cleaning businesses often see results quickly. Google Business Profile optimisation can bring enquiries within weeks. Full website rankings typically improve over 3–6 months.' },
+      { q: 'Can you help me get more reviews?', a: "Yes. We set up a review generation system that makes it easy for happy customers to leave five-star reviews on Google. More reviews means higher rankings and more trust." },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
+    ],
+  },
+  'painters-decorators': {
+    name: 'Painters & Decorators',
+    metaTitle: 'Local SEO for Painters & Decorators in Bath & North East Somerset',
+    metaDescription: 'Get more painting and decorating jobs from Google. We help painters in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+    faqs: [
+      { q: 'How much does SEO cost for a painter and decorator?', a: "Our local SEO packages start from £150/month. A typical painting job runs into hundreds or thousands — one extra job from Google pays for months of SEO. Free audit first, no obligation." },
+      { q: 'How long until I see more enquiries?', a: 'Most painters see improvements in 3–6 months. Google Business Profile and local citations can bring faster results. Full website SEO rankings build steadily over a few months.' },
+      { q: 'I specialise in period properties — can you target that?', a: "Yes. Bath is full of Georgian and Victorian homes, and there's good search volume for \"heritage painter Bath\" and \"period property decorator\". We target the specific terms your ideal customers search for." },
+      { q: 'What areas do you cover?', a: 'Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and all of Bath and North East Somerset.' },
+    ],
+  },
 };

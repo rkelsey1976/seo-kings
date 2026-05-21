@@ -3,7 +3,15 @@ import TradePageSchema from './TradePageSchema';
 import { TRADE_META } from '../../../src/constants/tradeMeta';
 
 export function generateStaticParams() {
-  return [{ tradeSlug: 'plumbers' }, { tradeSlug: 'electricians' }, { tradeSlug: 'roofers' }];
+  return [
+    { tradeSlug: 'plumbers' },
+    { tradeSlug: 'electricians' },
+    { tradeSlug: 'roofers' },
+    { tradeSlug: 'builders' },
+    { tradeSlug: 'landscapers' },
+    { tradeSlug: 'cleaners' },
+    { tradeSlug: 'painters-decorators' },
+  ];
 }
 
 export function generateMetadata({ params }) {
