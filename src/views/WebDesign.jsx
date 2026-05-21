@@ -1,378 +1,565 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SEO from '../components/SEO';
-import ServicePageHero from '../components/ServicePageHero';
-import ServiceFeatures from '../components/ServiceFeatures';
-import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import PricingModal from '../components/PricingModal';
 
-const WebDesign = () => {
+/* ─────────────────────────────────────────────
+   CONSTANTS
+───────────────────────────────────────────── */
+const BG_DARK = '#07080D';
+const BG_SURFACE = '#0D0F17';
+const BORDER = 'rgba(255,255,255,0.055)';
+
+/* ─────────────────────────────────────────────
+   DATA
+───────────────────────────────────────────── */
+const results = [
+  { client: 'Peachy Cleans', outcome: '#1', detail: 'Map Pack · "cleaning Midsomer Norton"', slug: 'peachy-cleans' },
+  { client: 'New Decorating', outcome: 'Top 3', detail: 'Map Pack · "exterior painter Bath"', slug: 'new-decorating' },
+  { client: 'Aurelian Massage', outcome: 'Ranked', detail: 'Local search · "massage Bath"', slug: 'aurelian-massage' },
+];
+
+const included = [
+  'Click-to-call button — front and centre on mobile',
+  'Quote request form',
+  'Services section — what you do, where you do it',
+  'Area coverage page or section',
+  'Google Maps embed',
+  'SEO foundations — meta, schema, sitemap, robots',
+  'Mobile-first, tested on real devices',
+  'Fast load — no bloated page builders',
+  'SSL certificate + UK hosting setup',
+  '30 days of post-launch support',
+];
+
+const pricing = [
+  {
+    name: 'One-page site',
+    price: '£250',
+    desc: 'One service, one area. Everything a sole trader needs to get found and get called.',
+    items: ['Contact form + click-to-call', 'Services + area section', 'SEO basics from day one', 'Live in 2 weeks'],
+  },
+  {
+    name: 'Multi-page site',
+    price: 'From £350',
+    desc: '£250 base + £50 per additional page. Build it to your exact scope — nothing more, nothing less.',
+    items: ['All one-page features', 'Separate pages per service', 'Gallery or portfolio option', 'Scales with your business'],
+    featured: true,
+  },
+  {
+    name: 'GBP optimisation',
+    price: '£100',
+    desc: 'One-off add-on to any website build. Get into the Map Pack — the top 3 local results.',
+    items: ['Categories + keywords set up', 'Service areas configured', 'Photos + description', 'Done once, works forever'],
+  },
+];
+
+const steps = [
+  {
+    n: '01',
+    head: 'Free audit — 10 minutes.',
+    body: 'We check where you rank, what your competitors are doing, and exactly what\'s stopping you getting calls. No obligation. The report is yours either way.',
+  },
+  {
+    n: '02',
+    head: 'Live in 2 weeks.',
+    body: 'Mobile-first, fast, built for "[your trade] near me" searches from day one. Click-to-call, quote form, SEO foundations — all in from the start.',
+  },
+  {
+    n: '03',
+    head: 'The calls come in.',
+    body: 'Monthly ranking report — exact keywords, exact positions. Most clients see movement within the first 30 days.',
+  },
+];
+
+const faqs = [
+  {
+    q: 'How much does a website cost?',
+    a: 'From £250 for a one-page trade site with contact form, click-to-call, area info and SEO basics. Multi-page sites are £250 base + £50 per page — so a 3-page site is £350, a 5-page site is £450. GBP optimisation is a £100 add-on. No hidden fees.',
+  },
+  {
+    q: 'How long does it take?',
+    a: 'Most one-page sites are live within 2 weeks. Multi-page sites typically take 3–4 weeks depending on content. We keep you updated throughout.',
+  },
+  {
+    q: 'Do you do one-page websites?',
+    a: 'Yes — and for most sole traders, a one-page site is exactly what you need. One page from £250 covers everything: services, contact, area info, click-to-call. Add GBP optimisation for £100 and you\'re showing up on Maps too.',
+  },
+  {
+    q: 'Do you work across Bath and North East Somerset?',
+    a: 'Yes. Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and the surrounding villages. We also serve Trowbridge and Wiltshire.',
+  },
+  {
+    q: 'Will it work on mobile?',
+    a: 'All our sites are built mobile-first. Over 60% of local searches happen on a phone — your site will look sharp and load fast on every device.',
+  },
+  {
+    q: 'What if I already have a website?',
+    a: 'We can rebuild it from scratch on the same domain so you keep your rankings. See our website redesign service.',
+  },
+  {
+    q: 'Do you provide hosting?',
+    a: 'Yes. We set up UK hosting as part of every build. After the first year, hosting is £15/month.',
+  },
+  {
+    q: 'What add-ons are available?',
+    a: 'Once your site is live: GBP optimisation (£100 one-off), ongoing local SEO (£150/month). Everything is optional — no bundles, no lock-in.',
+  },
+];
+
+const areaLinks = [
+  { label: 'Website designer Bath', href: '/website-designer-bath' },
+  { label: 'Website designer Keynsham', href: '/website-designer-keynsham' },
+  { label: 'Website designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
+  { label: 'Website designer Radstock', href: '/website-designer-radstock' },
+  { label: 'Website designer Peasedown St John', href: '/website-designer-peasedown-st-john' },
+  { label: 'Website designer Saltford', href: '/website-designer-saltford' },
+  { label: 'Website designer Trowbridge', href: '/website-designer-trowbridge' },
+];
+
+/* ─────────────────────────────────────────────
+   COMPONENT
+───────────────────────────────────────────── */
+export default function WebDesign() {
   const [modalOpen, setModalOpen] = useState(false);
-  const heroFeatures = [
-    'Mobile-First',
-    'Fast Loading',
-    'SEO Ready',
-    'Conversion Focused'
-  ];
-
-  const features = [
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-        </svg>
-      ),
-      title: 'Mobile-First Design',
-      description: 'Over 60% of searches happen on mobile. Your website will look and work perfectly on every device, so you never lose a customer.',
-      color: 'from-primary to-primary-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-      ),
-      title: 'Lightning Fast Speed',
-      description: 'Slow websites kill conversions. We build sites that load in under 2 seconds, keeping visitors engaged and Google happy.',
-      color: 'from-yellow-500 to-orange-500',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
-      ),
-      title: 'Built for SEO',
-      description: 'Every site we build is optimised for search engines from day one. Proper structure, meta tags, and schema markup included.',
-      color: 'from-secondary to-secondary-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-        </svg>
-      ),
-      title: 'Clear Call-to-Actions',
-      description: 'Strategic placement of phone numbers, contact forms, and booking buttons. Make it easy for customers to reach you.',
-      color: 'from-green-500 to-emerald-500',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
-      ),
-      title: 'Trust Building Elements',
-      description: 'Reviews, accreditations, and trust badges prominently displayed. Show visitors why they should choose you over competitors.',
-      color: 'from-accent to-accent-dark',
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-        </svg>
-      ),
-      title: 'Easy to Update',
-      description: 'We build on platforms you can manage yourself, or we offer ongoing support packages. Your choice, your control.',
-      color: 'from-pink-500 to-rose-500',
-    },
-  ];
-
-  const process = [
-    {
-      step: '01',
-      title: 'Discovery Call',
-      description: 'We learn about your business, your customers, and what makes you different. No jargon, just a chat.',
-    },
-    {
-      step: '02',
-      title: 'Design & Feedback',
-      description: 'We create mockups and refine them based on your feedback until you\'re 100% happy.',
-    },
-    {
-      step: '03',
-      title: 'Build & Test',
-      description: 'We build your site, test it on every device, and make sure everything works perfectly.',
-    },
-    {
-      step: '04',
-      title: 'Launch & Support',
-      description: 'Go live with confidence. We provide training and ongoing support to keep things running smoothly.',
-    },
-  ];
 
   return (
     <>
-      <SEO
-        title="Website Designer Bath | Web Design Bath & North East Somerset & Trowbridge – SEO Kings"
-        description="Website design is our main service. From £250 for a one-page site. GBP optimisation available as a £100 add-on. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
-        canonical="/web-design"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Design' }
-        ]}
-        schemas={[
-          {
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-              { '@type': 'ListItem', position: 2, name: 'Website Design', item: 'https://seo-kings.co.uk/web-design' },
-            ],
-          },
-          {
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Websites start at £250 for a one-page site with contact form, click-to-call, area info and SEO basics. Multi-page sites are £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450. GBP optimisation is a £100 add-on. Use the pricing calculator on our packages page for an exact quote.' } },
-              { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
-              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site. GBP optimisation available as a £100 add-on.' } },
-              { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
-            ],
-          },
-        ]}
-      />
-      <ServicePageHero
-        badge="Our main service"
-        title="Website Designer in Bath & North East Somerset — Sites That Turn Visitors Into"
-        highlight="Customers"
-        description="Website design is our main service. From £250 for a one-page site. Add GBP optimisation for £100. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
-        features={heroFeatures}
-        ctaText="Get a Quote"
-        onGetQuote={() => setModalOpen(true)}
-      />
-
-      <ServiceFeatures
-        title="What Makes Our Websites Different"
-        subtitle="We don't just make pretty websites. We build lead-generating machines for local businesses."
-        features={features}
-      />
-
-      {/* Main service: website design, GBP and SEO as add-ons */}
-      <section className="py-20 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Website Design Is Our Main Service
-          </h2>
-          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £250 for a one-page site with everything a trade needs — services, contact, area info, fast and mobile-friendly. Add <strong className="text-gray-300">GBP optimisation for £100</strong> and local SEO from £150/month once you&apos;re happy with your site. No DIY builder; we build it so it works for you.
+      {/* ── HERO ─────────────────────────────────── */}
+      <section
+        className="min-h-[90vh] flex flex-col justify-between px-6 sm:px-12 lg:px-20 pt-36 pb-20"
+        style={{ background: BG_DARK }}
+      >
+        <div className="max-w-6xl w-full">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-12"
+            style={{ color: 'rgba(255,255,255,0.3)' }}
+          >
+            Website Design · Bath & Somerset
           </p>
+
+          <h1
+            className="font-bold text-white leading-[0.9] tracking-[-0.04em] mb-10"
+            style={{ fontSize: 'clamp(3rem, 9vw, 8rem)' }}
+          >
+            Someone just<br />
+            searched for<br />
+            <span style={{ color: '#E8715A' }}>your trade.</span>
+          </h1>
+
+          <p
+            className="text-lg sm:text-xl leading-relaxed mb-12 max-w-xl"
+            style={{ color: 'rgba(255,255,255,0.45)' }}
+          >
+            Did they find you — or your competitor? We build fast, local websites
+            for trades across Bath & BANES. From £250. Live in 2 weeks.
+          </p>
+
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => setModalOpen(true)}
+              className="px-7 py-3.5 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg text-sm transition-colors"
+            >
+              Get a free quote
+            </button>
+            <a
+              href="tel:+447702264921"
+              className="px-7 py-3.5 text-white font-semibold rounded-lg text-sm transition-colors"
+              style={{ border: `1px solid ${BORDER}` }}
+            >
+              Call 07702 264 921
+            </a>
+          </div>
+        </div>
+
+        {/* Credential strip */}
+        <div
+          className="max-w-6xl w-full pt-16 mt-20 grid grid-cols-2 sm:grid-cols-4 gap-10"
+          style={{ borderTop: `1px solid ${BORDER}` }}
+        >
+          {[
+            { value: '22', label: 'Years experience' },
+            { value: '2 wks', label: 'Typical turnaround' },
+            { value: '£250', label: 'Starting price' },
+            { value: '3', label: 'Verified client results' },
+          ].map((c) => (
+            <div key={c.label}>
+              <div className="text-2xl sm:text-3xl font-bold text-white">{c.value}</div>
+              <div className="text-xs mt-1.5 tracking-wide" style={{ color: 'rgba(255,255,255,0.3)' }}>
+                {c.label}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Process Section */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
-              Our Process
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
-              From Idea to Launch in 4 Simple Steps
-            </h2>
-            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We keep it simple and keep you in the loop every step of the way.
+      {/* ── RESULTS ──────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_SURFACE }}
+      >
+        <div className="max-w-6xl">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-16"
+            style={{ color: '#E8715A' }}
+          >
+            Verified results
+          </p>
+
+          <div style={{ borderTop: `1px solid ${BORDER}` }}>
+            {results.map((r) => (
+              <Link
+                key={r.slug}
+                href={`/case-studies/${r.slug}`}
+                className="group grid py-8 sm:py-10 transition-opacity hover:opacity-70"
+                style={{
+                  borderBottom: `1px solid ${BORDER}`,
+                  gridTemplateColumns: '10rem 1fr auto',
+                  gap: '2rem',
+                  alignItems: 'center',
+                }}
+              >
+                <div
+                  className="font-bold text-white leading-none tracking-[-0.04em] whitespace-nowrap"
+                  style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+                >
+                  {r.outcome}
+                </div>
+                <div>
+                  <div className="text-base font-semibold text-white">{r.client}</div>
+                  <div className="text-sm mt-1" style={{ color: 'rgba(255,255,255,0.35)' }}>{r.detail}</div>
+                </div>
+                <div
+                  className="text-xs group-hover:text-primary transition-colors hidden sm:block"
+                  style={{ color: 'rgba(255,255,255,0.2)' }}
+                >
+                  View case study →
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHAT'S INCLUDED ──────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_DARK }}
+      >
+        <div className="max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-16 mb-20 items-end">
+            <div>
+              <p
+                className="text-[10px] font-mono tracking-[0.22em] uppercase mb-6"
+                style={{ color: '#E8715A' }}
+              >
+                Every build includes
+              </p>
+              <h2
+                className="font-bold text-white leading-[0.92] tracking-[-0.04em]"
+                style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
+              >
+                No extras.<br />No surprises.
+              </h2>
+            </div>
+            <p className="text-lg leading-relaxed" style={{ color: 'rgba(255,255,255,0.4)' }}>
+              Every site we build — at every price point — ships with all of this.
+              Nothing is stripped out to hit the starting price.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {process.map((item, index) => (
-              <div key={index} className="relative">
-                {/* Connector Line */}
-                {index < process.length - 1 && (
-                  <div className="hidden lg:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary/50 to-transparent" />
-                )}
-                
-                <div className="relative bg-dark-card border border-white/5 rounded-2xl p-6 text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary text-white text-xl font-bold mb-4">
-                    {item.step}
-                  </div>
-                  <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
-                  <p className="text-gray-400 text-sm">{item.description}</p>
-                </div>
+          <div className="grid sm:grid-cols-2 gap-x-16 gap-y-0" style={{ borderTop: `1px solid ${BORDER}` }}>
+            {included.map((item) => (
+              <div
+                key={item}
+                className="py-5 text-sm"
+                style={{
+                  borderBottom: `1px solid ${BORDER}`,
+                  color: 'rgba(255,255,255,0.65)',
+                }}
+              >
+                <span style={{ color: '#E8715A', marginRight: '0.75rem' }}>→</span>
+                {item}
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Areas we serve – target website design + location keywords */}
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-            Areas we serve
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Website designer & website design in <span className="gradient-text">Bath, North East Somerset & Beyond</span>
-          </h2>
-          <p className="text-lg text-gray-400 mb-8">
-            We build websites for trades and local businesses across <strong className="text-gray-300">Bath</strong>, <strong className="text-gray-300">Keynsham</strong>, <strong className="text-gray-300">Midsomer Norton</strong>, <strong className="text-gray-300">Radstock</strong>, <strong className="text-gray-300">Trowbridge</strong>, Peasedown St John, Paulton, Saltford, Timsbury and the rest of Bath and North East Somerset (BANES). We also serve <strong className="text-gray-300">Trowbridge</strong> and surrounding Wiltshire. From a 1-page site from £250 to full multi-page sites — get a free quote.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/website-designer-bath" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Bath</Link>
-            <Link href="/website-designer-keynsham" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Keynsham</Link>
-            <Link href="/website-designer-midsomer-norton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Midsomer Norton</Link>
-            <Link href="/website-designer-radstock" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Radstock</Link>
-            <Link href="/website-designer-peasedown-st-john" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Peasedown St John</Link>
-            <Link href="/website-designer-trowbridge" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Trowbridge</Link>
-            <Link href="/website-designer-saltford" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website designer Saltford</Link>
-            <Link href="/areas/paulton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Paulton</Link>
-            <Link href="/areas/timsbury" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Timsbury</Link>
-            <Link href="/areas/westfield" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Westfield</Link>
-            <Link href="/areas/chew-magna" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Chew Magna</Link>
-            <Link href="/areas/temple-cloud" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Temple Cloud</Link>
-            <Link href="/areas/clutton" className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white hover:border-primary/30 transition-all">Website design Clutton</Link>
-            <Link href="/web-design-packages" className="px-4 py-2 bg-primary/20 border border-primary/30 rounded-full text-sm text-primary-light hover:text-white transition-all">All packages</Link>
-          </div>
-          <p className="text-sm text-gray-500 mt-6">
-            Looking for a{' '}
-            <Link href="/website-designer-near-me" className="text-primary-light hover:underline">
-              website designer near you
-            </Link>
-            ? See all areas we cover.
-          </p>
-        </div>
-      </section>
-
-      {/* What we've done – case studies */}
-      <section className="py-24 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-            What we&apos;ve done
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Recent website design & local SEO results
-          </h2>
-          <p className="text-lg text-gray-400 mb-8">
-            From no web presence to ranking on Google Maps in days. Here are two recent examples:
-          </p>
-          <ul className="space-y-4 text-left max-w-2xl mx-auto">
-            <li>
-              <Link href="/case-studies/new-decorating" className="text-primary-light hover:text-white font-medium transition-colors">
-                New Decorating
-              </Link>
-              <span className="text-gray-400"> — No website or Google listing to top 8 on Google Maps in a week (painter & decorator, Bath).</span>
-            </li>
-            <li>
-              <Link href="/case-studies/peachy-cleans" className="text-primary-light hover:text-white font-medium transition-colors">
-                Peachy Cleans
-              </Link>
-              <span className="text-gray-400"> — Website and local SEO in Midsomer Norton; now found for cleaning searches in the area.</span>
-            </li>
-          </ul>
-          <Link href="/case-studies" className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold mt-8 transition-colors">
-            View all case studies
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-        </div>
-      </section>
-
-      {/* Pricing Teaser */}
-      <section className="py-24 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Transparent Pricing, No Surprises
-          </h2>
-          <p className="text-lg text-gray-400 mb-8">
-            Our websites start from <span className="text-white font-bold">£250</span> for a 1-page trade site. 
-            Every quote is tailored to your needs — no hidden fees, no ongoing costs you didn&apos;t agree to.
-          </p>
-          <Link
-            href="/web-design-packages"
-            className="inline-flex items-center gap-2 text-primary-light hover:text-white font-semibold mb-8 transition-colors"
+      {/* ── PRICING ──────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_SURFACE }}
+      >
+        <div className="max-w-6xl">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-6"
+            style={{ color: '#E8715A' }}
           >
-            View our web design packages
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              Free hosting for 1 year
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              SSL certificate included
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              30-day support included
-            </div>
+            Pricing
+          </p>
+          <h2
+            className="font-bold text-white leading-[0.92] tracking-[-0.04em] mb-20"
+            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
+          >
+            Simple.<br />No lock-in.
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-px" style={{ background: BORDER }}>
+            {pricing.map((p) => (
+              <div
+                key={p.name}
+                className="p-8 flex flex-col gap-6"
+                style={{
+                  background: p.featured ? '#0F111C' : BG_SURFACE,
+                  outline: p.featured ? `1px solid rgba(232,113,90,0.25)` : 'none',
+                }}
+              >
+                <div>
+                  <div
+                    className="text-[10px] font-mono tracking-[0.18em] uppercase mb-3"
+                    style={{ color: p.featured ? '#E8715A' : 'rgba(255,255,255,0.3)' }}
+                  >
+                    {p.name}
+                  </div>
+                  <div className="text-4xl font-bold text-white tracking-[-0.04em]">{p.price}</div>
+                  <p className="text-sm mt-3 leading-relaxed" style={{ color: 'rgba(255,255,255,0.4)' }}>
+                    {p.desc}
+                  </p>
+                </div>
+                <ul className="space-y-2.5 flex-1">
+                  {p.items.map((item) => (
+                    <li key={item} className="text-sm flex gap-2.5" style={{ color: 'rgba(255,255,255,0.55)' }}>
+                      <span style={{ color: '#E8715A', flexShrink: 0 }}>✓</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <button
+                  onClick={() => setModalOpen(true)}
+                  className="w-full py-3 text-sm font-semibold rounded-lg transition-colors"
+                  style={
+                    p.featured
+                      ? { background: '#E8715A', color: '#fff' }
+                      : { border: `1px solid ${BORDER}`, color: 'rgba(255,255,255,0.6)' }
+                  }
+                >
+                  Get a quote
+                </button>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-xs mt-8" style={{ color: 'rgba(255,255,255,0.25)' }}>
+            All prices exclude VAT. Hosting included for year one. After that, £15/month.
+            No contracts on website builds.
+          </p>
+        </div>
+      </section>
+
+      {/* ── PROCESS ──────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_DARK }}
+      >
+        <div className="max-w-6xl">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-6"
+            style={{ color: '#E8715A' }}
+          >
+            How it works
+          </p>
+          <h2
+            className="font-bold text-white leading-[0.92] tracking-[-0.04em] mb-24"
+            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
+          >
+            Three steps.<br />No drama.
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-12 lg:gap-20">
+            {steps.map((s) => (
+              <div key={s.n}>
+                <div
+                  className="font-bold leading-none mb-8 tracking-[-0.04em]"
+                  style={{ fontSize: 'clamp(4rem, 7vw, 6rem)', color: 'rgba(255,255,255,0.06)' }}
+                >
+                  {s.n}
+                </div>
+                <h3 className="text-lg font-semibold text-white mb-4">{s.head}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.38)' }}>
+                  {s.body}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-24 bg-dark-lighter">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
-              Web Design FAQs
-            </h2>
-            <p className="text-lg text-gray-400">
-              Common questions about our web design services for Bath and North East Somerset businesses.
+      {/* ── CASE STUDY CALLOUT ───────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_SURFACE, borderTop: `1px solid ${BORDER}` }}
+      >
+        <div className="max-w-6xl grid md:grid-cols-2 gap-20 items-center">
+          <div>
+            <p
+              className="text-[10px] font-mono tracking-[0.22em] uppercase mb-6"
+              style={{ color: '#E8715A' }}
+            >
+              Case study
             </p>
+            <h2
+              className="font-bold text-white leading-[0.92] tracking-[-0.04em] mb-8"
+              style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+            >
+              From nothing to<br />#1 in the Map Pack.
+            </h2>
+            <p className="text-base leading-relaxed mb-8" style={{ color: 'rgba(255,255,255,0.42)' }}>
+              Peachy Cleans had no website and no Google presence. We built the site,
+              optimised the Google Business Profile, and within days they were ranking
+              in the Map Pack for "cleaning Midsomer Norton." They&apos;re still there.
+            </p>
+            <Link
+              href="/case-studies/peachy-cleans"
+              className="text-sm font-semibold text-white hover:text-primary transition-colors"
+            >
+              Read the full case study →
+            </Link>
           </div>
 
-          <FAQAccordion 
-            faqs={[
-              {
-                q: 'Do you do website design in BANES?',
-                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site. GBP optimisation available as a £100 add-on.',
-              },
-              {
-                q: 'Do you do one-page websites?',
-                a: 'Yes. A one-page website starts from £250 with everything a trade or small business needs: services, contact form, click-to-call, area info and SEO basics. GBP optimisation is available as a £100 add-on. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
-              },
-              {
-                q: 'How long does it take to build a website?',
-                a: 'Most business websites take 2-4 weeks from start to launch. This includes design, development, content creation, and revisions. More complex sites with custom functionality may take longer.',
-              },
-              {
-                q: 'How much does a website cost?',
-                a: 'Websites start at £250 for a 1-page site with everything a trade needs. Multi-page sites are £250 base + £50 per page — so a 3-page site is £350, a 5-page site is £450. Use the pricing calculator on our packages page for an exact quote.',
-              },
-              {
-                q: 'Will my website work on mobile phones?',
-                a: 'Absolutely! All our websites are built mobile-first, meaning they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential.',
-              },
-              {
-                q: 'Do you provide website hosting?',
-                a: 'Yes, we include 1 year of premium hosting free with every new website. After that, hosting is just £15/month which includes security updates, backups, and technical support.',
-              },
-              {
-                q: 'Can I update the website myself?',
-                a: 'Yes! We build websites on user-friendly platforms that make it easy to update text, images, and add new content. We also provide training so you feel confident managing your site.',
-              },
-              {
-                q: 'What if I already have a website?',
-                a: "We can redesign your existing site or build a completely new one. We'll assess your current site and recommend the best approach based on your goals and budget.",
-              },
-              {
-                q: 'What add-ons can I get after my website?',
-                a: 'Once you\'re happy with your website, we can add local SEO (keyword research, on-page optimisation, local links), ongoing Google Business Profile management, review management, and more — tailored to your business and locations. Website design is our main service; add-ons are optional and custom to you.',
-              },
-            ]}
-          />
+          <div
+            className="rounded-lg overflow-hidden"
+            style={{ border: `1px solid ${BORDER}` }}
+          >
+            <div className="p-6" style={{ background: BG_DARK }}>
+              <p className="text-[10px] font-mono tracking-[0.18em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.25)' }}>
+                Google Maps · "cleaning midsomer norton"
+              </p>
+              <div className="space-y-3">
+                {['Peachy Cleans — 4.9★ (38 reviews)', 'Commercial Cleaning Somerset Ltd', 'Mac with a Vac'].map((r, i) => (
+                  <div
+                    key={r}
+                    className="flex items-center gap-3 py-3 px-4 rounded-md"
+                    style={{
+                      background: i === 0 ? 'rgba(232,113,90,0.08)' : 'rgba(255,255,255,0.03)',
+                      border: i === 0 ? '1px solid rgba(232,113,90,0.2)' : `1px solid ${BORDER}`,
+                    }}
+                  >
+                    <span
+                      className="text-xs font-bold w-5 text-center"
+                      style={{ color: i === 0 ? '#E8715A' : 'rgba(255,255,255,0.2)' }}
+                    >
+                      {i + 1}
+                    </span>
+                    <span className="text-sm" style={{ color: i === 0 ? 'rgba(255,255,255,0.8)' : 'rgba(255,255,255,0.3)' }}>
+                      {r}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <CTABanner onGetQuote={() => setModalOpen(true)} />
+      {/* ── AREAS ────────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-24"
+        style={{ background: BG_DARK, borderTop: `1px solid ${BORDER}` }}
+      >
+        <div className="max-w-6xl">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-8"
+            style={{ color: 'rgba(255,255,255,0.25)' }}
+          >
+            Areas covered
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {areaLinks.map((a) => (
+              <Link
+                key={a.href}
+                href={a.href}
+                className="text-xs px-4 py-2 rounded-full transition-colors hover:text-white"
+                style={{
+                  border: `1px solid ${BORDER}`,
+                  color: 'rgba(255,255,255,0.4)',
+                }}
+              >
+                {a.label}
+              </Link>
+            ))}
+            <Link
+              href="/website-designer-near-me"
+              className="text-xs px-4 py-2 rounded-full transition-colors hover:text-white"
+              style={{ border: `1px solid rgba(232,113,90,0.3)`, color: '#E8715A' }}
+            >
+              All areas →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ──────────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_SURFACE }}
+      >
+        <div className="max-w-6xl">
+          <p
+            className="text-[10px] font-mono tracking-[0.22em] uppercase mb-6"
+            style={{ color: '#E8715A' }}
+          >
+            FAQ
+          </p>
+          <h2
+            className="font-bold text-white leading-[0.92] tracking-[-0.04em] mb-16"
+            style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}
+          >
+            Common questions.
+          </h2>
+          <FAQAccordion faqs={faqs} />
+        </div>
+      </section>
+
+      {/* ── CTA ──────────────────────────────────── */}
+      <section
+        className="px-6 sm:px-12 lg:px-20 py-32"
+        style={{ background: BG_DARK, borderTop: `1px solid ${BORDER}` }}
+      >
+        <div className="max-w-6xl">
+          <h2
+            className="font-bold text-white leading-[0.88] tracking-[-0.04em] mb-16"
+            style={{ fontSize: 'clamp(3rem, 9vw, 8rem)' }}
+          >
+            Ready<br />to rank?
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => setModalOpen(true)}
+              className="px-7 py-3.5 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg text-sm transition-colors"
+            >
+              Get a free quote
+            </button>
+            <a
+              href="tel:+447702264921"
+              className="px-7 py-3.5 text-white font-semibold rounded-lg text-sm transition-colors"
+              style={{ border: `1px solid ${BORDER}` }}
+            >
+              Call 07702 264 921
+            </a>
+            <Link
+              href="/contact"
+              className="px-7 py-3.5 font-semibold rounded-lg text-sm transition-colors"
+              style={{ border: `1px solid ${BORDER}`, color: 'rgba(255,255,255,0.5)' }}
+            >
+              Free audit — no obligation
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
-};
-
-export default WebDesign;
+}
