@@ -113,7 +113,7 @@ const About = () => {
                 <span className="gradient-text"> Get Found</span>
               </h1>
               <p className="text-xl text-gray-400 leading-relaxed">
-                We're a Bath-based website design company for tradespeople and local businesses 
+                We're a Keynsham-based website design company for tradespeople and local businesses
                 in Bath and North East Somerset. We build fast, clear sites — and we offer SEO and 
                 Google Business Profile as add-ons so your site is found on Google.
               </p>
@@ -313,8 +313,8 @@ const About = () => {
               Proudly Serving Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We're not a faceless agency in London. We're based in Bath, we build websites 
-              for local businesses here, and we offer SEO and GBP so those sites get found.
+              We're not a faceless agency in London. We're based in Keynsham, we build websites
+              for local businesses across Bath and North East Somerset, and we offer SEO and GBP so those sites get found.
             </p>
           </div>
 
@@ -360,7 +360,7 @@ const About = () => {
           <div className="mt-16">
             <h3 className="text-xl font-bold text-white mb-2 text-center">Find us on Google Maps</h3>
             <p className="text-gray-400 mb-6 text-center max-w-xl mx-auto">
-              We're based in Bath. Visit our{' '}
+              We're based in Keynsham. Visit our{' '}
               <a href={GOOGLE_MAPS_PLACE_URL} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
                 Google Maps listing
               </a>
