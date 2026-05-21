@@ -63,7 +63,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/builders',
       url: 'https://seo-kings.co.uk/web-design-for/builders',
       name: 'Web Design for Builders | SEO Kings',
-      description: 'Websites for builders in Bath & Somerset. Fast, mobile-first, built to rank for local search. NHBC/FMB badge display, project galleries, dedicated service pages, Google Business Profile included. From £250.',
+      description: 'Websites for builders in Bath & Somerset. Fast, mobile-first, built to rank for local search. NHBC/FMB badge display, project galleries, dedicated service pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -89,7 +89,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Builder website from £250 including Google Business Profile set-up',
+        description: 'Builder website from £250 — GBP optimisation available as a £100 add-on',
       },
     },
     {
@@ -123,7 +123,7 @@ const WebDesignForBuilders = () => {
     <>
       <SEO
         title="Web Design for Builders Bath & Somerset | From £250"
-        description="Websites for builders in Bath & Somerset. Fast, mobile-first, built for local search. NHBC/FMB badges, project galleries, service pages, Google Business Profile included. From £250."
+        description="Websites for builders in Bath & Somerset. Fast, mobile-first, built for local search. NHBC/FMB badges, project galleries, service pages. From £250. Add GBP optimisation for £100."
         canonical="/web-design-for/builders"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -149,7 +149,7 @@ const WebDesignForBuilders = () => {
               Building work is the biggest purchase most homeowners ever make after their house itself. They don't pick the cheapest builder on the list — they pick the one who looks professional, experienced and trustworthy. If your website doesn't show your projects, your credentials and your coverage clearly, those quotes go to someone else.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for builders in Bath, Keynsham, Midsomer Norton and across North East Somerset — with NHBC/FMB badge display, project galleries, dedicated service pages and Google Business Profile optimisation as standard. From £250.
+              We build websites for builders in Bath, Keynsham, Midsomer Norton and across North East Somerset — with NHBC/FMB badge display, project galleries, dedicated service pages from £250. Add GBP optimisation for £100.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -258,7 +258,7 @@ const WebDesignForBuilders = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

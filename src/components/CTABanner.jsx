@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import MagneticButton from './library/MagneticButton';
 
-const CTABanner = () => {
+const CTABanner = ({ onGetQuote }) => {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-dark to-secondary/20" />
-      
+
       {/* Animated Blobs */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-primary/30 rounded-full blur-3xl animate-blob" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
@@ -25,6 +25,14 @@ const CTABanner = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+          {onGetQuote && (
+            <button
+              onClick={onGetQuote}
+              className="w-full sm:w-auto bg-white text-dark px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-gray-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark"
+            >
+              Get a Quote
+            </button>
+          )}
           <MagneticButton
             as={Link}
             href="/contact"

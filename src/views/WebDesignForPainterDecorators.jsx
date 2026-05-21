@@ -73,7 +73,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/painters-decorators',
       url: 'https://seo-kings.co.uk/web-design-for/painters-decorators',
       name: 'Web Design for Painters & Decorators | SEO Kings',
-      description: 'Websites for painters and decorators in Bath & Somerset. Gallery-first design, heritage property pages, Google Business Profile included. From £250.',
+      description: 'Websites for painters and decorators in Bath & Somerset. Gallery-first design, heritage property pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -99,7 +99,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Painter and decorator website from £250 including Google Business Profile set-up',
+        description: 'Painter and decorator website from £250 — GBP optimisation available as a £100 add-on',
       },
     },
     {
@@ -133,7 +133,7 @@ const WebDesignForPainterDecorators = () => {
     <>
       <SEO
         title="Web Design for Painters & Decorators Bath & Somerset | From £250"
-        description="Websites for painters and decorators in Bath & Somerset. Gallery-first design, interior, exterior and heritage property pages, GBP included. From £250."
+        description="Websites for painters and decorators in Bath & Somerset. Gallery-first design, interior, exterior and heritage property pages. From £250. Add GBP optimisation for £100."
         canonical="/web-design-for/painters-decorators"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -271,7 +271,7 @@ const WebDesignForPainterDecorators = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

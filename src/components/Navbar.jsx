@@ -176,21 +176,16 @@ const Navbar = () => {
       </a>
       
       {/* Main Nav Bar */}
-      <div className="bg-dark/80 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+      <div className="backdrop-blur-md border-b border-white/[0.05]" style={{ background: 'rgba(7,8,13,0.92)' }}>
+        <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-20">
+          <div className="flex items-center justify-between h-[68px]">
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center gap-2.5" onClick={closeAllMenus}>
-                <img src="/crown-logo.svg" alt="SEO Kings" className="h-10 w-auto" />
-                <div className="flex flex-col leading-none">
-                  <span className="text-lg font-bold text-white tracking-tight">
-                    SEO Kings
-                  </span>
-                  <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase text-secondary">
-                    Website Designer &amp; Local SEO
-                  </span>
-                </div>
+                <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto opacity-90" />
+                <span className="text-base font-bold text-white tracking-tight">
+                  SEO Kings
+                </span>
               </Link>
             </div>
 
@@ -241,12 +236,12 @@ const Navbar = () => {
                   </a>
                 )
               ))}
-              <a 
-                href="/contact" 
-                className="bg-primary hover:bg-primary-light text-dark px-5 py-2 rounded-lg font-medium transition-all duration-200 btn-glow"
+              <a
+                href="/web-design-packages"
+                className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg text-sm font-semibold transition-colors duration-200"
                 onClick={closeAllMenus}
               >
-                Get Started
+                Get a Quote
               </a>
             </div>
 
@@ -278,7 +273,8 @@ const Navbar = () => {
       {isServicesOpen && (
         <div 
           id="services-menu"
-          className="hidden md:block bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-out max-h-96 opacity-100"
+          className="hidden md:block backdrop-blur-xl border-b border-white/[0.05] overflow-hidden transition-all duration-300 ease-out max-h-96 opacity-100"
+          style={{ background: 'rgba(7,8,13,0.97)' }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid md:grid-cols-3 gap-6">
@@ -338,7 +334,8 @@ const Navbar = () => {
       {isAreasOpen && (
         <div 
           id="areas-menu"
-          className="hidden md:block bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-out opacity-100"
+          className="hidden md:block backdrop-blur-xl border-b border-white/[0.05] overflow-hidden transition-all duration-300 ease-out opacity-100"
+          style={{ background: 'rgba(7,8,13,0.97)' }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid md:grid-cols-5 gap-6">
@@ -421,9 +418,10 @@ const Navbar = () => {
       <div
         id="mobile-menu"
         aria-hidden={!isMenuOpen}
-        className={`md:hidden bg-dark/95 backdrop-blur-xl border-b border-white/5 overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`md:hidden backdrop-blur-xl border-b border-white/[0.05] overflow-hidden transition-all duration-300 ease-in-out ${
           isMenuOpen ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
         }`}
+        style={{ background: 'rgba(7,8,13,0.97)' }}
       >
         <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 transition-transform duration-300 ${isMenuOpen ? 'translate-y-0' : '-translate-y-3'}`}>
           <div className="flex flex-col gap-4">
@@ -492,11 +490,11 @@ const Navbar = () => {
 
             <div className={`transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isMenuOpen ? '380ms' : '0ms' }}>
               <a
-                href="/contact"
-                className="bg-primary hover:bg-primary-light text-dark px-5 py-3 rounded-lg font-medium transition-all duration-200 w-full mt-2 text-center block"
+                href="/web-design-packages"
+                className="bg-primary hover:bg-primary-dark text-white px-5 py-3 rounded-lg text-sm font-semibold transition-colors duration-200 w-full mt-2 text-center block"
                 onClick={closeAllMenus}
               >
-                Get Started
+                Get a Quote
               </a>
             </div>
 

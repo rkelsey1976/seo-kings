@@ -19,7 +19,7 @@ const websiteDesignPackageOffers = [
       '@type': 'Service',
       name: 'Starter – 1-page website',
       description:
-        'Single-page site with services, contact and area info, contact form and click-to-call. Google Business Profile optimisation included for one service in one location. Mobile-responsive, SEO basics, 12 months hosting, SSL, UK support.',
+        'Single-page site with services, contact and area info, contact form and click-to-call. Mobile-responsive, SEO basics, 6 months free hosting, SSL, UK support. GBP optimisation available as a £100 add-on.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',

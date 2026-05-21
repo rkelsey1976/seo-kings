@@ -1,14 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 
-const ServicePageHero = ({ 
-  badge, 
-  title, 
-  highlight, 
-  description, 
+const ServicePageHero = ({
+  badge,
+  title,
+  highlight,
+  description,
   features = [],
-  ctaText = 'Get Your Free Quote',
-  ctaSecondary = 'Call Us Today'
+  ctaText = 'Get a Quote',
+  ctaSecondary = 'Call Us Today',
+  onGetQuote,
 }) => {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
@@ -55,9 +56,15 @@ const ServicePageHero = ({
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
-                {ctaText}
-              </Link>
+              {onGetQuote ? (
+                <button onClick={onGetQuote} className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
+                  {ctaText}
+                </button>
+              ) : (
+                <Link href="/contact" className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
+                  {ctaText}
+                </Link>
+              )}
               <a
                 href="tel:07702264921"
                 className="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3"

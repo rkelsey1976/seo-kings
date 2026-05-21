@@ -1,11 +1,15 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import ServiceFeatures from '../components/ServiceFeatures';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import PricingModal from '../components/PricingModal';
+
 const WebDesign = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   const heroFeatures = [
     'Mobile-First',
     'Fast Loading',
@@ -124,7 +128,7 @@ const WebDesign = () => {
             mainEntity: [
               { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Websites start at £250 for a one-page site with contact form, click-to-call, area info and SEO basics. Multi-page sites are £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450. GBP optimisation is a £100 add-on. Use the pricing calculator on our packages page for an exact quote.' } },
               { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
-              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site with GBP included for one service in one location.' } },
+              { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site. GBP optimisation available as a £100 add-on.' } },
               { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
             ],
           },
@@ -136,7 +140,8 @@ const WebDesign = () => {
         highlight="Customers"
         description="Website design is our main service. From £250 for a one-page site. Add GBP optimisation for £100. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
         features={heroFeatures}
-        ctaText="Get a Free Quote"
+        ctaText="Get a Quote"
+        onGetQuote={() => setModalOpen(true)}
       />
 
       <ServiceFeatures
@@ -363,7 +368,9 @@ const WebDesign = () => {
         </div>
       </section>
 
-      <CTABanner />
+      <CTABanner onGetQuote={() => setModalOpen(true)} />
+
+      <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
 };

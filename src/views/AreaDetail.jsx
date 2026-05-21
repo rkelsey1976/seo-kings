@@ -102,7 +102,7 @@ const AreaDetail = ({ params: staticParams }) => {
       metaTitle: 'Web Design & SEO in Bath | Trades & Local Businesses',
       metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       heroHeadline: 'Web Design & SEO in Bath for Trades & Local Businesses',
-      heroSubhead: 'Website design from £250. Local SEO from £150/month. Google Business Profile included.',
+      heroSubhead: 'Website design from £250. Local SEO from £150/month. GBP optimisation from £100.',
       heroSubtext: 'No obligation. No credit card required.',
       description: 'Bath is a historic city famous for Roman Baths and Georgian architecture. Home to around 95,000–100,000 residents plus over 6 million visitors each year.',
       extendedDescription: 'This creates huge demand for local services — from plumbers fixing tourist rentals to builders on new developments. Customers search Google for "plumber Bath" or "electrician Bath". We get you to the top.',
@@ -225,7 +225,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'What it costs to get found in Bath',
         paragraphs: [
-          'Website design starts at £250 for a fast, mobile-friendly site built for local search — Google Business Profile set-up included. Local SEO starts from £150/month and covers GBP optimisation, on-page fixes, citations and link building. Most Bath clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need and get a clear quote — no obligation.',
+          'Website design starts at £250 for a fast, mobile-friendly site built for local search — GBP optimisation from £100. Local SEO starts from £150/month and covers GBP optimisation, on-page fixes, citations and link building. Most Bath clients start with a website and add SEO once it\'s live. Free audit to work out what you actually need and get a clear quote — no obligation.',
         ],
       },
       whatToLookForSection: {
@@ -233,7 +233,7 @@ const AreaDetail = ({ params: staticParams }) => {
         bullets: [
           { title: 'Track record with local businesses', text: 'Look for real results with trades and local businesses in Bath and North East Somerset — not just a portfolio of pretty sites.' },
           { title: 'Local knowledge', text: 'A good Bath partner knows the searches people use ("plumber Bath", "electrician BA1") and how competitive each one is.' },
-          { title: 'SEO and GBP built in from day one', text: 'Don\'t pay for a site and then pay again to make it rank. Ask if Google Business Profile and local SEO are included — we build them in.' },
+          { title: 'SEO and GBP built in from day one', text: 'Don\'t pay for a site and then pay again to make it rank. GBP optimisation is a £100 add-on; local SEO from £150/month. We\'re clear about costs upfront.' },
           { title: 'Clear pricing and no lock-in', text: 'You should know exactly what you\'re getting and what it costs. We\'re upfront about everything — no long contracts, no surprises.' },
           { title: 'Monthly reporting', text: 'You should be able to see what\'s working. We send monthly reports covering rankings, traffic and leads — in plain English.' },
         ],
@@ -262,7 +262,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'How much does it cost to get found on Google in Bath?',
-          answer: 'Website design starts at £250. Local SEO from £150/month. Google Business Profile optimisation is included in both. Bath is competitive — the investment pays back quickly when you\'re getting calls instead of losing them to page-one competitors. Free audit, no obligation.',
+          answer: 'Website design starts at £250. Local SEO from £150/month. GBP optimisation available as a £100 add-on. Bath is competitive — the investment pays back quickly when you\'re getting calls instead of losing them to page-one competitors. Free audit, no obligation.',
         },
       ],
     },
@@ -278,7 +278,7 @@ const AreaDetail = ({ params: staticParams }) => {
       metaTitle: 'Web Design & SEO in Keynsham BS31 | Trades & Local Businesses',
       metaDescription: 'Web design, local SEO and Google Business Profile for trades and local businesses in Keynsham BS31. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       heroHeadline: 'Web Design & SEO in Keynsham for Trades & Local Businesses',
-      heroSubhead: 'Website design from £250. Local SEO from £150/month. Google Business Profile included.',
+      heroSubhead: 'Website design from £250. Local SEO from £150/month. GBP optimisation from £100.',
       description: 'Website designer in Keynsham — we get you found on Google. We offer web design from £250 and local SEO so trades and businesses in Keynsham BS31 show up when people search "plumber Keynsham", "electrician BS31" and more. Whether you need a professional website designer in Keynsham or help with your Google Business Profile, we help you get more calls and more jobs.',
       extendedDescription: 'Trusted by plumbers, electricians, builders, roofers, and more in Keynsham and Bath and North East Somerset. We also cover nearby villages and neighbourhoods including Longwell Green, Warmley, Pensford, Compton Dando, Corston, Kelston, Whitchurch, and the wider BS31 and BS30 area.',
       heroStats: [
@@ -391,7 +391,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Keynsham',
         paragraphs: [
-          'Website design in Keynsham starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
+          'Website design in Keynsham starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -399,7 +399,7 @@ const AreaDetail = ({ params: staticParams }) => {
         bullets: [
           { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Keynsham, Bath or Somerset.' },
           { title: 'Local knowledge', text: 'A good Keynsham web designer knows the searches people use ("plumber Keynsham", "website design Keynsham") and how to optimise for them.' },
-          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'GBP optimisation — £100 add-on', text: 'Your site should be built with local search in mind from day one. Add GBP optimisation for £100 — we set up your categories, keywords, description and service area.' },
           { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
           { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
         ],
@@ -423,7 +423,7 @@ const AreaDetail = ({ params: staticParams }) => {
         },
         {
           question: 'How much does it cost to get found on Google in Keynsham?',
-          answer: 'Website design starts at £250. Local SEO from £150/month. Google Business Profile optimisation is included in both. Keynsham is less competitive than Bath — your money goes further here. Free audit, no obligation.',
+          answer: 'Website design starts at £250. Local SEO from £150/month. GBP optimisation available as a £100 add-on. Keynsham is less competitive than Bath — your money goes further here. Free audit, no obligation.',
         },
       ],
     },
@@ -540,7 +540,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Midsomer Norton',
         paragraphs: [
-          'Website design in Midsomer Norton starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
+          'Website design in Midsomer Norton starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookFor: {
@@ -551,7 +551,7 @@ const AreaDetail = ({ params: staticParams }) => {
         ],
       },
       faqs: [
-        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.' },
+        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.' },
         { question: 'Do you build websites optimised for local Midsomer Norton searches?', answer: 'Yes. Every site we build is optimised for local searches like "website designer Midsomer Norton", "web design Midsomer Norton BA3" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.' },
         { question: 'Is SEO worth it for a small Midsomer Norton business?', answer: 'Yes. Smaller towns like Midsomer Norton have lower competition. A good local setup can quickly put you at the top and bring steady jobs.' },
         { question: 'How do you target Midsomer Norton specifically?', answer: 'We use local keywords, optimise your Google Business Profile, build citations in Bath and North East Somerset directories, and earn links from nearby sites.' },
@@ -688,7 +688,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Radstock',
         paragraphs: [
-          'Website design in Radstock starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
+          'Website design in Radstock starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -696,7 +696,7 @@ const AreaDetail = ({ params: staticParams }) => {
         bullets: [
           { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Radstock, Midsomer Norton or the Somer Valley.' },
           { title: 'Local knowledge', text: 'A good Radstock web designer knows the searches people use ("plumber Radstock", "website design Radstock") and how to optimise for them.' },
-          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'GBP optimisation — £100 add-on', text: 'Your site should be built with local search in mind from day one. Add GBP optimisation for £100 — we set up your categories, keywords, description and service area.' },
           { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
           { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
         ],
@@ -704,7 +704,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Radstock?',
-          answer: 'Website design in Radstock starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
+          answer: 'Website design in Radstock starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
         },
         {
           question: 'Is there enough search volume in Radstock for SEO to work?',
@@ -1041,7 +1041,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Saltford',
         paragraphs: [
-          'Website design in Saltford starts at £250 for a one-page or multi-page site built to get you found on Google. That includes a mobile-friendly site and Google Business Profile optimisation for one service in one location. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
+          'Website design in Saltford starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -1049,7 +1049,7 @@ const AreaDetail = ({ params: staticParams }) => {
         bullets: [
           { title: 'Portfolio and sector experience', text: 'Look for work with trades and local businesses like yours — plumbers, electricians, builders in Saltford, Bath or Somerset.' },
           { title: 'Local knowledge', text: 'A good Saltford web designer knows the searches people use ("plumber Saltford", "website design Saltford") and how to optimise for them.' },
-          { title: 'SEO and Google Business Profile included', text: 'Your site should be built with local search in mind from day one. Ask if GBP setup or optimisation is included — we include it in our packages.' },
+          { title: 'GBP optimisation — £100 add-on', text: 'Your site should be built with local search in mind from day one. Add GBP optimisation for £100 — we set up your categories, keywords, description and service area.' },
           { title: 'Clear process and timeline', text: 'You should get a clear timeline and know what you\'re getting at each stage. We outline everything up front so there are no surprises.' },
           { title: 'No long contracts', text: 'Plain English, monthly reports, and no lock-in. We want you on the map and getting more calls.' },
         ],
@@ -1057,7 +1057,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Saltford?',
-          answer: 'Website design in Saltford starts at £250 for a one-page site with Google Business Profile optimisation included for one service in one location. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
+          answer: 'Website design in Saltford starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
         },
         {
           question: 'Do you build websites optimised for local Saltford searches?',

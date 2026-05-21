@@ -1,10 +1,11 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
+import PricingModal from '../components/PricingModal';
 
 const included = [
   'Mobile-first design — fast on any device',
@@ -35,7 +36,7 @@ const results = [
 const faqs = [
   {
     q: 'How much does a website cost in Trowbridge?',
-    a: 'A one-page site starts at £250. Multi-page sites are £250 base + £50 per page — a 3-page site is £350, a 5-page site is £450. All include GBP set-up. See our packages page for full pricing.',
+    a: 'A one-page site starts at £250. Multi-page sites are £250 base + £50 per page — a 3-page site is £350, a 5-page site is £450. GBP optimisation available as a £100 add-on. See our packages page for full pricing.',
   },
   {
     q: 'Can you meet clients in Trowbridge?',
@@ -67,7 +68,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/website-designer-trowbridge',
       url: 'https://seo-kings.co.uk/website-designer-trowbridge',
       name: 'Website Designer Trowbridge | SEO Kings',
-      description: 'Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £250. Google Business Profile included.',
+      description: 'Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -82,7 +83,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites from £250 for trades and local businesses, with Google Business Profile included.',
+      description: 'Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites from £250 for trades and local businesses, with GBP optimisation from £100.',
       url: 'https://seo-kings.co.uk/website-designer-trowbridge',
       telephone: '+447702264921',
       address: {
@@ -116,11 +117,13 @@ const schema = {
 };
 
 const WebsiteDesignerTrowbridge = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <SEO
         title="Website Designer Trowbridge | Web Design from £250"
-        description="Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £250. Google Business Profile included. Free audit."
+        description="Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
         canonical="/website-designer-trowbridge"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -142,7 +145,7 @@ const WebsiteDesignerTrowbridge = () => {
               <span className="text-primary">Trowbridge</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build fast, Google-ready websites for trades and local businesses in Trowbridge and across Wiltshire. From £250 — with Google Business Profile set-up included. Live in under 2 weeks.
+              We build fast, Google-ready websites for trades and local businesses in Trowbridge and across Wiltshire. From £250. Add GBP optimisation for £100. Live in under 2 weeks.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -170,7 +173,7 @@ const WebsiteDesignerTrowbridge = () => {
                 { label: 'From £250' },
                 { label: '6 months free hosting' },
                 { label: 'Live in under 2 weeks' },
-                { label: 'GBP set-up included' },
+                { label: 'GBP optimisation +£100' },
                 { label: 'Serving Wiltshire' },
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
@@ -236,13 +239,13 @@ const WebsiteDesignerTrowbridge = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-              <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £50/year. No hidden fees.</p>
-              <Link
-                href="/contact"
+              <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No hidden fees.</p>
+              <button
+                onClick={() => setModalOpen(true)}
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
-                Get a Free Quote
-              </Link>
+                Get a Quote
+              </button>
               <Link
                 href="/web-design-packages"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-sm mt-3 transition-colors duration-200 text-primary"
@@ -316,7 +319,9 @@ const WebsiteDesignerTrowbridge = () => {
         </div>
       </section>
 
-      <CTABanner />
+      <CTABanner onGetQuote={() => setModalOpen(true)} />
+
+      <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
 };

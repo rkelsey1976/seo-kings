@@ -354,29 +354,32 @@ const About = () => {
             </p>
           </div>
 
-          {/* Google Maps embed */}
-          <div className="mt-16">
-            <h3 className="text-xl font-bold text-white mb-2 text-center">Find us on Google Maps</h3>
-            <p className="text-gray-400 mb-6 text-center max-w-xl mx-auto">
-              We're based in Keynsham. Visit our{' '}
-              <a href={GOOGLE_MAPS_PLACE_URL} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
-                Google Maps listing
-              </a>
-              {' '}for directions or to leave a review.
-            </p>
-            <div className="rounded-2xl overflow-hidden border border-white/10 aspect-video max-h-[350px] bg-dark-card">
-              <iframe
-                src={GOOGLE_MAPS_EMBED_SRC}
-                width="100%"
-                height="100%"
-                style={{ border: 0, minHeight: 350 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="SEO Kings on Google Maps"
-                className="w-full h-full min-h-[280px]"
-              />
-            </div>
+        </div>
+      </section>
+
+      {/* Google Maps embed */}
+      <section className="py-20 bg-dark-lighter">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-white mb-2 text-center">Find us on Google Maps</h2>
+          <p className="text-gray-400 mb-6 text-center">
+            We're based in Keynsham. Visit our{' '}
+            <a href={GOOGLE_MAPS_PLACE_URL} target="_blank" rel="noopener noreferrer" className="text-primary-light hover:text-white transition-colors">
+              Google Maps listing
+            </a>
+            {' '}for directions or to leave a review.
+          </p>
+          <div className="rounded-2xl overflow-hidden border border-white/10 bg-dark-card h-[500px] sm:h-[560px] lg:h-[620px]">
+            <iframe
+              src={GOOGLE_MAPS_EMBED_SRC}
+              width="100%"
+              height="100%"
+              style={{ border: 0, display: 'block' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SEO Kings on Google Maps"
+              className="w-full h-full"
+            />
           </div>
         </div>
       </section>

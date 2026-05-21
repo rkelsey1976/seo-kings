@@ -63,7 +63,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/electricians',
       url: 'https://seo-kings.co.uk/web-design-for/electricians',
       name: 'Web Design for Electricians | SEO Kings',
-      description: 'Websites for electricians in Bath & Somerset. NICEIC/NAPIT badge display, dedicated EICR and EV charger pages, Google Business Profile included. From £250.',
+      description: 'Websites for electricians in Bath & Somerset. NICEIC/NAPIT badge display, dedicated EICR and EV charger pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -89,7 +89,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Electrician website from £250 including Google Business Profile set-up',
+        description: 'Electrician website from £250 — GBP optimisation available as a £100 add-on',
       },
     },
     {
@@ -123,7 +123,7 @@ const WebDesignForElectricians = () => {
     <>
       <SEO
         title="Web Design for Electricians Bath & Somerset | From £250"
-        description="Websites for electricians in Bath & Somerset. NICEIC/NAPIT badge display, dedicated EICR and EV charger pages, Google Business Profile included. From £250."
+        description="Websites for electricians in Bath & Somerset. NICEIC/NAPIT badge display, dedicated EICR and EV charger pages. From £250. Add GBP optimisation for £100."
         canonical="/web-design-for/electricians"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -149,7 +149,7 @@ const WebDesignForElectricians = () => {
               Homeowners searching for an electrician online are usually dealing with planned, sign-off work — EICRs for a sale, consumer unit upgrades flagged on a survey, EV chargers. They'll take time to choose. They'll look at your website, check your accreditations, read your reviews. Without a credible site, you're not in the running.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for electricians in Bath, Keynsham and across North East Somerset — with NICEIC or NAPIT badge display, dedicated service pages per job type, and Google Business Profile set-up as standard. From £250.
+              We build websites for electricians in Bath, Keynsham and across North East Somerset — with NICEIC or NAPIT badge display, dedicated service pages per job type, from £250. Add GBP optimisation for £100.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -239,7 +239,7 @@ const WebDesignForElectricians = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

@@ -1,9 +1,11 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import ServicePageHero from '../components/ServicePageHero';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import PricingModal from '../components/PricingModal';
 
 const trades = [
   { name: 'Plumbers', slug: 'plumbers', description: 'Professional websites for plumbers — showcase your services and get more call-outs.' },
@@ -36,7 +38,7 @@ const pricingTiers = [
       'Basic on-page SEO',
       'Contact form & click-to-call',
     ],
-    cta: 'Get started',
+    cta: 'Get a quote',
     href: '/contact?service=web-design-for&package=starter',
     popular: false,
     gradient: 'from-primary to-primary-dark',
@@ -54,7 +56,7 @@ const pricingTiers = [
       'Portfolio / gallery pages',
       'Monthly hosting & support',
     ],
-    cta: 'Get started',
+    cta: 'Get a quote',
     href: '/contact?service=web-design-for&package=professional',
     popular: true,
     gradient: 'from-secondary to-secondary-dark',
@@ -73,7 +75,7 @@ const pricingTiers = [
       'Monthly hosting & priority support',
       'Content writing included',
     ],
-    cta: 'Get started',
+    cta: 'Get a quote',
     href: '/contact?service=web-design-for&package=full',
     popular: false,
     gradient: 'from-accent to-accent-dark',
@@ -87,6 +89,8 @@ const howItWorks = [
 ];
 
 const WebDesignForHub = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <SEO
@@ -146,7 +150,8 @@ const WebDesignForHub = () => {
         highlight="in Bath & Somerset"
         description="Professional, mobile-friendly websites designed for tradespeople — from plumbers to plasterers. Get found on Google, showcase your work, and turn visitors into jobs. From £250 one-off."
         features={['Mobile-First Design', 'Local SEO Ready', '6 months free hosting', 'Lead-Generating', 'Fast & Secure']}
-        ctaText="Get a Free Website Quote"
+        ctaText="Get a Quote"
+        onGetQuote={() => setModalOpen(true)}
       />
 
       {/* Trade cards grid */}
@@ -257,12 +262,12 @@ const WebDesignForHub = () => {
                     </li>
                   ))}
                 </ul>
-                <Link
-                  href={pkg.href}
-                  className={`block text-center py-3 px-4 rounded-xl font-semibold transition-all bg-gradient-to-r ${pkg.gradient} text-white hover:opacity-90`}
+                <button
+                  onClick={() => setModalOpen(true)}
+                  className={`w-full text-center py-3 px-4 rounded-xl font-semibold transition-all bg-gradient-to-r ${pkg.gradient} text-white hover:opacity-90`}
                 >
                   {pkg.cta}
-                </Link>
+                </button>
               </div>
             ))}
           </div>
@@ -307,7 +312,9 @@ const WebDesignForHub = () => {
         </div>
       </section>
 
-      <CTABanner />
+      <CTABanner onGetQuote={() => setModalOpen(true)} />
+
+      <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
 };

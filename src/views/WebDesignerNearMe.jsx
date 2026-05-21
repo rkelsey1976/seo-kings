@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     question: 'How much does a website cost?',
-    answer: "Web design starts from £250 for a one-page site. That includes a professional, mobile-first design and Google Business Profile optimisation for one service in one location. We can add local SEO, additional pages, and ongoing support as add-ons. No hidden fees, no long contracts.",
+    answer: "Web design starts from £250 for a one-page site — professional, mobile-first, built to rank. GBP optimisation is a £100 add-on. We can add local SEO, additional pages, and ongoing support. No hidden fees, no long contracts.",
   },
   {
     question: 'How long does it take?',

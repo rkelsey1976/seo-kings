@@ -67,7 +67,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/web-design-for/roofers',
       url: 'https://seo-kings.co.uk/web-design-for/roofers',
       name: 'Web Design for Roofers | SEO Kings',
-      description: 'Websites for roofers in Bath & Somerset. Fast, mobile-first, built to rank for emergency and local search. Before/after galleries, dedicated service pages, Google Business Profile included. From £250.',
+      description: 'Websites for roofers in Bath & Somerset. Fast, mobile-first, built to rank for emergency and local search. Before/after galleries, dedicated service pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -93,7 +93,7 @@ const schema = {
         '@type': 'Offer',
         price: '399',
         priceCurrency: 'GBP',
-        description: 'Roofer website from £250 including Google Business Profile set-up',
+        description: 'Roofer website from £250 — GBP optimisation available as a £100 add-on',
       },
     },
     {
@@ -127,7 +127,7 @@ const WebDesignForRoofers = () => {
     <>
       <SEO
         title="Web Design for Roofers Bath & Somerset | From £250"
-        description="Websites for roofers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. Before/after galleries, service pages, Google Business Profile included. From £250."
+        description="Websites for roofers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. Before/after galleries, service pages. From £250. Add GBP optimisation for £100."
         canonical="/web-design-for/roofers"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -153,7 +153,7 @@ const WebDesignForRoofers = () => {
               Most roofing leads come from emergency searches and local word-of-mouth that now starts online. A storm at 2am, tiles blown off in high winds, water coming through the ceiling. The customer is on their phone and they'll call the first roofer they can find who looks trustworthy and is clearly available. If your website isn't fast, mobile-friendly and prominent in local search, those calls go to someone else.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build websites for roofers in Bath, Keynsham, Midsomer Norton and across North East Somerset — with before/after galleries, dedicated emergency pages, insurance work pages, and Google Business Profile optimisation as standard. From £250.
+              We build websites for roofers in Bath, Keynsham, Midsomer Norton and across North East Somerset — with before/after galleries, dedicated emergency pages, insurance work pages, from £250. Add GBP optimisation for £100.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
@@ -262,7 +262,7 @@ const WebDesignForRoofers = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

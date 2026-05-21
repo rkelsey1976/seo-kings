@@ -5,21 +5,18 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/[0.06]">
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-16 sm:py-20">
+    <footer className="border-t border-white/[0.05]" style={{ background: '#0D0F17' }}>
+      <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-20 py-20 sm:py-24">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-12 lg:gap-16">
           
           {/* Brand */}
           <div className="lg:max-w-xs">
-            <Link href="/" className="inline-flex items-center gap-2.5 mb-4">
-              <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto" />
-              <div className="flex flex-col leading-none">
-                <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
-                <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase text-secondary">Website Designer &amp; Local SEO</span>
-              </div>
+            <Link href="/" className="inline-flex items-center gap-2.5 mb-5">
+              <img src="/crown-logo.svg" alt="SEO Kings" className="h-7 w-auto opacity-80" />
+              <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
-              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £250. Google Business Profile included.
+              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £250. GBP optimisation from £100.
             </p>
           </div>
 
@@ -112,7 +109,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-16 pt-8 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/55">
             <span suppressHydrationWarning>© {currentYear} SEO Kings</span>
           </p>

@@ -224,7 +224,7 @@ const BathHub = () => {
                   {[
                     'Mobile-first design, loads fast on any device',
                     'Built to rank for your trade + Bath searches',
-                    'Google Business Profile set-up included',
+                    'GBP optimisation — £100 add-on',
                     'Click-to-call and contact form',
                     'Live in under 2 weeks',
                   ].map((item) => (
@@ -324,7 +324,7 @@ const BathHub = () => {
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-4">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-500 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
 
         </div>
       </section>

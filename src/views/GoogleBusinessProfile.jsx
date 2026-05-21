@@ -23,7 +23,7 @@ const GoogleBusinessProfile = () => {
     <>
       <SEO
         title="Google Business Profile Optimisation in Bath"
-        description="One-off Google Business Profile optimisation for £100. We also include GBP in our Local SEO and website packages — no need to buy it separately."
+        description="One-off Google Business Profile optimisation for £100. Ongoing GBP management is included in our Local SEO packages. Add one-off GBP optimisation to any website build for £100."
         canonical="/google-business-profile"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -44,7 +44,7 @@ const GoogleBusinessProfile = () => {
             '@id': 'https://seo-kings.co.uk/#service-google-business-profile',
             serviceType: 'Google Business Profile Optimisation',
             name: 'Google Business Profile Optimisation',
-            description: 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP is included in Local SEO and website packages.',
+            description: 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP management is included in Local SEO packages from £150/month. Add one-off GBP optimisation to any website build for £100.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/google-business-profile' },
             areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
@@ -66,8 +66,8 @@ const GoogleBusinessProfile = () => {
             mainEntity: [
               { '@type': 'Question', name: 'What is Google Business Profile?', acceptedAnswer: { '@type': 'Answer', text: 'Google Business Profile (formerly Google My Business) is how your business appears on Google Search and Maps — your name, hours, reviews, photos and more. Optimising it helps you show up in the map pack when people search locally for your trade.' } },
               { '@type': 'Question', name: 'What is included in the one-off £100 GBP optimisation?', acceptedAnswer: { '@type': 'Answer', text: 'A single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and service area so your profile is set up correctly for local search. You pay once — no ongoing fee.' } },
-              { '@type': 'Question', name: 'Do you offer ongoing Google Business Profile management?', acceptedAnswer: { '@type': 'Answer', text: 'We include ongoing GBP management — posts, reviews, photos and reporting — inside our Local SEO and website design packages. It is not sold as a standalone monthly product.' } },
-              { '@type': 'Question', name: 'I want a website and Google Business Profile — what do I get?', acceptedAnswer: { '@type': 'Answer', text: 'Our website packages include GBP optimisation — one service, one location on the Starter package; more on higher packages. So you get the site and the profile together without paying separately.' } },
+              { '@type': 'Question', name: 'Do you offer ongoing Google Business Profile management?', acceptedAnswer: { '@type': 'Answer', text: 'We include ongoing GBP management — posts, reviews, photos and reporting — inside our Local SEO packages from £150/month. It is not sold as a standalone monthly product.' } },
+              { '@type': 'Question', name: 'I want a website and Google Business Profile — what do I get?', acceptedAnswer: { '@type': 'Answer', text: 'GBP optimisation is a £100 add-on to any website package. You get a fully built site from £250, then add GBP set-up for £100 — we handle categories, keywords, description, photos and service area. See our Web Design Packages page for details.' } },
             ],
           },
         ]}
@@ -76,7 +76,7 @@ const GoogleBusinessProfile = () => {
         badge="Google Business Profile"
         title="Get Your Profile Optimised —"
         highlight="One-Off £100"
-        description="We optimise your Google Business Profile so you show up better in the map pack. Categories, keywords, services — done once. Ongoing GBP (posts, reviews) is included in our Local SEO and website packages."
+        description="We optimise your Google Business Profile so you show up better in the map pack. Categories, keywords, services — done once for £100. Ongoing GBP management (posts, reviews) is included in our Local SEO packages."
         features={heroFeatures}
         ctaText="Get Your GBP Optimised"
       />
@@ -106,24 +106,24 @@ const GoogleBusinessProfile = () => {
         </div>
       </section>
 
-      {/* Ongoing GBP is included in SEO & website */}
+      {/* Ongoing GBP is included in Local SEO */}
       <section className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
-            No need to buy GBP on its own
+            Want ongoing GBP management?
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-            Ongoing GBP Is Included in Our Other Services
+            Ongoing GBP Is Included in Local SEO
           </h2>
           <p className="text-gray-400 mb-8">
-            We don’t sell GBP management as a separate monthly product. <strong className="text-white">Posts, reviews, photos and reporting</strong> are included in our <Link href="/local-seo" className="text-primary-light hover:underline">Local SEO</Link> packages and in our <Link href="/web-design" className="text-primary-light hover:underline">website design</Link> packages. So if you want a website or Local SEO from us, you get GBP as part of it.
+            We don’t sell ongoing GBP management as a standalone monthly product. <strong className="text-white">Posts, reviews, photos and reporting</strong> are included in our <Link href="/local-seo" className="text-primary-light hover:underline">Local SEO</Link> packages from £150/month. If you just want the profile set up and optimised once, the £100 one-off is what you need.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/local-seo" className="inline-block bg-dark-card border border-white/10 hover:border-primary/30 text-white px-5 py-2.5 rounded-xl font-medium transition-all">
-              Local SEO (includes GBP)
+              Local SEO (includes ongoing GBP)
             </Link>
             <Link href="/web-design" className="inline-block bg-dark-card border border-white/10 hover:border-primary/30 text-white px-5 py-2.5 rounded-xl font-medium transition-all">
-              Website design (includes GBP)
+              Website design + GBP add-on (£100)
             </Link>
           </div>
         </div>
@@ -155,7 +155,7 @@ const GoogleBusinessProfile = () => {
               },
               {
                 q: 'Do you do ongoing GBP (posts, reviews) on its own?',
-                a: 'No. We include ongoing GBP management (posts, reviews, photos, reporting) in our Local SEO packages and in our website design packages. So you get GBP as part of a website or Local SEO — not as a separate monthly product.',
+                a: 'No. We include ongoing GBP management (posts, reviews, photos, reporting) in our Local SEO packages from £150/month. For website builds, you can add a one-off GBP optimisation for £100. Neither is sold as a standalone monthly product.',
               },
               {
                 q: 'What is Google Business Profile?',
@@ -163,7 +163,7 @@ const GoogleBusinessProfile = () => {
               },
               {
                 q: 'I want a website and GBP — what do I get?',
-                a: 'Our website packages include GBP optimisation for your business (one service, one location on the one-page package; more on higher packages). So you get the site and the profile together. See our Web Design and Web Design Packages pages for details.',
+                a: 'GBP optimisation is a £100 add-on to any website package. You get a fully built site from £250, then add GBP set-up for £100 — we handle categories, keywords, description, photos and service area. See our Web Design and Web Design Packages pages for details.',
               },
             ]}
           />

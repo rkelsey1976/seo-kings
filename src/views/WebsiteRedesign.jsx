@@ -260,7 +260,7 @@ const WebsiteRedesign = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-gray-500 mb-6">Free audit included. Google Business Profile set-up included. No hidden fees.</p>
+              <p className="text-xs text-gray-500 mb-6">Free audit included. GBP optimisation available as a £100 add-on. No hidden fees.</p>
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"

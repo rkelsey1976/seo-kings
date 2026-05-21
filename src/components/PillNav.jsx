@@ -26,21 +26,19 @@ const PillNav = () => {
       </a>
 
       {/* Full-width pill bar */}
-      <div className="flex items-center justify-between h-20 px-8 sm:px-12 lg:px-16
-        bg-[#0B1324]/80 backdrop-blur-xl
-        border-b border-white/[0.06]">
+      <div
+        className="flex items-center justify-between h-[68px] px-6 sm:px-12 lg:px-20 backdrop-blur-xl border-b border-white/[0.05]"
+        style={{ background: 'rgba(7,8,13,0.92)' }}
+      >
 
         {/* Logo */}
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="flex items-center gap-2.5"
           onClick={() => setIsOpen(false)}
         >
-          <img src="/crown-logo.svg" alt="SEO Kings" className="h-11 w-auto" />
-          <div className="flex flex-col leading-none">
-            <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
-            <span className="text-[9px] font-mono font-medium tracking-[0.1em] uppercase text-secondary">Website Designer &amp; Local SEO</span>
-          </div>
+          <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto opacity-90" />
+          <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
         </Link>
 
         {/* Desktop links */}
@@ -60,11 +58,11 @@ const PillNav = () => {
         <div className="flex items-center gap-2">
           <MagneticButton
             as={Link}
-            href="/contact"
+            href="/web-design-packages"
             strength={0.35}
-            className="hidden md:inline-flex items-center px-6 py-2.5 rounded-full text-sm font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors duration-200"
+            className="hidden md:inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-primary-dark transition-colors duration-200"
           >
-            Get Started
+            Get a Quote
           </MagneticButton>
 
           {/* Mobile toggle */}
@@ -86,9 +84,7 @@ const PillNav = () => {
 
       {/* Mobile dropdown — full viewport */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 top-20 z-40
-          bg-[#0B1324]
-          flex flex-col justify-center items-center">
+        <div className="md:hidden fixed inset-0 top-[68px] z-40 flex flex-col justify-center items-center" style={{ background: '#07080D' }}>
           <div className="flex flex-col items-center gap-2 w-full max-w-xs px-6">
             {navItems.map((item) => (
               <Link
@@ -102,11 +98,11 @@ const PillNav = () => {
             ))}
             <div className="mt-4 w-full">
               <Link
-                href="/contact"
-                className="flex items-center justify-center w-full px-6 py-3.5 rounded-xl text-base font-semibold text-dark bg-coral hover:bg-[#d65a3f] transition-colors"
+                href="/web-design-packages"
+                className="flex items-center justify-center w-full px-6 py-3.5 rounded-xl text-base font-semibold text-white bg-primary hover:bg-primary-dark transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Get Started
+                Get a Quote
               </Link>
             </div>
             <div className="mt-6 text-center">

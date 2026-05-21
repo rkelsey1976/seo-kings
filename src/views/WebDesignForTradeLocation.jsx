@@ -1,8 +1,9 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import PricingModal from '../components/PricingModal';
 import { TRADE_LOCATION_META } from '../constants/tradeLocationMeta';
 
 const pricing = [
@@ -27,6 +28,7 @@ const pricing = [
 ];
 
 const WebDesignForTradeLocation = ({ params: staticParams }) => {
+  const [modalOpen, setModalOpen] = useState(false);
   const tradeSlug = staticParams?.tradeSlug;
   const data = TRADE_LOCATION_META[tradeSlug];
 
@@ -164,9 +166,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
                     </li>
                   ))}
                 </ul>
-                <Link href="/contact" className={`block text-center px-6 py-3 rounded-lg font-semibold transition-colors ${index === 1 ? 'bg-primary hover:bg-primary-light text-white' : 'bg-white/5 hover:bg-white/10 text-white border border-white/10'}`}>
-                  Get Started
-                </Link>
+                <button onClick={() => setModalOpen(true)} className={`w-full text-center px-6 py-3 rounded-lg font-semibold transition-colors ${index === 1 ? 'bg-primary hover:bg-primary-light text-white' : 'bg-white/5 hover:bg-white/10 text-white border border-white/10'}`}>
+                  Get a Quote
+                </button>
               </div>
             ))}
           </div>
@@ -212,7 +214,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
         </div>
       </section>
 
-      <CTABanner />
+      <CTABanner onGetQuote={() => setModalOpen(true)} />
+
+      <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
 };

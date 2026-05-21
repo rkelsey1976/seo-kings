@@ -36,10 +36,10 @@ const Services = () => {
       href: '/google-business-profile',
       image: '/gbp-map-pack.webp',
       imageAlt: 'Google Business Profile optimisation — map pack results for Bath and North East Somerset businesses',
-      description: 'One-off optimisation £100. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our website and Local SEO packages.',
+      description: 'One-off optimisation £100. We don\'t sell ongoing GBP on its own — posts, reviews and reporting are included in our Local SEO packages from £150/month.',
       features: [
         'One-off optimisation £100',
-        'Included in website & Local SEO',
+        'Ongoing GBP in Local SEO packages',
         'Map pack visibility',
         'Categories, keywords, services',
       ],
