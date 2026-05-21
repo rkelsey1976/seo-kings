@@ -137,7 +137,7 @@ const BathHub = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-dark/75 via-dark/70 to-dark" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl">
             <span
               className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6"
               style={{ color: '#E8715A' }}
@@ -411,7 +411,7 @@ const BathHub = () => {
       {/* Local signals */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
               Local knowledge
             </p>
@@ -478,7 +478,7 @@ const BathHub = () => {
       {/* FAQ */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
               FAQs
             </p>
