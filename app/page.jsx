@@ -85,7 +85,9 @@ const bentoCells = [
     body: "Peachy Cleans — Map Pack \"cleaning Midsomer Norton\". New Decorating — Top 3 Map Pack \"exterior painter Bath\". Aurelian Massage — ranking for \"massage Bath\". Exact keywords. Exact positions.",
     href: '/case-studies',
     theme: 'dark',
-    imageBg: '/images/keynsham/keynsham-cta-background-code.webp',
+    imageBg: '/images/results/peachy-cleans-map-pack.png',
+    imageFocus: 'left center',
+    lightBg: true,
     accentColor: '#E8715A',
   },
   {

@@ -47,6 +47,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                     alt=""
                     fill
                     className="object-cover"
+                    style={{ objectPosition: cell.imageFocus || 'center' }}
                     sizes={cell.colSpan === 2 ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 25vw"}
                     loading={i === 0 ? 'eager' : 'lazy'}
                   />
@@ -59,7 +60,9 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 style={{
                   background: isFeatured
                     ? `linear-gradient(180deg, rgba(11,19,36,0.20) 0%, rgba(11,19,36,0.55) 35%, rgba(11,19,36,0.88) 65%, rgba(11,19,36,0.98) 100%)`
-                    : `linear-gradient(180deg, rgba(11,19,36,0.15) 0%, rgba(11,19,36,0.50) 40%, rgba(11,19,36,0.90) 75%, rgba(11,19,36,0.98) 100%)`,
+                    : cell.lightBg
+                      ? `linear-gradient(180deg, rgba(11,19,36,0.50) 0%, rgba(11,19,36,0.72) 40%, rgba(11,19,36,0.94) 75%, rgba(11,19,36,0.99) 100%)`
+                      : `linear-gradient(180deg, rgba(11,19,36,0.15) 0%, rgba(11,19,36,0.50) 40%, rgba(11,19,36,0.90) 75%, rgba(11,19,36,0.98) 100%)`,
                 }}
               />
 
