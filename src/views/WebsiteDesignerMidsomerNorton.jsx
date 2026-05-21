@@ -4,6 +4,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import SectionTag from '../components/SectionTag';
 
 const results = [
   {
@@ -130,12 +131,12 @@ const WebsiteDesignerMidsomerNorton = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
+            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
               Serving Midsomer Norton · BA3
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Website Designer{' '}
-              <span style={{ color: '#E8715A' }}>Midsomer Norton</span>
+              <span className="text-primary">Midsomer Norton</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
               We build fast, Google-ready websites for trades and local businesses in Midsomer Norton BA3. From £399 — with Google Business Profile set-up included. Live in under 2 weeks.
@@ -143,8 +144,7 @@ const WebsiteDesignerMidsomerNorton = () => {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#C25245' }}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -172,7 +172,7 @@ const WebsiteDesignerMidsomerNorton = () => {
                 { label: 'Peachy Cleans — Map Pack proof' },
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   {t.label}
@@ -184,14 +184,12 @@ const WebsiteDesignerMidsomerNorton = () => {
       </section>
 
       {/* What's included */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-                Every site includes
-              </p>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
+              <SectionTag className="mb-4">Every site includes</SectionTag>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
                 A website built to get you found in Midsomer Norton
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
@@ -200,7 +198,7 @@ const WebsiteDesignerMidsomerNorton = () => {
               <ul className="space-y-3">
                 {included.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                    <svg className="w-4 h-4 shrink-0 mt-0.5" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 shrink-0 mt-0.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -211,7 +209,7 @@ const WebsiteDesignerMidsomerNorton = () => {
 
             {/* Pricing card */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2" style={{ color: '#4A90A4' }}>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2 text-secondary">
                 Pricing
               </p>
               <div className="space-y-4 mb-8">
@@ -225,7 +223,7 @@ const WebsiteDesignerMidsomerNorton = () => {
                       <div className="text-white font-semibold text-sm">{pkg.name}</div>
                       <div className="text-gray-500 text-xs">{pkg.pages}</div>
                     </div>
-                    <div className="font-bold" style={{ color: '#E8715A' }}>{pkg.price}</div>
+                    <div className="font-bold text-primary">{pkg.price}</div>
                   </div>
                 ))}
               </div>
@@ -235,21 +233,19 @@ const WebsiteDesignerMidsomerNorton = () => {
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
                   <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
               <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £199/year. No hidden fees.</p>
               <Link
                 href="/contact"
-                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#C25245' }}
+                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
                 Get a Free Quote
               </Link>
               <Link
                 href="/web-design-packages"
-                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-sm mt-3 transition-colors duration-200"
-                style={{ color: '#E8715A' }}
+                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-sm mt-3 transition-colors duration-200 text-primary"
               >
                 View all packages →
               </Link>
@@ -259,12 +255,10 @@ const WebsiteDesignerMidsomerNorton = () => {
       </section>
 
       {/* Proof */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-8" style={{ color: '#E8715A' }}>
-            Verified results
-          </p>
-          <h2 className="text-3xl font-bold text-white mb-10">Real results for local businesses</h2>
+          <SectionTag className="mb-8">Verified results</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
           <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
             {results.map((r) => (
               <Link
@@ -272,11 +266,11 @@ const WebsiteDesignerMidsomerNorton = () => {
                 href={`/case-studies/${r.slug}`}
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
-                <div className="text-2xl font-bold mb-1" style={{ color: '#E8715A' }}>{r.result}</div>
+                <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
-                <div className="mt-4 flex items-center gap-1 text-xs font-medium" style={{ color: '#E8715A' }}>
+                <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -289,20 +283,18 @@ const WebsiteDesignerMidsomerNorton = () => {
       </section>
 
       {/* Local signals */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              Local to you
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-6">We know the Somer Valley</h2>
+            <SectionTag className="mb-4">Local to you</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Somer Valley</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               SEO Kings is based in Keynsham, just a short drive from Midsomer Norton. The Somer Valley market is genuinely different to Bath — less competition, lower barriers to ranking, and local customers who search specifically for trades in BA3 rather than driving into the city. We've already put a Midsomer Norton business into the Google Map Pack: Peachy Cleans now ranks for "cleaning Midsomer Norton" and gets regular enquiries directly from that listing.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               That local advantage is real. A well-built site and an optimised Google Business Profile in Midsomer Norton can rank faster and more consistently than the same work would in Bath. We serve businesses across Midsomer Norton, Radstock, Paulton, Peasedown St John and the wider BA3 postcode.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
@@ -314,13 +306,11 @@ const WebsiteDesignerMidsomerNorton = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              FAQs
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-10">Common questions</h2>
+            <SectionTag className="mb-4">FAQs</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

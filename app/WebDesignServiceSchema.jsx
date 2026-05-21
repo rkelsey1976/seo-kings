@@ -2,7 +2,7 @@ const siteUrl = 'https://seo-kings.co.uk';
 
 /**
  * WebDesignService JSON-LD for rich snippets: pricing (OfferCatalog).
- * Three package tiers matching /web-design-packages: Starter £399, Professional £1200, Full £1800.
+ * Three package tiers matching /web-design-packages: Starter £399, Professional £599, Full £999.
  * Review/AggregateRating omitted: Google does not show review rich results from first-party
  * (self-serving) markup; use Google Business Profile for stars in search/Maps.
  */
@@ -29,7 +29,7 @@ const webDesignPackageOffers = [
     itemOffered: {
       '@type': 'Service',
       name: 'Professional – multi-page website',
-      description: 'Up to 8 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
+      description: '3–5 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
     },
     name: 'Professional',
     availability: 'https://schema.org/InStock',
@@ -37,7 +37,7 @@ const webDesignPackageOffers = [
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 1200,
+      price: 599,
       valueAddedTaxIncluded: true,
     },
   },
@@ -46,7 +46,7 @@ const webDesignPackageOffers = [
     itemOffered: {
       '@type': 'Service',
       name: 'Full Package – complete website',
-      description: 'Up to 10 pages, full custom design, contact form, callback and booking, portfolio/gallery, social integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
+      description: '5+ pages, full custom design, contact form, callback and booking, portfolio/gallery, social integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
     },
     name: 'Full Package',
     availability: 'https://schema.org/InStock',
@@ -54,7 +54,7 @@ const webDesignPackageOffers = [
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 1800,
+      price: 999,
       valueAddedTaxIncluded: true,
     },
   },
@@ -65,7 +65,7 @@ const webDesignServiceSchema = {
   '@type': 'Service',
   '@id': `${siteUrl}/#service-website-design`,
   name: 'Website Design Bath & Somerset',
-  description: 'Professional Website Design and website designer services from a Bath and Somerset web agency. We build mobile-first sites for trades and small businesses: Starter from £399 (1-page + GBP 1 service/1 location), Professional £1,200 (up to 8 pages + GBP 3 services/4 locations), Full £1,800 (up to 10 pages + GBP 5 services/8 locations). Get found on Google.',
+  description: 'Professional Website Design and website designer services from a Bath and Somerset web agency. We build mobile-first sites for trades and small businesses: Starter from £399 (1-page + GBP 1 service/1 location), Professional £599 (3–5 pages + GBP 3 services/4 locations), Full £999 (5+ pages + GBP 5 services/8 locations). Get found on Google.',
   serviceType: 'Website Design',
   provider: { '@id': `${siteUrl}/#organization` },
   areaServed: [

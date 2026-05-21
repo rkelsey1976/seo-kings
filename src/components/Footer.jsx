@@ -15,7 +15,7 @@ const Footer = () => {
               <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto" />
               <div className="flex flex-col leading-none">
                 <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
-                <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#4A90A4' }}>Website Designer &amp; Local SEO</span>
+                <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase text-secondary">Website Designer &amp; Local SEO</span>
               </div>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row gap-10 sm:gap-16">
             {/* Services */}
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Services</p>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Services</p>
               <ul className="space-y-2.5">
                 {[
                   { label: 'Website Design', href: '/web-design' },
@@ -40,8 +40,7 @@ const Footer = () => {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="text-sm transition-colors hover:text-white"
-                      style={{ color: 'rgba(255,255,255,0.55)' }}
+                      className="text-sm transition-colors hover:text-white text-white/55"
                     >
                       {label}
                     </Link>
@@ -50,9 +49,9 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Contact</p>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Contact</p>
               <div className="space-y-3">
-                <address className="not-italic text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.55)' }}>
+                <address className="not-italic text-sm leading-relaxed text-white/55">
                   16a Culvers Road<br />
                   Keynsham, Somerset<br />
                   BS31 2DW
@@ -64,8 +63,7 @@ const Footer = () => {
                   href="https://wa.me/447702264921"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-80 transition-opacity"
-                  style={{ color: 'rgba(255,255,255,0.55)' }}
+                  className="block text-sm hover:opacity-80 transition-opacity text-white/55"
                 >
                   WhatsApp
                 </a>
@@ -73,7 +71,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Follow</p>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Follow</p>
               <div className="flex gap-4">
                 <a 
                   href="https://www.facebook.com/profile.php?id=61587531959737" 
@@ -115,10 +113,10 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs" style={{ color: 'rgba(255,255,255,0.55)' }}>
+          <p className="text-xs text-white/55">
             <span suppressHydrationWarning>© {currentYear} SEO Kings</span>
           </p>
-          <div className="flex items-center gap-6 text-xs" style={{ color: 'rgba(255,255,255,0.55)' }}>
+          <div className="flex items-center gap-6 text-xs text-white/55">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
           </div>

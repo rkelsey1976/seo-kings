@@ -39,7 +39,7 @@ const PillNav = () => {
           <img src="/crown-logo.svg" alt="SEO Kings" className="h-11 w-auto" />
           <div className="flex flex-col leading-none">
             <span className="text-lg font-bold text-white tracking-tight">SEO Kings</span>
-            <span className="text-[9px] font-mono font-medium tracking-[0.1em] uppercase" style={{ color: '#4A90A4' }}>Website Designer &amp; Local SEO</span>
+            <span className="text-[9px] font-mono font-medium tracking-[0.1em] uppercase text-secondary">Website Designer &amp; Local SEO</span>
           </div>
         </Link>
 

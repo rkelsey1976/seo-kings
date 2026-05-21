@@ -29,7 +29,7 @@ title="Privacy Policy"
       </section>
 
       {/* Content Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-dark-card border border-white/5 rounded-2xl p-8 sm:p-12">
             <div className="prose prose-invert prose-lg max-w-none">

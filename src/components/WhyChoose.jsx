@@ -17,7 +17,7 @@ const WhyChoose = () => {
       <SectionDivider />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
             Why Choose
             <span className="gradient-text"> SEO Kings</span>
           </h2>

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import SectionTag from '../components/SectionTag';
 
 const results = [
   {
@@ -129,12 +130,12 @@ const WebsiteDesignerKeynsham = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
+            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
               Based in Keynsham · BS31 2DW
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Website Designer{' '}
-              <span style={{ color: '#E8715A' }}>Keynsham</span>
+              <span className="text-primary">Keynsham</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
               We build fast, Google-ready websites for trades and local businesses in Keynsham BS31. From £399 — with Google Business Profile set-up included. Live in under 2 weeks.
@@ -142,8 +143,7 @@ const WebsiteDesignerKeynsham = () => {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#C25245' }}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -171,7 +171,7 @@ const WebsiteDesignerKeynsham = () => {
                 { label: 'Based in Keynsham' },
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   {t.label}
@@ -183,14 +183,12 @@ const WebsiteDesignerKeynsham = () => {
       </section>
 
       {/* What's included */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-                Every site includes
-              </p>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
+              <SectionTag className="mb-4">Every site includes</SectionTag>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
                 A website built to get you found in Keynsham
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
@@ -199,7 +197,7 @@ const WebsiteDesignerKeynsham = () => {
               <ul className="space-y-3">
                 {included.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                    <svg className="w-4 h-4 shrink-0 mt-0.5" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 shrink-0 mt-0.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -210,9 +208,7 @@ const WebsiteDesignerKeynsham = () => {
 
             {/* Pricing card */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2" style={{ color: '#E8715A' }}>
-                Pricing
-              </p>
+              <SectionTag className="mb-2">Pricing</SectionTag>
               <div className="space-y-4 mb-8">
                 {[
                   { name: 'Starter', pages: '1-page site', price: 'From £399' },
@@ -224,7 +220,7 @@ const WebsiteDesignerKeynsham = () => {
                       <div className="text-white font-semibold text-sm">{pkg.name}</div>
                       <div className="text-gray-500 text-xs">{pkg.pages}</div>
                     </div>
-                    <div className="text-white font-bold" style={{ color: '#E8715A' }}>{pkg.price}</div>
+                    <div className="text-white font-bold text-primary">{pkg.price}</div>
                   </div>
                 ))}
               </div>
@@ -234,21 +230,19 @@ const WebsiteDesignerKeynsham = () => {
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
                   <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
               <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £199/year. No hidden fees.</p>
               <Link
                 href="/contact"
-                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#C25245' }}
+                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
                 Get a Free Quote
               </Link>
               <Link
                 href="/web-design-packages"
-                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-sm mt-3 transition-colors duration-200"
-                style={{ color: '#E8715A' }}
+                className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-sm mt-3 transition-colors duration-200 text-primary"
               >
                 View all packages →
               </Link>
@@ -258,12 +252,10 @@ const WebsiteDesignerKeynsham = () => {
       </section>
 
       {/* Proof */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-8" style={{ color: '#E8715A' }}>
-            Verified results
-          </p>
-          <h2 className="text-3xl font-bold text-white mb-10">Real results for local businesses</h2>
+          <SectionTag className="mb-8">Verified results</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
           <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
             {results.map((r) => (
               <Link
@@ -271,11 +263,11 @@ const WebsiteDesignerKeynsham = () => {
                 href={`/case-studies/${r.slug}`}
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
-                <div className="text-2xl font-bold mb-1" style={{ color: '#E8715A' }}>{r.result}</div>
+                <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
-                <div className="mt-4 flex items-center gap-1 text-xs font-medium" style={{ color: '#E8715A' }}>
+                <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -288,20 +280,18 @@ const WebsiteDesignerKeynsham = () => {
       </section>
 
       {/* Local signals */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              Local to you
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-6">We're based in Keynsham</h2>
+            <SectionTag className="mb-4">Local to you</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We're based in Keynsham</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               SEO Kings is based at 16a Culvers Road, Keynsham BS31 2DW — so when we say we know the local market, we mean it. We serve businesses across Keynsham, Bath, Saltford, Bitton, Oldland, and the wider BS31 postcode.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               We can meet at our Keynsham office or visit your premises. Your website gets built around your actual business, not a generic template.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
@@ -313,22 +303,20 @@ const WebsiteDesignerKeynsham = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              FAQs
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-10">Common questions</h2>
+            <SectionTag className="mb-4">FAQs</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
       </section>
 
       {/* Related Keynsham services */}
-      <section className="py-16 border-t border-white/[0.06]">
+      <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>Also in Keynsham</p>
+          <SectionTag className="mb-6">Also in Keynsham</SectionTag>
           <div className="grid sm:grid-cols-2 gap-4">
             <Link href="/areas/keynsham" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>

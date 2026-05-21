@@ -4,7 +4,7 @@ import FAQAccordion from './FAQAccordion';
 export const homepageFAQs = [
   {
     question: 'How much does a website cost in Bath?',
-    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £1,200. No hidden fees.',
+    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £599. No hidden fees.',
   },
   {
     question: 'How long does it take to build a website?',
@@ -30,7 +30,7 @@ const HomepageFAQ = () => {
       <SectionDivider />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 id="homepage-faq-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 id="homepage-faq-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
             Common Questions
           </h2>
           <p className="text-lg text-gray-400">

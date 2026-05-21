@@ -160,11 +160,11 @@ const Hosting = () => {
       />
 
       {/* What you get */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>What is included</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3 mb-4">
+            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">What is included</span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3 mb-4 leading-tight tracking-tight">
               Everything your site needs to stay live and secure
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -174,7 +174,7 @@ const Hosting = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((f, i) => (
               <div key={i} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
-                <div className="mb-4" style={{ color: '#E8715A' }}>{f.icon}</div>
+                <div className="mb-4 text-primary">{f.icon}</div>
                 <h3 className="text-lg font-bold text-white mb-2">{f.title}</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">{f.description}</p>
               </div>
@@ -184,14 +184,14 @@ const Hosting = () => {
       </section>
 
       {/* Pricing */}
-      <section className="py-16 bg-dark-lighter border-y border-white/[0.06]">
+      <section className="py-20 bg-dark-lighter border-y border-white/[0.06]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Pricing</span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3 mb-6">
+          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Pricing</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3 mb-6 leading-tight tracking-tight">
             Simple, flat-rate hosting
           </h2>
           <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 mb-6">
-            <div className="text-5xl font-bold mb-2" style={{ color: '#E8715A' }}>£199<span className="text-xl font-medium text-gray-400">/year</span></div>
+            <div className="text-5xl font-bold mb-2 text-primary">£199<span className="text-xl font-medium text-gray-400">/year</span></div>
             <p className="text-gray-400 mb-6">6 months free with every website, then £199/year. No lock-in.</p>
             <ul className="space-y-3 text-left max-w-md mx-auto">
               {[
@@ -204,7 +204,7 @@ const Hosting = () => {
                 'Direct support — speak to your developer',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-gray-300">
-                  <svg className="w-4 h-4 shrink-0 mt-0.5" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 shrink-0 mt-0.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   {item}
@@ -219,12 +219,12 @@ const Hosting = () => {
       </section>
 
       {/* Why not go elsewhere */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Why our hosting</span>
-              <h2 className="text-3xl font-bold text-white mt-3 mb-6">
+              <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Why our hosting</span>
+              <h2 className="text-3xl font-bold text-white mt-3 mb-6 leading-tight tracking-tight">
                 Not just hosting — peace of mind
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
@@ -268,10 +268,10 @@ const Hosting = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-dark-lighter border-y border-white/[0.06]">
+      <section className="py-24 bg-dark-lighter border-y border-white/[0.06]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Hosting FAQs</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">Hosting FAQs</h2>
             <p className="text-lg text-gray-400">Everything you need to know about website hosting with SEO Kings.</p>
           </div>
           <FAQAccordion faqs={faqs} />

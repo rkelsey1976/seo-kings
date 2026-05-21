@@ -297,7 +297,7 @@ const Blog = () => {
       </section>
 
       {/* Posts */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
             {filteredPosts.map((post) => (

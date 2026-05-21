@@ -196,7 +196,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-12">
             {/* Contact Info */}
@@ -396,7 +396,7 @@ const Contact = () => {
       </section>
 
       {/* Google Maps embed */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-2 text-center">Find us on Google Maps</h2>
           <p className="text-gray-400 mb-6 text-center">
@@ -426,7 +426,7 @@ const Contact = () => {
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-gray-400">

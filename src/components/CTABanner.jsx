@@ -4,7 +4,7 @@ import MagneticButton from './library/MagneticButton';
 
 const CTABanner = () => {
   return (
-    <section className="py-16 lg:py-20 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-dark to-secondary/20" />
       
@@ -15,7 +15,7 @@ const CTABanner = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
           Stop Losing Jobs to Your Competitors
         </h2>
 

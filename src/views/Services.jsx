@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import SectionTag from '../components/SectionTag';
 
 const services = [
   {
@@ -158,7 +159,7 @@ const Services = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-dark/75 via-dark/70 to-dark" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
+            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
               Services
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
@@ -172,7 +173,7 @@ const Services = () => {
       </section>
 
       {/* Services */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
             {services.map((service) => (
@@ -229,11 +230,9 @@ const Services = () => {
       </section>
 
       {/* Proof strip */}
-      <section className="py-16 border-t border-white/[0.06]">
+      <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-8" style={{ color: '#E8715A' }}>
-            Verified Results
-          </p>
+          <SectionTag className="mb-8">Verified Results</SectionTag>
           <div className="grid sm:grid-cols-3 gap-4">
             {results.map((r) => (
               <Link

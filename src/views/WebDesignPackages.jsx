@@ -28,11 +28,11 @@ const packages = [
   },
   {
     name: 'Professional',
-    price: '1,200',
+    price: '599',
     period: 'one-off',
     tagline: 'For growing businesses',
     features: [
-      'Up to 8 pages',
+      '3–5 pages',
       'Full custom design',
       'Contact form + callback request',
       'Portfolio or gallery',
@@ -49,11 +49,11 @@ const packages = [
   },
   {
     name: 'Full Package',
-    price: '1,800',
+    price: '999',
     period: 'one-off',
     tagline: 'Everything you need',
     features: [
-      'Up to 10 pages',
+      '5+ pages',
       'Full custom design',
       'Contact form + callback + booking',
       'Portfolio/gallery',
@@ -124,7 +124,7 @@ const WebDesignPackages = () => {
       </section>
 
       {/* Pricing Cards */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             {packages.map((pkg, index) => (
@@ -190,7 +190,7 @@ const WebDesignPackages = () => {
                 },
                 {
                   question: 'How do the packages compare?',
-                  answer: 'Starter (£399): one-page site + GBP optimisation for 1 service, 1 location. Professional (£1,200): up to 8 pages + GBP for 3 services, 4 locations. Full Package (£1,800): up to 10 pages + GBP for 5 services, 8 locations. All include hosting, SSL, and support — we can add more services or locations as add-ons.',
+                  answer: 'Starter (£399): one-page site + GBP optimisation for 1 service, 1 location. Professional (£599): 3–5 pages + GBP for 3 services, 4 locations. Full Package (£999): 5+ pages + GBP for 5 services, 8 locations. All include hosting, SSL, and support — we can add more services or locations as add-ons.',
                 },
               ]}
             />
@@ -205,7 +205,7 @@ const WebDesignPackages = () => {
             <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
               Our process
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               From idea to launch in 4 steps
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -231,7 +231,7 @@ const WebDesignPackages = () => {
       {/* What's included */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
             What&apos;s included
           </h2>
           <p className="text-gray-400 mb-12">
@@ -265,7 +265,7 @@ const WebDesignPackages = () => {
       {/* Get started / Contact CTA */}
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
             Get started
           </h2>
           <p className="text-lg text-gray-400 mb-8">

@@ -51,7 +51,7 @@ export default function DesignProcess() {
       <SectionDivider />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 id="design-process-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 id="design-process-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
             Our Design
             <span className="gradient-text"> Process</span>
           </h2>

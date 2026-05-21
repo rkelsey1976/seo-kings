@@ -4,6 +4,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import SectionTag from '../components/SectionTag';
 
 const results = [
   {
@@ -107,7 +108,7 @@ const schema = {
 };
 
 const CheckIcon = () => (
-  <svg className="w-4 h-4 shrink-0 mt-0.5" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className="w-4 h-4 shrink-0 mt-0.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
   </svg>
 );
@@ -139,14 +140,13 @@ const MidsomerNortonHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <span
-              className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6"
-              style={{ color: '#E8715A' }}
+              className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary"
             >
               Midsomer Norton · BA3
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Web Design &amp; SEO in{' '}
-              <span style={{ color: '#E8715A' }}>Midsomer Norton</span>
+              <span className="text-primary">Midsomer Norton</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-4">
               One team. Three services. All focused on getting your Midsomer Norton business found on Google.
@@ -157,8 +157,7 @@ const MidsomerNortonHub = () => {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                style={{ backgroundColor: '#C25245' }}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
               >
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +185,7 @@ const MidsomerNortonHub = () => {
                 { label: '6 months free hosting' },
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   {t.label}
@@ -198,13 +197,11 @@ const MidsomerNortonHub = () => {
       </section>
 
       {/* Services */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              Our services in Midsomer Norton
-            </p>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
+            <SectionTag className="mb-4">Our services in Midsomer Norton</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Everything you need to get found in Midsomer Norton
             </h2>
             <p className="text-gray-400 leading-relaxed max-w-2xl">
@@ -216,11 +213,9 @@ const MidsomerNortonHub = () => {
 
             {/* Card 1 — Website Design */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-3" style={{ color: '#E8715A' }}>
-                Website Design
-              </p>
+              <SectionTag className="mb-3">Website Design</SectionTag>
               <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
-              <p className="text-xl font-bold mb-3" style={{ color: '#E8715A' }}>From £399</p>
+              <p className="text-xl font-bold mb-3 text-primary">From £399</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Fast, mobile-first websites for Midsomer Norton trades and local businesses — built for local search from day one, not as an afterthought.
               </p>
@@ -243,8 +238,7 @@ const MidsomerNortonHub = () => {
               <div className="mt-auto">
                 <Link
                   href="/website-designer-midsomer-norton"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                  style={{ backgroundColor: '#C25245' }}
+                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
                 >
                   Website Design in Midsomer Norton →
                 </Link>
@@ -253,11 +247,9 @@ const MidsomerNortonHub = () => {
 
             {/* Card 2 — Local SEO */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-3" style={{ color: '#E8715A' }}>
-                Local SEO
-              </p>
+              <SectionTag className="mb-3">Local SEO</SectionTag>
               <h3 className="text-2xl font-bold text-white mb-2">Get into the map pack</h3>
-              <p className="text-xl font-bold mb-3" style={{ color: '#E8715A' }}>From £150/month</p>
+              <p className="text-xl font-bold mb-3 text-primary">From £150/month</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 The Somer Valley has less competition than Bath or Bristol. The businesses in the map pack take most of the calls — and getting there is more achievable here. We get you in and keep you there.
               </p>
@@ -280,8 +272,7 @@ const MidsomerNortonHub = () => {
               <div className="mt-auto">
                 <Link
                   href="/local-seo/midsomer-norton"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
-                  style={{ backgroundColor: '#C25245' }}
+                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
                 >
                   Local SEO in Midsomer Norton →
                 </Link>
@@ -290,11 +281,9 @@ const MidsomerNortonHub = () => {
 
             {/* Card 3 — Google Business Profile */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-3" style={{ color: '#E8715A' }}>
-                Google Business Profile
-              </p>
+              <SectionTag className="mb-3">Google Business Profile</SectionTag>
               <h3 className="text-2xl font-bold text-white mb-2">Put yourself on the map</h3>
-              <p className="text-xl font-bold mb-3" style={{ color: '#E8715A' }}>Included with every package</p>
+              <p className="text-xl font-bold mb-3 text-primary">Included with every package</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Your GBP is what puts you on Google Maps and in the local pack. The biggest single factor in local search. We set it up properly and keep it active.
               </p>
@@ -317,8 +306,7 @@ const MidsomerNortonHub = () => {
               <div className="mt-auto">
                 <Link
                   href="/google-business-profile"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold border transition-colors duration-200"
-                  style={{ color: '#E8715A', borderColor: '#E8715A' }}
+                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold border transition-colors duration-200 text-primary border-primary"
                 >
                   Google Business Profile →
                 </Link>
@@ -333,7 +321,7 @@ const MidsomerNortonHub = () => {
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
                   <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-4">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
@@ -342,12 +330,10 @@ const MidsomerNortonHub = () => {
       </section>
 
       {/* Results */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-8" style={{ color: '#E8715A' }}>
-            Verified results
-          </p>
-          <h2 className="text-3xl font-bold text-white mb-10">Real results for local businesses</h2>
+          <SectionTag className="mb-8">Verified results</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
           <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
             {results.map((r) => (
               <Link
@@ -355,11 +341,11 @@ const MidsomerNortonHub = () => {
                 href={`/case-studies/${r.slug}`}
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
-                <div className="text-2xl font-bold mb-1" style={{ color: '#E8715A' }}>{r.result}</div>
+                <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
-                <div className="mt-4 flex items-center gap-1 text-xs font-medium" style={{ color: '#E8715A' }}>
+                <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -372,15 +358,13 @@ const MidsomerNortonHub = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-8" style={{ color: '#E8715A' }}>
-            What clients say
-          </p>
-          <h2 className="text-3xl font-bold text-white mb-10">Somer Valley businesses we&apos;ve helped</h2>
+          <SectionTag className="mb-8">What clients say</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Somer Valley businesses we&apos;ve helped</h2>
           <div className="grid sm:grid-cols-2 gap-6 max-w-4xl">
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <svg className="w-6 h-6 mb-4 opacity-40" style={{ color: '#E8715A' }} fill="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <blockquote className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -393,7 +377,7 @@ const MidsomerNortonHub = () => {
             </div>
 
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <svg className="w-6 h-6 mb-4 opacity-40" style={{ color: '#E8715A' }} fill="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <blockquote className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -409,20 +393,18 @@ const MidsomerNortonHub = () => {
       </section>
 
       {/* Local signals */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              Local knowledge
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-6">We know the Somer Valley</h2>
+            <SectionTag className="mb-4">Local knowledge</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Somer Valley</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               SEO Kings is based in Keynsham — close to Midsomer Norton and the whole BA3 area. We&apos;ve already delivered map pack rankings for a business in Midsomer Norton itself, and we bring that same approach to every client in the Somer Valley. We know which searches drive enquiries in BA3, which trade categories are most competitive, and what separates the businesses that rank from those that don&apos;t.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               We cover the whole of the Somer Valley — Midsomer Norton, Radstock, Paulton, Peasedown St John, Westfield, Writhlington, Chilcompton and the wider BA3 postcode. Many clients also want to rank in Bath — we can target multiple locations from one plan.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
@@ -434,13 +416,11 @@ const MidsomerNortonHub = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
-              FAQs
-            </p>
-            <h2 className="text-3xl font-bold text-white mb-10">Common questions about our Midsomer Norton services</h2>
+            <SectionTag className="mb-4">FAQs</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Midsomer Norton services</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

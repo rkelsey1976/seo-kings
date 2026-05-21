@@ -122,14 +122,14 @@ export default function HomePage() {
       </section>
 
       {/* What You Get — Bento Grid */}
-      <section id="services" className="py-16 lg:py-20 relative">
+      <section id="services" className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-10">
-            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Services</span>
+            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Services</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
               What You Get
             </h2>
-            <p className="text-lg max-w-2xl mt-4" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <p className="text-lg max-w-2xl mt-4 text-white/55">
               One core service — website design for local trades — with add-ons that actually make sense.
             </p>
           </div>
@@ -138,14 +138,14 @@ export default function HomePage() {
       </section>
 
       {/* How It Works — StepsScroll */}
-      <section className="py-16 lg:py-20 relative" style={{ background: "#0B1324" }}>
+      <section className="py-24 relative" style={{ background: "#0B1324" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="mb-10">
-            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Process</span>
+            <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Process</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
               How It Works
             </h2>
-            <p className="text-lg max-w-2xl mt-4" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <p className="text-lg max-w-2xl mt-4 text-white/55">
               Three steps. Get started in minutes.
             </p>
           </div>

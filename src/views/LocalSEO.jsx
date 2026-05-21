@@ -162,13 +162,13 @@ const LocalSEO = () => {
       </section>
 
       {/* Pricing by services & locations */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
               Simple pricing
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               What You Pay — By Services & Locations
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -241,7 +241,7 @@ const LocalSEO = () => {
       </section>
 
       {/* Who we help – trade pages */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl font-bold text-white mb-2">
@@ -332,10 +332,10 @@ const LocalSEO = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Local SEO FAQs
             </h2>
             <p className="text-lg text-gray-400">

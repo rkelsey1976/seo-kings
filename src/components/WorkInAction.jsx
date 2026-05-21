@@ -23,7 +23,7 @@ export default function WorkInAction() {
       <SectionDivider fill="dark-lighter" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 id="work-in-action-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 id="work-in-action-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight tracking-tight">
             How We
             <span className="gradient-text"> Work</span>
           </h2>

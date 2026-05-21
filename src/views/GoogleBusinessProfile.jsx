@@ -82,7 +82,7 @@ const GoogleBusinessProfile = () => {
       />
 
       {/* One-off £150 — what's included */}
-      <section className="py-16 bg-dark-lighter border-y border-white/5">
+      <section className="py-20 bg-dark-lighter border-y border-white/5">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
             One-Off GBP Optimisation — £150
@@ -107,7 +107,7 @@ const GoogleBusinessProfile = () => {
       </section>
 
       {/* Ongoing GBP is included in SEO & website */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
             No need to buy GBP on its own
@@ -140,7 +140,7 @@ const GoogleBusinessProfile = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">

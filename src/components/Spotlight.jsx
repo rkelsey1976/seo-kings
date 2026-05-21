@@ -169,7 +169,7 @@ const Spotlight = ({ variant = 'summary' }) => {
           <span className="inline-block px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary text-sm font-medium mb-6">
             Client Spotlight
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight leading-tight">
             Peachy Cleans – <span className="gradient-text">Number 1 on Google</span> &amp; Top of Maps in Midsomer Norton
           </h2>
           <p className="text-lg text-gray-400 leading-relaxed">

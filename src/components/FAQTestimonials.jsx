@@ -6,7 +6,7 @@ import FAQAccordion from './FAQAccordion';
 export const homepageFAQs = [
   {
     question: 'How much does a website cost in Bath?',
-    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £1,200. No hidden fees.',
+    answer: '£399 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites start at £599. No hidden fees.',
   },
   {
     question: 'How long does it take to build a website?',
@@ -64,16 +64,16 @@ const StarRating = ({ rating }) => (
 
 const FAQTestimonials = () => {
   return (
-    <section className="py-16 lg:py-20 relative">
+    <section className="py-24 relative">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-16">
 
         {/* Row 1: FAQs — centered, full width */}
         <div className="max-w-3xl mx-auto mb-16 text-center">
-          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>FAQ</span>
+          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">FAQ</span>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 mb-2">
             Common Questions
           </h2>
-          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.55)' }}>
+          <p className="text-base mb-8 text-white/55">
             Real answers from real work in Bath & BANES.
           </p>
           <FAQAccordion faqs={homepageFAQs} />
@@ -84,11 +84,11 @@ const FAQTestimonials = () => {
 
         {/* Row 2: Testimonials — 2-column grid */}
         <div>
-          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#E8715A' }}>Proof</span>
+          <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Proof</span>
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 mb-2">
             What Clients Say
           </h2>
-          <p className="text-base mb-8" style={{ color: 'rgba(255,255,255,0.55)' }}>
+          <p className="text-base mb-8 text-white/55">
             Straight from tradespeople we've worked with.
           </p>
 
@@ -100,8 +100,7 @@ const FAQTestimonials = () => {
               >
                 {t.result && (
                   <div
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium mb-4"
-                    style={{ backgroundColor: 'rgba(232,113,90,0.12)', color: '#E8715A', border: '1px solid rgba(232,113,90,0.2)' }}
+                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium mb-4 bg-primary/[0.12] text-primary border border-primary/20"
                   >
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />

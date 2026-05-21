@@ -142,7 +142,7 @@ const About = () => {
               <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-6">
                 Our Story
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
                 Website Design First — SEO So You Get Found
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
@@ -212,7 +212,7 @@ const About = () => {
             <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-4">
               Our Values
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               What We Stand For
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -246,7 +246,7 @@ const About = () => {
               <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
                 Why Choose Us
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 leading-tight tracking-tight">
                 Why Choose Us for Your Website
               </h2>
               
@@ -309,7 +309,7 @@ const About = () => {
             <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
               Local Focus
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Proudly Serving Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">

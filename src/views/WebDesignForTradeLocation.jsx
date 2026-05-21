@@ -56,7 +56,7 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
           <div className="flex flex-wrap gap-3 mb-6">
             {['From £399', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
               <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
-                <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                 {t}
               </div>
             ))}
@@ -80,9 +80,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
       </section>
 
       {/* Why Bath is different for this trade */}
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Why {data.tradeName.toLowerCase()} in Bath need a local website</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">Why {data.tradeName.toLowerCase()} in Bath need a local website</h2>
           <p className="text-gray-400 mb-8">
             Bath is not like anywhere else in Somerset. The housing stock, the planning rules, the customer expectations — they're all shaped by 2,000 years of history. Your website needs to reflect that.
           </p>
@@ -100,9 +100,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
       </section>
 
       {/* Bath areas served */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">Bath areas we build websites for</h2>
+          <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">Bath areas we build websites for</h2>
           <p className="text-gray-400 mb-8">
             Your website should list the specific Bath neighbourhoods you work in. Customers search "{data.tradeName.toLowerCase().replace('&', '').trim()} Widcombe" or "{data.tradeName.toLowerCase().replace('&', '').trim()} Lansdown" — not just "Bath". We build pages for each area.
           </p>
@@ -117,9 +117,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
       </section>
 
       {/* What we build for Bath trades */}
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">What we build for {data.tradeName.toLowerCase()} in Bath</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">What we build for {data.tradeName.toLowerCase()} in Bath</h2>
           <p className="text-gray-400 mb-8">
             Every Bath trade website we build includes the essentials plus Bath-specific content that your customers are searching for.
           </p>
@@ -142,9 +142,9 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
       </section>
 
       {/* Pricing */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 text-center">Website packages for Bath {data.tradeName.toLowerCase()}</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 text-center leading-tight tracking-tight">Website packages for Bath {data.tradeName.toLowerCase()}</h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
             Every package includes a Bath-specific landing page, mobile-first design, and local SEO setup. No hidden costs.
           </p>
@@ -176,7 +176,7 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
                   <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
           <p className="text-gray-500 text-sm text-center mt-4">
@@ -184,10 +184,10 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
           </p>
         </div>
       </section>
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Web design for {data.tradeName.toLowerCase()} in Bath — FAQs</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">Web design for {data.tradeName.toLowerCase()} in Bath — FAQs</h2>
             <p className="text-gray-400">Common questions from Bath {data.tradeName.toLowerCase()} about websites and local SEO.</p>
           </div>
           <FAQAccordion faqs={data.faqs} />
@@ -195,7 +195,7 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
       </section>
 
       {/* Related */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-6">Related services</h2>
           <div className="flex flex-wrap gap-3">

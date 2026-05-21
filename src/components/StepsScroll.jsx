@@ -79,7 +79,7 @@ const StepsScroll = ({ steps, accentColor = '#C4732C', className = '' }) => {
                 priority={i === 0}
                 draggable={false}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D3A]/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0B1324]/40 to-transparent" />
               {/* Step counter watermark */}
               <div className="absolute bottom-8 left-8">
                 <span

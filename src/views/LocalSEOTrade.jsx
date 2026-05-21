@@ -450,9 +450,9 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       </section>
 
       {/* What we do for [trade] */}
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-6">What we do for {trade.name}</h2>
+          <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">What we do for {trade.name}</h2>
           <ul className="space-y-4">
             {trade.whatWeDo.map((item, index) => (
               <li key={index} className="flex items-start gap-3 text-gray-300">
@@ -467,9 +467,9 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       </section>
 
       {/* Areas we serve */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">Areas we serve</h2>
+          <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">Areas we serve</h2>
           <p className="text-gray-400 mb-6">
             We help {trade.name.toLowerCase()} in Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and across Bath and North East Somerset.
           </p>
@@ -481,9 +481,9 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       </section>
 
       {/* Case study CTA */}
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">Real results for {trade.name.toLowerCase()}</h2>
+          <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">Real results for {trade.name.toLowerCase()}</h2>
           <p className="text-gray-400 mb-6">
             {trade.caseStudy.snippet}
           </p>
@@ -495,10 +495,10 @@ const LocalSEOTrade = ({ params: staticParams }) => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">SEO for {trade.name} – FAQs</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">SEO for {trade.name} – FAQs</h2>
             <p className="text-gray-400">Common questions about local SEO for {trade.name.toLowerCase()} in Bath & North East Somerset.</p>
           </div>
           <FAQAccordion faqs={trade.faqs} />

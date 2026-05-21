@@ -111,7 +111,7 @@ const WhyWeAreDifferent = () => {
             <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
               How We Work
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               What Makes Us Different
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -143,7 +143,7 @@ const WhyWeAreDifferent = () => {
             <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-4">
               What We Don&apos;t Do
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
               Things You Won&apos;t Get From Us
             </h2>
             <p className="text-gray-400 mb-8">
@@ -173,7 +173,7 @@ const WhyWeAreDifferent = () => {
               <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
                 Proof
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
                 Real Results for Local Businesses
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">

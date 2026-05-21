@@ -25,7 +25,7 @@ const MarqueeText = ({
         {allItems.map((item, i) => (
           <span key={i} className={`flex items-center gap-4 px-4 ${size} font-medium tracking-widest uppercase text-gray-300`}>
             {item}
-            <span style={{ color: '#E8715A' }}>{separator}</span>
+            <span className="text-primary">{separator}</span>
           </span>
         ))}
       </div>

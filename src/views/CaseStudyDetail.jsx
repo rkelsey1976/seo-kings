@@ -372,7 +372,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Overview */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-6">Overview</h2>
           <p className="text-lg text-gray-400 leading-relaxed">{caseStudy.overview}</p>
@@ -380,7 +380,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Challenge & Solution */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Challenge */}
@@ -431,7 +431,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Detailed Results */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">The Results</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -447,7 +447,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Timeline */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">Project Timeline</h2>
           <div className="space-y-6">
@@ -471,7 +471,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Testimonial */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-dark-card border border-white/10 rounded-2xl p-8 md:p-12 relative">
             <div className="absolute -top-4 left-8">
@@ -498,7 +498,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Services Used */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-6">Services Used</h2>
           <div className="flex flex-wrap justify-center gap-3">
@@ -516,7 +516,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
 
       {/* Full spotlight CTA when no related case studies */}
       {relatedCases.length === 0 && (
-        <section className="py-16">
+        <section className="py-20">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">See the full story</h2>
             <p className="text-gray-400 mb-6">

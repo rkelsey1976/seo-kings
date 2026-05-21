@@ -1381,26 +1381,29 @@ const BlogPost = ({ params: staticParams }) => {
       />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-blob" />
-        <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm transition-colors mb-8 text-white/40"
+            onMouseEnter={e => e.currentTarget.style.color = '#F8FAFC'}
+            onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.40)'}
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
             Back to Blog
           </Link>
-          <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
+          <span
+            className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-md text-[11px] font-mono font-medium tracking-[0.14em] uppercase mb-6 text-primary"
+          >
             Blog
           </span>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
             {post.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-white/40">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
             </time>
@@ -1408,7 +1411,7 @@ const BlogPost = ({ params: staticParams }) => {
             {post.author && <span>· {post.author}</span>}
           </div>
           {post.featureImage && (
-            <figure className="mt-8 rounded-xl overflow-hidden border border-white/10">
+            <figure className="mt-10 rounded-2xl overflow-hidden border border-white/[0.06]">
               <Image
                 src={post.featureImage.src}
                 alt={post.featureImage.alt}
@@ -1424,16 +1427,16 @@ const BlogPost = ({ params: staticParams }) => {
       {/* Article content */}
       <article className="py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-invert prose-lg max-w-none">
+          <div className="space-y-12">
             {post.sections.map((section, index) => (
-              <section key={index} className="mb-12">
-                <h2 className="text-2xl font-bold text-white mb-4">
+              <section key={index}>
+                <h2 className="text-2xl font-semibold text-white mb-4 tracking-tight">
                   {section.heading}
                 </h2>
                 <div className="space-y-4">
                   {section.paragraphs.map((paragraph, pIndex) => (
-                    <p key={pIndex} className="text-gray-400 leading-relaxed">
-                      {Array.isArray(paragraph) ? paragraph : paragraph}
+                    <p key={pIndex} className="text-base leading-relaxed text-white/55">
+                      {paragraph}
                     </p>
                   ))}
                 </div>
@@ -1442,24 +1445,23 @@ const BlogPost = ({ params: staticParams }) => {
           </div>
 
           {/* CTA */}
-          <div className="mt-16 p-6 sm:p-8 bg-dark-card border border-white/10 rounded-2xl text-center">
-            <h3 className="text-xl font-bold text-white mb-2">
+          <div className="mt-16 p-8 bg-dark-card border border-white/[0.06] rounded-2xl text-center">
+            <h3 className="text-xl font-semibold text-white mb-2 tracking-tight">
               {post.ctaLinks ? 'See the full story or get your own' : 'Ready to improve your local visibility?'}
             </h3>
-            <p className="text-gray-400 mb-6">
+            <p className="text-sm leading-relaxed mb-6 text-white/55">
               {post.ctaLinks
                 ? 'View the full Client Spotlight, our web design packages, or get a free check of your website and Google listing.'
                 : 'We offer a free local SEO audit and build websites that rank. Get in touch for a no-obligation chat.'}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center flex-wrap">
               {post.ctaLinks ? (
                 post.ctaLinks.map((link, i) => (
                   <Link
                     key={i}
                     href={link.href}
-                    className={i === 0
-                      ? 'bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center'
-                      : 'border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center'}
+                    className={i === 0 ? 'inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white text-sm transition-opacity hover:opacity-90 bg-primary-dark bg-primary-dark' : 'inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white text-sm border border-white/[0.10] hover:border-white/20 hover:bg-white/5 transition-colors'}
+                    
                   >
                     {link.label}
                   </Link>
@@ -1468,13 +1470,13 @@ const BlogPost = ({ params: staticParams }) => {
                 <>
                   <Link
                     href="/contact"
-                    className="bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity text-center"
+                    className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white text-sm transition-opacity hover:opacity-90 bg-primary-dark"
                   >
                     Get a free audit
                   </Link>
                   <Link
                     href="/local-seo"
-                    className="border border-white/20 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/5 transition-colors text-center"
+                    className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white text-sm border border-white/[0.10] hover:border-white/20 hover:bg-white/5 transition-colors"
                   >
                     View our local SEO services
                   </Link>

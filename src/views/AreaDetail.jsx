@@ -3745,10 +3745,10 @@ const AreaDetail = ({ params: staticParams }) => {
 
 
       {/* Why SEO in [Area] Section */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
               {area.whyHeading || (area.whyIntro ? `Why ${area.name} Businesses Need Local SEO` : `Why Your ${area.name} Business Needs SEO`)}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
@@ -3785,9 +3785,9 @@ const AreaDetail = ({ params: staticParams }) => {
       </section>
 
       {/* E-E-A-T: Local client testimonials (placeholder per area for trust signals) */}
-      <section className="py-16 bg-dark-lighter" aria-labelledby="local-testimonials-heading">
+      <section className="py-20 bg-dark-lighter" aria-labelledby="local-testimonials-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 id="local-testimonials-heading" className="text-3xl font-bold text-white mb-2 text-center">
+          <h2 id="local-testimonials-heading" className="text-3xl font-bold text-white mb-2 text-center leading-tight tracking-tight">
             What {area.name} clients say
           </h2>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mb-10">
@@ -3826,11 +3826,11 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* Optional: Why SEO Kings for [Area] + Recent projects (E-E-A-T) */}
       {area.extraContentSection && (
-        <section className="py-16" aria-labelledby="extra-content-heading">
+        <section className="py-20" aria-labelledby="extra-content-heading">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className={area.extraContentSection.image ? 'grid lg:grid-cols-2 gap-10 lg:gap-12 items-start mb-10' : 'max-w-3xl mb-10'}>
               <div>
-                <h2 id="extra-content-heading" className="text-3xl font-bold text-white mb-2">
+                <h2 id="extra-content-heading" className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">
                   {area.extraContentSection.heading}
                 </h2>
                 {area.extraContentSection.subheading && (
@@ -3885,10 +3885,10 @@ const AreaDetail = ({ params: staticParams }) => {
       )}
 
       {/* Services Section */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
               {area.servicesHeading || `Website design in ${area.name} — with SEO add-ons`}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
@@ -3943,7 +3943,7 @@ const AreaDetail = ({ params: staticParams }) => {
       </section>
 
       {/* Website design in [Area] – SEO for website design + location */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.websiteDesignSectionImage ? 'grid lg:grid-cols-2 gap-12 items-center' : 'max-w-4xl'}`}>
           {area.websiteDesignSectionImage && (
             <div className="order-2 lg:order-1">
@@ -3951,7 +3951,7 @@ const AreaDetail = ({ params: staticParams }) => {
             </div>
           )}
           <div className={area.websiteDesignSectionImage ? 'order-1 lg:order-2' : ''}>
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
             Website designer & website design in {area.name}
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">
@@ -3988,7 +3988,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* Optional: Website design costs (e.g. Keynsham) */}
       {area.costSection && (
-        <section className="py-16">
+        <section className="py-20">
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.costSectionImage ? 'grid lg:grid-cols-2 gap-12 items-start' : 'max-w-4xl'}`}>
             {area.costSectionImage && (
               <div>
@@ -3996,7 +3996,7 @@ const AreaDetail = ({ params: staticParams }) => {
               </div>
             )}
             <div>
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
               {area.costSection.heading}
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
@@ -4017,10 +4017,10 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* Optional: What to look for in a web designer (e.g. Keynsham) */}
       {area.whatToLookForSection && (
-        <section className="py-16 bg-dark-lighter">
+        <section className="py-20 bg-dark-lighter">
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.whatToLookForSectionImage ? 'grid lg:grid-cols-2 gap-10 items-start' : 'max-w-4xl'}`}>
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">
+              <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">
                 {area.whatToLookForSection.heading}
               </h2>
               <ul className="space-y-4">
@@ -4042,11 +4042,11 @@ const AreaDetail = ({ params: staticParams }) => {
       )}
 
       {/* What We Target Section */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
                 How we get {area.name} businesses found on Google
               </h2>
               <p className="text-gray-400 mb-4 leading-relaxed">
@@ -4093,10 +4093,10 @@ const AreaDetail = ({ params: staticParams }) => {
       </section>
 
       {/* FAQ Section — FAQPage schema for People Also Ask rich results */}
-      <section id="faq" className="py-16" aria-labelledby="faq-heading">
+      <section id="faq" className="py-20" aria-labelledby="faq-heading">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 id="faq-heading" className="text-3xl font-bold text-white mb-4">
+            <h2 id="faq-heading" className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
               Frequently Asked Questions About Website Design & SEO in {area.name}
             </h2>
             <p className="text-gray-400">
@@ -4110,10 +4110,10 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* How It Works (optional) */}
       {area.howItWorks && area.howItWorks.length > 0 && (
-        <section className="py-16 bg-dark-lighter">
+        <section className="py-20 bg-dark-lighter">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
                 How It Works in {area.name}
               </h2>
               <p className="text-gray-400 max-w-2xl mx-auto">
@@ -4137,7 +4137,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
       {/* Sub-areas / Neighbourhoods (when parent area has subAreaSlugs) */}
       {area.subAreaSlugs && area.subAreaSlugs.length > 0 && (
-        <section className="py-16 bg-dark-lighter">
+        <section className="py-20 bg-dark-lighter">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-white mb-8 text-center">
               {area.subAreasHeading || 'Neighbourhoods we cover'}
@@ -4161,7 +4161,7 @@ const AreaDetail = ({ params: staticParams }) => {
       )}
 
       {/* Nearby Areas */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">
             {area.nearbyHeading || 'We Also Serve Nearby Areas'}

@@ -209,10 +209,10 @@ const Areas = () => {
       </section>
 
       {/* Areas Grid */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
               Website Design & Local SEO in Every Area
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
@@ -270,9 +270,9 @@ const Areas = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4 leading-tight tracking-tight">
             Ready for a Website That Ranks?
           </h2>
           <p className="text-gray-400 mb-8">

@@ -50,8 +50,7 @@ export default function CookieBanner() {
           </button>
           <button
             onClick={accept}
-            className="px-5 py-2 text-sm font-semibold text-[#0B1324] rounded-lg transition-colors hover:bg-[#d65a3f]"
-            style={{ backgroundColor: '#E8715A' }}
+            className="px-5 py-2 text-sm font-semibold text-[#0B1324] rounded-lg transition-colors bg-primary hover:bg-primary-light"
           >
             Accept all
           </button>

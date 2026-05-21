@@ -187,7 +187,7 @@ const Navbar = () => {
                   <span className="text-lg font-bold text-white tracking-tight">
                     SEO Kings
                   </span>
-                  <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase" style={{ color: '#4A90A4' }}>
+                  <span className="text-[10px] font-mono font-medium tracking-[0.12em] uppercase text-secondary">
                     Website Designer &amp; Local SEO
                   </span>
                 </div>

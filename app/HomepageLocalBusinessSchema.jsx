@@ -37,12 +37,12 @@ const websiteDesignPackageOffers = [
       '@type': 'Service',
       name: 'Professional – multi-page website',
       description:
-        'Up to 8 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
+        '3–5 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 1200,
+      price: 599,
       valueAddedTaxIncluded: true,
     },
   },
@@ -55,12 +55,12 @@ const websiteDesignPackageOffers = [
       '@type': 'Service',
       name: 'Full Package – complete website',
       description:
-        'Up to 10 pages, full custom design, contact form, callback and booking, portfolio/gallery, social media integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
+        '5+ pages, full custom design, contact form, callback and booking, portfolio/gallery, social media integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 1800,
+      price: 999,
       valueAddedTaxIncluded: true,
     },
   },

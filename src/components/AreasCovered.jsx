@@ -14,11 +14,11 @@ const areas = [
 
 export default function AreasCovered() {
   return (
-    <section className="py-20 relative" aria-labelledby="areas-covered-heading">
+    <section className="py-24 relative" aria-labelledby="areas-covered-heading">
       <SectionDivider />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 id="areas-covered-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 id="areas-covered-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
             Areas We
             <span className="gradient-text"> Cover</span>
           </h2>

@@ -122,7 +122,7 @@ const WebDesign = () => {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our Starter package is £399 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation for one service in one location. Multi-page sites start at £1,200. We provide a detailed quote after understanding your requirements.' } },
+              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Our Starter package is £399 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation for one service in one location. Multi-page sites start at £599. We provide a detailed quote after understanding your requirements.' } },
               { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
               { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £399 for a one-page site with GBP included for one service in one location.' } },
               { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
@@ -146,9 +146,9 @@ const WebDesign = () => {
       />
 
       {/* Main service: website design + GBP included for one-page, add-ons after */}
-      <section className="py-16 bg-dark-lighter">
+      <section className="py-20 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             Website Design Is Our Main Service
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -164,7 +164,7 @@ const WebDesign = () => {
             <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
               Our Process
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               From Idea to Launch in 4 Simple Steps
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -199,7 +199,7 @@ const WebDesign = () => {
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
             Areas we serve
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             Website designer & website design in <span className="gradient-text">Bath, North East Somerset & Beyond</span>
           </h2>
           <p className="text-lg text-gray-400 mb-8">
@@ -237,7 +237,7 @@ const WebDesign = () => {
           <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
             What we&apos;ve done
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             Recent website design & local SEO results
           </h2>
           <p className="text-lg text-gray-400 mb-8">
@@ -269,7 +269,7 @@ const WebDesign = () => {
       {/* Pricing Teaser */}
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             Transparent Pricing, No Surprises
           </h2>
           <p className="text-lg text-gray-400 mb-8">
@@ -309,10 +309,10 @@ const WebDesign = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-dark-lighter">
+      <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Web Design FAQs
             </h2>
             <p className="text-lg text-gray-400">
@@ -340,7 +340,7 @@ const WebDesign = () => {
               },
               {
                 q: 'How much does a website cost?',
-                a: 'Our Starter package is £399 for a 1-page site with everything a trade needs. We also offer multi-page packages from £1,200. We provide a detailed quote after understanding your requirements.',
+                a: 'Our Starter package is £399 for a 1-page site with everything a trade needs. We also offer multi-page packages from £599. We provide a detailed quote after understanding your requirements.',
               },
               {
                 q: 'Will my website work on mobile phones?',

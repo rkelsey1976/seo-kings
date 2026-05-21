@@ -12,7 +12,7 @@ const ThankYou = () => {
         noIndex={true}
       />
 
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-20">
+      <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-24">
         {/* Background Effects */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-blob" />

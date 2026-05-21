@@ -112,7 +112,7 @@ const TestimonialPullquote = ({
       <blockquote
         ref={quoteRef}
         className={`relative p-8 rounded-2xl border border-white/10 ${className}`}
-        style={{ backgroundColor: '#0B1D3A' }}
+        style={{ backgroundColor: '#0B1324' }}
       >
         {stars && (
           <div className="testimonial-stars flex gap-1 mb-5">

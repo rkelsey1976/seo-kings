@@ -4,6 +4,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
+import SectionTag from '../components/SectionTag';
 
 const features = [
   'Project gallery with before/after photos — the #1 thing kitchen customers want to see before they call',
@@ -140,12 +141,12 @@ const WebDesignForKitchenFitters = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
+            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
               Web design for trades · Kitchen Fitters
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Web Design for{' '}
-              <span style={{ color: '#E8715A' }}>Kitchen Fitters</span>
+              <span className="text-primary">Kitchen Fitters</span>
               {' '}in Bath & Somerset
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-6">
@@ -155,7 +156,7 @@ const WebDesignForKitchenFitters = () => {
               We build websites for kitchen fitters in Bath, Keynsham, Midsomer Norton and across North East Somerset — with project galleries, before/after photos, FMB and Trustatrader badge display, dedicated service pages, and Google Business Profile optimisation as standard. From £399.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200" style={{ backgroundColor: '#C25245' }}>
+              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -167,7 +168,7 @@ const WebDesignForKitchenFitters = () => {
             <div className="flex flex-wrap gap-6 mt-10">
               {['From £399', 'FMB/Trustatrader badges included', 'Before/after gallery as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   {t}
                 </div>
               ))}
@@ -177,11 +178,11 @@ const WebDesignForKitchenFitters = () => {
       </section>
 
       {/* Why kitchen fitter sites fail */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>The problem</p>
-            <h2 className="text-3xl font-bold text-white mb-6">Why most kitchen fitter websites don't generate enquiries</h2>
+            <SectionTag className="mb-4">The problem</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Why most kitchen fitter websites don't generate enquiries</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               The majority of kitchen fitter websites either bury their portfolio in a clunky gallery that's slow to load on mobile, or they don't show one at all. Kitchen fitting is a visual business — if customers can't see your before/after photos clearly and quickly, they won't call. A few stock images and a paragraph about "quality workmanship" isn't enough.
             </p>
@@ -196,19 +197,19 @@ const WebDesignForKitchenFitters = () => {
       </section>
 
       {/* What we build */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>What's included</p>
-              <h2 className="text-3xl font-bold text-white mb-6">Built specifically for kitchen fitting businesses</h2>
+              <SectionTag className="mb-4">What's included</SectionTag>
+              <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Built specifically for kitchen fitting businesses</h2>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Every site we build for a kitchen fitter is designed around how kitchen customers actually search — gallery first, services second, trust throughout. Not a generic template with your logo dropped in.
               </p>
               <ul className="space-y-3">
                 {features.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                    <svg className="w-4 h-4 shrink-0 mt-0.5" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <svg className="w-4 h-4 shrink-0 mt-0.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                     {item}
                   </li>
                 ))}
@@ -216,7 +217,7 @@ const WebDesignForKitchenFitters = () => {
             </div>
 
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Recommended site structure</p>
+              <SectionTag className="mb-4">Recommended site structure</SectionTag>
               <p className="text-sm text-gray-400 mb-6">Pages that give you the best chance of ranking for every service you offer — not just one catch-all services page.</p>
               <ul className="space-y-4">
                 {recommendedPages.map((item) => (
@@ -232,11 +233,11 @@ const WebDesignForKitchenFitters = () => {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Pricing</p>
-            <h2 className="text-3xl font-bold text-white mb-6">Straightforward pricing, no surprises</h2>
+            <SectionTag className="mb-4">Pricing</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Straightforward pricing, no surprises</h2>
             <div className="space-y-4 mb-8">
               {[
                 { name: 'Starter', desc: '1-page site — home, services summary, contact', price: 'From £399' },
@@ -248,7 +249,7 @@ const WebDesignForKitchenFitters = () => {
                     <div className="text-white font-semibold text-sm">{pkg.name}</div>
                     <div className="text-gray-500 text-xs">{pkg.desc}</div>
                   </div>
-                  <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>{pkg.price}</div>
+                  <div className="font-bold shrink-0 ml-4 text-primary">{pkg.price}</div>
                 </div>
               ))}
             </div>
@@ -258,11 +259,11 @@ const WebDesignForKitchenFitters = () => {
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
                   <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
             <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
-            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200" style={{ backgroundColor: '#C25245' }}>
+            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark">
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -271,11 +272,11 @@ const WebDesignForKitchenFitters = () => {
       </section>
 
       {/* Local knowledge */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>Local knowledge</p>
-            <h2 className="text-3xl font-bold text-white mb-6">We know the Bath & Somerset kitchen fitting market</h2>
+            <SectionTag className="mb-4">Local knowledge</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Bath & Somerset kitchen fitting market</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Bath has one of the highest concentrations of period properties in the country — Georgian townhouses, Victorian terraces and listed buildings that require specialist knowledge when it comes to kitchen work. Conservation area restrictions in BA1 and BA2 mean that kitchen fitters who understand planning permission, listed building consent and Bath stone construction have a genuine advantage. A website that addresses these concerns directly converts customers who would otherwise be unsure whether their project is even possible.
             </p>
@@ -285,7 +286,7 @@ const WebDesignForKitchenFitters = () => {
             <p className="text-gray-400 leading-relaxed mb-8">
               Keynsham, Midsomer Norton and Radstock have a different mix — more modern housing estates, growing new-build developments, and lower online competition than the city. A well-optimised site and Google Business Profile in these areas can reach the Map Pack faster than the same work would take in central Bath. We're based in Keynsham and build sites for trades across the whole area. We know which searches convert in each postcode and build every site to target them specifically.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4" style={{ borderColor: '#E8715A' }}>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
@@ -297,20 +298,20 @@ const WebDesignForKitchenFitters = () => {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 border-t border-white/[0.06]">
+      <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>FAQs</p>
-            <h2 className="text-3xl font-bold text-white mb-10">Common questions about kitchen fitter websites</h2>
+            <SectionTag className="mb-4">FAQs</SectionTag>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about kitchen fitter websites</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
       </section>
 
       {/* Related */}
-      <section className="py-16 border-t border-white/[0.06]">
+      <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>Related services</p>
+          <SectionTag className="mb-6">Related services</SectionTag>
           <div className="grid sm:grid-cols-2 gap-4">
             <Link href="/local-seo" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>

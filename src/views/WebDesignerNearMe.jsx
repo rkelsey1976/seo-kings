@@ -271,7 +271,7 @@ const WebDesignerNearMe = () => {
             <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
               Your area, covered
             </span>
-            <h2 id="areas-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 id="areas-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               We Cover Your Local Area
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -314,7 +314,7 @@ const WebDesignerNearMe = () => {
             <span className="inline-block px-4 py-1 bg-secondary/10 border border-secondary/20 rounded-full text-secondary-light text-sm font-medium mb-4">
               Why choose local
             </span>
-            <h2 id="why-local-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 id="why-local-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               What You Get With a Local Designer
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -346,7 +346,7 @@ const WebDesignerNearMe = () => {
             <span className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent-light text-sm font-medium mb-4">
               Real results nearby
             </span>
-            <h2 id="results-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 id="results-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Local Businesses We&apos;ve Helped
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -400,7 +400,7 @@ const WebDesignerNearMe = () => {
             <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
               Common questions
             </span>
-            <h2 id="faq-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 id="faq-heading" className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
               Website Designer Near Me — FAQs
             </h2>
             <p className="text-gray-400 text-lg max-w-xl mx-auto">
