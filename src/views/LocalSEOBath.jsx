@@ -25,7 +25,7 @@ const results = [
   {
     business: 'New Decorating',
     location: 'Bath',
-    result: '#1 organic',
+    result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
   },

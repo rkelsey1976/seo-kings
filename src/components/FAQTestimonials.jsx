@@ -43,7 +43,7 @@ const testimonials = [
     location: 'Bath & BANES',
     trade: 'Painter & Decorator',
     rating: 5,
-    result: '#1 organic · "exterior painter Bath"',
+    result: 'Top 3 Map Pack · "exterior painter Bath"',
   },
 ];
 

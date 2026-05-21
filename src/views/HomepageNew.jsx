@@ -9,8 +9,8 @@ import PricingModal from '../components/PricingModal';
 
 const results = [
   {
-    outcome: '#1',
-    qualifier: 'Organic',
+    outcome: 'Top 3',
+    qualifier: 'Map Pack',
     keyword: '"exterior painter Bath"',
     client: 'New Decorating',
     slug: 'new-decorating',

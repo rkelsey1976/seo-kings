@@ -29,7 +29,7 @@ export const metadata = {
 
 const marqueeItems = [
   "Peachy Cleans — Map Pack · 'cleaning Midsomer Norton'",
-  "New Decorating — #1 organic · 'exterior painter Bath'",
+  "New Decorating — Top 3 Map Pack · 'exterior painter Bath'",
   "Aurelian Massage — ranking · 'massage Bath'",
   "Websites from £250 — live in 2 weeks",
   "Google Business Profile optimisation — £100 add-on",
@@ -82,16 +82,16 @@ const bentoCells = [
     statLabel: 'Named Clients With Proof',
     tag: 'Results',
     heading: 'Rankings You Can Verify',
-    body: "Peachy Cleans — Map Pack \"cleaning Midsomer Norton\". New Decorating — #1 organic \"exterior painter Bath\". Aurelian Massage — ranking for \"massage Bath\". Exact keywords. Exact positions.",
+    body: "Peachy Cleans — Map Pack \"cleaning Midsomer Norton\". New Decorating — Top 3 Map Pack \"exterior painter Bath\". Aurelian Massage — ranking for \"massage Bath\". Exact keywords. Exact positions.",
     href: '/case-studies',
     theme: 'dark',
     imageBg: '/images/keynsham/keynsham-cta-background-code.webp',
     accentColor: '#E8715A',
   },
   {
-    tag: 'Included',
+    tag: 'Add-on',
     heading: 'Google Business Profile',
-    body: 'Claim, verify and fully optimise your GBP. Show up in the Map Pack — the top 3 results that capture 60% of local clicks. One-off £100 or included with every site.',
+    body: 'Claim, verify and fully optimise your GBP. Show up in the Map Pack — the top 3 results that capture 60% of local clicks. One-off £100 add-on to any website package.',
     href: '/google-business-profile',
     theme: 'dark',
     imageBg: '/images/keynsham/keynsham-code-screen.webp',

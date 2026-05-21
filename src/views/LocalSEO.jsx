@@ -64,7 +64,7 @@ const localSeoPackages = [
 ];
 
 const results = [
-  { metric: '#1', label: 'Organic search result', subtext: '"Exterior painter Bath" — New Decorating' },
+  { metric: 'Top 3', label: 'Map Pack result', subtext: '"Exterior painter Bath" — New Decorating' },
   { metric: 'Map Pack', label: 'Google Maps ranking', subtext: '"Cleaning Midsomer Norton" — Peachy Cleans' },
   { metric: '< 1 week', label: 'Average time to first rankings', subtext: 'For new sites with GBP set up' },
 ];

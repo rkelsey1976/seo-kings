@@ -130,7 +130,7 @@ const services = [
 
 const results = [
   { business: 'Peachy Cleans', result: 'Map Pack · "cleaning Midsomer Norton"', slug: 'peachy-cleans' },
-  { business: 'New Decorating', result: '#1 organic · "exterior painter Bath"', slug: 'new-decorating' },
+  { business: 'New Decorating', result: 'Top 3 Map Pack · "exterior painter Bath"', slug: 'new-decorating' },
   { business: 'Aurelian Massage', result: 'Ranking · "massage Bath"', slug: 'aurelian-massage' },
 ];
 

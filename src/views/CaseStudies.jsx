@@ -47,7 +47,7 @@ const CaseStudies = () => {
       solution: 'New website at new-decorating.co.uk plus Google Business Profile set up and optimised so both work together. Within a week he was in the top 8 on Google Maps and ranking for long-tail keywords.',
       results: [
         { metric: 'New site', label: 'Live at new-decorating.co.uk' },
-        { metric: '#1', label: 'Organic search · "exterior painter Bath"' },
+        { metric: 'Top 3', label: 'Map Pack · "exterior painter Bath"' },
         { metric: 'Ranking', label: 'Long-tail keywords' },
       ],
       timeframe: 'Within a week',

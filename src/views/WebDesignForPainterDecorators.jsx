@@ -32,7 +32,7 @@ const results = [
   {
     business: 'New Decorating',
     location: 'Bath',
-    result: '#1 organic',
+    result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
   },
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'My work is the proof — can you help me show it properly online?',
-    a: 'That\'s exactly the brief. We build gallery sections that show your work clearly on mobile, organised by job type so customers can find what they\'re looking for. If you don\'t have professional photos, even good phone shots work well — we\'ll advise on what to capture. We\'ve already done this for a Bath painter and decorator who now ranks #1 for "exterior painter Bath".',
+    a: 'That\'s exactly the brief. We build gallery sections that show your work clearly on mobile, organised by job type so customers can find what they\'re looking for. If you don\'t have professional photos, even good phone shots work well — we\'ll advise on what to capture. We\'ve already done this for a Bath painter and decorator who now ranks in the Map Pack for "exterior painter Bath".',
   },
 ];
 
@@ -290,7 +290,7 @@ const WebDesignForPainterDecorators = () => {
               Bath has one of the highest concentrations of Georgian and Victorian properties in the UK. Period homes need sympathetic finishes — decorators who understand heritage properties, breathable paint systems and listed building considerations have a genuine premium positioning in this market. Customers in BA1 and BA2 search specifically for decorators with period property experience and will pay a premium for the right expertise.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We built the website for New Decorating — a Bath painter and decorator — and they now rank number one for "exterior painter Bath". That result came from the right page structure, the right local signals, and a Google Business Profile working alongside the site. The same approach applies across the whole area.
+              We built the website for New Decorating — a Bath painter and decorator — and they now rank in the top 3 on Google Maps for "exterior painter Bath". That result came from the right page structure, the right local signals, and a Google Business Profile working alongside the site. The same approach applies across the whole area.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               We cover Bath, Keynsham, Midsomer Norton, Radstock and the surrounding area. We're happy to meet you locally or work remotely — whatever suits you.
@@ -332,7 +332,7 @@ const WebDesignForPainterDecorators = () => {
             <Link href="/case-studies/new-decorating" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">New Decorating Case Study</div>
-                <div className="text-xs text-gray-500">#1 for "exterior painter Bath" — how we did it</div>
+                <div className="text-xs text-gray-500">Top 3 Map Pack for "exterior painter Bath" — how we did it</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             </Link>

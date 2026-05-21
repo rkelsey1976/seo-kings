@@ -14,8 +14,8 @@ const CASE_STUDY_META = {
     description: 'How we built a one-page site for Peachy Cleans and got them to the top of Google Maps for cleaning searches in Midsomer Norton — within weeks of launch.',
   },
   'new-decorating': {
-    title: 'New Decorating Bath: #1 Organic for "Exterior Painter Bath" | SEO Kings',
-    description: 'Jay had no web presence at all. We built his site and optimised his Google Business Profile — within a week he ranked in the top 8 on Google Maps and hit #1 organic.',
+    title: 'New Decorating Bath: Top 3 Map Pack for "Exterior Painter Bath" | SEO Kings',
+    description: 'Jay had no web presence at all. We built his site and optimised his Google Business Profile — within a week he ranked in the top 8 on Google Maps and ranked in the top 3 on Google Maps.',
   },
   'aurelian-massage': {
     title: 'Aurelian Massage: Ranking for "Massage Bath" | SEO Kings',
