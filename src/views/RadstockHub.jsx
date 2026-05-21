@@ -137,7 +137,7 @@ const RadstockHub = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-dark/75 via-dark/70 to-dark" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <span
               className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6"
               style={{ color: '#E8715A' }}

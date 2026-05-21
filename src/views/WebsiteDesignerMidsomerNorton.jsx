@@ -129,7 +129,7 @@ const WebsiteDesignerMidsomerNorton = () => {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6" style={{ color: '#E8715A' }}>
               Serving Midsomer Norton · BA3
             </span>
@@ -316,7 +316,7 @@ const WebsiteDesignerMidsomerNorton = () => {
       {/* FAQ */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl">
             <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4" style={{ color: '#E8715A' }}>
               FAQs
             </p>

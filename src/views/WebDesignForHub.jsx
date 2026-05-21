@@ -263,7 +263,7 @@ const WebDesignForHub = () => {
             ))}
           </div>
 
-          <div className="max-w-3xl mx-auto mt-6 rounded-xl border border-white/10 bg-dark-card p-5">
+          <div className="max-w-3xl mt-6 rounded-xl border border-white/10 bg-dark-card p-5">
               <div className="flex items-center justify-between py-1">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
