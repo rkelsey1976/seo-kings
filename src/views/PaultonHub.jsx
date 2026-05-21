@@ -183,6 +183,7 @@ const PaultonHub = () => {
                 { label: 'SEO from £150/month' },
                 { label: 'Somer Valley specialists' },
                 { label: '5★ Rated' },
+                { label: '6 months free hosting' },
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
                   <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -325,6 +326,18 @@ const PaultonHub = () => {
             </div>
 
           </div>
+
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <div className="flex items-center justify-between py-2">
+                <div>
+                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                </div>
+                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+              </div>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
+
         </div>
       </section>
 

@@ -166,6 +166,7 @@ const WebsiteDesignerRadstock = () => {
             <div className="flex flex-wrap gap-6 mt-10">
               {[
                 { label: 'From £399' },
+                { label: '6 months free hosting' },
                 { label: 'Live in under 2 weeks' },
                 { label: 'GBP set-up included' },
                 { label: 'Proven local results' },
@@ -228,7 +229,16 @@ const WebsiteDesignerRadstock = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. No hidden fees.</p>
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <div className="flex items-center justify-between py-2">
+                <div>
+                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                </div>
+                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+              </div>
+            </div>
+              <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up. Hosting free for 6 months, then £199/year. No hidden fees.</p>
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200"
