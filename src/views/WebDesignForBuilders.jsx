@@ -161,7 +161,7 @@ const WebDesignForBuilders = () => {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-10">
-              {['From £399', 'NHBC/FMB badges included', 'Project gallery as standard', 'Live in under 2 weeks'].map((t) => (
+              {['From £399', 'NHBC/FMB badges included', 'Project gallery as standard', '6 months free hosting', 'Live in under 2 weeks'].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm text-gray-400">
                   <svg className="w-4 h-4 shrink-0" style={{ color: '#E8715A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   {t}
@@ -248,7 +248,16 @@ const WebDesignForBuilders = () => {
                 </div>
               ))}
             </div>
-            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. No hidden fees. No lock-in contracts.</p>
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <div className="flex items-center justify-between py-2">
+                <div>
+                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                </div>
+                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+              </div>
+            </div>
+            <p className="text-xs text-gray-500 mb-6">All packages include Google Business Profile set-up and optimisation. Hosting free for 6 months, then £199/year. No lock-in contracts.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200" style={{ backgroundColor: '#C25245' }}>
               Get a Free Audit
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

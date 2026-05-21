@@ -141,7 +141,7 @@ const WebDesignForHub = () => {
         title="Websites Built for Your Trade"
         highlight="in Bath & Somerset"
         description="Professional, mobile-friendly websites designed for tradespeople — from plumbers to plasterers. Get found on Google, showcase your work, and turn visitors into jobs. From £399 one-off."
-        features={['Mobile-First Design', 'Local SEO Ready', 'Lead-Generating', 'Fast & Secure']}
+        features={['Mobile-First Design', 'Local SEO Ready', '6 months free hosting', 'Lead-Generating', 'Fast & Secure']}
         ctaText="Get a Free Website Quote"
       />
 
@@ -263,8 +263,18 @@ const WebDesignForHub = () => {
             ))}
           </div>
 
+          <div className="max-w-3xl mx-auto mt-6 rounded-xl border border-white/10 bg-dark-card p-5">
+              <div className="flex items-center justify-between py-1">
+                <div>
+                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
+                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £199/year</div>
+                </div>
+                <div className="font-bold shrink-0 ml-4" style={{ color: '#E8715A' }}>6 months free</div>
+              </div>
+            </div>
+
           <p className="text-center text-gray-500 text-sm mt-6">
-            All prices one-off. Hosting and support available on a monthly plan. No long contracts.
+            All prices one-off. Hosting free for 6 months, then £199/year. No long contracts.
           </p>
         </div>
       </section>
