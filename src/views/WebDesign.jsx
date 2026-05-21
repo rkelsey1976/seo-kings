@@ -103,7 +103,7 @@ const WebDesign = () => {
     <>
       <SEO
         title="Website Designer Bath | Web Design Bath & North East Somerset & Trowbridge – SEO Kings"
-        description="Website design is our main service. From £250 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
+        description="Website design is our main service. From £250 for a one-page site. GBP optimisation available as a £100 add-on. We can add local SEO and other services once you're happy. Plumbers, electricians, builders in Bath & North East Somerset."
         canonical="/web-design"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -122,7 +122,7 @@ const WebDesign = () => {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Websites start at £250 for a one-page site with contact form, click-to-call, area info, SEO basics, and Google Business Profile optimisation. Multi-page sites are £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450. Use the pricing calculator on our packages page for an exact quote.' } },
+              { '@type': 'Question', name: 'How much does a website cost?', acceptedAnswer: { '@type': 'Answer', text: 'Websites start at £250 for a one-page site with contact form, click-to-call, area info and SEO basics. Multi-page sites are £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450. GBP optimisation is a £100 add-on. Use the pricing calculator on our packages page for an exact quote.' } },
               { '@type': 'Question', name: 'How long does it take to build a website?', acceptedAnswer: { '@type': 'Answer', text: 'Most one-page trade websites are live within 2 weeks of your brief. Multi-page sites typically take 3–4 weeks. More complex sites with custom functionality may take longer.' } },
               { '@type': 'Question', name: 'Do you do website design in Bath and North East Somerset?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Website design across Bath and North East Somerset (BANES) is our main service — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site with GBP included for one service in one location.' } },
               { '@type': 'Question', name: 'Will my website work on mobile phones?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. All our websites are built mobile-first — they look and work perfectly on smartphones, tablets, and desktops. Over 60% of searches are now on mobile, so this is essential for getting found on Google.' } },
@@ -134,7 +134,7 @@ const WebDesign = () => {
         badge="Our main service"
         title="Website Designer in Bath & North East Somerset — Sites That Turn Visitors Into"
         highlight="Customers"
-        description="Website design is our main service. From £250 for a one-page site with GBP optimisation included for one service in one location. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
+        description="Website design is our main service. From £250 for a one-page site. Add GBP optimisation for £100. We can add local SEO and other services once you're happy with your site. Professional website designer for plumbers, electricians, builders and local businesses in Bath, Keynsham, Midsomer Norton, Trowbridge and Bath and North East Somerset. No templates — sites that look great and generate leads."
         features={heroFeatures}
         ctaText="Get a Free Quote"
       />
@@ -145,14 +145,14 @@ const WebDesign = () => {
         features={features}
       />
 
-      {/* Main service: website design + GBP included for one-page, add-ons after */}
+      {/* Main service: website design, GBP and SEO as add-ons */}
       <section className="py-20 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
             Website Design Is Our Main Service
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £250 for a one-page site with everything a trade needs — services, contact, area info — plus <strong className="text-gray-300">GBP optimisation included for one service in one location</strong>. Every site is fast, mobile-friendly, and set up for local search. Once you&apos;re happy with your website, we can add local SEO, ongoing GBP management, and more. No DIY builder; we build it so it works for you.
+            We build websites for plumbers, electricians, builders and local trades in Bath & North East Somerset. From £250 for a one-page site with everything a trade needs — services, contact, area info, fast and mobile-friendly. Add <strong className="text-gray-300">GBP optimisation for £100</strong> and local SEO from £150/month once you&apos;re happy with your site. No DIY builder; we build it so it works for you.
           </p>
         </div>
       </section>
@@ -324,15 +324,11 @@ const WebDesign = () => {
             faqs={[
               {
                 q: 'Do you do website design in BANES?',
-                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. Website designer Bath and North East Somerset is our main service; from £250 for a one-page site with GBP included for one service in one location.',
-              },
-              {
-                q: 'What do you mean by "one service, one location"?',
-                a: '"Service" means one type of work or business offering — e.g. plumbing is one service, electrical is another. "Location" means one area you serve — e.g. Keynsham, Bath, or one postcode. So "one service, one location" means we optimise your Google Business Profile for one main trade in one area (e.g. plumber in Keynsham). Our Professional package includes 3 services and 4 locations; our Full package includes 5 services and 8 locations.',
+                a: 'Yes. We do website design across Bath and North East Somerset (BANES) — Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and nearby. We also serve Trowbridge and Wiltshire. From £250 for a one-page site. GBP optimisation available as a £100 add-on.',
               },
               {
                 q: 'Do you do one-page websites?',
-                a: 'Yes. Our Starter package is a one-page website from £250 with everything a trade or small business needs: services, contact form, click-to-call, area info, SEO basics, and GBP optimisation included for one service in one location. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
+                a: 'Yes. A one-page website starts from £250 with everything a trade or small business needs: services, contact form, click-to-call, area info and SEO basics. GBP optimisation is available as a £100 add-on. It\'s ideal if you want a simple, fast site that gets found on Google without a big budget. Once you\'re happy, we can add local SEO and other services. See our web design packages for full details.',
               },
               {
                 q: 'How long does it take to build a website?',

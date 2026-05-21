@@ -32,7 +32,7 @@ const marqueeItems = [
   "New Decorating — #1 organic · 'exterior painter Bath'",
   "Aurelian Massage — ranking · 'massage Bath'",
   "Websites from £250 — live in 2 weeks",
-  "Google Business Profile included",
+  "Google Business Profile optimisation — £100 add-on",
   "No contracts. No lock-in.",
 ];
 
@@ -71,7 +71,7 @@ const bentoCells = [
     statLabel: 'ONE-PAGE SITES FROM',
     tag: 'Core Service',
     heading: 'Website Design for Trades',
-    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £250. Multi-page from £350. Click-to-call, quote form, and GBP set-up included.',
+    body: 'Mobile-first. Fast-loading. Built to rank for "[your trade] near me". One-page from £250. Multi-page from £350. Click-to-call and quote form included. Add GBP optimisation for £100.',
     href: '/web-design',
     theme: 'dark',
     imageBg: '/images/cards/bg-website.webp',

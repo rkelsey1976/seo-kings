@@ -6,7 +6,7 @@ import FAQAccordion from './FAQAccordion';
 export const homepageFAQs = [
   {
     question: 'How much does a website cost in Bath?',
-    answer: '£250 for a one-page trade site with contact form, click-to-call and Google Business Profile set-up included. Multi-page sites are £250 base + £50 per page — so a 3-page site is £350, a 5-page site is £450. No hidden fees.',
+    answer: '£250 for a one-page trade site with contact form, click-to-call and SEO basics. Multi-page sites are £250 base + £50 per page — so a 3-page site is £350, a 5-page site is £450. GBP optimisation is a £100 add-on. No hidden fees.',
   },
   {
     question: 'How long does it take to build a website?',

@@ -15,7 +15,7 @@ const Services = () => {
       href: '/web-design',
       image: '/images/keynsham/keynsham-webdesign-laptop.webp',
       imageAlt: 'Website design for trades in Bath and North East Somerset — mobile-first, fast, SEO-ready',
-      description: 'Our main service. We build trade websites from £250 — one-page or multi-page. The one-page package includes GBP optimisation for one service in one location. Fast, mobile-first, SEO-ready.',
+      description: 'Our main service. We build trade websites from £250 — one-page or multi-page. Fast, mobile-first, SEO-ready. GBP optimisation available as a £100 add-on.',
       features: [
         'Mobile-first design',
         'Fast loading speeds',
@@ -85,7 +85,7 @@ const Services = () => {
             <span className="gradient-text"> Services</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Website design is our main service. Our one-page package includes GBP optimisation for one service in one location. We can add local SEO and other services once you&apos;re happy with your site.
+            Website design is our main service. From £250 for a one-page site — fast, mobile-first, built to rank. Add GBP optimisation (+£100) and local SEO once you&apos;re happy with your site.
           </p>
         </div>
 
