@@ -297,7 +297,7 @@ const WebDesignForHub = () => {
 
           <FAQAccordion
             faqs={[
-              { q: 'How much does a trade website cost?', a: 'Our trade websites start from £250 for a 1-page starter site. It's £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. All prices are one-off — no ongoing website fees.' },
+              { q: 'How much does a trade website cost?', a: 'Our trade websites start from £250 for a 1-page starter site. It\'s £250 base + £50 per additional page — so a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. All prices are one-off — no ongoing website fees.' },
               { q: 'How long does it take to build my website?', a: 'Most trade websites are live within 2–3 weeks. A single-page starter site can be ready sooner. We keep you involved at every stage with previews and revisions.' },
               { q: 'Do you write the content for my website?', a: 'Yes. Our Professional and Full packages include content written specifically for your trade and area. Starter sites include basic content based on the information you provide. We make sure every page is optimised for the searches your customers make.' },
               { q: 'Will my website work on mobile phones?', a: 'Absolutely. Every website we build is mobile-responsive. Most of your potential customers will find you on their phone, so we design mobile-first with click-to-call buttons and fast load times.' },
