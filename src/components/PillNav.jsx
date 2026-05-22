@@ -37,7 +37,7 @@ const PillNav = () => {
           className="flex items-center gap-2.5"
           onClick={() => setIsOpen(false)}
         >
-          <img src="/crown-logo.svg" alt="SEO Kings" className="h-8 w-auto opacity-90" />
+          <img src="/crown-logo.svg" alt="SEO Kings" width="32" height="32" className="h-8 w-auto opacity-90" />
           <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
         </Link>
 

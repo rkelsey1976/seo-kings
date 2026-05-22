@@ -245,7 +245,7 @@ const WebDesignForHub = () => {
                 )}
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-white">{pkg.name}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{pkg.tagline}</p>
+                  <p className="text-sm text-gray-400 mt-1">{pkg.tagline}</p>
                 </div>
                 <div className="mb-4">
                   <span className="text-gray-400 text-sm">from </span>
@@ -276,13 +276,13 @@ const WebDesignForHub = () => {
               <div className="flex items-center justify-between py-1">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
+                  <div className="text-gray-400 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
 
-          <p className="text-center text-gray-500 text-sm mt-6">
+          <p className="text-center text-gray-400 text-sm mt-6">
             All prices one-off. Hosting free for 6 months, then £50/year. No long contracts.
           </p>
         </div>

@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:max-w-xs">
             <Link href="/" className="inline-flex items-center gap-2.5 mb-5">
-              <img src="/crown-logo.svg" alt="SEO Kings" className="h-7 w-auto opacity-80" />
+              <img src="/crown-logo.svg" alt="SEO Kings" width="28" height="28" className="h-7 w-auto opacity-80" />
               <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>

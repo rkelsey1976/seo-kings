@@ -149,7 +149,7 @@ const About = () => {
                 <p>
                   We started SEO Kings to build websites for trades and local businesses in Bath
                   and North East Somerset — sites that look professional, load fast and work on phones.
-                  Behind every site is 20 years of development experience and 15 years of graphic design,
+                  Behind every site is 22 years of development experience and 15 years of graphic design,
                   so you're not funding someone's learning curve.
                 </p>
                 <p>
@@ -185,7 +185,7 @@ const About = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="text-sm text-gray-400"><span className="text-white font-medium">20 years</span> — web development experience</span>
+                      <span className="text-sm text-gray-400"><span className="text-white font-medium">22 years</span> — web development experience</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full" />
@@ -245,7 +245,7 @@ const About = () => {
                 Why Choose Us
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 leading-tight tracking-tight">
-                Why Choose Us for Your Website
+                What Makes Us Different
               </h2>
               
               <div className="space-y-6">
@@ -292,7 +292,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-white">Jay</div>
-                  <div className="text-sm text-gray-500">New Decorating, Painter & Decorator, Bath & BANES</div>
+                  <div className="text-sm text-gray-400">New Decorating, Painter & Decorator, Bath & BANES</div>
                 </div>
               </div>
             </div>
@@ -347,7 +347,7 @@ const About = () => {
           </div>
 
           <div className="text-center mt-8">
-            <p className="text-gray-500">
+            <p className="text-gray-400">
               <Link href="/areas" className="text-primary-light hover:text-white transition-colors font-medium">View all areas we serve</Link>
               {' '}or{' '}
               <Link href="/contact" className="text-primary-light hover:text-white transition-colors">get in touch</Link> if you don't see yours.

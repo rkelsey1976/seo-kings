@@ -5,6 +5,9 @@ import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
+import ServicePageHero from '../components/ServicePageHero';
+
+const heroFeatures = ['Websites from £250', 'Local SEO from £150/month', 'Live in 2 weeks', 'Free audit — no obligation'];
 
 const results = [
   {
@@ -127,77 +130,19 @@ const TempleCloudHub = () => {
         schemas={[schema]}
       />
 
-      {/* Hero */}
-      <section
-        className="relative pt-32 pb-20 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/images/areas/temple-cloud.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-dark/75 via-dark/70 to-dark" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
-            <span
-              className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary"
-            >
-              Temple Cloud · BS39
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Web Design &amp; SEO in{' '}
-              <span className="text-primary">Temple Cloud</span>
-            </h1>
-            <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-4">
-              One team. Three services. All focused on getting your Temple Cloud business found on Google.
-            </p>
-            <p className="text-base text-gray-400 leading-relaxed max-w-2xl mb-8">
-              Temple Cloud sits on the A37 between Bath and Bristol — a very low-competition market where the right strategy gets you visible fast. Whether you need a website, local SEO, or both, we build everything around getting you found in BS39, the Chew Valley, the Somer Valley and beyond.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
-              >
-                Get a Free Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-              <a
-                href="tel:+447702264921"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/10 hover:border-white/20 transition-colors duration-200"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                07702 264 921
-              </a>
-            </div>
-
-            {/* Trust signals */}
-            <div className="flex flex-wrap gap-6 mt-10">
-              {[
-                { label: 'Websites from £250' },
-                { label: 'SEO from £150/month' },
-                { label: 'Somer Valley specialists' },
-                { label: '5★ Rated' },
-                { label: '6 months free hosting' },
-              ].map((t) => (
-                <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  {t.label}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ── HERO ─────────────────────────────────── */}
+      <ServicePageHero
+        badge="Temple Cloud · BS39"
+        title="Web Design &amp; SEO in"
+        highlight="Temple Cloud"
+        description="One team. Three services. All focused on getting your Temple Cloud business found on Google. Serving trades across BS39 and the surrounding villages."
+        features={heroFeatures}
+        ctaText="Get a Free Audit"
+        ctaSecondary="Call Us Today"
+      />
 
       {/* Services */}
-      <section className="py-24 border-t border-white/[0.06]">
+      <section className="py-24 bg-dark-lighter border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <SectionTag className="mb-4">Our services in Temple Cloud</SectionTag>
@@ -283,7 +228,7 @@ const TempleCloudHub = () => {
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
               <SectionTag className="mb-3">Google Business Profile</SectionTag>
               <h3 className="text-2xl font-bold text-white mb-2">Put yourself on the map</h3>
-              <p className="text-xl font-bold mb-3 text-primary">Included with every package</p>
+              <p className="text-xl font-bold mb-3 text-primary">£100 add-on</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Your GBP is what puts you on Google Maps and in the local pack. The biggest single factor in local search. We set it up properly and keep it active.
               </p>
@@ -319,12 +264,12 @@ const TempleCloudHub = () => {
               <div className="flex items-center justify-between py-2">
                 <div>
                   <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
+                  <div className="text-gray-400 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
                 </div>
                 <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-xs text-gray-400 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
 
         </div>
       </section>
@@ -342,9 +287,9 @@ const TempleCloudHub = () => {
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
+                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-500 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs">{r.location}</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -372,7 +317,7 @@ const TempleCloudHub = () => {
               </blockquote>
               <div>
                 <div className="text-white font-semibold text-sm">Jay</div>
-                <div className="text-gray-500 text-xs">New Decorating · Bath &amp; BANES</div>
+                <div className="text-gray-400 text-xs">New Decorating · Bath &amp; BANES</div>
               </div>
             </div>
 
@@ -385,7 +330,7 @@ const TempleCloudHub = () => {
               </blockquote>
               <div>
                 <div className="text-white font-semibold text-sm">Ross</div>
-                <div className="text-gray-500 text-xs">Aurelian Massage · Bath City Centre</div>
+                <div className="text-gray-400 text-xs">Aurelian Massage · Bath City Centre</div>
               </div>
             </div>
           </div>
@@ -404,13 +349,15 @@ const TempleCloudHub = () => {
             <p className="text-gray-400 leading-relaxed mb-8">
               Sub-areas we cover include Clutton, Hallatrow, Paulton, Pensford, and the wider BS39 postcode.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
-              SEO Kings<br />
-              16a Culvers Road<br />
-              Keynsham, Somerset<br />
-              BS31 2DW<br />
-              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
-            </address>
+            <a
+              href="tel:+447702264921"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              07702 264 921
+            </a>
           </div>
         </div>
       </section>

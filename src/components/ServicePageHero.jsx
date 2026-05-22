@@ -79,11 +79,11 @@ const ServicePageHero = ({
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               {onGetQuote ? (
-                <button onClick={onGetQuote} className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
+                <button onClick={onGetQuote} className="bg-primary hover:bg-primary-light text-dark px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
                   {ctaText}
                 </button>
               ) : (
-                <Link href="/contact" className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
+                <Link href="/contact" className="bg-primary hover:bg-primary-light text-dark px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center">
                   {ctaText}
                 </Link>
               )}

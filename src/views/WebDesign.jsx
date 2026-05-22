@@ -313,7 +313,7 @@ export default function WebDesign() {
                   onClick={() => setModalOpen(true)}
                   className={`w-full py-3 rounded-xl font-semibold text-sm transition-all duration-300 ${
                     p.featured
-                      ? 'bg-primary hover:bg-primary-light text-white btn-glow'
+                      ? 'bg-primary hover:bg-primary-light text-dark btn-glow'
                       : 'bg-white/5 hover:bg-white/10 border border-white/10 text-white'
                   }`}
                 >

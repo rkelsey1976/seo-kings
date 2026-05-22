@@ -146,7 +146,7 @@ const PricingCalculator = ({ onClose }) => {
         <Link
           href={contactHref}
           onClick={onClose}
-          className="block w-full text-center bg-primary hover:opacity-90 text-white py-4 rounded-xl font-semibold transition-opacity"
+          className="block w-full text-center bg-primary hover:opacity-90 text-dark py-4 rounded-xl font-semibold transition-opacity"
         >
           Get your free quote
         </Link>

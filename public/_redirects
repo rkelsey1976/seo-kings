@@ -1,17 +1,35 @@
-# 301 redirects — consolidate cannibalising pages
-/blog/website-design-bath                   /areas/bath                  301!
-/blog/website-design-keynsham               /website-designer-keynsham   301!
-/blog/what-is-local-seo-bath                /local-seo/bath              301!
-/blog/local-seo-bath                        /local-seo/bath              301!
-/blog/website-design-bath                   /website-designer-bath       301!
-/blog/website-designer-bath-banes           /website-designer-bath       301!
-/blog/website-design-midsomer-norton-peachy-cleans /website-designer-midsomer-norton 301!
-/blog/website-design-bitton-keynsham        /areas/keynsham              301!
-/blog/website-design-radstock               /website-designer-radstock   301!
-/blog/website-design-peasedown-st-john      /website-designer-peasedown-st-john 301!
-/blog/website-design-somer-valley           /areas/midsomer-norton       301!
-/blog/website-design-trowbridge             /website-designer-trowbridge 301!
-/case-studies/saltford-garden-centre        /case-studies                301!
+# 301 redirects — consolidate cannibalising blog posts
+
+# ── Previously redirected location posts ────────────────────────────────────
+/blog/website-design-bath                          /areas/bath                        301!
+/blog/website-designer-bath-banes                  /website-designer-bath             301!
+/blog/what-is-local-seo-bath                       /local-seo/bath                    301!
+/blog/local-seo-bath                               /local-seo/bath                    301!
+/blog/website-design-keynsham                      /website-designer-keynsham         301!
+/blog/website-design-bitton-keynsham               /areas/keynsham                    301!
+/blog/website-design-midsomer-norton-peachy-cleans /website-designer-midsomer-norton  301!
+/blog/website-design-radstock                      /website-designer-radstock         301!
+/blog/website-design-peasedown-st-john             /website-designer-peasedown-st-john 301!
+/blog/website-design-somer-valley                  /areas/midsomer-norton             301!
+/blog/website-design-trowbridge                    /website-designer-trowbridge       301!
+
+# ── Case study duplicate ─────────────────────────────────────────────────────
+/blog/new-decorating-website-bath                  /case-studies/new-decorating       301!
+
+# ── Noindex posts → canonical service/area pages ────────────────────────────
+/blog/gbp-trades-losing-customers                  /google-business-profile           301!
+/blog/google-business-profile-for-trades           /google-business-profile           301!
+/blog/how-we-get-you-number-one-google-maps        /local-seo                         301!
+/blog/seo-for-plumbers-bath                        /web-design-for/plumbers           301!
+/blog/how-we-build-websites-keynsham               /areas/keynsham                    301!
+/blog/keynsham-gbp-keyword-research                /areas/keynsham                    301!
+/blog/get-found-on-google-keynsham                 /areas/keynsham                    301!
+/blog/keynsham-trades-losing-jobs-google           /areas/keynsham                    301!
+/blog/one-page-website-bath-banes                  /web-design-packages               301!
+/blog/keynsham-farmers-market-2026                 /areas/keynsham                    301!
+
+# ── Other ────────────────────────────────────────────────────────────────────
+/case-studies/saltford-garden-centre               /case-studies                      301!
 
 
 # 404 fallback

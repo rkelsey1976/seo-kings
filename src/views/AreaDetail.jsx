@@ -3614,7 +3614,7 @@ const AreaDetail = ({ params: staticParams }) => {
               <div className="flex flex-wrap gap-4 mb-4">
                 <Link
                   href="/contact"
-                  className="bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
+                  className="bg-primary hover:bg-primary-light text-dark px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow"
                 >
                   {area.ctaButtonText || `Get Free ${area.name} SEO Audit`}
                 </Link>
@@ -4230,7 +4230,7 @@ const AreaDetail = ({ params: staticParams }) => {
             <div className={`flex flex-col sm:flex-row items-center gap-4 ${area.ctaImage && !area.ctaBackgroundImage ? 'justify-center lg:justify-start' : 'justify-center'}`}>
               <Link
                 href="/contact"
-                className="w-full sm:w-auto bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow text-center shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:scale-105"
+                className="w-full sm:w-auto bg-primary hover:bg-primary-light text-dark px-8 py-4 rounded-xl font-semibold transition-all duration-300 btn-glow text-center shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:scale-105"
               >
                 {area.ctaPrimaryText || `Get Your Free ${area.name} SEO Audit`}
               </Link>

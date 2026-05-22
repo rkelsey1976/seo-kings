@@ -299,7 +299,7 @@ const Spotlight = ({ variant = 'summary' }) => {
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link
                 href="/case-studies/peachy-cleans"
-                className="inline-flex items-center gap-2 bg-primary hover:bg-primary-light text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
+                className="inline-flex items-center gap-2 bg-primary hover:bg-primary-light text-dark px-6 py-3 rounded-xl font-semibold transition-all duration-300"
               >
                 Read the full case study
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -326,7 +326,7 @@ const Spotlight = ({ variant = 'summary' }) => {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow"
+            className="inline-flex items-center gap-2 bg-primary hover:bg-primary-light text-dark px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow"
           >
             Get Your Free Check
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
