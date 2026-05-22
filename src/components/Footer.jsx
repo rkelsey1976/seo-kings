@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
-              Website design and local SEO for trades and small businesses in Bath, Keynsham and North East Somerset. Fast sites from £250. GBP optimisation from £100.
+              Website design and local SEO for trades and small businesses across Bath, Somerset and Wiltshire. Fast sites from £250. GBP optimisation from £100.
             </p>
           </div>
 
@@ -116,6 +116,7 @@ const Footer = () => {
           <div className="flex items-center gap-6 text-xs text-white/55">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
+            <Link href="/credits" className="hover:text-white transition-colors">Credits</Link>
           </div>
         </div>
       </div>

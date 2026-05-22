@@ -279,6 +279,7 @@ export const STATIC_ROUTES = [
   { path: '/sitemap', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.5 },
   { path: '/privacy', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
   { path: '/terms', lastmod: '2026-02-21', changefreq: 'yearly', priority: 0.3 },
+  { path: '/credits', lastmod: '2026-05-22', changefreq: 'yearly', priority: 0.2 },
 ];
 
 /** Build all URLs for XML sitemap */

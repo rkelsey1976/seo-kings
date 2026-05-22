@@ -100,35 +100,35 @@ const areas = [
     slug: 'frome',
     description: 'Website design and local SEO for trades in Frome and the BA11 area.',
     postcodes: 'BA11',
-    image: '/images/areas/radstock.webp', // TODO: replace with frome.webp
+    image: '/images/areas/frome.webp',
   },
   {
     name: 'Bradford on Avon',
     slug: 'bradford-on-avon',
     description: 'Local websites for trades and businesses in Bradford on Avon.',
     postcodes: 'BA15',
-    image: '/images/areas/radstock.webp', // TODO: replace with bradford-on-avon.webp
+    image: '/images/areas/bradford-on-avon.webp',
   },
   {
     name: 'Corsham',
     slug: 'corsham',
     description: 'Website design and local SEO for Corsham trades and businesses.',
     postcodes: 'SN13',
-    image: '/images/areas/radstock.webp', // TODO: replace with corsham.webp
+    image: '/images/areas/corsham.webp',
   },
   {
     name: 'Shepton Mallet',
     slug: 'shepton-mallet',
     description: 'Get found on Google in Shepton Mallet and across BA4.',
     postcodes: 'BA4',
-    image: '/images/areas/radstock.webp', // TODO: replace with shepton-mallet.webp
+    image: '/images/areas/shepton-mallet.webp',
   },
   {
     name: 'Melksham',
     slug: 'melksham',
     description: 'Fast, Google-ready websites for trades in Melksham and SN12.',
     postcodes: 'SN12',
-    image: '/images/areas/radstock.webp', // TODO: replace with melksham.webp
+    image: '/images/areas/melksham.webp',
   },
 ];
 
