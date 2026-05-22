@@ -94,6 +94,42 @@ const areas = [
     postcodes: 'BS39',
     image: '/images/areas/clutton.webp',
   },
+  // ── Expansion areas — swap placeholder images when photos are available ──
+  {
+    name: 'Frome',
+    slug: 'frome',
+    description: 'Website design and local SEO for trades in Frome and the BA11 area.',
+    postcodes: 'BA11',
+    image: '/images/areas/radstock.webp', // TODO: replace with frome.webp
+  },
+  {
+    name: 'Bradford on Avon',
+    slug: 'bradford-on-avon',
+    description: 'Local websites for trades and businesses in Bradford on Avon.',
+    postcodes: 'BA15',
+    image: '/images/areas/radstock.webp', // TODO: replace with bradford-on-avon.webp
+  },
+  {
+    name: 'Corsham',
+    slug: 'corsham',
+    description: 'Website design and local SEO for Corsham trades and businesses.',
+    postcodes: 'SN13',
+    image: '/images/areas/radstock.webp', // TODO: replace with corsham.webp
+  },
+  {
+    name: 'Shepton Mallet',
+    slug: 'shepton-mallet',
+    description: 'Get found on Google in Shepton Mallet and across BA4.',
+    postcodes: 'BA4',
+    image: '/images/areas/radstock.webp', // TODO: replace with shepton-mallet.webp
+  },
+  {
+    name: 'Melksham',
+    slug: 'melksham',
+    description: 'Fast, Google-ready websites for trades in Melksham and SN12.',
+    postcodes: 'SN12',
+    image: '/images/areas/radstock.webp', // TODO: replace with melksham.webp
+  },
 ];
 
 const heroFeatures = [
@@ -138,10 +174,10 @@ const Areas = () => {
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
-        badge="Bath & North East Somerset"
-        title="Website Design in"
-        highlight="Bath & North East Somerset"
-        description="Someone in Keynsham, Bath or Midsomer Norton is searching for your trade right now. We build fast local websites that get you found and get you called. From £250, live in 2 weeks."
+        badge="Bath, Somerset & Wiltshire"
+        title="Website Design Across"
+        highlight="Bath, Somerset & Wiltshire"
+        description="Someone in Bath, Frome, Bradford on Avon or Melksham is searching for your trade right now. We build fast local websites that get you found and get you called. From £250, live in 2 weeks."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
@@ -155,7 +191,7 @@ const Areas = () => {
               All areas
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
-              Website Design Across Bath & BANES
+              Website Design Across Bath, Somerset &amp; Wiltshire
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
               Select your area to see what we&apos;ve done locally and what we can do for you.
@@ -209,7 +245,7 @@ const Areas = () => {
             <Link href="/website-designer-near-me" className="text-primary-light hover:underline">
               Check our full coverage
             </Link>{' '}
-            — we serve 41 areas across Bath & North East Somerset.
+            — we serve Bath, Somerset and Wiltshire.
           </p>
         </div>
       </section>
@@ -221,7 +257,7 @@ const Areas = () => {
             <div className="p-6 border-b border-white/10">
               <h2 className="text-xl font-bold text-white">Our Coverage Area</h2>
               <p className="text-gray-400 text-sm mt-1">
-                Bath & North East Somerset — click markers for area details
+                Bath, Somerset &amp; Wiltshire — click markers for area details
               </p>
             </div>
 
