@@ -160,6 +160,52 @@ export default function WebDesign() {
         ctaText="Get a free quote"
         ctaSecondary="Call Us Today"
         onGetQuote={() => setModalOpen(true)}
+        rightPanel={
+          <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
+            <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-4">
+              Google Maps · &ldquo;cleaning midsomer norton&rdquo;
+            </p>
+            <div className="space-y-3 mb-6">
+              {[
+                { name: 'Peachy Cleans — 4.9★ (38 reviews)', highlight: true },
+                { name: 'Commercial Cleaning Somerset Ltd', highlight: false },
+                { name: 'Mac with a Vac', highlight: false },
+              ].map((r, i) => (
+                <div
+                  key={r.name}
+                  className={`flex items-center gap-3 py-3 px-4 rounded-xl ${
+                    r.highlight
+                      ? 'bg-primary/10 border border-primary/20'
+                      : 'bg-white/[0.02] border border-white/5'
+                  }`}
+                >
+                  <span className={`text-xs font-bold w-5 text-center shrink-0 ${r.highlight ? 'text-primary-light' : 'text-gray-700'}`}>
+                    {i + 1}
+                  </span>
+                  <span className={`text-sm ${r.highlight ? 'text-white' : 'text-gray-600'}`}>
+                    {r.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-3">
+              Our work
+            </p>
+            <div className="grid grid-cols-2 gap-3">
+              {[
+                { label: 'Starting price', value: '£250' },
+                { label: 'Turnaround', value: '2 weeks' },
+                { label: 'Experience', value: '22 yrs' },
+                { label: 'No contracts', value: '✓' },
+              ].map(({ label, value }) => (
+                <div key={label} className="p-3 bg-white/5 rounded-xl text-center">
+                  <div className="text-lg font-bold text-white">{value}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        }
       />
 
       {/* ── RESULTS BAR ──────────────────────────── */}

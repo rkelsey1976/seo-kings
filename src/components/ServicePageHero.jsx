@@ -1,6 +1,27 @@
 import React from 'react';
 import Link from 'next/link';
 
+const defaultRightPanel = (
+  <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
+    <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">
+      Why SEO Kings
+    </p>
+    <div className="space-y-4">
+      {[
+        { label: 'Years of experience', value: '22' },
+        { label: 'Typical turnaround', value: '2 weeks' },
+        { label: 'Starting price', value: '£250' },
+        { label: 'Verified client results', value: '3' },
+      ].map(({ label, value }) => (
+        <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+          <span className="text-gray-400 text-sm">{label}</span>
+          <span className="text-xl font-bold text-white">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
 const ServicePageHero = ({
   badge,
   title,
@@ -10,6 +31,7 @@ const ServicePageHero = ({
   ctaText = 'Get a Quote',
   ctaSecondary = 'Call Us Today',
   onGetQuote,
+  rightPanel,
 }) => {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
@@ -83,22 +105,8 @@ const ServicePageHero = ({
               {/* Decorative Card Stack */}
               <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl" />
               <div className="absolute -top-2 -left-2 w-full h-full bg-gradient-to-br from-primary/30 to-secondary/30 rounded-2xl" />
-              <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
-                {/* Stats Preview */}
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                    <span className="text-gray-400">Average Results</span>
-                    <span className="text-2xl font-bold text-green-400">+340%</span>
-                  </div>
-                  <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                    <span className="text-gray-400">Client Satisfaction</span>
-                    <span className="text-2xl font-bold text-white">98%</span>
-                  </div>
-                  <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                    <span className="text-gray-400">Bath & North East Somerset Businesses</span>
-                    <span className="text-2xl font-bold gradient-text">150+</span>
-                  </div>
-                </div>
+              <div className="relative">
+                {rightPanel ?? defaultRightPanel}
               </div>
             </div>
           </div>
