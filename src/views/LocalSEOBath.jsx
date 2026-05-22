@@ -126,8 +126,8 @@ const LocalSEOBath = () => {
   return (
     <>
       <SEO
-        title="Local SEO Bath | Search Engine Optimisation BA1 & BA2"
-        description="Local SEO for Bath businesses. Google Business Profile optimisation, website SEO and review growth from £150/month. Serving BA1 & BA2. Free audit."
+        title="Local SEO Bath | Get in the Map Pack from £150/month"
+        description="We get Bath trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
         canonical="/local-seo/bath"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -233,13 +233,13 @@ const LocalSEOBath = () => {
                   <div key={pkg.name} className="flex items-center justify-between py-3 border-b border-white/[0.06] last:border-0">
                     <div>
                       <div className="text-white font-semibold text-sm">{pkg.name}</div>
-                      <div className="text-gray-500 text-xs">{pkg.desc}</div>
+                      <div className="text-gray-400 text-xs">{pkg.desc}</div>
                     </div>
                     <div className="font-bold text-primary">{pkg.price}</div>
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-gray-500 mb-6">All packages start with a free audit. No lock-in contracts.</p>
+              <p className="text-xs text-gray-400 mb-6">All packages start with a free audit. No lock-in contracts.</p>
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
@@ -272,7 +272,7 @@ const LocalSEOBath = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-500 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs">{r.location}</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

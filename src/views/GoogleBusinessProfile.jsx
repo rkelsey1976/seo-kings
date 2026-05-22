@@ -19,6 +19,25 @@ const GoogleBusinessProfile = () => {
     'Quick wins so you show up better in the map pack',
   ];
 
+  const rightPanel = (
+    <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
+      <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">Why SEO Kings</p>
+      <div className="space-y-4">
+        {[
+          { label: 'One-off price', value: '£100' },
+          { label: 'Time to first results', value: '< 2 weeks' },
+          { label: 'Years of experience', value: '22' },
+          { label: 'Verified map pack wins', value: '2+' },
+        ].map(({ label, value }) => (
+          <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+            <span className="text-gray-400 text-sm">{label}</span>
+            <span className="text-xl font-bold text-white">{value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
   return (
     <>
       <SEO
@@ -79,6 +98,7 @@ const GoogleBusinessProfile = () => {
         description="We optimise your Google Business Profile so you show up better in the map pack. Categories, keywords, services — done once for £100. Ongoing GBP management (posts, reviews) is included in our Local SEO packages."
         features={heroFeatures}
         ctaText="Get Your GBP Optimised"
+        rightPanel={rightPanel}
       />
 
       {/* One-off £100 — what's included */}

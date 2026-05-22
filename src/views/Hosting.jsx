@@ -94,6 +94,25 @@ const features = [
   },
 ];
 
+const hostingRightPanel = (
+  <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
+    <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">Why SEO Kings</p>
+    <div className="space-y-4">
+      {[
+        { label: 'Free with every website', value: '6 months' },
+        { label: 'Annual price after that', value: '£50/yr' },
+        { label: 'Years of experience', value: '22' },
+        { label: 'Uptime monitoring', value: '24/7' },
+      ].map(({ label, value }) => (
+        <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+          <span className="text-gray-400 text-sm">{label}</span>
+          <span className="text-xl font-bold text-white">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
 const Hosting = () => {
   return (
     <>
@@ -157,6 +176,7 @@ const Hosting = () => {
         description="SSL, backups, monitoring, content tweaks — all included. 6 months free with every website, then £50/year. You focus on the job. We keep your site fast, secure and online."
         features={['6 months free', '£50/year after', 'No lock-in contracts', 'Direct support']}
         ctaText="Get Your Free Audit"
+        rightPanel={hostingRightPanel}
       />
 
       {/* What you get */}

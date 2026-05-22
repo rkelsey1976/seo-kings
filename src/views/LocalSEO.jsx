@@ -76,6 +76,25 @@ const heroFeatures = [
   'Monthly Reporting',
 ];
 
+const localSeoRightPanel = (
+  <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
+    <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">Real Results</p>
+    <div className="space-y-4">
+      {[
+        { label: 'From per month', value: '£150' },
+        { label: 'Peachy Cleans — Map Pack', value: '#1' },
+        { label: 'New Decorating — Map Pack', value: 'Top 3' },
+        { label: 'Time to first rankings', value: '< 1 week' },
+      ].map(({ label, value }) => (
+        <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+          <span className="text-gray-400 text-sm">{label}</span>
+          <span className="text-xl font-bold text-white">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
 const LocalSEO = () => {
   return (
     <>
@@ -135,6 +154,7 @@ const LocalSEO = () => {
         description="Many of our clients use Local SEO to expand on the website we already built for them — more traffic, more calls, same site. Rank higher on Google for the searches that matter."
         features={heroFeatures}
         ctaText="Get a Free Website Quote"
+        rightPanel={localSeoRightPanel}
       />
 
       {/* Expand on your website – simple one-liner */}
