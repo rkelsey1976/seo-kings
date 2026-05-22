@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
+import ServicePageHero from '../components/ServicePageHero';
 
 const whatWeDo = [
   'Keyword research for "seo Midsomer Norton", "seo agency Midsomer Norton" and every trade search in your area',
@@ -122,6 +123,25 @@ const schema = {
   ],
 };
 
+const rightPanel = (
+  <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
+    <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">Real Results</p>
+    <div className="space-y-4">
+      {[
+        { label: 'From per month', value: '£150' },
+        { label: 'Peachy Cleans — Map Pack', value: '#1' },
+        { label: 'New Decorating — Map Pack', value: 'Top 3' },
+        { label: 'First results in', value: '< 4 weeks' },
+      ].map(({ label, value }) => (
+        <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+          <span className="text-gray-400 text-sm">{label}</span>
+          <span className="text-xl font-bold text-white">{value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
 const LocalSEOMidsomerNorton = () => {
   return (
     <>
@@ -137,69 +157,15 @@ const LocalSEOMidsomerNorton = () => {
         schemas={[schema]}
       />
 
-      {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <nav className="mb-8" aria-label="Breadcrumb">
-            <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <li aria-hidden="true">/</li>
-              <li><Link href="/local-seo" className="hover:text-white transition-colors">Local SEO</Link></li>
-              <li aria-hidden="true">/</li>
-              <li className="text-white">Midsomer Norton</li>
-            </ol>
-          </nav>
-          <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
-              Serving BA3 · Somer Valley
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Local SEO{' '}
-              <span className="text-primary">Midsomer Norton</span>
-            </h1>
-            <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              When someone in Midsomer Norton searches for your trade or service, are you the first result they see? We help businesses across BA3 and the Somer Valley rank in the Map Pack and the organic results — so you get more calls and more work.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
-              >
-                Get a Free SEO Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-              <a
-                href="tel:+447702264921"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/10 hover:border-white/20 transition-colors duration-200"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                07702 264 921
-              </a>
-            </div>
-
-            <div className="flex flex-wrap gap-6 mt-10">
-              {[
-                { label: 'From £150/month' },
-                { label: 'Free audit included' },
-                { label: 'Google Business Profile' },
-                { label: 'Serving BA3' },
-              ].map((t) => (
-                <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  {t.label}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <ServicePageHero
+        badge="Serving BA3 · Somer Valley"
+        title="Local SEO"
+        highlight="Midsomer Norton"
+        description="When someone in Midsomer Norton searches for your trade or service, are you the first result they see? We help businesses across BA3 and the Somer Valley rank in the Map Pack and the organic results — so you get more calls and more work."
+        features={['From £150/month', 'Free audit included', 'Google Business Profile', 'Serving BA3']}
+        ctaText="Get a Free SEO Audit"
+        rightPanel={rightPanel}
+      />
 
       {/* What we do */}
       <section className="py-24 border-t border-white/[0.06]">
@@ -233,13 +199,13 @@ const LocalSEOMidsomerNorton = () => {
                   <div key={pkg.name} className="flex items-center justify-between py-3 border-b border-white/[0.06] last:border-0">
                     <div>
                       <div className="text-white font-semibold text-sm">{pkg.name}</div>
-                      <div className="text-gray-500 text-xs">{pkg.desc}</div>
+                      <div className="text-gray-400 text-xs">{pkg.desc}</div>
                     </div>
                     <div className="font-bold text-primary">{pkg.price}</div>
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-gray-500 mb-6">All packages start with a free audit. No lock-in contracts.</p>
+              <p className="text-xs text-gray-400 mb-6">All packages start with a free audit. No lock-in contracts.</p>
               <Link
                 href="/contact"
                 className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
@@ -270,9 +236,9 @@ const LocalSEOMidsomerNorton = () => {
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
+                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-500 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs">{r.location}</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -300,13 +266,6 @@ const LocalSEOMidsomerNorton = () => {
             <p className="text-gray-400 leading-relaxed mb-8">
               Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-midsomer-norton" className="underline hover:text-white transition-colors text-primary">website design Midsomer Norton</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
-              SEO Kings<br />
-              16a Culvers Road<br />
-              Keynsham, Somerset<br />
-              BS31 2DW<br />
-              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
-            </address>
           </div>
         </div>
       </section>
@@ -314,7 +273,7 @@ const LocalSEOMidsomerNorton = () => {
       {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
             <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about local SEO in Midsomer Norton</h2>
             <FAQAccordion faqs={faqs} />
