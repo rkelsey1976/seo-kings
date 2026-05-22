@@ -147,36 +147,6 @@ const Areas = () => {
         ctaSecondary="Call Us Today"
       />
 
-      {/* ── COVERAGE MAP ─────────────────────────── */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-dark-card border border-white/10 rounded-2xl overflow-hidden">
-            <div className="p-6 border-b border-white/10">
-              <h2 className="text-xl font-bold text-white">Our Coverage Area</h2>
-              <p className="text-gray-400 text-sm mt-1">
-                Bath & North East Somerset — click markers for area details
-              </p>
-            </div>
-
-            <BANESMap />
-
-            <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10 border-t border-white/10">
-              {[
-                { value: '22', label: 'Years experience' },
-                { value: '£250', label: 'Websites from' },
-                { value: '2 wks', label: 'Typical turnaround' },
-                { value: '3', label: 'Verified client results' },
-              ].map(({ value, label }) => (
-                <div key={label} className="p-6 text-center">
-                  <div className="text-3xl font-bold gradient-text">{value}</div>
-                  <div className="text-sm text-gray-400 mt-1">{label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ── AREAS GRID ───────────────────────────── */}
       <section className="py-20 bg-dark-lighter">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,6 +211,36 @@ const Areas = () => {
             </Link>{' '}
             — we serve 41 areas across Bath & North East Somerset.
           </p>
+        </div>
+      </section>
+
+      {/* ── COVERAGE MAP ─────────────────────────── */}
+      <section className="py-12 bg-dark-lighter border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-dark-card border border-white/10 rounded-2xl overflow-hidden">
+            <div className="p-6 border-b border-white/10">
+              <h2 className="text-xl font-bold text-white">Our Coverage Area</h2>
+              <p className="text-gray-400 text-sm mt-1">
+                Bath & North East Somerset — click markers for area details
+              </p>
+            </div>
+
+            <BANESMap />
+
+            <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10 border-t border-white/10">
+              {[
+                { value: '22', label: 'Years experience' },
+                { value: '£250', label: 'Websites from' },
+                { value: '2 wks', label: 'Typical turnaround' },
+                { value: '3', label: 'Verified client results' },
+              ].map(({ value, label }) => (
+                <div key={label} className="p-6 text-center">
+                  <div className="text-3xl font-bold gradient-text">{value}</div>
+                  <div className="text-sm text-gray-400 mt-1">{label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
