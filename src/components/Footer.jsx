@@ -29,6 +29,7 @@ const Footer = () => {
                 {[
                   { label: 'Website Design', href: '/web-design' },
                   { label: 'Web Design Packages', href: '/web-design-packages' },
+                  { label: 'Web Design for Trades', href: '/web-design-for' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
                   { label: 'Website Redesign', href: '/website-redesign' },
