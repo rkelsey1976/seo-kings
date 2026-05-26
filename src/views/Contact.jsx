@@ -147,7 +147,7 @@ const Contact = () => {
               '@type': 'PostalAddress',
               streetAddress: '16a Culvers Road',
               addressLocality: 'Keynsham',
-              addressRegion: 'Somerset',
+              addressRegion: 'Bath and North East Somerset',
               postalCode: 'BS31 2DW',
               addressCountry: 'GB',
             },

@@ -97,7 +97,7 @@ const schema = {
       ],
       offers: {
         '@type': 'Offer',
-        price: '399',
+        price: '250',
         priceCurrency: 'GBP',
         description: 'Cleaning business website from £250 — GBP optimisation available as a £100 add-on',
       },
@@ -112,7 +112,7 @@ const schema = {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
         addressLocality: 'Keynsham',
-        addressRegion: 'Somerset',
+        addressRegion: 'Bath and North East Somerset',
         postalCode: 'BS31 2DW',
         addressCountry: 'GB',
       },

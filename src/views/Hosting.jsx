@@ -149,7 +149,7 @@ const Hosting = () => {
               name: 'Annual Hosting and Maintenance',
               priceSpecification: {
                 '@type': 'PriceSpecification',
-                price: 199,
+                price: 50,
                 priceCurrency: 'GBP',
                 unitText: 'per year',
               },

@@ -6,6 +6,7 @@ import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import PricingModal from '../components/PricingModal';
+import ServicePageHero from '../components/ServicePageHero';
 
 const results = [
   {
@@ -86,7 +87,7 @@ const schema = {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
         addressLocality: 'Keynsham',
-        addressRegion: 'Somerset',
+        addressRegion: 'Bath and North East Somerset',
         postalCode: 'BS31 2DW',
         addressCountry: 'GB',
       },
@@ -129,61 +130,21 @@ const WebsiteDesignerMelksham = () => {
       />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
-              Serving Melksham · SN12
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Website Designer{' '}
-              <span className="text-primary">Melksham</span>
-            </h1>
-            <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              We build fast, Google-ready websites for trades and local businesses in Melksham SN12. From £250. Add GBP optimisation for £100. Live in under 2 weeks.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
-              >
-                Get a Free Audit
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-              <a
-                href="tel:+447702264921"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/10 hover:border-white/20 transition-colors duration-200"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                07702 264 921
-              </a>
-            </div>
-
-            {/* Trust signals */}
-            <div className="flex flex-wrap gap-6 mt-10">
-              {[
-                { label: 'From £250' },
-                { label: '6 months free hosting' },
-                { label: 'Live in under 2 weeks' },
-                { label: 'GBP optimisation +£100' },
-                { label: 'Proven local results' },
-              ].map((t) => (
-                <div key={t.label} className="flex items-center gap-2 text-sm text-gray-400">
-                  <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  {t.label}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <ServicePageHero
+        badge="Serving Melksham · SN12"
+        title="Website Designer"
+        highlight="Melksham"
+        description="We build fast, Google-ready websites for trades and local businesses in Melksham SN12. From £250. Add GBP optimisation for £100. Live in under 2 weeks."
+        features={[
+          'From £250',
+          '6 months free hosting',
+          'Live in under 2 weeks',
+          'GBP optimisation +£100',
+          'Proven local results',
+        ]}
+        ctaText="Get a Free Audit"
+        ctaSecondary="Call Us Today"
+      />
 
       {/* What's included */}
       <section className="py-24 border-t border-white/[0.06]">

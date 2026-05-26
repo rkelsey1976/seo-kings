@@ -84,12 +84,12 @@ const schema = {
       name: 'SEO Kings',
       description: 'SEO and web design agency in Bath, serving trades and local businesses across BA1, BA2 and North East Somerset. Websites from £250, local SEO from £150/month.',
       url: 'https://seo-kings.co.uk/areas/bath',
-      telephone: '+447****4921',
+      telephone: '+447702264921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
         addressLocality: 'Keynsham',
-        addressRegion: 'Somerset',
+        addressRegion: 'Bath and North East Somerset',
         postalCode: 'BS31 2DW',
         addressCountry: 'GB',
       },
@@ -291,7 +291,7 @@ const BathHub = () => {
                   <span className="text-gray-500 text-xs">10 mins from Bath city centre</span>
                 </div>
                 <a
-                  href="tel:+447****4921"
+                  href="tel:+447702264921"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors mt-4"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">

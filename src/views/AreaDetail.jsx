@@ -79,7 +79,7 @@ const BUSINESS_ADDRESS_KEYNSHAM = {
   '@type': 'PostalAddress',
   streetAddress: '16a Culvers Road',
   addressLocality: 'Keynsham',
-  addressRegion: 'Somerset',
+  addressRegion: 'Bath and North East Somerset',
   postalCode: 'BS31 2DW',
   addressCountry: 'GB',
 };
@@ -391,7 +391,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Keynsham',
         paragraphs: [
-          'Website design in Keynsham starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
+          'Website design in Keynsham starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. Add GBP optimisation for £100. We\'re clear about what\'s included so Keynsham businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -540,7 +540,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Midsomer Norton',
         paragraphs: [
-          'Website design in Midsomer Norton starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
+          'Website design in Midsomer Norton starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. Add GBP optimisation for £100. We\'re clear about what\'s included so Midsomer Norton businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookFor: {
@@ -551,7 +551,7 @@ const AreaDetail = ({ params: staticParams }) => {
         ],
       },
       faqs: [
-        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.' },
+        { question: 'How much does website design cost in Midsomer Norton?', answer: 'Website design in Midsomer Norton starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450. GBP optimisation available as a £100 add-on. See our web design packages for full details.' },
         { question: 'Do you build websites optimised for local Midsomer Norton searches?', answer: 'Yes. Every site we build is optimised for local searches like "website designer Midsomer Norton", "web design Midsomer Norton BA3" and your trade keywords. We integrate Google Business Profile from day one so you get found on Google and in the map pack.' },
         { question: 'Is SEO worth it for a small Midsomer Norton business?', answer: 'Yes. Smaller towns like Midsomer Norton have lower competition. A good local setup can quickly put you at the top and bring steady jobs.' },
         { question: 'How do you target Midsomer Norton specifically?', answer: 'We use local keywords, optimise your Google Business Profile, build citations in Bath and North East Somerset directories, and earn links from nearby sites.' },
@@ -688,7 +688,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Radstock',
         paragraphs: [
-          'Website design in Radstock starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
+          'Website design in Radstock starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. Add GBP optimisation for £100. We\'re clear about what\'s included so Radstock businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -704,7 +704,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Radstock?',
-          answer: 'Website design in Radstock starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. See our web design packages for full details.',
+          answer: 'Website design in Radstock starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450. GBP optimisation available as a £100 add-on. See our web design packages for full details.',
         },
         {
           question: 'Is there enough search volume in Radstock for SEO to work?',
@@ -1041,7 +1041,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSection: {
         heading: 'Website design costs in Saltford',
         paragraphs: [
-          'Website design in Saltford starts at £250 for a one-page or multi-page site built to get you found on Google. A mobile-friendly site built for local search. Add GBP optimisation for £100. Multi-page small business sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
+          'Website design in Saltford starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450, a 10-page site is £700. Add GBP optimisation for £100. We\'re clear about what\'s included so Saltford businesses can plan. See our web design packages for full details.',
         ],
       },
       whatToLookForSection: {
@@ -1057,7 +1057,7 @@ const AreaDetail = ({ params: staticParams }) => {
       faqs: [
         {
           question: 'How much does website design cost in Saltford?',
-          answer: 'Website design in Saltford starts at £250 for a one-page site. GBP optimisation available as a £100 add-on. Multi-page sites typically run from around £800–£2,500 depending on pages and content. We\'re clear about what\'s included — see our web design packages for full details.',
+          answer: 'Website design in Saltford starts at £250. Each additional page is £50 — a 3-page site is £350, a 5-page site is £450. GBP optimisation available as a £100 add-on. See our web design packages for full details.',
         },
         {
           question: 'Do you build websites optimised for local Saltford searches?',

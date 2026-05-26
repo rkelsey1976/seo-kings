@@ -214,7 +214,7 @@ const WebDesignerNearMe = () => {
           {
             '@type': 'Offer',
             availability: 'https://schema.org/InStock',
-            priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'GBP', minPrice: 399, valueAddedTaxIncluded: true },
+            priceSpecification: { '@type': 'PriceSpecification', priceCurrency: 'GBP', minPrice: 250, valueAddedTaxIncluded: true },
             url: 'https://seo-kings.co.uk/web-design',
           },
         ],

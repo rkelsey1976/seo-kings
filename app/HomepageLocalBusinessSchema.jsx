@@ -19,12 +19,12 @@ const websiteDesignPackageOffers = [
       '@type': 'Service',
       name: 'Starter – 1-page website',
       description:
-        'Single-page site with services, contact and area info, contact form and click-to-call. Mobile-responsive, SEO basics, 6 months free hosting, SSL, UK support. GBP optimisation available as a £100 add-on.',
+        'Single-page site with services, contact and area info, contact form and click-to-call. Mobile-responsive, local SEO from day one, 6 months free hosting, SSL. GBP optimisation available as a £100 add-on.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 399,
+      price: 250,
       valueAddedTaxIncluded: true,
     },
   },
@@ -35,32 +35,32 @@ const websiteDesignPackageOffers = [
     url: `${siteUrl}/contact?package=professional`,
     itemOffered: {
       '@type': 'Service',
-      name: 'Professional – multi-page website',
+      name: 'Professional – 3-page website',
       description:
-        '3–5 pages, full custom design, contact form and callback request, portfolio or gallery. Google Business Profile optimisation for 3 services, 4 locations. Mobile-responsive, SEO optimised, 12 months hosting, 30-day post-launch support.',
+        '3-page site (£250 base + £50 per additional page), full custom design, contact form and callback request, portfolio or gallery. Local SEO optimised, 6 months free hosting, SSL. GBP optimisation available as a £100 add-on.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 599,
+      price: 350,
       valueAddedTaxIncluded: true,
     },
   },
   {
     '@type': 'Offer',
-    name: 'Full Package',
+    name: 'Full',
     availability: 'https://schema.org/InStock',
     url: `${siteUrl}/contact?package=full`,
     itemOffered: {
       '@type': 'Service',
-      name: 'Full Package – complete website',
+      name: 'Full – 5-page website',
       description:
-        '5+ pages, full custom design, contact form, callback and booking, portfolio/gallery, social media integration. Google Business Profile optimisation for 5 services, 8 locations. SEO optimised, 12 months hosting, 60-day post-launch support.',
+        '5-page site (£250 base + £50 per additional page), full custom design, contact form, callback and booking, portfolio/gallery. Local SEO optimised, 6 months free hosting, SSL. GBP optimisation available as a £100 add-on.',
     },
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: 'GBP',
-      price: 999,
+      price: 450,
       valueAddedTaxIncluded: true,
     },
   },
@@ -84,7 +84,7 @@ const homepageLocalBusinessSchema = {
     '@type': 'PostalAddress',
     streetAddress: '16a Culvers Road',
     addressLocality: 'Keynsham',
-    addressRegion: 'Somerset',
+    addressRegion: 'Bath and North East Somerset',
     postalCode: 'BS31 2DW',
     addressCountry: 'GB',
   },

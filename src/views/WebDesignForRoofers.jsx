@@ -91,7 +91,7 @@ const schema = {
       ],
       offers: {
         '@type': 'Offer',
-        price: '399',
+        price: '250',
         priceCurrency: 'GBP',
         description: 'Roofer website from £250 — GBP optimisation available as a £100 add-on',
       },
@@ -101,12 +101,12 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
       url: 'https://seo-kings.co.uk/web-design-for/roofers',
-      telephone: '+447****4921',
+      telephone: '+447702264921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
         addressLocality: 'Keynsham',
-        addressRegion: 'Somerset',
+        addressRegion: 'Bath and North East Somerset',
         postalCode: 'BS31 2DW',
         addressCountry: 'GB',
       },
@@ -160,7 +160,7 @@ const WebDesignForRoofers = () => {
                 Get a Free Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <a href="tel:+447****4921" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/10 hover:border-white/20 transition-colors duration-200">
+              <a href="tel:+447702264921" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white border border-white/10 hover:border-white/20 transition-colors duration-200">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 07702 264 921
               </a>
@@ -291,7 +291,7 @@ const WebDesignForRoofers = () => {
               16a Culvers Road<br />
               Keynsham, Somerset<br />
               BS31 2DW<br />
-              <a href="tel:+447****4921" className="hover:text-white transition-colors">07702 264 921</a>
+              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
           </div>
         </div>
