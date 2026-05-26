@@ -56,7 +56,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/radstock',
       url: 'https://seo-kings.co.uk/areas/radstock',
-      name: 'Web Design & SEO in Radstock | Somer Valley Trades | SEO Kings',
+      name: 'SEO & Web Design in Radstock | Somer Valley Trades | SEO Kings',
       description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Radstock BA3. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
@@ -120,7 +120,7 @@ const RadstockHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Radstock | Somer Valley Trades"
+        title="SEO & Web Design in Radstock | Somer Valley Trades"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Radstock BA3. Websites from £250, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/radstock"
         breadcrumbs={[
@@ -133,7 +133,7 @@ const RadstockHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Radstock · BA3"
-        title="Web Design &amp; SEO in"
+        title="SEO &amp; Web Design in"
         highlight="Radstock"
         description="One team. Three services. All focused on getting your Radstock business found on Google. A less competitive market than Bath — which means faster results for the right trade."
         features={heroFeatures}
@@ -162,7 +162,7 @@ const RadstockHub = () => {
               <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
               <p className="text-xl font-bold mb-3 text-primary">From £250</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Fast, mobile-first websites for Radstock trades and local businesses — built for local search from day one, not as an afterthought.
+                Fast, mobile-first websites for Radstock trades and local businesses. See the full website design page for packages and pricing.
               </p>
               <div className="border-t border-white/[0.06] pt-6 mb-6">
                 <ul className="space-y-3">

@@ -56,7 +56,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/midsomer-norton',
       url: 'https://seo-kings.co.uk/areas/midsomer-norton',
-      name: 'Web Design & SEO in Midsomer Norton | Somer Valley Trades | SEO Kings',
+      name: 'SEO & Web Design in Midsomer Norton | Somer Valley Trades | SEO Kings',
       description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Midsomer Norton BA3. Websites from £250, local SEO from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
@@ -120,7 +120,7 @@ const MidsomerNortonHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Midsomer Norton | Somer Valley Trades"
+        title="SEO & Web Design in Midsomer Norton | Somer Valley Trades"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Midsomer Norton BA3. Websites from £250, local SEO from £150/month. Free audit."
         canonical="/areas/midsomer-norton"
         breadcrumbs={[
@@ -133,7 +133,7 @@ const MidsomerNortonHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Midsomer Norton · BA3"
-        title="Web Design &amp; SEO in"
+        title="SEO &amp; Web Design in"
         highlight="Midsomer Norton"
         description="One team. Three services. All focused on getting your Midsomer Norton business found on Google. Most trades here still have slow sites and poorly optimised GBPs — we fix that."
         features={heroFeatures}
@@ -162,7 +162,7 @@ const MidsomerNortonHub = () => {
               <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
               <p className="text-xl font-bold mb-3 text-primary">From £250</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Fast, mobile-first websites for Midsomer Norton trades and local businesses — built for local search from day one, not as an afterthought.
+                Fast, mobile-first websites for Midsomer Norton trades and local businesses. See the full website design page for packages and pricing.
               </p>
               <div className="border-t border-white/[0.06] pt-6 mb-6">
                 <ul className="space-y-3">

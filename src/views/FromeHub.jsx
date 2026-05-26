@@ -56,7 +56,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/frome',
       url: 'https://seo-kings.co.uk/areas/frome',
-      name: 'Web Design & SEO in Frome | SEO Kings',
+      name: 'SEO & Web Design in Frome | SEO Kings',
       description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Frome BA11. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
@@ -120,7 +120,7 @@ const FromeHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Frome | Somerset Trades | SEO Kings"
+        title="SEO & Web Design in Frome | Somerset Trades | SEO Kings"
         description="Web design, local SEO and Google Business Profile for trades and local businesses in Frome BA11. Websites from £250, local SEO from £150/month. Free audit — no obligation."
         canonical="/areas/frome"
         breadcrumbs={[
@@ -133,7 +133,7 @@ const FromeHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Frome · BA11"
-        title="Web Design &amp; SEO in"
+        title="SEO &amp; Web Design in"
         highlight="Frome"
         description="Frome is one of Somerset's fastest-growing towns — creative, independent, full of trades. We make sure local customers find your business first on Google."
         features={heroFeatures}
@@ -162,7 +162,7 @@ const FromeHub = () => {
               <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
               <p className="text-xl font-bold mb-3 text-primary">From £250</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Fast, mobile-first websites for Frome trades and local businesses — built for local search from day one, not as an afterthought.
+                Fast, mobile-first websites for Frome trades and local businesses. See the full website design page for packages and pricing.
               </p>
               <div className="border-t border-white/[0.06] pt-6 mb-6">
                 <ul className="space-y-3">
