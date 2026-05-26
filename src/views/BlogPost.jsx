@@ -15,7 +15,14 @@ const blogPosts = {
     date: '2026-02-05',
     readTime: '4 min read',
     author: 'SEO Kings',
-    keywords: 'website design Bath, web design Bath and North East Somerset, Lighthouse performance, SEO websites, fast websites',
+    keywords: 'how to build websites that rank, website performance SEO, Lighthouse score, fast website rankings, web design and SEO',
+    ctaHeading: 'Ready to build a website that looks great and ranks?',
+    ctaBody: 'We build fast, beautiful websites for Bath and North East Somerset businesses — designed to rank on Google from day one.',
+    ctaLinks: [
+      { href: '/web-design', label: 'Website design' },
+      { href: '/web-design-packages', label: 'View packages & pricing' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
     sections: [
       {
         heading: 'Beautiful design and strong rankings - not either/or',
@@ -111,6 +118,12 @@ const blogPosts = {
     readTime: '4 min read',
     author: 'SEO Kings',
     keywords: 'Google reviews Bath, get more reviews, review strategy, GBP reviews',
+    ctaHeading: 'Want help growing your Google reviews?',
+    ctaBody: 'We manage and optimise Google Business Profiles for tradespeople and local businesses across Bath and North East Somerset.',
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'Google Business Profile management' },
+      { href: '/contact', label: 'Get a free GBP check' },
+    ],
     sections: [
       {
         heading: 'Why Google reviews matter for local visibility',
@@ -335,6 +348,12 @@ const blogPosts = {
     readTime: '5 min read',
     author: 'SEO Kings',
     keywords: 'free SEO audit Bath, SEO audit Bath and North East Somerset, what is an SEO audit, local SEO audit',
+    ctaHeading: 'Get your free local SEO audit',
+    ctaBody: 'We check your Google Business Profile, website and local citations — and give you a clear plan. No obligation, no jargon.',
+    ctaLinks: [
+      { href: '/local-seo', label: 'Local SEO services' },
+      { href: '/contact', label: 'Request your free audit' },
+    ],
     sections: [
       {
         heading: 'What is a local SEO audit?',
@@ -600,7 +619,7 @@ const blogPosts = {
       {
         heading: 'Website Design Costs for Keynsham Businesses',
         paragraphs: [
-          'Pricing is one of the first questions we hear. Here\'s a straight answer so you know what to expect. For a typical small business or trade in Keynsham and the surrounding area: a simple one-page or small brochure site is roughly £400-£800. Often it includes the basics: your services, area, contact details, and a mobile-friendly layout. Add GBP optimisation for £100 — we set up your categories, keywords, hours and service area. A multi-page small business site is roughly £800-£2,500 - more pages, more services, maybe a gallery or testimonials. Still aimed at getting you found locally and generating leads. E-commerce or complex builds run from around £2,500 upward, depending on products, payment, and functionality.',
+          'Pricing is one of the first questions we hear. Here\'s the straight answer: our websites start at £250 for a one-page site — services, contact, area info, and click-to-call. Each additional page is £50. A 3-page site is £350, a 5-page site is £450, a 10-page site is £700. Add GBP optimisation for £100. No lock-in, no hidden fees. See our web design packages for full details.',
           'SEO Kings\' website design starts at £250 for a one-page or multi-page site built to get you found on Google, GBP optimisation available as a £100 add-on. No hidden catches. See our website design packages at seo-kings.co.uk/web-design for more detail.',
           'Cost depends on how many pages you need, whether you need e-commerce, and how much content (text, images) you provide. Extra locations or services for local SEO can be added via our Local SEO service (seo-kings.co.uk/local-seo) once you\'re happy with your site. After launch, you\'ll usually have hosting (often £50-£200 a year for a small site) and optionally maintenance or support. If you add Local SEO to target more keywords or areas, that\'s a monthly fee. We\'re clear about what\'s included and what\'s optional so Keynsham businesses can plan.',
         ],
@@ -626,7 +645,7 @@ const blogPosts = {
       {
         heading: 'Conclusion',
         paragraphs: [
-          'If you\'re looking for Keynsham website designers or website design Keynsham, the goal is simple: a professional, mobile-friendly site and a Google presence that gets you on page 1 and in the map pack. That\'s how you stop missing calls and start winning more local work. Get a site built for local search - fast, mobile-first, with clear CTAs. Get your Google Business Profile right so you show up when people search for your trade in Keynsham, Bath, or Bristol. Know the costs upfront - from around £400 for a simple, effective site; we start at £250. Add GBP optimisation for £100. Choose a team that knows the area and that focuses on results, not jargon. SEO Kings helps trades and local businesses in Keynsham, Bath, Midsomer Norton, Radstock, Saltford, and across BANES get found on Google. Get your free audit today at seo-kings.co.uk/contact. No obligation, no credit card required.',
+          'If you\'re looking for Keynsham website designers or website design Keynsham, the goal is simple: a professional, mobile-friendly site and a Google presence that gets you on page 1 and in the map pack. That\'s how you stop missing calls and start winning more local work. Get a site built for local search - fast, mobile-first, with clear CTAs. Get your Google Business Profile right so you show up when people search for your trade in Keynsham, Bath, or Bristol. Know the costs upfront — we start at £250, each additional page is £50. Add GBP optimisation for £100. Choose a team that knows the area and that focuses on results, not jargon. SEO Kings helps trades and local businesses in Keynsham, Bath, Midsomer Norton, Radstock, Saltford, and across BANES get found on Google. Get your free audit today at seo-kings.co.uk/contact. No obligation, no credit card required.',
         ],
       },
     ],
@@ -1109,8 +1128,11 @@ const blogPosts = {
         ],
       },
     ],
+    ctaHeading: 'Want a website that loads fast and ranks well?',
+    ctaBody: 'We build high-performance websites for Bath and North East Somerset businesses — 95+ Lighthouse scores, built to rank.',
     ctaLinks: [
       { href: '/web-design', label: 'Website design' },
+      { href: '/web-design-packages', label: 'Packages & pricing' },
       { href: '/contact', label: 'Free speed & SEO check' },
     ],
   },
@@ -1447,12 +1469,12 @@ const BlogPost = ({ params: staticParams }) => {
           {/* CTA */}
           <div className="mt-16 p-8 bg-dark-card border border-white/[0.06] rounded-2xl text-center">
             <h3 className="text-xl font-semibold text-white mb-2 tracking-tight">
-              {post.ctaLinks ? 'See the full story or get your own' : 'Ready to improve your local visibility?'}
+              {post.ctaHeading ?? (post.ctaLinks ? 'See the full story or get your own' : 'Ready to improve your local visibility?')}
             </h3>
             <p className="text-sm leading-relaxed mb-6 text-white/55">
-              {post.ctaLinks
+              {post.ctaBody ?? (post.ctaLinks
                 ? 'View the full Client Spotlight, our web design packages, or get a free check of your website and Google listing.'
-                : 'We offer a free local SEO audit and build websites that rank. Get in touch for a no-obligation chat.'}
+                : 'We offer a free local SEO audit and build websites that rank. Get in touch for a no-obligation chat.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center flex-wrap">
               {post.ctaLinks ? (
