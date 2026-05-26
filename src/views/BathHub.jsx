@@ -8,49 +8,53 @@ import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 
 const heroFeatures = [
+  '6+ years in Bath & BANES',
   'Websites from £250',
   'Local SEO from £150/month',
-  '10 mins from Bath city centre',
   'Free audit — no obligation',
 ];
 
-const results = [
+const testimonials = [
   {
-    business: 'New Decorating',
-    location: 'Bath',
-    result: 'Top 3 Map Pack',
-    keyword: '"exterior painter Bath"',
-    slug: 'new-decorating',
+    quote:
+      "Brand new business, no website, no social media. SEO Kings built everything from scratch in under a week. I'm already getting calls from people finding me on Google in Bath. Couldn't ask for more.",
+    name: 'Ross',
+    business: 'Aurelian Massage',
+    location: 'Bath City Centre',
   },
   {
-    business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
-    result: 'Map Pack',
-    keyword: '"cleaning Midsomer Norton"',
-    slug: 'peachy-cleans',
+    quote:
+      "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area.",
+    name: 'Jay',
+    business: 'New Decorating',
+    location: 'Bath & BANES',
   },
 ];
 
 const faqs = [
   {
-    q: "What's the best starting point for a Bath business?",
-    a: "For most trades, a website and Google Business Profile together give you the strongest foundation. A website signals legitimacy; GBP puts you on the map. Local SEO then builds on both. We'll tell you honestly in your free audit which to prioritise for your situation.",
+    q: 'Why use a Bath-based SEO agency?',
+    a: "Because local knowledge matters. We know which Bath keywords drive actual phone calls versus which just look good on a report. We know which trade categories are most competitive in Bath's Map Pack, which postcodes (BA1 vs BA2) behave differently in search, and what it takes to get a trades business from invisible to page one. An agency outside the area doesn't have that context.",
   },
   {
-    q: 'Do I need a website before I can do local SEO?',
-    a: "Not strictly — a well-optimised Google Business Profile alone can win work. But a website makes every other signal stronger and gives you somewhere to send traffic. Most Bath clients do website and SEO together as one package, one monthly plan.",
+    q: 'What services do you offer Bath businesses?',
+    a: "Three services, all built around getting you found on Google: website design from £250, local SEO from £150/month, and Google Business Profile optimisation from £100. Most Bath clients combine website design and local SEO — they work best together. You can explore each service on its own page below.",
   },
   {
     q: 'How competitive is Bath for local search?',
-    a: "More competitive than the Somerset towns, but many Bath trades still have poorly optimised GBPs and slow websites — so there's real room to move. We've helped clients go from invisible to the map pack in Bath within a few months.",
+    a: "More competitive than the Somerset towns, but many Bath trades still have poorly optimised GBPs and slow websites — so there's real room to move. We've helped clients go from invisible to the map pack in Bath within a few months. The businesses that lose out are the ones doing nothing.",
+  },
+  {
+    q: 'Do you work with specific trades in Bath?',
+    a: "We work with any trade or local business in Bath — painters, plumbers, electricians, builders, massage therapists, cleaners, kitchen fitters, and more. We have dedicated trade pages for many of these. The approach is the same: find the searches your customers are actually doing, build or optimise your site for those searches, make sure your Google Business Profile is set up to convert.",
   },
   {
     q: 'How long before I see results?',
-    a: "GBP improvements can show within weeks. Ranking for competitive Bath keywords like 'plumber Bath' or 'electrician BA1' typically takes 3–6 months. We give you monthly reports so you see exactly what's moving.",
+    a: "GBP improvements can show within weeks. Ranking for competitive Bath keywords like 'plumber Bath' or 'electrician BA1' typically takes 3–6 months. We give you monthly reports so you see exactly what's moving. A website goes live in under 2 weeks.",
   },
   {
     q: 'What does it cost overall?',
-    a: "Website design from £250. Local SEO from £150/month — includes GBP optimisation, on-page fixes, citations and monthly reporting. Free audit first, so you know exactly what you're getting and why before you commit to anything.",
+    a: "Website design from £250. Local SEO from £150/month. GBP optimisation from £100 one-off. Free audit first, so you know exactly what you're getting and why before you commit to anything. No lock-in contracts.",
   },
 ];
 
@@ -61,15 +65,16 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/bath',
       url: 'https://seo-kings.co.uk/areas/bath',
-      name: 'Website Design, Local SEO & GBP for Bath Businesses | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses across Bath BA1 & BA2. Websites from £250, SEO from £150/month. Free audit.',
+      name: 'SEO Agency Bath | Web Design, Local SEO & GBP | SEO Kings',
+      description: 'SEO and web design agency in Bath BA1 & BA2. Websites from £250, local SEO from £150/month, GBP optimisation from £100. 6+ years helping Bath trades get found on Google. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Bath' },
+          { '@type': 'ListItem', position: 2, name: 'Areas' },
+          { '@type': 'ListItem', position: 3, name: 'Bath' },
         ],
       },
     },
@@ -77,9 +82,9 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile agency serving Bath BA1 & BA2. Fast, mobile-first websites from £250 and local SEO from £150/month for trades and local businesses across Bath and North East Somerset.',
+      description: 'SEO and web design agency in Bath, serving trades and local businesses across BA1, BA2 and North East Somerset. Websites from £250, local SEO from £150/month.',
       url: 'https://seo-kings.co.uk/areas/bath',
-      telephone: '+447702264921',
+      telephone: '+447****4921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
@@ -121,15 +126,22 @@ const CheckIcon = () => (
   </svg>
 );
 
+const ArrowRight = () => (
+  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+  </svg>
+);
+
 const BathHub = () => {
   return (
     <>
       <SEO
-        title="Website Design, Local SEO & GBP for Bath Businesses | SEO Kings"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses across Bath BA1 & BA2. Websites from £250, SEO from £150/month. Free audit."
+        title="SEO Agency Bath | Web Design, Local SEO & GBP | SEO Kings"
+        description="SEO and web design agency in Bath BA1 & BA2. Websites from £250, local SEO from £150/month, GBP optimisation from £100. 6+ years helping Bath trades get found on Google. Free audit."
         canonical="/areas/bath"
         breadcrumbs={[
           { name: 'Home', url: '/' },
+          { name: 'Areas', url: '/areas' },
           { name: 'Bath' },
         ]}
         schemas={[schema]}
@@ -138,15 +150,15 @@ const BathHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Bath · BA1 &amp; BA2"
-        title="Web Design &amp; SEO in"
+        title="SEO &amp; Web Design Agency in"
         highlight="Bath"
-        description="One team. Three services. All focused on getting your Bath business found on Google. Bath is competitive — but most trades here still have slow sites and poorly optimised GBPs. We fix that."
+        description="We help Bath trades and local businesses get found on Google. Six years operating across BA1 and BA2 — we know which searches drive calls, which postcodes matter, and what it takes to move from invisible to the Map Pack."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
       />
 
-      {/* Services */}
+      {/* ── OUR SERVICES IN BATH (Hub → Spoke links) ── */}
       <section className="py-24 bg-dark-lighter border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
@@ -155,13 +167,13 @@ const BathHub = () => {
               Everything you need to get found in Bath
             </h2>
             <p className="text-gray-400 leading-relaxed max-w-2xl">
-              We keep it simple — three services, one team, clear monthly pricing. Most Bath clients combine website design and local SEO.
+              Three services, one team, clear pricing. Most Bath clients combine website design and local SEO — they work best together. Explore each service below.
             </p>
           </div>
 
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
 
-            {/* Card 1 — Website Design */}
+            {/* Card 1 — Website Design (links to spoke) */}
             <Link
               href="/website-designer-bath"
               className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
@@ -172,19 +184,16 @@ const BathHub = () => {
                 </svg>
               </div>
               <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">From £250</div>
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Website Design in Bath</h3>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Website Design</h3>
               <p className="text-gray-400 text-sm leading-relaxed flex-1">
-                Fast, mobile-first websites for Bath trades and local businesses. Built to rank for your trade and area from day one. Live in under 2 weeks.
+                Fast, mobile-first websites built to rank for your trade and area. Live in under 2 weeks. One-page from £250, multi-page from £350.
               </p>
               <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
-                See pricing & what&apos;s included
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                Website design Bath <ArrowRight />
               </div>
             </Link>
 
-            {/* Card 2 — Local SEO */}
+            {/* Card 2 — Local SEO (links to spoke) */}
             <Link
               href="/local-seo/bath"
               className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
@@ -195,19 +204,16 @@ const BathHub = () => {
                 </svg>
               </div>
               <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">From £150/month</div>
-              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Local SEO in Bath</h3>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Local SEO</h3>
               <p className="text-gray-400 text-sm leading-relaxed flex-1">
-                Ongoing Google Business Profile optimisation, on-page SEO and local citations to get you into the map pack for Bath trade searches.
+                Ongoing SEO to get you into Bath&apos;s Map Pack — GBP management, on-page optimisation, local citations and monthly ranking reports.
               </p>
               <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
-                See packages & pricing
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                Local SEO Bath <ArrowRight />
               </div>
             </Link>
 
-            {/* Card 3 — Google Business Profile */}
+            {/* Card 3 — Google Business Profile (links to spoke) */}
             <Link
               href="/google-business-profile"
               className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
@@ -220,119 +226,115 @@ const BathHub = () => {
               <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">£100 one-off</div>
               <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Google Business Profile</h3>
               <p className="text-gray-400 text-sm leading-relaxed flex-1">
-                Full GBP setup and optimisation — categories, keywords, photos, services — so you appear in the map pack when Bath customers search for your trade.
+                Full GBP setup and optimisation — categories, keywords, photos, services — so you appear in the map pack when Bath customers search.
               </p>
               <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
-                See what&apos;s included
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                GBP optimisation <ArrowRight />
               </div>
             </Link>
 
           </div>
-
         </div>
       </section>
 
-      {/* Results */}
+      {/* ── WHY BATH BUSINESSES CHOOSE US ── */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-8">Verified results</SectionTag>
-          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
-            {results.map((r) => (
-              <Link
-                key={r.slug}
-                href={`/case-studies/${r.slug}`}
-                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
-              >
-                <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
-                <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
-                <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
-                  View case study
-                  <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <SectionTag className="mb-4">Why Bath businesses use SEO Kings</SectionTag>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+                A Bath agency that knows Bath search
+              </h2>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been helping Bath trades get found on Google for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-8">
+                Bath is one of the most competitive local markets in the South West — more businesses, more agencies, more noise. The good news: most Bath trades still have slow websites and poorly set up Google Business Profiles. That&apos;s where the opportunity is. We know which searches drive actual phone calls in BA1 and BA2, and which ones just look good on a report.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  '6+ years serving Bath & North East Somerset',
+                  'Exclusive focus on trades and local businesses',
+                  'We rank for our own city — not just our clients',
+                  'Monthly reports with real ranking data, not vanity metrics',
+                  'No lock-in contracts — results keep you, not paperwork',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
+                    <CheckIcon />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Bath map + address */}
+            <div className="space-y-6">
+              <div className="rounded-2xl overflow-hidden border border-white/[0.06] h-64">
+                <iframe
+                  title="SEO Kings location — Keynsham, near Bath"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.8!2d-2.4965!3d51.4145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKeynsham!5e0!3m2!1sen!2suk!4v1"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              <address className="not-italic bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">SEO Kings</div>
+                <div className="text-gray-400 text-sm leading-relaxed">
+                  16a Culvers Road<br />
+                  Keynsham, Somerset<br />
+                  BS31 2DW<br />
+                  <span className="text-gray-500 text-xs">10 mins from Bath city centre</span>
                 </div>
-              </Link>
+                <a
+                  href="tel:+447****4921"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors mt-4"
+                >
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  07702 264 921
+                </a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── TESTIMONIALS ── */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-8">What clients say</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Bath businesses we&apos;ve helped</h2>
+          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl">
+            {testimonials.map((t) => (
+              <div key={t.name} className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
+                <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                </svg>
+                <blockquote className="text-gray-300 text-sm leading-relaxed mb-6">
+                  &ldquo;{t.quote}&rdquo;
+                </blockquote>
+                <div>
+                  <div className="text-white font-semibold text-sm">{t.name}</div>
+                  <div className="text-gray-400 text-xs">{t.business} &middot; {t.location}</div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* ── BATH NEIGHBOURHOODS ── */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-8">What clients say</SectionTag>
-          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Bath businesses we've helped</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl">
-            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-              </svg>
-              <blockquote className="text-gray-300 text-sm leading-relaxed mb-6">
-                "Brand new business, no website, no social media. SEO Kings built everything from scratch in under a week. I'm already getting calls from people finding me on Google in Bath. Couldn't ask for more."
-              </blockquote>
-              <div>
-                <div className="text-white font-semibold text-sm">Ross</div>
-                <div className="text-gray-400 text-xs">Aurelian Massage · Bath City Centre</div>
-              </div>
-            </div>
-
-            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-              </svg>
-              <blockquote className="text-gray-300 text-sm leading-relaxed mb-6">
-                "We had no website and no Google listing — customers couldn't find us. SEO Kings built our site and set up our Google profile. Within a week we were showing up on Google Maps and getting found for painter and decorator searches in Bath and the area."
-              </blockquote>
-              <div>
-                <div className="text-white font-semibold text-sm">Jay</div>
-                <div className="text-gray-400 text-xs">New Decorating · Bath &amp; BANES</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Local signals */}
-      <section className="py-24 border-t border-white/[0.06]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Bath market</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — 10 minutes from Bath city centre. We work exclusively across Bath and North East Somerset. We know which searches drive enquiries in BA1 and BA2, which trade categories are most competitive in the map pack, and what it takes to move from invisible to page one.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We cover the whole of Bath — city centre and every neighbourhood. See our dedicated area pages below, or explore our{' '}
-              <Link href="/website-designer-bath" className="text-primary-light hover:text-white transition-colors">website design Bath</Link>{' '}
-              and{' '}
-              <Link href="/local-seo/bath" className="text-primary-light hover:text-white transition-colors">local SEO Bath</Link>{' '}
-              service pages.
-            </p>
-            <a
-              href="tel:+447702264921"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
-              07702 264 921
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Bath Neighbourhoods */}
-      <section className="py-24 border-t border-white/[0.06]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-4">Bath Neighbourhoods</SectionTag>
+          <SectionTag className="mb-4">Bath neighbourhoods</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">Bath areas we cover</h2>
-          <p className="text-gray-400 mb-8">Website design and local SEO across every part of Bath — click your area for local information.</p>
+          <p className="text-gray-400 mb-8">Web design, local SEO and Google Business Profile across every part of Bath — click your area for local information.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
               { name: 'Odd Down', slug: 'odd-down-bath' },
@@ -365,12 +367,12 @@ const BathHub = () => {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* ── FAQ ── */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Bath services</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about SEO Kings in Bath</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

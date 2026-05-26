@@ -294,31 +294,20 @@ const WebsiteDesignerBath = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Local signals — concise, links to hub for full area info */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Bath market</h2>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Website design built around Bath</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. Bath is one of the most competitive local markets in the South West: more businesses, more agencies, more noise. Getting into the Map Pack or the top organic results here takes a properly built site and a well-optimised Google Business Profile working together.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We've built websites for trades across Bath — painters and decorators, massage therapists, builders, cleaners — and we know which BA1 and BA2 searches actually drive phone calls versus which ones just look good on a report. "Painter Bath", "electrician BA2", "plumber near me Bath" — we know which terms convert and which are noise.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We cover the full city and every neighbourhood: Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Odd Down, Weston, Bathwick, Southdown, Walcot, Batheaston and Bathford. Your site gets built around your trade and the specific parts of Bath you actually want to work in.
+              We build websites for trades across every part of Bath — painters, decorators, massage therapists, builders, cleaners, plumbers and more. Your site is built around your trade and the specific postcodes you work in, not a generic template with &ldquo;Bath&rdquo; pasted in.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We're happy to meet you in Bath itself or at our Keynsham office. Most clients are live on Google within two weeks of our first conversation.
+              We cover BA1 and BA2 and every neighbourhood — Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Weston, Combe Down, Odd Down and the rest. See our{' '}
+              <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">Bath area hub</Link>{' '}
+              for full coverage and all services.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
-              SEO Kings<br />
-              16a Culvers Road<br />
-              Keynsham, Somerset<br />
-              BS31 2DW<br />
-              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
-            </address>
           </div>
         </div>
       </section>
@@ -334,51 +323,20 @@ const WebsiteDesignerBath = () => {
         </div>
       </section>
 
-      {/* Bath Neighbourhoods */}
-      <section className="py-24 border-t border-white/[0.06]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-4">Bath neighbourhoods</SectionTag>
-          <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">We cover all of Bath</h2>
-          <p className="text-gray-400 mb-8 max-w-2xl">
-            We build websites for trades and local businesses across the whole of Bath — every neighbourhood, every postcode. Click your area for local detail.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-            {[
-              { name: 'Odd Down', slug: 'odd-down-bath' },
-              { name: 'Combe Down', slug: 'combe-down-bath' },
-              { name: 'Widcombe', slug: 'widcombe-bath' },
-              { name: 'Larkhall', slug: 'larkhall-bath' },
-              { name: 'Twerton', slug: 'twerton-bath' },
-              { name: 'Weston', slug: 'weston-bath' },
-              { name: 'Oldfield Park', slug: 'oldfield-park-bath' },
-              { name: 'Bear Flat', slug: 'bear-flat-bath' },
-              { name: 'Bathampton', slug: 'bathampton-bath' },
-              { name: 'Bathwick', slug: 'bathwick-bath' },
-              { name: 'Southdown', slug: 'southdown-bath' },
-              { name: 'Batheaston', slug: 'batheaston-bath' },
-              { name: 'Walcot', slug: 'walcot-bath' },
-              { name: 'Bathford', slug: 'bathford-bath' },
-            ].map((area) => (
-              <Link
-                key={area.slug}
-                href={`/areas/${area.slug}`}
-                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
-              >
-                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                </svg>
-                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Related Bath services */}
+      {/* Related Bath services — hub link + sibling services */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-6">Also in Bath</SectionTag>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/areas/bath" className="flex items-center justify-between p-5 bg-dark-card border border-primary/20 rounded-xl hover:border-primary/40 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Bath Area Hub</div>
+                <div className="text-xs text-gray-500">All our services across Bath &amp; every neighbourhood</div>
+              </div>
+              <svg className="w-4 h-4 text-primary group-hover:translate-x-0.5 transition-transform shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
             <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
