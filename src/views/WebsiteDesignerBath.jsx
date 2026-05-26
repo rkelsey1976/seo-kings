@@ -54,6 +54,18 @@ const faqs = [
     q: 'What if I already have a website?',
     a: "We can audit your existing site for free and tell you honestly whether it's worth improving or starting fresh. No obligation.",
   },
+  {
+    q: 'What is the difference between website design and local SEO?',
+    a: "Website design gets you a fast, professional site that Google can index and customers can trust. Local SEO is the ongoing work that pushes that site up the rankings — keyword research, on-page optimisation, citations, GBP management. Most Bath clients start with a website, then add local SEO once they're live. We offer both, and they work best together.",
+  },
+  {
+    q: 'Which parts of Bath do you cover?',
+    a: 'All of it. We build websites for trades and businesses across the whole of Bath — BA1, BA2, and all the neighbourhoods: Widcombe, Bear Flat, Oldfield Park, Larkhall, Twerton, Weston, Combe Down, Odd Down, Bathampton, Bathwick, Southdown, Batheaston, Walcot and Bathford.',
+  },
+  {
+    q: 'Do I need a website before I can do local SEO?',
+    a: "Not strictly — a well-optimised Google Business Profile alone can get you into the map pack. But a website makes every other signal stronger, gives customers somewhere to go, and significantly improves conversion. We always recommend both.",
+  },
 ];
 
 const schema = {
@@ -289,13 +301,16 @@ const WebsiteDesignerBath = () => {
             <SectionTag className="mb-4">Local to you</SectionTag>
             <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Bath market</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — 10 minutes from Bath city centre. Bath is one of the most competitive local markets in the South West. More businesses, more agencies, more noise. Getting into the Map Pack or the top organic results here takes a properly built site and a well-optimised Google Business Profile working together — not one without the other.
+              SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. Bath is one of the most competitive local markets in the South West: more businesses, more agencies, more noise. Getting into the Map Pack or the top organic results here takes a properly built site and a well-optimised Google Business Profile working together.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We've built sites for trades across Bath — painters and decorators, massage therapists, builders — and we know which BA1 and BA2 searches actually drive calls versus which ones just look good on a report. We cover the full city: Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Weston and Bathwick.
+              We've built websites for trades across Bath — painters and decorators, massage therapists, builders, cleaners — and we know which BA1 and BA2 searches actually drive phone calls versus which ones just look good on a report. "Painter Bath", "electrician BA2", "plumber near me Bath" — we know which terms convert and which are noise.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              We cover the full city and every neighbourhood: Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Odd Down, Weston, Bathwick, Southdown, Walcot, Batheaston and Bathford. Your site gets built around your trade and the specific parts of Bath you actually want to work in.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              We're happy to meet you in Bath or at our Keynsham office. Your site gets built around your trade and the specific areas of Bath you want to work in.
+              We're happy to meet you in Bath itself or at our Keynsham office. Most clients are live on Google within two weeks of our first conversation.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
@@ -319,24 +334,64 @@ const WebsiteDesignerBath = () => {
         </div>
       </section>
 
+      {/* Bath Neighbourhoods */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Bath neighbourhoods</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">We cover all of Bath</h2>
+          <p className="text-gray-400 mb-8 max-w-2xl">
+            We build websites for trades and local businesses across the whole of Bath — every neighbourhood, every postcode. Click your area for local detail.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {[
+              { name: 'Odd Down', slug: 'odd-down-bath' },
+              { name: 'Combe Down', slug: 'combe-down-bath' },
+              { name: 'Widcombe', slug: 'widcombe-bath' },
+              { name: 'Larkhall', slug: 'larkhall-bath' },
+              { name: 'Twerton', slug: 'twerton-bath' },
+              { name: 'Weston', slug: 'weston-bath' },
+              { name: 'Oldfield Park', slug: 'oldfield-park-bath' },
+              { name: 'Bear Flat', slug: 'bear-flat-bath' },
+              { name: 'Bathampton', slug: 'bathampton-bath' },
+              { name: 'Bathwick', slug: 'bathwick-bath' },
+              { name: 'Southdown', slug: 'southdown-bath' },
+              { name: 'Batheaston', slug: 'batheaston-bath' },
+              { name: 'Walcot', slug: 'walcot-bath' },
+              { name: 'Bathford', slug: 'bathford-bath' },
+            ].map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Bath services */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-6">Also in Bath</SectionTag>
           <div className="grid sm:grid-cols-2 gap-4">
-            <Link href="/areas/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Bath Area Hub</div>
-                <div className="text-xs text-gray-500">All web design & SEO services across Bath and every neighbourhood</div>
+                <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
+                <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Bath — from £150/month</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/google-business-profile" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
-                <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Bath — from £150/month</div>
+                <div className="text-sm font-semibold text-white mb-1">Google Business Profile</div>
+                <div className="text-xs text-gray-500">Get into the Bath map pack — £100 one-off optimisation</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

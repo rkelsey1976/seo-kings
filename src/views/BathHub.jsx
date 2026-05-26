@@ -61,8 +61,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/bath',
       url: 'https://seo-kings.co.uk/areas/bath',
-      name: 'Web Design & SEO in Bath | Trades & Local Businesses | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
+      name: 'Website Design, Local SEO & GBP for Bath Businesses | SEO Kings',
+      description: 'Web design, local SEO and Google Business Profile for trades and local businesses across Bath BA1 & BA2. Websites from £250, SEO from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -125,8 +125,8 @@ const BathHub = () => {
   return (
     <>
       <SEO
-        title="Web Design & SEO in Bath | Trades & Local Businesses"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Bath. Websites from £250, local SEO from £150/month. Free audit — no obligation."
+        title="Website Design, Local SEO & GBP for Bath Businesses | SEO Kings"
+        description="Web design, local SEO and Google Business Profile for trades and local businesses across Bath BA1 & BA2. Websites from £250, SEO from £150/month. Free audit."
         canonical="/areas/bath"
         breadcrumbs={[
           { name: 'Home', url: '/' },
@@ -162,119 +162,75 @@ const BathHub = () => {
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
 
             {/* Card 1 — Website Design */}
-            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <SectionTag className="mb-3">Website Design</SectionTag>
-              <h3 className="text-2xl font-bold text-white mb-2">A site built to rank</h3>
-              <p className="text-xl font-bold mb-3 text-primary">From £250</p>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Fast, mobile-first websites for Bath trades and local businesses — built for local search from day one, not as an afterthought.
+            <Link
+              href="/website-designer-bath"
+              className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
+            >
+              <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 mb-5">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">From £250</div>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Website Design in Bath</h3>
+              <p className="text-gray-400 text-sm leading-relaxed flex-1">
+                Fast, mobile-first websites for Bath trades and local businesses. Built to rank for your trade and area from day one. Live in under 2 weeks.
               </p>
-              <div className="border-t border-white/[0.06] pt-6 mb-6">
-                <ul className="space-y-3">
-                  {[
-                    'Mobile-first design, loads fast on any device',
-                    'Built to rank for your trade + Bath searches',
-                    'GBP optimisation — £100 add-on',
-                    'Click-to-call and contact form',
-                    'Live in under 2 weeks',
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                      <CheckIcon />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
+                See pricing & what&apos;s included
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
-              <div className="mt-auto">
-                <Link
-                  href="/website-designer-bath"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
-                >
-                  Website Design in Bath →
-                </Link>
-              </div>
-            </div>
+            </Link>
 
             {/* Card 2 — Local SEO */}
-            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <SectionTag className="mb-3">Local SEO</SectionTag>
-              <h3 className="text-2xl font-bold text-white mb-2">Get into the map pack</h3>
-              <p className="text-xl font-bold mb-3 text-primary">From £150/month</p>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Bath has high competition. The businesses in the map pack take most of the calls. We get you into those positions and keep you there.
+            <Link
+              href="/local-seo/bath"
+              className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
+            >
+              <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 mb-5">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">From £150/month</div>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Local SEO in Bath</h3>
+              <p className="text-gray-400 text-sm leading-relaxed flex-1">
+                Ongoing Google Business Profile optimisation, on-page SEO and local citations to get you into the map pack for Bath trade searches.
               </p>
-              <div className="border-t border-white/[0.06] pt-6 mb-6">
-                <ul className="space-y-3">
-                  {[
-                    'Google Business Profile optimisation',
-                    'On-page SEO for Bath trade keywords',
-                    'Local citations and link building',
-                    'Review growth strategy',
-                    'Monthly rankings report — no jargon',
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                      <CheckIcon />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
+                See packages & pricing
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
-              <div className="mt-auto">
-                <Link
-                  href="/local-seo/bath"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
-                >
-                  Local SEO in Bath →
-                </Link>
-              </div>
-            </div>
+            </Link>
 
             {/* Card 3 — Google Business Profile */}
-            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col">
-              <SectionTag className="mb-3">Google Business Profile</SectionTag>
-              <h3 className="text-2xl font-bold text-white mb-2">Put yourself on the map</h3>
-              <p className="text-xl font-bold mb-3 text-primary">£100 add-on</p>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Your GBP is what puts you on Google Maps and in the local pack. The biggest single factor in local search. We set it up properly and keep it active.
+            <Link
+              href="/google-business-profile"
+              className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
+            >
+              <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 mb-5">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">£100 one-off</div>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">Google Business Profile</h3>
+              <p className="text-gray-400 text-sm leading-relaxed flex-1">
+                Full GBP setup and optimisation — categories, keywords, photos, services — so you appear in the map pack when Bath customers search for your trade.
               </p>
-              <div className="border-t border-white/[0.06] pt-6 mb-6">
-                <ul className="space-y-3">
-                  {[
-                    'Complete profile setup and verification',
-                    'Categories, services and attributes',
-                    'Photo strategy for map pack visibility',
-                    'Review responses and Q&A',
-                    'Regular posts to stay active',
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-gray-300">
-                      <CheckIcon />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
+                See what&apos;s included
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
-              <div className="mt-auto">
-                <Link
-                  href="/google-business-profile"
-                  className="block w-full text-center px-6 py-3 rounded-lg font-semibold border transition-colors duration-200 text-primary border-primary"
-                >
-                  Google Business Profile →
-                </Link>
-              </div>
-            </div>
+            </Link>
 
           </div>
-
-            <div className="mt-4 pt-4 border-t border-white/10">
-              <div className="flex items-center justify-between py-2">
-                <div>
-                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-400 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
-                </div>
-                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
-              </div>
-            </div>
-            <p className="text-xs text-gray-400 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
 
         </div>
       </section>
