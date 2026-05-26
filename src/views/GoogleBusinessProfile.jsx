@@ -108,7 +108,7 @@ const GoogleBusinessProfile = () => {
             One-Off GBP Optimisation — £100
           </h2>
           <p className="text-gray-400 mb-8">
-            We do a full optimisation once. You get a profile that’s set up right for local search.
+            We do a full optimisation once. You get a profile that's set up right for local search.
           </p>
           <ul className="space-y-3 text-left max-w-md mx-auto mb-8">
             {oneOffIncludes.map((item, i) => (
@@ -136,7 +136,7 @@ const GoogleBusinessProfile = () => {
             Ongoing GBP Is Included in Local SEO
           </h2>
           <p className="text-gray-400 mb-8">
-            We don’t sell ongoing GBP management as a standalone monthly product. <strong className="text-white">Posts, reviews, photos and reporting</strong> are included in our <Link href="/local-seo" className="text-primary-light hover:underline">Local SEO</Link> packages from £150/month. If you just want the profile set up and optimised once, the £100 one-off is what you need.
+            We don't sell ongoing GBP management as a standalone monthly product. <strong className="text-white">Posts, reviews, photos and reporting</strong> are included in our <Link href="/local-seo" className="text-primary-light hover:underline">Local SEO</Link> packages from £150/month. If you just want the profile set up and optimised once, the £100 one-off is what you need.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/local-seo" className="inline-block bg-dark-card border border-white/10 hover:border-primary/30 text-white px-5 py-2.5 rounded-xl font-medium transition-all">
@@ -171,7 +171,7 @@ const GoogleBusinessProfile = () => {
             faqs={[
               {
                 q: 'What is the one-off £100?',
-                a: 'It’s a single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and area so your profile is set up right for local search. You pay once — no ongoing fee for this.',
+                a: "It's a single optimisation of your Google Business Profile. We set your categories, services, keywords, description, hours and area so your profile is set up right for local search. You pay once — no ongoing fee for this.",
               },
               {
                 q: 'Do you do ongoing GBP (posts, reviews) on its own?',
