@@ -15,6 +15,7 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
   },
   {
@@ -22,7 +23,16 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -270,7 +280,7 @@ const KeynshamHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -278,9 +288,10 @@ const KeynshamHub = () => {
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
+                <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -328,26 +339,47 @@ const KeynshamHub = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We&apos;re based in Keynsham</h2>
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design and SEO in Keynsham — why BS31 is a better market than most people realise
+            </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based here — 16a Culvers Road, Keynsham BS31 2DW. We&apos;re not an agency in Bristol or Bath looking in. We know the Keynsham market: the High Street, the BS31 and BS30 postcodes, the trades that serve the town and the villages around it.
+              Keynsham sits between Bath and Bristol — two of the UK's most fought-over digital markets. But Keynsham itself is a different story. Most local trades have either no web presence or one that was built years ago and forgotten. The Google Map Pack for most trade categories in BS31 is genuinely winnable with the right approach — and the businesses that act first will hold those positions for years.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We cover the whole of Keynsham and the surrounding area — including Saltford, Bitton, Oldland, Longwell Green, Warmley, Pensford, Compton Dando and the wider BS31 and BS30 area. Many clients also want to rank in Bath and Bristol — we can target multiple locations from one plan.
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Speed is the first advantage. We build on Next.js — static, pre-rendered pages that load in under a second. When your competitor's site takes four seconds and yours loads instantly, Google notices, and so do the customers who visit. Core Web Vitals scores come in green by default. No WordPress plugin conflicts, no bloated themes, no shared hosting dragging your score down.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
-              SEO Kings<br />
-              16a Culvers Road<br />
-              Keynsham, Somerset<br />
-              BS31 2DW<br />
-              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
-            </address>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Location signals matter more than most businesses realise. Every page we build — and every GBP we manage — references Keynsham with precision: BS31 postcodes, the surrounding villages, the specific neighbourhoods your customers actually live in. Saltford, Bitton, Oldland Common, Longwell Green, Warmley, Compton Dando — these aren't afterthoughts. They're the difference between ranking in Keynsham and ranking across the area you actually work in.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based at 16a Culvers Road, Keynsham BS31 2DW — so this isn't remote work. When you call, you speak to the person who built your site and runs your campaign. No account managers, no handoffs, no support queues. That's the only way we work.
+            </p>
           </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+            {[
+              { title: 'BS31 is winnable', body: 'Less competition than Bath or Bristol. Most trades have no real web presence — the Map Pack is genuinely achievable here.' },
+              { title: 'Next.js speed advantage', body: 'Sub-second load times and green Core Web Vitals by default. Most local competitors are failing the speed test.' },
+              { title: 'Village-level targeting', body: 'Saltford, Bitton, Oldland, Warmley, Longwell Green — precise location signals across every village you actually serve.' },
+              { title: 'Based on Culvers Road', body: "You call the person who built your site. No account managers, no handoffs — direct contact every time." },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
+            ))}
+          </div>
+          <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
+            SEO Kings<br />
+            16a Culvers Road<br />
+            Keynsham, Somerset<br />
+            BS31 2DW<br />
+            <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
+          </address>
         </div>
       </section>
 
