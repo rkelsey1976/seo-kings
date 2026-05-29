@@ -12,6 +12,31 @@ Geo: 51.4145, -2.4965
 
 ---
 
+## Keyword cannibalization tracker
+
+Blog posts are competing with (and often outranking) service pages for commercial queries. This actively suppresses the pages that convert.
+
+**Fix pattern:**
+1. Improve the service page (full improvement pattern)
+2. Add internal link from the blog post → service page with commercial anchor text (e.g. "local SEO services in Bath")
+3. Re-angle the blog post to a purely informational query so the two pages stop competing
+
+**Identified pairs** (GSC data, 2026-05-29):
+
+| Location | Blog post | Blog pos | Service page | Service pos | Status |
+|----------|-----------|----------|--------------|-------------|--------|
+| Keynsham (web design) | `/blog/website-design-keynsham` + `/blog/how-we-build-websites-keynsham` | ~10–16 | `/website-designer-keynsham` | 39 | ✅ 301 redirects live (2026-05-22) — strengthen destination |
+| Bath (local SEO) | `/blog/local-seo-bath` + `/blog/what-is-local-seo-bath` | 15 | `/local-seo/bath` | 52 | ✅ 301 redirects live (2026-05-22) — strengthen destination |
+| Bath (web design) | `/blog/website-design-bath` | 69 | `/website-designer-bath` | 78 | ✅ 301 redirect live (2026-05-22) — already improved |
+| Trowbridge | `/blog/website-design-trowbridge` | 8 | `/website-designer-trowbridge` | 43 | ✅ 301 redirect live (2026-05-22) |
+| Peasedown | `/blog/website-design-peasedown-st-john` | 19 | `/website-designer-peasedown-st-john` | — | ✅ 301 redirect live (2026-05-22) |
+
+All 301 redirects are in `public/_redirects` (Netlify). Added 2026-05-22 — allow 1–3 months for Google to fully process and transfer equity.
+
+**Next action:** Strengthen destination service pages so they're worthy of the incoming authority. Priority: `/website-designer-keynsham` (receives 2 redirects) → `/local-seo/bath`.
+
+---
+
 ## Standing rules
 
 ### Sitemap lastmod — update on every page edit
@@ -207,8 +232,8 @@ const schema = {
         postalCode: 'BS31 2DW',
         addressCountry: 'GB',
       },
-      geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
-      areaServed: [/* relevant City objects */],
+      geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 }, // always Keynsham — SEO Kings' actual location, never the target town
+      areaServed: [/* relevant City objects for this page, e.g. { '@type': 'City', name: 'Corsham' } */],
       priceRange: '££',
       openingHoursSpecification: [
         { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '09:00', closes: '17:30' },

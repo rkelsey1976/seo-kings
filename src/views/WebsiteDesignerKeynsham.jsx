@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -31,7 +41,7 @@ const included = [
   'Google Business Profile set-up and optimisation',
   'Click-to-call and quote request form',
   'SSL, hosting guidance and launch support',
-  'We\'re based in Keynsham — meet us before you commit',
+  "We're based in Keynsham — meet us before you commit",
 ];
 
 const faqs = [
@@ -44,16 +54,20 @@ const faqs = [
     a: "Yes. We're based at 16a Culvers Road, Keynsham BS31 2DW. We can meet at our office or come to you — whatever works best.",
   },
   {
-    q: 'How long does it take to build a website?',
+    q: 'How long does it take to build a website in Keynsham?',
     a: 'Most sites are live within 2 weeks of receiving your content. We keep the process simple and guide you through every step.',
   },
   {
-    q: 'Will my website show up on Google?',
+    q: 'Will my website show up on Google in Keynsham?',
     a: "Yes — that's the point. Every site we build is optimised for local search from day one. We target the searches your customers actually use in Keynsham and across BS31.",
   },
   {
     q: 'What if I already have a website?',
     a: "We can audit your existing site for free and tell you honestly whether it's worth improving or starting fresh. No obligation.",
+  },
+  {
+    q: 'What trades do you work with in Keynsham?',
+    a: 'Plumbers, electricians, builders, cleaners, painters — any trade that needs local customers across Keynsham, Saltford, Bitton, Oldland and the wider BS31 area.',
   },
 ];
 
@@ -65,7 +79,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/website-designer-keynsham',
       url: 'https://seo-kings.co.uk/website-designer-keynsham',
       name: 'Website Designer Keynsham | SEO Kings',
-      description: 'Website designer in Keynsham BS31. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100.',
+      description: 'Website designer in Keynsham BS31. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Based locally.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -80,7 +94,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Website designer in Keynsham offering web design from £250 for trades and local businesses across BS31, Bath and North East Somerset.',
+      description: 'Website designer based in Keynsham offering web design from £250 for trades and local businesses across BS31, Bath and North East Somerset.',
       url: 'https://seo-kings.co.uk/website-designer-keynsham',
       telephone: '+447702264921',
       address: {
@@ -94,8 +108,9 @@ const schema = {
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
         { '@type': 'City', name: 'Keynsham' },
+        { '@type': 'City', name: 'Saltford' },
+        { '@type': 'City', name: 'Bitton' },
         { '@type': 'City', name: 'Bath' },
-        { '@type': 'City', name: 'Bristol' },
       ],
       priceRange: '££',
       openingHoursSpecification: [
@@ -163,7 +178,9 @@ const WebsiteDesignerKeynsham = () => {
 
             {/* Pricing card */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
-              <SectionTag className="mb-2">Pricing</SectionTag>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2 text-secondary">
+                Pricing
+              </p>
               <div className="space-y-4 mb-8">
                 {[
                   { name: 'Starter', pages: '1-page site', price: 'From £250' },
@@ -175,19 +192,19 @@ const WebsiteDesignerKeynsham = () => {
                       <div className="text-white font-semibold text-sm">{pkg.name}</div>
                       <div className="text-gray-500 text-xs">{pkg.pages}</div>
                     </div>
-                    <div className="text-white font-bold text-primary">{pkg.price}</div>
+                    <div className="font-bold text-primary">{pkg.price}</div>
                   </div>
                 ))}
               </div>
-            <div className="mt-4 pt-4 border-t border-white/10">
-              <div className="flex items-center justify-between py-2">
-                <div>
-                  <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
-                  <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
+              <div className="mt-4 pt-4 border-t border-white/10">
+                <div className="flex items-center justify-between py-2">
+                  <div>
+                    <div className="text-white font-semibold text-sm">Hosting and maintenance</div>
+                    <div className="text-gray-500 text-xs">SSL, daily backups, uptime monitoring, content tweaks — 6 months free, then £50/year</div>
+                  </div>
+                  <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
                 </div>
-                <div className="font-bold shrink-0 ml-4 text-primary">6 months free</div>
               </div>
-            </div>
               <p className="text-xs text-gray-500 mb-6">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No hidden fees.</p>
               <button
                 onClick={() => setModalOpen(true)}
@@ -211,7 +228,7 @@ const WebsiteDesignerKeynsham = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -222,6 +239,7 @@ const WebsiteDesignerKeynsham = () => {
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -234,25 +252,39 @@ const WebsiteDesignerKeynsham = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We're based in Keynsham</h2>
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Website design in Keynsham — why being local is a ranking advantage
+            </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based at 16a Culvers Road, Keynsham BS31 2DW — so when we say we know the local market, we mean it. We serve businesses across Keynsham, Bath, Saltford, Bitton, Oldland, and the wider BS31 postcode.
+              Keynsham sits between Bath and Bristol — two of the UK's most competitive digital markets. But Keynsham itself is a different story. Most local trades either have no website or one that was built years ago on a slow shared server. Google doesn't need much to put you above them: a fast, properly structured site with the right BS31 location signals will outrank the majority of what's currently there.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We can meet at our Keynsham office or visit your premises. Your website gets built around your actual business, not a generic template.
+            <p className="text-gray-400 leading-relaxed mb-4">
+              We build on Next.js — a framework that produces static, pre-rendered pages that load in under a second. Core Web Vitals scores come in green by default. No WordPress plugin conflicts, no security updates to forget, no slow shared hosting dragging your score down. Speed is a confirmed Google ranking factor and most of your local competitors are failing it.
             </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
-              SEO Kings<br />
-              16a Culvers Road<br />
-              Keynsham, Somerset<br />
-              BS31 2DW<br />
-              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
-            </address>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Location signals matter more than most designers realise. Every page we build references your area precisely — Keynsham, Saltford, Bitton, Oldland, Warmley, the BS31 postcode — in the title, headings, body copy and structured data. Generic "we cover all areas" copy doesn't do this. Targeted location pages do, and Google rewards the difference.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based at 16a Culvers Road, Keynsham — so this isn't a remote agency guessing at your market. When you need something changed, you call the person who built your site. We know which searches your customers actually use in BS31 because we're here too.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'BS31 low competition', body: 'Most Keynsham trades have outdated or no website — your site can reach page one faster than in Bath or Bristol.' },
+              { title: 'Next.js, not WordPress', body: 'Static pages, sub-second load times, zero plugin vulnerabilities — a ranking advantage baked in from day one.' },
+              { title: 'Location signals built in', body: 'BS31 postcodes, village names and service areas woven into every page — not bolted on as an afterthought.' },
+              { title: 'Actually local', body: "Based on Culvers Road, Keynsham. You're not talking to an account manager — you're talking to the person who built your site." },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -262,30 +294,32 @@ const WebsiteDesignerKeynsham = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">
+              Common questions about website design in Keynsham
+            </h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
       </section>
 
-      {/* Related Keynsham services */}
+      {/* Related services */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-6">Also in Keynsham</SectionTag>
           <div className="grid sm:grid-cols-2 gap-4">
-            <Link href="/areas/keynsham" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/local-seo/keynsham" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Keynsham Area Hub</div>
-                <div className="text-xs text-gray-500">All web design & SEO services across Keynsham and surrounding areas</div>
+                <div className="text-sm font-semibold text-white mb-1">Local SEO Keynsham</div>
+                <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Keynsham — from £150/month</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/local-seo/keynsham" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/areas/keynsham" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Local SEO Keynsham</div>
-                <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Keynsham — from £150/month</div>
+                <div className="text-sm font-semibold text-white mb-1">Keynsham Area Hub</div>
+                <div className="text-xs text-gray-500">All web design and SEO services across Keynsham and surrounding areas</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
