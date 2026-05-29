@@ -11,18 +11,28 @@ const heroFeatures = ['Websites from £250', 'Local SEO from £150/month', 'Live
 
 const results = [
   {
-    business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
-    result: 'Map Pack',
-    keyword: '"cleaning Midsomer Norton"',
-    slug: 'peachy-cleans',
-  },
-  {
     business: 'New Decorating',
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Peachy Cleans',
+    location: 'Midsomer Norton',
+    result: 'Map Pack',
+    keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
+    slug: 'peachy-cleans',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -207,7 +217,7 @@ const SaltfordHub = () => {
               </div>
               <div className="mt-auto">
                 <Link
-                  href="/local-seo"
+                  href="/local-seo/saltford"
                   className="block w-full text-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 bg-primary-dark"
                 >
                   Local SEO for Saltford →
@@ -270,7 +280,7 @@ const SaltfordHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -278,9 +288,10 @@ const SaltfordHub = () => {
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
+                <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -328,27 +339,39 @@ const SaltfordHub = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the BS31 corridor</h2>
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design and SEO in Saltford — the A4 corridor advantage
+            </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We&apos;re based in Keynsham — five minutes from Saltford. We know the BS31 corridor: which trade searches drive enquiries in Saltford and Corston, what it takes to rank across Bath and Keynsham from one plan, and how to make the most of Saltford&apos;s affluent catchment.
+              Saltford sits on the A4 between Bath and Keynsham — one of the most affluent stretches of the BS31 postcode. Trades here serve customers with higher-than-average household spend: garden landscaping, painting and decorating, bathroom fitting, electrical work. The volume isn't as high as Bath city centre, but the conversion rate from enquiry to job tends to be stronger.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We cover Saltford and the surrounding area — Corston, Newton St Loe, Kelston, and the wider Bath/Keynsham A4 corridor. Most Saltford clients want to be visible across Bath and Keynsham too — we target all of it from a single strategy.
+            <p className="text-gray-400 leading-relaxed mb-4">
+              From a search competition standpoint, Saltford is much easier to rank in than Bath. Most local trades have no website, or one that's outdated and slow. The Google Map Pack for most trade categories in BS31 is winnable within a few months. We've seen clients move from invisible to the top three positions for their trade faster in Saltford than anywhere else we work.
             </p>
-            <a
-              href="tel:+447702264921"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
-              07702 264 921
-            </a>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              The corridor coverage is a genuine advantage. A single website and GBP strategy, built correctly, can target Saltford, Keynsham, Corston, Newton St Loe, Kelston and Bath simultaneously. You're not choosing between locations — you're ranking across all of them from one plan. That's how a Saltford trade can be visible to customers across a much wider area than the village itself.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based in Keynsham — five minutes away. We know the BS31 corridor well, the searches your customers use, and which GBP categories perform best for trades in this area. You speak to the person running your campaign directly, every time.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'Affluent catchment', body: 'Saltford and the A4 corridor have above-average household spend — trades here convert enquiries to jobs at a strong rate.' },
+              { title: 'Less competitive than Bath', body: 'Most local trades have no real web presence. Map Pack positions are achievable quickly here.' },
+              { title: 'A4 corridor coverage', body: 'One strategy targets Saltford, Keynsham, Corston, Newton St Loe and Bath — no need to choose between locations.' },
+              { title: '5 minutes away', body: 'Based in Keynsham. You call the person who built your site and runs your campaign — no middlemen.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -358,7 +381,7 @@ const SaltfordHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Saltford services</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design and SEO in Saltford</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
