@@ -25,6 +25,14 @@ const results = [
     slug: 'aurelian-massage',
     detail: 'Bath city centre massage therapist — built and ranking for competitive local searches.',
   },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    slug: 'bath-painter',
+    detail: 'Full brand and bespoke website for a heritage specialist — live at bathpainter.co.uk.',
+  },
 ];
 
 const included = [
@@ -224,7 +232,7 @@ const WebsiteDesignerBath = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}

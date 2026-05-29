@@ -36,6 +36,13 @@ const results = [
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
   },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    slug: 'bath-painter',
+  },
 ];
 
 const faqs = [

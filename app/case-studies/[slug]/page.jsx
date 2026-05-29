@@ -23,7 +23,7 @@ const CASE_STUDY_META = {
   },
   'bath-painter': {
     title: 'Bath Painter: Bespoke Website for a Heritage Decorator | SEO Kings',
-    description: 'Building a bespoke website for Bath Painter — an experienced painter and decorator serving Bath, Keynsham and the surrounding area, specialising in heritage and period properties.',
+    description: 'How we built a bespoke website and brand identity for Bath Painter — a heritage specialist serving Bath, Keynsham and BANES with 20+ years of experience in period and listed properties.',
   },
 };
 
