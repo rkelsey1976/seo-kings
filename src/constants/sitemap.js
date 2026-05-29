@@ -141,7 +141,7 @@ export const STATIC_ROUTES = [
   { path: '/website-designer-midsomer-norton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-radstock', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-saltford', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-peasedown-st-john', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-peasedown-st-john', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/plumbers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/electricians', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },

@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -210,13 +220,14 @@ const WebsiteDesignerPeasedownStJohn = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link key={r.slug} href={`/case-studies/${r.slug}`} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group">
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -229,25 +240,64 @@ const WebsiteDesignerPeasedownStJohn = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We cover Bath and the surrounding villages</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham, and Peasedown St John is part of our regular patch. BA2 is an interesting postcode for trades — it sits between Bath's competitive market and the lower-competition Somer Valley, which means a well-optimised site can pull in searches from both directions. Customers in Peasedown often search for both Bath-based and Radstock-based trades, so targeting both sets of keywords matters.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              Competition for local trades in Peasedown St John is low. Most businesses here have little or no web presence, which means a proper site and Google Business Profile will put you ahead of the majority of your local competition quickly. We cover Peasedown St John, Dunkerton, Camerton, Radstock and the surrounding BA2 and BA3 areas.
-            </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Why Peasedown St John</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Website design in Peasedown St John — the BA2 boundary advantage
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Peasedown St John sits in one of the most interesting postcodes for trade SEO in the region. BA2 straddles the boundary between Bath&apos;s competitive city market and the lower-competition Somer Valley — which means a well-built site here can pull enquiries from two directions at once.
+              </p>
+              <p>
+                Most trades in Peasedown are still invisible online. No website, an unclaimed Google Business Profile, or a slow WordPress site that Google doesn&apos;t trust. That&apos;s not a problem — it&apos;s an opportunity. The bar to rank well for Peasedown St John trade searches is genuinely low, and results come faster here than in the city.
+              </p>
+              <p>
+                But the bigger opportunity is dual targeting. A customer in Peasedown might search for &ldquo;plumber Bath&rdquo; or &ldquo;plumber Radstock&rdquo; — they&apos;re happy with either result, they just want someone nearby. A site properly structured for BA2 can appear for both sets of searches without running separate campaigns. That kind of reach for a relatively small village is rare, and most trades here aren&apos;t taking advantage of it.
+              </p>
+              <p>
+                We&apos;re based in Keynsham — Peasedown is on our doorstep. We know the villages, the postcodes and the search patterns that bring in enquiries across BA2 and BA3. When you call us, you speak to the person who built your site and set up your Google profile. No account managers, no call centres.
+              </p>
+              <p>
+                Our Next.js sites load in under a second and score green across Core Web Vitals — the kind of performance that slow WordPress sites in your area can&apos;t match. Combined with proper local keyword structure, a verified Google Business Profile and a clean internal link setup, that speed advantage compounds into rankings that hold.
+              </p>
+            </div>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary mt-8">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
               BS31 2DW<br />
               <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'The BA2 boundary',
+                body: 'Peasedown sits between Bath and the Somer Valley — a well-built site can rank for searches from both markets without separate campaigns.',
+              },
+              {
+                label: 'Low local competition',
+                body: 'Most Peasedown trades have no website or an unclaimed GBP. Getting ahead of the local competition here is faster than anywhere in Bath.',
+              },
+              {
+                label: 'Dual targeting',
+                body: 'BA2 customers search for Bath trades and Radstock trades interchangeably. We structure your site to capture both from day one.',
+              },
+              {
+                label: 'Next.js not WordPress',
+                body: "Static site, sub-second load, green Core Web Vitals. Your competitors' sites are slow — yours doesn't have to be.",
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -257,7 +307,7 @@ const WebsiteDesignerPeasedownStJohn = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about website design in Peasedown St John</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
