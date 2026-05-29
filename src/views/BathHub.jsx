@@ -135,17 +135,7 @@ const ArrowRight = () => (
 const BathHub = () => {
   return (
     <>
-      <SEO
-        title="SEO Agency Bath | Web Design, Local SEO & GBP | SEO Kings"
-        description="SEO and web design agency in Bath BA1 & BA2. Websites from £250, local SEO from £150/month, GBP optimisation from £100. 6+ years helping Bath trades get found on Google. Free audit."
-        canonical="/areas/bath"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Areas', url: '/areas' },
-          { name: 'Bath' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

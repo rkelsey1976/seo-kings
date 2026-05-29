@@ -260,14 +260,19 @@ const WebsiteDesignerBath = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Website design built around Bath</h2>
+            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Web design in Bath, built for Bath</h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We build websites for trades across every part of Bath — painters, decorators, massage therapists, builders, cleaners, plumbers and more. Your site is built around your trade and the specific postcodes you work in, not a generic template with &ldquo;Bath&rdquo; pasted in.
+              We build websites for trades across every part of Bath — painters, decorators, massage therapists, builders, cleaners, plumbers and more. Every website design we deliver for a Bath client is built around their trade and the specific postcodes they work in, not a generic template with &ldquo;Bath&rdquo; pasted in.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Bath is a competitive web design market. Most of the businesses at the top for &ldquo;website design Bath&rdquo; and &ldquo;web design Bath&rdquo; have properly built sites with local signals throughout — correct schema, location-specific pages, and a Google Business Profile that matches their address. We build all of that in from day one.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               We cover BA1 and BA2 and every neighbourhood — Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Weston, Combe Down, Odd Down and the rest. See our{' '}
               <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">Bath area hub</Link>{' '}
-              for full coverage and all services.
+              for full coverage, or{' '}
+              <Link href="/local-seo/bath" className="text-primary-light hover:text-white transition-colors">add local SEO</Link>{' '}
+              once your site is live.
             </p>
           </div>
         </div>

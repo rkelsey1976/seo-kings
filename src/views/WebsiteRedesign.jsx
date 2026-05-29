@@ -149,11 +149,11 @@ const WebsiteRedesign = () => {
               Website Redesign Service
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Website{' '}
-              <span className="text-primary">Redesign</span>
+              Website Redesign{' '}
+              <span className="text-primary">Bath & Somerset</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              Your old site is costing you work. A slow, outdated website that doesn't rank on Google loses you jobs every week to competitors with better sites. We rebuild it from scratch — faster, cleaner, and built to rank.
+              Your old site is costing you work. A slow, outdated website that doesn't rank on Google loses you jobs every week to competitors with better sites. We rebuild it from scratch — faster, cleaner, and built to rank in Bath and across North East Somerset.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

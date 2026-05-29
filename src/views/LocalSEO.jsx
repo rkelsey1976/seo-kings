@@ -351,6 +351,30 @@ const LocalSEO = () => {
         </div>
       </section>
 
+      {/* By location */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">Local SEO by area</h2>
+          <p className="text-gray-400 mb-10 max-w-2xl">We work exclusively across Bath and North East Somerset. Every campaign is built around your specific town — the keywords people use there, the competition you're up against, and the map pack positions that drive calls.</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/local-seo/bath', name: 'Local SEO Bath', desc: 'BA1 & BA2 — the most competitive market in BANES. Map pack and page one rankings for trades across the city.' },
+              { href: '/local-seo/keynsham', name: 'Local SEO Keynsham', desc: 'BS31 — great opportunity for trades. Less competition than Bath, strong search volumes for the right services.' },
+              { href: '/local-seo/midsomer-norton', name: 'Local SEO Midsomer Norton', desc: 'BA3 — growing market. We have clients ranking in the map pack here already.' },
+              { href: '/local-seo/radstock', name: 'Local SEO Radstock', desc: 'BA3 — often overlooked but worth targeting if you serve this area alongside Midsomer Norton.' },
+              { href: '/local-seo/peasedown-st-john', name: 'Local SEO Peasedown St John', desc: 'BA2 — a Bath postcode with its own active search market for local trades.' },
+              { href: '/local-seo/saltford', name: 'Local SEO Saltford', desc: 'BS31 — between Bath and Keynsham, good for trades covering both towns.' },
+            ].map(({ href, name, desc }) => (
+              <Link key={href} href={href} className="block p-6 bg-dark-card border border-white/[0.06] rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary-light transition-colors">{name}</h3>
+                <p className="text-gray-400 text-sm mb-4">{desc}</p>
+                <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

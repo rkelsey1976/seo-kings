@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Local SEO Bath | Search Engine Optimisation BA1 & BA2 | SEO Kings' },
-  description: 'Local SEO for Bath businesses. Google Business Profile optimisation, website SEO and review growth from £150/month. Serving BA1 & BA2. Free audit.',
+  title: { absolute: 'Local SEO Bath | Map Pack Rankings from £150/month | SEO Kings' },
+  description: 'Local SEO for Bath trades and businesses. Get into the Google Map Pack, rank on page one, and get more calls — from £150/month. BA1 & BA2. Free audit included.',
   alternates: { canonical: 'https://seo-kings.co.uk/local-seo/bath' },
 };
 
