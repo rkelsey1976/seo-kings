@@ -15,6 +15,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -22,7 +23,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -270,7 +280,7 @@ const RadstockHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -278,9 +288,10 @@ const RadstockHub = () => {
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
-                <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
+                <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -328,27 +339,39 @@ const RadstockHub = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Somer Valley</h2>
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design and SEO in Radstock — the Somer Valley opportunity
+            </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — well placed to serve Radstock and the whole BA3 area. We understand the Somer Valley market: which searches drive enquiries in Radstock and the surrounding postcodes, which trade categories are most competitive, and what it takes to move from invisible to page one.
+              The Somer Valley — Radstock, Midsomer Norton, Westfield, Writhlington, Peasedown St John — is one of the most underserved digital markets in the South West. Most trades here have no website or one that's years out of date. Google Maps for most trade categories in BA3 is genuinely empty at the top. A properly built site with a managed GBP can rank faster here than almost anywhere else we work.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We cover the whole of the Somer Valley — Radstock, Midsomer Norton, Westfield, Writhlington, Peasedown St John, Chilcompton and the wider BA3 postcode. Many Radstock clients also want to rank in Bath — we can target multiple locations from one plan.
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Speed is the first thing Google measures. We build on Next.js — static pages that load in under a second, with green Core Web Vitals by default. When every competitor in Radstock has a slow WordPress site on cheap shared hosting, a sub-second load time is an immediate ranking signal in your favour. It's not a minor detail — Google has confirmed page experience as a ranking factor.
             </p>
-            <a
-              href="tel:+447702264921"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
-              07702 264 921
-            </a>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Location signals go further than an address. Every page we build references Radstock, the BA3 postcode and the surrounding villages precisely — Westfield, Writhlington, Chilcompton, Peasedown St John, Midsomer Norton. That specificity is what tells Google your business genuinely serves this area, not just a line on a contact page that says "we cover all of Somerset."
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              Many Radstock clients also want to rank in Bath — roughly 12 miles away. We structure websites and GBP campaigns to target both markets from a single strategy, so you're not choosing between local and Bath visibility. We're based in Keynsham, well placed to serve the Somer Valley, and you'll always speak to the person running your campaign directly.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'BA3 is underserved', body: 'Most Somer Valley trades have no real web presence. Google Map Pack positions are wide open here compared to Bath.' },
+              { title: 'Next.js speed wins', body: 'Sub-second load times vs slow WordPress competitors. Page speed is a confirmed Google ranking factor.' },
+              { title: 'Village-level signals', body: 'Westfield, Writhlington, Peasedown, Chilcompton — precise BA3 location signals on every page.' },
+              { title: 'Bath reach included', body: 'Most Radstock clients want Bath visibility too. We target both from one plan — 12 miles, one strategy.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -358,7 +381,7 @@ const RadstockHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Radstock services</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design and SEO in Radstock</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
