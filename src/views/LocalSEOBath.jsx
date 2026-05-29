@@ -28,6 +28,7 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
   },
   {
@@ -35,7 +36,16 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -217,7 +227,7 @@ const LocalSEOBath = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -227,7 +237,8 @@ const LocalSEOBath = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -240,21 +251,39 @@ const LocalSEOBath = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Bath market</h2>
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Bath — why the Map Pack is worth fighting for
+            </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based just outside Bath in Keynsham — we work exclusively across Bath and North East Somerset. We understand the Bath market: which keywords drive enquiries in BA1 and BA2, how the Map Pack works for different trade categories, and what separates the businesses that rank from those that don't.
+              Bath is a high-intent search market. When someone types "plumber Bath" or "electrician BA1" into Google, they're not browsing — they need someone now. The three businesses in the Map Pack capture most of those calls. Below the Map Pack, click rates fall sharply. If your business isn't in those top three positions, you're largely invisible to people who are ready to spend money.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We cover all of Bath: city centre, Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Odd Down, Weston, Bathwick, Walcot, Southdown, Batheaston and Bathford.
+              Bath is also more competitive than the Somerset towns. More businesses, more agencies, more noise. But most Bath traders still have a poorly optimised Google Business Profile — incomplete categories, no regular posts, unanswered reviews. That's the gap we exploit. A properly managed GBP, paired with a fast website and consistent local citations, is enough to move into Map Pack positions for most trade categories within three to six months.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-bath" className="underline hover:text-white transition-colors text-primary">website design Bath</Link> page, or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
+            <p className="text-gray-400 leading-relaxed mb-4">
+              We cover all of BA1 and BA2 — not just the city centre. Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Combe Down, Odd Down, Weston, Bathampton, Bathwick, Walcot, Southdown, Batheaston, Bathford — every area has local searchers and most have far less competition than the city centre postcodes. A well-targeted campaign can rank faster in these neighbourhoods than you might expect.
             </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based in Keynsham, five miles from Bath. We work exclusively across Bath and North East Somerset — this isn't a national agency managing your account from a spreadsheet. Every client gets a direct line to the person running their campaign, monthly reports with real numbers, and a clear explanation of what we're doing and why.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'Map Pack or nothing', body: 'The top 3 local results capture the majority of clicks. Below the pack, call volumes drop sharply — position matters more in Bath than most places.' },
+              { title: 'GBP is the fastest win', body: 'Most Bath traders have incomplete, unmanaged Google Business Profiles. A properly optimised GBP can start moving within weeks.' },
+              { title: 'All of BA1 & BA2', body: 'Full coverage from the city centre to Batheaston, Bear Flat to Bathford — neighbourhood-level targeting where competition is lower.' },
+              { title: 'Local, not national', body: 'Based in Keynsham, five miles from Bath. We know the market, speak to clients directly, and report in plain English.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
