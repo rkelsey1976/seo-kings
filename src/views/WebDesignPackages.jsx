@@ -6,6 +6,63 @@ import FAQAccordion from '../components/FAQAccordion';
 import CTABanner from '../components/CTABanner';
 import PricingModal from '../components/PricingModal';
 
+const pricingFaqs = [
+  {
+    q: 'How does per-page pricing work?',
+    a: 'Every website starts at £250. That covers the first page — your home page with services, contact form, click-to-call, and everything a trade needs. Each additional page is £50. A 5-page site is £450. A 10-page site is £700. Simple.',
+  },
+  {
+    q: 'What counts as a page?',
+    a: 'Each separate URL is a page. Home, About, Services, Contact, and individual service pages (e.g. "Plumbing Bath", "Boiler Repairs") all count as one page each. Having a page per service is great for SEO — Google can rank each one for different searches.',
+  },
+  {
+    q: 'Is there a minimum?',
+    a: "Yes — one page at £250. That's our one-page site: a fast, mobile-first single-pager with everything a local trade needs to get found and get calls.",
+  },
+  {
+    q: "What's included in the base price?",
+    a: 'SSL, 6 months free hosting, contact form, click-to-call, mobile-responsive design, SEO basics, and UK support. Everything you need to be live and working on day one.',
+  },
+  {
+    q: 'Can I add Google Business Profile setup?',
+    a: "Yes — it's a £100 one-off add-on. We claim, verify, and fully optimise your GBP so you show in the Map Pack. It's available in the calculator or just ask us when you get in touch.",
+  },
+  {
+    q: 'Do you offer monthly payments?',
+    a: "Yes — ask us when you get in touch and we can split the cost over a few months. There's no interest and no hidden charges.",
+  },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebPage',
+      '@id': 'https://seo-kings.co.uk/web-design-packages',
+      url: 'https://seo-kings.co.uk/web-design-packages',
+      name: 'Web Design Packages for Trades | From £250 | SEO Kings Bath',
+      description: 'Transparent per-page pricing — from £250 for one page, £50 per extra page. No monthly fees, no contracts. Build your quote in 30 seconds. Serving Bath, Keynsham & Somerset.',
+      inLanguage: 'en-GB',
+      isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
+      breadcrumb: {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
+          { '@type': 'ListItem', position: 2, name: 'Web Design Packages' },
+        ],
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: pricingFaqs.map(({ q, a }) => ({
+        '@type': 'Question',
+        name: q,
+        acceptedAnswer: { '@type': 'Answer', text: a },
+      })),
+    },
+  ],
+};
+
 const processSteps = [
   { step: '01', title: 'Sign up', description: 'Fill in our form with your details. We\'ll be in touch within 24 hours to confirm scope and price.' },
   { step: '02', title: 'Design', description: 'We build your pages to a design you approve. You review and give feedback until you\'re happy.' },
@@ -36,6 +93,7 @@ const WebDesignPackages = () => {
 
   return (
     <>
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
@@ -192,34 +250,7 @@ const WebDesignPackages = () => {
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8 text-center">Pricing questions answered</h2>
-          <FAQAccordion
-            faqs={[
-              {
-                question: 'How does per-page pricing work?',
-                answer: 'Every website starts at £250. That covers the first page — your home page with services, contact form, click-to-call, and everything a trade needs. Each additional page is £50. A 5-page site is £450. A 10-page site is £700. Simple.',
-              },
-              {
-                question: 'What counts as a page?',
-                answer: 'Each separate URL is a page. Home, About, Services, Contact, and individual service pages (e.g. "Plumbing Bath", "Boiler Repairs") all count as one page each. Having a page per service is great for SEO — Google can rank each one for different searches.',
-              },
-              {
-                question: 'Is there a minimum?',
-                answer: 'Yes — one page at £250. That\'s our one-page site: a fast, mobile-first single-pager with everything a local trade needs to get found and get calls.',
-              },
-              {
-                question: 'What\'s included in the base price?',
-                answer: 'SSL, 6 months free hosting, contact form, click-to-call, mobile-responsive design, SEO basics, and UK support. Everything you need to be live and working on day one.',
-              },
-              {
-                question: 'Can I add Google Business Profile setup?',
-                answer: 'Yes — it\'s a £100 one-off add-on. We claim, verify, and fully optimise your GBP so you show in the Map Pack. It\'s available in the calculator or just ask us when you get in touch.',
-              },
-              {
-                question: 'Do you offer monthly payments?',
-                answer: 'Yes — ask us when you get in touch and we can split the cost over a few months. There\'s no interest and no hidden charges.',
-              },
-            ]}
-          />
+          <FAQAccordion faqs={pricingFaqs} />
         </div>
       </section>
 
