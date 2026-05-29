@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: 'Top 3 Map Pack for one of Bath\'s most competitive trade keywords — consistent enquiries from Google Maps.',
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -119,16 +129,7 @@ const WebsiteDesignerMidsomerNorton = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Midsomer Norton | Web Design from £250"
-        description="Website designer serving Midsomer Norton BA3. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-midsomer-norton"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Midsomer Norton' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero
@@ -223,7 +224,7 @@ const WebsiteDesignerMidsomerNorton = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -234,6 +235,7 @@ const WebsiteDesignerMidsomerNorton = () => {
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,6 +243,43 @@ const WebsiteDesignerMidsomerNorton = () => {
                   </svg>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion — Midsomer Norton web design */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design in Midsomer Norton — the BA3 advantage
+            </h2>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Midsomer Norton sits in a sweet spot. Search demand for trades is real — people in BA3 are searching for electricians, plumbers, cleaners and builders just like anywhere else — but the number of businesses competing for those searches is a fraction of what it is in Bath or Bristol. We've already demonstrated this works: Peachy Cleans is in the Map Pack for "cleaning Midsomer Norton" and generates regular enquiries directly from that position.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Static sites built on Next.js are the foundation. They load in under a second, pass Core Web Vitals with ease and give Google nothing to complain about. When your competitors have outdated WordPress sites or no site at all, a fast, properly structured site is a clear ranking advantage — particularly in a market as lightly contested as Midsomer Norton.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Location signals matter more than most people realise. Every site we build includes your precise location, the postcodes you serve (BA3, Midsomer Norton, Radstock, Paulton, Peasedown St John) and structured data that confirms to Google exactly where you operate. Generic "we cover all areas" copy doesn't achieve this; properly structured local pages do.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based in Keynsham — less than 10 miles from Midsomer Norton. We know the Somer Valley market, the local competitors, and what search terms actually drive enquiries in BA3. That's not something you get from an agency based in Bristol or beyond.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'Less competition', body: 'BA3 has fewer well-optimised businesses than Bath or Bristol — the bar to rank page one is lower.' },
+              { title: 'Next.js, not WordPress', body: 'Static pages, sub-second load times, zero plugin vulnerabilities — faster out of the box.' },
+              { title: 'BA3 location signals', body: 'Midsomer Norton, Paulton, Radstock and surrounding postcodes woven into every page structure.' },
+              { title: 'Somer Valley proven', body: 'We\'ve already delivered Map Pack rankings in Midsomer Norton. The same approach is available for your trade.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -274,8 +313,33 @@ const WebsiteDesignerMidsomerNorton = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Midsomer Norton</h2>
             <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-8">Also useful</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Related services</h2>
+          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl">
+            {[
+              { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Midsomer Norton and BA3 searches.', href: '/google-business-profile' },
+              { title: 'Local SEO Midsomer Norton', desc: 'Ongoing SEO to keep you ranking for Midsomer Norton and Somer Valley searches month after month.', href: '/local-seo/midsomer-norton' },
+              { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
+            ].map((service) => (
+              <Link
+                key={service.href}
+                href={service.href}
+                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
+              >
+                <h3 className="text-white font-semibold text-sm mb-2">{service.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed mb-4">{service.desc}</p>
+                <span className="text-xs font-medium text-primary">Learn more →</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

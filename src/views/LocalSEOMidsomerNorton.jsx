@@ -28,6 +28,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack for their primary keyword — consistent local enquiries from Google Maps.',
     slug: 'peachy-cleans',
   },
   {
@@ -35,6 +36,7 @@ const results = [
     location: 'Bath / Somerset',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: 'Top 3 Map Pack for one of Bath\'s most competitive trade keywords — proves the same method scales.',
     slug: 'new-decorating',
   },
 ];
@@ -50,7 +52,7 @@ const faqs = [
   },
   {
     q: 'How long before I see results from SEO?',
-    a: 'Google Business Profile optimisation can produce results within a few weeks. Ranking for competitive searches like "electrician Midsomer Norton" or "plumber BA3" typically takes 3–6 months of consistent work. We give you monthly reports so you see exactly what\'s moving.',
+    a: "Google Business Profile optimisation can produce results within a few weeks. Ranking for competitive searches like 'electrician Midsomer Norton' or 'plumber BA3' typically takes 3–6 months of consistent work. We give you monthly reports so you see exactly what's moving.",
   },
   {
     q: 'Is Midsomer Norton competitive for SEO?',
@@ -145,17 +147,7 @@ const rightPanel = (
 const LocalSEOMidsomerNorton = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Midsomer Norton | SEO Agency BA3"
-        description="Local SEO for Midsomer Norton businesses. Google Business Profile, website SEO and review growth from £150/month. Serving BA3 and the Somer Valley. Free audit."
-        canonical="/local-seo/midsomer-norton"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Midsomer Norton' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA3 · Somer Valley"
@@ -239,6 +231,7 @@ const LocalSEOMidsomerNorton = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -246,6 +239,43 @@ const LocalSEOMidsomerNorton = () => {
                   </svg>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion — why Somer Valley SEO works */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Midsomer Norton — why the Somer Valley market is a real advantage
+            </h2>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Most of our clients in Midsomer Norton and Radstock see results faster than clients in Bath. The reason is straightforward: BA3 is less contested. Bath has dozens of businesses competing for every trade keyword; Midsomer Norton often has two or three, many without a website or a properly configured Google Business Profile. The bar to rank is lower, and we know exactly where to set you above it.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Google's local algorithm rewards three things: relevance, distance and prominence. In Midsomer Norton, distance works in your favour — Google knows users want a local trade, and there aren't many well-optimised options to show them. We build your relevance through keyword-targeted content and accurate service categories, and your prominence through GBP reviews, local citations and consistent NAP data across every directory that matters.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              The Map Pack is the primary target. For most trades in BA3, getting into the top three positions on Google Maps delivers more phone calls than the organic results below it. We've done it for Peachy Cleans in Midsomer Norton — and the same approach is available to any trade that serves the local area and is willing to invest consistently.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              This method also scales across the wider Somer Valley. If you serve Radstock, Paulton, Peasedown St John and the villages beyond, we build location signals into every part of your SEO — page structure, GBP service areas, local citations — so Google understands the full scope of where you work.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'Lower competition', body: 'BA3 has fewer well-optimised businesses than Bath or Bristol — faster to rank, lower cost to hold position.' },
+              { title: 'Map Pack focus', body: 'Top 3 on Google Maps drives most phone calls for local trades. That\'s where we put you.' },
+              { title: 'BA3 coverage', body: 'Midsomer Norton, Radstock, Paulton and surrounding villages all targeted with precise local signals.' },
+              { title: 'GBP first', body: 'Google Business Profile is the fastest route to visible results — we start there and build outwards.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
             ))}
           </div>
         </div>

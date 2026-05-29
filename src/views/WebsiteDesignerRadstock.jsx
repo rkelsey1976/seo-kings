@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: 'Top 3 Map Pack for one of Bath\'s most competitive trade keywords — consistent enquiries from Google Maps.',
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -119,16 +129,7 @@ const WebsiteDesignerRadstock = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Radstock | Web Design from £250"
-        description="Website designer serving Radstock BA3. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-radstock"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Radstock' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero
@@ -223,7 +224,7 @@ const WebsiteDesignerRadstock = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -234,6 +235,7 @@ const WebsiteDesignerRadstock = () => {
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,6 +243,43 @@ const WebsiteDesignerRadstock = () => {
                   </svg>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion — Radstock web design */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design in Radstock — why BA3 is easier to rank than you think
+            </h2>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Radstock, Midsomer Norton and the Somer Valley sit outside the dense search competition of Bath and Bristol. Most trades in BA3 have no website at all, or one that's outdated and slow. Google doesn't need much to rank you above them: a fast, properly structured site with the right location signals will outrank most of what's already there.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              We build on Next.js — a framework that produces static, pre-rendered pages that load in under a second. Core Web Vitals scores come in green by default. No WordPress plugin conflicts, no security updates to forget, no slow shared hosting dragging your score down. When your competitor's site takes four seconds to load and yours loads instantly, Google notices.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Location signals aren't just your address. Every page we build references your area accurately — Radstock, Westfield, Writhlington, Peasedown St John, the BA3 postcode — in the title, headings, body copy and structured data. Generic "we cover all areas" copy doesn't do this; targeted location pages do.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We're based in Keynsham, around 12 miles from Radstock. When you need something changed, you call the person who built your site — not a support ticket queue. That's the working relationship we offer to every Somer Valley client.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'BA3 low competition', body: 'Fewer well-optimised businesses means your site can reach page one faster than in Bath or Bristol.' },
+              { title: 'Next.js, not WordPress', body: 'Static pages, sub-second load times, zero plugin vulnerabilities — a ranking advantage from day one.' },
+              { title: 'Location baked in', body: 'BA3 postcodes, village names and service areas woven into every page — not bolted on as an afterthought.' },
+              { title: '12 miles away', body: 'Keynsham-based. Easy to reach, quick to respond — no account managers between you and us.' },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -274,8 +313,33 @@ const WebsiteDesignerRadstock = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Radstock</h2>
             <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-8">Also useful</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Related services</h2>
+          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl">
+            {[
+              { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Radstock and BA3 searches.', href: '/google-business-profile' },
+              { title: 'Website redesign', desc: "Already have a site that isn't performing? We redesign and rebuild for speed and rankings.", href: '/website-redesign' },
+              { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
+            ].map((service) => (
+              <Link
+                key={service.href}
+                href={service.href}
+                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
+              >
+                <h3 className="text-white font-semibold text-sm mb-2">{service.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed mb-4">{service.desc}</p>
+                <span className="text-xs font-medium text-primary">Learn more →</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
