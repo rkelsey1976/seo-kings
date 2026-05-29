@@ -24,18 +24,28 @@ const packages = [
 
 const results = [
   {
-    business: 'New Decorating',
-    location: 'Bath / Keynsham area',
-    result: 'Top 3 Map Pack',
-    keyword: '"exterior painter Bath"',
-    slug: 'new-decorating',
-  },
-  {
     business: 'Peachy Cleans',
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
+  },
+  {
+    business: 'New Decorating',
+    location: 'Bath',
+    result: 'Top 3 Map Pack',
+    keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
+    slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOKeynsham = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -229,6 +239,7 @@ const LocalSEOKeynsham = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,28 +252,64 @@ const LocalSEOKeynsham = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We're based in Keynsham</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based at 16a Culvers Road, Keynsham BS31 2DW. We work exclusively with businesses in Bath and North East Somerset — so we know which keywords drive enquiries in BS31, which directories matter for Keynsham businesses, and what your local competitors are doing on Google.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We cover all of BS31: Keynsham town centre, Bitton, Saltford, Oldland, Longwell Green and Warmley. If your customers are in these postcodes, we know how to reach them.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, Google-ready sites from £250. Many Keynsham clients do website and SEO together — one team, one plan. See our <Link href="/website-designer-keynsham" className="underline hover:text-white transition-colors text-primary">website design Keynsham</Link> page for details.
-            </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Local SEO in Keynsham</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Keynsham — why BS31 is our home patch
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                SEO Kings is based at 16a Culvers Road — Keynsham is not a target market for us, it&apos;s where we work. That means we know the local search landscape in BS31 better than any agency operating out of Bath or Bristol. We know which trade categories are over-subscribed and which have barely any competition. We know which local directories Google trusts for BS31 citations. And we know what the businesses currently in the Map Pack are doing — and what they&apos;re not.
+              </p>
+              <p>
+                The Map Pack is the thing that matters most for local trades in Keynsham. The three businesses with pins on Google Maps get the majority of clicks — especially on mobile, where most local searches happen. Getting into those three spots is achievable for most Keynsham trades because the market here is less saturated than Bath. We&apos;ve seen businesses move from invisible to Map Pack within weeks of proper Google Business Profile optimisation.
+              </p>
+              <p>
+                BS31 is also well-positioned geographically. Keynsham sits between Bath to the west and the Somer Valley to the south, with Bristol not far north. A Keynsham trade with a well-structured site and GBP can realistically pull enquiries from Bath, Saltford, Bitton, Oldland, Longwell Green and Warmley — covering a much bigger catchment than the town itself.
+              </p>
+              <p>
+                Most local SEO work starts with the Google Business Profile because it&apos;s the fastest lever. But the businesses that hold their rankings long-term combine GBP optimisation with a properly built website, a consistent review strategy, and local citations that reinforce the location signals. We run all of it — one team, one plan, no hand-offs.
+              </p>
+              <p>
+                Need a website as well as SEO? We build fast, Google-ready sites from £250. Most Keynsham clients do both together — it&apos;s the fastest route to results and means everything is aligned from day one. See our <Link href="/website-designer-keynsham" className="text-primary hover:text-white transition-colors underline underline-offset-2">website design Keynsham</Link> page for details.
+              </p>
+            </div>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary mt-8">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
               BS31 2DW<br />
               <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'Actually based here',
+                body: '16a Culvers Road, BS31 2DW. We know which BS31 directories matter, which keywords drive calls, and who you\'re competing with on Google Maps.',
+              },
+              {
+                label: 'Map Pack focus',
+                body: 'The 3-pack gets most of the clicks. Google Business Profile optimisation is the fastest win for any Keynsham trade — and the results come quickly in BS31.',
+              },
+              {
+                label: 'BS31 is winnable',
+                body: 'Less competition than Bath or Bristol. A properly optimised GBP and website can move a Keynsham trade from invisible to page one in months, not years.',
+              },
+              {
+                label: 'Web + SEO together',
+                body: 'Site and SEO from one team — no finger-pointing between a web designer and a separate SEO agency. One plan, one point of contact.',
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
