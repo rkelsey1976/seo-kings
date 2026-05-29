@@ -244,16 +244,7 @@ const WebDesignerNearMe = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Near Me | Bath, Keynsham, Radstock & Somerset – SEO Kings"
-        description="Looking for a website designer near you? We cover Bath, Keynsham, Midsomer Norton, Radstock & all of Bath and North East Somerset. Web design from £250. Free audit."
-        canonical="/website-designer-near-me"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Near Me' },
-        ]}
-        schemas={schemas}
-      />
+      <SEO schemas={schemas} />
 
       <ServicePageHero
         badge="Local website designer"

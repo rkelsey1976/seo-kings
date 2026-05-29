@@ -227,25 +227,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
 
   return (
     <>
-      <SEO
-        title={`${caseStudy.business} Case Study`}
-        description={`How we helped ${caseStudy.business} in ${caseStudy.location} achieve ${caseStudy.results[0].metric} ${caseStudy.results[0].label.toLowerCase()}. Local SEO results.`}
-        canonical={`/case-studies/${caseStudy.slug}`}
-        ogType="article"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Case Studies', url: '/case-studies' },
-          { name: caseStudy.business }
-        ]}
-        article={{
-          type: 'Article',
-          headline: `${caseStudy.business} Case Study | SEO Kings`,
-          description: `How we helped ${caseStudy.business} in ${caseStudy.location} achieve strong local SEO results.`,
-          image: caseStudy.heroImage,
-          datePublished: '2025-01-15',
-          dateModified: '2026-01-28'
-        }}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'Article',
@@ -273,8 +255,7 @@ const CaseStudyDetail = ({ params: staticParams }) => {
               { '@type': 'ListItem', position: 3, name: caseStudy.business },
             ],
           },
-        ]}
-      />
+        ]} />
 
       {/* Hero Section */}
       <section className={`relative pt-32 pb-20 overflow-hidden`}>

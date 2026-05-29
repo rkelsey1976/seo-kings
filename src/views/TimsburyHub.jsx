@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const TimsburyHub = () => {
   return (
     <>
-      <SEO
-        title="Web Design & SEO in Timsbury | BA2 Trades & Businesses"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Timsbury BA2. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/timsbury"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Timsbury' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

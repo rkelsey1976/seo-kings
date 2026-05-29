@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOPeasedown = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Peasedown St John | Get in the Map Pack from £150/month"
-        description="We get Peasedown St John trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/peasedown-st-john"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Peasedown St John' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA2 · Peasedown St John"

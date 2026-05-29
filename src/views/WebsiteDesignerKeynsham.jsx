@@ -118,16 +118,7 @@ const WebsiteDesignerKeynsham = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Keynsham | Web Design from £250"
-        description="Website designer in Keynsham BS31. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Based in Keynsham — free audit."
-        canonical="/website-designer-keynsham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Keynsham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero

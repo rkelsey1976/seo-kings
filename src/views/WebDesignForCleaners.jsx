@@ -131,16 +131,7 @@ const schema = {
 const WebDesignForCleaners = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Cleaners Bath & Somerset | From £250"
-        description="Websites for cleaning businesses in Bath & Somerset. DBS and insurance display, service pages, From £250. Add GBP optimisation for £100. We got Peachy Cleans into the Map Pack."
-        canonical="/web-design-for/cleaners"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Cleaners' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

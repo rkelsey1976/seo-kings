@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForGasEngineers = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Gas Engineers Bath & Somerset | From £250"
-        description="Websites for gas engineers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. Gas Safe badge display, boiler service pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/gas-engineers"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Gas Engineers' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

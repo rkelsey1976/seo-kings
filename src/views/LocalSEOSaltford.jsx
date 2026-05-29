@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOSaltford = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Saltford | Get in the Map Pack from £150/month"
-        description="We get Saltford trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/saltford"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Saltford' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BS31 · Saltford"

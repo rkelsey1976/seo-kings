@@ -3512,13 +3512,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
   return (
     <>
-      <SEO
-        title={area.metaTitle || `Website design ${area.name} | Website Designer & SEO Add-ons – SEO Kings`}
-        description={area.metaDescription || `Website design in ${area.name}. Our main service from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.`}
-        canonical={`/areas/${slug}`}
-        geoPlacename={area.name}
-        schemas={schemasForPage}
-      />
+      <SEO schemas={schemasForPage} />
 
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 overflow-hidden">

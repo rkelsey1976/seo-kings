@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForLoftConversions = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Loft Conversion Companies Bath & Somerset | From £250"
-        description="Websites for loft conversion companies in Bath & Somerset. Fast, mobile-first, built for loft conversion searches. Before/after galleries, planning permission pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/loft-conversions"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Loft Conversions' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

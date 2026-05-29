@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOBradfordOnAvon = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Bradford on Avon | Get in the Map Pack from £150/month"
-        description="We get Bradford on Avon trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/bradford-on-avon"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Bradford on Avon' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA15 · Bradford on Avon"

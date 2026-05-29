@@ -72,15 +72,6 @@ const WhyWeAreDifferent = () => {
 
   return (
     <>
-      <SEO
-        title="Why We're Different | Website Design & SEO for Bath & North East Somerset"
-        description="No jargon, no long contracts, no hidden fees. We're a local Bath & BANES agency that builds websites and gets you found on Google. Free check before you commit."
-        canonical="/why-we-are-different"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: "Why We're Different" },
-        ]}
-      />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

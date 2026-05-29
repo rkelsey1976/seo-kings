@@ -5,12 +5,6 @@ import SEO from '../components/SEO';
 const ThankYou = () => {
   return (
     <>
-      <SEO
-        title="Thank You - Message Received"
-        description="Thank you for contacting SEO Kings. We've received your message and will get back to you within 24 hours."
-        canonical="/thank-you"
-        noIndex={true}
-      />
 
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden py-24">
         {/* Background Effects */}

@@ -129,16 +129,7 @@ const schema = {
 const WebsiteRedesign = () => {
   return (
     <>
-      <SEO
-        title="Website Redesign | Rebuild Your Site from £250"
-        description="Website redesign for trades and local businesses. Fast, SEO-ready rebuilds from £250. Bath, Keynsham, Trowbridge and Somerset. Free audit — no obligation."
-        canonical="/website-redesign"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Redesign' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

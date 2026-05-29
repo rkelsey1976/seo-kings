@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOPaulton = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Paulton | Get in the Map Pack from £150/month"
-        description="We get Paulton trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/paulton"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Paulton' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BS39 · Paulton"

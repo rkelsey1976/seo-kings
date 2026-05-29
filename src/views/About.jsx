@@ -67,15 +67,7 @@ const About = () => {
 
   return (
     <>
-      <SEO
-        title="About Us - Website Design for Bath & North East Somerset"
-        description="We build websites for trades and local businesses in Bath and North East Somerset. SEO and Google Business Profile are add-ons we provide so your site gets found. Our story and why local businesses trust us."
-        canonical="/about"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'About Us' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -94,8 +86,7 @@ const About = () => {
             isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
             about: { '@id': 'https://seo-kings.co.uk/#organization' },
           },
-        ]}
-      />
+        ]} />
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Background */}

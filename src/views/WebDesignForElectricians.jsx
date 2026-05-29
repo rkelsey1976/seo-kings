@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForElectricians = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Electricians Bath & Somerset | From £250"
-        description="Websites for electricians in Bath & Somerset. NICEIC/NAPIT badge display, dedicated EICR and EV charger pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/electricians"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Electricians' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

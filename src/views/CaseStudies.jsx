@@ -109,15 +109,6 @@ const CaseStudies = () => {
 
   return (
     <>
-      <SEO
-        title="Case Studies - SEO Results for Bath and North East Somerset Businesses"
-        description="Real SEO case studies from Bath & North East Somerset. See how we helped tradespeople and local businesses dominate Google and get more customers."
-        canonical="/case-studies"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Case Studies' }
-        ]}
-      />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 overflow-hidden">

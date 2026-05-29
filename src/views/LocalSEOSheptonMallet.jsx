@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOSheptonMallet = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Shepton Mallet | Get in the Map Pack from £150/month"
-        description="We get Shepton Mallet trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/shepton-mallet"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Shepton Mallet' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA4 · Shepton Mallet"

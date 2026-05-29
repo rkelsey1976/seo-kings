@@ -142,15 +142,7 @@ const heroFeatures = [
 const Areas = () => {
   return (
     <>
-      <SEO
-        title="Website Design & Local SEO Services | 41 Areas in Bath & North East Somerset"
-        description="Professional website design from £250 across Bath, Keynsham, Midsomer Norton, Radstock and 37 other areas. Local SEO and Google Business Profile services for trades and small businesses."
-        canonical="/areas"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Areas We Serve' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -169,8 +161,7 @@ const Areas = () => {
             isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
           },
-        ]}
-      />
+        ]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

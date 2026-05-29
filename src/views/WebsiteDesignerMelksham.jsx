@@ -118,16 +118,7 @@ const WebsiteDesignerMelksham = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Melksham | Web Design from £250"
-        description="Website designer serving Melksham SN12. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-melksham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Melksham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero

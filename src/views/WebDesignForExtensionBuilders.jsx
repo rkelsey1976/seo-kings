@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForExtensionBuilders = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Extension Builders Bath & Somerset | From £250"
-        description="Websites for extension builders in Bath & Somerset. Fast, mobile-first, built for extension searches. Conservation area expertise, Bath stone, before/after galleries From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/extension-builders"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Extension Builders' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

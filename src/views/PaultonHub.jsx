@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const PaultonHub = () => {
   return (
     <>
-      <SEO
-        title="Web Design & SEO in Paulton | Somer Valley Trades"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Paulton BS39. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/paulton"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Paulton' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

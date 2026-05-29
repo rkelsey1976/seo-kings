@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOCorsham = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Corsham | Get in the Map Pack from £150/month"
-        description="We get Corsham trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/corsham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Corsham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving SN13 · Corsham"

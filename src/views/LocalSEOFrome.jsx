@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOFrome = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Frome | Get in the Map Pack from £150/month"
-        description="We get Frome trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/frome"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Frome' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA11 · Frome"

@@ -1357,25 +1357,7 @@ const BlogPost = ({ params: staticParams }) => {
 
   return (
     <>
-      <SEO
-        title={post.title}
-        description={post.description}
-        canonical={`/blog/${post.slug}`}
-        ogType="article"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Blog', url: '/blog' },
-          { name: post.title },
-        ]}
-        article={{
-          type: 'BlogPosting',
-          headline: post.title,
-          description: post.description,
-          datePublished: post.date,
-          dateModified: post.date,
-          author: post.author,
-        }}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
@@ -1399,8 +1381,7 @@ const BlogPost = ({ params: staticParams }) => {
               { '@type': 'ListItem', position: 3, name: post.title },
             ],
           },
-        ]}
-      />
+        ]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

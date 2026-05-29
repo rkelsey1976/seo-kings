@@ -119,16 +119,7 @@ const WebsiteDesignerFrome = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Frome | Web Design from £250"
-        description="Website designer serving Frome BA11. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-frome"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Frome' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero

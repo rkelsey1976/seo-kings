@@ -118,16 +118,7 @@ const WebsiteDesignerSheptonMallet = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Shepton Mallet | Web Design from £250"
-        description="Website designer serving Shepton Mallet BA4. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-shepton-mallet"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Shepton Mallet' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero

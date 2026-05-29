@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOKeynsham = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Keynsham | Search Engine Optimisation BS31"
-        description="Local SEO for Keynsham businesses. Google Business Profile, website SEO and review growth from £150/month. Based in Keynsham BS31. Free audit."
-        canonical="/local-seo/keynsham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Keynsham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Based in Keynsham · BS31 2DW"

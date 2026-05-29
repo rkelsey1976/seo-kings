@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForLandscapers = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Landscapers Bath & Somerset | From £250"
-        description="Websites for landscapers in Bath & Somerset. Fast, mobile-first, built for local search. Before/after galleries, service pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/landscapers"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Landscapers' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

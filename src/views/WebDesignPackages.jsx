@@ -36,16 +36,6 @@ const WebDesignPackages = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Packages Bath & North East Somerset | From £250 – SEO Kings"
-        description="Website designer packages for Bath & North East Somerset — we specialise in trade websites and getting local trades found on Google. From £250 for a one-page site. £50 per additional page. No hidden fees."
-        canonical="/web-design-packages"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer', url: '/web-design' },
-          { name: 'Packages' },
-        ]}
-      />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

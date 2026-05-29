@@ -60,17 +60,6 @@ const WebDesignForTradeLocation = ({ params: staticParams }) => {
 
   return (
     <>
-      <SEO
-        title={data.metaTitle}
-        description={data.metaDescription}
-        canonical={`/web-design-for/${tradeSlug}/bath`}
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Trades', url: '/web-design-for' },
-          { name: `Web Design for ${data.tradeName}`, url: `/web-design-for/${tradeSlug}` },
-          { name: 'Bath' },
-        ]}
-      />
 
       {/* Hero */}
       <ServicePageHero

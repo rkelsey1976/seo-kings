@@ -58,15 +58,7 @@ const Blog = () => {
 
   return (
     <>
-      <SEO
-        title="Local SEO & Web Design Tips — SEO Kings Blog"
-        description="Free guides on ranking on Google, getting more reviews and building websites that win customers — written for Bath & Somerset tradespeople and local businesses."
-        canonical="/blog"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Blog' },
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -85,8 +77,7 @@ const Blog = () => {
             isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
             publisher: { '@id': 'https://seo-kings.co.uk/#organization' },
           },
-        ]}
-      />
+        ]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

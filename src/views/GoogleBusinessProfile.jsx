@@ -40,15 +40,7 @@ const GoogleBusinessProfile = () => {
 
   return (
     <>
-      <SEO
-        title="Google Business Profile Optimisation in Bath"
-        description="One-off Google Business Profile optimisation for £100. Ongoing GBP management is included in our Local SEO packages. Add one-off GBP optimisation to any website build for £100."
-        canonical="/google-business-profile"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Google Business Profile' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -89,8 +81,7 @@ const GoogleBusinessProfile = () => {
               { '@type': 'Question', name: 'I want a website and Google Business Profile — what do I get?', acceptedAnswer: { '@type': 'Answer', text: 'GBP optimisation is a £100 add-on to any website package. You get a fully built site from £250, then add GBP set-up for £100 — we handle categories, keywords, description, photos and service area. See our Web Design Packages page for details.' } },
             ],
           },
-        ]}
-      />
+        ]} />
       <ServicePageHero
         badge="Google Business Profile"
         title="Get Your Profile Optimised —"

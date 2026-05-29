@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEOMelksham = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Melksham | Get in the Map Pack from £150/month"
-        description="We get Melksham trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation."
-        canonical="/local-seo/melksham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Melksham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving SN12 · Melksham"

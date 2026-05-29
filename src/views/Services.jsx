@@ -137,15 +137,6 @@ const results = [
 const Services = () => {
   return (
     <>
-      <SEO
-        title="Web Design & Local SEO Services Bath"
-        description="Website design from £250, Google Business Profile set-up, and local SEO for trades in Bath & North East Somerset. See all services and pricing."
-        canonical="/services"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Services' },
-        ]}
-      />
 
       {/* Hero */}
       <section

@@ -145,17 +145,7 @@ const rightPanel = (
 const LocalSEORadstock = () => {
   return (
     <>
-      <SEO
-        title="Local SEO Radstock | SEO Agency BA3 Somer Valley"
-        description="Local SEO for Radstock businesses. Google Business Profile, website SEO and review growth from £150/month. Serving BA3 and the Somer Valley. Free audit."
-        canonical="/local-seo/radstock"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO', url: '/local-seo' },
-          { name: 'Radstock' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       <ServicePageHero
         badge="Serving BA3 · Somer Valley"

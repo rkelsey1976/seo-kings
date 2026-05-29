@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const CorshamHub = () => {
   return (
     <>
-      <SEO
-        title="SEO & Web Design in Corsham | Wiltshire Trades | SEO Kings"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Corsham SN13. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/corsham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Corsham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

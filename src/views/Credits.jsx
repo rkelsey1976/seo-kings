@@ -54,11 +54,6 @@ const images = [
 const Credits = () => {
   return (
     <>
-      <SEO
-        title="Image Credits | SEO Kings"
-        description="Attribution for third-party images used on this website, sourced from Wikimedia Commons under Creative Commons licences."
-        canonical="/credits"
-      />
 
       <section className="pt-32 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />

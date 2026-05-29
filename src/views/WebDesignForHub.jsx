@@ -93,15 +93,7 @@ const WebDesignForHub = () => {
 
   return (
     <>
-      <SEO
-        title="Web Design for Trades in Bath & Somerset | From £250"
-        description="Professional websites built for tradespeople in Bath & North East Somerset. Plumbers, electricians, builders and more — from £250 one-off. Free audit."
-        canonical="/web-design-for"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Trades' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -141,8 +133,7 @@ const WebDesignForHub = () => {
               { '@type': 'Question', name: 'Can I add Local SEO later?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Many clients start with a website and add Local SEO once it\'s live. We built your site with local SEO in mind, so adding it later is seamless — we optimise what we\'ve already created to get you ranking higher and getting more calls.' } },
             ],
           },
-        ]}
-      />
+        ]} />
 
       <ServicePageHero
         badge="Web Design for Trades"

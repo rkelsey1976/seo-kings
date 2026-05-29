@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const PeasedownHub = () => {
   return (
     <>
-      <SEO
-        title="SEO & Web Design in Peasedown St John | South BANES Trades"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Peasedown St John BA2. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/peasedown-st-john"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Peasedown St John' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const FromeHub = () => {
   return (
     <>
-      <SEO
-        title="SEO & Web Design in Frome | Somerset Trades | SEO Kings"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Frome BA11. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/frome"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Frome' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

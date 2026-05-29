@@ -27,15 +27,7 @@ const results = [
 const HowWeAreDifferent = () => {
   return (
     <>
-      <SEO
-        title="How We're Different – Website Designer That Gets You Calls"
-        description="We're not like other website designers. We combine website design with local and hyper-local SEO so your site gets found on Google and gets you calls. Bath & North East Somerset."
-        canonical="/how-we-are-different"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: "How We're Different" },
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
@@ -43,8 +35,7 @@ const HowWeAreDifferent = () => {
             description: 'How SEO Kings differs from other website designers: local and hyper-local SEO to get more calls for your business in Bath and North East Somerset.',
             url: 'https://seo-kings.co.uk/how-we-are-different',
           },
-        ]}
-      />
+        ]} />
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-blob" />

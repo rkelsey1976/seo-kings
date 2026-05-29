@@ -121,16 +121,7 @@ const schema = {
 const WebDesignForDrainageEngineers = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Drainage Engineers Bath & Somerset | From £250"
-        description="Websites for drainage engineers in Bath & Somerset. Fast, mobile-first, built for emergency and local search. 24/7 availability, CCTV survey pages, drain unblocking From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/drainage-engineers"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Drainage Engineers' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

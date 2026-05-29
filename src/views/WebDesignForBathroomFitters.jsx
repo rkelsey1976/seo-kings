@@ -125,16 +125,7 @@ const schema = {
 const WebDesignForBathroomFitters = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Bathroom Fitters Bath & Somerset | From £250"
-        description="Websites for bathroom fitters in Bath & Somerset. Fast, mobile-first, built for local search. Project galleries, before/after photos, service pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/bathroom-fitters"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Bathroom Fitters' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

@@ -119,16 +119,7 @@ const CheckIcon = () => (
 const MelkshamHub = () => {
   return (
     <>
-      <SEO
-        title="SEO & Web Design in Melksham | Wiltshire Trades | SEO Kings"
-        description="Web design, local SEO and Google Business Profile for trades and local businesses in Melksham SN12. Websites from £250, local SEO from £150/month. Free audit — no obligation."
-        canonical="/areas/melksham"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Melksham' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero

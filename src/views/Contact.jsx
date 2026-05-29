@@ -119,15 +119,7 @@ const Contact = () => {
 
   return (
     <>
-      <SEO
-        title="Contact Us – Free Website Quote"
-        description="Contact SEO Kings for a free website quote. Website design from £250 plus local SEO so Bath & North East Somerset businesses get found on Google. Call or use our form."
-        canonical="/contact"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Contact' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -170,8 +162,7 @@ const Contact = () => {
               acceptedAnswer: { '@type': 'Answer', text: faq.a },
             })),
           },
-        ]}
-      />
+        ]} />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 overflow-hidden">

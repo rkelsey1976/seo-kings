@@ -5,11 +5,6 @@ import SEO from '../components/SEO';
 const NotFound = () => {
   return (
     <>
-      <SEO
-        title="404 - Page Not Found"
-        description="Oops! The page you're looking for doesn't exist. Let's get you back on track."
-        noIndex={true}
-      />
 
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
         {/* Background Blobs */}

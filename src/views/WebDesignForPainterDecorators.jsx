@@ -138,16 +138,7 @@ const schema = {
 const WebDesignForPainterDecorators = () => {
   return (
     <>
-      <SEO
-        title="Web Design for Painters & Decorators Bath & Somerset | From £250"
-        description="Websites for painters and decorators in Bath & Somerset. Gallery-first design, interior, exterior and heritage property pages. From £250. Add GBP optimisation for £100."
-        canonical="/web-design-for/painters-decorators"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Web Design for Painters & Decorators' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">

@@ -116,16 +116,7 @@ const hostingRightPanel = (
 const Hosting = () => {
   return (
     <>
-      <SEO
-        title="Website Hosting for Trades — Bath & Somerset | SEO Kings"
-        description="Website hosting with SSL, daily backups, uptime monitoring and content tweaks. 6 months free with every website, then £50/year. No lock-in. Bath & Somerset."
-        canonical="/hosting"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Services', url: '/services' },
-          { name: 'Hosting' },
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -166,8 +157,7 @@ const Hosting = () => {
               acceptedAnswer: { '@type': 'Answer', text: a },
             })),
           },
-        ]}
-      />
+        ]} />
 
       <ServicePageHero
         badge="Website Hosting"

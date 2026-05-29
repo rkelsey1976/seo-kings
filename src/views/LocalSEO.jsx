@@ -98,15 +98,7 @@ const localSeoRightPanel = (
 const LocalSEO = () => {
   return (
     <>
-      <SEO
-        title="Local SEO for Trades in Bath & North East Somerset"
-        description="Get your trade or local business into the map pack and onto page 1. Google Business Profile, on-page SEO & link building from £150/month. Free audit."
-        canonical="/local-seo"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Local SEO' }
-        ]}
-        schemas={[
+      <SEO schemas={[
           {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -145,8 +137,7 @@ const LocalSEO = () => {
               { '@type': 'Question', name: 'I already have a website from you — is Local SEO for me?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Many clients add Local SEO once their website is live. We work on the site we built for you and your Google Business Profile to get more traffic and more calls — no new website needed.' } },
             ],
           },
-        ]}
-      />
+        ]} />
       <ServicePageHero
         badge="Local SEO Services"
         title="Get Found When Customers Search in"

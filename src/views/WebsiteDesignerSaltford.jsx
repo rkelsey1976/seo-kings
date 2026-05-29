@@ -119,16 +119,7 @@ const WebsiteDesignerSaltford = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Saltford | Web Design from £250"
-        description="Website designer serving Saltford. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-saltford"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Saltford' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero
