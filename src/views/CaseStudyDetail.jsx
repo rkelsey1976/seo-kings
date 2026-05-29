@@ -139,7 +139,7 @@ const caseStudiesData = {
       { metric: 'Live', label: 'bathpainter.co.uk', description: 'Full site — interior, exterior, heritage and commercial work' },
       { metric: 'Complete', label: 'Brand identity', description: 'Logo, business cards and social media toolkit delivered' },
       { metric: '20+ years', label: 'Heritage expertise', description: 'Georgian, Victorian and Edwardian properties across Bath' },
-      { metric: 'Building', label: 'Local SEO', description: 'Rankings in progress — local search targeting live from launch' },
+      { metric: 'Enquiries', label: 'Already increasing', description: 'Performing well for local searches within weeks of launch' },
     ],
     timeline: [
       { month: 'Phase 1', title: 'Brand & identity', description: 'Logo designed, business cards and social media toolkit built' },
@@ -148,9 +148,9 @@ const caseStudiesData = {
       { month: 'Phase 4', title: 'Rankings', description: 'Early rankings building — local search positions being established' },
     ],
     testimonial: {
-      quote: 'Testimonial coming soon.',
-      author: 'Bath Painter',
-      role: 'Painter & Decorator, Bath & Keynsham',
+      quote: "From the very first conversation, they understood exactly what I needed — a clean, professional, local SEO-focused site that showcases my 20+ years of experience in Bath. Since the site launched, I've already noticed an increase in enquiries and it's performing well for local searches. If you're a tradesman or small business owner in need of a high-quality website that actually works, I can highly recommend SEO Kings.",
+      author: 'Duncan Herron',
+      role: 'Bath Painter & Decorator, Bath',
     },
     websiteUrl: 'https://bathpainter.co.uk',
     services: ['Logo Design', 'Business Cards', 'Social Media Branding', 'Website Design', 'Local SEO'],

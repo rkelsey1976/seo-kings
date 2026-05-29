@@ -29,6 +29,13 @@ const testimonials = [
     business: 'New Decorating',
     location: 'Bath & BANES',
   },
+  {
+    quote:
+      "From the very first conversation, they understood exactly what I needed — a clean, professional, local SEO-focused site. Since the site launched, I've already noticed an increase in enquiries and it's performing well for local searches. The whole process was completely stress-free.",
+    name: 'Duncan',
+    business: 'Bath Painter',
+    location: 'Bath',
+  },
 ];
 
 const faqs = [
