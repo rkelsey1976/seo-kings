@@ -6,6 +6,7 @@ import MagneticButton from './library/MagneticButton';
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services' },
+  { name: 'Web Design for Trades', href: '/web-design-for' },
   { name: 'Areas', href: '/areas' },
   { name: 'Case Studies', href: '/case-studies' },
   { name: 'About', href: '/about' },
