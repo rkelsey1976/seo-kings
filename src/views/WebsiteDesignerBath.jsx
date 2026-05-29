@@ -15,6 +15,7 @@ const results = [
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
+    detail: 'Launched with no web presence — ranking in the Bath map pack within a week.',
   },
   {
     business: 'Aurelian Massage',
@@ -22,6 +23,7 @@ const results = [
     result: 'Ranking',
     keyword: '"massage Bath"',
     slug: 'aurelian-massage',
+    detail: 'Bath city centre massage therapist — built and ranking for competitive local searches.',
   },
 ];
 
@@ -107,7 +109,6 @@ const schema = {
       areaServed: [
         { '@type': 'City', name: 'Bath' },
         { '@type': 'City', name: 'Keynsham' },
-        { '@type': 'City', name: 'Bristol' },
       ],
       priceRange: '££',
       openingHoursSpecification: [
@@ -130,16 +131,7 @@ const WebsiteDesignerBath = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Bath | Web Design from £250"
-        description="Website designer serving Bath BA1 & BA2. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-bath"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Bath' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero
@@ -242,7 +234,8 @@ const WebsiteDesignerBath = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-500 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs mb-3">{r.location}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{r.detail}</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -251,6 +244,58 @@ const WebsiteDesignerBath = () => {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What actually works in Bath */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <SectionTag className="mb-4">Why it works</SectionTag>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+                Web design in Bath — what actually gets you found
+              </h2>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                Bath web design is more competitive than most Somerset towns. There are dozens of agencies offering to build you a website — some charge thousands, most build on WordPress templates that load slowly and don&apos;t rank. The trades that get enquiries from Google in Bath have three things in common: a fast site, a properly set up Google Business Profile, and location-specific pages that match how customers actually search.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                We build every Bath website in Next.js — a modern framework that consistently outperforms WordPress on Core Web Vitals. Page speed is a direct ranking factor, and a slow site in a competitive market like Bath means handing jobs to competitors before the phone rings. Our sites score 90+ on Google&apos;s PageSpeed test as standard.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                For Bath trades, the searches that drive real enquiries are specific: not just &ldquo;plumber&rdquo; but &ldquo;plumber Bath BA2&rdquo;, &ldquo;emergency plumber Combe Down&rdquo;, &ldquo;painter and decorator Oldfield Park&rdquo;. We build location signals into every page from day one — the right postcodes, the right area names, schema that matches your Google Business Profile. That&apos;s the difference between a site that looks good and one that actually generates work.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                We&apos;re based in Keynsham — 10 minutes from Bath city centre on the A4. We know the local market from both sides: we rank our own agency for competitive web design terms in Bath, and we&apos;ve helped trades across BA1 and BA2 get into the map pack for searches their customers are making every day.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              {[
+                {
+                  title: 'Built on Next.js, not WordPress',
+                  body: 'Faster load times, better Core Web Vitals scores, and no plugin bloat. Google rewards fast sites — especially in competitive markets like Bath.',
+                },
+                {
+                  title: 'Local signals built in from day one',
+                  body: 'BA1 and BA2 postcodes, neighbourhood-level targeting, schema markup that matches your GBP address. Not added as an afterthought.',
+                },
+                {
+                  title: 'Trade-specific page structure',
+                  body: 'A plumber in Bath needs different pages to a massage therapist in Bath. We build to the searches your specific customers are making, not a generic template.',
+                },
+                {
+                  title: 'GBP aligned with your website',
+                  body: 'Your Google Business Profile and website need to tell the same story — same address, same service areas, same categories. Mismatches cost rankings.',
+                },
+              ].map((item) => (
+                <div key={item.title} className="bg-dark-card border border-white/[0.06] rounded-xl p-5">
+                  <div className="text-white font-semibold text-sm mb-2">{item.title}</div>
+                  <div className="text-gray-400 text-sm leading-relaxed">{item.body}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -283,7 +328,7 @@ const WebsiteDesignerBath = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Bath</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
