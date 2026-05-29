@@ -136,10 +136,10 @@ export const STATIC_ROUTES = [
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-near-me', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-bath', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-keynsham', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-midsomer-norton', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-radstock', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-midsomer-norton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-radstock', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-saltford', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-peasedown-st-john', lastmod: '2026-05-17', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-packages', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
@@ -149,15 +149,15 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/roofers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/bath', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/keynsham', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
-  { path: '/local-seo/midsomer-norton', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-trowbridge', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
+  { path: '/local-seo/midsomer-norton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-trowbridge', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-redesign', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/blog', lastmod: '2026-05-05', changefreq: 'weekly', priority: 0.8 },
-  { path: '/case-studies', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.9 },
+  { path: '/case-studies', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
-  { path: '/areas/bath', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/keynsham', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/midsomer-norton', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/radstock', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.9 },
@@ -242,7 +242,7 @@ export const STATIC_ROUTES = [
 
 /** Build all URLs for XML sitemap */
 export function getSitemapUrls() {
-  const today = '2026-05-05';
+  const today = new Date().toISOString().split('T')[0];
   const urls = [
     ...STATIC_ROUTES.map((r) => ({
       url: `${BASE_URL}${r.path}`,
