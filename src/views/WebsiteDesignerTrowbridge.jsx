@@ -24,6 +24,7 @@ const results = [
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
     slug: 'peachy-cleans',
+    detail: 'Full site and GBP setup — now ranking in the map pack for their main cleaning keywords.',
   },
   {
     business: 'New Decorating',
@@ -31,6 +32,7 @@ const results = [
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
+    detail: 'Built from zero web presence to Top 3 Map Pack within a week.',
   },
 ];
 
@@ -122,16 +124,7 @@ const WebsiteDesignerTrowbridge = () => {
 
   return (
     <>
-      <SEO
-        title="Website Designer Trowbridge | Web Design from £250"
-        description="Website designer serving Trowbridge and Wiltshire. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit."
-        canonical="/website-designer-trowbridge"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Website Designer Trowbridge' },
-        ]}
-        schemas={[schema]}
-      />
+      <SEO schemas={[schema]} />
 
       {/* Hero */}
       <ServicePageHero
@@ -234,7 +227,8 @@ const WebsiteDesignerTrowbridge = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-500 text-xs">{r.location}</div>
+                <div className="text-gray-500 text-xs mb-3">{r.location}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{r.detail}</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -243,6 +237,58 @@ const WebsiteDesignerTrowbridge = () => {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What actually works in Trowbridge */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <SectionTag className="mb-4">Why it works</SectionTag>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+                Web design in Trowbridge — the Wiltshire advantage
+              </h2>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                Trowbridge is a different market to Bath or Bristol. There are far fewer agencies chasing BA14 searches — which means a properly built site here can rank faster and hold its position with less ongoing effort. For a Trowbridge trade, the competition online is often less polished than you&apos;d expect: slow WordPress sites, unclaimed Google Business Profiles, no location-specific pages. That gap is the opportunity.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                Trowbridge customers search practically. &ldquo;Plumber Trowbridge BA14&rdquo;, &ldquo;electrician Bradford on Avon&rdquo;, &ldquo;builder Westbury Wiltshire&rdquo; — they&apos;re not browsing, they need a trade. Every site we build targets those specific searches: the right postcodes, the right Wiltshire towns, structured data that tells Google exactly where you operate.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                We build in Next.js, not WordPress — so sites are fast, stable and score well on Core Web Vitals from day one. In a market like Trowbridge where many competitors have slow, neglected sites, speed alone can be a ranking edge. Page speed is a direct Google ranking factor, and it&apos;s one we control completely.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                We&apos;re based in Keynsham, about 25 minutes from Trowbridge on the A363. Most of the process runs smoothly online, but we&apos;re happy to meet in Trowbridge or Bradford on Avon if that works better for you. We cover Trowbridge, Bradford on Avon, Melksham, Westbury, Warminster and Chippenham.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              {[
+                {
+                  title: 'Less competition than Bath or Bristol',
+                  body: 'BA14 has far fewer agencies competing for the same searches. Ranking faster — and staying ranked — is realistic with a properly built site.',
+                },
+                {
+                  title: 'Wiltshire location signals built in',
+                  body: 'BA14 postcodes, Trowbridge and surrounding towns, trade-specific page structure. Not a generic template with a town name pasted in.',
+                },
+                {
+                  title: 'Covers all of Wiltshire',
+                  body: 'Trowbridge, Bradford on Avon, Melksham, Westbury, Warminster and Chippenham — all built into your site from day one.',
+                },
+                {
+                  title: 'Remote-friendly from the start',
+                  body: 'The full process works online. No requirement for regular face-to-face meetings — though we can come to you if you prefer.',
+                },
+              ].map((item) => (
+                <div key={item.title} className="bg-dark-card border border-white/[0.06] rounded-xl p-5">
+                  <div className="text-white font-semibold text-sm mb-2">{item.title}</div>
+                  <div className="text-gray-400 text-sm leading-relaxed">{item.body}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -275,8 +321,44 @@ const WebsiteDesignerTrowbridge = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Trowbridge</h2>
             <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-6">Also worth knowing</SectionTag>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/google-business-profile" className="flex items-center justify-between p-5 bg-dark-card border border-primary/20 rounded-xl hover:border-primary/40 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Google Business Profile</div>
+                <div className="text-xs text-gray-500">Get into the Trowbridge map pack — £100 one-off optimisation</div>
+              </div>
+              <svg className="w-4 h-4 text-primary group-hover:translate-x-0.5 transition-transform shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/website-redesign" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Website Redesign</div>
+                <div className="text-xs text-gray-500">Already have a site that isn&apos;t ranking? We rebuild from £250</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/web-design-packages" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Packages &amp; Pricing</div>
+                <div className="text-xs text-gray-500">Full breakdown of what&apos;s included at every price point</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
