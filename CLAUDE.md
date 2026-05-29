@@ -297,10 +297,15 @@ Pages that have had the full improvement pattern applied:
 - `/website-designer-trowbridge` ✓ (content — still orphaned in nav)
 - `/website-designer-radstock` ✓
 - `/website-designer-midsomer-norton` ✓
+- `/website-designer-keynsham` ✓
 - `/local-seo/midsomer-norton` ✓
+- `/local-seo/bath` ✓
+- `/areas/keynsham` ✓
+- `/areas/saltford` ✓
+- `/areas/radstock` ✓
+- `/areas/midsomer-norton` ✓
 
 Pages still needing the improvement pattern:
-- `/website-designer-keynsham`
 - `/website-designer-bradford-on-avon`
 - `/website-designer-corsham`
 - `/website-designer-frome`
@@ -308,7 +313,6 @@ Pages still needing the improvement pattern:
 - `/website-designer-shepton-mallet`
 - `/website-designer-saltford`
 - `/website-designer-peasedown-st-john`
-- `/local-seo/bath`
 - `/local-seo/keynsham`
 - `/local-seo/bradford-on-avon`
 - `/local-seo/corsham`

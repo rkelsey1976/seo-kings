@@ -159,7 +159,7 @@ export const STATIC_ROUTES = [
   { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/keynsham', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
-  { path: '/areas/midsomer-norton', lastmod: '2026-05-20', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/midsomer-norton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/radstock', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/peasedown-st-john', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/paulton', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },

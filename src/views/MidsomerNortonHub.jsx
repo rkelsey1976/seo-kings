@@ -15,6 +15,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -22,7 +23,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -270,7 +280,7 @@ const MidsomerNortonHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -281,6 +291,7 @@ const MidsomerNortonHub = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -328,27 +339,57 @@ const MidsomerNortonHub = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Somer Valley</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — close to Midsomer Norton and the whole BA3 area. We&apos;ve already delivered map pack rankings for a business in Midsomer Norton itself, and we bring that same approach to every client in the Somer Valley. We know which searches drive enquiries in BA3, which trade categories are most competitive, and what separates the businesses that rank from those that don&apos;t.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              We cover the whole of the Somer Valley — Midsomer Norton, Radstock, Paulton, Peasedown St John, Westfield, Writhlington, Chilcompton and the wider BA3 postcode. Many clients also want to rank in Bath — we can target multiple locations from one plan.
-            </p>
-            <a
-              href="tel:+447702264921"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-colors"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-              </svg>
-              07702 264 921
-            </a>
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Why Midsomer Norton</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design and SEO in Midsomer Norton — why BA3 is easier to rank than most people expect
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Midsomer Norton is the largest market town in BA3 — a working population of trades and small businesses serving the surrounding villages as well as commuters pulling in from Bath. From a search competition standpoint, it&apos;s a different world to Bath or Bristol.
+              </p>
+              <p>
+                The businesses ranking at the top of Google for trade searches in Midsomer Norton aren&apos;t there because they have bigger budgets. They&apos;re there because most of their competitors are still invisible online — outdated sites, missing Google Business Profiles, no local citations, slow mobile pages. The bar to rank well here is genuinely lower, and results come faster.
+              </p>
+              <p>
+                We proved it with Peachy Cleans. A cleaning business in Midsomer Norton with no site and no Google presence — within months of launch, they were in the Map Pack for &ldquo;cleaning Midsomer Norton&rdquo; and fully booked weeks in advance. That&apos;s the kind of outcome that would take much longer in a more competitive city.
+              </p>
+              <p>
+                What makes BA3 particularly valuable for SEO is the reach. A well-structured website and GBP doesn&apos;t just put you in front of Midsomer Norton searches — it can cover Radstock, Paulton, Peasedown St John, Westfield and Chilcompton from the same plan. Many clients also want to rank in Bath. We can target the whole of your working area from a single website, without the cost of separate campaigns for each town.
+              </p>
+              <p>
+                The technical side matters too. Most Midsomer Norton businesses are running on slow WordPress sites — or no site at all. Our Next.js builds load in under a second on a 4G connection, score green across Core Web Vitals, and are structured from the ground up to rank for your trade and your location. Speed and structure are signals Google takes seriously, and they&apos;re easy wins when your competitors are standing still.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'Largest town in BA3',
+                body: "More trade enquiries in Midsomer Norton than any other Somer Valley town — and less competition than you'd expect for that population.",
+              },
+              {
+                label: 'Proof it works here',
+                body: 'Peachy Cleans is in the Midsomer Norton Map Pack. We know the local keywords and what drives enquiries in BA3.',
+              },
+              {
+                label: 'BA3-wide reach',
+                body: 'One properly built site can cover Midsomer Norton, Radstock, Paulton, Peasedown and beyond — without separate campaigns for each town.',
+              },
+              {
+                label: 'Next.js not WordPress',
+                body: "Static site, sub-second load, green Core Web Vitals. Your competitors' sites are slow — yours doesn't have to be.",
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -358,7 +399,7 @@ const MidsomerNortonHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Midsomer Norton services</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design and SEO in Midsomer Norton</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
