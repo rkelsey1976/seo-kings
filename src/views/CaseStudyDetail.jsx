@@ -114,7 +114,7 @@ const caseStudiesData = {
     industry: 'Painter & Decorator',
     location: 'Bath & Keynsham, Somerset',
     logo: 'BP',
-    tagline: 'Bespoke website for a Bath heritage property specialist',
+    tagline: 'Bespoke website for a Bath heritage specialist — enquiries up in under a week',
     heroImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f',
     heroImageAlt: 'Painter and decorator Bath — Bath Painter bespoke website design case study',
     color: 'from-blue-600 to-indigo-700',
@@ -139,7 +139,7 @@ const caseStudiesData = {
       { metric: 'Live', label: 'bathpainter.co.uk', description: 'Full site — interior, exterior, heritage and commercial work' },
       { metric: 'Complete', label: 'Brand identity', description: 'Logo, business cards and social media toolkit delivered' },
       { metric: '20+ years', label: 'Heritage expertise', description: 'Georgian, Victorian and Edwardian properties across Bath' },
-      { metric: 'Enquiries', label: 'Already increasing', description: 'Performing well for local searches within weeks of launch' },
+      { metric: 'Under a week', label: 'Enquiries up', description: 'Increase in enquiries within a week of launch' },
     ],
     timeline: [
       { month: 'Phase 1', title: 'Brand & identity', description: 'Logo designed, business cards and social media toolkit built' },

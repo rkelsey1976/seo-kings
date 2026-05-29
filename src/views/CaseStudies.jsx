@@ -71,7 +71,7 @@ const CaseStudies = () => {
       results: [
         { metric: 'Live', label: 'bathpainter.co.uk' },
         { metric: 'Heritage', label: 'Property specialist' },
-        { metric: 'Enquiries', label: 'Already increasing' },
+        { metric: 'Under a week', label: 'Enquiries up' },
       ],
       timeframe: 'Delivered',
       quote: "Since the site launched, I've already noticed an increase in enquiries and it's performing well for local searches. The whole process was completely stress-free.",
