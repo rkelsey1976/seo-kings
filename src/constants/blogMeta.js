@@ -33,4 +33,9 @@ export const BLOG_META = {
     description: "Website prices in Bath range from a few hundred pounds to thousands. Here's what actually drives the cost — and what a trade or small business realistically needs.",
     canonical: 'https://seo-kings.co.uk/blog/website-cost-bath',
   },
+  'how-to-choose-web-designer-bath': {
+    title: 'How to Choose a Web Designer in Bath | SEO Kings',
+    description: "Picking a web designer in Bath is harder than it looks. Here's what to ask, what to look for, and what most designers won't tell you upfront.",
+    canonical: 'https://seo-kings.co.uk/blog/how-to-choose-web-designer-bath',
+  },
 };

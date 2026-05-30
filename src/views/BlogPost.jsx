@@ -1462,6 +1462,66 @@ const blogPosts = {
       },
     ],
   },
+  'how-to-choose-web-designer-bath': {
+    slug: 'how-to-choose-web-designer-bath',
+    title: 'How to Choose a Web Designer in Bath',
+    description: "Picking a web designer in Bath is harder than it looks. Here's what to ask, what to look for, and what most designers won't tell you upfront.",
+    date: '2026-05-30',
+    readTime: '5 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'how to choose web designer Bath, web designer Bath questions, hiring web designer Bath, best web designer Bath',
+    ctaHeading: 'Want a web designer who knows Bath?',
+    ctaBody: "We build trade websites in Bath and across Somerset — fast, mobile-first, built to rank. Transparent pricing from £250, no hidden fees.",
+    ctaLinks: [
+      { href: '/website-designer-bath', label: 'Website design in Bath' },
+      { href: '/web-design-packages', label: 'View packages and pricing' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+    sections: [
+      {
+        heading: 'Picking the wrong web designer costs more than their quote',
+        paragraphs: [
+          "The cheapest quote rarely stays the cheapest. A poorly built site costs you in lost rankings, slow load times, and customers who click away before they call. Then there's the rebuild — paying someone else to fix what the first designer got wrong. For Bath trades, a bad website can mean six months of invisibility on Google while the site is redone properly.",
+          "This isn't about budget. It's about knowing what to look for before you hire. A clear brief, the right questions, and a bit of due diligence will save you more money than hunting for the lowest price.",
+        ],
+      },
+      {
+        heading: 'Five questions to ask before you hire',
+        paragraphs: [
+          "Ask to see sites they've built that rank on Google — not just ones that look good. A portfolio full of attractive but invisible sites tells you the designer prioritises aesthetics over performance. Ask for a URL, search for the main service keyword, and see where it lands.",
+          "Ask how they handle SEO. If the answer is vague — 'we build with SEO in mind' without specifics — push harder. You want to know whether they do keyword research, write the page titles and meta descriptions, add schema markup, and create location pages for the areas you serve.",
+          "Ask about page speed. A designer who can't tell you their sites' Lighthouse scores either isn't building fast sites or hasn't checked. Both are a problem. Ask what stack they use and why — 'we use WordPress with a premium theme' is a very different answer from a custom-built static site.",
+          "Ask what happens after launch. Do they hand everything over? Is there a maintenance contract? Who owns the domain? Some agencies retain control of your domain and hosting — which means you're locked in. Make sure you own everything from day one.",
+          "Ask for a fixed price. Hourly rates for web design are a red flag if there's no ceiling. Get the full scope in writing: pages, features, revisions, and what triggers additional charges.",
+        ],
+      },
+      {
+        heading: 'Local vs national: why proximity matters for trade sites',
+        paragraphs: [
+          "A national agency won't know that Bath is one of the most competitive local search markets in the South West, or that Keynsham and Bradford on Avon are far easier to rank in. They won't know which postcodes have strong search volume and almost no digital competition. A local designer working with Bath trades every week knows the landscape — and builds accordingly.",
+          "There's also the practical side: being able to call the person who built your site, get a quick answer, and have someone who understands your local market. National agencies route you through account managers. Local designers pick up the phone.",
+        ],
+      },
+      {
+        heading: "Portfolio isn't everything — here's what else to check",
+        paragraphs: [
+          "Look at the sites on mobile. Most trade enquiries come from phones, and a site that looks great on a desktop but cluttered on a phone is a problem. Click around. Does the navigation work? Is the call button prominent? Does the page load quickly on a mobile connection?",
+          "Check the contact page. Is it easy to call, email, or fill in a form? For trade sites, conversion is everything — a beautiful site that makes it hard to get in touch is a beautiful site that generates no work.",
+          "Search for the designer themselves. Do they rank for 'web designer Bath'? If a web designer can't get their own site to rank, that's worth noting.",
+        ],
+      },
+      {
+        heading: 'Red flags to watch for',
+        paragraphs: [
+          "Slow sites in the portfolio: load any site they've built in PageSpeed Insights. A score below 70 on mobile is poor. Below 50 is a serious problem.",
+          "No local results: search for the businesses they've built sites for. If none of them rank locally, the sites aren't doing their job.",
+          "Vague pricing: if they can't give you a clear, itemised quote, ask why. Complexity is a real answer; 'it depends' with no follow-up questions is not.",
+          "Lock-in contracts: monthly retainers for a basic trade site should raise an eyebrow. Understand exactly what you're paying for and what happens if you leave.",
+          "Our pricing is straightforward: from £250 for a one-page site, £50 per additional page. You can see the full breakdown on our web design packages page — no surprises, no lock-in.",
+        ],
+      },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

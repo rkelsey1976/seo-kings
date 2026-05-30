@@ -12,6 +12,7 @@ export const BLOG_SLUGS = [
   'why-speed-matters-for-seo',
   'google-map-pack-bath',
   'website-cost-bath',
+  'how-to-choose-web-designer-bath',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -23,6 +24,7 @@ export const BLOG_LINKS = [
   { href: '/blog/why-speed-matters-for-seo', label: 'Why Speed Matters for SEO' },
   { href: '/blog/google-map-pack-bath', label: 'How to Get Into the Google Map Pack in Bath' },
   { href: '/blog/website-cost-bath', label: 'How Much Does a Website Cost in Bath?' },
+  { href: '/blog/how-to-choose-web-designer-bath', label: 'How to Choose a Web Designer in Bath' },
 ];
 
 export const CASE_STUDY_SLUGS = [
