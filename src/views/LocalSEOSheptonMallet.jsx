@@ -28,14 +28,24 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
     business: 'New Decorating',
-    location: 'Bath / Somerset',
+    location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOSheptonMallet = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -228,7 +238,8 @@ const LocalSEOSheptonMallet = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,6 +271,42 @@ const LocalSEOSheptonMallet = () => {
               <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link>{' '}
               to discuss website and SEO together.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why BA4 is worth targeting</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Local SEO in Shepton Mallet — Somerset market town, wide catchment, very few businesses ranking
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Shepton Mallet has been a Somerset market town for centuries. It sits at the centre of the Mendip Hills, surrounded by rural communities across BA4 that all rely on local trades for everything from plumbing to roofing to decorating. Demand is consistent and year-round.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Online, BA4 is wide open. Most Shepton Mallet trades don&apos;t have a website, and the ones that do have rarely optimised their Google Business Profile. The Map Pack — the three businesses that appear at the top of local searches — is genuinely uncontested for most trade searches here.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Shepton Mallet also has an unusually wide natural catchment. Frome, Wells, Glastonbury, Midsomer Norton and Radstock are all within a short drive. A properly optimised GBP based in BA4 can realistically show up in searches from across a large part of Somerset.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Wide Somerset catchment', body: 'Surrounded by Frome, Wells, Glastonbury and Radstock — one well-optimised GBP can attract enquiries from across the area.' },
+                { label: 'BA4 Map Pack is open', body: 'Almost no Shepton Mallet trades have a properly optimised Google presence. Low competition, fast results.' },
+                { label: 'Rural and town demand', body: 'A mix of rural properties and market town residents creates steady, year-round demand for trusted local trades.' },
+                { label: 'GBP + website together', body: 'We build SEO-ready websites from £250. Many Shepton Mallet clients do website and local SEO together.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

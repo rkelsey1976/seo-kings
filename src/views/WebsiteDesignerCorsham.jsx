@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -213,7 +223,7 @@ const WebsiteDesignerCorsham = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -223,7 +233,8 @@ const WebsiteDesignerCorsham = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -261,12 +272,71 @@ const WebsiteDesignerCorsham = () => {
         </div>
       </section>
 
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why Corsham</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Website design in Corsham — a historic market town where the competition hasn&apos;t caught up yet
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Corsham is a Wiltshire market town with a strong mix of period stone properties, affluent residents and working trades. Demand for builders, electricians, plumbers and decorators is solid. But most trades here have no website — or one that hasn&apos;t been looked at since it was built.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                SN13 is one of the least competitive postcode areas we serve online. That&apos;s an advantage for any trade prepared to invest in a properly built, Google-optimised website. Ranking here is faster than Bath or Chippenham — and the customers it brings in are exactly the type who pay properly and value professional work.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Corsham&apos;s position between Bath and Chippenham also gives you natural dual-market reach. A trade based in SN13 can realistically rank for searches in both towns — especially for less contested queries. We build with that in mind from day one.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Stone town, premium market', body: 'Period properties and professional homeowners who hire trades they trust — the website that shows up first wins.' },
+                { label: 'Low SN13 competition', body: 'Most Corsham trades are invisible on Google. Low competition means faster rankings and quicker returns on investment.' },
+                { label: 'Bath and Chippenham reach', body: 'SN13 sits between two larger markets — one site can rank in all three without any extra effort.' },
+                { label: 'Next.js not WordPress', body: 'Sub-second page loads, green Core Web Vitals, no plugin conflicts. Built to rank from day one.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Related services</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-8 leading-tight tracking-tight">Web design and SEO near Corsham</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/local-seo/corsham', label: 'Local SEO — Corsham', desc: 'Get found on Google Maps and local search in SN13.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-bradford-on-avon', label: 'Website Designer — Bradford on Avon', desc: 'Web design for Bradford on Avon and BA15 businesses.' },
+              { href: '/website-designer-melksham', label: 'Website Designer — Melksham', desc: 'Web design for Melksham and SN12 businesses.' },
+              { href: '/website-designer-trowbridge', label: 'Website Designer — Trowbridge', desc: 'Web design for trades in Trowbridge and BA14.' },
+              { href: '/areas/corsham', label: 'Corsham area hub', desc: 'See everything we cover in the Corsham and SN13 area.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Corsham</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

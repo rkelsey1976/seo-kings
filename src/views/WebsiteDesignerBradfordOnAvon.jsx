@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -214,7 +224,7 @@ const WebsiteDesignerBradfordOnAvon = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -224,7 +234,8 @@ const WebsiteDesignerBradfordOnAvon = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -262,12 +273,71 @@ const WebsiteDesignerBradfordOnAvon = () => {
         </div>
       </section>
 
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why Bradford on Avon</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Website design in Bradford on Avon — a premium market with almost no digital competition
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Bradford on Avon is one of the strongest local markets in our area — and one of the least contested online. BA15 has a high concentration of period properties, listed buildings and affluent homeowners who spend real money on trusted trades. Yet most trades here either have no website or one that hasn't been touched in years.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                That gap is an opportunity. A properly built, Google-optimised website puts you in front of those customers before any of your competitors — because right now, most of them aren't even trying.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                BA15 also sits on the Wiltshire–Somerset border, which gives you a natural dual-market reach: Bath searches to the east, Trowbridge to the south, Corsham to the north. One website, one postcode, three markets. We've seen trades in similar positions rank in multiple areas without any extra effort — the geographic position does the work.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Premium market', body: 'BA15 homeowners spend more and make decisions faster — the trade that shows up first online wins.' },
+                { label: 'Near-zero competition', body: 'Most Bradford on Avon trades are unoptimised or invisible online. Low competition = faster rankings.' },
+                { label: 'Three-way reach', body: 'BA15 sits between Bath, Trowbridge and Corsham — one site can rank in all three markets.' },
+                { label: 'Next.js not WordPress', body: 'Static pages load in under a second. No plugin conflicts, no slow hosting. Core Web Vitals green.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Related services</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-8 leading-tight tracking-tight">Web design and SEO near Bradford on Avon</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/local-seo/bradford-on-avon', label: 'Local SEO — Bradford on Avon', desc: 'Get found on Google Maps and local search in BA15.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-corsham', label: 'Website Designer — Corsham', desc: 'Web design for Corsham and SN13 businesses.' },
+              { href: '/website-designer-trowbridge', label: 'Website Designer — Trowbridge', desc: 'Web design for trades in Trowbridge and BA14.' },
+              { href: '/website-designer-melksham', label: 'Website Designer — Melksham', desc: 'Web design for Melksham and SN12 businesses.' },
+              { href: '/areas/bath', label: 'Areas we serve', desc: 'See all the towns and villages we cover.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Bradford on Avon</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -213,7 +223,7 @@ const WebsiteDesignerSheptonMallet = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -223,7 +233,8 @@ const WebsiteDesignerSheptonMallet = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -261,12 +272,71 @@ const WebsiteDesignerSheptonMallet = () => {
         </div>
       </section>
 
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why Shepton Mallet</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Website design in Shepton Mallet — Somerset market town, real trade demand, almost no one else ranking
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Shepton Mallet sits at the centre of Somerset — surrounded by Frome, Wells, Glastonbury, Midsomer Norton and Radstock. It&apos;s a market town with a solid mix of rural and residential customers who rely on local trades for everything from plumbing to painting. Most of those trades have no Google presence worth speaking of.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                BA4 is one of the least contested postcode areas we work in. That means you don&apos;t need a huge budget to rank here — you just need a properly built, optimised site. In markets like this we see pages ranking quickly, sometimes within a matter of weeks rather than months.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Shepton Mallet&apos;s central position is a genuine advantage. One well-optimised website can pull enquiries from Frome, Wells, Glastonbury and across the Mendip Hills — a wide catchment area for a single postcode.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Central Somerset reach', body: 'Surrounded by Frome, Wells, Glastonbury and Radstock — one site can rank across a wide Somerset catchment.' },
+                { label: 'BA4 is wide open', body: 'Almost no Shepton Mallet trades are properly optimised. Low competition means faster, cheaper results.' },
+                { label: 'Rural and town demand', body: 'A mix of rural properties and town homeowners creates steady, year-round demand for trusted local trades.' },
+                { label: 'Next.js not WordPress', body: 'Static pages, sub-second loads, green Core Web Vitals. Built to rank from day one.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Related services</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-8 leading-tight tracking-tight">Web design and SEO near Shepton Mallet</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/local-seo/shepton-mallet', label: 'Local SEO — Shepton Mallet', desc: 'Get found on Google Maps and local search in BA4.' },
+              { href: '/website-designer-frome', label: 'Website Designer — Frome', desc: 'Web design for Frome and BA11 businesses.' },
+              { href: '/website-designer-radstock', label: 'Website Designer — Radstock', desc: 'Web design for Radstock and the Somer Valley.' },
+              { href: '/website-designer-midsomer-norton', label: 'Website Designer — Midsomer Norton', desc: 'Web design for Midsomer Norton and BA3.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/areas/shepton-mallet', label: 'Shepton Mallet area hub', desc: 'See everything we cover in the Shepton Mallet and BA4 area.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Shepton Mallet</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

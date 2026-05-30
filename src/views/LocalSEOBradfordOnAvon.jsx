@@ -28,6 +28,7 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
   },
   {
@@ -35,7 +36,16 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOBradfordOnAvon = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -228,7 +238,8 @@ const LocalSEOBradfordOnAvon = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,6 +271,42 @@ const LocalSEOBradfordOnAvon = () => {
               <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link>{' '}
               to discuss website and SEO together.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why BA15 is worth targeting</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Local SEO in Bradford on Avon — premium market, almost no competition, fast results
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Bradford on Avon is one of Wiltshire&apos;s most sought-after towns. BA15 has a high concentration of period stone properties, listed buildings and professional homeowners who spend properly on the trades they trust. The demand is real and consistent.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                The opportunity online is just as strong. Most Bradford on Avon trades are either invisible on Google or relying on an outdated website. The Google Map Pack — the three businesses that appear at the top of local results — is almost uncontested here compared to Bath or Trowbridge.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                We start with your Google Business Profile, because that&apos;s what drives Map Pack rankings. A fully optimised GBP with the right categories, photos, description, Q&amp;A and regular posts can show visible results within weeks. Website SEO on top of that consolidates your position and builds authority over time.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Affluent, high-spend market', body: 'BA15 homeowners expect professional trades and pay accordingly — exactly the customers a proper Google presence attracts.' },
+                { label: 'Map Pack is wide open', body: 'Most Bradford on Avon trades have weak or missing GBPs. Low competition means fast Map Pack entry.' },
+                { label: 'Dual-market reach', body: 'Bradford on Avon sits between Bath and Trowbridge — one SEO campaign can target customers from both towns.' },
+                { label: 'GBP + website together', body: 'We offer web design from £250 — many clients do website and local SEO together for the fastest results.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

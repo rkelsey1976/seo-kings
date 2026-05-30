@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -214,7 +224,7 @@ const WebsiteDesignerFrome = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -224,7 +234,8 @@ const WebsiteDesignerFrome = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -262,12 +273,71 @@ const WebsiteDesignerFrome = () => {
         </div>
       </section>
 
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why Frome</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Website design in Frome — BA11&apos;s creative scene meets almost no digital competition for trades
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Frome has one of the most active independent business scenes in Somerset. It&apos;s known for arts, food and culture — but it&apos;s also a town where builders, electricians, decorators and plumbers are in constant demand. The problem is most of those trades are completely invisible on Google.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                BA11 is one of the least contested postcode areas we serve. That means a properly built, Google-optimised website can rank here faster than it would in Bath or Trowbridge — often within weeks. You don&apos;t need to outrank a dozen well-optimised competitors. You just need to show up when no one else is.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Frome is also well placed geographically — midway between Bath, Radstock, Shepton Mallet and Westbury. Trades based in BA11 regularly pick up work from across that whole area. One website, built right, can cover all of it.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Active town, real demand', body: "Frome's independent scene drives steady trade enquiries — and those customers expect to find you online before they call." },
+                { label: 'BA11 is wide open', body: 'Almost no Frome trades are properly optimised. Low competition means you can rank quickly without a huge budget.' },
+                { label: 'Wide Somerset reach', body: 'Midway between Bath, Radstock and Shepton Mallet — one site can generate enquiries across the whole area.' },
+                { label: 'Next.js not WordPress', body: 'Static pages, sub-second loads, green Core Web Vitals. Built to rank from day one.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Related services</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-8 leading-tight tracking-tight">Web design and SEO near Frome</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/local-seo/frome', label: 'Local SEO — Frome', desc: 'Get found on Google Maps and local search in BA11.' },
+              { href: '/website-designer-radstock', label: 'Website Designer — Radstock', desc: 'Web design for Radstock and the Somer Valley.' },
+              { href: '/website-designer-shepton-mallet', label: 'Website Designer — Shepton Mallet', desc: 'Web design for Shepton Mallet and BA4 businesses.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-midsomer-norton', label: 'Website Designer — Midsomer Norton', desc: 'Web design for Midsomer Norton and BA3 businesses.' },
+              { href: '/areas/frome', label: 'Frome area hub', desc: 'See everything we cover in the Frome and BA11 area.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design in Frome</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>

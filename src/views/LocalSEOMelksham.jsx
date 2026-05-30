@@ -28,14 +28,24 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
     business: 'New Decorating',
-    location: 'Bath / Somerset',
+    location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOMelksham = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -228,7 +238,8 @@ const LocalSEOMelksham = () => {
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
-                <div className="text-gray-400 text-xs">{r.location}</div>
+                <div className="text-gray-400 text-xs mb-3">{r.location}</div>
+                {r.detail && <div className="text-gray-500 text-xs leading-relaxed">{r.detail}</div>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,6 +271,42 @@ const LocalSEOMelksham = () => {
               <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link>{' '}
               to discuss website and SEO together.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Why SN12 is worth targeting</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+            Local SEO in Melksham — growing town, real trade demand, almost no one else ranking
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                Melksham is one of Wiltshire&apos;s fastest-growing towns. New residential development has brought thousands of homeowners into the area over the last decade — homeowners who need builders, electricians, plumbers, decorators and all the trades that make a home work. Most of those trades are not on Google in any meaningful way.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                SN12 has very low competition for trade searches. Getting into the Google Map Pack here is faster and cheaper than in Bath or Trowbridge — and the volume of searches is growing as the population grows. First-mover advantage is still very much available.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Melksham&apos;s location between Trowbridge, Chippenham, Bradford on Avon, Devizes and Bath is also a genuine benefit. A well-optimised Google Business Profile can pull enquiries from the whole central Wiltshire area — not just SN12.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                { label: 'Growing population', body: 'Significant new housing has brought thousands of new homeowners to Melksham — and with them, demand for reliable local trades.' },
+                { label: 'SN12 Map Pack is open', body: 'Almost no Melksham trades have a well-optimised GBP. Getting to the top of local results here is more achievable than most areas.' },
+                { label: 'Central Wiltshire reach', body: 'Between Trowbridge, Chippenham, Devizes and Bath — one campaign can generate enquiries across the whole area.' },
+                { label: 'GBP + website together', body: 'We build SEO-ready websites from £250. Many Melksham clients do website and local SEO together for the fastest results.' },
+              ].map(({ label, body }) => (
+                <div key={label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <div className="text-white font-semibold text-sm mb-2">{label}</div>
+                  <div className="text-gray-400 text-xs leading-relaxed">{body}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
