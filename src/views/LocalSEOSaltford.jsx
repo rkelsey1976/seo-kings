@@ -24,18 +24,28 @@ const packages = [
 
 const results = [
   {
-    business: 'New Decorating',
-    location: 'Bath',
-    result: 'Top 3 Map Pack',
-    keyword: '"exterior painter Bath"',
-    slug: 'new-decorating',
-  },
-  {
     business: 'Peachy Cleans',
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
+  },
+  {
+    business: 'New Decorating',
+    location: 'Bath',
+    result: 'Top 3 Map Pack',
+    keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
+    slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOSaltford = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -229,6 +239,7 @@ const LocalSEOSaltford = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,28 +252,57 @@ const LocalSEOSaltford = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Saltford area</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham, just up the road from Saltford. We work exclusively across Bath and North East Somerset — so we understand the local market, which directories matter for BS31 businesses, and how to compete for customers across the Bath–Keynsham corridor.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We cover Saltford and the surrounding area: Keynsham, Corston, Newton St Loe, Kelston, Bitton and the wider BS31 postcode. We target the exact postcodes your customers search from.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              Need a website too? We build fast, SEO-ready sites from £250. See our{' '}
-              <Link href="/website-designer-saltford" className="underline hover:text-white transition-colors text-primary">website design Saltford</Link>{' '}
-              page or{' '}
-              <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link>{' '}
-              to discuss website and SEO together.
-            </p>
-            <p className="mt-6">
-              <a href="tel:+447702264921" className="text-sm font-medium text-white hover:opacity-80 transition-opacity">07702 264 921</a>
-            </p>
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Local SEO in Saltford</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Saltford — ranking in the Bath–Keynsham corridor
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Saltford is a small village with an outsized search opportunity. Sitting on the A4 corridor between Bath and Keynsham means your customers search from both towns — and a properly set up Google Business Profile and website can appear in both catchment areas without separate campaigns for each. For a trade based in BS31, that&apos;s a significantly larger audience than the village population alone would suggest.
+              </p>
+              <p>
+                The local competition is also lower than you&apos;d expect for a village so close to Bath. Most Saltford trades still have an unclaimed GBP, a slow website, or no web presence at all. The businesses currently showing up in Google for Saltford trade searches are often from Keynsham or Bath — not actually local. Getting into the Map Pack here is achievable quickly for a properly optimised business, because you&apos;re not fighting the full Bath market.
+              </p>
+              <p>
+                Google Business Profile optimisation is the fastest lever. For a village like Saltford, a complete, active GBP — correct categories, photos, services, regular posts, review responses — can move you from invisible to the 3-pack in weeks. Most of the competition isn&apos;t doing this. We do it properly from day one and maintain it month on month.
+              </p>
+              <p>
+                Saltford&apos;s above-average household incomes also mean the customers searching here are prepared to pay for quality. That makes it worth doing properly — a well-optimised GBP and a fast website that loads in under a second will convert more of those searches into calls than a generic one-page site.
+              </p>
+              <p>
+                SEO Kings is based in Keynsham — five minutes away. We know BS31, we know which citations matter for this part of Bath and North East Somerset, and we know the search patterns that drive enquiries along the corridor. Need a website too? See our <Link href="/website-designer-saltford" className="text-primary hover:text-white transition-colors underline underline-offset-2">website design Saltford</Link> page — most clients do both together.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'Dual market reach',
+                body: 'BS31 catches searches from Bath and Keynsham. One properly built campaign covers both catchment areas without separate budgets.',
+              },
+              {
+                label: 'Map Pack is achievable',
+                body: "Less competition than Bath. Most Saltford trades aren't properly optimised — getting into the 3-pack here is faster than you'd expect.",
+              },
+              {
+                label: 'GBP is the fastest win',
+                body: 'A properly set up and active Google Business Profile is the single biggest lever for Map Pack visibility in a small village like Saltford.',
+              },
+              {
+                label: 'Next door in Keynsham',
+                body: "5 minutes away. You speak to the person doing the work — no account managers, no outsourcing, no hand-offs.",
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
