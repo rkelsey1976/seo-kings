@@ -313,6 +313,42 @@ const WebsiteDesignerPeasedownStJohn = () => {
         </div>
       </section>
 
+      {/* Related services */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-6">Also in this area</SectionTag>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/local-seo/peasedown" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Local SEO Peasedown</div>
+                <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Peasedown St John — from £150/month</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/areas/peasedown-st-john" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Peasedown Area Hub</div>
+                <div className="text-xs text-gray-500">All web design and SEO services across Peasedown St John</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/website-designer-bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Website Design Bath</div>
+                <div className="text-xs text-gray-500">Also covering Bath — web design for BA1 &amp; BA2 trades from £250</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <CTABanner onGetQuote={() => setModalOpen(true)} />
 
       <PricingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />

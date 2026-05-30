@@ -324,11 +324,12 @@ const WebsiteDesignerMidsomerNorton = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Also useful</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Related services</h2>
-          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Midsomer Norton and BA3 searches.', href: '/google-business-profile' },
               { title: 'Local SEO Midsomer Norton', desc: 'Ongoing SEO to keep you ranking for Midsomer Norton and Somer Valley searches month after month.', href: '/local-seo/midsomer-norton' },
               { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
+              { title: 'Website design Bath', desc: 'Also covering Bath — web design for BA1 & BA2 trades from £250.', href: '/website-designer-bath' },
             ].map((service) => (
               <Link
                 key={service.href}

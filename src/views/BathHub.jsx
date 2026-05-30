@@ -326,6 +326,52 @@ const BathHub = () => {
         </div>
       </section>
 
+      {/* ── CONTENT EXPANSION ── */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <SectionTag className="mb-4">Bath SEO &amp; web design</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Web design and SEO in Bath — competing in one of the South West&apos;s toughest markets
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
+              <p className="text-gray-400 leading-relaxed">
+                Bath is one of the most competitive local search markets in the South West. More businesses, more agencies, more noise. But here&apos;s what most people overlook: the average Bath trade&apos;s digital presence is surprisingly weak. WordPress sites from 2018 scoring under 50 on PageSpeed. Google Business Profiles that are half-complete with no reviews and no photos. The bar to outrank them is lower than it looks.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                What&apos;s actually driving results for Bath trades right now is three things working together: a fast, properly structured website targeting the right Bath keywords; a fully optimised Google Business Profile with genuine reviews; and consistent local citations across the main directories. That combination is what got New Decorating into the top 3 Map Pack for &ldquo;exterior painter Bath&rdquo; — one of the city&apos;s most competitive trade searches.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                title: 'High-intent search volume',
+                desc: 'Bath homeowners search in volume. Period properties, renovation projects, rental stock — the demand is consistent and year-round across BA1 and BA2.',
+              },
+              {
+                title: 'Most trades still poorly set up',
+                desc: 'Despite the competition, most Bath trades run slow sites and half-finished GBPs. The gap between invisible and visible is smaller than most people think.',
+              },
+              {
+                title: '10 minutes from Bath',
+                desc: "We're based in Keynsham on the A4. When you need to talk through a brief or review something, you speak to the person who built your site — not an account manager.",
+              },
+              {
+                title: 'Proven Bath results',
+                desc: 'New Decorating: top 3 Map Pack for "exterior painter Bath". Bath Painter: enquiries up within a week of launch. We rank for our own city, not just our clients.',
+              },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── BATH NEIGHBOURHOODS ── */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -371,6 +417,28 @@ const BathHub = () => {
             <SectionTag className="mb-4">FAQs</SectionTag>
             <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about SEO Kings in Bath</h2>
             <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* ── RELATED SERVICES ── */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-6">Explore further</SectionTag>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/website-designer-bath', label: 'Website Design — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
+              { href: '/local-seo/bath', label: 'Local SEO — Bath', desc: 'Ongoing SEO to push you into Bath\'s Map Pack and keep you there — from £150/month.' },
+              { href: '/google-business-profile', label: 'Google Business Profile', desc: 'GBP setup and optimisation for Bath businesses — £100 one-off, no ongoing fees.' },
+              { href: '/web-design-packages', label: 'Packages &amp; Pricing', desc: 'Clear, per-page pricing with no hidden extras — from £250 for a one-page trade site.' },
+              { href: '/areas/keynsham', label: 'Keynsham', desc: 'Web design and SEO in BS31 — 10 minutes from Bath on the A4.' },
+              { href: '/areas/saltford', label: 'Saltford', desc: 'Between Keynsham and Bath city centre — see what we offer in BS31.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

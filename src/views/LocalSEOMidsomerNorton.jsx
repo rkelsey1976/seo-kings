@@ -311,6 +311,42 @@ const LocalSEOMidsomerNorton = () => {
         </div>
       </section>
 
+      {/* Related */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-6">Also in this area</SectionTag>
+          <div className="grid sm:grid-cols-3 gap-4">
+            <Link href="/website-designer-midsomer-norton" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Website Designer Midsomer Norton</div>
+                <div className="text-xs text-gray-400">Fast, mobile-first websites for Midsomer Norton trades — from £250</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/areas/midsomer-norton" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Midsomer Norton Area Hub</div>
+                <div className="text-xs text-gray-400">All web design &amp; SEO services across Midsomer Norton and BA3</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
+                <div className="text-xs text-gray-400">Also covering Bath — Map Pack and local search for BA1 &amp; BA2</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <CTABanner />
     </>
   );

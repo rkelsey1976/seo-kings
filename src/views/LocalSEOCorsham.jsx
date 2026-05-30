@@ -325,9 +325,9 @@ const LocalSEOCorsham = () => {
       {/* Related */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <SectionTag className="mb-4">Also in this area</SectionTag>
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid sm:grid-cols-3 gap-6">
               <Link
                 href="/website-designer-corsham"
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
@@ -347,6 +347,19 @@ const LocalSEOCorsham = () => {
               >
                 <div className="text-white font-semibold text-sm mb-1">Corsham Area Hub</div>
                 <div className="text-gray-400 text-xs">All web design &amp; SEO services across Corsham and SN13</div>
+                <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
+                  View page
+                  <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </Link>
+              <Link
+                href="/local-seo/bath"
+                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
+              >
+                <div className="text-white font-semibold text-sm mb-1">Local SEO Bath</div>
+                <div className="text-gray-400 text-xs">Also covering Bath — Map Pack and local search for BA1 &amp; BA2</div>
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View page
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
