@@ -313,16 +313,7 @@ Pages that have had the full improvement pattern applied:
 - `/website-designer-saltford` ✓
 
 Pages still needing the improvement pattern:
-- `/website-designer-bradford-on-avon`
-- `/website-designer-corsham`
-- `/website-designer-frome`
-- `/website-designer-melksham`
-- `/website-designer-shepton-mallet`
-- `/local-seo/bradford-on-avon`
-- `/local-seo/corsham`
-- `/local-seo/frome`
-- `/local-seo/melksham`
-- `/local-seo/shepton-mallet`
+- ✅ ALL DONE (2026-05-30) — all area service pages and local-seo pages have had the full improvement pattern applied.
 
 ---
 
