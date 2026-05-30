@@ -10,6 +10,8 @@ export const BLOG_SLUGS = [
   'get-more-google-reviews-bath',
   'free-seo-audit-what-we-check',
   'why-speed-matters-for-seo',
+  'google-map-pack-bath',
+  'website-cost-bath',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -19,6 +21,8 @@ export const BLOG_LINKS = [
   { href: '/blog/get-more-google-reviews-bath', label: 'Get More Google Reviews' },
   { href: '/blog/free-seo-audit-what-we-check', label: 'Free SEO Audit – What We Check' },
   { href: '/blog/why-speed-matters-for-seo', label: 'Why Speed Matters for SEO' },
+  { href: '/blog/google-map-pack-bath', label: 'How to Get Into the Google Map Pack in Bath' },
+  { href: '/blog/website-cost-bath', label: 'How Much Does a Website Cost in Bath?' },
 ];
 
 export const CASE_STUDY_SLUGS = [

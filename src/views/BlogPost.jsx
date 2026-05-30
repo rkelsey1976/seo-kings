@@ -1342,6 +1342,126 @@ const blogPosts = {
       { href: '/website-designer-keynsham', label: 'Website design Keynsham' },
     ],
   },
+  'google-map-pack-bath': {
+    slug: 'google-map-pack-bath',
+    title: 'How to Get Into the Google Map Pack in Bath',
+    description: 'The Map Pack shows three local businesses at the top of Google — and it drives most of the clicks. Here\'s what puts a Bath trade in those three spots and what doesn\'t.',
+    date: '2026-05-29',
+    readTime: '5 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'google map pack Bath, local search Bath, GBP Bath, map pack ranking Bath, local google results Bath',
+    ctaHeading: 'Want help getting into the Map Pack in Bath?',
+    ctaBody: 'We specialise in local SEO for trades and small businesses in Bath and North East Somerset — Map Pack rankings and Google Business Profile optimisation.',
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO in Bath' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'What the Map Pack is — and why it matters more than organic results',
+        paragraphs: [
+          'When someone in Bath searches for "plumber" or "electrician near me", Google shows a box with three businesses, each with a map pin, star rating, and phone number. That\'s the Map Pack — and it sits above every organic result on the page.',
+          'For local trades in Bath, the Map Pack is where most of the enquiries come from. Research consistently shows that Map Pack results get the majority of clicks on local searches — often more than all the organic results combined. If your business isn\'t in those three spots, you\'re largely invisible to customers who are ready to call.',
+          'The organic results below the Map Pack still matter — especially for longer research-stage searches — but for "plumber Bath" or "builder Bath", the Map Pack is the main game.',
+        ],
+      },
+      {
+        heading: 'The three factors Google uses to decide who gets in',
+        paragraphs: [
+          'Google\'s local algorithm looks at three things: relevance, distance, and prominence.',
+          'Relevance is whether your Google Business Profile and website clearly match what the customer is searching for. If someone searches "electrician Bath" and your GBP category is "Contractor" with a vague description, you\'re at a disadvantage against someone whose GBP clearly says "Electrician" and lists the services they actually offer.',
+          'Distance is straightforward — Google factors in how close your business is to the searcher (or the location they specified). You can\'t change where you\'re physically based, but you can set a proper service area so Google knows the full range of where you work.',
+          'Prominence is the hardest to build quickly. It\'s your overall authority and reputation on Google — driven by reviews (quantity, quality, and recency), citations in local directories, website authority, and how active your GBP is. A business with 40 reviews and regular posts will generally outrank one with 3 reviews and a profile that hasn\'t been touched since it was claimed.',
+        ],
+      },
+      {
+        heading: 'Why Bath is harder than the surrounding towns',
+        paragraphs: [
+          'Bath is a competitive local search market. It has a large population, high trade demand, and enough established businesses with reasonable Google presence to make the Map Pack genuinely contested for most trade categories.',
+          'This is different from Keynsham, Radstock, Midsomer Norton or the surrounding Somer Valley towns, where many trades still have unclaimed GBPs and thin websites. In those markets, getting into the Map Pack can take weeks. In central Bath, for a competitive category like plumbing or electrical work, it can take months of consistent GBP activity, review growth, and website improvement.',
+          'That\'s not a reason to avoid Bath — the volume of searches there is worth the effort. But it means the work has to be done properly, consistently, and for long enough to build the prominence Google needs to see.',
+        ],
+      },
+      {
+        heading: 'What actually moves the needle',
+        paragraphs: [
+          'Start with your Google Business Profile. Claim it if you haven\'t, complete every section, choose the right primary and secondary categories, write a clear description that mentions your key services and the areas you cover, and set your service area to match where you actually work.',
+          'Photos matter more than most people expect. GBPs with real job photos — not stock images — consistently outperform those without. Add photos of your work, your van, your team. Post regularly: Google rewards active profiles.',
+          'Reviews are the single biggest lever for prominence. Ask every satisfied customer for a review and give them a direct link to make it easy. Respond to every review, good or bad. Fifty genuine reviews will dramatically outperform five, all else being equal.',
+          'Your website supports your GBP. Make sure your business name, address, and phone number match exactly between your site and your GBP. Service pages that clearly target Bath trade keywords signal to Google that your website is relevant, which reinforces your GBP ranking.',
+        ],
+      },
+      {
+        heading: 'How long it takes',
+        paragraphs: [
+          'For a business starting from scratch in Bath — unclaimed GBP, few reviews, basic website — getting into the Map Pack for competitive queries takes roughly 3–6 months of consistent work. GBP improvements can show results faster than that, sometimes within weeks, for less competitive searches or service area queries.',
+          'For businesses that already have a GBP and some reviews, targeted improvements to categories, photos, description, and regular posting can move rankings noticeably within 4–8 weeks.',
+          'The key word is consistent. A GBP that gets attention for a month and then goes quiet will not hold its position. The businesses that stay in the Map Pack maintain their profiles, keep reviews coming in, and keep their websites updated.',
+        ],
+      },
+    ],
+  },
+  'website-cost-bath': {
+    slug: 'website-cost-bath',
+    title: 'How Much Does a Website Cost in Bath?',
+    description: 'Website prices in Bath range from a few hundred pounds to tens of thousands. Here\'s what actually drives the cost — and what a trade or small business realistically needs.',
+    date: '2026-05-29',
+    readTime: '5 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'how much does a website cost Bath, website price Bath, web design cost Bath, website quote Bath, cost of a website Bath',
+    ctaHeading: 'Want a clear, honest quote for your Bath website?',
+    ctaBody: 'We build fast, mobile-first websites for Bath trades and small businesses from £250 — transparent per-page pricing, no hidden fees.',
+    ctaLinks: [
+      { href: '/website-designer-bath', label: 'Website design in Bath' },
+      { href: '/web-design-packages', label: 'View our packages and pricing' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+    sections: [
+      {
+        heading: 'Why website prices vary so much',
+        paragraphs: [
+          'Ask three different web designers in Bath what a website costs and you\'ll get three very different answers. That\'s not deception — it\'s because "a website" can mean almost anything, from a one-page trade site to a full e-commerce platform with a content management system, product feeds, and custom integrations.',
+          'Most trades and small businesses in Bath need something in the middle — a professional, mobile-first site with a few pages, built to rank on Google, that makes it easy for customers to find you and get in touch. That\'s a much narrower brief, and the price range for it is more predictable.',
+        ],
+      },
+      {
+        heading: 'The main factors that affect cost',
+        paragraphs: [
+          'Number of pages is the biggest driver. More pages means more design, more content, more development work. A one-page site for a sole trader is a very different project from a ten-page site with individual service pages for every trade and location.',
+          'Design complexity matters too. A standard template-based design costs less than a fully bespoke design built from scratch. For most trade businesses in Bath, a clean, well-structured design that reflects the business properly is more important than something highly custom — and costs accordingly.',
+          'Features add to the cost: booking systems, galleries, contact forms with conditional logic, e-commerce, multilingual support. Most trades need a contact form, click-to-call, and a photo gallery — none of which are expensive to add.',
+          'SEO work is often bundled in at different levels. A site "built with SEO in mind" is different from one with proper keyword research, individual location pages, schema markup, and ongoing optimisation. Make sure you understand what you\'re getting.',
+        ],
+      },
+      {
+        heading: 'What to expect at different price points in Bath',
+        paragraphs: [
+          'Under £500: A one to three-page site for a sole trader or small trade business. At this level, you should still get a mobile-first design, SSL, a contact form, and basic on-page SEO. Watch out for template sites that look cheap and perform accordingly — slow load speeds and poor Google visibility.',
+          '£500–£1,500: A four to eight-page site with proper service pages, a gallery, testimonials, and location targeting. At this level, expect a structured brief, proper keyword research, and a site built to rank for your trade in Bath and the surrounding area.',
+          '£1,500–£5,000: Multi-service or multi-location sites, bespoke design, advanced SEO work, custom integrations. Most trades don\'t need this — it\'s the territory of larger businesses with complex needs.',
+          'Above £5,000: Full bespoke builds, e-commerce, large content sites. Not relevant for most Bath tradespeople.',
+        ],
+      },
+      {
+        heading: 'Hidden costs to ask about',
+        paragraphs: [
+          'Hosting is usually not included in the quoted price. Cheap hosting on a shared server can slow your site down and hurt your rankings — factor in the cost of quality hosting from the start. We include six months free, then £50/year.',
+          'Ongoing maintenance is often overlooked. WordPress sites need plugin updates, security patches, and occasional fixes. Static sites like the ones we build need far less maintenance, but someone still needs to handle content updates and renewals.',
+          'Domain registration is a small but recurring cost — usually £10–£20/year. Make sure it\'s registered in your name, not the agency\'s.',
+          'Some agencies quote low for the build and charge heavily for every small change afterwards. Ask upfront what\'s included in the price and what happens when you need to update a page or add a new service.',
+        ],
+      },
+      {
+        heading: 'What a Bath trade website actually needs',
+        paragraphs: [
+          'For most plumbers, electricians, builders, decorators and cleaners in Bath, the brief is simpler than it sounds: a fast, mobile-first site that ranks for your trade and location, makes it easy to call or enquire, and looks professional enough that customers trust you before they pick up the phone.',
+          'That means: a clear home page, a services page (or individual pages per service for better SEO), a contact page, click-to-call, SSL, and a Google Business Profile that matches. You don\'t need a booking system, a blog, or a custom CMS to achieve that.',
+          'Our transparent per-page pricing starts at £250 for a one-page site, with £50 per additional page. No hidden fees, no lock-in contracts. You can see the full breakdown on our web design packages page, or get in touch for a quote specific to your business.',
+        ],
+      },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

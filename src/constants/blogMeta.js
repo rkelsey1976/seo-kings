@@ -23,4 +23,14 @@ export const BLOG_META = {
     title: 'Why Speed Matters for SEO: How Fast Websites Rank Better on Google',
     description: "Page speed is a ranking factor and affects user experience. Here's why fast websites rank better on Google and what you can do about it.",
   },
+  'google-map-pack-bath': {
+    title: 'How to Get Into the Google Map Pack in Bath | SEO Kings',
+    description: "The Map Pack shows three local businesses at the top of Google — and it drives most of the clicks. Here's what puts a Bath trade in those three spots.",
+    canonical: 'https://seo-kings.co.uk/blog/google-map-pack-bath',
+  },
+  'website-cost-bath': {
+    title: 'How Much Does a Website Cost in Bath? | SEO Kings',
+    description: "Website prices in Bath range from a few hundred pounds to thousands. Here's what actually drives the cost — and what a trade or small business realistically needs.",
+    canonical: 'https://seo-kings.co.uk/blog/website-cost-bath',
+  },
 };
