@@ -28,14 +28,24 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
     business: 'New Decorating',
-    location: 'Bath / Somerset',
+    location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEORadstock = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -229,6 +239,7 @@ const LocalSEORadstock = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,21 +252,57 @@ const LocalSEORadstock = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Somer Valley</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — well placed to serve Radstock and the whole BA3 area. We understand the Somer Valley market: which keywords drive enquiries in Radstock and the surrounding postcodes, what the local competition looks like on Google, and which directories and citations matter for BA3 businesses.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We cover all of the BA3 area: Radstock, Midsomer Norton, Westfield, Writhlington, Peasedown St John, Chilcompton, Paulton and the wider Somer Valley. We target the exact postcodes your customers search from.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              Need a website too? We build fast, SEO-ready sites from £250. See our <Link href="/website-designer-radstock" className="underline hover:text-white transition-colors text-primary">website design Radstock</Link> page or <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link> to discuss website and SEO together.
-            </p>
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Local SEO in Radstock</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Radstock — why the Somer Valley Map Pack is more achievable than you think
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Radstock and the wider BA3 area is one of the least competitive local search markets in the region. Most trades here are still invisible online — no website, an unclaimed Google Business Profile, or a slow site that Google has little reason to trust. That&apos;s not a problem for you, it&apos;s an opportunity. The bar to rank well for Radstock trade searches is lower than almost anywhere in Somerset.
+              </p>
+              <p>
+                The Map Pack is where the work comes from. The three businesses with pins at the top of Google Maps capture the majority of clicks — especially on mobile, where most local searches happen. Getting into those three spots for &ldquo;plumber Radstock&rdquo; or &ldquo;electrician BA3&rdquo; is genuinely achievable here. We&apos;ve already helped businesses in neighbouring Midsomer Norton get into the Map Pack within months of starting — and Radstock is no more competitive.
+              </p>
+              <p>
+                What makes BA3 particularly good for local SEO is the coverage you get from one campaign. A well-optimised Google Business Profile and website in Radstock can rank for searches across Midsomer Norton, Westfield, Writhlington, Peasedown St John, Chilcompton and Paulton — the whole Somer Valley, often without separate campaigns for each village. Many clients also want to reach Bath, and we can structure your targeting to pull from both directions.
+              </p>
+              <p>
+                SEO Kings is based in Keynsham — about 12 miles from Radstock. We know the BA3 market, the directories that matter for Somer Valley businesses, and the search patterns that drive enquiries in this part of Somerset. You speak to the person doing the work, not an account manager passing messages between departments.
+              </p>
+              <p>
+                Need a website as well as SEO? We build fast, Google-ready sites from £250. Most Radstock clients do both together — a new site built to rank alongside a proper GBP campaign is the fastest route to consistent enquiries. See our <Link href="/website-designer-radstock" className="text-primary hover:text-white transition-colors underline underline-offset-2">website design Radstock</Link> page for details.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'BA3 is less competitive',
+                body: 'Most Radstock trades have no real online presence. The bar to rank is lower than Bath or Bristol, and results come faster.',
+              },
+              {
+                label: 'Map Pack = most calls',
+                body: 'The 3 businesses with pins get the majority of local clicks. Google Business Profile optimisation is the fastest win in BA3.',
+              },
+              {
+                label: 'Somer Valley reach',
+                body: 'One campaign can cover Radstock, Midsomer Norton, Paulton, Peasedown and beyond — without separate budgets for each town.',
+              },
+              {
+                label: '12 miles from Keynsham',
+                body: "We're close enough to know the local market and close enough to visit. You speak to the person doing the work.",
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
