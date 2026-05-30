@@ -298,8 +298,10 @@ Pages that have had the full improvement pattern applied:
 - `/website-designer-radstock` ✓
 - `/website-designer-midsomer-norton` ✓
 - `/website-designer-keynsham` ✓
+- `/website-designer-peasedown-st-john` ✓
 - `/local-seo/midsomer-norton` ✓
 - `/local-seo/bath` ✓
+- `/local-seo/keynsham` ✓
 - `/areas/keynsham` ✓
 - `/areas/saltford` ✓
 - `/areas/radstock` ✓
@@ -312,8 +314,6 @@ Pages still needing the improvement pattern:
 - `/website-designer-melksham`
 - `/website-designer-shepton-mallet`
 - `/website-designer-saltford`
-- `/website-designer-peasedown-st-john`
-- `/local-seo/keynsham`
 - `/local-seo/bradford-on-avon`
 - `/local-seo/corsham`
 - `/local-seo/frome`
