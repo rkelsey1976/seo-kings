@@ -14,6 +14,7 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
@@ -21,7 +22,16 @@ const results = [
     location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -210,13 +220,14 @@ const WebsiteDesignerSaltford = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link key={r.slug} href={`/case-studies/${r.slug}`} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group">
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
                 <div className="text-xs text-gray-500 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-500 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -229,25 +240,64 @@ const WebsiteDesignerSaltford = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local to you</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Right on your doorstep</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — minutes from Saltford. The BS31 corridor between Bath and Bristol is an unusual market: trades here can legitimately target both cities, which doubles the potential search audience compared to a business operating in just one. We build every Saltford site to capture both Bath and Bristol-adjacent searches, not just the immediate postcode.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
-              Saltford itself is a small, high-income village — the kind of place where tradespeople doing quality work can build a strong local reputation fast. Online visibility is the missing piece for most businesses here. We serve Saltford, Keynsham, Bitton, Swineford and the wider BS31 area.
-            </p>
-            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Why Saltford</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Website design in Saltford — two cities, one postcode, less competition
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Saltford sits in an unusual position for local search. The village is on the A4 corridor between Bath and Bristol — which means a trade based here can legitimately target both cities from a single website. That&apos;s a much larger catchment area than most businesses this size would expect, and it&apos;s one of the main reasons Saltford is worth investing in properly.
+              </p>
+              <p>
+                Online competition in Saltford itself is low. Most local trades have no website, an unclaimed Google Business Profile, or a site that hasn&apos;t been touched in years. The businesses showing up in Google for Saltford trade searches are often from Keynsham or Bath — not actually based here. A properly built local site for a Saltford trade will outrank out-of-town competitors quickly, because Google favours proximity signals when they&apos;re backed up by good on-page structure.
+              </p>
+              <p>
+                Saltford is also an affluent village — household incomes here are above average for the region, and customers expect quality work and are prepared to pay for it. That makes it worth building a website that presents you properly, rather than a generic one-pager that does the minimum. First impressions matter more in a market where customers have options.
+              </p>
+              <p>
+                We&apos;re based in Keynsham — about five minutes from Saltford. That proximity matters. We know the local market, the search patterns customers in BS31 and BS18 use, and what differentiates the businesses that rank from those that don&apos;t. When you call us, you get through to the person who built your site, not an account manager.
+              </p>
+              <p>
+                Need local SEO alongside the website? We offer Google Business Profile optimisation from £100 and full local SEO campaigns from £150/month. Most Saltford clients do both — a site built to rank, combined with a properly optimised GBP, is the fastest route to appearing in the Map Pack. See our <Link href="/local-seo/saltford" className="text-primary hover:text-white transition-colors underline underline-offset-2">local SEO Saltford</Link> page for details.
+              </p>
+            </div>
+            <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary mt-8">
               SEO Kings<br />
               16a Culvers Road<br />
               Keynsham, Somerset<br />
               BS31 2DW<br />
               <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'Bath and Bristol reach',
+                body: 'Saltford sits between both cities. One well-built site can pull trade enquiries from Bath, Keynsham, Bristol and everywhere in between.',
+              },
+              {
+                label: 'Affluent village market',
+                body: "Above-average household incomes mean customers who pay for quality. Worth presenting yourself properly rather than just ticking a box.",
+              },
+              {
+                label: 'Low local competition',
+                body: "Most Saltford trades have no proper web presence. The bar to rank locally is low — and many results are held by out-of-town businesses.",
+              },
+              {
+                label: '5 minutes from Keynsham',
+                body: "We're next door. You speak to the person who built your site — no account managers, no outsourcing.",
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -257,7 +307,7 @@ const WebsiteDesignerSaltford = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about website design in Saltford</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
