@@ -28,14 +28,24 @@ const results = [
     location: 'Midsomer Norton',
     result: 'Map Pack',
     keyword: '"cleaning Midsomer Norton"',
+    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
     slug: 'peachy-cleans',
   },
   {
     business: 'New Decorating',
-    location: 'Bath / Somerset',
+    location: 'Bath',
     result: 'Top 3 Map Pack',
     keyword: '"exterior painter Bath"',
+    detail: "Top 3 Map Pack for one of Bath's most competitive trade keywords — consistent enquiries from Google Maps.",
     slug: 'new-decorating',
+  },
+  {
+    business: 'Bath Painter',
+    location: 'Bath',
+    result: 'Bespoke',
+    keyword: '"painter and decorator Bath"',
+    detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
+    slug: 'bath-painter',
   },
 ];
 
@@ -218,7 +228,7 @@ const LocalSEOPaulton = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
@@ -229,6 +239,7 @@ const LocalSEOPaulton = () => {
                 <div className="text-xs text-gray-400 mb-4">{r.keyword}</div>
                 <div className="text-white font-semibold text-sm">{r.business}</div>
                 <div className="text-gray-400 text-xs">{r.location}</div>
+                {r.detail && <p className="text-gray-400 text-xs mt-3 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
                   View case study
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,28 +252,57 @@ const LocalSEOPaulton = () => {
         </div>
       </section>
 
-      {/* Local signals */}
+      {/* Content expansion */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <SectionTag className="mb-4">Local knowledge</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">We know the Paulton market</h2>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              SEO Kings is based in Keynsham — well placed to serve Paulton and the whole Somer Valley. We understand which keywords drive enquiries in BS39, what the local competition looks like on Google, and which directories and citations matter for Paulton businesses.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              We cover Paulton and the surrounding area: High Littleton, Hallatrow, Timsbury, Farmborough, Cameley and the wider BS39 corridor. We target the exact postcodes your customers search from.
-            </p>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              Need a website too? We build fast, SEO-ready sites from £250. See our{' '}
-              <Link href="/local-seo/midsomer-norton" className="underline hover:text-white transition-colors text-primary">local SEO Midsomer Norton</Link>{' '}
-              page for a nearby example, or{' '}
-              <Link href="/contact" className="underline hover:text-white transition-colors text-primary">get in touch</Link>{' '}
-              to discuss website and SEO together.
-            </p>
-            <p className="text-gray-400 leading-relaxed">
-              <a href="tel:+447702264921" className="text-sm font-medium text-white hover:opacity-80 transition-opacity">07702 264 921</a>
-            </p>
+          <div className="max-w-3xl mx-auto mb-16">
+            <SectionTag className="mb-4">Local SEO in Paulton</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              Local SEO in Paulton — why BS39 is one of the easiest markets to rank in
+            </h2>
+            <div className="space-y-4 text-gray-400 leading-relaxed">
+              <p>
+                Paulton is one of the most underserved markets we cover. BS39 has a solid residential population, a working trade economy, and almost no properly optimised businesses competing on Google. Most trades here have an unclaimed Google Business Profile, no website, or a site that hasn&apos;t been touched since it was built. That&apos;s the starting point for every business we take on — and it&apos;s a very low bar to clear.
+              </p>
+              <p>
+                The Map Pack is where the enquiries come from. The three businesses with pins at the top of Google Maps get the majority of local clicks — and in Paulton, those three spots are often held by businesses from Midsomer Norton or Radstock, not Paulton itself. A properly set up GBP for a Paulton-based trade, with the right categories, service areas, photos, reviews and regular posts, can displace them quickly. Google favours proximity when the signals back it up — and if you&apos;re actually in Paulton, you have the proximity advantage already.
+              </p>
+              <p>
+                Coverage matters too. A Paulton trade typically serves a wide area — High Littleton, Hallatrow, Timsbury, Farmborough, Cameley and across into the Chew Valley. We structure campaigns to target your whole working patch, not just the immediate postcode, so you appear wherever your customers are searching from across BS39 and beyond.
+              </p>
+              <p>
+                Many Paulton clients also want to reach Midsomer Norton, Radstock or even Bath. We can structure your targeting to cover multiple towns from one campaign — no separate budgets per location. The reach you can get from a BS39 base, with the right SEO foundation, is bigger than most people expect.
+              </p>
+              <p>
+                Need a website alongside the SEO? We build fast, Google-ready sites from £250. Most clients do both together — a new site built to rank, combined with a properly optimised GBP, is the fastest route to consistent enquiries. <Link href="/contact" className="text-primary hover:text-white transition-colors underline underline-offset-2">Get in touch</Link> for a free audit and we&apos;ll tell you exactly where the opportunity is for your business.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                label: 'BS39 is underserved',
+                body: 'Paulton has fewer properly optimised businesses than almost anywhere we cover. The bar to rank here is genuinely low.',
+              },
+              {
+                label: 'Map Pack is there for the taking',
+                body: "The 3-pack for Paulton trade searches is often held by businesses from other towns. A locally-based, properly optimised GBP can displace them fast.",
+              },
+              {
+                label: 'Wide area reach',
+                body: 'One campaign covers Paulton, High Littleton, Timsbury, Hallatrow and into the Chew Valley — your whole working patch from one plan.',
+              },
+              {
+                label: 'Keynsham-based',
+                body: 'We know BS39, the local directories that matter, and the search patterns driving enquiries in this part of Somerset.',
+              },
+            ].map((card) => (
+              <div key={card.label} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.label}</div>
+                <p className="text-gray-400 text-sm leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
