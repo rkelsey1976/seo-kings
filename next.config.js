@@ -9,6 +9,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
       { protocol: 'https', hostname: 'upload.wikimedia.org', pathname: '/**' },
+      { protocol: 'https', hostname: 'aspectbuilds.co.uk', pathname: '/**' },
     ],
   },
   eslint: { ignoreDuringBuilds: true },

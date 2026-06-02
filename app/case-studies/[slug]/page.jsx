@@ -25,6 +25,10 @@ const CASE_STUDY_META = {
     title: 'Bath Painter: Bespoke Website for a Heritage Decorator | SEO Kings',
     description: 'How we built a bespoke website and brand identity for Bath Painter — a heritage specialist serving Bath, Keynsham and BANES with 20+ years of experience in period and listed properties.',
   },
+  'aspect-builds': {
+    title: 'Aspect Builds: 40-Page Website for a Bath Builder — From Instagram to Google | SEO Kings',
+    description: 'How we built a full 40-page website for Aspect Builds & Maintenance — from just an Instagram page to a complete professional presence with hub-and-spoke SEO, real photography, and 98+ Lighthouse accessibility.',
+  },
 };
 
 export async function generateMetadata({ params }) {

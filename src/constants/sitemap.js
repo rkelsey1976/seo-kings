@@ -32,12 +32,14 @@ export const CASE_STUDY_SLUGS = [
   'new-decorating',
   'aurelian-massage',
   'bath-painter',
+  'aspect-builds',
 ];
 
 const caseStudyLabels = {
   'peachy-cleans': 'Peachy Cleans',
   'new-decorating': 'New Decorating',
   'aurelian-massage': 'Aurelian Massage',
+  'aspect-builds': 'Aspect Builds',
 };
 export const CASE_STUDY_LINKS = [
   { href: '/case-studies', label: 'Case Studies' },
@@ -143,7 +145,7 @@ export const STATIC_ROUTES = [
   { path: '/web-design', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-near-me', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-keynsham', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-keynsham', lastmod: '2026-05-31', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-midsomer-norton', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-saltford', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
@@ -159,7 +161,7 @@ export const STATIC_ROUTES = [
   { path: '/website-redesign', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/blog', lastmod: '2026-05-05', changefreq: 'weekly', priority: 0.8 },
-  { path: '/case-studies', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
+  { path: '/case-studies', lastmod: '2026-06-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/bath', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },

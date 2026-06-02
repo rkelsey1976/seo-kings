@@ -69,6 +69,14 @@ const faqs = [
     q: 'What trades do you work with in Keynsham?',
     a: 'Plumbers, electricians, builders, cleaners, painters — any trade that needs local customers across Keynsham, Saltford, Bitton, Oldland and the wider BS31 area.',
   },
+  {
+    q: 'Do you cover Saltford, Bitton and Oldland as well as Keynsham?',
+    a: 'Yes — we cover the whole BS31 area including Saltford, Bitton, Oldland, Warmley, Longwell Green and Hanham. Your site will be optimised for the villages your customers actually come from, not just Keynsham town centre.',
+  },
+  {
+    q: 'What makes your websites different from a WordPress site?',
+    a: "We build on Next.js — a modern framework that produces static pages which load in under a second. Unlike WordPress, there are no plugins to update, no security vulnerabilities to patch and no slow shared hosting dragging your Core Web Vitals down. Google ranks fast sites higher, and our sites are fast by default.",
+  },
 ];
 
 const schema = {
@@ -247,6 +255,30 @@ const WebsiteDesignerKeynsham = () => {
                   </svg>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">The process</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10 leading-tight tracking-tight">
+            How we build your website in Keynsham
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { step: '01', title: 'Free audit', body: 'We review your current online presence — website, Google Business Profile, local rankings. No obligation, honest assessment.' },
+              { step: '02', title: 'Design & build', body: 'We design and build your site on Next.js. Most sites are live within 2 weeks of receiving your content and sign-off.' },
+              { step: '03', title: 'SEO from day one', body: 'Your site launches with correct title tags, structured data, location signals and a sitemap submitted to Google Search Console.' },
+              { step: '04', title: 'Ongoing support', body: 'Hosting included for 6 months. Updates, tweaks and questions handled by the person who built your site — based in Keynsham.' },
+            ].map((item) => (
+              <div key={item.step} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-3xl font-bold text-primary mb-3">{item.step}</div>
+                <div className="text-white font-semibold text-sm mb-2">{item.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{item.body}</p>
+              </div>
             ))}
           </div>
         </div>
