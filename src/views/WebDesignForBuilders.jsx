@@ -295,6 +295,35 @@ const WebDesignForBuilders = () => {
         </div>
       </section>
 
+      {/* Case study */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Recent project</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-6 leading-tight tracking-tight">Aspect Builds & Maintenance — from Instagram to a 40-page website</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <div className="text-3xl font-bold text-primary-light mb-1">40 pages</div>
+              <div className="text-sm text-gray-400">From scratch, live in 2 weeks</div>
+            </div>
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <div className="text-3xl font-bold text-primary-light mb-1">6 services</div>
+              <div className="text-sm text-gray-400">Each with its own dedicated page</div>
+            </div>
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <div className="text-3xl font-bold text-primary-light mb-1">10 areas</div>
+              <div className="text-sm text-gray-400">Hub-and-spoke local SEO structure</div>
+            </div>
+          </div>
+          <p className="text-gray-400 leading-relaxed mt-6 max-w-3xl">
+            Aspect Builds had no website — just an Instagram page. We built them a 40-page professional site with dedicated service pages for extensions, loft conversions, renovations, property maintenance, heritage work and structural alterations, plus 10 area pages targeting Bath and surrounding towns. Contact form, FAQ, Google Business Profile integration — the full package.
+          </p>
+          <Link href="/case-studies/aspect-builds" className="inline-flex items-center gap-2 mt-4 text-primary-light hover:text-white font-medium transition-colors">
+            Read the full case study
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+          </Link>
+        </div>
+      </section>
+
       {/* Related */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -39,6 +39,14 @@ const results = [
     detail: 'Top 3 Map Pack for one of Bath\'s most competitive trade keywords — proves the same method scales.',
     slug: 'new-decorating',
   },
+  {
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: '40-page site',
+    keyword: '"builders Bath"',
+    detail: 'No website, just Instagram → 40-page professional site live in 2 weeks. Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration.',
+    slug: 'aspect-builds',
+  },
 ];
 
 const faqs = [

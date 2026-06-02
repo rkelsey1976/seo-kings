@@ -154,6 +154,14 @@ const caseStudies = [
     slug: 'new-decorating',
     tag: 'Decorating',
   },
+  {
+    business: 'Aspect Builds & Maintenance',
+    location: 'Bath',
+    result: '40-page website from scratch',
+    description: "No website, just an Instagram page. We built a 40-page professional site with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.",
+    slug: 'aspect-builds',
+    tag: 'Building',
+  },
 ];
 
 const faqs = [

@@ -16,6 +16,12 @@ const caseStudyCallouts = [
     outcome: 'Top 8 on Google Maps within a week — now getting calls for painter and decorator searches in Bath and BANES.',
     color: 'from-amber-600 to-orange-600',
   },
+  {
+    slug: 'aspect-builds',
+    business: 'Aspect Builds',
+    outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks. Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration.',
+    color: 'from-blue-600 to-cyan-600',
+  },
 ];
 
 const results = [

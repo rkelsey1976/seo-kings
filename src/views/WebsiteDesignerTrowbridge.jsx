@@ -34,6 +34,14 @@ const results = [
     slug: 'new-decorating',
     detail: 'Built from zero web presence to Top 3 Map Pack within a week.',
   },
+  {
+    business: 'Aspect Builds & Maintenance',
+    location: 'Bath',
+    result: '40 pages',
+    keyword: '"builders Bath"',
+    detail: 'No website, just Instagram → 40-page professional site with 6 service pages, 10 area pages, FAQ, contact form and GBP integration.',
+    slug: 'aspect-builds',
+  },
 ];
 
 const faqs = [

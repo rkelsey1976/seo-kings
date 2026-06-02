@@ -33,6 +33,14 @@ const results = [
     slug: 'bath-painter',
     detail: 'Full brand and bespoke website for a heritage specialist — live at bathpainter.co.uk.',
   },
+  {
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: '40-page site',
+    keyword: '"builders Bath"',
+    slug: 'aspect-builds',
+    detail: 'No website, just Instagram → 40-page professional site live in 2 weeks. Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration.',
+  },
 ];
 
 const included = [

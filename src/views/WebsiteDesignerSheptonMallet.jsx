@@ -33,6 +33,12 @@ const results = [
     detail: 'Full brand and bespoke website delivered — enquiries up within a week of going live.',
     slug: 'bath-painter',
   },
+  {
+    slug: 'aspect-builds',
+    business: 'Aspect Builds & Maintenance',
+    outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks',
+    snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.',
+  },
 ];
 
 const included = [

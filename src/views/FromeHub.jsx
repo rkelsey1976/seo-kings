@@ -24,6 +24,13 @@ const results = [
     keyword: '"exterior painter Bath"',
     slug: 'new-decorating',
   },
+  {
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: '40-page site',
+    keyword: '"builders Bath"',
+    slug: 'aspect-builds',
+  },
 ];
 
 const faqs = [

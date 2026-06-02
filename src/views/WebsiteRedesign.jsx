@@ -41,6 +41,14 @@ const results = [
     slug: 'peachy-cleans',
     detail: 'Full site redesign — now in the Map Pack for their main keywords.',
   },
+  {
+    business: 'Aspect Builds & Maintenance',
+    location: 'Bath',
+    result: '40 pages',
+    keyword: '"builders Bath"',
+    slug: 'aspect-builds',
+    detail: 'No website, just Instagram → 40-page professional site with 6 service pages, 10 area pages, FAQ, contact form and GBP integration.',
+  },
 ];
 
 const faqs = [

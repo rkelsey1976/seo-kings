@@ -193,6 +193,7 @@ const AreaDetail = ({ params: staticParams }) => {
       recentProjects: [
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website at new-decorating.co.uk and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
         { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks and hiring new staff; we\'re expanding their visibility across Radstock, Bath, Frome and Somerset.', caseStudySlug: 'peachy-cleans' },
+        { sector: 'Aspect Builds', outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks', snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.', caseStudySlug: 'aspect-builds' },
       ],
       howItWorks: [
         { title: 'Free audit', description: 'We check your rankings, site, and Google profile.' },
@@ -353,6 +354,7 @@ const AreaDetail = ({ params: staticParams }) => {
       recentProjects: [
         { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks and hiring new staff; we\'re expanding their visibility across Radstock, Bath, Frome, Paulton and Somerset.', caseStudySlug: 'peachy-cleans' },
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website at new-decorating.co.uk and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+        { sector: 'Aspect Builds', outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks', snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.', caseStudySlug: 'aspect-builds' },
       ],
       stats: {
         businesses: '800+',
@@ -506,6 +508,7 @@ const AreaDetail = ({ params: staticParams }) => {
       recentProjects: [
         { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks and hiring new staff; we\'re expanding their visibility across Radstock, Bath, Frome and Somerset.', caseStudySlug: 'peachy-cleans' },
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website at new-decorating.co.uk and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+        { sector: 'Aspect Builds', outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks', snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.', caseStudySlug: 'aspect-builds' },
       ],
       stats: {
         businesses: '500+',
@@ -650,6 +653,7 @@ const AreaDetail = ({ params: staticParams }) => {
       recentProjects: [
         { sector: 'Peachy Cleans', outcome: 'No website → #1 on Google & top of Maps in Midsomer Norton', snippet: 'Professional site at peachycleans.info plus local SEO and GBP. Now fully booked weeks; we\'re expanding their visibility across Radstock, Bath, Frome and Somerset.', caseStudySlug: 'peachy-cleans' },
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Midsomer Norton and BANES.', caseStudySlug: 'new-decorating' },
+        { sector: 'Aspect Builds', outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks', snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.', caseStudySlug: 'aspect-builds' },
       ],
       stats: {
         businesses: '250+',
@@ -1005,6 +1009,7 @@ const AreaDetail = ({ params: staticParams }) => {
       },
       recentProjects: [
         { sector: 'New Decorating', outcome: 'No site, no GBP → top 8 on Google Maps in a week', snippet: 'Fast website and Google Business Profile set up and optimised. Now ranking for painter and decorator searches across Bath, Keynsham, Saltford and BANES.', caseStudySlug: 'new-decorating' },
+        { sector: 'Aspect Builds', outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks', snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.', caseStudySlug: 'aspect-builds' },
       ],
       stats: {
         businesses: '150+',
