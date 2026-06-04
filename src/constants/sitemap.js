@@ -145,7 +145,7 @@ export const STATIC_ROUTES = [
   { path: '/web-design', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-near-me', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
-  { path: '/website-designer-keynsham', lastmod: '2026-05-31', changefreq: 'monthly', priority: 0.9 },
+  { path: '/website-designer-keynsham', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-midsomer-norton', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-saltford', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },

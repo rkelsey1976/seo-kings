@@ -94,8 +94,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/website-designer-keynsham',
       url: 'https://seo-kings.co.uk/website-designer-keynsham',
-      name: 'Website Designer Keynsham | SEO Kings',
-      description: 'Website designer in Keynsham BS31. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Based locally.',
+      name: 'Web Design Keynsham — Websites for Trades | SEO Kings',
+      description: 'Fast, mobile-first websites for Keynsham trades that rank on Google. From £250. Based in BS31. Top results for "website designer Keynsham" — real client results. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
