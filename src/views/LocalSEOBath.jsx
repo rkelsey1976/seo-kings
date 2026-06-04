@@ -91,8 +91,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/local-seo/bath',
       url: 'https://seo-kings.co.uk/local-seo/bath',
-      name: 'Local SEO Bath | SEO Kings',
-      description: 'Local SEO for businesses in Bath BA1 & BA2. Google Business Profile optimisation, website SEO and review growth from £150/month. Free audit.',
+      name: 'Local SEO Bath — Top 3 Map Pack Results | SEO Kings',
+      description: 'Local SEO for Bath BA1 & BA2. We put trades into the Google Map Pack — exterior painter Bath Top 3, cleaning Midsomer Norton #1. From £150/mo. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
