@@ -210,6 +210,26 @@ const BathHub = () => {
               </div>
             </Link>
 
+            {/* Card 2b — SEO Bath (full SEO services) */}
+            <Link
+              href="/seo/bath"
+              className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
+            >
+              <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 mb-5">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
+              </div>
+              <div className="text-xs font-semibold tracking-widest uppercase text-primary mb-2 font-mono">From £150/month</div>
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-light transition-colors">SEO Services</h3>
+              <p className="text-gray-400 text-sm leading-relaxed flex-1">
+                Technical SEO, on-page optimisation, content strategy and local authority — everything Bath businesses need to rank on page one.
+              </p>
+              <div className="mt-6 flex items-center gap-1 text-sm font-semibold text-primary">
+                SEO Bath <ArrowRight />
+              </div>
+            </Link>
+
             {/* Card 3 — Google Business Profile (links to spoke) */}
             <Link
               href="/google-business-profile"
@@ -429,6 +449,7 @@ const BathHub = () => {
             {[
               { href: '/website-designer-bath', label: 'Website Design — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
               { href: '/local-seo/bath', label: 'Local SEO — Bath', desc: 'Ongoing SEO to push you into Bath\'s Map Pack and keep you there — from £150/month.' },
+              { href: '/seo/bath', label: 'SEO Bath', desc: 'Full SEO services for Bath trades and small businesses — technical, on-page, content and local authority.' },
               { href: '/google-business-profile', label: 'Google Business Profile', desc: 'GBP setup and optimisation for Bath businesses — £100 one-off, no ongoing fees.' },
               { href: '/web-design-packages', label: 'Packages &amp; Pricing', desc: 'Clear, per-page pricing with no hidden extras — from £250 for a one-page trade site.' },
               { href: '/areas/keynsham', label: 'Keynsham', desc: 'Web design and SEO in BS31 — 10 minutes from Bath on the A4.' },

@@ -333,6 +333,8 @@ const WebsiteDesignerBath = () => {
               <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">Bath area hub</Link>{' '}
               for full coverage, or{' '}
               <Link href="/local-seo/bath" className="text-primary-light hover:text-white transition-colors">add local SEO</Link>{' '}
+              or{' '}
+              <Link href="/seo/bath" className="text-primary-light hover:text-white transition-colors">full SEO services</Link>{' '}
               once your site is live.
             </p>
           </div>
@@ -368,6 +370,15 @@ const WebsiteDesignerBath = () => {
               <div>
                 <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
                 <div className="text-xs text-gray-500">Ongoing SEO to rank higher in Bath — from £150/month</div>
+              </div>
+              <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">SEO Bath</div>
+                <div className="text-xs text-gray-500">Full SEO services — technical, on-page, content and local authority</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -237,7 +237,7 @@ const Navbar = () => {
                 )
               ))}
               <a
-                href="/web-design-packages"
+                href="/contact"
                 className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg text-sm font-semibold transition-colors duration-200"
                 onClick={closeAllMenus}
               >
@@ -490,7 +490,7 @@ const Navbar = () => {
 
             <div className={`transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isMenuOpen ? '380ms' : '0ms' }}>
               <a
-                href="/web-design-packages"
+                href="/contact"
                 className="bg-primary hover:bg-primary-dark text-white px-5 py-3 rounded-lg text-sm font-semibold transition-colors duration-200 w-full mt-2 text-center block"
                 onClick={closeAllMenus}
               >

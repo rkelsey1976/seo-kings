@@ -179,8 +179,8 @@ const Contact = () => {
               <span className="gradient-text"> Business Together</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed">
-              Need a new website or want to get found on Google? Get a free website quote — 
-              we'll check your current setup and tell you how we can help.
+              Need a new website, want to rank on Google, or both? Get a free quote and audit — 
+              we'll check your current setup and tell you exactly how we can help.
             </p>
           </div>
         </div>
@@ -230,7 +230,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-white mb-4">Why Contact Us?</h3>
                 <ul className="space-y-3">
                   {[
-                    'Free website quote, no obligation',
+                    'Free quote for web design, SEO or both — no obligation',
                     'Plain English, no jargon',
                     'Local team who understand Bath and North East Somerset',
                     'Real results — verified client case studies',
@@ -250,10 +250,10 @@ const Contact = () => {
             <div className="lg:col-span-3">
               <div className="bg-dark-card border border-white/5 rounded-2xl p-8">
                 <h2 className="text-2xl font-bold text-white mb-2">
-                  Get a Free Website Quote
+                  Get a Free Quote
                 </h2>
                 <p className="text-gray-400 mb-8">
-                  Tell us about your business and we'll send a free, no-obligation quote for your website and SEO.
+                  Tell us about your business and we'll send a free, no-obligation quote for web design, SEO, or both.
                 </p>
 
                     <form 
@@ -338,6 +338,27 @@ const Contact = () => {
                         </div>
                       </div>
 
+                      {/* Service type */}
+                      <div>
+                        <label className="block text-sm font-medium text-gray-300 mb-3">
+                          What are you looking for?
+                        </label>
+                        <div className="flex flex-wrap gap-3">
+                          {['Website', 'SEO', 'Website + SEO'].map((option) => (
+                            <label key={option} className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-xl cursor-pointer hover:border-primary/40 transition-colors has-[:checked]:border-primary has-[:checked]:bg-primary/10">
+                              <input
+                                type="radio"
+                                name="service-type"
+                                value={option}
+                                onChange={handleChange}
+                                className="accent-[var(--primary,#E2B340)]"
+                              />
+                              <span className="text-sm text-gray-300">{option}</span>
+                            </label>
+                          ))}
+                        </div>
+                      </div>
+
                       {/* Message */}
                       <div>
                         <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
@@ -350,7 +371,7 @@ const Contact = () => {
                           value={formData.message}
                           onChange={handleChange}
                           className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary transition-colors resize-none"
-                          placeholder="What are your goals? What challenges are you facing?"
+                          placeholder="What do you need — a new website, SEO, or both? What challenges are you facing?"
                         />
                       </div>
 
