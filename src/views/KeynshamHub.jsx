@@ -279,6 +279,13 @@ const KeynshamHub = () => {
               </div>
             </div>
             <p className="text-xs text-gray-400 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-sm text-gray-400 mt-6">
+              Looking for web design only?{' '}
+              <Link href="/website-designer-keynsham" className="text-primary hover:underline">
+                See our dedicated Keynsham web design page
+              </Link>{' '}
+              — full pricing, packages and client results.
+            </p>
 
         </div>
       </section>
@@ -353,7 +360,7 @@ const KeynshamHub = () => {
           <div className="max-w-3xl mb-12">
             <SectionTag className="mb-4">Why it works</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Web design and SEO in Keynsham — why BS31 is a better market than most people realise
+              Digital marketing in Keynsham — why BS31 is a better market than most people realise
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Keynsham sits between Bath and Bristol — two of the UK's most fought-over digital markets. But Keynsham itself is a different story. Most local trades have either no web presence or one that was built years ago and forgotten. The Google Map Pack for most trade categories in BS31 is genuinely winnable with the right approach — and the businesses that act first will hold those positions for years.

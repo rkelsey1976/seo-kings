@@ -337,7 +337,7 @@ const WebsiteDesignerMidsomerNorton = () => {
               { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Midsomer Norton and BA3 searches.', href: '/google-business-profile' },
               { title: 'Local SEO Midsomer Norton', desc: 'Ongoing SEO to keep you ranking for Midsomer Norton and Somer Valley searches month after month.', href: '/local-seo/midsomer-norton' },
               { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
-              { title: 'Website design Bath', desc: 'Also covering Bath — web design for BA1 & BA2 trades from £250.', href: '/website-designer-bath' },
+              { title: 'Midsomer Norton area hub', desc: 'All services for Midsomer Norton in one place — web design, local SEO and Google Business Profile.', href: '/areas/midsomer-norton' },
             ].map((service) => (
               <Link
                 key={service.href}

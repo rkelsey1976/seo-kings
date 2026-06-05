@@ -279,6 +279,13 @@ const MidsomerNortonHub = () => {
               </div>
             </div>
             <p className="text-xs text-gray-400 mt-4">GBP optimisation available as a £100 add-on. Hosting free for 6 months, then £50/year. No lock-in contracts.</p>
+            <p className="text-sm text-gray-400 mt-6">
+              Looking for web design only?{' '}
+              <Link href="/website-designer-midsomer-norton" className="text-primary hover:underline">
+                See our dedicated Midsomer Norton web design page
+              </Link>{' '}
+              — full pricing, packages and client results.
+            </p>
 
         </div>
       </section>
@@ -353,7 +360,7 @@ const MidsomerNortonHub = () => {
           <div className="max-w-3xl mx-auto mb-16">
             <SectionTag className="mb-4">Why Midsomer Norton</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Web design and SEO in Midsomer Norton — why BA3 is easier to rank than most people expect
+              Digital marketing in Midsomer Norton — why BA3 is easier to rank than most people expect
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
@@ -407,7 +414,7 @@ const MidsomerNortonHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about web design and SEO in Midsomer Norton</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our Midsomer Norton services</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
