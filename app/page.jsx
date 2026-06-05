@@ -9,6 +9,7 @@ const StepsScroll = dynamic(() => import('../src/components/StepsScroll'), { ssr
 const FAQTestimonials = dynamic(() => import('../src/components/FAQTestimonials'), { ssr: false });
 const CTABanner = dynamic(() => import('../src/components/CTABanner'), { ssr: false });
 const Spotlight = dynamic(() => import('../src/components/Spotlight'), { ssr: false });
+const Results = dynamic(() => import('../src/components/Results'), { ssr: false });
 
 export const revalidate = 3600;
 
@@ -138,6 +139,9 @@ export default function HomePage() {
           <BentoGrid cells={bentoCells} columns={4} gap="md" />
         </div>
       </section>
+
+      {/* Results — Real client numbers */}
+      <Results />
 
       {/* How It Works — StepsScroll */}
       <section className="py-24 relative" style={{ background: "#0B1324" }}>

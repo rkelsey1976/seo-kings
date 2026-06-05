@@ -1667,6 +1667,74 @@ const blogPosts = {
     ],
   },
 
+  'google-reviews-electrician-bath': {
+    slug: 'google-reviews-electrician-bath',
+    title: 'How to Get More Google Reviews as an Electrician in Bath',
+    description: "Google reviews are one of the biggest factors in whether customers call you — here's how to get them consistently as an electrician in Bath, without it feeling awkward.",
+    date: '2026-06-05',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'how to get Google reviews electrician Bath, Google reviews tradesperson, more reviews trades Bath Somerset',
+    ctaHeading: 'Want help getting more Google reviews and ranking higher in Bath?',
+    ctaBody: "We help tradespeople across Bath and Somerset set up their Google Business Profile properly and build the reviews that get them into the Map Pack.",
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'GBP management service' },
+      { href: '/local-seo', label: 'Local SEO service' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: "Why reviews matter more than almost anything else",
+        paragraphs: [
+          "When someone searches 'electrician Bath' on Google, they see a map and three businesses. The ones that tend to be there have two things in common: a well-optimised Google Business Profile and a solid bank of recent reviews. Reviews are one of the biggest signals Google uses to decide who shows up — and they're what potential customers look at before they pick up the phone.",
+          "As an electrician, you're asking people to trust you with their home and their safety. A string of genuine five-star reviews from local homeowners does more to build that trust than any amount of website copy. The good news: most electricians are well-liked by the people they work for. The problem is most of them never think to ask for a review.",
+        ],
+      },
+      {
+        heading: "The simplest way to ask: do it on the day",
+        paragraphs: [
+          "The best time to ask for a review is the moment a job is finished and the customer is happy. You've just sorted their consumer unit, fixed their outdoor lights, or got their shower working — they're pleased, they trust you, and it's fresh in their mind. That's your window.",
+          "You don't need a script. Something like 'Really glad that's all sorted — if you ever get two minutes, a Google review would really help me out' is all it takes. Most people are happy to do it if you ask directly. The ones who say they will and then forget are why you follow up.",
+        ],
+      },
+      {
+        heading: "Follow up on WhatsApp — it works",
+        paragraphs: [
+          "A lot of electricians already chat to customers on WhatsApp. It's the easiest follow-up channel there is. A day or two after the job, send a short message: something like 'Hope everything's still running well — if you've got a spare moment, a Google review would really help. Here's the link: [your review link]'. That's it.",
+          "You get your Google review link from your Google Business Profile dashboard — there's a 'Share review form' button that gives you a short URL you can copy. Save it in your phone contacts or Notes app so you've always got it to hand. Most people find the act of leaving a review easy once they have a direct link; it's finding it themselves that they can't be bothered with.",
+        ],
+      },
+      {
+        heading: "QR codes on your van and paperwork",
+        paragraphs: [
+          "If you leave a job sheet or any paperwork with customers, add a QR code that links straight to your Google review page. There are free QR code generators online — generate it once, add it to your documents. Some electricians also put a small sticker on the inside of the consumer unit cover or the fuse board: 'Happy with the work? Leave us a Google review.' It's visible every time someone looks at it.",
+          "A QR code on the side of your van works too, especially if you're parked outside jobs in residential areas. It looks professional, it prompts people who've seen your van around, and it gives satisfied customers a frictionless way to leave a review without you having to ask in person.",
+        ],
+      },
+      {
+        heading: "How many reviews do you actually need?",
+        paragraphs: [
+          "There's no magic number, but context matters. In Bath city centre, you're up against more competition — you'd want to aim for 20 or more reviews before you start seeing consistent Map Pack appearances, and you need to keep adding them regularly. In smaller areas like Keynsham, Saltford, or Midsomer Norton, you can appear with fewer because the competition is thinner.",
+          "Recency matters as much as volume. Ten reviews from the last three months looks better to Google than 30 reviews with nothing in the past year. A business that's collecting reviews consistently signals to Google that it's actively trading, and to customers that it's trustworthy right now — not just historically.",
+        ],
+      },
+      {
+        heading: "Always respond to your reviews",
+        paragraphs: [
+          "Every review you receive — positive or negative — deserves a reply. For five-star reviews, a short, genuine thank-you is enough: 'Thanks so much, really glad the new circuit is all working properly — appreciate you taking the time to leave a review.' Mention the job type and location if you can, as that adds keyword signals Google picks up on.",
+          "For the occasional negative review (they happen to everyone), stay calm and professional. Acknowledge the concern, offer to resolve it offline, and keep your response short. How you handle a bad review tells potential customers more about you than the review itself. A calm, constructive reply often reassures people more than five glowing ones.",
+        ],
+      },
+      {
+        heading: "What about asking all your old customers at once?",
+        paragraphs: [
+          "If you've been trading for years and have a list of happy customers, it's tempting to send one big batch of requests. You can do this — but spread it out over a few weeks rather than blasting everyone at once. Google can be suspicious of a sudden spike in reviews from a profile that's had nothing for a long time, and a cluster of reviews on the same day looks less natural than a steady trickle.",
+          "A few a week, consistently, is the approach that builds rankings and stays within Google's guidelines. And once you get into the habit of asking at the end of every job, you won't need the big catch-up.",
+        ],
+      },
+    ],
+  },
+
   'get-trade-business-google-map-pack': {
     slug: 'get-trade-business-google-map-pack',
     title: 'How to Get Your Trade Business Into the Google Map Pack',

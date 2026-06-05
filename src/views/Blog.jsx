@@ -45,6 +45,14 @@ const posts = [
     services: ['web-design'],
   },
   {
+    slug: 'google-reviews-electrician-bath',
+    title: 'How to Get More Google Reviews as an Electrician in Bath',
+    excerpt: "Google reviews are one of the biggest factors in whether customers call you — here's how to get them consistently without it feeling awkward.",
+    date: '2026-06-05',
+    readTime: '5 min read',
+    services: ['gbp', 'local-seo'],
+  },
+  {
     slug: 'do-i-need-a-website-plumber-bath',
     title: 'Do I Need a Website as a Plumber? (Honest Answer for Bath Trades)',
     excerpt: "Most plumbers in Bath get by on word of mouth — but there's a ceiling to that. Here's what happens when potential customers Google you and find nothing.",

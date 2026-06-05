@@ -39,10 +39,10 @@ const caseStudiesData = {
       'Ongoing: targeting multiple areas and multiple keywords on Google (Midsomer Norton, Radstock, Bath, Frome, Paulton, Peasedown St John, Wells and surrounding Somerset) so they show up across their full service area.',
     ],
     results: [
-      { metric: 'New site', label: 'Live website', description: 'Professional presence at peachycleans.info' },
-      { metric: '#1', label: 'On Google', description: 'For "cleaner Midsomer Norton" and local searches' },
-      { metric: 'Fully booked', label: 'Weeks', description: 'Consistent demand from local customers' },
-      { metric: 'Hiring', label: 'New staff', description: 'Growing the team to keep up with enquiries' },
+      { metric: '229', label: 'Google Maps clicks', description: 'Website clicks direct from Google Maps — Jan to May 2026' },
+      { metric: '52', label: 'Clicks in May alone', description: 'Peak month — 52 people clicked through from Google Maps to the site' },
+      { metric: '#1', label: 'On Google', description: 'Ranking for "cleaner Midsomer Norton" and surrounding local searches' },
+      { metric: 'Fully booked', label: 'Weeks in advance', description: 'Consistent demand from local customers — had to hire new staff' },
       { metric: 'Ongoing', label: 'Multiple areas & keywords', description: 'Targeting Radstock, Bath, Frome, Paulton, Wells and more on Google' },
     ],
     timeline: [
@@ -86,10 +86,10 @@ const caseStudiesData = {
       'Clear structure and content for painter and decorator keywords across Bath and BANES',
     ],
     results: [
-      { metric: 'New site', label: 'Live at new-decorating.co.uk', description: 'Professional presence with area pages and clear contact' },
-      { metric: 'Top 8', label: 'On Google Maps', description: 'Within a week of launch for Bath and surrounding areas' },
-      { metric: 'Ranking', label: 'Long-tail keywords', description: 'e.g. painter and decorator Keynsham, interior painting Bath' },
-      { metric: '1 week', label: 'To get visible', description: 'From no web presence to appearing in Maps and search' },
+      { metric: '72', label: 'Google Maps clicks', description: 'Website clicks direct from Google Maps — Jan to May 2026, started from zero' },
+      { metric: '24', label: 'Clicks in May', description: 'Growing month on month — up from zero in January' },
+      { metric: 'Top 3', label: 'Map Pack, Bath', description: 'Ranking in the top 3 Google Maps results for exterior painter Bath' },
+      { metric: '1 week', label: 'To get visible', description: 'From no web presence to appearing in Maps and search within a week' },
     ],
     timeline: [
       { month: 'Phase 1', title: 'Brief & structure', description: 'Goals, areas and services agreed; site structure and GBP plan' },
@@ -186,11 +186,11 @@ const caseStudiesData = {
       'Full site live and indexed in under a week from brief to launch',
     ],
     results: [
-      { metric: 'Under 1 week', label: 'From brief to live', description: 'Full multi-page site designed, built and launched' },
-      { metric: 'New business', label: 'Zero to online', description: 'No website or social media to a complete professional presence' },
-      { metric: 'Already ranking', label: 'For massage Bath', description: 'Appearing in Google searches for massage therapy in Bath' },
-      { metric: 'Calls & bookings', label: 'Within days', description: 'Customers finding and booking directly through the site' },
-      { metric: 'Fresha integrated', label: 'Online booking', description: 'Fully connected booking system from day one' },
+      { metric: '75', label: 'Google Maps clicks', description: 'Website clicks direct from Google Maps in just 3 months (Mar–May 2026)' },
+      { metric: '32', label: 'Clicks in May', description: 'Peak month — 32 people clicked from Google Maps to the site in May alone' },
+      { metric: 'Under 1 week', label: 'From brief to live', description: 'Full multi-page site designed, built and launched in under a week' },
+      { metric: 'Calls & bookings', label: 'Within days', description: 'Customers finding and booking directly through the site from day one' },
+      { metric: 'Fresha integrated', label: 'Online booking', description: 'Fully connected booking system live from launch' },
     ],
     timeline: [
       { month: 'Day 1', title: 'Brief & structure', description: 'Goals, services, positioning and site structure agreed with Ross' },

@@ -48,6 +48,11 @@ export const BLOG_META = {
     description: 'Your Google Business Profile is free and one of the most powerful tools a tradesperson has. A step-by-step guide to setting it up properly.',
     canonical: 'https://seo-kings.co.uk/blog/set-up-google-business-profile-tradesperson',
   },
+  'google-reviews-electrician-bath': {
+    title: 'How to Get More Google Reviews as an Electrician in Bath | SEO Kings',
+    description: "Google reviews are one of the biggest factors in whether customers call you — here's how to get them consistently as an electrician in Bath.",
+    canonical: 'https://seo-kings.co.uk/blog/google-reviews-electrician-bath',
+  },
   'get-trade-business-google-map-pack': {
     title: 'How to Get Your Trade Business Into the Google Map Pack | SEO Kings',
     description: "The Google Map Pack shows three businesses at the top of every local search — and that's where most of the calls go. Here's what gets a tradesperson in.",
