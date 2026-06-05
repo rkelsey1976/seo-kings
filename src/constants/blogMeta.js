@@ -38,4 +38,19 @@ export const BLOG_META = {
     description: "Picking a web designer in Bath is harder than it looks. Here's what to ask, what to look for, and what most designers won't tell you upfront.",
     canonical: 'https://seo-kings.co.uk/blog/how-to-choose-web-designer-bath',
   },
+  'do-i-need-a-website-plumber-bath': {
+    title: 'Do I Need a Website as a Plumber? Honest Answer for Bath Trades | SEO Kings',
+    description: "Most plumbers in Bath get by on word of mouth — but there's a ceiling to that. Here's what happens when potential customers Google you and find nothing.",
+    canonical: 'https://seo-kings.co.uk/blog/do-i-need-a-website-plumber-bath',
+  },
+  'set-up-google-business-profile-tradesperson': {
+    title: 'How to Set Up Your Google Business Profile as a Tradesperson | SEO Kings',
+    description: 'Your Google Business Profile is free and one of the most powerful tools a tradesperson has. A step-by-step guide to setting it up properly.',
+    canonical: 'https://seo-kings.co.uk/blog/set-up-google-business-profile-tradesperson',
+  },
+  'get-trade-business-google-map-pack': {
+    title: 'How to Get Your Trade Business Into the Google Map Pack | SEO Kings',
+    description: "The Google Map Pack shows three businesses at the top of every local search — and that's where most of the calls go. Here's what gets a tradesperson in.",
+    canonical: 'https://seo-kings.co.uk/blog/get-trade-business-google-map-pack',
+  },
 };

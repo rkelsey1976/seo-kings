@@ -1522,6 +1522,218 @@ const blogPosts = {
       },
     ],
   },
+
+  // ── NEW POSTS (June 2026 onwards) ────────────────────────────────────────
+
+  'do-i-need-a-website-plumber-bath': {
+    slug: 'do-i-need-a-website-plumber-bath',
+    title: 'Do I Need a Website as a Plumber? (Honest Answer for Bath Trades)',
+    description: "Most plumbers in Bath get by on word of mouth — but there's a ceiling to that. Here's what happens when potential customers Google you and find nothing.",
+    date: '2026-06-05',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'do I need a website as a plumber, plumber website Bath, tradesperson website Bath Somerset',
+    ctaHeading: 'Ready to get online and start getting calls from Google?',
+    ctaBody: "We build fast, no-nonsense websites for Bath and Somerset tradespeople — from £250, no monthly fees, no jargon.",
+    ctaLinks: [
+      { href: '/web-design', label: 'See our web design service' },
+      { href: '/web-design-packages', label: 'View pricing' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+    sections: [
+      {
+        heading: "The honest answer: yes, but not for the reason you think",
+        paragraphs: [
+          "You've heard it before — 'you need a website'. Sometimes it feels like everyone who sells websites says that. So let's be straight about it: most plumbers in Bath and Somerset do need a website, but not because it's a magic leads machine. You need one because when a potential customer looks you up — and they will — you need something credible to show them.",
+          "Think about the last time you hired someone. Whether it was a dentist, a builder, or a mechanic, you probably Googled them before picking up the phone. If you found nothing, you hesitated. That's exactly what happens when a potential customer searches for your business and gets a blank.",
+        ],
+      },
+      {
+        heading: "What happens when customers Google you and find nothing",
+        paragraphs: [
+          "Word of mouth is brilliant. But it has a ceiling. Someone gets your number from a neighbour, they're half-convinced — then they Google you before calling. If they find no website, no reviews, no trace of you online, they wonder. Are you still trading? Are you legit? Is there someone else they could ring who has a website and 20 five-star reviews?",
+          "That's the invisible cost of not being online. You don't see the calls you didn't get. You don't know who searched 'emergency plumber Bath' at 9pm and picked the second result because the first had no site. A simple, professional website removes that doubt. It's not about flash design — it's about being findable and credible when someone is making a decision.",
+        ],
+      },
+      {
+        heading: "But I get most of my work from word of mouth",
+        paragraphs: [
+          "Good — that means your customers like you. A website doesn't replace that. It amplifies it. When a happy customer recommends you to their friend and that friend Googles you, your website is what turns the recommendation into a call. Without it, you're relying entirely on the strength of that personal reference.",
+          "Word of mouth also has a geographic limit. You work the same few postcodes, the same handful of estates. A website — especially one that ranks on Google — lets customers in Keynsham, Saltford, Peasedown, or Radstock find you without needing to know someone who knows you. That's new work you'd never have seen otherwise.",
+        ],
+      },
+      {
+        heading: "What does a plumber's website actually need?",
+        paragraphs: [
+          "It doesn't need to be complicated. For most plumbers, a well-built one-page site — or a three-pager — does the job properly. You want: your name and location, the services you cover, a phone number that's easy to tap on mobile, a few customer reviews, and ideally a photo or two of your work or your van. That's it.",
+          "What it does need is to load quickly, work on mobile, and be set up so Google can read it. A slow, broken site is worse than no site — it puts people off and tells Google you're not worth showing. That's why we build on Next.js rather than WordPress: no plugin bloat, no speed issues, scores of 95+ on Google's own performance tests.",
+        ],
+      },
+      {
+        heading: "What about Facebook or a free listing?",
+        paragraphs: [
+          "Facebook is fine as a supplement but it's not a substitute. Most plumbers who rely on Facebook for their online presence are invisible to people who don't use Facebook — which is a lot of the people who'd pay well. Free listings like Checkatrade or Rated People put you alongside dozens of competitors and take a cut. A website puts you in control.",
+          "A Google Business Profile — free to set up — is arguably as important as your website. Together, they're what gets you into the Google Map Pack: the three businesses that show at the top when someone searches 'plumber Bath' or 'emergency plumber near me'. That's where the calls come from. We set up and optimise GBPs for trades across Bath and Somerset, usually alongside a new website.",
+        ],
+      },
+      {
+        heading: "How much does a trade website cost?",
+        paragraphs: [
+          "Our prices start at £250 for a one-page trade site — that's name, services, contact details, and enough SEO foundation to get Google's attention. A three-page professional site with services, about, and contact runs from £350. A five-page site with individual service pages (which rank better) from £450. Hosting is free for the first six months, then £50 a year.",
+          "There are no monthly fees, no lock-in contracts, and no hidden extras. You own the site. We build it, you keep it. If you want us to handle local SEO or your Google Business Profile on top of that, we can — but the website itself is a one-off cost. For most plumbers we talk to, it pays for itself in one extra job.",
+        ],
+      },
+    ],
+  },
+
+  'set-up-google-business-profile-tradesperson': {
+    slug: 'set-up-google-business-profile-tradesperson',
+    title: 'How to Set Up Your Google Business Profile as a Tradesperson (Step-by-Step)',
+    description: 'Your Google Business Profile is free and is one of the most powerful things a tradesperson can do to get found online. Here is exactly how to set it up properly.',
+    date: '2026-09-04',
+    readTime: '6 min read',
+    author: 'SEO Kings',
+    keywords: 'how to set up Google Business Profile tradesperson, Google Business Profile plumber Bath, GBP setup trades Somerset',
+    ctaHeading: 'Want us to set up and optimise your Google Business Profile for you?',
+    ctaBody: "We set up and optimise Google Business Profiles for tradespeople across Bath, BANES, and Somerset. Full setup, right first time.",
+    ctaLinks: [
+      { href: '/google-business-profile', label: 'GBP management service' },
+      { href: '/contact', label: 'Get in touch' },
+    ],
+    sections: [
+      {
+        heading: "Why your Google Business Profile matters more than your website",
+        paragraphs: [
+          "For most tradespeople, the Google Business Profile (GBP) is the single most valuable thing on the internet. It's free, it's owned by you, and it's what puts you in the Google Map Pack — those three businesses with the map pins that appear at the very top of local searches like 'plumber Bath' or 'roofer near me'.",
+          "Most clicks on local searches go to those three Map Pack results. If you're not in there, you're invisible to a huge chunk of people who would have hired you. Setting up your GBP correctly — and keeping it active — is the fastest way to start getting enquiries from Google without spending money on ads.",
+        ],
+      },
+      {
+        heading: "Step 1: Create or claim your listing",
+        paragraphs: [
+          "Go to business.google.com and sign in with a Google account. Search for your business name. If it already exists (sometimes Google auto-generates listings from other directories), click 'Claim this business'. If it doesn't exist yet, click 'Add your business to Google'.",
+          "Use your real business name — no keyword stuffing like 'Bath Plumber — Fast Response'. Google can suspend listings for that. Your actual trading name is what goes here.",
+        ],
+      },
+      {
+        heading: "Step 2: Choose the right business category",
+        paragraphs: [
+          "This is one of the most important decisions in the whole setup. Your primary category tells Google what type of business you are and directly affects which searches you show up for. Be specific: 'Plumber' is better than 'Contractor'. 'Electrician' is better than 'Home Services'.",
+          "You can add secondary categories too — for example, a plumber might also add 'Heating Contractor' or 'Bathroom Remodeler'. Add every category that genuinely applies to your work. Don't add categories just because they sound related; they need to reflect real services you offer.",
+        ],
+      },
+      {
+        heading: "Step 3: Add your service area",
+        paragraphs: [
+          "If you go to customers (which most tradespeople do), you'll set your listing as a 'service area business'. This means you don't show a physical address on Maps — instead, you list the areas you cover. You can add towns, postcodes, or whole regions.",
+          "Be realistic here. If you're based in Keynsham and regularly work in Bath, Saltford, Radstock, and Midsomer Norton, add those. Don't claim you cover Bristol and London if you don't. Google cross-references your claimed area against where your reviews come from and where you actually are — artificially wide service areas can hurt your ranking.",
+        ],
+      },
+      {
+        heading: "Step 4: Verify your listing",
+        paragraphs: [
+          "Google needs to confirm you're a real business. The most common method is a postcard sent to your address with a verification code — this usually takes 5–14 days. Some accounts can verify by phone, email, or video call instead. Complete verification before you do anything else: an unverified listing won't show on Google.",
+          "Once verified, you can start filling in the rest of your profile. Don't skip this and assume the listing is live — an unverified GBP is invisible.",
+        ],
+      },
+      {
+        heading: "Step 5: Write your business description",
+        paragraphs: [
+          "You get 750 characters. Use the first few sentences for the most important information: what you do, where you work, and what makes you worth calling. Mention your main services and the towns or areas you cover. Don't keyword-stuff it — write it like a human introduction.",
+          "For example: 'Bath Plumbing Co provides domestic plumbing, heating installation, and emergency call-outs across Bath, Keynsham, and North East Somerset. With 15 years of experience and a 5-star average on Google, we're trusted by homeowners and landlords across BA1–BA3.' That's clear, local, and credible.",
+        ],
+      },
+      {
+        heading: "Step 6: Add your services and products",
+        paragraphs: [
+          "GBP lets you list individual services — use it. Add every service you offer: boiler installation, bathroom fitting, leak repair, emergency call-out, whatever applies. Include a brief description for each one and a price range if you're comfortable doing so.",
+          "Google uses this information to match your listing with relevant searches. A plumber who has listed 'boiler service' as a service is more likely to appear when someone searches 'boiler service Bath' than one whose profile just says 'Plumber'. It takes 20 minutes and makes a measurable difference.",
+        ],
+      },
+      {
+        heading: "Step 7: Add photos — and keep adding them",
+        paragraphs: [
+          "Listings with photos get significantly more clicks than those without. Add at least 10 photos when you launch: your van (with signage), a few examples of finished work, a photo of yourself if you're comfortable, and your tools or workspace. Real photos, taken on your phone, outperform stock images.",
+          "After that, add new photos regularly — once a fortnight is ideal. Google treats active profiles as more credible than dormant ones. Every new photo is a small signal that your business is trading, current, and worth showing.",
+        ],
+      },
+      {
+        heading: "Step 8: Start collecting reviews",
+        paragraphs: [
+          "Reviews are the single biggest factor in whether you appear in the Map Pack — and which position you land in. Ask every happy customer for a Google review, ideally the same day you finish the job. The easiest way: get your Google review link (in GBP dashboard under 'Share review form'), save it as a note on your phone, and send it in a WhatsApp message when the job is done.",
+          "A short, natural ask works better than a formal email. 'Really glad you're happy with it — if you've got two minutes, a Google review would mean a lot' is all you need. Respond to every review — thank people for good ones, address any concerns in negative ones. Google notices.",
+        ],
+      },
+    ],
+  },
+
+  'get-trade-business-google-map-pack': {
+    slug: 'get-trade-business-google-map-pack',
+    title: 'How to Get Your Trade Business Into the Google Map Pack',
+    description: "The Google Map Pack shows three businesses at the top of every local search — and that's where most of the calls go. Here's what gets a tradesperson into those three spots.",
+    date: '2027-01-08',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'how to get trade business Google Map Pack, Map Pack tradesperson, local SEO trades Bath Somerset',
+    ctaHeading: 'Want help getting your trade business into the Map Pack?',
+    ctaBody: "We specialise in local SEO for tradespeople across Bath, BANES, and Somerset. We've helped plumbers, painters, and cleaners rank in the Map Pack — and we can do the same for you.",
+    ctaLinks: [
+      { href: '/local-seo', label: 'Local SEO service' },
+      { href: '/case-studies', label: 'See our results' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: "What is the Google Map Pack and why does it matter?",
+        paragraphs: [
+          "When someone searches 'plumber Bath' or 'roofer near me', Google usually shows a map with three local businesses highlighted before any of the regular website results. That block of three is the Map Pack — and it gets the majority of clicks on the whole page.",
+          "If your business is in those three spots, your phone rings. If you're not, most people won't scroll down to find you — they'll just call one of the three businesses they can see. For tradespeople, the Map Pack is the difference between a steady stream of local enquiries and waiting for the phone to ring.",
+        ],
+      },
+      {
+        heading: "The three things Google uses to decide who gets in",
+        paragraphs: [
+          "Google's local ranking algorithm comes down to three factors: relevance (does your business match what the person searched for?), distance (how close are you to the searcher?), and prominence (how credible and well-known is your business online?).",
+          "You can't control distance — you are where you are. But you can control relevance and prominence, and those two factors have the most room for improvement. That's where local SEO work goes.",
+        ],
+      },
+      {
+        heading: "1. Get your Google Business Profile right",
+        paragraphs: [
+          "Your Google Business Profile (GBP) is the foundation. Without a verified, well-optimised GBP, you won't appear in the Map Pack at all. Make sure you've chosen the right primary category (e.g. 'Plumber', not just 'Contractor'), listed all your services individually, written a clear business description that mentions your location and main services, and added real photos of your work.",
+          "Keep your profile active. Post updates every couple of weeks — a job completion photo, a seasonal tip, a new service. Google treats active profiles as more credible than ones that haven't been touched in months. It doesn't take long but it makes a genuine difference.",
+        ],
+      },
+      {
+        heading: "2. Build reviews — consistently",
+        paragraphs: [
+          "Reviews are the single biggest factor in Map Pack rankings after your GBP setup. The number of reviews matters, but so does the pace at which you collect them. A business that gets two or three new reviews a month signals to Google that it's actively trading and that customers are happy. A business that had 20 reviews two years ago and nothing since is less credible in Google's eyes.",
+          "Ask every customer for a review, right after the job. WhatsApp works well — copy your Google review link from your GBP dashboard, send it with a short message, and most happy customers will leave one. Respond to every review you receive, positive or negative. That engagement also factors into your ranking.",
+        ],
+      },
+      {
+        heading: "3. Your website needs to support your GBP",
+        paragraphs: [
+          "Your GBP and your website work together. If your website mentions the right services, uses the right location keywords, and loads quickly, it reinforces the signals you're sending through your GBP. A slow, generic website or one that doesn't mention Bath, Keynsham, or wherever you work will hold you back even if your GBP is strong.",
+          "You don't need a huge website. A fast, well-structured site with a page for each main service — 'boiler installation Bath', 'bathroom fitting Keynsham' — and clear local signals across each page can make a significant difference to your Map Pack position. It gives Google more to work with and more reasons to trust your business is genuinely local.",
+        ],
+      },
+      {
+        heading: "4. Citations: make sure your business is listed consistently",
+        paragraphs: [
+          "Citations are anywhere your business name, address, and phone number appear online — directories like Yell, Thomson Local, Checkatrade, TrustATrader, and dozens more. Google cross-references these to verify your business is real and that the information about you is consistent.",
+          "If your name is listed differently across different sites — slightly different phone number, old address, different business name format — it creates confusion and dilutes your credibility. A citation audit and cleanup, making sure every listing matches your GBP exactly, is one of the quickest wins in local SEO. It's unglamorous but it works.",
+        ],
+      },
+      {
+        heading: "How long does it take?",
+        paragraphs: [
+          "Realistically, if your GBP is starting from scratch in a moderately competitive area like Bath, you're looking at two to four months before you see consistent Map Pack appearances. In lower-competition areas — Radstock, Midsomer Norton, Peasedown St John — it can happen faster. We've had clients in the BA3 postcode area ranking in the Map Pack within six to eight weeks.",
+          "The work is cumulative. Reviews build up over time. Citations get indexed over weeks. GBP signals compound. Starting now, even if you don't see results immediately, means you're in the running by the time your competition wakes up to the same idea. The tradespeople who rank well on Google in Bath started doing this work months or years ago — the sooner you start, the better your position.",
+        ],
+      },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

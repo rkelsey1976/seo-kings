@@ -110,8 +110,8 @@ const faqs = [
     a: "Yes — and for most sole traders, a one-page site is exactly what you need. One page from £250 covers everything: services, contact, area info, click-to-call. Add GBP optimisation for £100 and you're showing up on Maps too.",
   },
   {
-    q: 'Do you work across Bath and North East Somerset?',
-    a: 'Yes. Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Timsbury and the surrounding villages. We also serve Trowbridge and Wiltshire.',
+    q: 'Where do you work?',
+    a: 'We work across Bath and North East Somerset, Somerset, and Wiltshire — including Bath, Keynsham, Midsomer Norton, Radstock, Peasedown St John, Paulton, Saltford, Trowbridge and surrounding villages. Find your area at our areas page.',
   },
   {
     q: 'Will it work on mobile?',
@@ -123,22 +123,12 @@ const faqs = [
   },
   {
     q: 'Do you provide hosting?',
-    a: 'Yes. We set up UK hosting as part of every build. After the first year, hosting is £15/month.',
+    a: 'Yes. We set up UK hosting as part of every build. The first 6 months are free, then £50/year.',
   },
   {
     q: 'What add-ons are available?',
     a: 'Once your site is live: GBP optimisation (£100 one-off), ongoing local SEO (from £150/month). Everything is optional — no bundles, no lock-in.',
   },
-];
-
-const areaLinks = [
-  { label: 'Website designer Bath', href: '/website-designer-bath' },
-  { label: 'Website designer Keynsham', href: '/website-designer-keynsham' },
-  { label: 'Website designer Midsomer Norton', href: '/website-designer-midsomer-norton' },
-  { label: 'Website designer Radstock', href: '/website-designer-radstock' },
-  { label: 'Website designer Peasedown St John', href: '/website-designer-peasedown-st-john' },
-  { label: 'Website designer Saltford', href: '/website-designer-saltford' },
-  { label: 'Website designer Trowbridge', href: '/website-designer-trowbridge' },
 ];
 
 /* ─────────────────────────────────────────────
@@ -155,7 +145,7 @@ export default function WebDesign() {
         badge="Website Design for Trades"
         title="Someone just searched for"
         highlight="your trade."
-        description="Did they find you — or your competitor? We build fast, local websites for trades across Bath & BANES. From £250. Live in 2 weeks."
+        description="Did they find you — or your competitor? We build fast, local websites for tradespeople. From £250. Live in 2 weeks."
         features={heroFeatures}
         ctaText="Get a free quote"
         ctaSecondary="Call Us Today"
@@ -324,7 +314,7 @@ export default function WebDesign() {
           </div>
 
           <p className="text-center text-sm text-gray-600 mt-8">
-            All prices exclude VAT. Hosting included for year one. After that, £15/month. No contracts on website builds.
+            All prices include VAT. 6 months free hosting included, then £50/year. No contracts on website builds.
           </p>
         </div>
       </section>
@@ -420,26 +410,18 @@ export default function WebDesign() {
       {/* ── AREAS ────────────────────────────────── */}
       <section className="py-16 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">
+          <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-4">
             Areas covered
           </p>
-          <div className="flex flex-wrap gap-2">
-            {areaLinks.map((a) => (
-              <Link
-                key={a.href}
-                href={a.href}
-                className="text-xs px-4 py-2 bg-white/5 border border-white/10 rounded-full text-gray-400 hover:text-white hover:border-white/20 transition-colors"
-              >
-                {a.label}
-              </Link>
-            ))}
-            <Link
-              href="/website-designer-near-me"
-              className="text-xs px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary-light hover:bg-primary/20 transition-colors"
-            >
-              All areas →
-            </Link>
-          </div>
+          <p className="text-gray-400 text-sm mb-4">
+            We cover Bath &amp; North East Somerset, Somerset, and Wiltshire. Find your area for local pricing and examples.
+          </p>
+          <Link
+            href="/website-designer-near-me"
+            className="text-xs px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary-light hover:bg-primary/20 transition-colors"
+          >
+            Find your area →
+          </Link>
         </div>
       </section>
 

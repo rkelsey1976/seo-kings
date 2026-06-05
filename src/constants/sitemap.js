@@ -13,6 +13,9 @@ export const BLOG_SLUGS = [
   'google-map-pack-bath',
   'website-cost-bath',
   'how-to-choose-web-designer-bath',
+  'do-i-need-a-website-plumber-bath',
+  'set-up-google-business-profile-tradesperson',
+  'get-trade-business-google-map-pack',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -25,6 +28,9 @@ export const BLOG_LINKS = [
   { href: '/blog/google-map-pack-bath', label: 'How to Get Into the Google Map Pack in Bath' },
   { href: '/blog/website-cost-bath', label: 'How Much Does a Website Cost in Bath?' },
   { href: '/blog/how-to-choose-web-designer-bath', label: 'How to Choose a Web Designer in Bath' },
+  { href: '/blog/do-i-need-a-website-plumber-bath', label: 'Do I Need a Website as a Plumber?' },
+  { href: '/blog/set-up-google-business-profile-tradesperson', label: 'How to Set Up Your Google Business Profile as a Tradesperson' },
+  { href: '/blog/get-trade-business-google-map-pack', label: 'How to Get Your Trade Business Into the Google Map Pack' },
 ];
 
 export const CASE_STUDY_SLUGS = [
@@ -142,7 +148,7 @@ export const STATIC_ROUTES = [
   { path: '/about', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.8 },
   { path: '/how-we-are-different', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
-  { path: '/web-design', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
+  { path: '/web-design', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-near-me', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-bath', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-keynsham', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.9 },
@@ -161,7 +167,7 @@ export const STATIC_ROUTES = [
   { path: '/website-designer-trowbridge', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-redesign', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
-  { path: '/blog', lastmod: '2026-05-05', changefreq: 'weekly', priority: 0.8 },
+  { path: '/blog', lastmod: '2026-06-05', changefreq: 'weekly', priority: 0.8 },
   { path: '/case-studies', lastmod: '2026-06-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
@@ -172,11 +178,11 @@ export const STATIC_ROUTES = [
   { path: '/areas/peasedown-st-john', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/paulton', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/saltford', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },
-  { path: '/areas/timsbury', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas/westfield', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas/chew-magna', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas/temple-cloud', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas/clutton', lastmod: '2026-05-19', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/timsbury', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/westfield', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/chew-magna', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/temple-cloud', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/clutton', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/peasedown-st-john', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/paulton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },

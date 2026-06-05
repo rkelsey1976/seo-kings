@@ -44,6 +44,30 @@ const posts = [
     readTime: '4 min read',
     services: ['web-design'],
   },
+  {
+    slug: 'do-i-need-a-website-plumber-bath',
+    title: 'Do I Need a Website as a Plumber? (Honest Answer for Bath Trades)',
+    excerpt: "Most plumbers in Bath get by on word of mouth — but there's a ceiling to that. Here's what happens when potential customers Google you and find nothing.",
+    date: '2026-06-05',
+    readTime: '5 min read',
+    services: ['web-design'],
+  },
+  {
+    slug: 'set-up-google-business-profile-tradesperson',
+    title: 'How to Set Up Your Google Business Profile as a Tradesperson (Step-by-Step)',
+    excerpt: 'Your Google Business Profile is free and is one of the most powerful things a tradesperson can do to get found online. Here is exactly how to set it up.',
+    date: '2026-09-04',
+    readTime: '6 min read',
+    services: ['gbp', 'local-seo'],
+  },
+  {
+    slug: 'get-trade-business-google-map-pack',
+    title: 'How to Get Your Trade Business Into the Google Map Pack',
+    excerpt: "The Map Pack shows three businesses at the top of every local search — and that's where most of the calls go. Here's what gets a tradesperson into those three spots.",
+    date: '2027-01-08',
+    readTime: '5 min read',
+    services: ['local-seo', 'gbp'],
+  },
 ];
 
 const Blog = () => {
