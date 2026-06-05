@@ -10,14 +10,6 @@ import ServicePageHero from '../components/ServicePageHero';
 
 const results = [
   {
-    business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
-    result: 'Map Pack',
-    keyword: '"cleaning Midsomer Norton"',
-    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
-    slug: 'peachy-cleans',
-  },
-  {
     business: 'New Decorating',
     location: 'Bath',
     result: 'Top 3 Map Pack',
@@ -34,10 +26,12 @@ const results = [
     slug: 'bath-painter',
   },
   {
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: '40-page site',
+    keyword: '"builders Bath"',
+    detail: 'No website, just Instagram → 40-page professional site live in 2 weeks with 6 service pages, 10 area pages, FAQ, and GBP integration.',
     slug: 'aspect-builds',
-    business: 'Aspect Builds & Maintenance',
-    outcome: 'No website, just Instagram → 40-page professional site live in 2 weeks',
-    snippet: 'Complete website with 6 service pages, 10 area pages, FAQ, contact form, and Google Business Profile integration for a Bath builder.',
   },
 ];
 
