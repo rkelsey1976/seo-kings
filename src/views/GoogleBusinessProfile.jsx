@@ -111,9 +111,14 @@ const GoogleBusinessProfile = () => {
               </li>
             ))}
           </ul>
-          <Link href="/contact?service=gbp" className="inline-block bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 text-white px-6 py-3 rounded-xl font-semibold transition-all">
-            Get your GBP optimised — £100
-          </Link>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link href="/contact?service=gbp" className="inline-block bg-gradient-to-r from-primary to-primary-dark hover:opacity-90 text-white px-6 py-3 rounded-xl font-semibold transition-all">
+              Get your GBP optimised — £100
+            </Link>
+            <Link href="/google-business-profile-score-checker" className="inline-block bg-dark-card border border-white/10 hover:border-primary/30 text-gray-300 px-5 py-3 rounded-xl font-medium transition-all text-sm">
+              Check your GBP score first →
+            </Link>
+          </div>
         </div>
       </section>
 

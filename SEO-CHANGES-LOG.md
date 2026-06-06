@@ -237,6 +237,198 @@ Request re-indexing for the following URLs via **GSC → URL Inspection → Requ
 
 ---
 
+---
+
+# SEO Kings — Site Audit Change Log
+**Session date:** 6 June 2026  
+**Prepared by:** Vortex Design Studio
+
+---
+
+## Summary Table — 6 June 2026
+
+| Page URL | What Changed | Date |
+|----------|-------------|------|
+| `/areas/keynsham` | H2 de-optimised from "Web design and SEO in Keynsham" → "Digital marketing in Keynsham"; text link added to `/website-designer-keynsham` | 2026-06-06 |
+| `/areas/midsomer-norton` | Same H2 fix; FAQ heading updated; text link added to `/website-designer-midsomer-norton` | 2026-06-06 |
+| `/website-designer-midsomer-norton` | Added link back to Midsomer Norton area hub | 2026-06-06 |
+| `/website-designer-melksham` | Removed geo-mismatched Peachy Cleans case study; replaced with Bath-relevant case studies | 2026-06-06 |
+| `/website-designer-corsham` | Same Peachy Cleans removal and replacement | 2026-06-06 |
+| `/website-designer-bradford-on-avon` | Same Peachy Cleans removal and replacement | 2026-06-06 |
+| `BlogPost.jsx` | Dead content removed for 3 redirected slugs; 3 blog posts updated with "local SEO Bath" contextual links | 2026-06-06 |
+| `/local-seo/bath` | Hero opens with "Our local SEO Bath service…"; H2 changed to exact phrase "Local SEO Bath"; FAQ expanded with all BA1/BA2 neighbourhoods | 2026-06-06 |
+| 14 × Bath neighbourhood area pages | Each now links to `/local-seo/bath` via Local SEO service card | 2026-06-06 |
+| Directory listings | Clutch.co, DesignRush submitted; Yell.com completed | 2026-06-06 |
+
+---
+
+## Task 1 — Keyword cannibalisation fixes (area hub pages)
+
+### What was wrong
+
+`/areas/keynsham` and `/areas/midsomer-norton` had H2s reading "Web design and SEO in [town]" — commercial intent language that put them in direct competition with the dedicated service pages (`/website-designer-keynsham`, `/website-designer-midsomer-norton`). Two pages competing for the same query split the authority between them and suppressed both.
+
+### What was fixed
+
+**`KeynshamHub.jsx`**
+- H2 changed from "Web design and SEO in Keynsham" → "Digital marketing in Keynsham"
+- Added inline text link to `/website-designer-keynsham` with commercial anchor text
+
+**`MidsomerNortonHub.jsx`**
+- Same H2 change (→ "Digital marketing in Midsomer Norton")
+- FAQ heading updated to remove keyword overlap
+- Added inline text link to `/website-designer-midsomer-norton`
+
+**`WebsiteDesignerMidsomerNorton.jsx`**
+- Added reciprocal link back to `/areas/midsomer-norton` to reinforce the hub-and-spoke relationship
+
+### What to watch in GSC
+
+| Page | Query to monitor | Expected outcome |
+|------|-----------------|-----------------|
+| `/website-designer-keynsham` | "web design keynsham", "website designer keynsham" | Position should improve as the area hub stops competing |
+| `/areas/keynsham` | "keynsham web design" vs "keynsham digital marketing" | Impressions shift toward informational intent queries |
+| `/website-designer-midsomer-norton` | "web design midsomer norton" | Same — cleaner separation in rankings |
+| `/areas/midsomer-norton` | Informational Midsomer Norton queries | Should hold or grow without cannibalising the service page |
+
+**When to check:** 4–6 weeks. Internal link changes are picked up quickly once Googlebot recrawls.
+
+---
+
+## Task 2 — Geo-mismatched case studies fixed (Wiltshire pages)
+
+### What was wrong
+
+`/website-designer-melksham`, `/website-designer-corsham`, and `/website-designer-bradford-on-avon` were displaying the Peachy Cleans case study — a cleaning business based in Midsomer Norton, Somerset. Showing a Somerset case study on Wiltshire service pages sends a mixed geo-signal: the page claims to serve Wiltshire but its social proof is from a different county. This weakens local relevance for Wiltshire searchers and for Google.
+
+Dead blog post content for 3 already-redirected slugs was also removed from `BlogPost.jsx` — serving 404-adjacent content for redirected URLs adds no value.
+
+### What was fixed
+
+**`WebsiteDesignerMelksham.jsx`, `WebsiteDesignerCorsham.jsx`, `WebsiteDesignerBradfordOnAvon.jsx`**
+- Peachy Cleans (Midsomer Norton) case study removed
+- Replaced with Bath-relevant case studies — geographically closer to Wiltshire and more credible for cross-border west of England searches
+
+**`BlogPost.jsx`**
+- Removed dead content for 3 redirected blog slugs (clean-up, no ranking impact expected)
+
+### What to watch in GSC
+
+| Page | What good looks like |
+|------|---------------------|
+| `/website-designer-melksham` | Improved click-through rate as local relevance signals strengthen |
+| `/website-designer-corsham` | Same |
+| `/website-designer-bradford-on-avon` | Same |
+
+**When to check:** 6–8 weeks. Case study geo-relevance is a moderate signal — improvement will be gradual.
+
+---
+
+## Task 3 — Directory listings submitted
+
+### What was done
+
+Three directory profiles submitted or completed to build citation consistency and domain authority:
+
+| Directory | Action | Status |
+|-----------|--------|--------|
+| **Clutch.co** | Full profile submitted | Pending validation (7–10 days) |
+| **DesignRush** | Profile submitted | Pending |
+| **Yell.com** | Existing listing completed — description, services, logo, photos, areas, opening hours added | Live |
+
+### What to watch
+
+- **Branded search impressions** in GSC — an uptick in "SEO Kings" or "Vortex Design Studio" queries confirms the listings are driving brand awareness
+- **Domain authority / referring domains** in Ahrefs or Moz — new citation links should appear within 4–8 weeks of validation
+- **Local Pack visibility** — consistent NAP (name, address, phone) across Yell, Clutch, DesignRush, and Google Business Profile strengthens local ranking signals
+
+**When to check:** 4–8 weeks for Clutch and DesignRush to validate and index. Yell is live now — check it's crawlable.
+
+---
+
+## Task 4 — Local SEO Bath page boost
+
+### What was wrong
+
+`/local-seo/bath` was ranking around position 8 for "local SEO Bath" — within reach of top 5 but not quite there. The page lacked explicit exact-match phrase prominence in key on-page positions (hero, H2), and the 14 Bath neighbourhood area pages weren't cross-linking to it — a missed internal authority signal.
+
+### What was fixed
+
+**`LocalSEOBath.jsx`**
+- Hero description now opens with "Our local SEO Bath service…" — exact-match phrase at the start of the first visible sentence
+- Main H2 changed to exact phrase "Local SEO Bath" — keyword prominence in a heading element
+- FAQ section expanded to list all BA1/BA2 neighbourhoods — reinforces topical depth and covers long-tail neighbourhood + local SEO queries
+
+**`AreaDetail.jsx`** (affects 14 Bath neighbourhood pages)
+- Each of the 14 Bath neighbourhood area pages now includes a Local SEO service card linking to `/local-seo/bath`
+- 14 new internal links pointing to the target page with relevant anchor text
+
+**`BlogPost.jsx`** (3 blog posts)
+- 3 existing blog posts updated with contextual "local SEO Bath" links pointing to `/local-seo/bath`
+- Adds editorial internal link weight from content pages
+
+### What to watch in GSC
+
+**Target query:** "local SEO Bath"  
+**Current position:** ~8  
+**Target:** Top 5 within 6–8 weeks
+
+| Signal | What to watch |
+|--------|--------------|
+| Average position | "local SEO Bath" — expect movement upward within 4–6 weeks as internal links are crawled |
+| Impressions | Should grow as FAQ now covers BA1/BA2 neighbourhood variants |
+| Click-through rate | Monitor CTR at current position — if it's low, title/description may need a tweak |
+
+**When to check:** 6 weeks for first position movement. 8 weeks for a reliable read on whether the changes are working.
+
+---
+
+## URLs to submit to GSC — 6 June 2026
+
+Request re-indexing for the following URLs via **GSC → URL Inspection → Request Indexing** (up to ~10/day):
+
+**Priority batch (day 1):**
+1. `https://seo-kings.co.uk/local-seo/bath`
+2. `https://seo-kings.co.uk/areas/keynsham`
+3. `https://seo-kings.co.uk/areas/midsomer-norton`
+4. `https://seo-kings.co.uk/website-designer-keynsham`
+5. `https://seo-kings.co.uk/website-designer-midsomer-norton`
+6. `https://seo-kings.co.uk/website-designer-melksham`
+7. `https://seo-kings.co.uk/website-designer-corsham`
+8. `https://seo-kings.co.uk/website-designer-bradford-on-avon`
+9. `https://seo-kings.co.uk/areas/odd-down-bath` *(now links to /local-seo/bath)*
+10. `https://seo-kings.co.uk/areas/combe-down-bath`
+
+**Batch 2 (day 2):**
+1. `https://seo-kings.co.uk/areas/widcombe-bath`
+2. `https://seo-kings.co.uk/areas/larkhall-bath`
+3. `https://seo-kings.co.uk/areas/twerton-bath`
+4. `https://seo-kings.co.uk/areas/weston-bath`
+5. `https://seo-kings.co.uk/areas/oldfield-park-bath`
+6. `https://seo-kings.co.uk/areas/bear-flat-bath`
+7. `https://seo-kings.co.uk/areas/bathampton-bath`
+8. `https://seo-kings.co.uk/areas/bathwick-bath`
+9. `https://seo-kings.co.uk/areas/southdown-bath`
+10. `https://seo-kings.co.uk/areas/batheaston-bath`
+
+**Batch 3 (day 3):**
+1. `https://seo-kings.co.uk/areas/walcot-bath`
+2. `https://seo-kings.co.uk/areas/bathford-bath`
+
+---
+
+## Review schedule — 6 June 2026 changes
+
+| When | What to check |
+|------|--------------|
+| **2 weeks** | Confirm all changed pages are indexed (GSC → Coverage) |
+| **4–6 weeks** | Cannibalisation fix: check `/website-designer-keynsham` and `/website-designer-midsomer-norton` positions; check Yell listing is crawlable |
+| **6–8 weeks** | "local SEO Bath" position — target is top 5; Wiltshire pages CTR and local relevance signals |
+| **8–10 weeks** | Clutch.co and DesignRush validated and indexed; branded search impressions in GSC |
+| **12 weeks** | Full read on all June 6 changes vs baseline |
+
+---
+
 ## Review schedule
 
 | When | What to check |
