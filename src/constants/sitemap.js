@@ -162,7 +162,7 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/plumbers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/electricians', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/roofers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
-  { path: '/local-seo/bath', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.9 },
+  { path: '/local-seo/bath', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.9 },
   { path: '/seo/bath', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/keynsham', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/midsomer-norton', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },

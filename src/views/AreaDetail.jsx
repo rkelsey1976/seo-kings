@@ -1540,7 +1540,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Odd Down, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack with reviews and posts.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Odd Down and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Odd Down and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Odd Down, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1608,7 +1608,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Combe Down, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Combe Down and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Combe Down and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Combe Down, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1675,7 +1675,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Widcombe, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Widcombe and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Widcombe and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Widcombe, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1742,7 +1742,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Larkhall, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Larkhall and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Larkhall and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Larkhall, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1809,7 +1809,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Twerton, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Twerton and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Twerton and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Twerton, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1876,7 +1876,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Weston, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Weston and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Weston and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Weston, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -1943,7 +1943,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Oldfield Park, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Oldfield Park and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Oldfield Park and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Oldfield Park, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2010,7 +2010,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bear Flat, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bear Flat and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bear Flat and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Bear Flat, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2077,7 +2077,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathampton, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bathampton and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bathampton and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Bathampton, near Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2144,7 +2144,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathwick, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bathwick and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bathwick and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Bathwick, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2211,7 +2211,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Southdown, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Southdown and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Southdown and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Southdown, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2278,7 +2278,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Batheaston, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Batheaston and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Batheaston and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Batheaston, near Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2345,7 +2345,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Walcot, Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Walcot and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Walcot and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Walcot, Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',
@@ -2412,7 +2412,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathford, near Bath.' },
         { name: 'Google Business Profile', description: 'Add-on: get on the map and in the pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bathford and Bath + trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bathford and Bath + trade keywords.', href: '/local-seo/bath' },
       ],
       servicesHeading: 'Website design in Bathford, near Bath — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google.',

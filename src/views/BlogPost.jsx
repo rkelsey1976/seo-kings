@@ -121,6 +121,7 @@ const blogPosts = {
     ctaHeading: 'Want help growing your Google reviews?',
     ctaBody: 'We manage and optimise Google Business Profiles for tradespeople and local businesses across Bath and North East Somerset.',
     ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/google-business-profile', label: 'Google Business Profile management' },
       { href: '/contact', label: 'Get a free GBP check' },
     ],
@@ -128,7 +129,7 @@ const blogPosts = {
       {
         heading: 'Why Google reviews matter for local visibility',
         paragraphs: [
-          'Google reviews influence where you appear in the map pack and how many people click through to your business. They also build trust: people read reviews before calling or filling in a form. For tradespeople and service businesses in Bath and North East Somerset, a steady flow of genuine reviews can make a real difference to enquiries and jobs.',
+          <>Google reviews influence where you appear in the map pack and how many people click through to your business. They also build trust: people read reviews before calling or filling in a form. For tradespeople and service businesses in Bath and North East Somerset, a steady flow of genuine reviews can make a real difference to enquiries and jobs — particularly when combined with a solid <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO Bath</Link> strategy that gets you ranking in the first place.</>,
         ],
       },
       {
@@ -242,7 +243,7 @@ const blogPosts = {
         heading: 'What to do next',
         paragraphs: [
           'If you don\'t have a Google Business Profile, claim and verify yours (Google will send a postcard or you can verify by other methods). Fill in your business name, address, phone, website, hours, category, services and a short description. Add photos and ask happy customers for reviews. Keep everything consistent with your website.',
-          'If you\'re a trade in Bath and North East Somerset and want help setting up or optimising your GBP, we can do a free check and show you what to fix. We include GBP management in our local SEO packages. GBP one-off optimisation is available as a £100 add-on. Get in touch or see our Google Business Profile page below.',
+          <>If you&apos;re a trade in Bath and North East Somerset and want help setting up or optimising your GBP, we can do a free check and show you what to fix. We include GBP management in our <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO Bath</Link> packages. GBP one-off optimisation is available as a £100 add-on. Get in touch or see our Google Business Profile page below.</>,
         ],
       },
     ],
@@ -335,9 +336,14 @@ const blogPosts = {
       {
         heading: 'Next steps for Bath & North East Somerset plumbers',
         paragraphs: [
-          'Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free local SEO audit for plumbers and other trades in Bath and North East Somerset. Get in touch and we\'ll take a look.',
+          <>Start with your GBP: is it complete, accurate, and active? Then check your website: does it clearly list your services and areas? Keep your details consistent everywhere. If you want to see how you compare and what to improve, we offer a free audit via our <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO Bath</Link> service — covering GBP, website, and citations for plumbers and other trades across Bath and North East Somerset. Get in touch and we&apos;ll take a look.</>,
         ],
       },
+    ],
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/google-business-profile', label: 'Google Business Profile' },
+      { href: '/contact', label: 'Free SEO audit' },
     ],
   },
   'free-seo-audit-what-we-check': {

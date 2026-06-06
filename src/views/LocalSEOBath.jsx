@@ -79,8 +79,8 @@ const faqs = [
     a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250. Many Bath clients do website and SEO together as a package — one team, one plan.",
   },
   {
-    q: 'What parts of Bath do you cover?',
-    a: 'All of BA1 and BA2 — including the city centre, Widcombe, Oldfield Park, Bear Flat, Larkhall, Twerton, Bathampton, Combe Down, Odd Down, Weston, Bathwick, Walcot, Southdown, Batheaston and Bathford.',
+    q: 'Which parts of Bath do you cover for local SEO?',
+    a: 'All of BA1 and BA2, including every neighbourhood in the city. In BA1: the city centre, Walcot, Larkhall, Bathwick, Bathampton, Batheaston and Bathford. In BA2: Widcombe, Oldfield Park, Bear Flat, Twerton, Odd Down, Combe Down, Southdown and Weston. Beyond the city boundary we also cover Keynsham (BS31), Saltford, Peasedown St John, Radstock, Midsomer Norton and the wider Bath and North East Somerset area. If you serve any part of this patch, our local SEO Bath campaigns are structured to target the specific neighbourhoods and postcodes where your customers are searching.',
   },
 ];
 
@@ -168,7 +168,7 @@ const LocalSEOBath = () => {
         badge="Serving BA1 & BA2 · Bath"
         title="Local SEO"
         highlight="Bath"
-        description="Bath is a competitive market. When someone searches for your trade or service in BA1 or BA2, the businesses in the Map Pack take most of the calls. We get you into those positions — and keep you there."
+        description="Our local SEO Bath service gets trades and businesses into the Google Map Pack for BA1 and BA2. Bath is competitive — when someone searches for your trade or service, the three businesses at the top take most of the calls. We get you into those positions and keep you there."
         features={['From £150/month', 'Free audit included', 'Google Business Profile', 'Serving BA1 & BA2']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
@@ -265,7 +265,7 @@ const LocalSEOBath = () => {
           <div className="max-w-3xl mb-12">
             <SectionTag className="mb-4">Why it works</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Local SEO in Bath — why the Map Pack is worth fighting for
+              Local SEO Bath — why the Map Pack is worth fighting for
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Bath is a high-intent search market. When someone types "plumber Bath" or "electrician BA1" into Google, they're not browsing — they need someone now. The three businesses in the Map Pack capture most of those calls. Below the Map Pack, click rates fall sharply. If your business isn't in those top three positions, you're largely invisible to people who are ready to spend money.
