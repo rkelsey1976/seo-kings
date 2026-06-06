@@ -425,6 +425,34 @@ export default function WebDesign() {
         </div>
       </section>
 
+      {/* ── ROI CALCULATOR CTA ───────────────────── */}
+      <section className="py-16 border-b border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-5 justify-between">
+            <div>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-2">
+                Free tool
+              </p>
+              <h3 className="text-white font-semibold text-base mb-1">
+                Not sure if a website is worth it?
+              </h3>
+              <p className="text-gray-400 text-sm">
+                Try our free ROI Calculator — find out exactly how many jobs it takes to pay for itself.
+              </p>
+            </div>
+            <Link
+              href="/website-roi-calculator"
+              className="shrink-0 inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-all"
+            >
+              Try the ROI Calculator
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── FAQ ──────────────────────────────────── */}
       <section className="py-24 bg-dark-lighter">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
