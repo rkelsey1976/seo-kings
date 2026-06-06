@@ -279,6 +279,65 @@ const WebDesignForHub = () => {
         </div>
       </section>
 
+      {/* Free tools section */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">Free tools for tradespeople</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white leading-tight tracking-tight">
+              Useful resources — no signup needed
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
+            {[
+              {
+                href: '/invoice-template-generator',
+                icon: (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                ),
+                title: 'Invoice & Quote Generator',
+                desc: 'Create a professional invoice or quote template with your own branding. Download as PDF in 2 minutes.',
+              },
+              {
+                href: '/google-business-profile-score-checker',
+                icon: (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                ),
+                title: 'GBP Score Checker',
+                desc: 'See how your Google Business Profile stacks up and find out exactly what to fix to rank in the Map Pack.',
+              },
+              {
+                href: '/website-roi-calculator',
+                icon: (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                ),
+                title: 'Website ROI Calculator',
+                desc: 'Work out the return on investment from a trade website based on your average job value and conversion rate.',
+              },
+            ].map(({ href, icon, title, desc }) => (
+              <Link
+                key={href}
+                href={href}
+                className="bg-dark-card border border-white/[0.06] hover:border-white/10 rounded-2xl p-6 transition-colors group"
+              >
+                <div className="text-primary mb-3">{icon}</div>
+                <h3 className="text-white font-semibold text-sm mb-2">{title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
+                <span className="mt-3 text-primary text-xs font-semibold inline-flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                  Use free tool →
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

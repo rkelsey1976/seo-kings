@@ -47,6 +47,25 @@ const Footer = () => {
               </ul>
             </div>
             <div>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Free Tools</p>
+              <ul className="space-y-2.5">
+                {[
+                  { label: 'Invoice & Quote Generator', href: '/invoice-template-generator' },
+                  { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
+                  { label: 'Website ROI Calculator', href: '/website-roi-calculator' },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="text-sm transition-colors hover:text-white text-white/55"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Contact</p>
               <div className="space-y-3">
                 <address className="not-italic text-sm leading-relaxed text-white/55">

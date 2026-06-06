@@ -171,6 +171,7 @@ export const STATIC_ROUTES = [
   { path: '/google-business-profile', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.9 },
   { path: '/google-business-profile-score-checker', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
   { path: '/website-roi-calculator', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
+  { path: '/invoice-template-generator', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
   { path: '/blog', lastmod: '2026-06-05', changefreq: 'weekly', priority: 0.8 },
   { path: '/case-studies', lastmod: '2026-06-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
