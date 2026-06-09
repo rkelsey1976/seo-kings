@@ -146,7 +146,7 @@ export const AREA_LINKS = [
 
 /** Static routes for XML sitemap: path, lastmod (YYYY-MM-DD), changefreq, priority */
 export const STATIC_ROUTES = [
-  { path: '/', lastmod: '2026-05-05', changefreq: 'weekly', priority: 1.0 },
+  { path: '/', lastmod: '2026-06-09', changefreq: 'weekly', priority: 1.0 },
   { path: '/about', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.8 },
   { path: '/how-we-are-different', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
@@ -172,6 +172,7 @@ export const STATIC_ROUTES = [
   { path: '/google-business-profile-score-checker', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
   { path: '/website-roi-calculator', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
   { path: '/invoice-template-generator', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
+  { path: '/review-request-generator', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.8 },
   { path: '/blog', lastmod: '2026-06-05', changefreq: 'weekly', priority: 0.8 },
   { path: '/case-studies', lastmod: '2026-06-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },

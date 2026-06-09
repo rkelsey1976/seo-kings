@@ -53,6 +53,7 @@ const Footer = () => {
                   { label: 'Invoice & Quote Generator', href: '/invoice-template-generator' },
                   { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
                   { label: 'Website ROI Calculator', href: '/website-roi-calculator' },
+                  { label: 'Review Request Generator', href: '/review-request-generator' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
