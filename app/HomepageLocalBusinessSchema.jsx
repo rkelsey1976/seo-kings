@@ -203,6 +203,7 @@ const homepageLocalBusinessSchema = {
     'https://uk.trustpilot.com/review/seo-kings.co.uk',
     'https://clutch.co/profile/seo-kings-0',
     'https://www.facebook.com/profile.php?id=61587531959737',
+    'https://www.linkedin.com/company/129134116',
   ],
 };
 
