@@ -124,11 +124,15 @@ export default function ToolsHub() {
               profile, how do I ask for reviews, is a website worth it. The tools answer them
               properly, whether you ever work with us or not.
             </p>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed mb-4">
               If a tool shows you a problem you&apos;d rather not fix yourself, that&apos;s where we
               come in: <Link href="/web-design" className="text-primary hover:underline">web design from £250</Link>,{' '}
               <Link href="/local-seo" className="text-primary hover:underline">local SEO from £150/month</Link>, or{' '}
               <Link href="/google-business-profile" className="text-primary hover:underline">GBP optimisation for £100</Link>.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              Curious how big the problem is locally? Our research found{' '}
+              <Link href="/bath-trades-website-report" className="text-primary hover:underline">136 top-rated Bath trades with no website at all</Link>.
             </p>
           </div>
         </div>

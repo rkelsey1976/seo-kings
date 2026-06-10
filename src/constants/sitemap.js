@@ -169,6 +169,7 @@ export const STATIC_ROUTES = [
   { path: '/website-redesign', lastmod: '2026-05-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile', lastmod: '2026-06-06', changefreq: 'monthly', priority: 0.9 },
   { path: '/tools', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },
+  { path: '/bath-trades-website-report', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },
   { path: '/google-business-profile-score-checker', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },
   { path: '/website-roi-calculator', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },
   { path: '/invoice-template-generator', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },

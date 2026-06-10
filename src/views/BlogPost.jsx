@@ -1411,6 +1411,7 @@ const blogPosts = {
           "Our prices start at £250 for a one-page trade site — that's name, services, contact details, and enough SEO foundation to get Google's attention. A three-page professional site with services, about, and contact runs from £350. A five-page site with individual service pages (which rank better) from £450. Hosting is free for the first six months, then £50 a year.",
           "There are no monthly fees, no lock-in contracts, and no hidden extras. You own the site. We build it, you keep it. If you want us to handle local SEO or your Google Business Profile on top of that, we can — but the website itself is a one-off cost. For most plumbers we talk to, it pays for itself in one extra job.",
           <>Want to see the numbers for your own business? Our free <Link href="/website-roi-calculator" className="text-primary hover:underline">Website ROI Calculator</Link> works out how many jobs a site needs to win to cover its cost, based on your average job value.</>,
+          <>And you wouldn&apos;t be alone in holding off — our research found <Link href="/bath-trades-website-report" className="text-primary hover:underline">136 top-rated trades around Bath with no website at all</Link>, including ten plumbers. Busy businesses, great reviews, invisible outside Google Maps.</>,
         ],
       },
     ],
