@@ -284,17 +284,27 @@ const results = [
 ## Known technical debt
 
 - **`Navbar.jsx`**: has stray edits from a mistaken session — component is unused (not imported anywhere), so no user impact, but file is inconsistent with intent
-- **`PricingModal.jsx`**: 8 form inputs without `<label>` elements — WCAG AA failure
-- **`/website-designer-trowbridge`**: orphaned — no nav link or area page inbound link
-- **`/hosting`**: orphaned — no inbound links from any page
+- ~~`PricingModal.jsx` label failure~~ — fixed; PricingCalculator has labels/aria-labels, Lighthouse a11y 100
+- ~~`/website-designer-trowbridge` orphaned~~ — has inbound links from Melksham/Corsham/Bradford-on-Avon related sections
+- ~~`/hosting` orphaned~~ — fixed 2026-06-10; linked from footer bottom row
+- **Mobile Lighthouse performance 64** (2026-05-29 run) — desktop is 100; not an SEO blocker but worth investigating
+
+## Bath consolidation (2026-06-10)
+
+**`/website-designer-bath` no longer exists** — it 301s to `/areas/bath` (see `public/_redirects`).
+GSC showed `/areas/bath` outranking it on every commercial Bath query (web design bath: 63 vs 86;
+seo agency bath: 30 vs 83) despite 20+ internal links favouring the service page, so the spoke was
+folded into the hub. Never recreate it or link to it. `/areas/bath` owns ALL commercial Bath queries
+(web design + SEO + GBP). `/local-seo/bath` was kept — it ranks page 1 (~pos 8) for "local seo bath"
+and owns the Map-Pack/local-SEO query family only.
 
 ---
 
 ## Area pages status
 
 Pages that have had the full improvement pattern applied:
-- `/website-designer-bath` ✓
-- `/website-designer-trowbridge` ✓ (content — still orphaned in nav)
+- ~~`/website-designer-bath`~~ — 301s to `/areas/bath` since 2026-06-10
+- `/website-designer-trowbridge` ✓
 - `/website-designer-radstock` ✓
 - `/website-designer-midsomer-norton` ✓
 - `/website-designer-keynsham` ✓

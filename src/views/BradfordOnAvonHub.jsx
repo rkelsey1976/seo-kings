@@ -130,9 +130,9 @@ const BradfordOnAvonHub = () => {
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
-        badge="Bradford on Avon · BA15"
+        badge="Bradford-on-Avon · Wiltshire · BA15"
         title="SEO &amp; Web Design in"
-        highlight="Bradford on Avon"
+        highlight="Bradford-on-Avon"
         description="Bradford on Avon is one of Wiltshire's most affluent towns. When local homeowners and businesses search for your trade, we make sure they find you — not someone from Bath or Trowbridge."
         features={heroFeatures}
         ctaText="Get a Free Audit"

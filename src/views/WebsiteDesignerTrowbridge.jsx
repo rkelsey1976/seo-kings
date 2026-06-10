@@ -367,7 +367,7 @@ const WebsiteDesignerTrowbridge = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/website-designer-bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/areas/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">Website Design Bath</div>
                 <div className="text-xs text-gray-500">Also covering Bath — web design for BA1 &amp; BA2 trades from £250</div>

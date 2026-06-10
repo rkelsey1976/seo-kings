@@ -133,9 +133,9 @@ const WebsiteDesignerBradfordOnAvon = () => {
 
       {/* Hero */}
       <ServicePageHero
-        badge="Serving Bradford on Avon · BA15"
+        badge="Serving Bradford-on-Avon · Wiltshire · BA15"
         title="Website Designer"
-        highlight="Bradford on Avon"
+        highlight="Bradford-on-Avon, Wiltshire"
         description="We build fast, Google-ready websites for trades and local businesses in Bradford on Avon BA15. From £250. Add GBP optimisation for £100. Live in under 2 weeks."
         features={[
           'From £250',
@@ -317,7 +317,7 @@ const WebsiteDesignerBradfordOnAvon = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { href: '/local-seo/bradford-on-avon', label: 'Local SEO — Bradford on Avon', desc: 'Get found on Google Maps and local search in BA15.' },
-              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/web-design', label: 'Web Design', desc: 'Fast, mobile-first websites for trades and small businesses.' },
               { href: '/website-designer-corsham', label: 'Website Designer — Corsham', desc: 'Web design for Corsham and SN13 businesses.' },
               { href: '/website-designer-trowbridge', label: 'Website Designer — Trowbridge', desc: 'Web design for trades in Trowbridge and BA14.' },
               { href: '/website-designer-melksham', label: 'Website Designer — Melksham', desc: 'Web design for Melksham and SN12 businesses.' },

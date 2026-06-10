@@ -94,7 +94,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'bath': {
       name: 'Bath',
       fullName: 'Bath, Somerset',
-      designerHref: '/website-designer-bath',
+      designerHref: '/areas/bath',
       county: 'Somerset',
       postcodes: ['BA1', 'BA2'],
       population: '95,000+',
@@ -152,7 +152,7 @@ const AreaDetail = ({ params: staticParams }) => {
       costSectionImage: { src: '/images/keynsham/keynsham-code-screen.webp', alt: 'Website development screen — web design costs in Bath from £250' },
       whatToLookForSectionImage: { src: '/images/keynsham/keynsham-mockup.webp', alt: 'Website design mockup for a Bath trade business' },
       services: [
-        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250, built to rank for your trade and location from day one.', href: '/website-designer-bath' },
+        { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250, built to rank for your trade and location from day one.', href: '/areas/bath' },
         { name: 'Local SEO', description: 'Get into the map pack and onto page 1 for Bath trade searches. From £150/month.', href: '/local-seo/bath' },
         { name: 'SEO Services', description: 'Full SEO — technical, on-page, content and local authority for Bath businesses. From £150/month.', href: '/seo/bath' },
         { name: 'Google Business Profile', description: 'Optimise your GBP so you show up in Maps and the local pack when customers search in BA1 and BA2.', href: '/google-business-profile' },
@@ -188,7 +188,7 @@ const AreaDetail = ({ params: staticParams }) => {
         paragraphs: [
           "We've been helping trades and local businesses across Bath and North East Somerset get found on Google for years. We don't just build pretty sites — we optimise for the searches that actually bring customers. From day one we target phrases like 'plumber Bath', 'electrician BA1' and your specific trade terms so you show up when local customers and visitors search.",
           "Every site we build is set up for local SEO from the start. We integrate your Google Business Profile, use the right location and service schema, and structure content so Google understands exactly where you serve and what you do. That means you're in the race for the map pack and page one from launch — not months later.",
-          <>Whether you need a <Link href="/website-designer-bath" className="text-primary hover:underline">new website</Link>, <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO in Bath</Link>, <Link href="/seo/bath" className="text-primary hover:underline">full SEO services</Link>, or all three — we start with a free audit so you see exactly where you stand. No long contracts, no jargon. Just clear reporting and results you can measure.</>,
+          <>Whether you need a <Link href="/areas/bath" className="text-primary hover:underline">new website</Link>, <Link href="/local-seo/bath" className="text-primary hover:underline">local SEO in Bath</Link>, <Link href="/seo/bath" className="text-primary hover:underline">full SEO services</Link>, or all three — we start with a free audit so you see exactly where you stand. No long contracts, no jargon. Just clear reporting and results you can measure.</>,
         ],
       },
       recentProjects: [

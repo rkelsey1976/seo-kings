@@ -135,6 +135,7 @@ const Footer = () => {
             <span suppressHydrationWarning>© {currentYear} SEO Kings</span>
           </p>
           <div className="flex items-center gap-6 text-xs text-white/55">
+            <Link href="/hosting" className="hover:text-white transition-colors">Hosting</Link>
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
             <Link href="/credits" className="hover:text-white transition-colors">Credits</Link>

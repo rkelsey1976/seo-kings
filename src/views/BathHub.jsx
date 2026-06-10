@@ -172,7 +172,7 @@ const BathHub = () => {
 
             {/* Card 1 — Website Design (links to spoke) */}
             <Link
-              href="/website-designer-bath"
+              href="/web-design"
               className="bg-dark-card border border-white/[0.06] rounded-2xl p-8 flex flex-col hover:border-primary/40 transition-colors group"
             >
               <div className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 mb-5">
@@ -447,7 +447,7 @@ const BathHub = () => {
           <SectionTag className="mb-6">Explore further</SectionTag>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { href: '/website-designer-bath', label: 'Website Design — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
+              { href: '/web-design', label: 'Website Design — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
               { href: '/local-seo/bath', label: 'Local SEO — Bath', desc: 'Ongoing SEO to push you into Bath\'s Map Pack and keep you there — from £150/month.' },
               { href: '/seo/bath', label: 'SEO Bath', desc: 'Full SEO services for Bath trades and small businesses — technical, on-page, content and local authority.' },
               { href: '/google-business-profile', label: 'Google Business Profile', desc: 'GBP setup and optimisation for Bath businesses — £100 one-off, no ongoing fees.' },

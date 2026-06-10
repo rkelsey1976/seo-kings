@@ -316,7 +316,7 @@ const WebsiteDesignerCorsham = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { href: '/local-seo/corsham', label: 'Local SEO — Corsham', desc: 'Get found on Google Maps and local search in SN13.' },
-              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/areas/bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
               { href: '/website-designer-bradford-on-avon', label: 'Website Designer — Bradford on Avon', desc: 'Web design for Bradford on Avon and BA15 businesses.' },
               { href: '/website-designer-melksham', label: 'Website Designer — Melksham', desc: 'Web design for Melksham and SN12 businesses.' },
               { href: '/website-designer-trowbridge', label: 'Website Designer — Trowbridge', desc: 'Web design for trades in Trowbridge and BA14.' },

@@ -166,9 +166,9 @@ const LocalSEOBradfordOnAvon = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
-        badge="Serving BA15 · Bradford on Avon"
+        badge="Serving BA15 · Bradford-on-Avon, Wiltshire"
         title="Local SEO"
-        highlight="Bradford on Avon"
+        highlight="Bradford-on-Avon, Wiltshire"
         description="Bradford on Avon is one of Wiltshire's most affluent towns — and most trades here are invisible on Google. When homeowners search for your service in BA15, we make sure they find you in the Map Pack, not a competitor from Bath or Trowbridge."
         features={['From £150/month', 'Free audit included', 'Google Business Profile', 'Serving BA15']}
         ctaText="Get a Free SEO Audit"
