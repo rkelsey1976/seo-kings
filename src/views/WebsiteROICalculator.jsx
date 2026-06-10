@@ -383,6 +383,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
+      '@type': 'WebApplication',
+      name: 'Website ROI Calculator',
+      url: 'https://seo-kings.co.uk/website-roi-calculator',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Any',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' },
+      provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+    },
+    {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/website-roi-calculator',
       url: 'https://seo-kings.co.uk/website-roi-calculator',

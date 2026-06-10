@@ -9,6 +9,12 @@ export const metadata = {
   alternates: {
     canonical: 'https://seo-kings.co.uk/invoice-template-generator',
   },
+  openGraph: {
+    title: 'Free Invoice & Quote Generator for Tradespeople',
+    description: 'Create a professional invoice or quote in 2 minutes — your details, line items and VAT, downloaded as a PDF. Free, no sign-up.',
+    url: 'https://seo-kings.co.uk/invoice-template-generator',
+    type: 'website',
+  },
 };
 
 export default function Page() {

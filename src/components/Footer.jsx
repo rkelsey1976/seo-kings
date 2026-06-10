@@ -54,6 +54,7 @@ const Footer = () => {
                   { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
                   { label: 'Website ROI Calculator', href: '/website-roi-calculator' },
                   { label: 'Review Request Generator', href: '/review-request-generator' },
+                  { label: 'All free tools →', href: '/tools' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link

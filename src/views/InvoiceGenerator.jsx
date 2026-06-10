@@ -10,6 +10,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
+      '@type': 'WebApplication',
+      name: 'Invoice & Quote Template Generator',
+      url: 'https://seo-kings.co.uk/invoice-template-generator',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Any',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' },
+      provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+    },
+    {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/invoice-template-generator',
       url: 'https://seo-kings.co.uk/invoice-template-generator',

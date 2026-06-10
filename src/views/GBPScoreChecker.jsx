@@ -405,6 +405,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
+      '@type': 'WebApplication',
+      name: 'Google Business Profile Score Checker',
+      url: 'https://seo-kings.co.uk/google-business-profile-score-checker',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Any',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' },
+      provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+    },
+    {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/google-business-profile-score-checker',
       url: 'https://seo-kings.co.uk/google-business-profile-score-checker',

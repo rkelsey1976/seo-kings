@@ -139,6 +139,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
+      '@type': 'WebApplication',
+      name: 'Review Request Generator',
+      url: 'https://seo-kings.co.uk/review-request-generator',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Any',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' },
+      provider: { '@id': 'https://seo-kings.co.uk/#organization' },
+    },
+    {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/review-request-generator',
       url: 'https://seo-kings.co.uk/review-request-generator',

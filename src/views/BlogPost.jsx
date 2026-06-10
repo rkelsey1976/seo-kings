@@ -121,6 +121,7 @@ const blogPosts = {
     ctaHeading: 'Want help growing your Google reviews?',
     ctaBody: 'We manage and optimise Google Business Profiles for tradespeople and local businesses across Bath and North East Somerset.',
     ctaLinks: [
+      { href: '/review-request-generator', label: 'Try the free Review Request Generator' },
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/google-business-profile', label: 'Google Business Profile management' },
       { href: '/contact', label: 'Get a free GBP check' },
@@ -142,6 +143,7 @@ const blogPosts = {
         heading: 'Make it easy with a direct link',
         paragraphs: [
           'Google provides a short link that takes customers straight to the review form for your business. Add it to your email signature, your job-completion messages, or a simple "Leave us a review" page on your website. The fewer steps between "I\'ll leave a review" and actually leaving one, the more reviews you\'ll get.',
+          <>To make asking even easier, our free <Link href="/review-request-generator" className="text-primary hover:underline">Review Request Generator</Link> writes a personalised WhatsApp message for you — pop in the customer&apos;s name and the job, copy, send.</>,
         ],
       },
       {
@@ -371,6 +373,7 @@ const blogPosts = {
         heading: 'Your Google Business Profile',
         paragraphs: [
           'We check whether your GBP is claimed and verified, and whether it\'s fully filled out: business name, address, phone, website, hours, and service area. We look at your categories (primary and secondary), your business description, and whether it matches what you do and where you serve. We also check how active you are - photos, posts, Q&A - because an up-to-date profile tends to perform better.',
+          <>Want a head start? Run your profile through our free <Link href="/google-business-profile-score-checker" className="text-primary hover:underline">GBP Score Checker</Link> first — it scores the same things we check, in about two minutes.</>,
         ],
       },
       {
@@ -1174,6 +1177,7 @@ const blogPosts = {
     ctaHeading: 'Want help getting into the Map Pack in Bath?',
     ctaBody: 'We specialise in local SEO for trades and small businesses in Bath and North East Somerset — Map Pack rankings and Google Business Profile optimisation.',
     ctaLinks: [
+      { href: '/google-business-profile-score-checker', label: 'Check your GBP score (free tool)' },
       { href: '/local-seo/bath', label: 'Local SEO in Bath' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/contact', label: 'Get a free audit' },
@@ -1211,6 +1215,7 @@ const blogPosts = {
           'Photos matter more than most people expect. GBPs with real job photos — not stock images — consistently outperform those without. Add photos of your work, your van, your team. Post regularly: Google rewards active profiles.',
           'Reviews are the single biggest lever for prominence. Ask every satisfied customer for a review and give them a direct link to make it easy. Respond to every review, good or bad. Fifty genuine reviews will dramatically outperform five, all else being equal.',
           'Your website supports your GBP. Make sure your business name, address, and phone number match exactly between your site and your GBP. Service pages that clearly target Bath trade keywords signal to Google that your website is relevant, which reinforces your GBP ranking.',
+          <>Not sure where your profile stands right now? Run it through our free <Link href="/google-business-profile-score-checker" className="text-primary hover:underline">Google Business Profile Score Checker</Link> — a two-minute checklist that scores your GBP and shows exactly what&apos;s missing before you start.</>,
         ],
       },
       {
@@ -1234,6 +1239,7 @@ const blogPosts = {
     ctaHeading: 'Want a clear, honest quote for your Bath website?',
     ctaBody: 'We build fast, mobile-first websites for Bath trades and small businesses from £250 — transparent per-page pricing, no hidden fees.',
     ctaLinks: [
+      { href: '/website-roi-calculator', label: 'Try the Website ROI Calculator' },
       { href: '/areas/bath', label: 'Website design in Bath' },
       { href: '/web-design-packages', label: 'View our packages and pricing' },
       { href: '/contact', label: 'Get a free quote' },
@@ -1279,6 +1285,7 @@ const blogPosts = {
           'For most plumbers, electricians, builders, decorators and cleaners in Bath, the brief is simpler than it sounds: a fast, mobile-first site that ranks for your trade and location, makes it easy to call or enquire, and looks professional enough that customers trust you before they pick up the phone.',
           'That means: a clear home page, a services page (or individual pages per service for better SEO), a contact page, click-to-call, SSL, and a Google Business Profile that matches. You don\'t need a booking system, a blog, or a custom CMS to achieve that.',
           'Our transparent per-page pricing starts at £250 for a one-page site, with £50 per additional page. No hidden fees, no lock-in contracts. You can see the full breakdown on our web design packages page, or get in touch for a quote specific to your business.',
+          <>Not sure a website will pay its way? Our free <Link href="/website-roi-calculator" className="text-primary hover:underline">Website ROI Calculator</Link> shows how many extra jobs a year a site needs to win before it pays for itself — for most Bath trades the answer is one or two.</>,
         ],
       },
     ],
@@ -1357,6 +1364,7 @@ const blogPosts = {
     ctaHeading: 'Ready to get online and start getting calls from Google?',
     ctaBody: "We build fast, no-nonsense websites for Bath and Somerset tradespeople — from £250, no monthly fees, no jargon.",
     ctaLinks: [
+      { href: '/website-roi-calculator', label: 'Will a website pay for itself? Try the calculator' },
       { href: '/web-design', label: 'See our web design service' },
       { href: '/web-design-packages', label: 'View pricing' },
       { href: '/contact', label: 'Get a free quote' },
@@ -1402,6 +1410,7 @@ const blogPosts = {
         paragraphs: [
           "Our prices start at £250 for a one-page trade site — that's name, services, contact details, and enough SEO foundation to get Google's attention. A three-page professional site with services, about, and contact runs from £350. A five-page site with individual service pages (which rank better) from £450. Hosting is free for the first six months, then £50 a year.",
           "There are no monthly fees, no lock-in contracts, and no hidden extras. You own the site. We build it, you keep it. If you want us to handle local SEO or your Google Business Profile on top of that, we can — but the website itself is a one-off cost. For most plumbers we talk to, it pays for itself in one extra job.",
+          <>Want to see the numbers for your own business? Our free <Link href="/website-roi-calculator" className="text-primary hover:underline">Website ROI Calculator</Link> works out how many jobs a site needs to win to cover its cost, based on your average job value.</>,
         ],
       },
     ],
@@ -1499,6 +1508,7 @@ const blogPosts = {
     ctaHeading: 'Want help getting more Google reviews and ranking higher in Bath?',
     ctaBody: "We help tradespeople across Bath and Somerset set up their Google Business Profile properly and build the reviews that get them into the Map Pack.",
     ctaLinks: [
+      { href: '/review-request-generator', label: 'Try the free Review Request Generator' },
       { href: '/google-business-profile', label: 'GBP management service' },
       { href: '/local-seo', label: 'Local SEO service' },
       { href: '/contact', label: 'Get a free audit' },
@@ -1523,6 +1533,7 @@ const blogPosts = {
         paragraphs: [
           "A lot of electricians already chat to customers on WhatsApp. It's the easiest follow-up channel there is. A day or two after the job, send a short message: something like 'Hope everything's still running well — if you've got a spare moment, a Google review would really help. Here's the link: [your review link]'. That's it.",
           "You get your Google review link from your Google Business Profile dashboard — there's a 'Share review form' button that gives you a short URL you can copy. Save it in your phone contacts or Notes app so you've always got it to hand. Most people find the act of leaving a review easy once they have a direct link; it's finding it themselves that they can't be bothered with.",
+          <>If you&apos;d rather not write the message yourself, our free <Link href="/review-request-generator" className="text-primary hover:underline">Review Request Generator</Link> builds a personalised WhatsApp message in a few clicks — customer&apos;s name, the job, your review link, done.</>,
         ],
       },
       {
