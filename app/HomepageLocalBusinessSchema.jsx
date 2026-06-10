@@ -202,9 +202,7 @@ const homepageLocalBusinessSchema = {
     GOOGLE_MAPS_PLACE_URL,
     'https://uk.trustpilot.com/review/seo-kings.co.uk',
     'https://clutch.co/profile/seo-kings-0',
-    'https://facebook.com/seokings',
-    'https://linkedin.com/company/seokings',
-    'https://instagram.com/seokings',
+    'https://www.facebook.com/profile.php?id=61587531959737',
   ],
 };
 
