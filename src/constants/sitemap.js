@@ -17,6 +17,7 @@ export const BLOG_SLUGS = [
   'do-i-need-a-website-plumber-bath',
   'set-up-google-business-profile-tradesperson',
   'get-trade-business-google-map-pack',
+  'why-plumbing-website-not-getting-calls',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -33,6 +34,7 @@ export const BLOG_LINKS = [
   { href: '/blog/do-i-need-a-website-plumber-bath', label: 'Do I Need a Website as a Plumber?' },
   { href: '/blog/set-up-google-business-profile-tradesperson', label: 'How to Set Up Your Google Business Profile as a Tradesperson' },
   { href: '/blog/get-trade-business-google-map-pack', label: 'How to Get Your Trade Business Into the Google Map Pack' },
+  { href: '/blog/why-plumbing-website-not-getting-calls', label: '7 Reasons Your Plumbing Website Isn\'t Getting You Calls' },
 ];
 
 export const CASE_STUDY_SLUGS = [

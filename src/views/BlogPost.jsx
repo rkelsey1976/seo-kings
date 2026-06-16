@@ -1635,6 +1635,135 @@ const blogPosts = {
       },
     ],
   },
+
+  'get-found-google-keynsham': {
+    slug: 'get-found-google-keynsham',
+    title: 'How to Get Your Keynsham Business Found on Google',
+    description: "Most Keynsham trades rely on word of mouth. Here's how to add Google to the mix — and why BS31 is one of the easiest postcodes to rank in.",
+    date: '2026-06-15',
+    readTime: '5 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'get found Google Keynsham, local search Keynsham, Google Keynsham business, BS31 Google ranking',
+    ctaLinks: [
+      { href: '/local-seo/keynsham', label: 'Local SEO in Keynsham' },
+      { href: '/google-business-profile', label: 'Google Business Profile service' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'How customers in Keynsham actually find trades — and why it\'s changed',
+        paragraphs: [
+          'Word of mouth has always been the backbone for trades in Keynsham. Ask a neighbour, ring someone from the parish newsletter, call whoever fixed the boiler last time. That still happens — but it\'s no longer the whole story. When someone moves into one of the new builds off Manor Road, or needs a roofer urgently on a Sunday afternoon, they pick up their phone and search Google. The businesses that show up get the call. The ones that don\'t, don\'t. Understanding that shift is the starting point for getting found.',
+        ],
+      },
+      {
+        heading: 'The two places you need to show up on Google (and which to tackle first)',
+        paragraphs: [
+          'Google gives local businesses two distinct places to appear: the Map Pack — those three businesses with pins that sit at the top of local search results — and the organic listings below them. For trades in Keynsham, the Map Pack is where most of the enquiries come from. It\'s powered by your Google Business Profile, not your website. That means your GBP is where to start. Once it\'s claimed, verified, and filled out properly, you\'ll begin showing up for searches like "plumber Keynsham" or "electrician BS31". Your website reinforces the GBP over time, but the GBP comes first.',
+        ],
+      },
+      {
+        heading: 'Why BS31 has less competition than Bath or Bristol — and why that matters',
+        paragraphs: [
+          'Bath and Bristol are two of the most competitive local search markets in the South West. Every plumber and electrician in those cities has been told to sort their Google presence — and many have. Keynsham is different. BS31 sits between those two cities but doesn\'t share their level of digital competition. Many trades operating here still have unclaimed GBPs, thin websites, or nothing online at all. That gap is an opportunity. For a Keynsham trade willing to put a few hours into the basics, the path to the Map Pack is shorter than most people assume.',
+        ],
+      },
+      {
+        heading: 'Google Business Profile: the fastest route to calls from Keynsham searches',
+        paragraphs: [
+          'Your Google Business Profile is free and is the single most effective tool for getting found in Keynsham. Go to business.google.com, claim and verify your listing, then fill it in properly: the right category (Plumber, Electrician, Builder — be specific), a clear description mentioning Keynsham, Saltford, and the other areas you cover, your services listed individually, and real photos of your work. Google uses all of this to decide who to show when someone in BS31 searches for your trade. A complete, active profile consistently outperforms an empty one in the Map Pack.',
+        ],
+      },
+      {
+        heading: 'What to do in your first 30 days to start building visibility',
+        paragraphs: [
+          'In your first 30 days, focus on three things. First, get your Google Business Profile claimed, verified, and fully completed — this alone can start delivering results within a couple of weeks. Second, ask your last five or ten happy customers for a Google review; even a handful gives Google and potential customers a reason to trust you. Third, make sure your business name, phone number, and area are consistent across your website, your GBP, and any directories you\'re listed in. Inconsistency confuses Google. Consistency builds it.',
+        ],
+      },
+    ],
+  },
+
+  'why-plumbing-website-not-getting-calls': {
+    slug: 'why-plumbing-website-not-getting-calls',
+    title: "7 Reasons Your Plumbing Website Isn't Getting You Calls",
+    description: "Got a website but no calls coming in? Here are the seven most common reasons a plumber's website fails to convert — and what to do about each one.",
+    date: '2026-06-16',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'why is my website not getting me calls, plumbing website not working, tradesperson website no enquiries, plumber website Bath',
+    ctaHeading: 'Not sure why your website isn\'t working?',
+    ctaBody: 'We offer a free audit for trades in Bath, BANES, and Somerset — we\'ll check your site speed, mobile usability, Google Business Profile, and more, and tell you exactly what to fix.',
+    ctaLinks: [
+      { href: '/contact', label: 'Get a free website audit' },
+      { href: '/web-design-packages', label: 'View our packages & pricing' },
+      { href: '/local-seo', label: 'Local SEO service' },
+    ],
+    sections: [
+      {
+        heading: 'Having a website and getting calls from it are two different things',
+        paragraphs: [
+          "A lot of plumbers in Bath and Somerset have a website — one they paid for a few years ago, or knocked together quickly — and it's doing absolutely nothing for them. It sits online, technically exists, and that's about it. No calls, no enquiries, no new jobs.",
+          "If that sounds familiar, one of these seven reasons is almost certainly why. The good news is that most of them are fixable without starting from scratch.",
+        ],
+      },
+      {
+        heading: '1. It loads too slowly',
+        paragraphs: [
+          "Speed is a ranking factor and a conversion factor. If your site takes more than three seconds to load on a phone, most visitors will leave before they've read a word. Plumbing enquiries are often urgent — someone has a leaking pipe or a broken boiler and they want help now. A slow site loses that customer to a faster competitor before you've had any chance to make an impression.",
+          "Google also penalises slow sites in rankings, which means fewer people find you in the first place. You can test your site speed for free with Google's PageSpeed Insights — anything below 60 on mobile is a problem worth fixing.",
+        ],
+      },
+      {
+        heading: "2. It doesn't work properly on mobile",
+        paragraphs: [
+          "More than 70% of local searches happen on a phone. If your website is difficult to read on a small screen — text that's tiny, buttons that are hard to tap, content that doesn't fit the screen — visitors will leave and try someone else. Your phone number should be one tap away from anywhere on the site. Your service list should be readable without pinching and zooming.",
+          "Load your own site on your phone right now. If it feels clunky or awkward, your potential customers feel the same — and they leave.",
+        ],
+      },
+      {
+        heading: '3. There\'s no clear call to action',
+        paragraphs: [
+          "What do you want visitors to do when they land on your site? If it's not obvious within five seconds, they'll leave without doing anything. Every page needs a clear, simple next step: call now, request a callback, or fill in a short form. One clear action beats three vague options every time.",
+          "If your phone number is buried at the bottom of a wall of text, or hidden on a 'contact' page that nobody's clicked through to find, that's the problem right there. Make it easy for people to get in touch from the moment they arrive.",
+        ],
+      },
+      {
+        heading: "4. It's not linked to your Google Business Profile",
+        paragraphs: [
+          "Your Google Business Profile (GBP) is how you appear in the Map Pack — the block of three local businesses at the top of Google. Your website and your GBP need to work together. If your website isn't linked from your GBP, or if your GBP points to an old domain you no longer use, you're breaking a connection that matters for both visibility and credibility.",
+          "Google cross-references the two. A matching, consistent link between your GBP and your website signals that your business is legitimate and active. Check your GBP dashboard and make sure the website URL is current, live, and correct.",
+        ],
+      },
+      {
+        heading: '5. There are no reviews or social proof on the site',
+        paragraphs: [
+          "People want to know you're trustworthy before they let a tradesperson into their home. Reviews do that job. If your website has no testimonials, no Google star rating, no names and feedback from real customers, visitors have no particular reason to choose you over anyone else.",
+          "Pull your best Google reviews onto your homepage or a dedicated testimonials page. Even three or four genuine reviews with real names make a real difference to how many people pick up the phone. If you've built up a good Google review score, make that number visible on your site too.",
+        ],
+      },
+      {
+        heading: "6. The photos don't show your actual work",
+        paragraphs: [
+          "Stock photos of generic tools, pipes, or smiling strangers in hard hats don't build trust with anyone. Real photos of your van, your team, and jobs you've actually completed in Bath, Keynsham, or nearby towns tell a completely different story. They show you're local, you're real, and you're good at what you do.",
+          "Before-and-after shots work especially well for plumbing — a bathroom refit, a new boiler install, a pipe repair done neatly. If your site uses stock images or has no photos at all, it looks like it could belong to anyone. That anonymity costs you calls.",
+        ],
+      },
+      {
+        heading: "7. It doesn't mention where you work",
+        paragraphs: [
+          'Saying "we cover the local area" isn\'t enough. Your website needs to name the places you serve: Bath, Keynsham, Midsomer Norton, Radstock, Saltford, BA1, BA2, BS31. Google uses those location signals to match your site to searches like "emergency plumber Bath" or "plumber Keynsham". Without them, Google has nothing to go on.',
+          "Every service page should mention the main towns and postcodes you cover. It doesn't have to read awkwardly — a simple paragraph or a listed service area at the bottom of each page is enough to make a real difference to how often you appear in local searches.",
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          "If your website has one of these issues, it's fixable. Most don't require a complete rebuild — just targeted improvements in the right places. If it has several, a new site built to rank and convert from the start is often more cost-effective than patching an old one that was never set up properly.",
+          "A free audit will show you exactly where you stand. We check speed, mobile usability, your GBP connection, review presence, photos, and local keyword coverage — and we tell you what to prioritise. No jargon, no sales pitch, just a clear look at what's holding your site back.",
+        ],
+      },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {

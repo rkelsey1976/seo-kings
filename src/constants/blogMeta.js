@@ -58,4 +58,9 @@ export const BLOG_META = {
     description: "The Google Map Pack shows three businesses at the top of every local search — and that's where most of the calls go. Here's what gets a tradesperson in.",
     canonical: 'https://seo-kings.co.uk/blog/get-trade-business-google-map-pack',
   },
+  'why-plumbing-website-not-getting-calls': {
+    title: "7 Reasons Your Plumbing Website Isn't Getting You Calls | SEO Kings",
+    description: "Got a website but no calls coming in? Here are the seven most common reasons a plumber's website fails to convert — and what to do about each one.",
+    canonical: 'https://seo-kings.co.uk/blog/why-plumbing-website-not-getting-calls',
+  },
 };
