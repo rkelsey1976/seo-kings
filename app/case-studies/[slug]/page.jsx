@@ -29,6 +29,10 @@ const CASE_STUDY_META = {
     title: 'Aspect Builds: 40-Page Website for a Bath Builder — From Instagram to Google | SEO Kings',
     description: 'How we built a full 40-page website for Aspect Builds & Maintenance — from just an Instagram page to a complete professional presence with hub-and-spoke SEO, real photography, and 98+ Lighthouse accessibility.',
   },
+  'rg-extreme-pressure': {
+    title: 'RG Extreme Pressure: Custom 102-Page Jet Washing Website from Wix | SEO Kings',
+    description: 'How we replaced an outdated Wix site with a custom 102-page website for RG Extreme Pressure — 9 service pages, area pages, before/after slider, video showcase, and Schema markup with 111 five-star reviews. Live in under two weeks.',
+  },
 };
 
 export async function generateMetadata({ params }) {

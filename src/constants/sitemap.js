@@ -49,13 +49,16 @@ export const CASE_STUDY_SLUGS = [
   'aurelian-massage',
   'bath-painter',
   'aspect-builds',
+  'rg-extreme-pressure',
 ];
 
 const caseStudyLabels = {
   'peachy-cleans': 'Peachy Cleans',
   'new-decorating': 'New Decorating',
   'aurelian-massage': 'Aurelian Massage',
+  'bath-painter': 'Bath Painter',
   'aspect-builds': 'Aspect Builds',
+  'rg-extreme-pressure': 'RG Extreme Pressure',
 };
 export const CASE_STUDY_LINKS = [
   { href: '/case-studies', label: 'Case Studies' },
