@@ -335,7 +335,7 @@ const WebsiteDesignerRadstock = () => {
               { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Radstock and BA3 searches.', href: '/google-business-profile' },
               { title: 'Website redesign', desc: "Already have a site that isn't performing? We redesign and rebuild for speed and rankings.", href: '/website-redesign' },
               { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
-              { title: 'Website design Bath', desc: 'Also covering Bath — web design for BA1 & BA2 trades from £250.', href: '/areas/bath' },
+              { title: 'Website design Bath', desc: 'Also covering Bath — web design for BA1 & BA2 trades from £250.', href: '/website-designer-bath' },
             ].map((service) => (
               <Link
                 key={service.href}

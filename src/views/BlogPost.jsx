@@ -298,7 +298,7 @@ const blogPosts = {
     ctaLinks: [
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
-      { href: '/areas/bath', label: 'Website designer Bath' },
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/contact', label: 'Free SEO audit' },
     ],
   },
@@ -442,7 +442,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/areas/bath', label: 'Website designer Bath' },
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/google-business-profile', label: 'Google Business Profile' },
       { href: '/contact', label: 'Get a free audit' },
@@ -484,7 +484,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/areas/bath', label: 'Website designer Bath' },
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer in Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Web design packages' },
       { href: '/contact', label: 'Get a free quote' },
@@ -536,7 +536,7 @@ const blogPosts = {
       },
     ],
     ctaLinks: [
-      { href: '/areas/bath', label: 'Website designer Bath' },
+      { href: '/website-designer-bath', label: 'Website designer Bath' },
       { href: '/web-design', label: 'Website designer Bath & North East Somerset' },
       { href: '/web-design-packages', label: 'Website designer packages' },
       { href: '/contact', label: 'Get a free quote' },
@@ -1240,7 +1240,7 @@ const blogPosts = {
     ctaBody: 'We build fast, mobile-first websites for Bath trades and small businesses from £250 — transparent per-page pricing, no hidden fees.',
     ctaLinks: [
       { href: '/website-roi-calculator', label: 'Try the Website ROI Calculator' },
-      { href: '/areas/bath', label: 'Website design in Bath' },
+      { href: '/website-designer-bath', label: 'Website design in Bath' },
       { href: '/web-design-packages', label: 'View our packages and pricing' },
       { href: '/contact', label: 'Get a free quote' },
     ],
@@ -1301,7 +1301,7 @@ const blogPosts = {
     ctaHeading: 'Want a web designer who knows Bath?',
     ctaBody: "We build trade websites in Bath and across Somerset — fast, mobile-first, built to rank. Transparent pricing from £250, no hidden fees.",
     ctaLinks: [
-      { href: '/areas/bath', label: 'Website design in Bath' },
+      { href: '/website-designer-bath', label: 'Website design in Bath' },
       { href: '/web-design-packages', label: 'View packages and pricing' },
       { href: '/contact', label: 'Get a free quote' },
     ],
@@ -1695,7 +1695,7 @@ const blogPosts = {
     ctaBody: 'We offer a free audit for trades and local businesses in Bath — we tell you where you stand and what it would take to move the needle, with no obligation.',
     ctaLinks: [
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
-      { href: '/areas/bath', label: 'Web design & SEO in Bath' },
+      { href: '/website-designer-bath', label: 'Web design & SEO in Bath' },
       { href: '/contact', label: 'Get a free audit' },
     ],
     sections: [
@@ -1807,7 +1807,7 @@ const blogPosts = {
     ctaBody: "We offer a free audit and honest advice — no sales pitch for a service you don't need. We'll tell you where you stand and what the fastest route to more enquiries looks like.",
     ctaLinks: [
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
-      { href: '/areas/bath', label: 'Web design & SEO in Bath' },
+      { href: '/website-designer-bath', label: 'Web design & SEO in Bath' },
       { href: '/contact', label: 'Get a free audit' },
     ],
     sections: [

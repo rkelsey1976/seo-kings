@@ -325,7 +325,7 @@ const WebsiteDesignerSheptonMallet = () => {
               { href: '/website-designer-frome', label: 'Website Designer — Frome', desc: 'Web design for Frome and BA11 businesses.' },
               { href: '/website-designer-radstock', label: 'Website Designer — Radstock', desc: 'Web design for Radstock and the Somer Valley.' },
               { href: '/website-designer-midsomer-norton', label: 'Website Designer — Midsomer Norton', desc: 'Web design for Midsomer Norton and BA3.' },
-              { href: '/areas/bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
               { href: '/areas/shepton-mallet', label: 'Shepton Mallet area hub', desc: 'See everything we cover in the Shepton Mallet and BA4 area.' },
             ].map(({ href, label, desc }) => (
               <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">

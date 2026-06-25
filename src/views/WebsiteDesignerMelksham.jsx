@@ -319,7 +319,7 @@ const WebsiteDesignerMelksham = () => {
               { href: '/website-designer-trowbridge', label: 'Website Designer — Trowbridge', desc: 'Web design for trades in Trowbridge and BA14.' },
               { href: '/website-designer-bradford-on-avon', label: 'Website Designer — Bradford on Avon', desc: 'Web design for Bradford on Avon and BA15 businesses.' },
               { href: '/website-designer-corsham', label: 'Website Designer — Corsham', desc: 'Web design for Corsham and SN13 businesses.' },
-              { href: '/areas/bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
               { href: '/areas/melksham', label: 'Melksham area hub', desc: 'See everything we cover in the Melksham and SN12 area.' },
             ].map(({ href, label, desc }) => (
               <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">

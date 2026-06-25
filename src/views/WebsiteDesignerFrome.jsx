@@ -325,7 +325,7 @@ const WebsiteDesignerFrome = () => {
               { href: '/local-seo/frome', label: 'Local SEO — Frome', desc: 'Get found on Google Maps and local search in BA11.' },
               { href: '/website-designer-radstock', label: 'Website Designer — Radstock', desc: 'Web design for Radstock and the Somer Valley.' },
               { href: '/website-designer-shepton-mallet', label: 'Website Designer — Shepton Mallet', desc: 'Web design for Shepton Mallet and BA4 businesses.' },
-              { href: '/areas/bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
+              { href: '/website-designer-bath', label: 'Website Designer — Bath', desc: 'Web design for Bath trades and small businesses.' },
               { href: '/website-designer-midsomer-norton', label: 'Website Designer — Midsomer Norton', desc: 'Web design for Midsomer Norton and BA3 businesses.' },
               { href: '/areas/frome', label: 'Frome area hub', desc: 'See everything we cover in the Frome and BA11 area.' },
             ].map(({ href, label, desc }) => (
