@@ -40,7 +40,11 @@ const testimonials = [
 
 const faqs = [
   {
-    q: 'Why use a Bath-based SEO agency?',
+    q: 'What should I look for in a web designer in Bath?',
+    a: "Three things: do they build sites that actually rank on Google, not just look good? Do they know the Bath market — the specific searches your customers use in BA1 and BA2? And can they show you real local results, not just national case studies? Most web designers in Bath can produce a presentable site. Fewer build one that drives calls. We focus exclusively on local search performance — every site we build is SEO-ready from day one, targeting the specific Bath searches your customers actually type.",
+  },
+  {
+    q: 'Why use a Bath-based web designer or SEO agency?',
     a: "Because local knowledge matters. We know which Bath keywords drive actual phone calls versus which just look good on a report. We know which trade categories are most competitive in Bath's Map Pack, which postcodes (BA1 vs BA2) behave differently in search, and what it takes to get a trades business from invisible to page one. An agency outside the area doesn't have that context.",
   },
   {
@@ -72,8 +76,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/bath',
       url: 'https://seo-kings.co.uk/areas/bath',
-      name: 'SEO Agency Bath | Web Design, Local SEO & GBP | SEO Kings',
-      description: 'SEO and web design agency in Bath BA1 & BA2. Websites from £250, local SEO from £150/month, GBP optimisation from £100. 6+ years helping Bath trades get found on Google. Free audit.',
+      name: 'Web Designer Bath | Web Design & SEO Agency | SEO Kings',
+      description: 'Bath web designer and SEO agency. Websites from £250, local SEO from £150/month, GBP optimisation from £100. 6+ years helping Bath businesses get found on Google. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -147,9 +151,9 @@ const BathHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Bath · BA1 &amp; BA2"
-        title="SEO &amp; Web Design Agency in"
+        title="Web Designer &amp; SEO Agency in"
         highlight="Bath"
-        description="We help Bath trades and local businesses get found on Google. Six years operating across BA1 and BA2 — we know which searches drive calls, which postcodes matter, and what it takes to move from invisible to the Map Pack."
+        description="Looking for a web designer in Bath? We build fast, Google-ready websites and run local SEO for trades and businesses across BA1 and BA2. Six years in Bath — we know which searches drive calls and what it takes to move from invisible to the Map Pack."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
@@ -261,10 +265,10 @@ const BathHub = () => {
             <div>
               <SectionTag className="mb-4">Why Bath businesses use SEO Kings</SectionTag>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-                A Bath agency that knows Bath search
+                A Bath web designer that knows Bath search
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been helping Bath trades get found on Google for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
+                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been working as a web designer and SEO agency in Bath for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Bath is one of the most competitive local markets in the South West — more businesses, more agencies, more noise. The good news: most Bath trades still have slow websites and poorly set up Google Business Profiles. That&apos;s where the opportunity is. We know which searches drive actual phone calls in BA1 and BA2, and which ones just look good on a report.
@@ -352,7 +356,7 @@ const BathHub = () => {
           <div className="mb-12">
             <SectionTag className="mb-4">Bath SEO &amp; web design</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Web design and SEO in Bath — competing in one of the South West&apos;s toughest markets
+              Web designer in Bath — competing in one of the South West&apos;s toughest markets
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
               <p className="text-gray-400 leading-relaxed">
@@ -435,7 +439,7 @@ const BathHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
-            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about SEO Kings in Bath</h2>
+            <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about our web design &amp; SEO services in Bath</h2>
             <FAQAccordion faqs={faqs} />
           </div>
         </div>
@@ -447,7 +451,7 @@ const BathHub = () => {
           <SectionTag className="mb-6">Explore further</SectionTag>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { href: '/web-design', label: 'Website Design — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
+              { href: '/web-design', label: 'Web Designer — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
               { href: '/local-seo/bath', label: 'Local SEO — Bath', desc: 'Ongoing SEO to push you into Bath\'s Map Pack and keep you there — from £150/month.' },
               { href: '/seo/bath', label: 'SEO Bath', desc: 'Full SEO services for Bath trades and small businesses — technical, on-page, content and local authority.' },
               { href: '/google-business-profile', label: 'Google Business Profile', desc: 'GBP setup and optimisation for Bath businesses — £100 one-off, no ongoing fees.' },

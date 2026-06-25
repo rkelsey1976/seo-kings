@@ -74,8 +74,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/midsomer-norton',
       url: 'https://seo-kings.co.uk/areas/midsomer-norton',
-      name: 'SEO & Web Design in Midsomer Norton | Somer Valley Trades | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Midsomer Norton BA3. Websites from £250, local SEO from £150/month. Free audit.',
+      name: 'Digital Marketing in Midsomer Norton | SEO & Local Search | SEO Kings',
+      description: 'Local SEO, Google Business Profile and web design for trades and local businesses in Midsomer Norton BA3. Websites from £250, local SEO from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {

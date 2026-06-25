@@ -18,6 +18,9 @@ export const BLOG_SLUGS = [
   'set-up-google-business-profile-tradesperson',
   'get-trade-business-google-map-pack',
   'why-plumbing-website-not-getting-calls',
+  'seo-cost-bath',
+  'how-long-does-seo-take-bath',
+  'local-seo-vs-google-ads-bath',
 ];
 
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
@@ -35,6 +38,9 @@ export const BLOG_LINKS = [
   { href: '/blog/set-up-google-business-profile-tradesperson', label: 'How to Set Up Your Google Business Profile as a Tradesperson' },
   { href: '/blog/get-trade-business-google-map-pack', label: 'How to Get Your Trade Business Into the Google Map Pack' },
   { href: '/blog/why-plumbing-website-not-getting-calls', label: '7 Reasons Your Plumbing Website Isn\'t Getting You Calls' },
+  { href: '/blog/seo-cost-bath', label: 'How Much Does SEO Cost in Bath?' },
+  { href: '/blog/how-long-does-seo-take-bath', label: 'How Long Does SEO Take to Work for Bath Businesses?' },
+  { href: '/blog/local-seo-vs-google-ads-bath', label: 'Local SEO vs Google Ads for Bath Trades' },
 ];
 
 export const CASE_STUDY_SLUGS = [

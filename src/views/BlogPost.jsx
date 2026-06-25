@@ -1683,6 +1683,176 @@ const blogPosts = {
     ],
   },
 
+  'seo-cost-bath': {
+    slug: 'seo-cost-bath',
+    title: 'How Much Does SEO Cost in Bath?',
+    description: "SEO pricing in Bath ranges from £50/month to £2,000+/month. Here's what you actually get at each price point — and how to tell whether it's worth paying.",
+    date: '2026-06-16',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'SEO cost Bath, how much does SEO cost Bath, local SEO pricing Bath, SEO agency Bath prices',
+    ctaHeading: 'Want to know what SEO would cost for your business specifically?',
+    ctaBody: 'We offer a free audit for trades and local businesses in Bath — we tell you where you stand and what it would take to move the needle, with no obligation.',
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/areas/bath', label: 'Web design & SEO in Bath' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'Why SEO pricing is all over the place',
+        paragraphs: [
+          "Ask five agencies what SEO costs and you'll get five very different answers. £50 a month from one, £2,000 from another, and a few that won't quote until you've had three calls and signed an NDA. The variation isn't random — it reflects completely different things being sold under the same label. Some of it is legitimate difference in scope. Some of it is margin. Some of it is charging professional fees for services that stopped working in 2015.",
+          "Understanding what moves the price up and down is the only way to make a sensible buying decision. This post breaks it down for Bath specifically — a competitive market where cheap SEO tends to underperform and the gap between mediocre and good is measurable in calls and enquiries.",
+        ],
+      },
+      {
+        heading: 'What you get at each price point',
+        paragraphs: [
+          "Under £100/month: This is the territory of templated reports, automated link-building, and very little human attention on your account. Some providers in this range produce keyword rankings on paper that mean nothing in practice — traffic with no commercial intent, positions for searches nobody makes. For most Bath businesses, this range delivers either nothing or the wrong thing.",
+          "£150–£400/month: Where most small business local SEO sits. At the low end you're getting basic on-page optimisation, some citation building, and monthly reporting. At the higher end you should be getting active content work, Google Business Profile management, and someone who genuinely monitors your rankings against local competitors. This is the range where quality varies most — the difference between a provider who knows Bath and one running templated campaigns is significant.",
+          "£400–£800/month: Full local SEO campaigns — content creation, technical audits, link building, GBP management, competitor tracking, and regular strategy. At this level you should be getting measurable position movement within three to six months and clear reporting tied to calls and enquiries rather than vanity metrics.",
+          "Above £800/month: Multi-location businesses, competitive national terms, or significant content programmes. For most Bath trades and small businesses, this is more than you need.",
+        ],
+      },
+      {
+        heading: 'What local SEO in Bath specifically costs — and why',
+        paragraphs: [
+          "Bath is one of the more competitive local search markets in the South West. 'Plumber Bath', 'electrician Bath', 'web designer Bath' — these are searched regularly and fought over by established businesses with years of domain history and review volume. Getting into the Map Pack or top organic results for Bath's main commercial queries takes more work than ranking in Radstock or Frome.",
+          "That doesn't mean it's impossible — it means it's not a two-week job and not a £50/month job either. Realistically, a local SEO campaign targeting Bath trade and service queries costs £200–£500/month done properly, with results visible in three to six months and compounding over time. That's significantly cheaper than Google Ads for the same volume of enquiries once it's working.",
+        ],
+      },
+      {
+        heading: 'Cheap SEO and why it backfires',
+        paragraphs: [
+          "The problem with low-cost SEO isn't just that it doesn't work — it's that it can actively set you back. Spammy link-building gets sites penalised by Google. Keyword stuffing makes pages rank for the wrong things or not at all. Thin, auto-generated content dilutes your site's overall quality signal. If you've had SEO done before and it didn't move anything, there's a reasonable chance it made things slightly worse and the gap between your current position and where you could be is now wider.",
+          "The test isn't the monthly price — it's whether the provider can show you real results for real businesses in comparable competitive markets. Ask to see a Bath or Somerset client's GSC data. Position movement on real queries, not a list of rankings for searches that nobody makes.",
+        ],
+      },
+      {
+        heading: 'How to judge whether SEO is worth the money for your business',
+        paragraphs: [
+          "Start with the economics. If you're a plumber and your average job is £400, and local SEO generates two extra jobs a month, that's £800/month in revenue from a £300/month investment. The question isn't whether SEO is expensive — it's whether the return justifies the cost, and that depends entirely on your average job value and how many extra jobs you need to break even.",
+          "The clearest signal that SEO is working: you start getting calls from people who found you on Google rather than through word of mouth or referrals. That's new revenue that wasn't there before, from a channel that compounds over time as your rankings improve. Unlike ads, which stop the moment you stop paying, organic rankings persist — each month's work builds on the last.",
+        ],
+      },
+    ],
+  },
+
+  'how-long-does-seo-take-bath': {
+    slug: 'how-long-does-seo-take-bath',
+    title: 'How Long Does SEO Take to Work for Bath Businesses?',
+    description: "The honest answer: 3–6 months before you see consistent results, longer to dominate. Here's what affects the timeline and what to expect month by month in Bath.",
+    date: '2026-06-16',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'how long does SEO take Bath, SEO timeline Bath, when does SEO start working, local SEO Bath results',
+    ctaHeading: 'Want to know where you currently stand in Bath search results?',
+    ctaBody: "We offer a free audit for Bath businesses — we'll show you what queries you're close to ranking for and what it would take to get there.",
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'The honest answer',
+        paragraphs: [
+          "Most Bath businesses start seeing meaningful movement in local rankings between three and six months after a proper SEO campaign begins. 'Meaningful movement' means positions shifting, impressions climbing in Google Search Console, and occasional calls from organic search. Consistent, reliable enquiries from Google typically come six to twelve months in — and the results compound from there.",
+          "Anyone who promises you page one rankings in four weeks is either lying or talking about terms so obscure they don't drive any traffic. Real local SEO in a competitive market like Bath is a sustained effort, not a one-off fix. The good news: once you're ranking well, those positions are far more durable than paid ads.",
+        ],
+      },
+      {
+        heading: 'What affects the timeline',
+        paragraphs: [
+          "How established your site is matters enormously. A domain registered last month with no content and no backlinks starts from zero. A site that's been live for three years with some existing content and a few links pointing to it is much closer to the threshold Google needs to start trusting it — it just needs the right optimisation to get over the line.",
+          "Your Google Business Profile is the other major variable. For most Bath trades, the Map Pack — those three pinned businesses at the top of local search results — is where most enquiries come from. A well-optimised GBP can start showing results in weeks rather than months. If you haven't optimised your GBP, that's almost always where to start.",
+          "Competition on the specific queries you're targeting also matters. 'Plumber Bath' is significantly harder than 'plumber Combe Down' or 'plumber BA2'. A realistic timeline depends on what you're trying to rank for — the more competitive the term, the longer it takes.",
+        ],
+      },
+      {
+        heading: 'What to expect month by month',
+        paragraphs: [
+          "Months 1–2: Technical and foundational work — page titles, meta descriptions, schema markup, GBP optimisation, citation consistency, internal linking. You probably won't see ranking movement yet. This work sets the foundation that everything else builds on.",
+          "Months 3–4: Google starts picking up changes. Impressions in GSC begin increasing for the target queries. You may start appearing for longer-tail variants of your main keywords — 'web designer Bath BA1' or 'loft conversion near Combe Down' before the broader terms move. This is a good signal that the work is registering.",
+          "Months 5–6: Position movement on core queries. Depending on competition, you may break into the top 10 for one or two main terms. Map Pack appearances start becoming more consistent if GBP work was done properly. The first organic enquiries typically come in this window.",
+          "Months 6–12: Rankings consolidate and compound. Pages that crept into the top 10 start moving toward the top 5. Content that was indexed in month two starts accumulating authority. This is when the investment really starts paying back.",
+        ],
+      },
+      {
+        heading: 'The Bath market specifically',
+        paragraphs: [
+          "Bath is harder than most Somerset and Wiltshire markets and easier than Bristol or London. The businesses you're competing with in Bath have often been at it longer and have more reviews, more content, and more links. But most of them haven't had their SEO done properly either — they're ranking despite mediocre optimisation because the competition is generally mediocre.",
+          "The implication: there's headroom. A properly optimised site with a clean GBP and consistent content can move faster in Bath than the volume of competition suggests, because most competitors are not optimised well. We've seen trade businesses move from invisible to the Map Pack in under six months in BA1 and BA2 with the right setup.",
+        ],
+      },
+      {
+        heading: 'Why shortcuts backfire',
+        paragraphs: [
+          "Cheap link schemes, keyword stuffing, and AI-generated content at scale all carry risk — not just the risk of not working, but the risk of Google penalties that take months to recover from. The businesses that show up consistently in Bath searches for 'builder Bath' or 'electrician Bath' aren't there because of clever tricks. They're there because they've built real authority over time: good content, consistent reviews, a site Google trusts, and a GBP that matches.",
+          "The fastest legitimate route to results in Bath is the same as everywhere: technical hygiene, strong GBP, relevant content that actually answers what searchers want, and patient consistency. It's not quick, but it compounds — month twelve looks very different from month three.",
+        ],
+      },
+    ],
+  },
+
+  'local-seo-vs-google-ads-bath': {
+    slug: 'local-seo-vs-google-ads-bath',
+    title: 'Local SEO vs Google Ads for Bath Trades — Which Is Worth It?',
+    description: "Both can drive enquiries. Here's the honest comparison for Bath trades — costs, timelines, and which one makes sense depending on where your business is right now.",
+    date: '2026-06-16',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'local SEO vs Google Ads Bath, SEO or paid ads Bath, Google Ads Bath trades, local SEO Bath trades',
+    ctaHeading: 'Not sure which route is right for your Bath business?',
+    ctaBody: "We offer a free audit and honest advice — no sales pitch for a service you don't need. We'll tell you where you stand and what the fastest route to more enquiries looks like.",
+    ctaLinks: [
+      { href: '/local-seo/bath', label: 'Local SEO Bath' },
+      { href: '/areas/bath', label: 'Web design & SEO in Bath' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'The key difference',
+        paragraphs: [
+          "Local SEO and Google Ads both put you in front of people searching for your trade in Bath. The difference is how, when, and at what cost. Google Ads buys you visibility immediately — you pay per click and you're at the top of results the moment your campaign goes live. Local SEO earns you visibility over time — no cost per click, but it takes months to build and requires sustained effort.",
+          "Neither is universally better. The right answer depends on your budget, your timeline, and what stage your business is at. Most Bath trades benefit from understanding both, and many eventually run them together — using ads for immediate leads while SEO compounds in the background.",
+        ],
+      },
+      {
+        heading: 'When Google Ads makes sense for Bath trades',
+        paragraphs: [
+          "Ads are the right tool when you need enquiries immediately — you've just started trading, you've had a quiet patch, or you're launching a new service and can't wait six months for SEO to build. You set a budget, choose your keywords ('emergency plumber Bath', 'electrician Bath quote'), and start getting clicks the same day.",
+          "The catch: you pay for every click, whether it converts or not. Cost-per-click for trade keywords in Bath typically runs £2–£8 per click depending on how competitive the term is. If you're converting one in ten clicks to a job, and each click costs £5, each new job costs you £50 in ad spend. Whether that's good economics depends entirely on your average job value. For a plumber charging £400 a job, £50 in ad spend is fine. For a gardener charging £80 for a lawn mow, the maths gets harder.",
+          "Ads also stop the moment you stop paying. There's no residual benefit, no compound effect. Every month you run them, you pay the same cost for the same visibility.",
+        ],
+      },
+      {
+        heading: 'When local SEO makes sense for Bath trades',
+        paragraphs: [
+          "SEO is the right tool when you're thinking six months or more ahead and you want enquiries that don't cost you per click. Once you're ranking in the Map Pack or the top organic results for 'builder Bath' or 'web designer Bath', those positions generate calls without ongoing ad spend. The cost of SEO is the investment to get there — after that, you're getting traffic that an advertiser would have to pay £2–£8 a click for, for free.",
+          "The downside is time. You won't see results in the first six to eight weeks, and the compounding effect that makes SEO valuable takes a year or more to fully materialise. If you need leads this month, SEO alone isn't the answer.",
+          "SEO also builds an asset. A well-ranked site and a strong Google Business Profile are business assets that retain value over time. Ad campaigns are a running cost. This is why most established Bath trades we talk to prefer SEO as the long-term foundation, with ads as an optional short-term accelerator.",
+        ],
+      },
+      {
+        heading: 'What the numbers look like in Bath',
+        paragraphs: [
+          "A realistic Google Ads budget for a Bath trade generating consistent enquiries: £300–£600/month in ad spend, plus management time or fees. That's ongoing — every month, indefinitely, for the same visibility.",
+          "A realistic local SEO investment for consistent organic results: £200–£500/month for 6–12 months to reach strong positions, then lighter maintenance spend. After that initial period, the same positions that cost you £400/month in ad spend are costing you significantly less to maintain.",
+          "The crossover point — where the cumulative cost of SEO becomes less than what you'd have spent on ads for the same enquiries — typically hits somewhere between months 12 and 18 for a Bath trade. After that, every month of organic ranking is cheaper than advertising.",
+        ],
+      },
+      {
+        heading: 'What most Bath trades should actually do',
+        paragraphs: [
+          "If you've been trading for a few years and have an existing site and Google Business Profile, start with SEO — specifically GBP optimisation and on-page work. You're likely closer to ranking well than you realise, and the cost to push over the line is lower than starting ads from scratch. Get your GBP right, sort your site's technical foundations, and add a few pieces of solid content. The results compound.",
+          "If you're just starting out or need leads in the next eight weeks, run a targeted Google Ads campaign on your highest-value service terms while SEO builds in the background. Keep the ad budget modest and targeted — 'emergency plumber Bath' converts better than 'plumber' because the intent is clearer. Then transition more spend toward SEO as your organic positions develop.",
+          "The worst outcome is spending heavily on ads indefinitely without building any organic presence. You're renting visibility rather than owning it — and if you ever need to pause the ads, the leads stop immediately.",
+        ],
+      },
+    ],
+  },
+
   'why-plumbing-website-not-getting-calls': {
     slug: 'why-plumbing-website-not-getting-calls',
     title: "7 Reasons Your Plumbing Website Isn't Getting You Calls",

@@ -63,8 +63,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/frome',
       url: 'https://seo-kings.co.uk/areas/frome',
-      name: 'SEO & Web Design in Frome | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Frome BA11. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
+      name: 'Digital Marketing in Frome | SEO & Local Search | SEO Kings',
+      description: 'Local SEO, Google Business Profile and web design for trades and local businesses in Frome BA11. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {

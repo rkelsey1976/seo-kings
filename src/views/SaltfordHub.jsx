@@ -74,8 +74,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/areas/saltford',
       url: 'https://seo-kings.co.uk/areas/saltford',
-      name: 'SEO & Web Design in Saltford | BS31 Trades & Businesses | SEO Kings',
-      description: 'Web design, local SEO and Google Business Profile for trades and local businesses in Saltford BS31. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
+      name: 'Digital Marketing in Saltford | SEO & Local Search | SEO Kings',
+      description: 'Local SEO, Google Business Profile and web design for trades and local businesses in Saltford BS31. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
