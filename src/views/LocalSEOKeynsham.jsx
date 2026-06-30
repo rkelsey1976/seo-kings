@@ -91,7 +91,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/local-seo/keynsham',
       url: 'https://seo-kings.co.uk/local-seo/keynsham',
-      name: 'Local SEO Keynsham | SEO Kings',
+      name: 'Local SEO Keynsham | Get in the Map Pack from £150/month | SEO Kings',
       description: 'Local SEO for businesses in Keynsham BS31. Google Business Profile optimisation, website SEO and review growth from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },

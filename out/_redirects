@@ -1,8 +1,8 @@
 # 301 redirects — consolidate cannibalising blog posts
 
 # ── Previously redirected location posts ────────────────────────────────────
-/blog/website-design-bath                          /areas/bath                        301!
-/blog/website-designer-bath-banes                  /areas/bath                        301!
+/blog/website-design-bath                          /website-designer-bath             301!
+/blog/website-designer-bath-banes                  /website-designer-bath             301!
 /blog/what-is-local-seo-bath                       /local-seo/bath                    301!
 /blog/local-seo-bath                               /local-seo/bath                    301!
 /blog/website-design-keynsham                      /website-designer-keynsham         301!
@@ -28,9 +28,6 @@
 /blog/one-page-website-bath-banes                  /web-design-packages               301!
 /blog/keynsham-farmers-market-2026                 /areas/keynsham                    301!
 
-# ── Bath consolidation (2026-06-10) — /areas/bath outranked the service page
-#    on every commercial Bath query, so the spoke folds into the hub ─────────
-/website-designer-bath                             /areas/bath                        301!
 
 # ── Other ────────────────────────────────────────────────────────────────────
 /case-studies/saltford-garden-centre               /case-studies                      301!

@@ -83,7 +83,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/local-seo/midsomer-norton',
       url: 'https://seo-kings.co.uk/local-seo/midsomer-norton',
-      name: 'Local SEO Midsomer Norton | SEO Kings',
+      name: 'Local SEO Midsomer Norton | Get in the Map Pack from £150/month | SEO Kings',
       description: 'Local SEO for businesses in Midsomer Norton BA3. Google Business Profile optimisation, website SEO and review growth from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },

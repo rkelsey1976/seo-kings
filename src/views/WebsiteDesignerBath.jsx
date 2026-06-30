@@ -32,6 +32,22 @@ const results = [
     keyword: 'Bath builder',
     detail: 'No website, just Instagram — to a 40-page professional site live in 2 weeks, covering Bath and surrounding areas.',
   },
+  {
+    business: 'Aurelian Massage',
+    location: 'Bath City Centre',
+    result: '75 clicks',
+    keyword: '"massage Bath"',
+    detail: 'New business ranking in Bath City Centre — 75 GBP clicks in 3 months from a standing start.',
+    slug: 'aurelian-massage',
+  },
+  {
+    business: 'RG Extreme Pressure',
+    location: 'Bath & Bristol',
+    result: '102 pages',
+    keyword: 'jet washing Bath',
+    detail: 'Replaced a dated Wix site with a custom 102-page website — dedicated service pages, before/after photos, area pages and full schema. Live in under 2 weeks.',
+    slug: 'rg-extreme-pressure',
+  },
 ];
 
 const included = [
@@ -227,7 +243,7 @@ const WebsiteDesignerBath = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for Bath businesses</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {results.map((r) => (
               <Link
                 key={r.slug}
