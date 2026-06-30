@@ -151,9 +151,9 @@ const BathHub = () => {
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
         badge="Bath · BA1 &amp; BA2"
-        title="Web Designer &amp; SEO Agency in"
+        title="SEO Agency &amp; Web Design in"
         highlight="Bath"
-        description="Looking for a web designer in Bath? We build fast, Google-ready websites and run local SEO for trades and businesses across BA1 and BA2. Six years in Bath — we know which searches drive calls and what it takes to move from invisible to the Map Pack."
+        description="Bath-based SEO agency helping trades and local businesses get found on Google. Local SEO from £150/month, websites from £250, GBP optimisation from £100. Six years in Bath — we know which searches drive calls and what it takes to move from invisible to the Map Pack."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
@@ -265,10 +265,10 @@ const BathHub = () => {
             <div>
               <SectionTag className="mb-4">Why Bath businesses use SEO Kings</SectionTag>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-                A Bath web designer that knows Bath search
+                A Bath SEO agency that knows Bath search
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been working as a web designer and SEO agency in Bath for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
+                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been working as an SEO agency and web designer in Bath for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Bath is one of the most competitive local markets in the South West — more businesses, more agencies, more noise. The good news: most Bath trades still have slow websites and poorly set up Google Business Profiles. That&apos;s where the opportunity is. We know which searches drive actual phone calls in BA1 and BA2, and which ones just look good on a report.
@@ -356,7 +356,7 @@ const BathHub = () => {
           <div className="mb-12">
             <SectionTag className="mb-4">Bath SEO &amp; web design</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Web designer in Bath — competing in one of the South West&apos;s toughest markets
+              Digital marketing in Bath — competing in one of the South West&apos;s toughest markets
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
               <p className="text-gray-400 leading-relaxed">

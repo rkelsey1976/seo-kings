@@ -129,6 +129,29 @@ const CaseStudies = () => {
       services: ['Website Design', 'Local SEO', 'Google Business Profile'],
       color: 'from-emerald-600 to-teal-700',
     },
+    {
+      id: 6,
+      slug: 'rg-extreme-pressure',
+      business: 'RG Extreme Pressure',
+      industry: 'Jet Washing & Pressure Washing',
+      location: 'Bath & Bristol',
+      logo: 'RG',
+      image: 'https://rgextremepressure.co.uk/images/wix-driveway.jpg',
+      imageAlt: 'Jet washing Bath — RG Extreme Pressure website design and local SEO case study',
+      challenge: 'Old Wix website that looked dated and wasn\'t generating enquiries. Robert had 111 five-star Google reviews but his website didn\'t reflect the quality of his work.',
+      solution: 'Full custom 102-page website at rgextremepressure.co.uk with 9 dedicated service pages, before/after photo slider, video showcase, area pages, and Schema markup with 111 reviews. Live in under two weeks.',
+      results: [
+        { metric: '102 pages', label: 'Live at rgextremepressure.co.uk' },
+        { metric: '9 services', label: 'With dedicated pages' },
+        { metric: '111', label: 'Five-star Google reviews' },
+      ],
+      timeframe: 'Under 2 weeks',
+      quote: 'SEO Kings built me a proper website — 102 pages covering every service, before and after photos of my actual work, and it loads fast on mobile. Way better than my old Wix site. Already getting more enquiries. Top bloke, knows his stuff.',
+      author: 'Robert Galazka',
+      role: 'RG Extreme Pressure, Jet Washing Bath & Bristol',
+      services: ['Website Design', 'Local SEO', 'Schema Markup'],
+      color: 'from-blue-600 to-cyan-700',
+    },
   ];
 
   return (
