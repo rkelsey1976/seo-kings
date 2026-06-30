@@ -75,6 +75,11 @@ const Footer = () => {
                   Keynsham, Somerset<br />
                   BS31 2DW
                 </address>
+                <p className="text-sm text-white/55 leading-relaxed">
+                  Mon–Thu: 9am–6pm<br />
+                  Fri: 9am–4:30pm<br />
+                  Sat–Sun: Closed
+                </p>
                 <a href="tel:07702264921" className="block text-sm text-white hover:opacity-80 transition-opacity">
                   07702 264 921
                 </a>

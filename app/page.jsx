@@ -130,7 +130,7 @@ export default function HomePage() {
           <div className="mb-10">
             <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Services</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
-              What You Get
+              Web Design & SEO for Trades in Keynsham, Bath & Somerset
             </h2>
             <p className="text-lg max-w-2xl mt-4 text-white/55">
               One core service — website design for local trades — with add-ons that actually make sense.
