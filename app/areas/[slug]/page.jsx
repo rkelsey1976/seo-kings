@@ -61,6 +61,9 @@ const GEO_META = {
   'whitchurch-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Whitchurch, Bristol' },
   'knowle-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Knowle, Bristol' },
   'stockwood-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Stockwood, Bristol' },
+  'bedminster-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Bedminster, Bristol' },
+  'southville-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Southville, Bristol' },
+  'yate-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Yate, South Gloucestershire' },
 };
 
 export function generateMetadata({ params }) {
