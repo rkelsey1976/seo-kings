@@ -94,6 +94,14 @@ const areas = [
     postcodes: 'BS39',
     image: '/images/areas/clutton.webp',
   },
+  // ── Bristol — hub page also links to Kingswood, Brislington, Bedminster, Clifton and other suburbs ──
+  {
+    name: 'Bristol',
+    slug: 'bristol',
+    description: 'Website design and local SEO for trades and businesses across Bristol and its suburbs.',
+    postcodes: 'BS1–BS37',
+    image: '/images/areas/keynsham-health-centre.webp',
+  },
   // ── Expansion areas — swap placeholder images when photos are available ──
   {
     name: 'Frome',
