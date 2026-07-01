@@ -4339,7 +4339,7 @@ const AreaDetail = ({ params: staticParams }) => {
       ctaPrimaryText: 'Get Your Free Audit Today',
       ctaSecondaryText: '07702 264 921',
       nearbyHeading: 'Bristol Areas We Serve',
-      nearbyAreas: ['kingswood', 'brislington', 'whitchurch-bristol', 'knowle-bristol', 'stockwood-bristol', 'keynsham', 'bath'],
+      nearbyAreas: ['keynsham', 'bath', 'saltford', 'midsomer-norton'],
       subAreaSlugs: ['kingswood', 'brislington', 'whitchurch-bristol', 'knowle-bristol', 'stockwood-bristol', 'bedminster-bristol', 'southville-bristol', 'yate-bristol', 'clifton-bristol', 'horfield-bristol', 'filton-bristol', 'bradley-stoke-bristol'],
       subAreasHeading: 'Bristol suburbs we cover',
       faqs: [
@@ -4932,7 +4932,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
           <div className="mt-12 text-center">
             <Link
-              href="/contact"
+              href="/web-design"
               className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
             >
               {area.servicesLinkText || 'View all our services'}
