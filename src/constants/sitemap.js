@@ -112,6 +112,10 @@ export const AREA_SLUGS = [
   'bedminster-bristol',
   'southville-bristol',
   'yate-bristol',
+  'clifton-bristol',
+  'horfield-bristol',
+  'filton-bristol',
+  'bradley-stoke-bristol',
 ];
 
 /** For HTML sitemap: main areas and sub-areas with display labels (match AreaDetail.jsx names) */
@@ -165,6 +169,10 @@ const areaLabels = {
   'bedminster-bristol': 'Bedminster',
   'southville-bristol': 'Southville',
   'yate-bristol': 'Yate',
+  'clifton-bristol': 'Clifton',
+  'horfield-bristol': 'Horfield',
+  'filton-bristol': 'Filton',
+  'bradley-stoke-bristol': 'Bradley Stoke',
 };
 function slugToLabel(slug) {
   return areaLabels[slug] || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -232,6 +240,10 @@ export const STATIC_ROUTES = [
   { path: '/areas/bedminster-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/southville-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/yate-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/clifton-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/horfield-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/filton-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/bradley-stoke-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/peasedown-st-john', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/paulton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },

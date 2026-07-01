@@ -64,6 +64,10 @@ const GEO_META = {
   'bedminster-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Bedminster, Bristol' },
   'southville-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Southville, Bristol' },
   'yate-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Yate, South Gloucestershire' },
+  'clifton-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Clifton, Bristol' },
+  'horfield-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Horfield, Bristol' },
+  'filton-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Filton, South Gloucestershire' },
+  'bradley-stoke-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Bradley Stoke, South Gloucestershire' },
 };
 
 export function generateMetadata({ params }) {

@@ -200,4 +200,20 @@ export const AREA_META = {
     metaTitle: 'Website Designer Yate | Web Design from £250 | SEO Kings',
     metaDescription: 'Web design and local SEO for trades and businesses in Yate, South Gloucestershire BS37. Websites from £250. Free audit — no obligation.',
   },
+  'clifton-bristol': {
+    metaTitle: 'Website Designer Clifton Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Clifton, Bristol BS8. Websites from £250. Free audit — no obligation.',
+  },
+  'horfield-bristol': {
+    metaTitle: 'Website Designer Horfield Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Horfield, Bristol BS7. Websites from £250. Free audit — no obligation.',
+  },
+  'filton-bristol': {
+    metaTitle: 'Website Designer Filton | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Filton, South Gloucestershire BS34. Websites from £250. Free audit — no obligation.',
+  },
+  'bradley-stoke-bristol': {
+    metaTitle: 'Website Designer Bradley Stoke | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Bradley Stoke, South Gloucestershire BS32. Websites from £250. Free audit — no obligation.',
+  },
 };
