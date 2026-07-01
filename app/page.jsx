@@ -14,8 +14,8 @@ const Results = dynamic(() => import('../src/components/Results'), { ssr: false 
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'Web Design for Trades — £250 | SEO Kings | Bath, Keynsham & Somerset',
-  description: 'Fast website design + Google Business Profile for trades across Bath, Keynsham & Somerset. From £250. Get found on Google. Free audit — no card needed.',
+  title: 'Web Design & Local SEO for Trades | SEO Kings | Bath & Somerset',
+  description: 'Website design + local SEO for trades across Bath, Keynsham & Somerset. From £250. Google-ready sites live in 2 weeks. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   other: {
     'trustpilot-one-time-domain-verification-id': '7d8c84ad-2a23-4a65-8cf6-2ac075ac9030',
