@@ -76,6 +76,22 @@ const posts = [
     readTime: '5 min read',
     services: ['local-seo', 'gbp'],
   },
+  {
+    slug: 'why-plumbing-website-not-getting-calls',
+    title: "7 Reasons Your Plumbing Website Isn't Getting You Calls",
+    excerpt: 'Got a website but no calls coming in? Here are the seven most common reasons a plumbing website fails to convert — and what to do about each one.',
+    date: '2026-06-16',
+    readTime: '5 min read',
+    services: ['web-design'],
+  },
+  {
+    slug: 'wordpress-vs-custom-website-trades',
+    title: 'WordPress vs a Custom Website for Trades: Which Is Better?',
+    excerpt: 'WordPress or a custom-built site — which is actually better for a plumber, electrician, or builder in Bath and Somerset? An honest look at cost, speed, and maintenance.',
+    date: '2026-07-01',
+    readTime: '5 min read',
+    services: ['web-design'],
+  },
 ];
 
 const Blog = () => {

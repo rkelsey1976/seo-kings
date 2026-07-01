@@ -63,4 +63,9 @@ export const BLOG_META = {
     description: "Got a website but no calls coming in? Here are the seven most common reasons a plumber's website fails to convert — and what to do about each one.",
     canonical: 'https://seo-kings.co.uk/blog/why-plumbing-website-not-getting-calls',
   },
+  'wordpress-vs-custom-website-trades': {
+    title: 'WordPress vs a Custom Website for Trades: Which Is Better? | SEO Kings',
+    description: "WordPress or a custom-built site — which is actually better for a plumber, electrician, or builder in Bath and Somerset? An honest look at cost, speed, and maintenance.",
+    canonical: 'https://seo-kings.co.uk/blog/wordpress-vs-custom-website-trades',
+  },
 };

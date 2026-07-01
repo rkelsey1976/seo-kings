@@ -1934,6 +1934,72 @@ const blogPosts = {
       },
     ],
   },
+  'wordpress-vs-custom-website-trades': {
+    slug: 'wordpress-vs-custom-website-trades',
+    title: 'WordPress vs a Custom Website for Trades: Which Is Better?',
+    description: "WordPress or a custom-built site — which is actually better for a plumber, electrician, or builder in Bath and Somerset? An honest look at cost, speed, and maintenance.",
+    date: '2026-07-01',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'WordPress vs custom website for trades, WordPress or custom website, best website platform for tradespeople, website builder vs custom build',
+    ctaHeading: "Not sure which route is right for your business?",
+    ctaBody: "We build fast, custom sites for trades across Bath, BANES, Somerset and Wiltshire — no plugin bloat, no monthly builder fees. Get a free quote and we'll give you a straight answer.",
+    ctaLinks: [
+      { href: '/web-design-packages', label: 'View packages & pricing' },
+      { href: '/web-design', label: 'Website design' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+    sections: [
+      {
+        heading: "It's one of the first decisions you'll make, and it matters",
+        paragraphs: [
+          "If you're a tradesperson in Bath or Somerset looking to get a website built, you've probably come across this fork in the road already: do you go with WordPress, or do you pay someone to build you a custom site? Both get you a website. They don't get you the same website — and the difference shows up in cost, speed, and how much hassle you deal with down the line.",
+          "There's no universally 'right' answer, but there is a right answer for a small trade business that wants a fast site, minimal upkeep, and doesn't want to become an accidental IT technician. Here's an honest comparison.",
+        ],
+      },
+      {
+        heading: 'Upfront cost',
+        paragraphs: [
+          "WordPress often looks cheaper at first glance. There are free themes, and plenty of web designers will build you a WordPress site for a similar price to a custom build. But 'free theme' rarely means 'finished website' — most trade sites need premium themes, page-builder plugins, form plugins, SEO plugins, and security plugins stacked on top, and each one can carry its own cost.",
+          "A custom-built site cuts out that stack. We build one-page trade sites from £250, with each extra page at £50 — so a 3-page site is £350 and a 5-page site is £450. That's the whole cost. No plugin licences, no page-builder subscription, no surprise add-ons a few months in.",
+        ],
+      },
+      {
+        heading: 'Speed and performance',
+        paragraphs: [
+          "This is where the gap is biggest. WordPress sites load a huge amount of code before anything appears on screen — the core platform, the theme, and however many plugins are installed, each adding its own scripts and stylesheets. Even a well-optimised WordPress site struggles to match a lean custom build for raw speed, and a poorly optimised one (which is most of them) can take four or five seconds to load on a phone.",
+          "For a plumber or electrician, that matters more than it sounds. Someone with a burst pipe searching 'emergency plumber Bath' on their phone isn't going to wait around for a slow site to load — they'll hit back and call the next name on the list. We build every custom site to load in a couple of seconds and aim for Lighthouse performance scores of 95+, because speed affects both how many visitors stick around and how well you rank on Google.",
+        ],
+      },
+      {
+        heading: 'Maintenance and plugin bloat',
+        paragraphs: [
+          "A WordPress site needs looking after. The core software, your theme, and every plugin need regular updates — skip them and you're at risk of security holes; do them and you occasionally break something else on the site in the process. Multiply that across the 15–20 plugins a typical trade site ends up running (forms, SEO, speed, security, image compression, backups) and you've got a small maintenance job that never really ends.",
+          "A custom-built site has none of that. There's no plugin ecosystem to keep patched, no theme update that might change your layout overnight, and far fewer moving parts that can break. We include hosting for 6 months free with every website (then £50/year), which covers SSL, backups, and uptime monitoring — so you're not the one keeping an eye on it.",
+        ],
+      },
+      {
+        heading: 'Flexibility and who it suits',
+        paragraphs: [
+          "WordPress genuinely does make sense for some businesses — particularly ones planning to publish content constantly, or with an in-house person who wants to make daily edits themselves without calling anyone. If that's you, it's a reasonable option.",
+          "Most tradespeople we work with don't fit that picture. You've got a handful of service pages, your areas covered, your contact details, and maybe a gallery of past jobs — content that doesn't change week to week. For that, a custom site gets you the same result with less to manage, less to pay for over time, and a faster page for customers and Google alike.",
+        ],
+      },
+      {
+        heading: 'The honest verdict',
+        paragraphs: [
+          "Neither option is a scam or a bad choice — but for a plumber, electrician, roofer, or builder who wants a fast, low-maintenance site that ranks well locally and doesn't come with a growing list of plugins to manage, a custom build usually wins on cost, speed, and simplicity. WordPress earns its keep when you need constant content updates or in-house editing control most trade businesses simply don't need.",
+          "If you're weighing it up for your own business, it's worth getting a couple of quotes and asking exactly what's included — page count, hosting, and ongoing maintenance — before you decide either way.",
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          "If you're a trade in Bath, BANES, Somerset, or Wiltshire and want a fast, custom-built site without the plugin overhead, we'd be happy to talk it through. Website design starts at £250, includes 6 months' free hosting, and every site is built to load fast and rank locally from day one. Get in touch for a free, no-obligation quote.",
+        ],
+      },
+    ],
+  },
 };
 
 const BlogPost = ({ params: staticParams }) => {
