@@ -4932,7 +4932,7 @@ const AreaDetail = ({ params: staticParams }) => {
 
           <div className="mt-12 text-center">
             <Link
-              href="/web-design"
+              href="/services"
               className="inline-flex items-center gap-2 text-primary-light hover:text-white transition-colors font-medium"
             >
               {area.servicesLinkText || 'View all our services'}
