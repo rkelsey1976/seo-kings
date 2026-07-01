@@ -164,4 +164,28 @@ export const AREA_META = {
     metaTitle: 'Website Designer Hallatrow | Web Design from £250',
     metaDescription: 'Website design in Hallatrow, near Paulton from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
   },
+  'kingswood': {
+    metaTitle: 'Website Designer Kingswood Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design for trades and businesses in Kingswood, Bristol BS15 from £250. Google Business Profile and local SEO add-ons. Free audit — no obligation.',
+  },
+  'brislington': {
+    metaTitle: 'Website Designer Brislington Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design for trades and businesses in Brislington, Bristol BS4 from £250. Google Business Profile and local SEO add-ons. Free audit — no obligation.',
+  },
+  'whitchurch-bristol': {
+    metaTitle: 'Website Designer Whitchurch Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design for trades and businesses in Whitchurch, Bristol BS14 from £250. Google Business Profile and local SEO add-ons. Free audit — no obligation.',
+  },
+  'knowle-bristol': {
+    metaTitle: 'Website Designer Knowle Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design for trades and businesses in Knowle, Bristol BS4 from £250. Google Business Profile and local SEO add-ons. Free audit — no obligation.',
+  },
+  'stockwood-bristol': {
+    metaTitle: 'Website Designer Stockwood Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design for trades and businesses in Stockwood, Bristol BS14 from £250. Google Business Profile and local SEO add-ons. Free audit — no obligation.',
+  },
+  'bristol': {
+    metaTitle: 'Website Designer Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Bristol. Websites from £250. Google Business Profile optimisation. Free audit — no obligation.',
+  },
 };

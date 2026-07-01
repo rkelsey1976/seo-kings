@@ -103,6 +103,12 @@ export const AREA_SLUGS = [
   'bishop-sutton-chew-magna',
   'high-littleton-paulton',
   'hallatrow-paulton',
+  'kingswood',
+  'brislington',
+  'whitchurch-bristol',
+  'knowle-bristol',
+  'stockwood-bristol',
+  'bristol',
 ];
 
 /** For HTML sitemap: main areas and sub-areas with display labels (match AreaDetail.jsx names) */
@@ -147,6 +153,12 @@ const areaLabels = {
   'bishop-sutton-chew-magna': 'Bishop Sutton',
   'high-littleton-paulton': 'High Littleton',
   'hallatrow-paulton': 'Hallatrow',
+  'kingswood': 'Kingswood',
+  'brislington': 'Brislington',
+  'whitchurch-bristol': 'Whitchurch',
+  'knowle-bristol': 'Knowle',
+  'stockwood-bristol': 'Stockwood',
+  'bristol': 'Bristol',
 };
 function slugToLabel(slug) {
   return areaLabels[slug] || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -205,6 +217,12 @@ export const STATIC_ROUTES = [
   { path: '/areas/chew-magna', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/temple-cloud', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/clutton', lastmod: '2026-06-04', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/kingswood', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/brislington', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/whitchurch-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/knowle-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/stockwood-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/peasedown-st-john', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/paulton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },

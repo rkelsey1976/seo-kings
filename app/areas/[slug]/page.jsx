@@ -54,6 +54,13 @@ const GEO_META = {
   'bishop-sutton-chew-magna': { 'geo.region': 'GB-SOM', 'geo.placename': 'Bishop Sutton, Somerset' },
   'high-littleton-paulton': { 'geo.region': 'GB-SOM', 'geo.placename': 'High Littleton, Somerset' },
   'hallatrow-paulton': { 'geo.region': 'GB-SOM', 'geo.placename': 'Hallatrow, Somerset' },
+  // Bristol area
+  bristol: { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol' },
+  'kingswood': { 'geo.region': 'GB-SGC', 'geo.placename': 'Kingswood, South Gloucestershire' },
+  'brislington': { 'geo.region': 'GB-BST', 'geo.placename': 'Brislington, Bristol' },
+  'whitchurch-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Whitchurch, Bristol' },
+  'knowle-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Knowle, Bristol' },
+  'stockwood-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Stockwood, Bristol' },
 };
 
 export function generateMetadata({ params }) {
