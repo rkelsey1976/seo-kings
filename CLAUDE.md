@@ -340,6 +340,14 @@ Pages still needing the improvement pattern:
 
 ---
 
+## IndexNow (Bing) — run after every deploy
+
+After pushing changes that affect pages, run `node scripts/indexnow.mjs` (once Netlify has
+deployed). It submits every sitemap URL to Bing via IndexNow — this is what gets pages into
+ChatGPT search, which reads Bing's index. Pass specific paths to submit a subset:
+`node scripts/indexnow.mjs /areas/bath /seo/bath`. The key file lives in `public/` — do not
+delete or rename it. IndexNow submissions don't count against the Bing WMT manual quota.
+
 ## GSC indexing habit
 
 After any session where key pages are updated, request re-indexing in Google Search Console:
