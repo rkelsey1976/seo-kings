@@ -4470,23 +4470,31 @@ const AreaDetail = ({ params: staticParams }) => {
   };
 
   // areaServed for this area: place (with Wikipedia sameAs when available) + postcodes + nearby places for richer local signal
+  // Unitary authority for containedInPlace — county 'Bristol' means the city, not B&NES
+  const authorityFor = (county) =>
+    county === "Bristol" ? "City of Bristol" : (county || "Bath and North East Somerset");
+  const placeForSlug = (s) => {
+    const a = areasData[s];
+    if (!a?.name) return null;
+    const sameAs = WIKIPEDIA_BY_SLUG[s] || (a.parentSlug && WIKIPEDIA_BY_SLUG[a.parentSlug]);
+    return {
+      "@type": "Place",
+      "name": a.name,
+      ...(sameAs ? { "sameAs": sameAs } : {}),
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": authorityFor(a.county)
+      }
+    };
+  };
   const placeWikipedia = WIKIPEDIA_BY_SLUG[slug] || (area.parentSlug && WIKIPEDIA_BY_SLUG[area.parentSlug]);
   const nearbySlugs = Array.isArray(area.nearbyAreas) ? area.nearbyAreas.slice(0, 4) : [];
-  const nearbyPlaces = nearbySlugs
-    .map((s) => {
-      const a = areasData[s];
-      if (!a?.name) return null;
-      const sameAs = WIKIPEDIA_BY_SLUG[s] || (a.parentSlug && WIKIPEDIA_BY_SLUG[a.parentSlug]);
-      return {
-        "@type": "Place",
-        "name": a.name,
-        ...(sameAs ? { "sameAs": sameAs } : {}),
-        "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": a.county === "Bristol" ? "Bath and North East Somerset" : (a.county || "Bath and North East Somerset")
-        }
-      };
-    })
+  const nearbyPlaces = nearbySlugs.map(placeForSlug).filter(Boolean);
+  // Hub pages (e.g. Bristol) list their suburbs on the page, so the schema should claim them too
+  const subAreaSlugs = Array.isArray(area.subAreaSlugs) ? area.subAreaSlugs : [];
+  const subAreaPlaces = subAreaSlugs
+    .filter((s) => !nearbySlugs.includes(s))
+    .map(placeForSlug)
     .filter(Boolean);
   const areaServed = [
     {
@@ -4495,14 +4503,15 @@ const AreaDetail = ({ params: staticParams }) => {
       ...(placeWikipedia ? { "sameAs": placeWikipedia } : {}),
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset")
+        "name": authorityFor(area.county)
       }
     },
     ...nearbyPlaces,
+    ...subAreaPlaces,
   ].filter(Boolean);
 
   // LocalBusiness description: current area + 2–3 nearby area names so JSON-LD matches the town in the URL
-  const regionName = area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset");
+  const regionName = area.county === "Bristol" ? "the wider Bristol area" : (area.county || "Bath and North East Somerset");
   const nearbyNames = nearbySlugs
     .map((s) => areasData[s]?.name)
     .filter(Boolean)
@@ -4541,7 +4550,7 @@ const AreaDetail = ({ params: staticParams }) => {
       {
         "@type": "Place",
         "name": area.name,
-        "containedInPlace": { "@type": "AdministrativeArea", "name": area.county === "Bristol" ? "Bath and North East Somerset" : (area.county || "Bath and North East Somerset") }
+        "containedInPlace": { "@type": "AdministrativeArea", "name": authorityFor(area.county) }
       }
     ],
     "areaServed": areaServed,
