@@ -188,6 +188,10 @@ export const AREA_META = {
     metaTitle: 'Website Designer Bristol | Web Design from £250 | SEO Kings',
     metaDescription: 'Web design and local SEO for trades and businesses in Bristol. Websites from £250. Google Business Profile optimisation. Free audit — no obligation.',
   },
+  'long-ashton-bristol': {
+    metaTitle: 'Website Designer Long Ashton | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Long Ashton, Bristol BS41. Websites from £250. Google Business Profile add-ons. Free audit — no obligation.',
+  },
   'bedminster-bristol': {
     metaTitle: 'Website Designer Bedminster Bristol | Web Design from £250 | SEO Kings',
     metaDescription: 'Web design and local SEO for trades and businesses in Bedminster, Bristol BS3. Websites from £250. Free audit — no obligation.',

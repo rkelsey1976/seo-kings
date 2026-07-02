@@ -68,6 +68,7 @@ const GEO_META = {
   'horfield-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Horfield, Bristol' },
   'filton-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Filton, South Gloucestershire' },
   'bradley-stoke-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Bradley Stoke, South Gloucestershire' },
+  'long-ashton-bristol': { 'geo.region': 'GB-NSM', 'geo.placename': 'Long Ashton, North Somerset' },
 };
 
 export function generateMetadata({ params }) {
