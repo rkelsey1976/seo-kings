@@ -289,21 +289,27 @@ const results = [
 - ~~`/hosting` orphaned~~ — fixed 2026-06-10; linked from footer bottom row
 - **Mobile Lighthouse performance 64** (2026-05-29 run) — desktop is 100; not an SEO blocker but worth investigating
 
-## Bath consolidation (2026-06-10)
+## Bath query ownership (updated 2026-07-02 — supersedes the 2026-06-10 consolidation)
 
-**`/website-designer-bath` no longer exists** — it 301s to `/areas/bath` (see `public/_redirects`).
-GSC showed `/areas/bath` outranking it on every commercial Bath query (web design bath: 63 vs 86;
-seo agency bath: 30 vs 83) despite 20+ internal links favouring the service page, so the spoke was
-folded into the hub. Never recreate it or link to it. `/areas/bath` owns ALL commercial Bath queries
-(web design + SEO + GBP). `/local-seo/bath` was kept — it ranks page 1 (~pos 8) for "local seo bath"
-and owns the Map-Pack/local-SEO query family only.
+The 2026-06-10 consolidation (301 `/website-designer-bath` → `/areas/bath`) was **reversed on
+2026-06-25** (commit `58813a2e`): the page was recreated and web-design intent routed back to it.
+This section previously still described the consolidation — that was stale and wrong.
+
+Current, intentional split:
+- **`/website-designer-bath`** — live page, owns web-design Bath queries ("Website Designer Bath | Web Design from £250"). Internal links to it are correct. Blog 301s (`/blog/website-design-bath`, `/blog/website-designer-bath-banes`) feed it.
+- **`/areas/bath`** (BathHub) — the hub, owns agency/SEO Bath queries ("SEO Agency Bath | Web Design & Local Search").
+- **`/local-seo/bath`** — page 1 (~pos 8) for "local seo bath"; owns the Map-Pack/local-SEO query family only.
+
+Watch for renewed cannibalisation between the first two in GSC — if the hub and the service page
+start competing for the same web-design queries again, revisit — but check git history and live
+behaviour before acting on any note like this one.
 
 ---
 
 ## Area pages status
 
 Pages that have had the full improvement pattern applied:
-- ~~`/website-designer-bath`~~ — 301s to `/areas/bath` since 2026-06-10
+- `/website-designer-bath` ✓ — deleted 2026-06-10, restored 2026-06-25 (owns web-design Bath queries)
 - `/website-designer-trowbridge` ✓
 - `/website-designer-radstock` ✓
 - `/website-designer-midsomer-norton` ✓
