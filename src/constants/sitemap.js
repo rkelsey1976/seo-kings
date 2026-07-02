@@ -187,7 +187,7 @@ export const AREA_LINKS = [
 
 /** Static routes for XML sitemap: path, lastmod (YYYY-MM-DD), changefreq, priority */
 export const STATIC_ROUTES = [
-  { path: '/', lastmod: '2026-06-10', changefreq: 'weekly', priority: 1.0 },
+  { path: '/', lastmod: '2026-07-02', changefreq: 'weekly', priority: 1.0 },
   { path: '/about', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.8 },
   { path: '/how-we-are-different', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-03-13', changefreq: 'monthly', priority: 0.9 },
@@ -204,7 +204,7 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/plumbers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/electricians', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/roofers', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
-  { path: '/local-seo/bath', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.9 },
+  { path: '/local-seo/bath', lastmod: '2026-07-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/seo/bath', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/keynsham', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/midsomer-norton', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
@@ -221,7 +221,7 @@ export const STATIC_ROUTES = [
   { path: '/case-studies', lastmod: '2026-06-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-02-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-05-05', changefreq: 'monthly', priority: 0.9 },
-  { path: '/areas/bath', lastmod: '2026-06-10', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/bath', lastmod: '2026-07-02', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/keynsham', lastmod: '2026-06-05', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/midsomer-norton', lastmod: '2026-06-05', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/radstock', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },

@@ -107,13 +107,9 @@ const homepageLocalBusinessSchema = {
       geoRadius: '25000',
     },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: 5,
-    reviewCount: 5,
-    bestRating: 5,
-    worstRating: 1,
-  },
+  // No aggregateRating here — same policy as AreaDetail: Google ignores
+  // self-serving review markup on your own LocalBusiness and the reviews
+  // live on Google, not this site. GBP carries the stars in the Map Pack.
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Website Design & Local SEO Services',

@@ -64,6 +64,10 @@ const faqs = [
     a: "GBP improvements can show within weeks. Ranking for competitive Bath keywords like 'plumber Bath' or 'electrician BA1' typically takes 3–6 months. We give you monthly reports so you see exactly what's moving. A website goes live in under 2 weeks.",
   },
   {
+    q: 'Can ChatGPT and Google AI recommend my Bath business?',
+    a: "Yes — if your web presence gives them something to work with. AI assistants answer questions like \"who's a good electrician in Bath?\" by reading the same local pages Google indexes: your website, your Google Business Profile, your reviews. They favour pages with clear structured data and direct, factual answers. Every site we build includes LocalBusiness, FAQ and review schema and plain-English content that AI tools can quote — so you're findable whether your customer asks Google or ChatGPT.",
+  },
+  {
     q: 'What does it cost overall?',
     a: "Website design from £250. Local SEO from £150/month. GBP optimisation from £100 one-off. Free audit first, so you know exactly what you're getting and why before you commit to anything. No lock-in contracts.",
   },
@@ -385,6 +389,52 @@ const BathHub = () => {
               {
                 title: 'Proven Bath results',
                 desc: 'New Decorating: top 3 Map Pack for "exterior painter Bath". Bath Painter: enquiries up within a week of launch. We rank for our own city, not just our clients.',
+              },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── AI SEARCH ── */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <SectionTag className="mb-4">AI search</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              When someone asks ChatGPT for a plumber in Bath — can it recommend you?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
+              <p className="text-gray-400 leading-relaxed">
+                More Bath customers are asking AI tools instead of typing searches — ChatGPT for a recommendation, or reading Google&apos;s AI Overview at the top of the results page. Those answers aren&apos;t magic. The AI reads the same local pages Google indexes: your website, your Google Business Profile, your reviews. If your pages don&apos;t give it anything clear to quote, it recommends someone else.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Every site we build is structured so AI assistants can quote it. LocalBusiness, FAQ and review schema on every page. Direct, factual answers to the questions Bath customers actually ask. Consistent business details across the web. That&apos;s not a separate service with a separate invoice — it&apos;s how we&apos;ve built every site since day one, and it&apos;s why the same work that ranks you on Google makes you quotable in AI answers.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              {
+                title: 'AI reads what Google reads',
+                desc: 'ChatGPT and AI Overviews draw on indexed local pages, business profiles and reviews. Rank well and be quotable, and you appear in both.',
+              },
+              {
+                title: 'Schema on every page',
+                desc: 'LocalBusiness, FAQ and review markup tells AI exactly who you are, what you do and where you work — machine-readable, no guesswork.',
+              },
+              {
+                title: 'Answers, not filler',
+                desc: 'AI quotes pages that answer questions directly. Our pages state your services, prices and areas in plain sentences it can lift word for word.',
+              },
+              {
+                title: 'Already happening in Bath',
+                desc: "AI Overviews already appear on many Bath service searches. The businesses with structured, quotable pages are the ones getting named.",
               },
             ].map((card) => (
               <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">

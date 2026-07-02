@@ -13,6 +13,7 @@ const whatWeDo = [
   'Website SEO: service pages, location pages and content that ranks across Bath',
   'Local citations and backlinks from relevant directories',
   'Review growth strategy and professional responses to every review',
+  'Structured data and quotable content so AI tools — ChatGPT, Google AI Overviews — can recommend you, not just Google',
   'Monthly reporting: rankings, traffic, calls and leads — no jargon',
 ];
 
@@ -77,6 +78,10 @@ const faqs = [
   {
     q: 'Do I need a website as well as local SEO?',
     a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250. Many Bath clients do website and SEO together as a package — one team, one plan.",
+  },
+  {
+    q: 'Does local SEO help me show up in ChatGPT and Google AI answers?',
+    a: "Yes. AI assistants answer \"who's a good plumber in Bath?\" by reading the same indexed pages Google ranks — your website, your Google Business Profile and your reviews. The local SEO work we do (structured data, direct answers to common questions, consistent business details, genuine reviews) is exactly what makes a business quotable in those answers. One campaign covers both.",
   },
   {
     q: 'Which parts of Bath do you cover for local SEO?',

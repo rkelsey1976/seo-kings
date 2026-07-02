@@ -14,10 +14,14 @@ export default function SEO({ schemas }) {
     if (!containerRef.current || typeof document === 'undefined') return;
     // Remove any JSON-LD we previously injected (from another area page or route) so the head only has this page's schema
     document.querySelectorAll(`script[type="application/ld+json"][${SEO_SCRIPT_DATA_ATTR}]`).forEach((s) => s.remove());
+    // Clone rather than move: moving empties the container, so a re-run of this
+    // effect (dev StrictMode, or a re-render passing a new schemas array) would
+    // remove the head copies and have nothing left to re-add — losing all schema.
     const scripts = containerRef.current.querySelectorAll('script[type="application/ld+json"]');
     scripts.forEach((script) => {
-      script.setAttribute(SEO_SCRIPT_DATA_ATTR, '');
-      if (script.parentNode !== document.head) document.head.appendChild(script);
+      const clone = script.cloneNode(true);
+      clone.setAttribute(SEO_SCRIPT_DATA_ATTR, '');
+      document.head.appendChild(clone);
     });
   }, [schemas]);
 
