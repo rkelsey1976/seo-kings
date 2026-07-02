@@ -10,6 +10,13 @@ Phone: `07702 264 921` / `+447702264921`
 Address: 16a Culvers Road, Keynsham, BS31 2DW
 Geo: 51.4145, -2.4965
 
+**Google Business Profile**: the correct listing is kgmid `/g/11nj8kvxfx` ("SEO Kings - Web Design
+& SEO for Trades") — always use `GOOGLE_MAPS_PLACE_URL` from `src/constants/business.js`, never
+hardcode Maps URLs. A duplicate listing (`/g/11zks3vh84`) had its deletion requested 2026-07-02;
+if it resurfaces anywhere in code or schema, it's wrong. Official profiles for schema `sameAs`
+live in `ORG_SAME_AS` in `business.js` (Maps, Trustpilot, Clutch, Facebook, LinkedIn — all
+verified real, 2026-07-02).
+
 ---
 
 ## Keyword cannibalization tracker
