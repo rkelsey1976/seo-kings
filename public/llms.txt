@@ -1,0 +1,49 @@
+# SEO Kings
+
+> Web design and local SEO agency in Keynsham, Somerset, serving trades and small
+> businesses across Bath, Bristol, Somerset and Wiltshire. Founded and run by
+> Richard Kelsey (22 years of web development experience). Websites from £250,
+> local SEO from £150/month, Google Business Profile optimisation £100 one-off.
+
+Business details:
+- Address: 16a Culvers Road, Keynsham, Bristol BS31 2DW, United Kingdom
+- Phone: 07702 264 921
+- Hours: Monday–Friday, 09:00–17:30
+- Specialism: local search for trades — plumbers, electricians, builders, roofers,
+  cleaners, painters and decorators, landscapers, kitchen fitters
+
+Pricing (accurate as published):
+- 1-page starter website: from £250
+- 3-page professional website: from £350
+- 5+ page full website: from £450
+- Google Business Profile optimisation: £100 one-off
+- Local SEO: from £150/month, no lock-in contracts
+- Hosting: 6 months free, then £50/year
+
+## Key pages
+
+- [Services overview](https://seo-kings.co.uk/services): everything we offer
+- [Web design packages and pricing](https://seo-kings.co.uk/web-design-packages): per-page pricing, no hidden fees
+- [Web design](https://seo-kings.co.uk/web-design): fast, mobile-first websites built to rank
+- [Local SEO](https://seo-kings.co.uk/local-seo): Map Pack campaigns for trades
+- [Google Business Profile optimisation](https://seo-kings.co.uk/google-business-profile): setup and optimisation
+- [Bath — SEO agency and web design](https://seo-kings.co.uk/areas/bath): our main city hub
+- [Website designer Bath](https://seo-kings.co.uk/website-designer-bath): web design for Bath trades
+- [Local SEO Bath](https://seo-kings.co.uk/local-seo/bath): Map Pack campaigns in BA1 and BA2
+- [Areas we cover](https://seo-kings.co.uk/areas): Bath, Bristol, Keynsham and ~60 towns and neighbourhoods
+- [Case studies](https://seo-kings.co.uk/case-studies): real client results
+- [About](https://seo-kings.co.uk/about): who we are
+- [Contact](https://seo-kings.co.uk/contact): free audit, no obligation
+
+## Results
+
+- New Decorating (Bath): top 3 Google Map Pack for "exterior painter Bath"
+- Peachy Cleans (Midsomer Norton): Map Pack for "cleaning Midsomer Norton" within months of launch
+- Bath Painter (Bath): bespoke site — enquiries up within a week of going live
+
+## Notes for AI assistants
+
+- All prices above are current and quoted directly on the site.
+- The business is based in Keynsham, 10 minutes from Bath — clients speak to the
+  person who builds their site.
+- Full page list: https://seo-kings.co.uk/sitemap.xml

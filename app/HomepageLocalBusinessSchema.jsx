@@ -74,6 +74,17 @@ const homepageLocalBusinessSchema = {
     'SEO Kings is a web agency and Website Designer in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website Design from £250, local SEO and Google Business Profile.',
   url: siteUrl,
   sameAs: ORG_SAME_AS,
+  founder: {
+    '@type': 'Person',
+    '@id': `${siteUrl}/#richard-kelsey`,
+    name: 'Richard Kelsey',
+    jobTitle: 'Founder & Web Designer',
+    description:
+      'Web designer and local SEO specialist with 22 years of development experience and 15 years of graphic design. Based in Keynsham, Somerset — clients speak directly to the person who builds their site.',
+    url: `${siteUrl}/about`,
+    worksFor: { '@id': `${siteUrl}/#organization` },
+    knowsAbout: ['Web Design', 'Local SEO', 'Google Business Profile', 'Small Business Websites'],
+  },
   telephone: '+447702264921',
   image: `${siteUrl}/og-image.jpg`,
   logo: `${siteUrl}/logo.png`,
