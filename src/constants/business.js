@@ -14,6 +14,16 @@ export const GOOGLE_MAPS_EMBED_SRC =
 export const PHONE_NUMBER = '07702 264 921';
 export const PHONE_HREF = 'tel:07702264921';
 
+// Official SEO Kings profiles — used as schema sameAs so search engines and
+// AI assistants can connect the website to the GBP listing, reviews and socials
+export const ORG_SAME_AS = [
+  GOOGLE_MAPS_PLACE_URL,
+  'https://uk.trustpilot.com/review/seo-kings.co.uk',
+  'https://clutch.co/profile/seo-kings-0',
+  'https://www.facebook.com/profile.php?id=61587531959737',
+  'https://www.linkedin.com/company/seokings',
+];
+
 /** Google Business Profile description (750 char max). Copy into Google Business Profile → Edit profile → Business description. Website-design focused for local search. */
 export const GBP_DESCRIPTION =
   'SEO Kings is a Keynsham-based website design and local SEO agency for tradespeople and small businesses across Bath and North East Somerset (BANES). We build fast, professional websites and get you found on Google — website design from £250, plus Google Business Profile optimisation and local SEO so you rank in your area. We work with plumbers, electricians, roofers, cleaners and other local service businesses. Website designer in Bath, Keynsham, Midsomer Norton, Radstock and BANES. We\'ve helped over 150 local businesses improve their visibility and grow their enquiries. No jargon, clear reports, honest pricing. Free local SEO audit. Based in Keynsham, serving BANES.';

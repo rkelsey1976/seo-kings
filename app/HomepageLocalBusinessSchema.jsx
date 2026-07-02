@@ -4,10 +4,9 @@
  * It belongs exclusively on the homepage so each page type can declare
  * its own primary entity without duplication.
  */
-const siteUrl = 'https://seo-kings.co.uk';
+import { ORG_SAME_AS } from '../src/constants/business';
 
-const GOOGLE_MAPS_PLACE_URL =
-  'https://www.google.com/maps/place/SEO+Kings/@51.3405512,-2.2459894,17z/data=!3m1!4b1!4m6!3m5!1s0x6ea24f9bfbc79da3:0xbe2aa102c5cf0938!8m2!3d51.3405512!4d-2.2434091!16s%2Fg%2F11zks3vh84?entry=ttu';
+const siteUrl = 'https://seo-kings.co.uk';
 
 const websiteDesignPackageOffers = [
   {
@@ -74,6 +73,7 @@ const homepageLocalBusinessSchema = {
   description:
     'SEO Kings is a web agency and Website Designer in Bath and North East Somerset. We build fast websites and get tradespeople and small businesses in Bath, Keynsham, Bitton and the surrounding area found on Google. Website Design from £250, local SEO and Google Business Profile.',
   url: siteUrl,
+  sameAs: ORG_SAME_AS,
   telephone: '+447702264921',
   image: `${siteUrl}/og-image.jpg`,
   logo: `${siteUrl}/logo.png`,
@@ -194,13 +194,6 @@ const homepageLocalBusinessSchema = {
     'Small Business Websites',
   ],
   mainEntityOfPage: { '@type': 'WebPage', '@id': siteUrl },
-  sameAs: [
-    GOOGLE_MAPS_PLACE_URL,
-    'https://uk.trustpilot.com/review/seo-kings.co.uk',
-    'https://clutch.co/profile/seo-kings-0',
-    'https://www.facebook.com/profile.php?id=61587531959737',
-    'https://www.linkedin.com/company/seokings',
-  ],
 };
 
 export default function HomepageLocalBusinessSchema() {
