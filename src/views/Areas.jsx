@@ -173,10 +173,10 @@ const Areas = () => {
 
       {/* ── HERO ─────────────────────────────────── */}
       <ServicePageHero
-        badge="Bath, Somerset & Wiltshire"
+        badge="Bath, Bristol, Somerset & Wiltshire"
         title="Website Design Across"
-        highlight="Bath, Somerset & Wiltshire"
-        description="Someone in Bath, Frome, Bradford on Avon or Melksham is searching for your trade right now. We build fast local websites that get you found and get you called. From £250, live in 2 weeks."
+        highlight="Bath, Bristol, Somerset & Wiltshire"
+        description="Someone in Bath, Bristol, Frome, Bradford on Avon or Melksham is searching for your trade right now. We build fast local websites that get you found and get you called. From £250, live in 2 weeks."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
