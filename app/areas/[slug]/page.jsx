@@ -69,6 +69,17 @@ const GEO_META = {
   'filton-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Filton, South Gloucestershire' },
   'bradley-stoke-bristol': { 'geo.region': 'GB-SGC', 'geo.placename': 'Bradley Stoke, South Gloucestershire' },
   'long-ashton-bristol': { 'geo.region': 'GB-NSM', 'geo.placename': 'Long Ashton, North Somerset' },
+  'city-centre-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Bath City Centre' },
+  'lansdown-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Lansdown, Bath' },
+  'city-centre-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol City Centre' },
+  'redcliffe-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Redcliffe, Bristol' },
+  'redland-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Redland, Bristol' },
+  'cotham-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Cotham, Bristol' },
+  'montpelier-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Montpelier, Bristol' },
+  'easton-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Easton, Bristol' },
+  'st-george-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'St George, Bristol' },
+  'totterdown-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Totterdown, Bristol' },
+  'bishopston-bristol': { 'geo.region': 'GB-BST', 'geo.placename': 'Bishopston, Bristol' },
 };
 
 export function generateMetadata({ params }) {
