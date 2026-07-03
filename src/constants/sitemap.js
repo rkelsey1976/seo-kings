@@ -75,6 +75,8 @@ export const AREA_SLUGS = [
   // under app/areas/[town]/page.jsx and must NOT be in generateStaticParams
   // peasedown-st-john, paulton, saltford, timsbury have bespoke static routes
   // westfield, chew-magna, temple-cloud, clutton have bespoke static routes
+  'city-centre-bath',
+  'lansdown-bath',
   'odd-down-bath',
   'combe-down-bath',
   'widcombe-bath',
@@ -117,6 +119,15 @@ export const AREA_SLUGS = [
   'horfield-bristol',
   'filton-bristol',
   'bradley-stoke-bristol',
+  'city-centre-bristol',
+  'redcliffe-bristol',
+  'redland-bristol',
+  'cotham-bristol',
+  'montpelier-bristol',
+  'easton-bristol',
+  'st-george-bristol',
+  'totterdown-bristol',
+  'bishopston-bristol',
 ];
 
 /** For HTML sitemap: main areas and sub-areas with display labels (match AreaDetail.jsx names) */
@@ -133,6 +144,8 @@ const areaLabels = {
   'chew-magna': 'Chew Magna',
   'temple-cloud': 'Temple Cloud',
   clutton: 'Clutton',
+  'city-centre-bath': 'Bath City Centre',
+  'lansdown-bath': 'Lansdown & Camden',
   'odd-down-bath': 'Odd Down',
   'combe-down-bath': 'Combe Down',
   'widcombe-bath': 'Widcombe',
@@ -175,6 +188,15 @@ const areaLabels = {
   'horfield-bristol': 'Horfield',
   'filton-bristol': 'Filton',
   'bradley-stoke-bristol': 'Bradley Stoke',
+  'city-centre-bristol': 'Bristol City Centre',
+  'redcliffe-bristol': 'Redcliffe',
+  'redland-bristol': 'Redland',
+  'cotham-bristol': 'Cotham',
+  'montpelier-bristol': 'Stokes Croft & Montpelier',
+  'easton-bristol': 'Easton',
+  'st-george-bristol': 'St George',
+  'totterdown-bristol': 'Totterdown',
+  'bishopston-bristol': 'Bishopston',
 };
 function slugToLabel(slug) {
   return areaLabels[slug] || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -247,6 +269,17 @@ export const STATIC_ROUTES = [
   { path: '/areas/horfield-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/filton-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/bradley-stoke-bristol', lastmod: '2026-07-01', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/city-centre-bath', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/lansdown-bath', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/city-centre-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/redcliffe-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/redland-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/cotham-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/montpelier-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/easton-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/st-george-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/totterdown-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
+  { path: '/areas/bishopston-bristol', lastmod: '2026-07-03', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/radstock', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/peasedown-st-john', lastmod: '2026-05-30', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/paulton', lastmod: '2026-05-29', changefreq: 'monthly', priority: 0.9 },

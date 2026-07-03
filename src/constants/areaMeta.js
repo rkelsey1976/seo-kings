@@ -220,4 +220,48 @@ export const AREA_META = {
     metaTitle: 'Website Designer Bradley Stoke | Web Design from £250 | SEO Kings',
     metaDescription: 'Web design and local SEO for trades and businesses in Bradley Stoke, South Gloucestershire BS32. Websites from £250. Free audit — no obligation.',
   },
+  'city-centre-bath': {
+    metaTitle: 'Website Designer Bath City Centre | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design in Bath city centre from £250. We also offer Google Business Profile and local SEO as add-ons so BA1 businesses get found on Google. Free check.',
+  },
+  'lansdown-bath': {
+    metaTitle: 'Website Designer Lansdown Bath | Web Design from £250 | SEO Kings',
+    metaDescription: 'Website design in Lansdown and Camden, Bath from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
+  },
+  'city-centre-bristol': {
+    metaTitle: 'Website Designer Bristol City Centre | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for businesses in Bristol city centre BS1 — Broadmead, Harbourside, Old City and Castle Park. Websites from £250. Free audit — no obligation.',
+  },
+  'redcliffe-bristol': {
+    metaTitle: 'Website Designer Redcliffe Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Redcliffe, Bristol BS1 6. Websites from £250. Free audit — no obligation.',
+  },
+  'redland-bristol': {
+    metaTitle: 'Website Designer Redland Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Redland, Bristol BS6. Websites from £250. Free audit — no obligation.',
+  },
+  'cotham-bristol': {
+    metaTitle: 'Website Designer Cotham Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Cotham, Bristol BS6. Websites from £250. Free audit — no obligation.',
+  },
+  'montpelier-bristol': {
+    metaTitle: 'Website Designer Stokes Croft & Montpelier | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for businesses in Stokes Croft and Montpelier, Bristol BS1 3 & BS6 5. Websites from £250. Free audit — no obligation.',
+  },
+  'easton-bristol': {
+    metaTitle: 'Website Designer Easton Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Easton, Bristol BS5. Websites from £250. Free audit — no obligation.',
+  },
+  'st-george-bristol': {
+    metaTitle: 'Website Designer St George Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in St George, Bristol BS5. Websites from £250. Free audit — no obligation.',
+  },
+  'totterdown-bristol': {
+    metaTitle: 'Website Designer Totterdown Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Totterdown, Bristol BS4. Websites from £250. Free audit — no obligation.',
+  },
+  'bishopston-bristol': {
+    metaTitle: 'Website Designer Bishopston Bristol | Web Design from £250 | SEO Kings',
+    metaDescription: 'Web design and local SEO for trades and businesses in Bishopston, Bristol BS7. Websites from £250. Free audit — no obligation.',
+  },
 };
