@@ -451,9 +451,11 @@ const BathHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-4">Bath neighbourhoods</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">Bath areas we cover</h2>
-          <p className="text-gray-400 mb-8">Web design, local SEO and Google Business Profile across every part of Bath — click your area for local information.</p>
+          <p className="text-gray-400 mb-8">Web design, local SEO and Google Business Profile across every part of Bath — 16 neighbourhood pages from the city centre and Lansdown out to the eastern villages. Click your area for local information.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
+              { name: 'City Centre', slug: 'city-centre-bath' },
+              { name: 'Lansdown & Camden', slug: 'lansdown-bath' },
               { name: 'Odd Down', slug: 'odd-down-bath' },
               { name: 'Combe Down', slug: 'combe-down-bath' },
               { name: 'Widcombe', slug: 'widcombe-bath' },
