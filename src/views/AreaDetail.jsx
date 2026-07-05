@@ -5207,10 +5207,42 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. Local SEO and Google Business Profile add-ons so Bristol customers find you first.',
       heroSubtext: 'No obligation. No credit card required.',
       description: 'Bristol is the largest city in the South West, with a huge and varied trades and small business market spread across BS1 to BS16 and beyond. From the harbourside to the outer suburbs, competition for "web designer Bristol" and local trade searches is fierce — and most small businesses are still relying on an outdated site or no website at all.',
-      extendedDescription: 'We work across the whole city, with particular strength in the south and east Bristol suburbs closest to our Keynsham base — Kingswood, Brislington, Whitchurch, Knowle and Stockwood — as well as the wider BS postcode area. Customers search Google for "plumber Bristol", "electrician BS postcode" or "web designer Bristol" every day. We build the website and the Google Business Profile that get you found first.',
+      extendedDescription: 'We work across the whole city, with 22 dedicated area pages — from the city centre, Redcliffe and Clifton through Redland, Bishopston, Easton and Totterdown to Kingswood, Brislington and Whitchurch near our Keynsham base. Customers search Google for "plumber Bristol", "electrician BS postcode" or "web designer Bristol" every day. We build the website and the Google Business Profile that get you found first.',
       introParagraphs: [
         'Bristol is a big city with a lot of noise — hundreds of trades and local businesses competing for the same searches. Standing out means having a fast, mobile-friendly website built specifically to rank, not a generic template site that looks the same as everyone else\'s. We build sites from £250 that load in under a second and are structured from day one to target the trade and postcode searches that actually bring in work.',
-        'Because we\'re based just outside the city in Keynsham, we know Bristol\'s suburbs individually — not just as one big blob on a map. We serve Kingswood and BS15 in the east, Brislington and BS4 to the south-east, and Whitchurch, Knowle and Stockwood across the southern BS4/BS14 corridor. Each of those areas has its own local page, so a Bristol-wide campaign and hyper-local suburb targeting work together rather than against each other.',
+        [
+          'Because we\'re based just outside the city in Keynsham, we know Bristol\'s suburbs individually — not just as one big blob on a map. We cover the whole city with 22 dedicated area pages: ',
+          { href: '/areas/city-centre-bristol', label: 'the city centre' },
+          ' and ',
+          { href: '/areas/redcliffe-bristol', label: 'Redcliffe' },
+          ' in the middle; ',
+          { href: '/areas/clifton-bristol', label: 'Clifton' },
+          ', ',
+          { href: '/areas/redland-bristol', label: 'Redland' },
+          ', ',
+          { href: '/areas/cotham-bristol', label: 'Cotham' },
+          ' and ',
+          { href: '/areas/bishopston-bristol', label: 'Bishopston' },
+          ' in the north-west; ',
+          { href: '/areas/montpelier-bristol', label: 'Stokes Croft & Montpelier' },
+          ', ',
+          { href: '/areas/easton-bristol', label: 'Easton' },
+          ' and ',
+          { href: '/areas/st-george-bristol', label: 'St George' },
+          ' in the east; ',
+          { href: '/areas/bedminster-bristol', label: 'Bedminster' },
+          ', ',
+          { href: '/areas/southville-bristol', label: 'Southville' },
+          ', ',
+          { href: '/areas/totterdown-bristol', label: 'Totterdown' },
+          ' and ',
+          { href: '/areas/knowle-bristol', label: 'Knowle' },
+          ' south of the river; and ',
+          { href: '/areas/kingswood', label: 'Kingswood' },
+          ' and ',
+          { href: '/areas/brislington', label: 'Brislington' },
+          ' out towards our Keynsham base. Suburb pages and the Bristol-wide campaign work together rather than against each other.',
+        ],
       ],
       heroStats: [
         { value: '£250', label: 'Websites From' },
@@ -5223,7 +5255,7 @@ const AreaDetail = ({ params: staticParams }) => {
       whyHeading: 'Why Choose SEO Kings in Bristol',
       whyIntro: 'Bristol is a big, competitive market. Generic websites and empty Google Business Profiles get buried — here\'s how we get you seen.',
       whyBullets: [
-        { title: 'City-wide reach, suburb-level precision', text: 'One Bristol strategy, backed by dedicated local pages for Kingswood, Brislington, Whitchurch, Knowle and Stockwood — so you rank for both "web designer Bristol" and the specific suburb searches your customers actually use.' },
+        { title: 'City-wide reach, suburb-level precision', text: 'One Bristol strategy, backed by 22 dedicated local pages — from the city centre and Redcliffe through Clifton, Redland and Bishopston to Easton, Totterdown, Kingswood and Brislington — so you rank for both "web designer Bristol" and the specific suburb searches your customers actually use.' },
         { title: 'Fast, mobile-first sites', text: 'Bristol is a mobile-heavy market — most local searches happen on a phone. Our sites load in under a second and are built to convert on mobile first.' },
         { title: 'Google Business Profile that gets into the map pack', text: 'GBP optimisation is a £100 add-on that gets you appearing in the local 3-pack when Bristol customers search for your trade.' },
         { title: 'Local SEO built for a big city', text: 'Bristol has far more search volume than the smaller towns we serve — and far more competition. Our local SEO packages are built to compete at that scale.' },
@@ -5266,7 +5298,7 @@ const AreaDetail = ({ params: staticParams }) => {
       subAreaSlugs: ['city-centre-bristol', 'redcliffe-bristol', 'redland-bristol', 'cotham-bristol', 'montpelier-bristol', 'easton-bristol', 'st-george-bristol', 'totterdown-bristol', 'bishopston-bristol', 'kingswood', 'brislington', 'whitchurch-bristol', 'knowle-bristol', 'stockwood-bristol', 'bedminster-bristol', 'southville-bristol', 'long-ashton-bristol', 'yate-bristol', 'clifton-bristol', 'horfield-bristol', 'filton-bristol', 'bradley-stoke-bristol'],
       subAreasHeading: 'Bristol suburbs we cover',
       faqs: [
-        { question: 'Do you cover the whole of Bristol?', answer: 'Yes. We build websites and run local SEO for trades and businesses right across Bristol, from the city centre out to BS15. We have particular depth in the southern and eastern suburbs — Kingswood, Brislington, Whitchurch, Knowle and Stockwood — each with its own dedicated local page.' },
+        { question: 'Do you cover the whole of Bristol?', answer: 'Yes. We build websites and run local SEO for trades and businesses right across Bristol — 22 areas each have their own dedicated page: the city centre, Redcliffe, Clifton, Redland, Cotham, Stokes Croft & Montpelier, Bishopston, Horfield, Easton, St George, Totterdown, Bedminster, Southville, Knowle, Whitchurch, Stockwood, Brislington, Kingswood, Filton, Bradley Stoke, Yate and Long Ashton.' },
         { question: 'How much does a website cost for a Bristol business?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for the first 6 months, then £50/year.' },
         { question: 'Can you get my business into the Google map pack in Bristol?', answer: 'Yes. GBP optimisation is a £100 add-on to any website package, and our local SEO service targets the specific trade and suburb searches that get you into Bristol\'s local 3-pack.' },
         { question: 'Is Bristol more competitive than Bath or Somerset for SEO?', answer: 'Generally, yes — Bristol has a much larger population and far more businesses competing for the same searches. That\'s why we combine a Bristol-wide strategy with suburb-specific pages, so you\'re not just fighting for one generic keyword against every trade in the city.' },
@@ -5665,7 +5697,13 @@ const AreaDetail = ({ params: staticParams }) => {
           <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${area.introImage ? 'grid lg:grid-cols-2 gap-10 items-center' : 'max-w-4xl'}`}>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               {area.introParagraphs.map((para, idx) => (
-                <p key={idx}>{para}</p>
+                <p key={idx}>
+                  {Array.isArray(para)
+                    ? para.map((part, i) =>
+                        typeof part === 'string' ? part : <Link key={i} href={part.href} className="text-primary hover:underline">{part.label}</Link>
+                      )
+                    : para}
+                </p>
               ))}
             </div>
             {area.introImage && (
