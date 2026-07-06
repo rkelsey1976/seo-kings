@@ -25,6 +25,7 @@ const GEO_META = {
   'southdown-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Southdown, Bath' },
   'batheaston-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Batheaston, Bath' },
   'walcot-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Walcot, Bath' },
+  'bath-city-centre': { 'geo.region': 'GB-BAS', 'geo.placename': 'Bath City Centre' },
   'bathford-bath': { 'geo.region': 'GB-BAS', 'geo.placename': 'Bathford, Bath' },
   // Keynsham + BS31 area
   keynsham: { 'geo.region': 'GB-BAS', 'geo.placename': 'Keynsham, Somerset' },

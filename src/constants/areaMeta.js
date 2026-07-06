@@ -104,6 +104,10 @@ export const AREA_META = {
     metaTitle: 'Website Designer Walcot, Bath | Web Design from £250',
     metaDescription: 'Website design in Walcot, Bath from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',
   },
+  'bath-city-centre': {
+    metaTitle: 'Website Design Bath City Centre | Web Designer & SEO – SEO Kings',
+    metaDescription: 'Website design for Bath city centre businesses from £250 — shops, cafés, salons and offices. Google Business Profile and local SEO add-ons so you get found on Google. Free check.',
+  },
   'bathford-bath': {
     metaTitle: 'Website Designer Bathford | Web Design from £250',
     metaDescription: 'Website design in Bathford, near Bath from £250. We also offer Google Business Profile and local SEO as add-ons so you get found on Google. Free check.',

@@ -454,6 +454,7 @@ const BathHub = () => {
           <p className="text-gray-400 mb-8">Web design, local SEO and Google Business Profile across every part of Bath — click your area for local information.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
+              { name: 'Bath City Centre', slug: 'bath-city-centre' },
               { name: 'Odd Down', slug: 'odd-down-bath' },
               { name: 'Combe Down', slug: 'combe-down-bath' },
               { name: 'Widcombe', slug: 'widcombe-bath' },
