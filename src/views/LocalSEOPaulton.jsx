@@ -95,14 +95,6 @@ const schema = {
       description: 'Local SEO for businesses in Paulton BS39. Google Business Profile optimisation, website SEO and review growth from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
-          { '@type': 'ListItem', position: 3, name: 'Paulton' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

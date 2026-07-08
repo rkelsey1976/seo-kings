@@ -70,13 +70,6 @@ const schema = {
       description: 'Websites for roofers in Bath & Somerset. Fast, mobile-first, built to rank for emergency and local search. Before/after galleries, dedicated service pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Web Design for Roofers' },
-        ],
-      },
     },
     {
       '@type': 'Service',

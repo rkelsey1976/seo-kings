@@ -100,14 +100,6 @@ const schema = {
       description: 'Local SEO for Bath BA1 & BA2. We put trades into the Google Map Pack — exterior painter Bath Top 3, cleaning Midsomer Norton #1. From £150/mo. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
-          { '@type': 'ListItem', position: 3, name: 'Bath' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

@@ -84,14 +84,6 @@ const schema = {
       description: 'Local SEO agency in Bristol. We get trades and small businesses into the Google Map Pack across BS1–BS16. GBP optimisation, citations and local SEO from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
-          { '@type': 'ListItem', position: 3, name: 'Bristol' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

@@ -77,14 +77,6 @@ const schema = {
       description: 'Bristol SEO agency and web designer. Local SEO from £150/month, websites from £250, GBP optimisation from £100. #1 for "SEO Bristol". Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Areas' },
-          { '@type': 'ListItem', position: 3, name: 'Bristol' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

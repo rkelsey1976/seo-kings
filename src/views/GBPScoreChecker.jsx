@@ -425,7 +425,7 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'GBP Score Checker' },
+          { '@type': 'ListItem', position: 2, name: 'GBP Score Checker' , item: 'https://seo-kings.co.uk/google-business-profile-score-checker' },
         ],
       },
     },
