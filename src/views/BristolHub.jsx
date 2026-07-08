@@ -24,13 +24,6 @@ const testimonials = [
   },
   {
     quote:
-      "We needed a site that would get us found for cleaning searches in Bristol and Bath. SEO Kings built it, added area pages for every suburb, and we were in the Map Pack within weeks of going live. Straight talking, no jargon, and it actually worked.",
-    name: 'Lee',
-    business: 'Extreme Cleans',
-    location: 'Bristol & Bath',
-  },
-  {
-    quote:
       "As a tradesperson in Bristol I didn't know where to start with SEO. SEO Kings built my site, sorted my Google Business Profile, and I'm now getting enquiries from across the city — Clifton, Bedminster, Horfield, all of it. Wish I'd done it years ago.",
     name: 'Mark',
     business: 'Bristol Tradesperson',
@@ -383,7 +376,7 @@ const BristolHub = () => {
                 Bristol is the largest city in the South West and one of the most competitive local search markets outside London. More businesses, more agencies, more noise. But here&apos;s what most people overlook: the average Bristol trade&apos;s digital presence is surprisingly weak. WordPress sites from 2018 scoring under 50 on PageSpeed. Google Business Profiles that are half-complete with no reviews and no photos. The competition looks intimidating, but the bar to outrank most of it is lower than it appears.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                What&apos;s actually driving results for Bristol trades right now is three things working together: a fast, properly structured website targeting the right BS postcode keywords; a fully optimised Google Business Profile with genuine reviews; and consistent local citations across the main directories. That combination is what got RG Extreme Pressure ranking for jet washing across Bristol suburbs, and Extreme Cleans into the Map Pack for cleaning searches within weeks of going live.
+                What&apos;s actually driving results for Bristol trades right now is three things working together: a fast, properly structured website targeting the right BS postcode keywords; a fully optimised Google Business Profile with genuine reviews; and consistent local citations across the main directories. That combination is what got RG Extreme Pressure ranking for jet washing across Bristol suburbs.
               </p>
             </div>
           </div>

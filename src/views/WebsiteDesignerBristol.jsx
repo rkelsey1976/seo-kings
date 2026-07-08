@@ -25,14 +25,6 @@ const results = [
     detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
     slug: 'seo-kings',
   },
-  {
-    business: 'Extreme Cleans',
-    location: 'Bristol & Bath',
-    result: 'Map Pack',
-    keyword: 'cleaning Bristol',
-    detail: 'New website build with area pages targeting Bristol and Bath — map pack visibility within weeks of going live.',
-    slug: 'extreme-cleans',
-  },
 ];
 
 const included = [

@@ -40,14 +40,6 @@ const results = [
     detail: 'Replaced a dated Wix site with a custom 102-page website — dedicated service pages, area pages covering Bristol suburbs, and full schema. Live in under 2 weeks.',
     slug: 'rg-extreme-pressure',
   },
-  {
-    business: 'Extreme Cleans',
-    location: 'Bristol & Bath',
-    result: 'Map Pack',
-    keyword: 'cleaning Bristol',
-    detail: 'New website build with area pages targeting Bristol and Bath — map pack visibility within weeks of going live.',
-    slug: 'extreme-cleans',
-  },
 ];
 
 const faqs = [
@@ -149,7 +141,7 @@ const rightPanel = (
       {[
         { label: 'From per month', value: '£150' },
         { label: 'SEO Kings — organic', value: '#1' },
-        { label: 'Extreme Cleans — Map Pack', value: 'Weeks' },
+        { label: 'SEO Kings — #1 "SEO Bristol"', value: '#1' },
         { label: 'First results in', value: '< 4 weeks' },
       ].map(({ label, value }) => (
         <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
