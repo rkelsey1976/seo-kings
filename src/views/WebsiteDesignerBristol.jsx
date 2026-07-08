@@ -25,14 +25,6 @@ const results = [
     detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
     slug: 'seo-kings',
   },
-  {
-    business: 'Extreme Cleans',
-    location: 'Bristol & Bath',
-    result: 'Map Pack',
-    keyword: 'cleaning Bristol',
-    detail: 'New website build with area pages targeting Bristol and Bath — map pack visibility within weeks of going live.',
-    slug: 'extreme-cleans',
-  },
 ];
 
 const included = [
@@ -59,7 +51,7 @@ const faqs = [
   },
   {
     q: 'Will my website show up on Google in Bristol?',
-    a: "That's the goal. Bristol is competitive but we know how to rank here — we're #1 organically for "SEO Bristol" ourselves. We build pages properly structured for local search, with the right signals for BS postcodes, so you give yourself a real shot at page one and the Map Pack.",
+    a: "That's the goal. Bristol is competitive but we know how to rank here — we're #1 organically for \"SEO Bristol\" ourselves. We build pages properly structured for local search, with the right signals for BS postcodes, so you give yourself a real shot at page one and the Map Pack.",
   },
   {
     q: 'What trades do you work with in Bristol?',
@@ -138,7 +130,6 @@ const WebsiteDesignerBristol = () => {
     <>
       <SEO schemas={[schema]} />
 
-      {/* Hero */}
       <ServicePageHero
         badge="Serving Bristol · BS1–BS16"
         title="Website Designer"
@@ -155,7 +146,6 @@ const WebsiteDesignerBristol = () => {
         ctaSecondary="Call Us Today"
       />
 
-      {/* What's included */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -179,7 +169,6 @@ const WebsiteDesignerBristol = () => {
               </ul>
             </div>
 
-            {/* Pricing card */}
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-2 text-secondary">
                 Pricing
@@ -226,7 +215,6 @@ const WebsiteDesignerBristol = () => {
         </div>
       </section>
 
-      {/* Proof */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
@@ -255,7 +243,6 @@ const WebsiteDesignerBristol = () => {
         </div>
       </section>
 
-      {/* Content expansion — Bristol web design */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
@@ -292,7 +279,6 @@ const WebsiteDesignerBristol = () => {
         </div>
       </section>
 
-      {/* Local signals */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
@@ -315,7 +301,6 @@ const WebsiteDesignerBristol = () => {
         </div>
       </section>
 
-      {/* FAQ */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
@@ -326,7 +311,6 @@ const WebsiteDesignerBristol = () => {
         </div>
       </section>
 
-      {/* Related services */}
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Also useful</SectionTag>

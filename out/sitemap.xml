@@ -43,6 +43,12 @@
 <priority>1</priority>
 </url>
 <url>
+<loc>https://seo-kings.co.uk/website-designer-bristol</loc>
+<lastmod>2026-07-06</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
 <loc>https://seo-kings.co.uk/website-designer-chippenham</loc>
 <lastmod>2026-06-26</lastmod>
 <changefreq>monthly</changefreq>
@@ -109,8 +115,20 @@
 <priority>0.9</priority>
 </url>
 <url>
+<loc>https://seo-kings.co.uk/local-seo/bristol</loc>
+<lastmod>2026-07-07</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
 <loc>https://seo-kings.co.uk/seo/bath</loc>
 <lastmod>2026-06-10</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/seo/bristol</loc>
+<lastmod>2026-07-07</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -206,7 +224,7 @@
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bath</loc>
-<lastmod>2026-07-02</lastmod>
+<lastmod>2026-07-05</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -290,7 +308,7 @@
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bristol</loc>
-<lastmod>2026-07-01</lastmod>
+<lastmod>2026-07-05</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -357,6 +375,72 @@
 <url>
 <loc>https://seo-kings.co.uk/areas/bradley-stoke-bristol</loc>
 <lastmod>2026-07-01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/city-centre-bath</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/lansdown-bath</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/city-centre-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/redcliffe-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/redland-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/cotham-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/montpelier-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/easton-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/st-george-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/totterdown-bristol</loc>
+<lastmod>2026-07-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/bishopston-bristol</loc>
+<lastmod>2026-07-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -788,210 +872,359 @@
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/beautiful-websites-that-rank</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/get-more-google-reviews-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/free-seo-audit-what-we-check</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/why-speed-matters-for-seo</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/google-map-pack-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/website-cost-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/how-to-choose-web-designer-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/google-reviews-electrician-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/do-i-need-a-website-plumber-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/set-up-google-business-profile-tradesperson</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/get-trade-business-google-map-pack</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/why-plumbing-website-not-getting-calls</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/wordpress-vs-custom-website-trades</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/seo-cost-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/how-long-does-seo-take-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/blog/local-seo-vs-google-ads-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/peachy-cleans</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/new-decorating</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/aurelian-massage</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/bath-painter</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/aspect-builds</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/case-studies/rg-extreme-pressure</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/city-centre-bath</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/lansdown-bath</loc>
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/odd-down-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/combe-down-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/widcombe-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/larkhall-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/twerton-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/weston-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/oldfield-park-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bear-flat-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bathampton-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bathwick-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/southdown-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/batheaston-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/walcot-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
@@ -999,125 +1232,205 @@
 <url>
 <loc>https://seo-kings.co.uk/areas/bath-city-centre</loc>
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bathford-bath</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bitton-keynsham</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/hanham-keynsham</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/oldland-keynsham</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/longwell-green-keynsham</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/warmley-keynsham</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/clandon-midsomer-norton</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/farrington-gurney-midsomer-norton</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/writhlington-radstock</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/chilcompton-radstock</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/stanton-drew-chew-magna</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/chew-stoke-chew-magna</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bishop-sutton-chew-magna</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/high-littleton-paulton</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/hallatrow-paulton</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/kingswood</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/brislington</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/whitchurch-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/knowle-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/stockwood-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
@@ -1125,54 +1438,143 @@
 <url>
 <loc>https://seo-kings.co.uk/areas/bristol</loc>
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bedminster-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/southville-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/long-ashton-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/yate-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/clifton-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/horfield-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/filton-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://seo-kings.co.uk/areas/bradley-stoke-bristol</loc>
+<<<<<<< HEAD
 <lastmod>2026-07-03</lastmod>
+=======
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/city-centre-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/redcliffe-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/redland-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/cotham-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/montpelier-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/easton-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/st-george-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/totterdown-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://seo-kings.co.uk/areas/bishopston-bristol</loc>
+<lastmod>2026-07-08</lastmod>
+>>>>>>> origin/main
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
