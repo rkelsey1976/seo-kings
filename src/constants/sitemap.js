@@ -110,7 +110,6 @@ export const AREA_SLUGS = [
   'whitchurch-bristol',
   'knowle-bristol',
   'stockwood-bristol',
-  'bristol',
   'bedminster-bristol',
   'southville-bristol',
   'long-ashton-bristol',
