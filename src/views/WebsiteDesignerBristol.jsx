@@ -98,6 +98,10 @@ const schema = {
         { '@type': 'City', name: 'Horfield' },
         { '@type': 'City', name: 'Filton' },
         { '@type': 'City', name: 'Bradley Stoke' },
+        { '@type': 'City', name: 'Bishopsworth' },
+        { '@type': 'City', name: 'Hartcliffe' },
+        { '@type': 'City', name: 'Hengrove' },
+        { '@type': 'City', name: 'Dundry' },
         { '@type': 'City', name: 'Keynsham' },
       ],
       priceRange: '££',
@@ -280,8 +284,11 @@ const WebsiteDesignerBristol = () => {
             <p className="text-gray-400 leading-relaxed mb-4">
               SEO Kings is based in Keynsham — 20 minutes from Bristol city centre and right on the BS border. Bristol is one of our most active markets. We've built sites for jet washing companies, cleaners and trades across the city, and we have live Map Pack results to show for it. When we talk about what it takes to rank in Bristol, it's from direct experience — not a template approach applied from a distance.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-8">
+            <p className="text-gray-400 leading-relaxed mb-4">
               We serve trades across Bristol city centre, Clifton, Redland, Bishopston, Cotham, Bedminster, Southville, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Long Ashton, Yate and the wider BS postcode area. If you're a trade in Bristol without a properly optimised website, you're losing customers to competitors every week.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-8">
+              We're just as active across south and west Bristol — Bedminster Down, Bishopsworth, Hartcliffe, Withywood, Hengrove and Dundry (BS13, BS14 and BS41). If you're searching for a web designer in Bristol on that side of the city, we're closer than most agencies and we build every site to rank for your specific neighbourhood, not just "Bristol" as a whole.
             </p>
             <address className="not-italic text-sm text-gray-400 leading-relaxed border-l-2 pl-4 border-primary">
               SEO Kings<br />
@@ -311,7 +318,7 @@ const WebsiteDesignerBristol = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Bristol and BS postcode searches.', href: '/google-business-profile' },
-              { title: 'SEO Bristol', desc: 'Full SEO services for Bristol trades and small businesses — technical, on-page, content and local authority from £150/month.', href: '/seo/bath' },
+              { title: 'SEO Bristol', desc: 'Full SEO services for Bristol trades and small businesses — technical, on-page, content and local authority from £150/month.', href: '/seo/bristol' },
               { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
               { title: 'Website designer Keynsham', desc: 'Also covering Keynsham — web design for BS31 trades from £250.', href: '/website-designer-keynsham' },
             ].map((service) => (
