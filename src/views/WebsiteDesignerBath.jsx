@@ -345,12 +345,12 @@ const WebsiteDesignerBath = () => {
               { title: 'GBP optimisation', desc: 'Get your Google Business Profile ranking in the Map Pack for Bath and BA1 & BA2 searches.', href: '/google-business-profile' },
               { title: 'Local SEO Bath', desc: 'Ongoing SEO to grow your organic visibility across Bath and surrounding areas from £150/month.', href: '/local-seo/bath' },
               { title: 'Web design packages', desc: 'See all pricing options — starter, professional and full builds from £250.', href: '/web-design-packages' },
-              { title: 'Website designer Keynsham', desc: 'Also covering Keynsham — web design for BS31 trades from £250.', href: '/website-designer-keynsham' },
+              { title: 'Website designer Bristol →', desc: 'Also covering Bristol — web design for BS1–BS16 trades, same process, same pricing.', href: '/website-designer-bristol', highlight: true },
             ].map((service) => (
               <Link
                 key={service.href}
                 href={service.href}
-                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
+                className={`bg-dark-card border rounded-2xl p-6 transition-colors group ${service.highlight ? 'border-primary/30 hover:border-primary/50' : 'border-white/[0.06] hover:border-white/10'}`}
               >
                 <h3 className="text-white font-semibold text-sm mb-2">{service.title}</h3>
                 <p className="text-gray-500 text-xs leading-relaxed mb-4">{service.desc}</p>

@@ -497,13 +497,31 @@ const BathHub = () => {
             {[
               { href: '/website-designer-bath', label: 'Web Designer — Bath', desc: 'Fast, mobile-first sites for Bath trades and small businesses. From £250, live in under 2 weeks.' },
               { href: '/local-seo/bath', label: 'Local SEO — Bath', desc: 'Ongoing SEO to push you into Bath\'s Map Pack and keep you there — from £150/month.' },
-              { href: '/seo/bath', label: 'SEO Bath', desc: 'Full SEO services for Bath trades and small businesses — technical, on-page, content and local authority.' },
               { href: '/google-business-profile', label: 'Google Business Profile', desc: 'GBP setup and optimisation for Bath businesses — £100 one-off, no ongoing fees.' },
+              { href: '/website-designer-keynsham', label: 'Web Designer — Keynsham', desc: 'BS31 web design for trades — 10 minutes from Bath on the A4. From £250.' },
+              { href: '/website-designer-saltford', label: 'Web Designer — Saltford', desc: 'Between Keynsham and Bath — web design for BS31 trades from £250.' },
               { href: '/web-design-packages', label: 'Packages &amp; Pricing', desc: 'Clear, per-page pricing with no hidden extras — from £250 for a one-page trade site.' },
-              { href: '/areas/keynsham', label: 'Keynsham', desc: 'Web design and SEO in BS31 — 10 minutes from Bath on the A4.' },
-              { href: '/areas/saltford', label: 'Saltford', desc: 'Between Keynsham and Bath city centre — see what we offer in BS31.' },
             ].map(({ href, label, desc }) => (
               <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── ALSO IN BRISTOL ── */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-6">Also in Bristol</SectionTag>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/areas/bristol', label: 'Bristol Hub', desc: 'Our Bristol service area — web design, SEO and Map Pack rankings across BS1–BS16.' },
+              { href: '/seo/bristol', label: 'SEO Bristol', desc: 'Full SEO services for Bristol trades and small businesses — same process as Bath, same proof.' },
+              { href: '/website-designer-bristol', label: 'Web Designer — Bristol', desc: 'Fast, mobile-first sites for Bristol trades. From £250, live in under 2 weeks.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-primary/20 rounded-2xl p-5 hover:border-primary/40 transition-colors group">
                 <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
                 <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
               </Link>

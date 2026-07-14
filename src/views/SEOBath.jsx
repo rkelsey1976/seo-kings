@@ -313,8 +313,8 @@ const SEOBath = () => {
       {/* Related services */}
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-6">Also in Bath</SectionTag>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <SectionTag className="mb-6">Also nearby</SectionTag>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
@@ -330,6 +330,15 @@ const SEOBath = () => {
                 <div className="text-xs text-gray-500">Fast, mobile-first websites for Bath trades — from £250</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/seo/bristol" className="flex items-center justify-between p-5 bg-dark-card border border-primary/30 rounded-xl hover:border-primary/50 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">SEO Bristol →</div>
+                <div className="text-xs text-gray-500">Full SEO services for Bristol trades and small businesses — same process as Bath, same proof</div>
+              </div>
+              <svg className="w-4 h-4 text-primary group-hover:text-white transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
