@@ -5,44 +5,44 @@ import SectionDivider from './SectionDivider';
 
 const accent = '#E8715A';
 
-// Placeholder monthly data — REPLACE with real GBP Insights monthly numbers.
-// Bars are scaled to the max value in the series, so the highest month always reaches 100%.
+// Real GBP Insights data — Feb–Jun 2026 (5 months).
+// July excluded as it's a partial month. Bars scaled to the max value in the series.
 const caseStudies = [
   {
     business: 'Peachy Cleans',
     trade: 'Cleaning',
     location: 'Midsomer Norton',
-    gbpClicks: '229',
-    gbpPeriod: '5 months',
-    gbpPeak: '↑ 52 clicks in May alone',
+    gbpClicks: '234',
+    gbpPeriod: 'Feb–Jun 2026',
+    gbpPeak: '↑ 52 clicks in May',
     footnote: '#1 on Google · fully booked',
     slug: 'peachy-cleans',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-    monthly: [0, 8, 24, 47, 52], // TODO: replace with real numbers
+    months: ['Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    monthly: [54, 37, 45, 52, 46], // sums to 234
   },
   {
     business: 'New Decorating',
     trade: 'Decorating',
     location: 'Bath & BANES',
-    gbpClicks: '72',
-    gbpPeriod: '5 months',
-    gbpPeak: '↑ Started from zero',
+    gbpClicks: '120',
+    gbpPeriod: 'Mar–Jun 2026',
+    gbpPeak: '↑ 48 clicks in June',
     footnote: 'Top 3 Map Pack · Bath',
     slug: 'new-decorating',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-    monthly: [0, 5, 14, 22, 31], // TODO: replace with real numbers
+    months: ['Mar', 'Apr', 'May', 'Jun'],
+    monthly: [18, 13, 38, 51], // sums to 120
   },
   {
     business: 'Aurelian Massage',
     trade: 'Massage',
     location: 'Bath City Centre',
-    gbpClicks: '75',
-    gbpPeriod: '3 months',
-    gbpPeak: '↑ 32 clicks in May',
+    gbpClicks: '92',
+    gbpPeriod: 'Feb–Jun 2026',
+    gbpPeak: '↑ 24 clicks in May',
     footnote: 'New business · ranking Bath',
     slug: 'aurelian-massage',
-    months: ['Mar', 'Apr', 'May'],
-    monthly: [11, 32, 32], // TODO: replace with real numbers
+    months: ['Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    monthly: [15, 17, 12, 24, 24], // sums to 92
   },
 ];
 
@@ -309,11 +309,11 @@ const Results = () => (
           fontSize: 'clamp(4rem,10vw,6rem)', fontWeight: 700, color: accent,
           letterSpacing: '-0.05em', lineHeight: 1,
           textShadow: `0 0 80px ${accent}40`,
-        }}>376</div>
+        }}>446</div>
         <div className="pb-1 sm:pb-2">
           <div className="text-white font-semibold mb-1" style={{ letterSpacing: '-0.02em' }}>total Google Maps website clicks</div>
           <div className="font-mono text-xs" style={{ color: 'rgba(255,255,255,0.4)', letterSpacing: '0.04em', lineHeight: 1.8 }}>
-            Jan–May 2026 · three clients · zero ad spend · Bath &amp; BANES
+            Feb–Jun 2026 · three clients · zero ad spend · Bath &amp; BANES
           </div>
         </div>
       </div>
