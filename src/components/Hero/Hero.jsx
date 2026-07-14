@@ -71,9 +71,9 @@ const Hero = ({
               </span>
             </div>
 
-            {/* Headline — split text entrance */}
+            {/* Headline — split text entrance (h2 because the page H1 is server-rendered above) */}
             <SplitTextHero
-              tag="h1"
+              tag="h2"
               className="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-white mb-5"
             >
               {title}

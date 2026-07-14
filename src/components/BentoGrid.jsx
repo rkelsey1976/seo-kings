@@ -44,7 +44,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 <div className="absolute inset-0 z-[1] transition-transform duration-700 ease-out group-hover:scale-105">
                   <Image
                     src={cell.imageBg}
-                    alt=""
+                    alt={cell.heading || `${cell.tag || 'Service'} — SEO Kings`}
                     fill
                     className="object-cover"
                     style={{ objectPosition: cell.imageFocus || 'center' }}

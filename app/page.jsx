@@ -117,6 +117,8 @@ export default function HomePage() {
     <>
       <HomepageLocalBusinessSchema />
       <HomePageFAQSchema />
+      {/* Server-rendered H1 for SEO + crawlers. Visually identical to Hero headline but renders in static HTML. */}
+      <h1 className="sr-only">Web Design & Local SEO for Local Trades That Gets You Calls — Bath & North East Somerset</h1>
       <Hero />
 
       {/* Marquee */}

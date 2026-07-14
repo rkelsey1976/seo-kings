@@ -37,6 +37,13 @@ export const metadata = {
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'SEO Kings — Website Design & Local SEO for Bath & North East Somerset' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@seokings',
+    title: 'SEO Kings | Website Design Bath & North East Somerset',
+    description: 'Website Design and Local SEO for tradespeople and small businesses. Get found on Google.',
+    images: [{ url: 'https://seo-kings.co.uk/og-image.jpg', width: 1200, height: 630, alt: 'SEO Kings — Website Design & Local SEO for Bath & North East Somerset' }],
+  },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }, { url: '/favicon.ico', sizes: 'any' }],
@@ -47,11 +54,6 @@ export const metadata = {
     'geo.placename': 'Bath',
     'theme-color': '#E8715A',
     'msapplication-TileColor': '#0B1324',
-    'twitter:card': 'summary_large_image',
-    'twitter:site': '@seokings',
-    'twitter:title': 'SEO Kings | Website Design Bath & North East Somerset',
-    'twitter:description': 'Website Design and Local SEO for tradespeople and small businesses. Get found on Google.',
-    'twitter:image': 'https://seo-kings.co.uk/og-image.jpg',
   },
 };
 
