@@ -335,6 +335,325 @@ export const BRISTOL_INDUSTRIES = {
       },
     ],
   },
+  'heating-engineers': {
+    name: 'Heating Engineers',
+    plural: 'Heating Engineers',
+    singular: 'Heating engineer',
+    slug: 'heating-engineers',
+    metaTitle: 'SEO for Heating Engineers in Bristol | Boiler & Gas SEO | SEO Kings',
+    metaDescription:
+      'SEO for heating engineers in Bristol. Rank for "boiler repair Bristol", "gas engineer Bristol", and central heating searches. From £150/month. Free audit.',
+    badge: 'SEO for Heating Engineers · Bristol · BS1–BS16',
+    h1: 'SEO for Heating Engineers in Bristol',
+    heroDescription:
+      'Boiler breakdowns, annual services, full central heating installs — Bristol heating engineers are competing in a high-volume, high-value market. We build SEO campaigns that target emergency boiler repair, planned service work, and the project terms that bring in £4k+ install enquiries.',
+    intro:
+      'Heating engineer search in Bristol splits three ways: emergency boiler repair (high urgency, lower value per job), annual servicing (steady recurring work, mid value), and full install/upgrade (long sales cycle, very high value). Each needs a different SEO approach — Map Pack wins the emergencies, organic results win the installs. We build campaigns that target all three. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" so the methodology is proven at the most competitive end of the market.',
+    services: [
+      'Emergency boiler repair SEO — rank for "boiler repair Bristol", "boiler breakdown BS*", "no heating Bristol" and "radiator leak"',
+      'Gas engineer SEO — "gas engineer Bristol", "Gas Safe engineer BS*", "gas appliance service"',
+      'Boiler install SEO — "new boiler Bristol", "boiler installation cost Bristol", "combi boiler install", "system boiler replacement"',
+      'Central heating SEO — "central heating engineer Bristol", "power flush Bristol", "underfloor heating install"',
+      'Service plan SEO — "boiler service Bristol", "annual boiler service", "landlord gas safety certificate CP12"',
+      'Location pages — BS1–BS16 plus Keynsham, Kingswood, Hanham, Downend, Staple Hill, Winterbourne and Yate',
+    ],
+    keywords: [
+      'boiler repair Bristol',
+      'boiler service Bristol',
+      'gas engineer Bristol',
+      'boiler installation Bristol',
+      'boiler breakdown Bristol',
+      'new boiler Bristol',
+      'central heating engineer Bristol',
+      'Gas Safe engineer Bristol',
+      'boiler repair BS1',
+      'boiler repair BS5',
+      'boiler repair BS7',
+      'power flush Bristol',
+    ],
+    result: 'Map Pack for "boiler repair Bristol" within 6-8 weeks',
+    resultDetail:
+      'Map Pack rankings for emergency boiler repair terms typically achieved within 6-8 weeks once GBP is properly optimised with heating-specific categories. Organic rankings for "boiler installation Bristol" and "new boiler Bristol" within 3-5 months.',
+    proof: '#1 organic ranking for "SEO Bristol" — applied the same methodology that ranks a £3k+/month keyword.',
+    faqs: [
+      {
+        q: 'How long does SEO take for a Bristol heating engineer?',
+        a: 'Map Pack rankings for "boiler repair Bristol" and emergency terms usually appear within 6-8 weeks once GBP is properly optimised. Organic rankings for "boiler installation Bristol" and "new boiler Bristol" take 3-5 months. Service plan terms (boiler service, CP12) typically rank within 2-3 months because commercial intent is high and competition is less developed.',
+      },
+      {
+        q: 'How much does SEO cost for a heating engineer?',
+        a: '£150/month starting price. Most heating engineers are on the £150 or £200 tier — enough to cover technical SEO, GBP management, service page content, citation building and review generation. No lock-in contracts. The maths work because a single new boiler install pays for 2-3 years of SEO.',
+      },
+      {
+        q: 'I rely on word of mouth and Checkatrade. Do I need SEO too?',
+        a: 'Word of mouth is great but caps your growth. SEO gives you a consistent stream of new enquiries from Bristol homeowners actively searching. The customers who search Google and click the top 3 results are the highest-converting leads — they\'ve already decided they need a heating engineer. We work alongside Checkatrade, not against it.',
+      },
+      {
+        q: 'Should I target boiler service separately from emergency boiler repair?',
+        a: 'Yes — completely different customers, different value, different search behaviour. Emergency customers search in panic and book the first available engineer. Service customers book weeks in advance and compare quotes. We build dedicated pages for both so you rank for each customer type at the moment they\'re ready to book.',
+      },
+      {
+        q: 'Do you build websites for heating engineers?',
+        a: 'Yes — fast, mobile-first trade websites from £250 with proper service pages (boiler repair, boiler service, new boiler install, gas safety), location pages and Gas Safe registration prominently displayed. Many heating engineers do website + SEO together because the new site is built to rank from day one and the SEO work compounds faster.',
+      },
+    ],
+  },
+
+  landscapers: {
+    name: 'Landscapers',
+    plural: 'Landscapers',
+    singular: 'Landscaper',
+    slug: 'landscapers',
+    metaTitle: 'SEO for Landscapers in Bristol | Garden Design & Build SEO | SEO Kings',
+    metaDescription:
+      'SEO for landscapers in Bristol. Rank for "landscaper Bristol", garden design, patio and driveway searches. From £150/month. Free audit.',
+    badge: 'SEO for Landscapers · Bristol · BS1–BS16',
+    h1: 'SEO for Landscapers in Bristol',
+    heroDescription:
+      'Garden design, patios, driveways, retaining walls — Bristol landscaping work is high-value and seasonal. We build SEO campaigns that keep your enquiry pipeline full from February to November, with proper service pages and location coverage across BS postcodes.',
+    intro:
+      'Landscaping is a different kind of trade for SEO. Customers plan projects months in advance, they browse portfolios heavily, and the buying cycle runs from spring browsing to autumn install. The SEO campaign has to match that rhythm — content that captures browsing traffic in Feb-April, Map Pack visibility for emergency retaining wall work year-round, and project galleries that convert browsers into enquiries. We build that system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — and we rank #1 for "SEO Bristol" to prove the methodology works at the highest level.',
+    services: [
+      'Garden design SEO — rank for "garden design Bristol", "garden designer BS*", "landscape design" with project gallery support',
+      'Patio and paving SEO — "patio installer Bristol", "block paving Bristol", "sandstone patio", "porcelain patio"',
+      'Driveway SEO — "driveway installer Bristol", "resin driveway Bristol", "tarmac driveway", "gravel driveway"',
+      'Retaining wall and structural landscaping SEO — "retaining wall Bristol", "garden wall builder", "Bath stone wall"',
+      'Decking and fencing SEO — "decking installer Bristol", "composite decking", "fence installation Bristol"',
+      'Location pages — BS1–BS16 plus Keynsham, Kingswood, Downend, Staple Hill, Winterbourne, Yate and surrounding villages',
+    ],
+    keywords: [
+      'landscaper Bristol',
+      'landscape gardener Bristol',
+      'garden design Bristol',
+      'patio installer Bristol',
+      'driveway installer Bristol',
+      'retaining wall Bristol',
+      'block paving Bristol',
+      'resin driveway Bristol',
+      'landscaper BS1',
+      'landscaper BS5',
+      'landscaper BS7',
+      'garden designer Bristol',
+    ],
+    result: 'Page one for "landscaper Bristol" or "patio installer Bristol" within 4 months',
+    resultDetail:
+      'Project-type terms like "patio installer Bristol" and "driveway installer Bristol" typically reach page one within 3-5 months. Head term "landscaper Bristol" is 4-6 months because competition is high. Location-specific terms often rank in 6-10 weeks.',
+    proof: '#1 organic ranking for "SEO Bristol" — the most competitive local SEO keyword in the South West.',
+    faqs: [
+      {
+        q: 'How long does SEO take for a Bristol landscaper?',
+        a: 'Location-specific terms like "landscaper Clifton" or "patio installer BS6" often rank within 6-10 weeks. Project-type terms like "driveway installer Bristol" or "retaining wall Bristol" take 3-5 months. The head term "landscaper Bristol" is 4-6 months. We report monthly so you can see exactly what\'s moving.',
+      },
+      {
+        q: 'How much does SEO cost for a landscaping business?',
+        a: '£150/month starting price. Most landscapers are on the £200 or £300 tier because landscaping benefits from heavier content investment (project galleries, before/after pages, location pages). No lock-in contracts — a single new patio or driveway project pays for months of SEO.',
+      },
+      {
+        q: 'I get most of my work from referrals. Do I really need SEO?',
+        a: 'Referrals cap your growth. SEO gives you a consistent stream of enquiries from Bristol homeowners actively searching for landscaping — these are the highest-converting leads because they\'ve already decided to invest in their garden. Pair SEO with referrals and you stop being dependent on either source alone.',
+      },
+      {
+        q: 'Should I have a project gallery on my website?',
+        a: 'Yes — for landscapers, the project gallery is the highest-converting element on the website. Customers want to see your work before they enquire. We build image-optimised project galleries as part of every campaign, with proper alt text, location tags and internal links. They rank in Google Images and convert browsers into enquiries at high rates.',
+      },
+      {
+        q: 'Do you build websites for landscapers?',
+        a: 'Yes — fast, mobile-first landscaper websites from £250 with proper project galleries, service pages, before/after sliders and location pages. Most landscapers do website + SEO together because the new site is built to rank from day one and the SEO work compounds much faster.',
+      },
+    ],
+  },
+
+  'bathroom-fitters': {
+    name: 'Bathroom Fitters',
+    plural: 'Bathroom Fitters',
+    singular: 'Bathroom fitter',
+    slug: 'bathroom-fitters',
+    metaTitle: 'SEO for Bathroom Fitters in Bristol | Bathroom Install SEO | SEO Kings',
+    metaDescription:
+      'SEO for bathroom fitters in Bristol. Rank for "bathroom fitter Bristol", bathroom design, wet room and ensuite installation searches. From £150/month. Free audit.',
+    badge: 'SEO for Bathroom Fitters · Bristol · BS1–BS16',
+    h1: 'SEO for Bathroom Fitters in Bristol',
+    heroDescription:
+      'Bathroom installations are £5k-£15k projects where customers research thoroughly before choosing a fitter. We build SEO campaigns that put you in front of Bristol homeowners at the comparison stage, with proper service pages, project galleries, and Map Pack visibility for the local searches.',
+    intro:
+      'Bathroom fitting is high-value work with a long buying cycle. Customers spend weeks comparing fitters, browsing portfolios, reading reviews. The fitters that win aren\'t the cheapest — they\'re the ones that show up consistently in search results, have a strong portfolio, and have enough reviews to feel safe. We build that presence. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" so the methodology is proven at the top of the market.',
+    services: [
+      'Bathroom installation SEO — rank for "bathroom fitter Bristol", "bathroom installer BS*", "bathroom renovation"',
+      'Bathroom design SEO — "bathroom design Bristol", "bathroom designer BS*", "small bathroom design", "luxury bathroom design"',
+      'Wet room and ensuite SEO — "wet room installer Bristol", "ensuite installation", "shower room conversion"',
+      'Disabled access bathroom SEO — "mobility bathroom Bristol", "walk-in bath installer", "disabled bathroom adaptation"',
+      'Map Pack optimisation — full GBP management with bathroom-specific categories, services, photos and review strategy',
+      'Project gallery SEO — image-optimised before/after galleries that rank in Google Images and convert browsers into enquiries',
+    ],
+    keywords: [
+      'bathroom fitter Bristol',
+      'bathroom installer Bristol',
+      'bathroom design Bristol',
+      'wet room installer Bristol',
+      'ensuite installation Bristol',
+      'bathroom renovation Bristol',
+      'small bathroom design Bristol',
+      'bathroom fitter BS1',
+      'bathroom fitter BS5',
+      'bathroom fitter BS7',
+      'bathroom fitter BS16',
+      'shower installation Bristol',
+    ],
+    result: 'Page one for "bathroom fitter Bristol" within 4 months',
+    resultDetail:
+      'Head term "bathroom fitter Bristol" typically reaches page one within 4-6 months. Specific terms like "wet room installer Bristol" or "ensuite installation Bristol" within 2-4 months because commercial intent is high and competition is less developed. Location-specific terms often rank in 6-10 weeks.',
+    proof: '#1 organic ranking for "SEO Bristol" — proven the system on the most competitive local SEO term in the region.',
+    faqs: [
+      {
+        q: 'How long does SEO take for a Bristol bathroom fitter?',
+        a: 'Location-specific terms like "bathroom fitter Clifton" or "bathroom installer BS6" often rank within 6-10 weeks. Project-specific terms like "wet room installer Bristol" or "ensuite installation Bristol" take 2-4 months. The head term "bathroom fitter Bristol" is 4-6 months because of the project value. We report monthly so you see exactly what\'s moving.',
+      },
+      {
+        q: 'How much does SEO cost for a bathroom fitter?',
+        a: '£150/month starting price. Most bathroom fitters are on the £200 tier because the work benefits from stronger content (project galleries, service pages for each bathroom type, location pages). The maths work because a single new bathroom installation pays for 2-3 years of SEO. No lock-in contracts.',
+      },
+      {
+        q: 'Customers take months to decide on a bathroom fitter. Does SEO work for that?',
+        a: 'Yes — actually that\'s exactly the customer journey SEO is built for. Customers browse for weeks, comparing fitters. The fitter that shows up consistently in search results during that browsing period is the one that gets the enquiry when they\'re ready. SEO compounds — every page that ranks, every review you collect, every project you add to the gallery makes the next enquiry easier to win.',
+      },
+      {
+        q: 'Should I have a project gallery?',
+        a: 'Yes — for bathroom fitters, the project gallery is the single highest-converting element on the website. Customers want to see finished bathrooms in similar property types before they enquire. We build image-optimised project galleries as part of every campaign, with proper alt text, location tags and internal links to relevant service pages.',
+      },
+      {
+        q: 'Do you build websites for bathroom fitters?',
+        a: 'Yes — fast, mobile-first bathroom fitter websites from £250 with proper service pages (full installations, wet rooms, ensuites, mobility bathrooms), project galleries and location pages. Most bathroom fitters do website + SEO together because the new site is built to rank from day one and the SEO work compounds faster.',
+      },
+    ],
+  },
+
+  'kitchen-fitters': {
+    name: 'Kitchen Fitters',
+    plural: 'Kitchen Fitters',
+    singular: 'Kitchen fitter',
+    slug: 'kitchen-fitters',
+    metaTitle: 'SEO for Kitchen Fitters in Bristol | Kitchen Install SEO | SEO Kings',
+    metaDescription:
+      'SEO for kitchen fitters in Bristol. Rank for "kitchen fitter Bristol", kitchen design, worktop and kitchen installation searches. From £150/month. Free audit.',
+    badge: 'SEO for Kitchen Fitters · Bristol · BS1–BS16',
+    h1: 'SEO for Kitchen Fitters in Bristol',
+    heroDescription:
+      'Kitchen installations are £8k-£30k projects where customers research for months. We build SEO campaigns that capture Bristol homeowners at every stage of the buying journey — early browsing, mid-funnel comparison, and late-stage "ready to book" searches.',
+    intro:
+      'Kitchen fitting sits in the same high-value, long-buying-cycle bracket as bathroom fitting and extensions. Customers plan, browse, compare, and only then book. The fitters that win this work are the ones that show up consistently across the entire journey — early blog content for "kitchen design ideas", comparison content for "kitchen fitter vs kitchen company", and conversion content for "kitchen fitter Bristol" with proper location pages. We build that full-funnel system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" to prove the methodology.',
+    services: [
+      'Kitchen installation SEO — rank for "kitchen fitter Bristol", "kitchen installer BS*", "kitchen renovation Bristol"',
+      'Kitchen design and supply SEO — "kitchen design Bristol", "kitchen company BS*", "Howdens kitchen installer", "Wren kitchen installer"',
+      'Worktop SEO — "worktop fitter Bristol", "quartz worktop installer", "granite worktop Bristol", "marble worktop"',
+      'Kitchen refit and small jobs SEO — "kitchen refit Bristol", "kitchen makeover", "kitchen unit replacement"',
+      'Map Pack optimisation — full GBP management with kitchen-specific categories, services and project photos',
+      'Project gallery SEO — image-optimised before/after galleries that rank in Google Images and convert at high rates',
+    ],
+    keywords: [
+      'kitchen fitter Bristol',
+      'kitchen installer Bristol',
+      'kitchen design Bristol',
+      'kitchen renovation Bristol',
+      'kitchen company Bristol',
+      'worktop fitter Bristol',
+      'kitchen fitter BS1',
+      'kitchen fitter BS5',
+      'kitchen fitter BS7',
+      'kitchen fitter BS16',
+      'quartz worktop Bristol',
+      'Howdens kitchen installer Bristol',
+    ],
+    result: 'Page one for "kitchen fitter Bristol" within 4 months',
+    resultDetail:
+      'Head term "kitchen fitter Bristol" typically reaches page one within 4-6 months. Specific terms like "worktop fitter Bristol" or "kitchen renovation Bristol" within 2-4 months. Location-specific terms often rank in 6-10 weeks.',
+    proof: '#1 organic ranking for "SEO Bristol" — proven the system on the most competitive local SEO keyword in the region.',
+    faqs: [
+      {
+        q: 'How long does SEO take for a Bristol kitchen fitter?',
+        a: 'Location-specific terms like "kitchen fitter Clifton" or "kitchen installer BS6" often rank within 6-10 weeks. Specific terms like "worktop fitter Bristol" or "kitchen renovation Bristol" take 2-4 months. The head term "kitchen fitter Bristol" is 4-6 months. We report monthly so you can see what\'s moving.',
+      },
+      {
+        q: 'How much does SEO cost for a kitchen fitter?',
+        a: '£150/month starting price. Most kitchen fitters are on the £200 tier. The maths work brilliantly for kitchen fitting because a single new installation pays for years of SEO. No lock-in contracts.',
+      },
+      {
+        q: 'Customers take months to decide. Does SEO work for that buying cycle?',
+        a: 'Yes — that long buying cycle is exactly why SEO works so well. Customers browse for weeks, comparing fitters and reading reviews. The fitter that shows up consistently in search results during that browsing period is the one that gets the call when they\'re ready to book. SEO compounds — every month of work makes the next enquiry easier to win.',
+      },
+      {
+        q: 'Should I have a project gallery?',
+        a: 'Yes — for kitchen fitters, the project gallery is the single highest-converting element. Customers want to see finished kitchens in similar property types (Georgian terraces, Victorian semis, modern flats) before they enquire. We build image-optimised project galleries with proper alt text, location tags and internal links to relevant service pages.',
+      },
+      {
+        q: 'Do you build websites for kitchen fitters?',
+        a: 'Yes — fast, mobile-first kitchen fitter websites from £250 with proper service pages (full installations, worktops, refits), project galleries and location pages. Most kitchen fitters do website + SEO together because the new site is built to rank from day one and the SEO work compounds faster.',
+      },
+    ],
+  },
+
+  plasterers: {
+    name: 'Plasterers',
+    plural: 'Plasterers',
+    singular: 'Plasterer',
+    slug: 'plasterers',
+    metaTitle: 'SEO for Plasterers in Bristol | Plastering & Rendering SEO | SEO Kings',
+    metaDescription:
+      'SEO for plasterers in Bristol. Rank for "plasterer Bristol", rendering, skimming and plastering searches. From £150/month. Free audit.',
+    badge: 'SEO for Plasterers · Bristol · BS1–BS16',
+    h1: 'SEO for Plasterers in Bristol',
+    heroDescription:
+      'Plastering, rendering, skimming, coving — Bristol plasterers serve both the new-build market and the renovation/refurbishment market. We build SEO campaigns that target both, with proper service pages for each plastering type and Map Pack visibility for the local search terms.',
+    intro:
+      'Plasterer search in Bristol is split between the domestic market (skimming, patching, small jobs) and the construction market (full house plastering, rendering, large commercial work). The plasterers that win the domestic market are visible in the Map Pack; the ones that win the construction market are visible to builders and developers searching for subcontractors. We build campaigns that target both audiences. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" to prove the methodology works at the most competitive level.',
+    services: [
+      'Skimming and re-skimming SEO — rank for "plasterer Bristol", "skim plaster Bristol", "re-skim walls", "plastering BS*"',
+      'Rendering SEO — "rendering Bristol", "external rendering BS*", "monocouche render", "silicone render", "lime render" (lots of Bath stone properties need lime work)',
+      'Coving and cornice SEO — "coving installer Bristol", "cornice fitter", "plaster moulding", "Victorian coving restoration"',
+      'Patch repair and small jobs SEO — "plaster repair Bristol", "patch plastering", "small plastering job" — these convert at very high rates',
+      'Map Pack optimisation — full GBP management with plasterer-specific categories, before/after photos and review strategy',
+      'Subcontractor B2B SEO — rank for "plastering subcontractor Bristol", "rendering contractor" to attract commercial enquiries from builders',
+    ],
+    keywords: [
+      'plasterer Bristol',
+      'plastering Bristol',
+      'skimming Bristol',
+      'rendering Bristol',
+      'coving installer Bristol',
+      'external rendering Bristol',
+      'plasterer BS1',
+      'plasterer BS5',
+      'plasterer BS7',
+      'plasterer BS16',
+      'monocouche render Bristol',
+      'lime render Bristol',
+    ],
+    result: 'Map Pack for "plasterer + Bristol area" within 4-8 weeks',
+    resultDetail:
+      'Map Pack rankings for "plasterer + Bristol area" terms typically appear within 4-8 weeks. Organic rankings for "rendering Bristol" and "coving installer Bristol" within 2-4 months. Subcontractor/B2B terms often rank faster because commercial intent is clear and competition is weaker.',
+    proof: '#1 organic ranking for "SEO Bristol" — applied the same system that ranks a £3k+/month keyword.',
+    faqs: [
+      {
+        q: 'How long does SEO take for a Bristol plasterer?',
+        a: 'Map Pack rankings for "plasterer + Bristol area" usually appear within 4-8 weeks. Organic rankings for "rendering Bristol" and "coving installer Bristol" take 2-4 months. Head term "plasterer Bristol" is 3-5 months. We report monthly so you can see exactly what\'s moving.',
+      },
+      {
+        q: 'How much does SEO cost for a plasterer?',
+        a: '£150/month starting price. Most plasterers are on the £150 or £200 tier — enough to cover technical SEO, GBP management, service page content, citation building and review generation. No lock-in contracts.',
+      },
+      {
+        q: 'I get most of my work from builders I know. Do I need SEO?',
+        a: 'Builder relationships are great but they cap your growth. SEO adds a direct-to-customer stream of enquiries from Bristol homeowners actively searching for plasterers — homeowners who need a skimming job, a patch repair, or coving work that the builders you know aren\'t taking on. It also makes you more attractive to new builders searching online for reliable plasterers. SEO works alongside builder relationships, not against them.',
+      },
+      {
+        q: 'Should I target rendering separately from skimming?',
+        a: 'Yes — different customers, different value, different search behaviour. Skimming customers are domestic and search in a hurry when they\'re redecorating. Rendering customers are often doing a full external renovation and shop around for months. We build dedicated pages for both so you rank for each customer type at the moment they\'re ready to book.',
+      },
+      {
+        q: 'Do you build websites for plasterers?',
+        a: 'Yes — fast, mobile-first plasterer websites from £250 with proper service pages (skimming, rendering, coving, patch repairs), before/after galleries and location pages. Most plasterers do website + SEO together because the new site is built to rank from day one and the SEO work compounds faster.',
+      },
+    ],
+  },
 };
 
 // Sibling industries for cross-linking on each page — each industry page
@@ -346,16 +665,16 @@ export const INDUSTRY_SIBLINGS = {
   builders: ['roofers', 'electricians', 'plumbers'],
   roofers: ['builders', 'cleaners', 'plumbers'],
   cleaners: ['builders', 'roofers', 'electricians'],
+  'heating-engineers': ['plumbers', 'electricians', 'bathroom-fitters'],
+  landscapers: ['builders', 'roofers', 'cleaners'],
+  'bathroom-fitters': ['kitchen-fitters', 'plumbers', 'heating-engineers'],
+  'kitchen-fitters': ['bathroom-fitters', 'builders', 'plumbers'],
+  plasterers: ['builders', 'cleaners', 'electricians'],
 };
 
-// Industries that exist but are not yet built (Phase 2). Referenced for
-// the "coming soon" indicator if you add them in the future.
-export const PHASE_2_INDUSTRIES = [
-  'heating-engineers',
-  'landscapers',
-  'bathroom-fitters',
-  'kitchen-fitters',
-  'plasterers',
+// Industries reserved for future expansion (Phase 3). These are the
+// remaining trades we don't yet have cluster pages for.
+export const PHASE_3_INDUSTRIES = [
   'drainage-engineers',
   'gas-engineers',
   'extension-builders',
