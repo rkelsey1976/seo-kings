@@ -6,6 +6,7 @@ import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import ServicePageHero from '../components/ServicePageHero';
+import { BRISTOL_INDUSTRIES } from '../constants/industries';
 
 const whatWeDo = [
   'Technical SEO: site speed, Core Web Vitals, crawlability, indexation — we fix what holds you back',
@@ -217,6 +218,51 @@ const SEOBristol = () => {
                 Looking for local SEO specifically? →
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry cluster — passes equity DOWN to industry pages and BACK UP via industry pages */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">SEO Bristol by trade</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              We build dedicated SEO campaigns for every Bristol trade
+            </h2>
+            <p className="text-gray-400 leading-relaxed">
+              Generic SEO doesn&apos;t work for trades. Plumbers, electricians,
+              builders, roofers and cleaners all have different search behaviour,
+              different customer types, and different commercial intent. These
+              pages target each trade specifically — Map Pack for emergency work,
+              organic results for project work, dedicated content for each
+              service type.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {Object.values(BRISTOL_INDUSTRIES).map((ind) => (
+              <Link
+                key={ind.slug}
+                href={`/seo/bristol/${ind.slug}`}
+                className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div className="text-2xl font-bold text-primary">
+                    {ind.plural}
+                  </div>
+                  <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+                <p className="text-gray-400 text-sm leading-relaxed mb-3">
+                  SEO for {ind.plural.toLowerCase()} in Bristol — Map Pack,
+                  organic rankings and review generation. From £150/month.
+                </p>
+                <div className="text-xs text-gray-500">
+                  {ind.services.length} service areas · {ind.faqs.length} FAQs
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
