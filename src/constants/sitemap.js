@@ -212,7 +212,7 @@ export const AREA_LINKS = [
 
 /** Static routes for XML sitemap: path, lastmod (YYYY-MM-DD), changefreq, priority */
 export const STATIC_ROUTES = [
-  { path: '/', lastmod: '2026-07-14', changefreq: 'weekly', priority: 1.0 },
+  { path: '/', lastmod: '2026-07-17', changefreq: 'weekly', priority: 1.0 },
   { path: '/about', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/how-we-are-different', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/contact', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },

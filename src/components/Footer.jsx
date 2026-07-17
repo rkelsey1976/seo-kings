@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-base font-bold text-white tracking-tight">SEO Kings</span>
             </Link>
             <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>
-              Website design and local SEO for trades and small businesses across Bath, Somerset and Wiltshire. Fast sites from £250. GBP optimisation from £100.
+              Website design and local SEO for trades and small businesses across Bath, Bristol, Somerset and Wiltshire. Fast sites from £250. GBP optimisation from £100.
             </p>
           </div>
 
@@ -34,6 +34,28 @@ const Footer = () => {
                   { label: 'Local SEO', href: '/local-seo' },
                   { label: 'Website Redesign', href: '/website-redesign' },
                   { label: 'Blog', href: '/blog' },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="text-sm transition-colors hover:text-white text-white/55"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Areas</p>
+              <ul className="space-y-2.5">
+                {[
+                  { label: 'Bath', href: '/areas/bath' },
+                  { label: 'Bristol', href: '/areas/bristol' },
+                  { label: 'Keynsham', href: '/areas/keynsham' },
+                  { label: 'Local SEO Bath', href: '/local-seo/bath' },
+                  { label: 'Local SEO Bristol', href: '/local-seo/bristol' },
+                  { label: 'All areas →', href: '/areas' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link

@@ -102,6 +102,7 @@ const homepageLocalBusinessSchema = {
   geo: { '@type': 'GeoCoordinates', latitude: 51.4139, longitude: -2.4989 },
   areaServed: [
     { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
+    { '@type': 'City', name: 'Bristol', sameAs: 'https://en.wikipedia.org/wiki/Bristol' },
     { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
     { '@type': 'City', name: 'Midsomer Norton', sameAs: 'https://en.wikipedia.org/wiki/Midsomer_Norton' },
     { '@type': 'City', name: 'Radstock', sameAs: 'https://en.wikipedia.org/wiki/Radstock' },
