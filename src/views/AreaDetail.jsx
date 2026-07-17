@@ -1608,8 +1608,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Odd Down is a large residential area in south Bath covering the Entry Hill and Bloomfield Road corridors. It\'s a predominantly family neighbourhood — a mix of older housing stock and more recent estates — with consistent demand for plumbers, electricians, heating engineers, builders, and decorators. A lot of the properties here are mid-20th century and older, which means boiler replacements, rewires, and renovation work come up regularly. Businesses serving Odd Down also naturally pick up work across nearby Combe Down, Bear Flat, and Peasedown St John.',
       extendedDescription: 'Competition for trade searches in Odd Down is lower than central Bath. A solid website and an optimised Google Business Profile are often enough to dominate the local map pack for plumbing, building, and electrical searches in the BA2 south postcode.',
+      introParagraphs: [
+        'Odd Down sits on Bath\'s southern plateau along the A367 — a big residential neighbourhood of post-war family homes, with the Park & Ride and playing fields marking its edge. For trades it\'s steady territory: family homeowners who need reliable plumbers, electricians and decorators, and far less competition for their searches than the city centre.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1620,6 +1623,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Lower competition than central Bath', text: 'Odd Down has fewer well-optimised trade websites than the city centre — quicker to get into the map pack.' },
         { title: 'Website & Google Profile combined', text: 'We build a fast website and optimise your Google Business Profile so both work together from day one.' },
         { title: 'Covers the wider BA2 south patch', text: 'Rank for Odd Down, Combe Down, Bear Flat, and Peasedown St John with one targeted campaign.' },
+        { title: 'A big southern customer base', text: 'Odd Down\'s family housing generates constant maintenance and improvement work — and most trades serving it still have no real web presence.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Odd Down, Bath.' },
@@ -1637,6 +1643,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Odd Down and Bath places to boost relevance.',
       stats: { businesses: '500+', monthlySearches: '25K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer odd down bath',
+        'website design odd down bath',
+        'web design ba2',
         'plumber Odd Down Bath',
         'electrician Odd Down Bath',
         'builder Odd Down Bath',
@@ -1655,6 +1664,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Odd Down specifically?', answer: 'Yes. We target Odd Down and the wider BA2 south area — Combe Down, Bear Flat, Peasedown St John — so you show up for local customers wherever they\'re searching from.' },
         { question: 'What types of businesses do you help in Odd Down?', answer: 'Mainly trades: plumbers, electricians, heating engineers, builders, decorators, and roofers. Odd Down\'s housing stock is older, which means steady demand for boiler work, rewires, and renovation jobs.' },
         { question: 'How much for a website in Odd Down?', answer: 'From £250 for a one-page starter site. A three-page professional site is from £350. We also offer a Google Business Profile optimisation add-on for £100 — combined with the website this is usually what gets you into the map pack.' },
+        { question: 'How much does website design cost in Odd Down?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Odd Down?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Odd Down and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1676,8 +1687,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Combe Down is a distinct village on the southern ridge of Bath — different in character from the estates below. It\'s a predominantly stone-built, middle-class community centred around The Avenue and The Firs, with Prior Park landscape garden on its doorstep and a direct connection to the UNESCO World Heritage Combe Down Stone Mines project. The housing stock is mostly Victorian and Edwardian stone houses, which means regular demand for stonemasons, heritage builders, plasterers, and decorators who understand period properties. Residents here expect quality work and are willing to pay for it.',
       extendedDescription: 'Trades serving Combe Down also pick up work from Odd Down, Bear Flat, and Peasedown St John. The search volume isn\'t huge but competition is low, and a well-built website with GBP optimisation gets into the local map pack quickly.',
+      introParagraphs: [
+        'Combe Down village sits on the southern hills above Bath, built from the very stone its mines once supplied. Period cottages and family homes mean regular work for builders, roofers and decorators who understand Bath stone — and villagers who prefer to hire someone local.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1688,6 +1702,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Heritage property demand', text: 'Combe Down\'s Victorian and Edwardian stone houses generate regular work for builders, plasterers, and decorators who handle period properties.' },
         { title: 'Low competition, quick wins', text: 'Very few local trades in Combe Down have a well-optimised web presence — it\'s one of the easier Bath postcodes to rank in.' },
         { title: 'Covers the BA2 south ridge', text: 'Target Combe Down, Odd Down, and Bear Flat with one campaign and pick up work across all three.' },
+        { title: 'Stone village, specialist work', text: 'Bath stone cottages need trades who know lime mortar and period materials — a targeted website puts you in front of exactly those customers.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Combe Down, Bath.' },
@@ -1705,6 +1722,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Combe Down and Bath places.',
       stats: { businesses: '400+', monthlySearches: '20K+', competitors: 'Medium', avgCPC: '£1.80' },
       localKeywords: [
+        'web designer combe down bath',
+        'website design combe down bath',
+        'web design ba2',
         'plumber Combe Down Bath',
         'electrician Combe Down Bath',
         'builder Combe Down Bath',
@@ -1722,6 +1742,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Combe Down?', answer: 'Yes. We target Combe Down specifically and the wider BA2 south area including Odd Down and Bear Flat, so you\'re visible for customers across the ridge.' },
         { question: 'Can you help with heritage property work in Combe Down?', answer: 'Yes — we work with builders, plasterers, stonemasons, and decorators who specialise in period and heritage properties. Combe Down\'s stone houses are exactly the kind of job that benefits from a targeted local web presence.' },
         { question: 'How much for a website in Combe Down?', answer: 'From £250 for a one-page site, £350 for three pages. Add the Google Business Profile optimisation for £100 and you have everything you need to appear in local searches and the map pack.' },
+        { question: 'How much does website design cost in Combe Down?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Combe Down?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Combe Down and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1743,8 +1765,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Widcombe is a characterful neighbourhood between Bath Spa station and Combe Down — one of Bath\'s most sought-after spots for those who want to be close to the city without living in the middle of it. Widcombe Hill, the steep lane connecting the area to Combe Down, is lined with Georgian and Victorian stone houses. Widcombe High Street has independent cafes, a handful of local businesses, and a village feel that sets it apart from the city centre. The mix of period properties, rental conversions, and family homes generates strong and consistent demand for plumbers, electricians, builders, and decorators who know Bath stone.',
       extendedDescription: 'Widcombe sits right on the doorstep of Bath Spa station, which brings in a mix of commuters and city workers who own or rent period properties — plenty of boiler call-outs, bathroom renovations, and kitchen upgrades to be won by the right trade.',
+      introParagraphs: [
+        'Widcombe is the village-in-the-city just south of Bath Spa station — independent shops on Widcombe Parade, Georgian terraces up the hill, and the Kennet & Avon canal running through. Affluent homeowners and independent businesses both need trades, and both search on Google first.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1755,6 +1780,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Period property demand', text: 'Georgian and Victorian houses along Widcombe Hill need trades who understand lime mortar, Bath stone, and period interiors — if you specialise in this, a targeted website brings in the right jobs.' },
         { title: 'Close to Bath city centre', text: 'Widcombe searches often blend with central Bath searches — we target both so you pick up enquiries from both areas.' },
         { title: 'Renters and landlords', text: 'The Widcombe area has a strong rental market. Landlords and letting agents need reliable trades on call — get visible on Google and you become their go-to.' },
+        { title: 'Independent parade, affluent hills', text: 'Widcombe Parade businesses need websites and fit-outs; the Georgian terraces above need period-property trades. One campaign reaches both.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Widcombe, Bath.' },
@@ -1772,6 +1800,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Widcombe and Bath places.',
       stats: { businesses: '350+', monthlySearches: '18K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer widcombe bath',
+        'website design widcombe bath',
+        'web design ba2',
         'plumber Widcombe Bath',
         'electrician Widcombe Bath',
         'builder Widcombe Bath',
@@ -1789,6 +1820,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Widcombe?', answer: 'Yes. We target Widcombe specifically — including Widcombe Hill, Widcombe High Street, and the station area — and combine it with broader Bath targeting so you pick up enquiries from across the city.' },
         { question: 'Can you help me target landlords and letting agents in Widcombe?', answer: 'Yes. Widcombe has a strong rental market. We can structure your website and GBP to appeal to both homeowners and landlords looking for reliable trades in Bath BA2.' },
         { question: 'How much for a website in Widcombe?', answer: 'From £250 for a one-page site. We also offer a GBP optimisation add-on for £100 which, combined with the website, gives you the best chance of appearing in the local map pack.' },
+        { question: 'How much does website design cost in Widcombe?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Widcombe?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Widcombe and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1810,8 +1843,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Larkhall is one of Bath\'s most characterful neighbourhoods — a north-city enclave with a proper village feel, built around St Saviour\'s Road and its cluster of independent shops, cafes, and a popular street market on Saturday mornings. It\'s predominantly Victorian terraces and family homes, with a mix of owner-occupiers and renters who need reliable local trades. Plumbers, electricians, builders, and gardeners all do well here — word of mouth is strong, but the trades who also have a Google presence win the enquiries that come from outside the local network.',
       extendedDescription: 'Larkhall\'s proximity to central Bath means residents searching "electrician Larkhall" or "plumber Bath" are often looking for the same service. We target both so you cover the full patch.',
+      introParagraphs: [
+        'Larkhall has its own village feel — a square with independent shops, the Rondo Theatre, and streets of Victorian terraces that generate steady renovation work. It\'s a loyal, local-first community: rank for Larkhall searches and word of mouth does the rest.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA1, BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1822,6 +1858,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Village feel, city demand', text: 'Larkhall feels like a village but is part of Bath — you get community-level trust combined with city-level search volume for local trades.' },
         { title: 'Victorian housing stock', text: 'The terraced streets around St Saviour\'s Road generate steady work for plumbers, electricians, decorators, and builders doing Victorian property work.' },
         { title: 'Covers BA1 north Bath', text: 'Rank for Larkhall and we target Weston, Walcot, and north Bath too — one campaign covering the full upper city patch.' },
+        { title: 'A village that hires local', text: 'Larkhall residents prefer local trades — showing up for "builder Larkhall" or "decorator BA1" makes you the default choice.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Larkhall, Bath.' },
@@ -1839,6 +1878,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Larkhall and Bath places.',
       stats: { businesses: '400+', monthlySearches: '22K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer larkhall bath',
+        'website design larkhall bath',
+        'web design ba1',
         'plumber Larkhall Bath',
         'electrician Larkhall Bath',
         'builder Larkhall Bath',
@@ -1856,6 +1898,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Larkhall?', answer: 'Yes. We target Larkhall specifically and combine it with broader Bath targeting so you pick up searches from across north Bath — including Weston, Walcot, and the London Road corridor.' },
         { question: 'What trades do well in Larkhall?', answer: 'Plumbers, electricians, builders, and decorators all do well here. The area\'s Victorian terraces mean steady demand for maintenance work, bathroom refits, and period property decorating. Gardeners also do well given the mix of garden properties.' },
         { question: 'How much for a website in Larkhall?', answer: 'From £250 for a one-page site, £350 for three pages. Add the GBP optimisation for £100 and you\'re set up to appear in local map pack results for trade searches in Larkhall and north Bath.' },
+        { question: 'How much does website design cost in Larkhall?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Larkhall?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Larkhall and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1877,8 +1921,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Twerton is a working-class neighbourhood on the western edge of Bath — home to Bath City FC at Twerton Park, a stretch of the River Avon, and the Western Riverside development that\'s brought new housing to the area. It\'s a dense residential community with a mix of social housing and private homes, and one of Bath\'s more affordable neighbourhoods. Demand for trades is strong and price-conscious: plumbers dealing with older properties, electricians rewiring pre-war housing, builders working on the newer Western Riverside builds, and decorators covering the lot.',
       extendedDescription: 'Twerton is underserved digitally — most trades here rely on word of mouth. A website with an optimised GBP gets into the local map pack fast, and picks up enquiries from customers across west Bath and Saltford too.',
+      introParagraphs: [
+        'Twerton, on Bath\'s western edge, mixes long-established streets with the new Western Riverside development — hundreds of new homes needing fit-outs and maintenance alongside pre-war housing needing rewires and repairs. Hardly any trades target it online, which is the opportunity.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1889,6 +1936,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Western Riverside is growing', text: 'The Western Riverside development has brought hundreds of new homes to Twerton — all needing trades as they\'re fitted out and maintained.' },
         { title: 'Older housing stock needs work', text: 'Pre-war housing in Twerton generates consistent demand for rewires, boiler replacements, and structural repairs. Be visible and you get the calls.' },
         { title: 'Covers west Bath and Saltford', text: 'A Twerton-targeted campaign naturally picks up Oldfield Park, Weston, and Saltford too — you\'re covering the full west Bath patch.' },
+        { title: 'First-mover advantage', text: 'Most Twerton trades still run on word of mouth — the first in each trade with a proper website takes the map pack.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Twerton, Bath.' },
@@ -1906,6 +1956,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Twerton and Bath places.',
       stats: { businesses: '350+', monthlySearches: '18K+', competitors: 'Medium', avgCPC: '£1.80' },
       localKeywords: [
+        'web designer twerton bath',
+        'website design twerton bath',
+        'web design ba2',
         'plumber Twerton Bath',
         'electrician Twerton Bath',
         'builder Twerton Bath',
@@ -1923,6 +1976,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Twerton?', answer: 'Yes. We target Twerton, the Western Riverside area, and west Bath generally — combining it with broader Bath targeting so you pick up enquiries from across the city.' },
         { question: 'Is Twerton competitive for local SEO?', answer: 'Very low competition. Most trades in Twerton have no website and rely on word of mouth, so a well-built site with an optimised GBP can get into the local map pack quickly.' },
         { question: 'How much for a website in Twerton?', answer: 'From £250 for a one-page site. The GBP optimisation add-on (£100) is worth combining with it — together they give you the best shot at appearing in map pack results for trade searches in Twerton and west Bath.' },
+        { question: 'How much does website design cost in Twerton?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Twerton?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Twerton and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -1944,8 +1999,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Weston is a historic village that\'s been absorbed into the north-west edge of Bath — it still feels distinct, with its own high street, St John\'s Church, and a mix of detached houses and Victorian semis on the slopes above the city. The area is largely owner-occupied and relatively affluent, attracting families who commute to Bristol or work in Bath. Demand for trades here tends to be for quality work: builders and landscapers handling well-established gardens and extensions, plumbers dealing with older plumbing, heating engineers replacing ageing boiler systems.',
       extendedDescription: 'Weston sits on the BA1 postcode and residents often search across Weston and central Bath. We target both so you cover the full north-west Bath patch and don\'t miss enquiries from adjacent Newbridge or Kelston Road.',
+      introParagraphs: [
+        'Weston village, in Bath\'s north-west corner, keeps its own high street and identity — surrounded by some of the city\'s most desirable family housing up towards Lansdown. Homeowners here invest in their properties and research trades before they call.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA1', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -1956,6 +2014,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Quality jobs from homeowners', text: 'Weston\'s owner-occupied housing means customers are looking for reliable, quality trades for planned extensions, kitchen refits, and garden projects.' },
         { title: 'Village character, city postcode', text: 'Weston\'s BA1 postcode keeps it within Bath search results — you rank for both the village and the city.' },
         { title: 'Gardens and landscaping demand', text: 'Weston properties tend to have gardens. Landscapers and garden maintenance businesses do particularly well here.' },
+        { title: 'Family homes that invest', text: 'Weston\'s housing stock generates repeat, high-value work — extensions, kitchens, redecoration — for trades visible on Google.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Weston, Bath.' },
@@ -1973,6 +2034,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Weston and Bath places.',
       stats: { businesses: '400+', monthlySearches: '20K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer weston bath',
+        'website design weston bath',
+        'web design ba1',
         'plumber Weston Bath',
         'electrician Weston Bath',
         'builder Weston Bath',
@@ -1990,6 +2054,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Weston, Bath?', answer: 'Yes — Weston specifically, plus the broader BA1 north Bath area including Newbridge and Kelston Road, so you pick up all the relevant searches.' },
         { question: 'What trades do well in Weston?', answer: 'Builders doing extensions and loft conversions, landscapers, heating engineers, and decorators do particularly well. Weston\'s owner-occupied housing generates planned, quality work rather than just call-outs.' },
         { question: 'How much for a website in Weston?', answer: 'From £250 for a one-page site, £350 for three pages. Adding GBP optimisation (£100) gives you the best shot at appearing in the map pack when customers search for trades in Weston and north Bath.' },
+        { question: 'How much does website design cost in Weston?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Weston?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Weston and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2011,8 +2077,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Oldfield Park is a dense Victorian neighbourhood south of the River Avon, close to Bath Spa station and Green Park. It\'s one of Bath\'s most populated residential areas — packed with terraced housing, a significant student and young professional community, and a mix of owner-occupiers and rental properties. The high density of rental housing means consistent demand for tradespeople: landlords needing EICRs and Gas Safe certificates, letting agents looking for reliable plumbers and electricians, and homeowners tackling the kind of Victorian property maintenance that never fully goes away.',
       extendedDescription: 'Oldfield Park is also home to a mix of independent shops and businesses along Moorland Road, so digital visibility here helps both consumer trades and service businesses pick up local work.',
+      introParagraphs: [
+        'Oldfield Park is one of Bath\'s busiest residential neighbourhoods — Victorian terraces shared between families, professionals and students, with the Moorland Road shops at its heart. The rental stock means landlords constantly need reliable trades at short notice.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2023,6 +2092,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Rental market demand', text: 'High rental density means landlords need compliant electrical, gas, and plumbing work regularly. Getting visible here means becoming the go-to trade for letting agents across Bath.' },
         { title: 'Student and young professional mix', text: 'HMO properties need frequent maintenance — a visible online presence gets you the landlord relationship before competitors do.' },
         { title: 'Moorland Road commercial strip', text: 'Independent businesses along Moorland Road also need trades for their premises — retail fit-outs, electrical upgrades, and commercial plumbing jobs.' },
+        { title: 'Landlord and letting demand', text: 'Student and professional rentals around Moorland Road mean landlords who need plumbers, electricians and decorators they can call again and again.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Oldfield Park, Bath.' },
@@ -2040,6 +2112,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Oldfield Park and Bath places.',
       stats: { businesses: '450+', monthlySearches: '22K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer oldfield park bath',
+        'website design oldfield park bath',
+        'web design ba2',
         'plumber Oldfield Park Bath',
         'electrician Oldfield Park Bath',
         'builder Oldfield Park Bath',
@@ -2057,6 +2132,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Oldfield Park?', answer: 'Yes. We target Oldfield Park and the wider BA2 south city area including Twerton, Bear Flat, and Widcombe so you pick up enquiries across south Bath.' },
         { question: 'Can you help me target landlords in Oldfield Park?', answer: 'Absolutely. Oldfield Park has a high density of rental properties — we can structure your website and GBP to appeal to landlords and letting agents searching for certified trades in Bath.' },
         { question: 'How much for a website covering Oldfield Park?', answer: 'From £250. Add the GBP optimisation for £100 and you\'re set up to appear when landlords, letting agents, and homeowners search for trades in Oldfield Park and south Bath.' },
+        { question: 'How much does website design cost in Oldfield Park?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Oldfield Park?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Oldfield Park and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2078,8 +2155,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bear Flat is one of Bath\'s most desirable south-city neighbourhoods — a hilltop community with its own distinct high street along Bear Flat Road, a mix of independent cafes, delis, and local shops, and predominantly stone Victorian and Edwardian houses. It sits on the ridge between Oldfield Park and Combe Down, and residents tend to be professional families and established owner-occupiers. Demand for quality trades is strong: builders and decorators working on period homes, heating engineers replacing ageing systems, and landscapers tackling the area\'s generous stone-walled gardens.',
       extendedDescription: 'Bear Flat\'s affluent demographic means customers are looking for quality work and are prepared to pay for it. Trades who show up professionally on Google and have good reviews win the best jobs here.',
+      introParagraphs: [
+        'Bear Flat sits just above the city centre on the Wellsway, its Poets\' Corner streets of Edwardian villas among Bath\'s most sought-after family addresses. Owners here maintain their homes properly and choose trades carefully — usually starting with a Google search.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2090,6 +2170,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Quality work from quality customers', text: 'Bear Flat\'s professional families and homeowners invest in their properties — extensions, refurbishments, landscaping, and quality finishes.' },
         { title: 'Stone houses need specialist trades', text: 'Period stone houses along the Bear Flat ridge need builders and decorators who understand lime mortar and period materials — market your specialism and stand out.' },
         { title: 'Google reviews carry weight here', text: 'In an area where word of mouth is strong, positive Google reviews tip undecided customers your way. We set up your profile so reviews are easy to collect.' },
+        { title: 'Poets\' Corner property work', text: 'Edwardian villas mean lofts, extensions, sash windows and redecoration — quality work for trades who show up when Bear Flat searches.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bear Flat, Bath.' },
@@ -2107,6 +2190,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Bear Flat and Bath places.',
       stats: { businesses: '380+', monthlySearches: '19K+', competitors: 'Medium', avgCPC: '£1.90' },
       localKeywords: [
+        'web designer bear flat bath',
+        'website design bear flat bath',
+        'web design ba2',
         'plumber Bear Flat Bath',
         'electrician Bear Flat Bath',
         'builder Bear Flat Bath',
@@ -2124,6 +2210,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Bear Flat?', answer: 'Yes. We target Bear Flat and the wider south Bath area including Combe Down, Odd Down, and Southdown — so you pick up enquiries across the BA2 ridge.' },
         { question: 'What type of customers can I reach in Bear Flat?', answer: 'Predominantly professional families and homeowners in period stone properties. The area generates quality planned work — extensions, refurbishments, landscaping, and heritage decorating — rather than just emergency call-outs.' },
         { question: 'How much for a website in Bear Flat?', answer: 'From £250 for a one-page site, £350 for three pages. Bear Flat customers value quality, so a professionally designed site gives you a clear advantage over trades with no web presence.' },
+        { question: 'How much does website design cost in Bear Flat?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Bear Flat?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Bear Flat and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2145,8 +2233,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathampton is a quiet village on the eastern edge of Bath, strung along the Kennet & Avon Canal between Bathwick and Batheaston. It\'s a well-established, largely owner-occupied community — stone houses, riverside cottages, and a handful of larger properties on the hillside. The George Inn is a local landmark. Residents tend to be professional families and retirees who prefer village life with easy access to Bath. Demand for trades runs to builders handling extensions and renovations, plumbers dealing with older plumbing, and landscapers working on the area\'s sizeable gardens.',
       extendedDescription: 'Bathampton is small in population but sits in a cluster of similar villages — Bathwick, Batheaston, and Bathford — so a trade serving Bathampton naturally picks up work across the whole east Bath corridor.',
+      introParagraphs: [
+        'Bathampton village sits on the canal two miles east of Bath, its stone houses and waterside setting making it one of the city\'s most desirable fringes. Combined with Bathwick and the eastern villages, it\'s a quality patch for trades who target it directly.',
+      ],
       heroStats: [
-        { value: 'Near', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2157,6 +2248,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'East Bath corridor coverage', text: 'Target Bathampton and you naturally cover Bathwick, Batheaston, and Bathford — a single campaign serving a connected cluster of well-off villages.' },
         { title: 'Canal-side and hillside properties', text: 'Bathampton\'s mix of canal-side cottages and hill properties generates landscaping, drainage, and structural work that\'s harder to win without a web presence.' },
         { title: 'Low competition, quality customers', text: 'Very few trades specifically target Bathampton — get in first and you\'re the go-to for the whole east Bath village cluster.' },
+        { title: 'Canal-side village demand', text: 'Stone properties and mature gardens mean steady work for builders, decorators and landscapers — with almost no local online competition.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathampton, near Bath.' },
@@ -2174,6 +2268,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Bathampton and Bath places.',
       stats: { businesses: '280+', monthlySearches: '14K+', competitors: 'Low-Medium', avgCPC: '£1.70' },
       localKeywords: [
+        'web designer bathampton',
+        'website design bathampton',
+        'web design ba2',
         'plumber Bathampton Bath',
         'electrician Bathampton Bath',
         'builder Bathampton Bath',
@@ -2191,6 +2288,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Bathampton?', answer: 'Yes. We target Bathampton and the east Bath village cluster — Bathwick, Batheaston, and Bathford — so you\'re visible across the whole corridor.' },
         { question: 'Is Bathampton worth targeting as a trade?', answer: 'Yes. The village is small but the surrounding cluster of east Bath villages gives you a good-sized patch of quality, owner-occupied properties. Landscapers, builders, plumbers, and electricians all do well here.' },
         { question: 'How much for a website covering Bathampton?', answer: 'From £250. Because Bathampton sits within a cluster of villages, we structure the targeting to cover Bathwick, Batheaston, and Bathford too — so you get maximum reach from one site.' },
+        { question: 'How much does website design cost in Bathampton?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Bathampton?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Bathampton and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2212,8 +2311,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathwick is an elegant area on the eastern edge of Bath city centre — home to Sydney Gardens (Bath\'s only surviving 18th-century pleasure garden), the Kennet & Avon Canal, and the eastern end of Great Pulteney Street. It\'s a mix of Georgian and Victorian townhouses, many divided into flats, and a significant student population due to proximity to the University of Bath\'s Claverton Down campus. The combination of period properties, rental conversions, and student HMOs creates consistent demand for electricians, plumbers, and decorators — with an additional layer of quality homeowner work from the Georgian terraces on the canal side.',
       extendedDescription: 'Bathwick\'s central location means trade searches here often overlap with central Bath. We target Bathwick alongside Bath city to ensure you don\'t miss any enquiries from the eastern city centre.',
+      introParagraphs: [
+        'Bathwick is Bath\'s grand east side — Great Pulteney Street, Sydney Gardens and the Holburne Museum, with some of the city\'s most valuable Georgian property. Owners and managing agents here expect polished, professional trades and check credentials online first.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2224,6 +2326,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'HMO and rental property demand', text: 'The student population in Bathwick means landlords regularly need electrical certificates, gas inspections, and plumbing call-outs.' },
         { title: 'Georgian property work', text: 'The Georgian and Victorian townhouses on the canal side need specialist trades for lime plaster, sash window repairs, and period decorating.' },
         { title: 'Close to city centre', text: 'Bathwick searches blend with central Bath searches — we target both so you pick up enquiries from across the east city.' },
+        { title: 'Georgian property, premium work', text: 'Listed terraces off Great Pulteney Street need specialist trades — the work pays well and a credible website wins it.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathwick, Bath.' },
@@ -2241,6 +2346,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Bathwick and Bath places.',
       stats: { businesses: '400+', monthlySearches: '20K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer bathwick bath',
+        'website design bathwick bath',
+        'web design ba2',
         'plumber Bathwick Bath',
         'electrician Bathwick Bath',
         'builder Bathwick Bath',
@@ -2258,6 +2366,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Bathwick?', answer: 'Yes. We target Bathwick and combine it with central Bath targeting so you\'re visible for searches from both the eastern city and the canal-side areas.' },
         { question: 'Can you help me target landlords and letting agents in Bathwick?', answer: 'Yes. Bathwick has a significant rental and student HMO market. We structure your website and GBP to appear for landlord-relevant searches — EICRs, gas safety certificates, emergency plumbers in Bath.' },
         { question: 'How much for a website covering Bathwick?', answer: 'From £250 for a one-page site. The GBP optimisation add-on (£100) is particularly valuable here — it gets you into map pack results for electrician and plumber searches in Bathwick and east Bath.' },
+        { question: 'How much does website design cost in Bathwick?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Bathwick?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Bathwick and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2279,8 +2389,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Southdown is a settled residential neighbourhood in south Bath, bounded by Bear Flat to the north and Odd Down to the south. It\'s a largely family area — a mix of 1930s semis and some earlier terraces, sitting along the Bloomfield Road and Southdown Road corridors. It\'s not as well-known as Bear Flat, which means less digital competition and easier rankings for trades. Southdown residents search for the same services as the rest of south Bath — plumbers, electricians, builders, decorators, heating engineers — and often use Bath as a catch-all location rather than the neighbourhood name.',
       extendedDescription: 'Trades covering Southdown naturally serve Bear Flat, Odd Down, and Combe Down too — one website targeting the BA2 south ridge covers the whole patch.',
+      introParagraphs: [
+        'Southdown, on the south-western slopes, is one of Bath\'s biggest family neighbourhoods — streets of solid inter-war semis with long-term residents who look after their homes. Steady, repeat trade work with far less competition than central Bath.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA2', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2291,6 +2404,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Lower competition than Bear Flat', text: 'Fewer trades specifically target Southdown compared to Bear Flat or Odd Down — easier to get into the map pack here.' },
         { title: '1930s housing stock needs maintenance', text: 'Semi-detached properties from the 1930s need regular boiler upgrades, rewires, and damp treatment — steady bread-and-butter work for the right trades.' },
         { title: 'Covers the BA2 south corridor', text: 'Target Southdown and we also cover Bear Flat, Odd Down, and Combe Down so you\'re visible across the full south ridge.' },
+        { title: 'Solid, repeat family work', text: 'Southdown\'s semis need kitchens, bathrooms, rewires and decorating on a steady cycle — be visible and the repeat work follows.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Southdown, Bath.' },
@@ -2308,6 +2424,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Southdown and Bath places.',
       stats: { businesses: '380+', monthlySearches: '18K+', competitors: 'Medium', avgCPC: '£1.90' },
       localKeywords: [
+        'web designer southdown bath',
+        'website design southdown bath',
+        'web design ba2',
         'plumber Southdown Bath',
         'electrician Southdown Bath',
         'builder Southdown Bath',
@@ -2325,6 +2444,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Southdown?', answer: 'Yes. We target Southdown and the wider BA2 south Bath area — Bear Flat, Odd Down, and Combe Down — so you pick up enquiries across the ridge.' },
         { question: 'Is Southdown worth targeting for a trade website?', answer: 'Yes — and the competition is lower than better-known areas like Bear Flat. If you cover south Bath generally, having Southdown in your targeting means you pick up enquiries that more centralised competitors miss.' },
         { question: 'How much for a website covering Southdown?', answer: 'From £250. We structure the site to cover Southdown, Bear Flat, and Odd Down in one campaign so you get maximum reach across south Bath.' },
+        { question: 'How much does website design cost in Southdown?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Southdown?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Southdown and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2346,8 +2467,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Batheaston is a sizeable village east of Bath along the A4 — it\'s grown considerably with modern housing development and now has a population large enough to sustain local trade demand in its own right. The village has a primary school, a Co-op, a village hall, and a mix of older stone houses alongside newer private estates. Residents here tend to be families and working professionals who have chosen a village setting within easy commuting distance of Bath and Bristol. Demand for trades covers all the usual: plumbers, electricians, builders doing extensions, decorators, and heating engineers.',
       extendedDescription: 'Batheaston sits on the A4 corridor to Box and Corsham, so a trade visible in Batheaston also picks up searches from Bathampton, Bathford, and the surrounding villages along the route.',
+      introParagraphs: [
+        'Batheaston runs along the Avon valley east of Bath, a proper village with its own shops and school. With Bathford and Bathampton alongside, the eastern villages form a quality cluster for trades covering the A4 corridor.',
+      ],
       heroStats: [
-        { value: 'Near', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA1', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2358,6 +2482,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'New housing needs new services', text: 'Modern estates around Batheaston need plumbers, electricians, and builders for snag lists, extensions, and upgrades as properties age.' },
         { title: 'A4 corridor reach', text: 'Rank in Batheaston and you pick up searches from Bathampton, Bathford, and Box too — a natural east Bath cluster for one campaign.' },
         { title: 'Families and commuters', text: 'The demographic is working families and commuters — reliable, planned work rather than emergency-only call-outs, with good average job values.' },
+        { title: 'The A4 village corridor', text: 'Target Batheaston with Bathford and Bathampton and one campaign covers the whole eastern approach to Bath.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Batheaston, near Bath.' },
@@ -2375,6 +2502,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Batheaston and Bath places.',
       stats: { businesses: '300+', monthlySearches: '15K+', competitors: 'Low-Medium', avgCPC: '£1.70' },
       localKeywords: [
+        'web designer batheaston',
+        'website design batheaston',
+        'web design ba1',
         'plumber Batheaston Bath',
         'electrician Batheaston Bath',
         'builder Batheaston Bath',
@@ -2392,6 +2522,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Batheaston?', answer: 'Yes. We target Batheaston specifically and the A4 east Bath corridor — Bathampton, Bathford, and Box — so you\'re visible across the full eastern patch.' },
         { question: 'Is Batheaston worth targeting as a trade?', answer: 'Yes. The village has grown significantly and has real residential density. Combined with the adjacent villages along the A4, there\'s a good patch of work to be won — and competition from Bath-based trades is low for the specifically village-area searches.' },
         { question: 'How much for a website covering Batheaston?', answer: 'From £250 for a one-page site. We structure the targeting to cover Batheaston and the surrounding A4 villages so you get maximum reach from one campaign.' },
+        { question: 'How much does website design cost in Batheaston?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Batheaston?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Batheaston and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2413,8 +2545,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Walcot is a distinct neighbourhood at the northern edge of Bath city centre, best known for Walcot Street — Bath\'s most bohemian strip, lined with antique dealers, independent retailers, craft businesses, and the occasional gallery. Beyond the street, the area transitions into a mix of period flats and terraced housing spread up the slopes towards Larkhall. It\'s a creative, mixed community — independent business owners, artists, young professionals, and long-established residents — all of whom need local trades when things go wrong or when they\'re improving their period properties.',
       extendedDescription: 'Walcot\'s proximity to the city centre means trade searches here overlap heavily with central Bath. We target both together so you don\'t lose enquiries from either.',
+      introParagraphs: [
+        'Walcot Street calls itself Bath\'s artisan quarter — antiques, independents and craft businesses on the street, with period flats and terraces climbing towards Larkhall behind. Independent businesses and period-property owners both find their trades on Google.',
+      ],
       heroStats: [
-        { value: 'Part of', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA1', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2425,6 +2560,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Independent business and residential mix', text: 'Walcot Street businesses need trades for fit-outs and maintenance. The surrounding residential areas need the same trades for their period homes.' },
         { title: 'Period property demand', text: 'The terraces and period flats in Walcot generate steady demand for decorators, plasterers, and builders who understand older properties.' },
         { title: 'Close enough to target central Bath', text: 'A Walcot campaign also captures city centre searches — one targeted site covers the upper city from Walcot to Larkhall and across to the London Road.' },
+        { title: 'Artisan quarter fit-outs', text: 'Walcot Street shops and studios need fit-outs and maintenance; the terraces behind need period-property trades. Both search locally.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Walcot, Bath.' },
@@ -2442,6 +2580,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Walcot and Bath places.',
       stats: { businesses: '420+', monthlySearches: '21K+', competitors: 'Medium', avgCPC: '£2.00' },
       localKeywords: [
+        'web designer walcot bath',
+        'website design walcot bath',
+        'web design ba1',
         'plumber Walcot Bath',
         'electrician Walcot Bath',
         'builder Walcot Bath',
@@ -2459,6 +2600,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Walcot?', answer: 'Yes. We target Walcot and combine it with Bath city centre and Larkhall targeting, so you\'re visible for the full upper city north corridor.' },
         { question: 'Can you help independent businesses on Walcot Street?', answer: 'Yes. We work with both trades and independent businesses. If you run a shop, studio, or service business along Walcot Street and need a website and local visibility, we can help from £250.' },
         { question: 'How much for a website covering Walcot?', answer: 'From £250 for a one-page site. Because Walcot is close to the city centre, the site and GBP naturally picks up Bath-wide searches too — good value for the targeting you get.' },
+        { question: 'How much does website design cost in Walcot?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Walcot?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Walcot and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
@@ -2480,8 +2623,11 @@ const AreaDetail = ({ params: staticParams }) => {
       heroSubhead: 'From £250. We also offer SEO add-ons so you get found on Google.',
       description: 'Bathford is a small and thoroughly pleasant village on the eastern edge of Bath, tucked into the valley of the By Brook where it meets the Avon. It\'s a village of stone houses and country lanes, with St Swithin\'s Church as its centrepiece and a strong sense of quiet rural community that\'s rare this close to a city. Residents are predominantly affluent homeowners — many with sizeable stone properties that need specialist trades for maintenance and renovation. Builders experienced in Bath stone and lime mortar, decorators who understand period interiors, landscapers working with dry-stone walls and mature gardens — these are the trades that do well in Bathford.',
       extendedDescription: 'Bathford\'s small population means hyperlocal search volume is low, but combined with Batheaston, Box, and Bathampton, a trade visible across the east Bath A4 corridor picks up a worthwhile cluster of quality jobs.',
+      introParagraphs: [
+        'Bathford climbs the hillside where the By Brook meets the Avon east of Bath — a quiet, affluent stone village whose properties need specialist care. Very few trades target it directly online, so the first to do so becomes the village default.',
+      ],
       heroStats: [
-        { value: 'Near', label: 'Bath' },
+        { value: '£250', label: 'Websites From' },
         { value: 'BA1', label: 'Postcode' },
         { value: 'Top 3', label: 'Map Pack Positions Achieved' },
         { value: '5★', label: 'Rated' },
@@ -2492,6 +2638,9 @@ const AreaDetail = ({ params: staticParams }) => {
         { title: 'Specialist stone property work', text: 'Bathford\'s stone houses need builders and decorators who understand Bath stone, lime mortar, and period materials. If that\'s your specialism, a targeted website gets you in front of exactly the right customers.' },
         { title: 'Low competition, quality customers', text: 'Almost no trades specifically target Bathford online — the first to do so becomes the default choice for the whole village.' },
         { title: 'Covers the east Bath village cluster', text: 'We target Bathford alongside Batheaston, Bathampton, and Box so you cover the full A36/A4 eastern corridor with one campaign.' },
+        { title: 'Affluent village, no competition', text: 'Bathford homeowners pay for quality work on stone properties — and almost nobody targets their searches specifically.' },
+        { title: 'Website & Google, together', text: 'A fast website plus an optimised Google Business Profile so you appear in search and the map pack.' },
+        { title: 'Clear, honest pricing', text: 'Websites from £250, no hidden fees, no long contracts.' },
       ],
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250. Our main service in Bathford, near Bath.' },
@@ -2509,6 +2658,9 @@ const AreaDetail = ({ params: staticParams }) => {
       landmarksIntro: 'We reference local Bathford and Bath places.',
       stats: { businesses: '280+', monthlySearches: '14K+', competitors: 'Low-Medium', avgCPC: '£1.70' },
       localKeywords: [
+        'web designer bathford',
+        'website design bathford',
+        'web design ba1',
         'plumber Bathford Bath',
         'electrician Bathford Bath',
         'builder Bathford Bath',
@@ -2526,6 +2678,8 @@ const AreaDetail = ({ params: staticParams }) => {
         { question: 'Do you cover Bathford?', answer: 'Yes. We target Bathford and the east Bath village cluster — Batheaston, Bathampton, and Box — so you pick up searches across the whole eastern corridor.' },
         { question: 'What trades do well in Bathford?', answer: 'Builders experienced in Bath stone and lime mortar, decorators doing period interiors, landscapers working with dry-stone walls and established gardens. The village has affluent homeowners who invest in quality work.' },
         { question: 'How much for a website covering Bathford?', answer: 'From £250. Because Bathford sits in a cluster of east Bath villages, we combine the targeting so one campaign covers the full patch — better return on the investment.' },
+        { question: 'How much does website design cost in Bathford?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for 6 months, then £50/year.' },
+        { question: 'Can you get my business into the Google map pack in Bathford?', answer: 'Yes. Google Business Profile optimisation at £100 gets your listing set up correctly, and local SEO from £150/month targets Bathford and Bath searches to help you rank in the map pack.' },
       ],
       howItWorks: [
         { title: 'Free check', description: 'We review your website and Google listing.' },
