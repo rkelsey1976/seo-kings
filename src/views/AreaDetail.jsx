@@ -3753,6 +3753,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'kingswood': {
       name: 'Kingswood',
       fullName: 'Kingswood, Bristol',
+      parentSlug: 'bristol',
       county: 'South Gloucestershire',
       postcodes: ['BS15'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -3820,6 +3821,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'brislington': {
       name: 'Brislington',
       fullName: 'Brislington, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS4'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -3887,6 +3889,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'whitchurch-bristol': {
       name: 'Whitchurch',
       fullName: 'Whitchurch, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS14'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -3953,6 +3956,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'knowle-bristol': {
       name: 'Knowle',
       fullName: 'Knowle, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS4'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4019,6 +4023,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'stockwood-bristol': {
       name: 'Stockwood',
       fullName: 'Stockwood, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS14'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4085,6 +4090,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'bedminster-bristol': {
       name: 'Bedminster',
       fullName: 'Bedminster, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS3', 'BS13'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4161,6 +4167,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'southville-bristol': {
       name: 'Southville',
       fullName: 'Southville, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS3'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4237,6 +4244,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'long-ashton-bristol': {
       name: 'Long Ashton',
       fullName: 'Long Ashton, North Somerset',
+      parentSlug: 'bristol',
       county: 'North Somerset',
       postcodes: ['BS41'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4308,6 +4316,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'yate-bristol': {
       name: 'Yate',
       fullName: 'Yate, South Gloucestershire',
+      parentSlug: 'bristol',
       county: 'South Gloucestershire',
       postcodes: ['BS37'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4384,6 +4393,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'clifton-bristol': {
       name: 'Clifton',
       fullName: 'Clifton, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS8'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4461,6 +4471,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'horfield-bristol': {
       name: 'Horfield',
       fullName: 'Horfield, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS7'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4538,6 +4549,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'filton-bristol': {
       name: 'Filton',
       fullName: 'Filton, South Gloucestershire',
+      parentSlug: 'bristol',
       county: 'South Gloucestershire',
       postcodes: ['BS34'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4615,6 +4627,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'bradley-stoke-bristol': {
       name: 'Bradley Stoke',
       fullName: 'Bradley Stoke, South Gloucestershire',
+      parentSlug: 'bristol',
       county: 'South Gloucestershire',
       postcodes: ['BS32'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4692,6 +4705,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'city-centre-bristol': {
       name: 'Bristol City Centre',
       fullName: 'Bristol City Centre',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS1'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4769,6 +4783,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'redcliffe-bristol': {
       name: 'Redcliffe',
       fullName: 'Redcliffe, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS1'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4846,6 +4861,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'redland-bristol': {
       name: 'Redland',
       fullName: 'Redland, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS6'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -4923,6 +4939,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'cotham-bristol': {
       name: 'Cotham',
       fullName: 'Cotham, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS6'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -5000,6 +5017,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'montpelier-bristol': {
       name: 'Stokes Croft & Montpelier',
       fullName: 'Stokes Croft & Montpelier, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS6', 'BS1'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -5077,6 +5095,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'easton-bristol': {
       name: 'Easton',
       fullName: 'Easton, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS5'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -5154,6 +5173,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'st-george-bristol': {
       name: 'St George',
       fullName: 'St George, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS5'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -5231,6 +5251,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'totterdown-bristol': {
       name: 'Totterdown',
       fullName: 'Totterdown, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS4'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
@@ -5308,6 +5329,7 @@ const AreaDetail = ({ params: staticParams }) => {
     'bishopston-bristol': {
       name: 'Bishopston',
       fullName: 'Bishopston, Bristol',
+      parentSlug: 'bristol',
       county: 'Bristol',
       postcodes: ['BS7'],
       heroImage: '/images/areas/keynsham-health-centre.webp',
