@@ -346,10 +346,11 @@ const LocalSEO = () => {
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">Local SEO by area</h2>
-          <p className="text-gray-400 mb-10 max-w-2xl">We work exclusively across Bath and North East Somerset. Every campaign is built around your specific town — the keywords people use there, the competition you're up against, and the map pack positions that drive calls.</p>
+          <p className="text-gray-400 mb-10 max-w-2xl">We work exclusively across Bath, Bristol and North East Somerset. Every campaign is built around your specific town — the keywords people use there, the competition you're up against, and the map pack positions that drive calls.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { href: '/local-seo/bath', name: 'Local SEO Bath', desc: 'BA1 & BA2 — the most competitive market in BANES. Map pack and page one rankings for trades across the city.' },
+              { href: '/local-seo/bristol', name: 'Local SEO Bristol', desc: 'BS1–BS16 — the biggest market in the South West. Suburb-level campaigns from the Harbourside to Kingswood.' },
               { href: '/local-seo/keynsham', name: 'Local SEO Keynsham', desc: 'BS31 — great opportunity for trades. Less competition than Bath, strong search volumes for the right services.' },
               { href: '/local-seo/midsomer-norton', name: 'Local SEO Midsomer Norton', desc: 'BA3 — growing market. We have clients ranking in the map pack here already.' },
               { href: '/local-seo/radstock', name: 'Local SEO Radstock', desc: 'BA3 — often overlooked but worth targeting if you serve this area alongside Midsomer Norton.' },

@@ -3624,7 +3624,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Kingswood businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Kingswood map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Kingswood and Bristol BS15 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Kingswood and Bristol BS15 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Kingswood, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -3691,7 +3691,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-first websites from £250 for Brislington businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: appear in the Brislington map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Brislington and Bristol BS4 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Brislington and Bristol BS4 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Brislington, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -3758,7 +3758,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Whitchurch businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: get into the Whitchurch and south Bristol map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Whitchurch BS14 trade searches.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Whitchurch BS14 trade searches.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Whitchurch, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer GBP and local SEO as add-ons.',
@@ -3824,7 +3824,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Mobile-first websites from £250 for Knowle businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: appear in the Knowle and south Bristol map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Knowle BS4 trade searches.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Knowle BS4 trade searches.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Knowle, Bristol — with SEO add-ons',
       servicesSubtext: 'Website design is our core service. GBP and SEO are powerful add-ons.',
@@ -3890,7 +3890,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly websites from £250 for Stockwood businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: get into the Stockwood and south Bristol map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Stockwood BS14 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Stockwood BS14 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Stockwood, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. GBP and SEO are add-ons that compound results.',
@@ -3961,7 +3961,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Bedminster businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Bedminster map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bedminster and Bristol BS3 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bedminster and Bristol BS3 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Bedminster, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4037,7 +4037,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Southville businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Southville map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Southville and Bristol BS3 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Southville and Bristol BS3 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Southville, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4109,7 +4109,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Long Ashton businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Long Ashton map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Long Ashton and BS41 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Long Ashton and BS41 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Long Ashton — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google, not just online.',
@@ -4184,7 +4184,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Yate businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Yate map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Yate and South Gloucestershire BS37 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Yate and South Gloucestershire BS37 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Yate — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4261,7 +4261,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Clifton businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Clifton map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Clifton and Bristol BS8 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Clifton and Bristol BS8 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Clifton, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4338,7 +4338,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Horfield businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Horfield map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Horfield and Bristol BS7 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Horfield and Bristol BS7 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Horfield, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4415,7 +4415,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Filton businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Filton map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Filton and South Gloucestershire BS34 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Filton and South Gloucestershire BS34 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Filton — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4492,7 +4492,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Bradley Stoke businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Bradley Stoke map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bradley Stoke and South Gloucestershire BS32 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bradley Stoke and South Gloucestershire BS32 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Bradley Stoke — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4569,7 +4569,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for central Bristol businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the BS1 map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bristol city centre and BS1 keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bristol city centre and BS1 keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Bristol city centre — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4646,7 +4646,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Redcliffe businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Redcliffe map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Redcliffe and Bristol BS1 keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Redcliffe and Bristol BS1 keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Redcliffe, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4723,7 +4723,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Redland businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Redland map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Redland and Bristol BS6 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Redland and Bristol BS6 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Redland, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4800,7 +4800,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Cotham businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Cotham map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Cotham and Bristol BS6 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Cotham and Bristol BS6 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Cotham, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4877,7 +4877,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Stokes Croft and Montpelier businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the local map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Stokes Croft, Montpelier and BS6 keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Stokes Croft, Montpelier and BS6 keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Stokes Croft & Montpelier — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -4954,7 +4954,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Easton businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Easton map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Easton and Bristol BS5 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Easton and Bristol BS5 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Easton, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -5031,7 +5031,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for St George businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the St George map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for St George and Bristol BS5 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for St George and Bristol BS5 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in St George, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -5108,7 +5108,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Totterdown businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Totterdown map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Totterdown and Bristol BS4 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Totterdown and Bristol BS4 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Totterdown, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -5185,7 +5185,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-friendly sites from £250 for Bishopston businesses.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing and appear in the Bishopston map pack.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bishopston and Bristol BS7 trade keywords.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bishopston and Bristol BS7 trade keywords.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Bishopston, Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons.',
@@ -5299,7 +5299,7 @@ const AreaDetail = ({ params: staticParams }) => {
       services: [
         { name: 'Website Design', description: 'Fast, mobile-first websites from £250, built to rank for your trade and location across Bristol from day one.' },
         { name: 'Google Business Profile', description: 'Add-on: optimise your listing so you appear in the Bristol map pack when customers search for your trade.' },
-        { name: 'Local SEO', description: 'Add-on: rank for Bristol-wide and suburb-specific trade keywords across BS1–BS16.' },
+        { name: 'Local SEO', description: 'Add-on: rank for Bristol-wide and suburb-specific trade keywords across BS1–BS16.', href: '/local-seo/bristol' },
       ],
       servicesHeading: 'Web design in Bristol — with SEO add-ons',
       servicesSubtext: 'Our main service is website design. We also offer Google Business Profile and local SEO as add-ons so you get found on Google, not just online.',

@@ -272,7 +272,7 @@ const BathHub = () => {
                 A Bath SEO agency that knows Bath search
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been working as an SEO agency and web designer in Bath for over six years. We don&apos;t serve London or Bristol. We serve Bath, Keynsham, Midsomer Norton and the surrounding towns.
+                SEO Kings is based in Keynsham — 10 minutes from Bath city centre on the A4. We&apos;ve been working as an SEO agency and web designer in Bath for over six years. We don&apos;t serve London or Manchester. We serve Bath, Bristol, Keynsham, Midsomer Norton and the surrounding towns.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Bath is one of the most competitive local markets in the South West — more businesses, more agencies, more noise. The good news: most Bath trades still have slow websites and poorly set up Google Business Profiles. That&apos;s where the opportunity is. We know which searches drive actual phone calls in BA1 and BA2, and which ones just look good on a report.
