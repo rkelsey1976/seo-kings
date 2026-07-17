@@ -5485,8 +5485,22 @@ const AreaDetail = ({ params: staticParams }) => {
       nearbyAreas: ['keynsham', 'bath', 'saltford', 'midsomer-norton'],
       subAreaSlugs: ['city-centre-bristol', 'redcliffe-bristol', 'redland-bristol', 'cotham-bristol', 'montpelier-bristol', 'easton-bristol', 'st-george-bristol', 'totterdown-bristol', 'bishopston-bristol', 'kingswood', 'brislington', 'whitchurch-bristol', 'knowle-bristol', 'stockwood-bristol', 'bedminster-bristol', 'southville-bristol', 'long-ashton-bristol', 'yate-bristol', 'clifton-bristol', 'horfield-bristol', 'filton-bristol', 'bradley-stoke-bristol'],
       subAreasHeading: 'Bristol suburbs we cover',
+      aiSearch: {
+        heading: 'When someone asks ChatGPT for a plumber in Bristol — can it recommend you?',
+        paragraphs: [
+          "More Bristol customers are asking AI tools instead of typing searches — ChatGPT for a recommendation, or reading Google's AI Overview at the top of the results page. Those answers aren't magic. The AI reads the same local pages Google indexes: your website, your Google Business Profile, your reviews. If your pages don't give it anything clear to quote, it recommends someone else.",
+          "Every site we build is structured so AI assistants can quote it. LocalBusiness, FAQ and review schema on every page. Direct, factual answers to the questions Bristol customers actually ask. Consistent business details across the web. That's not a separate service with a separate invoice — it's how we've built every site since day one, and it's why the same work that ranks you on Google makes you quotable in AI answers.",
+        ],
+        cards: [
+          { title: 'AI reads what Google reads', desc: 'ChatGPT and AI Overviews draw on indexed local pages, business profiles and reviews. Rank well and be quotable, and you appear in both.' },
+          { title: 'Schema on every page', desc: 'LocalBusiness, FAQ and review markup tells AI exactly who you are, what you do and where you work — machine-readable, no guesswork.' },
+          { title: 'Answers, not filler', desc: 'AI quotes pages that answer questions directly. Our pages state your services, prices and areas in plain sentences it can lift word for word.' },
+          { title: 'Already happening in Bristol', desc: 'AI Overviews already appear on many Bristol service searches. In a market this size, the businesses with structured, quotable pages are the ones getting named.' },
+        ],
+      },
       faqs: [
         { question: 'Do you cover the whole of Bristol?', answer: 'Yes. We build websites and run local SEO for trades and businesses right across Bristol — 22 areas each have their own dedicated page: the city centre, Redcliffe, Clifton, Redland, Cotham, Stokes Croft & Montpelier, Bishopston, Horfield, Easton, St George, Totterdown, Bedminster, Southville, Knowle, Whitchurch, Stockwood, Brislington, Kingswood, Filton, Bradley Stoke, Yate and Long Ashton.' },
+        { question: 'Can ChatGPT and Google AI recommend my Bristol business?', answer: "Yes — if your web presence gives them something to work with. AI assistants answer questions like \"who's a good electrician in Bristol?\" by reading the same local pages Google indexes: your website, your Google Business Profile and your reviews. They favour pages with clear structured data and direct, factual answers. Every site we build includes LocalBusiness, FAQ and review schema and plain-English content AI tools can quote — so you're findable whether your customer asks Google or ChatGPT." },
         { question: 'How much does a website cost for a Bristol business?', answer: 'From £250 for a single-page site, £350 for a 3-page professional site, and £450 for a 5+ page full site. Google Business Profile optimisation is a £100 add-on, and hosting is free for the first 6 months, then £50/year.' },
         { question: 'Can you get my business into the Google map pack in Bristol?', answer: 'Yes. GBP optimisation is a £100 add-on to any website package, and our local SEO service targets the specific trade and suburb searches that get you into Bristol\'s local 3-pack.' },
         { question: 'Is Bristol more competitive than Bath or Somerset for SEO?', answer: 'Generally, yes — Bristol has a much larger population and far more businesses competing for the same searches. That\'s why we combine a Bristol-wide strategy with suburb-specific pages, so you\'re not just fighting for one generic keyword against every trade in the city.' },
@@ -6283,6 +6297,33 @@ const AreaDetail = ({ params: staticParams }) => {
           </div>
         </div>
       </section>
+
+      {/* AI search section (optional — hubs opt in via area.aiSearch) */}
+      {area.aiSearch && (
+        <section className="py-20 border-t border-white/[0.06]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mb-12">
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-4">AI search</p>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+                {area.aiSearch.heading}
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
+                {area.aiSearch.paragraphs.map((para, idx) => (
+                  <p key={idx} className="text-gray-400 leading-relaxed">{para}</p>
+                ))}
+              </div>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {area.aiSearch.cards.map((card) => (
+                <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                  <h3 className="text-white font-semibold text-sm mb-2">{card.title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed">{card.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FAQ Section — FAQPage schema for People Also Ask rich results */}
       <section id="faq" className="py-20" aria-labelledby="faq-heading">

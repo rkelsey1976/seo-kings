@@ -273,7 +273,7 @@ export const STATIC_ROUTES = [
   { path: '/areas/clutton', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/kingswood', lastmod: '2026-07-12', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/brislington', lastmod: '2026-07-12', changefreq: 'monthly', priority: 0.8 },
-  { path: '/areas/bristol', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/bristol', lastmod: '2026-07-17', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/whitchurch-bristol', lastmod: '2026-07-12', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/knowle-bristol', lastmod: '2026-07-12', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas/stockwood-bristol', lastmod: '2026-07-12', changefreq: 'monthly', priority: 0.8 },
