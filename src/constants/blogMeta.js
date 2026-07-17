@@ -28,6 +28,16 @@ export const BLOG_META = {
     description: "The Map Pack shows three local businesses at the top of Google — and it drives most of the clicks. Here's what puts a Bath trade in those three spots.",
     canonical: 'https://seo-kings.co.uk/blog/google-map-pack-bath',
   },
+  'website-cost-bristol': {
+    title: 'How Much Does a Website Cost in Bristol? From £250 — Honest Pricing | SEO Kings',
+    description: 'Bristol website prices range from £250 to £5,000+. Here\'s what actually drives the cost — and what a trade or small business realistically needs. Real pricing, no sales pitch.',
+    canonical: 'https://seo-kings.co.uk/blog/website-cost-bristol',
+  },
+  'google-map-pack-bristol': {
+    title: 'How to Get Into the Google Map Pack in Bristol | SEO Kings',
+    description: "The Map Pack shows three local businesses at the top of Google — and it takes most of the clicks. Here's what puts a Bristol trade in those three spots.",
+    canonical: 'https://seo-kings.co.uk/blog/google-map-pack-bristol',
+  },
   'website-cost-bath': {
     title: 'How Much Does a Website Cost in Bath? From £250 — Honest Pricing | SEO Kings',
     description: 'Bath website prices range from £250 to £5,000+. Here\'s what actually drives the cost — and what a trade or small business realistically needs. Real pricing, no sales pitch.',

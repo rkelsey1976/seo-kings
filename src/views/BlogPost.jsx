@@ -1228,6 +1228,124 @@ const blogPosts = {
       },
     ],
   },
+  'website-cost-bristol': {
+    slug: 'website-cost-bristol',
+    title: 'How Much Does a Website Cost in Bristol?',
+    description: 'Website prices in Bristol range from a few hundred pounds to tens of thousands. Here\'s what actually drives the cost — and what a trade or small business realistically needs.',
+    date: '2026-07-17',
+    readTime: '5 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'how much does a website cost Bristol, website price Bristol, web design cost Bristol, website quote Bristol, cost of a website Bristol',
+    ctaHeading: 'Want a clear, honest quote for your Bristol website?',
+    ctaBody: 'We build fast, mobile-first websites for Bristol trades and small businesses from £250 — transparent per-page pricing, no hidden fees.',
+    ctaLinks: [
+      { href: '/website-roi-calculator', label: 'Try the Website ROI Calculator' },
+      { href: '/website-designer-bristol', label: 'Website design in Bristol' },
+      { href: '/web-design-packages', label: 'View our packages and pricing' },
+      { href: '/contact', label: 'Get a free quote' },
+    ],
+    sections: [
+      {
+        heading: 'Why Bristol website quotes vary so wildly',
+        paragraphs: [
+          'Ask three web designers in Bristol what a website costs and you\'ll get three very different answers — anywhere from £200 to £20,000. That\'s not deception. "A website" can mean almost anything, from a one-page site for a sole trader to a full e-commerce platform with custom integrations.',
+          'Bristol adds its own wrinkle: the city has one of the biggest agency scenes outside London, and many of those agencies are set up for corporate clients with corporate budgets. A £10,000 quote from a Harbourside agency isn\'t dishonest — it\'s just built for a different kind of customer. Most trades and small businesses in Bristol need something far simpler: a professional, mobile-first site with a few pages, built to rank on Google and make the phone ring.',
+        ],
+      },
+      {
+        heading: 'The main factors that affect cost',
+        paragraphs: [
+          'Number of pages is the biggest driver. More pages means more design, more content, more development work. A one-page site for a sole trader is a very different project from a ten-page site with individual pages for every service and every Bristol suburb you cover.',
+          'Design complexity matters too. A standard, well-structured design costs less than a fully bespoke build. For most trade businesses, clean and professional beats highly custom — and costs accordingly.',
+          'Features add cost: booking systems, galleries, quote calculators, e-commerce. Most Bristol trades need a contact form, click-to-call, and a photo gallery — none of which are expensive.',
+          'SEO work is bundled in at very different levels. A site "built with SEO in mind" is not the same as one with keyword research, suburb-level location pages, schema markup and proper page titles. In a market as competitive as Bristol, that difference decides whether the site ever gets found.',
+        ],
+      },
+      {
+        heading: 'What to expect at different price points in Bristol',
+        paragraphs: [
+          'Under £500: A one to three-page site for a sole trader. You should still get a mobile-first design, SSL, a contact form, and basic on-page SEO. Watch out for cheap template sites that load slowly — in Bristol\'s search market, a slow site simply doesn\'t surface.',
+          '£500–£1,500: A four to eight-page site with proper service pages, a gallery, testimonials and location targeting for the suburbs you work in — Bedminster, Kingswood, Easton, wherever your customers are. Expect keyword research and a site built to rank, not just look presentable.',
+          '£1,500–£5,000: Multi-service or multi-location sites, bespoke design, advanced SEO. Some established Bristol firms genuinely need this; most sole traders don\'t.',
+          'Above £5,000: Full bespoke builds and e-commerce — agency territory, and rarely relevant for a trade business.',
+        ],
+      },
+      {
+        heading: 'Hidden costs to ask about',
+        paragraphs: [
+          'Hosting is usually extra. Cheap shared hosting slows your site and hurts rankings — factor in quality hosting from the start. We include six months free, then £50/year.',
+          'Ongoing maintenance gets overlooked. WordPress sites need plugin updates, security patches and occasional fixes. Static sites like ours need far less — but ask any designer what happens when you need a page updated, and what it costs.',
+          'Make sure the domain is registered in your name, not the agency\'s. Some Bristol agencies retain control of domains and hosting, which locks you in. You should own everything from day one.',
+          'And ask what\'s included after launch. Some firms quote low for the build and charge heavily for every small change. Get the scope in writing.',
+        ],
+      },
+      {
+        heading: 'What a Bristol trade website actually needs',
+        paragraphs: [
+          'For most plumbers, electricians, builders, decorators and cleaners in Bristol, the brief is: a fast, mobile-first site that ranks for your trade and the suburbs you serve, makes it easy to call, and looks professional enough that customers trust you before they pick up the phone.',
+          <>That means a clear home page, service pages, a contact page with click-to-call, SSL, and a Google Business Profile that matches. Because Bristol behaves like a collection of neighbourhood markets, suburb pages matter more here than in smaller towns — ranking for &quot;electrician Horfield&quot; is a much faster win than fighting the whole city. You can see how we structure that on our <Link href="/website-designer-bristol" className="text-primary hover:underline">website design in Bristol</Link> page.</>,
+          'Our transparent per-page pricing starts at £250 for a one-page site, with £50 per additional page. No hidden fees, no lock-in contracts.',
+          <>Not sure a website will pay its way? Our free <Link href="/website-roi-calculator" className="text-primary hover:underline">Website ROI Calculator</Link> shows how many extra jobs a year a site needs to win before it pays for itself — for most Bristol trades the answer is one or two.</>,
+        ],
+      },
+    ],
+  },
+  'google-map-pack-bristol': {
+    slug: 'google-map-pack-bristol',
+    title: 'How to Get Into the Google Map Pack in Bristol',
+    description: 'The Map Pack shows three local businesses at the top of Google — and it takes most of the clicks. Here\'s what puts a Bristol trade in those three spots.',
+    date: '2026-07-17',
+    readTime: '6 min read',
+    author: 'Richard Kelsey — SEO Kings',
+    keywords: 'Google Map Pack Bristol, rank in map pack Bristol, Google Maps ranking Bristol, local 3 pack Bristol, Google Business Profile Bristol',
+    ctaHeading: 'Want your business in the Bristol Map Pack?',
+    ctaBody: 'Our local SEO campaigns get Bristol trades into the Map Pack for the suburbs they actually serve — from £150/month, starting with a free audit.',
+    ctaLinks: [
+      { href: '/local-seo/bristol', label: 'Local SEO in Bristol' },
+      { href: '/google-business-profile', label: 'Google Business Profile optimisation' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'What the Map Pack is and why it matters in Bristol',
+        paragraphs: [
+          'Search for any trade in Bristol — "plumber Bristol", "electrician Bedminster", "roofer BS5" — and above the normal results Google shows a map with three local businesses. That\'s the Map Pack, and it takes most of the clicks and calls for local searches. Below it, click rates fall away sharply.',
+          'In a city of half a million people, those three spots are worth real money. A Bristol trade sitting in the Map Pack for their suburb and trade gets a steady stream of enquiries from people who need someone now — not browsers, buyers.',
+        ],
+      },
+      {
+        heading: 'The three things Google weighs',
+        paragraphs: [
+          'Proximity: how close your business is to the person searching. This is why Bristol works suburb by suburb — someone searching "plumber" in Easton sees different results from someone in Clifton. You can\'t change where you\'re based, but you can make sure Google knows exactly which areas you serve.',
+          'Relevance: how well your Google Business Profile matches the search. Categories, services, description, photos — Google reads all of it. A profile with the wrong primary category or three empty sections loses to a complete one every time.',
+          'Prominence: how established you look. Reviews are the biggest lever — how many, how recent, how well you respond, and whether they mention your trade and area. Your website feeds this too: a fast site with real content about the areas you serve makes your profile more credible.',
+        ],
+      },
+      {
+        heading: 'Why Bristol is really twenty markets, not one',
+        paragraphs: [
+          'Because proximity matters so much, "the Bristol Map Pack" doesn\'t really exist — there\'s a Bedminster pack, a Horfield pack, a Kingswood pack, and they show different businesses. That\'s good news for trades: you don\'t need to beat every plumber in Bristol, just the ones near your customers.',
+          'It also means the common mistake — targeting only "plumber Bristol" — leaves money on the table. The suburb searches have less competition and higher intent, and most Bristol trades still don\'t target them at all. A profile and website set up around your actual patch will earn Map Pack positions street by street while competitors fight over the city-wide term.',
+        ],
+      },
+      {
+        heading: 'What actually moves you into the pack',
+        paragraphs: [
+          <>Get the Google Business Profile complete and correct first: right primary category, every service listed, real photos, accurate opening hours, and a description that says what you do and where. Our step-by-step guide to <Link href="/blog/set-up-google-business-profile-tradesperson" className="text-primary hover:underline">setting up a Google Business Profile as a tradesperson</Link> covers the details.</>,
+          'Build reviews consistently. Ask every satisfied customer, make it easy with a direct link, and respond to every review. Reviews that mention your trade and suburb ("brilliant electrician, rewired our house in Bishopston") are worth the most.',
+          'Make your website agree with your profile. Same name, address and phone number everywhere; service pages for what you do; area pages for where you work. When Google can see the same story on your site, your profile and your citations, it trusts all three more.',
+          'Stay active. Regular Google posts, fresh photos, answered questions — an active profile beats a dormant one. Most Bristol trades set their profile up once and never touch it again, which is exactly why the consistent ones win.',
+        ],
+      },
+      {
+        heading: 'How long it takes and what it costs',
+        paragraphs: [
+          'Profile fixes can move you within weeks, especially in less contested suburbs. Competitive terms — "plumber Bristol", "builder BS3" — typically take three to six months of consistent work: reviews building up, content deepening, citations bedding in.',
+          <>We run this as a monthly system for Bristol trades: profile optimisation, review growth, website signals and suburb targeting, with plain-English monthly reports. It starts at £150/month with a free audit first — see exactly what\'s included on our <Link href="/local-seo/bristol" className="text-primary hover:underline">local SEO in Bristol</Link> page, and where you currently rank before spending a penny.</>,
+        ],
+      },
+    ],
+  },
   'website-cost-bath': {
     slug: 'website-cost-bath',
     title: 'How Much Does a Website Cost in Bath?',

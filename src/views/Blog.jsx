@@ -13,6 +13,22 @@ const BLOG_SERVICES = [
 
 const posts = [
   {
+    slug: 'website-cost-bristol',
+    title: 'How Much Does a Website Cost in Bristol?',
+    excerpt: 'Bristol quotes run from £200 to £20,000 for "a website". What actually drives the cost — and what a trade or small business realistically needs.',
+    date: '2026-07-17',
+    readTime: '5 min read',
+    services: ['web-design'],
+  },
+  {
+    slug: 'google-map-pack-bristol',
+    title: 'How to Get Into the Google Map Pack in Bristol',
+    excerpt: 'The three map results at the top of Google take most of the calls. Why Bristol is really twenty markets, and what puts a trade in the pack.',
+    date: '2026-07-17',
+    readTime: '6 min read',
+    services: ['local-seo', 'gbp'],
+  },
+  {
     slug: 'why-speed-matters-for-seo',
     title: 'Why Speed Matters for SEO: How Fast Websites Rank Better on Google',
     excerpt: 'Page speed is a ranking factor and affects user experience. Here\'s why fast websites rank better on Google and what you can do about it.',

@@ -18,7 +18,9 @@ export async function generateMetadata({ params }) {
   const meta = BLOG_META[slug];
   if (!meta?.title) return {};
   return {
-    title: meta.title,
+    // blogMeta titles are complete (some include the brand) — absolute stops
+    // the layout template appending a second "| SEO Kings"
+    title: { absolute: meta.title },
     description: meta.description || undefined,
     alternates: { canonical: meta.canonical ?? `https://seo-kings.co.uk/blog/${slug}` },
     ...(meta.robots ? { robots: meta.robots } : {}),
