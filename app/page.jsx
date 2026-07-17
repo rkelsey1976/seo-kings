@@ -14,8 +14,8 @@ const Results = dynamic(() => import('../src/components/Results'), { ssr: false 
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'Web Design & Local SEO for Trades | SEO Kings | Bath & Somerset',
-  description: 'Website design + local SEO for trades across Bath, Keynsham & Somerset. From £250. Google-ready sites live in 2 weeks. Free audit.',
+  title: 'SEO Agency Bath & Bristol | Local SEO for Trades from £150/mo | SEO Kings',
+  description: 'Web design + local SEO for trades in Bath, Bristol & Somerset. Peachy Cleans Map Pack #1. From £250 sites, £150/mo SEO. Free audit — see where you rank.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   other: {
     'trustpilot-one-time-domain-verification-id': '7d8c84ad-2a23-4a65-8cf6-2ac075ac9030',
@@ -117,6 +117,8 @@ export default function HomePage() {
     <>
       <HomepageLocalBusinessSchema />
       <HomePageFAQSchema />
+      {/* Server-rendered H1 for SEO + crawlers. Visually identical to Hero headline but renders in static HTML. */}
+      <h1 className="sr-only">Web Design & Local SEO for Local Trades That Gets You Calls — Bath & North East Somerset</h1>
       <Hero />
 
       {/* Marquee */}

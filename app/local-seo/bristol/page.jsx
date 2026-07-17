@@ -4,10 +4,9 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Local SEO Bristol | From £150/mo | Map Pack Results | SEO Kings' },
-  description: 'Local SEO for Bristol trades and businesses across BS1–BS16. Google Business Profile optimisation and suburb-level Map Pack campaigns from £150/mo. Free audit.',
+  title: { absolute: 'Local SEO Bristol | Map Pack Rankings from £150/mo | SEO Kings' },
+  description: 'Local SEO agency in Bristol. We get trades and small businesses into the Google Map Pack across BS1–BS16. GBP optimisation, citations and local SEO from £150/month. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/local-seo/bristol' },
-  other: { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol' },
 };
 
 export default function Page() {

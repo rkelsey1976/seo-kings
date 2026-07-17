@@ -45,8 +45,8 @@ export const TRADE_META = {
   },
   landscapers: {
     name: 'Landscapers',
-    metaTitle: 'Local SEO for Landscapers in Bath & North East Somerset',
-    metaDescription: 'Get more landscaping jobs from Google. We help landscapers and gardeners in Bath, Keynsham, Midsomer Norton and BANES rank #1 for local searches. Free audit.',
+    metaTitle: 'Landscaper SEO — Get Found in the Bath & Bristol Map Pack | SEO Kings',
+    metaDescription: 'Landscaping clients in Bath, Keynsham, Midsomer Norton and BANES find landscapers on Google. We put yours in the Map Pack — the top 3 results. From £150/month. Free audit.',
     faqs: [
       { q: 'How much does SEO cost for a landscaper?', a: "Our local SEO packages start from £150/month. Landscaping projects often run into thousands, so one extra job from Google more than covers the cost. Free audit first — no obligation." },
       { q: 'How long until I see results?', a: 'Most landscapers see improvements in 3–6 months. Seasonal keywords like "garden clearance spring" can rank faster. GBP optimisation often brings results within weeks.' },

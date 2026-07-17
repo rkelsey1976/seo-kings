@@ -84,13 +84,6 @@ const schema = {
       description: 'Website designer serving Frome BA11. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Website Designer Frome' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

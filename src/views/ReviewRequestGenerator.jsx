@@ -159,7 +159,7 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Review Request Generator' },
+          { '@type': 'ListItem', position: 2, name: 'Review Request Generator' , item: 'https://seo-kings.co.uk/review-request-generator' },
         ],
       },
     },

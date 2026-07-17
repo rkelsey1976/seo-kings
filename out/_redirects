@@ -35,3 +35,6 @@
 
 # 404 fallback
 /*    /404.html   404
+
+# Duplicate Bath city centre page (added 2026-07 without content entry) → canonical page
+/areas/bath-city-centre                            /areas/city-centre-bath            301!

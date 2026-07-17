@@ -8,9 +8,9 @@ import SectionTag from '../components/SectionTag';
 import ServicePageHero from '../components/ServicePageHero';
 
 const whatWeDo = [
-  'Keyword research for "seo Bristol", "local seo Bristol" and every trade and service search across BS1–BS16',
+  'Keyword research for "local SEO Bristol", "SEO Bristol" and every trade and service search across BS1–BS16',
   'Google Business Profile optimisation so you appear in the Map Pack for Bristol searches',
-  'Website SEO: service pages, location pages and content that ranks across Bristol',
+  'Website SEO: service pages, location pages and content that ranks across Bristol postcodes',
   'Local citations and backlinks from relevant directories',
   'Review growth strategy and professional responses to every review',
   'Structured data and quotable content so AI tools — ChatGPT, Google AI Overviews — can recommend you, not just Google',
@@ -25,47 +25,33 @@ const packages = [
 
 const results = [
   {
-    business: 'New Decorating',
-    location: 'Bath',
-    result: 'Top 3 Map Pack',
-    keyword: '"exterior painter Bath"',
-    detail: "Top 3 Map Pack for one of the region's most competitive trade keywords — consistent enquiries from Google Maps.",
-    slug: 'new-decorating',
-  },
-  {
-    business: 'Peachy Cleans',
-    location: 'Midsomer Norton',
-    result: 'Map Pack',
-    keyword: '"cleaning Midsomer Norton"',
-    detail: 'Ranked in the Google Map Pack within months of launch — now generating regular enquiries from local searches.',
-    slug: 'peachy-cleans',
+    business: 'SEO Kings',
+    location: 'Bristol',
+    result: '#1 Organic',
+    keyword: '"SEO Bristol"',
+    detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
+    slug: 'seo-kings',
+    href: '/seo/bristol',
+    linkText: 'See our Bristol SEO service',
   },
   {
     business: 'RG Extreme Pressure',
-    location: 'Bristol area',
+    location: 'Bath & Bristol',
     result: '102 pages',
-    keyword: '"pressure washing"',
-    detail: 'Migrated from a slow 102-page Wix site to a fast custom build — every page rebuilt for speed and local rankings.',
+    keyword: 'jet washing Bristol',
+    detail: 'Replaced a dated Wix site with a custom 102-page website — dedicated service pages, area pages covering Bristol suburbs, and full schema. Live in under 2 weeks.',
     slug: 'rg-extreme-pressure',
-  },
-  {
-    business: 'Aspect Builds',
-    location: 'Bath',
-    result: '40-page site',
-    keyword: '"builders Bath"',
-    detail: 'No website, just Instagram → 40-page professional site live in 2 weeks, with service pages, area pages and Google Business Profile integration.',
-    slug: 'aspect-builds',
   },
 ];
 
 const faqs = [
   {
     q: 'What does local SEO do for a Bristol business?',
-    a: 'It makes you visible when people in Bristol search for your trade or service on Google. That means appearing in the Map Pack — the three businesses shown with pins at the top of results — and in the organic listings below. Both drive calls and enquiries from people who are ready to buy, whether they search "plumber Bristol" or "electrician BS5".',
+    a: 'It makes you visible when people in Bristol search for your trade or service on Google. That means appearing in the Map Pack — the three businesses shown with pins at the top of results — and in the organic listings below. Both drive calls and enquiries from people who are ready to buy. In a city the size of Bristol, being in the Map Pack is the difference between a phone that rings and one that doesn\'t.',
   },
   {
     q: 'Is Bristol competitive for local SEO?',
-    a: "It's the biggest and most competitive market in the South West — but that cuts both ways. City-wide keywords are hard, but Bristol behaves like a collection of neighbourhood markets: searches in Easton, St George or Whitchurch are far less contested than the city centre, and most trades there still have no real web presence. We target the suburbs where you actually work, not just the city-wide keyword.",
+    a: 'Bristol is one of the most competitive local search markets outside London. More businesses, more agencies, more noise. But most Bristol traders still have poorly optimised Google Business Profiles and slow websites — so there\'s real room to move. We rank #1 organically for "SEO Bristol" ourselves. We know what it takes to compete in this city.',
   },
   {
     q: 'How much does local SEO cost in Bristol?',
@@ -73,11 +59,11 @@ const faqs = [
   },
   {
     q: 'How long before I see results?',
-    a: 'Google Business Profile optimisation can show results within weeks. Ranking for competitive terms like "plumber Bristol" typically takes 3–6 months; suburb-level terms like "decorator Totterdown" or "builder BS5" usually move faster. We give you monthly reports so you see exactly what\'s moving.',
+    a: 'Google Business Profile optimisation can show results within weeks — sometimes faster in less competitive BS postcodes. Ranking for competitive terms like "plumber Bristol" or "electrician BS7" typically takes 3–6 months. Suburb-level searches ("plumber Bedminster", "electrician Horfield") can rank faster because the competition is thinner. We give you monthly reports so you see exactly what\'s moving.',
   },
   {
     q: 'Do I need a website as well as local SEO?',
-    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250. Many clients do website and SEO together as a package — one team, one plan.",
+    a: "A Google Business Profile alone can win work, but a website makes every other signal stronger. If you don't have one, we build fast, SEO-ready sites from £250. Many Bristol clients do website and SEO together as a package — one team, one plan.",
   },
   {
     q: 'Does local SEO help me show up in ChatGPT and Google AI answers?',
@@ -85,7 +71,7 @@ const faqs = [
   },
   {
     q: 'Which parts of Bristol do you cover for local SEO?',
-    a: 'The whole city. In the centre: BS1 including Broadmead, the Harbourside, the Old City and Redcliffe. North and west: Clifton, Redland, Cotham, Bishopston and Horfield. East: Easton, St George, Kingswood and Brislington. South: Bedminster, Southville, Totterdown, Knowle, Whitchurch and Stockwood. Plus Filton, Bradley Stoke, Yate and Long Ashton on the edges. Each area has its own dedicated page, and campaigns are structured around the suburbs and postcodes where your customers actually search.',
+    a: 'All of BS1 to BS16, including every major neighbourhood. Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Southville, Long Ashton, Yate, Kingswood, Redland, Bishopston and Cotham. We also cover Keynsham, Bath, and the wider Somerset and South Gloucestershire area. If you serve any part of this patch, our local SEO Bristol campaigns are structured to target the specific neighbourhoods and postcodes where your customers are searching.',
   },
 ];
 
@@ -96,26 +82,18 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/local-seo/bristol',
       url: 'https://seo-kings.co.uk/local-seo/bristol',
-      name: 'Local SEO Bristol | From £150/mo | Map Pack Results | SEO Kings',
-      description: 'Local SEO for Bristol BS1–BS16. Google Business Profile optimisation and neighbourhood-level campaigns that put trades in the Map Pack. From £150/mo. Free audit.',
+      name: 'Local SEO Bristol | Map Pack Rankings from £150/mo | SEO Kings',
+      description: 'Local SEO agency in Bristol. We get trades and small businesses into the Google Map Pack across BS1–BS16. GBP optimisation, citations and local SEO from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
-          { '@type': 'ListItem', position: 3, name: 'Bristol' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Local SEO agency serving Bristol BS1–BS16. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across Bristol and the surrounding area.',
+      description: 'Local SEO agency serving Bristol BS1–BS16. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across Bristol. #1 for "SEO Bristol".',
       url: 'https://seo-kings.co.uk/local-seo/bristol',
-      telephone: '+447702264921',
+      telephone: '+447****4921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
@@ -127,8 +105,12 @@ const schema = {
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
         { '@type': 'City', name: 'Bristol' },
+        { '@type': 'City', name: 'Clifton' },
+        { '@type': 'City', name: 'Bedminster' },
+        { '@type': 'City', name: 'Horfield' },
+        { '@type': 'City', name: 'Filton' },
+        { '@type': 'City', name: 'Bradley Stoke' },
         { '@type': 'City', name: 'Keynsham' },
-        { '@type': 'City', name: 'Bath' },
       ],
       priceRange: '££',
       openingHoursSpecification: [
@@ -152,8 +134,8 @@ const rightPanel = (
     <div className="space-y-4">
       {[
         { label: 'From per month', value: '£150' },
-        { label: 'Peachy Cleans — Map Pack', value: '#1' },
-        { label: 'New Decorating — Map Pack', value: 'Top 3' },
+        { label: 'SEO Kings — organic', value: '#1' },
+        { label: 'SEO Kings — #1 "SEO Bristol"', value: '#1' },
         { label: 'First results in', value: '< 4 weeks' },
       ].map(({ label, value }) => (
         <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
@@ -173,8 +155,8 @@ const LocalSEOBristol = () => {
         badge="Serving BS1–BS16 · Bristol"
         title="Local SEO"
         highlight="Bristol"
-        description="Our local SEO Bristol service gets trades and businesses into the Google Map Pack across the city. Bristol is the biggest market in the South West — when someone searches for your trade, the three businesses at the top take most of the calls. We target the suburbs where you actually work, not just the city-wide keyword."
-        features={['From £150/month', 'Free audit included', 'Google Business Profile', 'Serving BS1–BS16']}
+        description="Our local SEO Bristol service gets trades and businesses into the Google Map Pack across BS1–BS16. Bristol is the South West's most competitive local search market — when someone searches for your trade or service, the three businesses at the top take most of the calls. We get you into those positions and keep you there. We rank #1 for &ldquo;SEO Bristol&rdquo; ourselves."
+        features={['From £150/month', 'Free audit included', 'Google Business Profile', '#1 for "SEO Bristol"']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
       />
@@ -189,7 +171,7 @@ const LocalSEOBristol = () => {
                 A proper local SEO system for Bristol
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Bristol is too big to win with one generic campaign. To rank consistently you need a complete, well-maintained system — Google Business Profile, website, citations and reviews working together — targeted at the neighbourhoods where your customers are. We build that system and run it for you every month.
+                Bristol is the biggest city in the South West and the most competitive local search market in the region. To rank consistently you need a complete, well-maintained system — not a one-off tidy-up of your Google Business Profile. We build that system and run it for you every month.
               </p>
               <ul className="space-y-3">
                 {whatWeDo.map((item) => (
@@ -239,12 +221,12 @@ const LocalSEOBristol = () => {
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
-          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for Bristol businesses</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
                 key={r.slug}
-                href={`/case-studies/${r.slug}`}
+                href={r.href || `/case-studies/${r.slug}`}
                 className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-white/10 transition-colors group"
               >
                 <div className="text-2xl font-bold mb-1 text-primary">{r.result}</div>
@@ -253,7 +235,7 @@ const LocalSEOBristol = () => {
                 <div className="text-gray-500 text-xs">{r.location}</div>
                 {r.detail && <p className="text-gray-500 text-xs mt-2 leading-relaxed">{r.detail}</p>}
                 <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary">
-                  View case study
+                  {r.linkText || 'View case study'}
                   <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -270,27 +252,27 @@ const LocalSEOBristol = () => {
           <div className="max-w-3xl mb-12">
             <SectionTag className="mb-4">Why it works</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Local SEO Bristol — win the suburbs, then the city
+              Local SEO Bristol — why the Map Pack is worth fighting for
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              Bristol is a high-intent search market. When someone types "plumber Bristol" or "electrician BS5" into Google, they're not browsing — they need someone now. The three businesses in the Map Pack capture most of those calls. Below the Map Pack, click rates fall sharply. If your business isn't in those top three positions, you're largely invisible to people who are ready to spend money.
+              Bristol is a high-intent search market. When someone types &ldquo;plumber Bristol&rdquo; or &ldquo;electrician BS7&rdquo; into Google, they&apos;re not browsing — they need someone now. The three businesses in the Map Pack capture most of those calls. Below the Map Pack, click rates fall sharply. If your business isn&apos;t in those top three positions, you&apos;re largely invisible to people who are ready to spend money.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              The mistake most Bristol trades make is fighting for the city-wide keyword and nothing else. Bristol behaves like a collection of neighbourhood markets: "builder Easton", "decorator Totterdown" and "cleaner Whitchurch" have real search volume, far less competition, and customers who are closer to your van. We build campaigns around the suburbs you actually serve — and the city-wide rankings follow as the local signals stack up.
+              Bristol is also the most competitive local search market in the South West. More businesses, more agencies, more noise. But most Bristol traders still have a poorly optimised Google Business Profile — incomplete categories, no regular posts, unanswered reviews. That&apos;s the gap we exploit. A properly managed GBP, paired with a fast website and consistent local citations, is enough to move into Map Pack positions for many trade categories within three to six months. We should know — we rank #1 for &ldquo;SEO Bristol&rdquo; using exactly this approach.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We cover the whole city with dedicated area pages: the city centre and Redcliffe in the middle; Clifton, Redland, Cotham and Bishopston in the north-west; Easton, St George, Kingswood and Brislington in the east; Bedminster, Southville, Totterdown, Knowle, Whitchurch and Stockwood in the south; and Filton, Bradley Stoke, Yate and Long Ashton on the edges. Wherever your customers are, the targeting is already built.
+              We cover all of BS1 to BS16 — not just the city centre. Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Southville, Long Ashton, Yate, Kingswood, Redland, Bishopston and Cotham — every area has local searchers and most have less competition than the city centre postcodes. A well-targeted campaign can rank faster in these suburbs than you might expect.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              We're based in Keynsham, on Bristol's south-east edge — ten minutes from Brislington and Kingswood. This isn't a national agency managing your account from a spreadsheet. Every client gets a direct line to the person running their campaign, monthly reports with real numbers, and a clear explanation of what we're doing and why.
+              We&apos;re based in Keynsham, 20 minutes from Bristol city centre. We work exclusively with trades and small businesses across Bristol and the wider BS postcode area — this isn&apos;t a national agency managing your account from a spreadsheet. Every client gets a direct line to the person running their campaign, monthly reports with real numbers, and a clear explanation of what we&apos;re doing and why.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: 'Map Pack or nothing', body: 'The top 3 local results capture the majority of clicks. In a market Bristol\'s size, being fourth is invisible.' },
-              { title: 'Suburbs first', body: 'Neighbourhood keywords rank faster and convert better — we target Easton, Bedminster or Kingswood before fighting the whole city.' },
-              { title: 'All of BS1–BS16', body: 'Full coverage from the Harbourside to Kingswood, Bishopston to Whitchurch — 22 dedicated area pages already built.' },
-              { title: 'Local, not national', body: 'Based in Keynsham on Bristol\'s south-east edge. We know the market, speak to clients directly, and report in plain English.' },
+              { title: 'Map Pack or nothing', body: 'The top 3 local results capture the majority of clicks. Below the pack, call volumes drop sharply — position matters more in Bristol than most places.' },
+              { title: 'GBP is the fastest win', body: 'Most Bristol traders have incomplete, unmanaged Google Business Profiles. A properly optimised GBP can start moving within weeks.' },
+              { title: 'All of BS1–BS16', body: 'Full coverage from Clifton to Bradley Stoke, Bedminster to Yate — suburb-level targeting where competition is lower.' },
+              { title: 'We rank #1 for "SEO Bristol"', body: 'Based in Keynsham, 20 minutes from Bristol. We rank #1 organically for one of the South West\'s most competitive local SEO keywords.' },
             ].map((card) => (
               <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
                 <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
@@ -317,28 +299,28 @@ const LocalSEOBristol = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-6">Also in Bristol</SectionTag>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Link href="/areas/bristol" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/seo/bristol" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Bristol Area Hub</div>
-                <div className="text-xs text-gray-500">All web design & SEO services across Bristol and every suburb</div>
+                <div className="text-sm font-semibold text-white mb-1">SEO Bristol</div>
+                <div className="text-xs text-gray-500">Technical SEO, on-page, content — full SEO services for Bristol businesses</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/web-design" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/website-designer-bristol" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Web Design</div>
+                <div className="text-sm font-semibold text-white mb-1">Website Designer Bristol</div>
                 <div className="text-xs text-gray-500">Fast, mobile-first websites for Bristol trades — from £250</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <Link href="/local-seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
+            <Link href="/areas/bristol" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
-                <div className="text-sm font-semibold text-white mb-1">Local SEO Bath</div>
-                <div className="text-xs text-gray-500">Map Pack campaigns across Bath BA1 & BA2</div>
+                <div className="text-sm font-semibold text-white mb-1">Bristol Area Hub</div>
+                <div className="text-xs text-gray-500">All web design & SEO services across Bristol and every neighbourhood</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -31,7 +31,7 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Invoice & Quote Template Generator' },
+          { '@type': 'ListItem', position: 2, name: 'Invoice & Quote Template Generator' , item: 'https://seo-kings.co.uk/invoice-template-generator' },
         ],
       },
     },

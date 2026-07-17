@@ -44,7 +44,7 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Bath Trades Website Report' },
+          { '@type': 'ListItem', position: 2, name: 'Bath Trades Website Report' , item: 'https://seo-kings.co.uk/bath-trades-website-report' },
         ],
       },
     },

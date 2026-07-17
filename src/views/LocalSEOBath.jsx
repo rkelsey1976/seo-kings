@@ -100,14 +100,6 @@ const schema = {
       description: 'Local SEO for Bath BA1 & BA2. We put trades into the Google Map Pack — exterior painter Bath Top 3, cleaning Midsomer Norton #1. From £150/mo. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Local SEO', item: 'https://seo-kings.co.uk/local-seo' },
-          { '@type': 'ListItem', position: 3, name: 'Bath' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',
@@ -316,7 +308,7 @@ const LocalSEOBath = () => {
       <section className="py-20 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-6">Also in Bath</SectionTag>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link href="/seo/bath" className="flex items-center justify-between p-5 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group">
               <div>
                 <div className="text-sm font-semibold text-white mb-1">SEO Bath</div>
@@ -341,6 +333,15 @@ const LocalSEOBath = () => {
                 <div className="text-xs text-gray-500">All web design & SEO services across Bath and every neighbourhood</div>
               </div>
               <svg className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+            <Link href="/local-seo/bristol" className="flex items-center justify-between p-5 bg-dark-card border border-primary/30 rounded-xl hover:border-primary/50 transition-colors group">
+              <div>
+                <div className="text-sm font-semibold text-white mb-1">Local SEO Bristol →</div>
+                <div className="text-xs text-gray-500">Map Pack and organic SEO for Bristol trades — same process, same proof</div>
+              </div>
+              <svg className="w-4 h-4 text-primary group-hover:text-white transition-colors shrink-0 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>

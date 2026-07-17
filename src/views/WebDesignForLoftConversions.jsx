@@ -66,13 +66,6 @@ const schema = {
       description: 'Websites for loft conversion companies in Bath & Somerset. Fast, mobile-first, built to rank for loft conversion searches. Before/after galleries, planning permission pages. From £250. Add GBP optimisation for £100.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Web Design for Loft Conversions' },
-        ],
-      },
     },
     {
       '@type': 'Service',

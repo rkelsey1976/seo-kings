@@ -78,13 +78,6 @@ const schema = {
       description: 'Local SEO, Google Business Profile and web design for trades and local businesses in Radstock BA3. Websites from £250, local SEO from £150/month. Free audit — no obligation.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
-      breadcrumb: {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Radstock' },
-        ],
-      },
     },
     {
       '@type': 'LocalBusiness',

@@ -5369,6 +5369,36 @@ const AreaDetail = ({ params: staticParams }) => {
 
   const parentArea = area.parentSlug ? areasData[area.parentSlug] : null;
 
+  // Default service-card links per city — used to fill any card that doesn't set its own href.
+  // Only includes pages that actually exist; a missing key leaves that card unlinked.
+  const CITY_SERVICE_LINKS = {
+    bath: { designer: '/website-designer-bath', localSeo: '/local-seo/bath', seo: '/seo/bath' },
+    bristol: { designer: '/website-designer-bristol', localSeo: '/local-seo/bristol', seo: '/seo/bristol' },
+    keynsham: { designer: '/website-designer-keynsham', localSeo: '/local-seo/keynsham' },
+    'midsomer-norton': { designer: '/website-designer-midsomer-norton', localSeo: '/local-seo/midsomer-norton' },
+    radstock: { designer: '/website-designer-radstock', localSeo: '/local-seo/radstock' },
+    'peasedown-st-john': { designer: '/website-designer-peasedown-st-john', localSeo: '/local-seo/peasedown-st-john' },
+    saltford: { designer: '/website-designer-saltford', localSeo: '/local-seo/saltford' },
+    paulton: { localSeo: '/local-seo/paulton' },
+    frome: { designer: '/website-designer-frome', localSeo: '/local-seo/frome' },
+    corsham: { designer: '/website-designer-corsham', localSeo: '/local-seo/corsham' },
+    melksham: { designer: '/website-designer-melksham', localSeo: '/local-seo/melksham' },
+    'bradford-on-avon': { designer: '/website-designer-bradford-on-avon', localSeo: '/local-seo/bradford-on-avon' },
+    'shepton-mallet': { designer: '/website-designer-shepton-mallet', localSeo: '/local-seo/shepton-mallet' },
+  };
+  // Resolve this area to its city key: sub-areas via parentSlug, Bristol neighbourhoods via slug suffix, otherwise the slug itself.
+  const cityKey = area.parentSlug
+    || (slug === 'kingswood' || slug.endsWith('-bristol') ? 'bristol' : slug);
+  const cityLinks = CITY_SERVICE_LINKS[cityKey] || {};
+  // Pick the default href for a service card from its name (GBP is one shared page for every area).
+  const defaultServiceHref = (name = '') => {
+    if (/google business profile/i.test(name)) return '/google-business-profile';
+    if (/website|web design/i.test(name)) return cityLinks.designer;
+    if (/local seo/i.test(name)) return cityLinks.localSeo;
+    if (/seo services|full seo/i.test(name)) return cityLinks.seo;
+    return undefined;
+  };
+
   // Generate Schema Markup
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -5504,9 +5534,11 @@ const AreaDetail = ({ params: staticParams }) => {
     { name: 'Local SEO', description: `Add-on: rank for "${area.name}" and trade searches.`, icon: 'search' },
     { name: 'Review Management', description: 'Add-on: build trust and credibility with 5★ reviews.', icon: 'star' },
   ];
-  const rawServices = area.services
-    ? area.services.map((s, i) => ({ ...s, icon: defaultServices[i]?.icon || 'search' }))
-    : defaultServices;
+  const rawServices = (area.services || defaultServices).map((s, i) => ({
+    ...s,
+    icon: s.icon || defaultServices[i]?.icon || 'search',
+    href: s.href || defaultServiceHref(s.name),
+  }));
   // Put Website Design first on all area pages; SEO/GBP as add-ons
   const services = [...rawServices].sort((a, b) => {
     const aWebsite = /website|web design/i.test(a.name);
