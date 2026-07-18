@@ -350,6 +350,23 @@ in `public/` — do not delete or rename it. IndexNow submissions don't count ag
 manual quota. (An earlier setup from March 2026 — `scripts/submit-indexnow.js` with a guessable
 key — was replaced by this one on 2026-07-02; Bing's IndexNow Insights panel shows both eras.)
 
+## Bristol Trades Website Report — pipeline (added 2026-07-18)
+
+Mirrors the Bath report's "invisible trades" methodology, plus a suburb dimension and an
+audit of sites that do exist. Three stages, run locally (sandbox network blocks Serper):
+
+1. `SERPER_API_KEY=xxx npm run trades-harvest` — Serper Places, 12 trades × 12 suburbs
+   (~300 credits) → `data/bristol-trades-raw.csv`
+2. `npm run trades-analyse` — computes invisible-cohort stats, per-trade and per-suburb
+   breakdowns → `data/bristol-trades-summary.json`
+3. `npm run trades-audit` (optional, ~10 min) — fetches every business site found: HTTPS,
+   speed, viewport, schema, WordPress/Wix → adds `siteAudit` to the summary JSON
+
+**The report page (`/bristol-trades-website-report`) must only be built from a real
+`bristol-trades-summary.json` — never placeholder numbers.** Per-suburb stats from
+`bySuburb` should also be seeded into the matching `/areas/*-bristol` pages as unique
+content. Commit the data files with the report so the numbers are reproducible.
+
 ## Rank tracking (Serper.dev SERP API)
 
 `npm run rank-check` queries Google via Serper.dev for the 12 tracked keywords (Bath, Bristol,
