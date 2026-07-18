@@ -257,7 +257,7 @@ export const STATIC_ROUTES = [
   { path: '/invoice-template-generator', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/review-request-generator', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/blog', lastmod: '2026-07-08', changefreq: 'weekly', priority: 0.8 },
-  { path: '/case-studies', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
+  { path: '/case-studies', lastmod: '2026-07-17', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/bath', lastmod: '2026-07-14', changefreq: 'monthly', priority: 0.9 },
