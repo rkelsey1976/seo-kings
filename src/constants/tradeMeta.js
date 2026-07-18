@@ -45,7 +45,7 @@ export const TRADE_META = {
   },
   landscapers: {
     name: 'Landscapers',
-    metaTitle: 'Landscaper SEO — Get Found in the Bath & Bristol Map Pack | SEO Kings',
+    metaTitle: 'Landscaper SEO — Get Found in the Bath & Bristol Map Pack',
     metaDescription: 'Landscaping clients in Bath, Keynsham, Midsomer Norton and BANES find landscapers on Google. We put yours in the Map Pack — the top 3 results. From £150/month. Free audit.',
     faqs: [
       { q: 'How much does SEO cost for a landscaper?', a: "Our local SEO packages start from £150/month. Landscaping projects often run into thousands, so one extra job from Google more than covers the cost. Free audit first — no obligation." },

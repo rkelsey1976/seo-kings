@@ -41,7 +41,9 @@ export async function generateMetadata({ params }) {
   const meta = CASE_STUDY_META[slug];
   if (!meta) return {};
   return {
-    title: meta.title,
+    // titles here already carry the brand — absolute stops the layout
+    // template appending a second "| SEO Kings"
+    title: { absolute: meta.title },
     description: meta.description,
     alternates: { canonical: `https://seo-kings.co.uk/case-studies/${slug}` },
   };
