@@ -11,6 +11,7 @@
  * Cost:   ~2 credits per trade×suburb combo (2 pages) ≈ 300 credits total.
  */
 
+import '../lib/env.mjs';
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';

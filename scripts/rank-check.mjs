@@ -15,6 +15,7 @@
  * returns a "places" block containing our name.
  */
 
+import './lib/env.mjs';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
