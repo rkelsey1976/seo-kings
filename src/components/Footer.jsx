@@ -69,14 +69,14 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Free Tools</p>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Growth Hub</p>
               <ul className="space-y-2.5">
                 {[
-                  { label: 'Invoice & Quote Generator', href: '/invoice-template-generator' },
+                  { label: 'Local SEO Checklist (PDF)', href: '/tools/local-seo-checklist' },
                   { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
+                  { label: 'Invoice & Quote Generator', href: '/invoice-template-generator' },
                   { label: 'Website ROI Calculator', href: '/website-roi-calculator' },
-                  { label: 'Review Request Generator', href: '/review-request-generator' },
-                  { label: 'All free tools →', href: '/tools' },
+                  { label: 'Trades Growth Hub →', href: '/tools' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link

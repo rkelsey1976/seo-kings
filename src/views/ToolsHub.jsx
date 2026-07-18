@@ -4,6 +4,13 @@ import SectionTag from '../components/SectionTag';
 
 const TOOLS = [
   {
+    href: '/tools/local-seo-checklist',
+    name: 'The Local SEO Checklist for Trades',
+    tag: 'PDF · free download',
+    desc: 'The 22 things that decide whether you show up on Google Maps — profile, reviews, website and citations. The same list we use in paid audits, printable and tickable.',
+    cta: 'Get the checklist',
+  },
+  {
     href: '/google-business-profile-score-checker',
     name: 'Google Business Profile Score Checker',
     tag: 'GBP · 2 minutes',
@@ -40,16 +47,16 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/tools',
       url: 'https://seo-kings.co.uk/tools',
-      name: 'Free Tools for Tradespeople | SEO Kings',
+      name: 'Trades Growth Hub — Free Tools, Guides & Checklists | SEO Kings',
       description:
-        'Four free tools for trades and local businesses: check your Google Business Profile score, generate review requests, create invoices and quotes, and work out what a website is worth to you.',
+        'Free tools, guides and checklists for trades and local businesses: check your Google Business Profile score, download the Local SEO Checklist, generate review requests, create invoices, and learn how to get found on Google.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Free Tools' , item: 'https://seo-kings.co.uk/tools' },
+          { '@type': 'ListItem', position: 2, name: 'Trades Growth Hub' , item: 'https://seo-kings.co.uk/tools' },
         ],
       },
     },
@@ -74,13 +81,13 @@ export default function ToolsHub() {
       {/* Hero */}
       <section className="pt-36 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTag className="mb-6">Free Tools</SectionTag>
+          <SectionTag className="mb-6">Trades Growth Hub</SectionTag>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Free tools for <span className="text-primary">tradespeople</span>
+            The Trades <span className="text-primary">Growth Hub</span>
           </h1>
           <p className="text-lg text-gray-400 max-w-2xl leading-relaxed">
-            Four tools we built for the trades we work with — now free for everyone.
-            No sign-up walls, no sales calls. Use them, share them, bookmark them.
+            Free tools, guides and checklists we built for the trades we work with — now free
+            for everyone. No sign-up walls, no sales calls. Use them, share them, bookmark them.
           </p>
         </div>
       </section>
@@ -106,6 +113,65 @@ export default function ToolsHub() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Guides — existing content, grouped */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Guides</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10 leading-tight tracking-tight">
+            How to get found on Google — the guides
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <h3 className="text-white font-semibold text-sm mb-4">Google Business Profile & reviews</h3>
+              <ul className="space-y-3">
+                {[
+                  { href: '/blog/set-up-google-business-profile-tradesperson', label: 'Set up your GBP as a tradesperson' },
+                  { href: '/blog/get-trade-business-google-map-pack', label: 'Get into the Google Map Pack' },
+                  { href: '/blog/google-map-pack-bristol', label: 'The Map Pack in Bristol' },
+                  { href: '/blog/google-map-pack-bath', label: 'The Map Pack in Bath' },
+                  { href: '/blog/get-more-google-reviews-bath', label: 'Get more Google reviews' },
+                ].map(({ href, label }) => (
+                  <li key={href}>
+                    <Link href={href} className="text-sm text-gray-400 hover:text-white transition-colors">{label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <h3 className="text-white font-semibold text-sm mb-4">Websites for trades</h3>
+              <ul className="space-y-3">
+                {[
+                  { href: '/blog/website-cost-bristol', label: 'What a website costs in Bristol' },
+                  { href: '/blog/website-cost-bath', label: 'What a website costs in Bath' },
+                  { href: '/blog/do-i-need-a-website-plumber-bath', label: 'Do I need a website as a plumber?' },
+                  { href: '/blog/why-plumbing-website-not-getting-calls', label: "Why your website isn't getting calls" },
+                  { href: '/blog/wordpress-vs-custom-website-trades', label: 'WordPress vs a custom site' },
+                ].map(({ href, label }) => (
+                  <li key={href}>
+                    <Link href={href} className="text-sm text-gray-400 hover:text-white transition-colors">{label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+              <h3 className="text-white font-semibold text-sm mb-4">Proof it works</h3>
+              <ul className="space-y-3">
+                {[
+                  { href: '/case-studies', label: 'All case studies' },
+                  { href: '/case-studies/new-decorating', label: 'Top 3 Map Pack — New Decorating' },
+                  { href: '/case-studies/peachy-cleans', label: 'Map Pack #1 — Peachy Cleans' },
+                  { href: '/bath-trades-website-report', label: 'The Invisible Trades of Bath report' },
+                ].map(({ href, label }) => (
+                  <li key={href}>
+                    <Link href={href} className="text-sm text-gray-400 hover:text-white transition-colors">{label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

@@ -264,7 +264,12 @@ function EmailGate({ onSubmit, onSkip }) {
   function handleSubmit(e) {
     e.preventDefault();
     if (email.trim()) {
-      console.log('GBP Score Checker email capture:', email.trim());
+      // Record the address via Netlify Forms; never block the results on it.
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ 'form-name': 'gbp-checker-email', email: email.trim() }).toString(),
+      }).catch(() => {});
       onSubmit(email.trim());
     }
   }
@@ -286,9 +291,17 @@ function EmailGate({ onSubmit, onSkip }) {
         Enter your email to get your score breakdown + a free GBP improvement checklist sent to your inbox.
       </p>
 
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-sm mx-auto">
+      <form
+        name="gbp-checker-email"
+        method="POST"
+        data-netlify="true"
+        onSubmit={handleSubmit}
+        className="flex flex-col sm:flex-row gap-3 max-w-sm mx-auto"
+      >
+        <input type="hidden" name="form-name" value="gbp-checker-email" />
         <input
           type="email"
+          name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="your@email.com"
@@ -544,6 +557,12 @@ export default function GBPScoreChecker() {
   return (
     <>
       <SEO schemas={[schema]} />
+
+      {/* Hidden static form so Netlify registers gbp-checker-email at deploy
+          time — the visible EmailGate only renders client-side after the quiz. */}
+      <form name="gbp-checker-email" data-netlify="true" hidden>
+        <input type="email" name="email" />
+      </form>
 
       {/* Sticky score bar — shown once any question answered */}
       {(answeredCount > 0 || phase !== 'quiz') && (
