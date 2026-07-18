@@ -350,6 +350,16 @@ in `public/` — do not delete or rename it. IndexNow submissions don't count ag
 manual quota. (An earlier setup from March 2026 — `scripts/submit-indexnow.js` with a guessable
 key — was replaced by this one on 2026-07-02; Bing's IndexNow Insights panel shows both eras.)
 
+## Rank tracking (Serper.dev SERP API)
+
+`npm run rank-check` queries Google via Serper.dev for the 12 tracked keywords (Bath, Bristol,
+Keynsham — organic position + Map Pack presence, location-biased per city) and appends to
+`data/rankings.csv`. Run weekly and commit the CSV so history lives in git. Requires
+`SERPER_API_KEY` env var (free tier: 2,500 credits ≈ 4 years at this volume — serper.dev).
+Edit the tracked set in `scripts/rank-check.mjs` (`KEYWORDS`). Added 2026-07-17 to replace
+ad-hoc manual position checks, which aren't comparable across devices/locations. The same
+script is the basis for client rank reporting.
+
 ## GSC indexing habit
 
 After any session where key pages are updated, request re-indexing in Google Search Console:

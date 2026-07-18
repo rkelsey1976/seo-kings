@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "indexnow": "node scripts/indexnow.mjs",
+    "rank-check": "node scripts/rank-check.mjs",
     "dev:clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true})\" && next dev",
     "build": "next build",
     "start": "next start",
