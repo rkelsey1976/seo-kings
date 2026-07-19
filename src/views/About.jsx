@@ -105,7 +105,7 @@ const About = () => {
               </h1>
               <p className="text-xl text-gray-400 leading-relaxed">
                 We're a Keynsham-based website design company for tradespeople and local businesses
-                in Bath and North East Somerset. We build fast, clear sites — and we offer SEO and 
+                in Bath, Bristol and North East Somerset. We build fast, clear sites — and we offer SEO and
                 Google Business Profile as add-ons so your site is found on Google.
               </p>
             </div>
@@ -138,7 +138,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  We started SEO Kings to build websites for trades and local businesses in Bath
+                  We started SEO Kings to build websites for trades and local businesses in Bath, Bristol
                   and North East Somerset — sites that look professional, load fast and work on phones.
                   Behind every site is 22 years of development experience and 15 years of graphic design,
                   so you're not funding someone's learning curve.
@@ -150,7 +150,7 @@ const About = () => {
                 </p>
                 <p>
                   Today we work with plumbers, electricians, cleaners, builders and other local
-                  businesses across Bath, Keynsham, Midsomer Norton, Radstock and the wider area.
+                  businesses across Bath, Bristol, Keynsham, Midsomer Norton, Radstock and the wider area.
                   We've seen what works: a clear website plus a proper Google presence.
                 </p>
                 <p className="text-white font-medium">
