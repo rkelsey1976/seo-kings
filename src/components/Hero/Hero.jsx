@@ -78,7 +78,7 @@ const Hero = ({
           <div>
             {/* Tagline */}
             <div className="mb-8">
-              <span className="inline-block px-4 py-1.5 bg-primary/10 border border-primary/30 rounded-full text-primary font-bold text-[11px] tracking-[0.15em] uppercase">
+              <span className="inline-block px-4 py-1.5 backdrop-blur-md bg-primary/[0.12] border border-primary/40 rounded-full text-primary font-bold text-[11px] tracking-[0.15em] uppercase shadow-lg shadow-primary/10">
                 Web Design + Local SEO
               </span>
             </div>
@@ -102,7 +102,7 @@ const Hero = ({
                 as={Link}
                 href={primaryCta.href}
                 strength={0.35}
-                className="inline-flex items-center justify-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-300 bg-primary hover:bg-primary-dark shadow-lg hover:shadow-[0_12px_32px_rgba(232,113,90,0.3)] hover:scale-105"
+                className="inline-flex items-center justify-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-300 bg-primary hover:bg-primary-dark shadow-lg hover:shadow-[0_12px_32px_rgba(232,113,90,0.4),0_0_24px_rgba(232,113,90,0.25)] hover:scale-105"
               >
                 {primaryCta.text}
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

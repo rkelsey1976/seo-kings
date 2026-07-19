@@ -30,6 +30,18 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
             perspective={900}
             className={`${colSpan} ${isFeatured ? 'md:row-span-2' : ''}`}
           >
+            <style>{`
+              @keyframes fadeInScale {
+                from {
+                  opacity: 0;
+                  transform: scale(0.95) translateY(20px);
+                }
+                to {
+                  opacity: 1;
+                  transform: scale(1) translateY(0);
+                }
+              }
+            `}</style>
             <Tag
               href={cell.href}
               className={`
@@ -38,6 +50,7 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
                 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] ${cell.href ? 'hover:-translate-y-1' : ''}
                 ${isFeatured ? 'min-h-[420px] md:min-h-[540px]' : 'min-h-[280px] md:min-h-[320px]'}
               `}
+              style={{ animation: 'fadeInScale 0.7s ease-out forwards', opacity: 0, animationDelay: `${i * 0.12}s` }}
               aria-label={cell.href && cell.heading ? cell.heading : undefined}
             >
               {/* ── Photo background ── */}
