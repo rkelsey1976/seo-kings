@@ -14,8 +14,8 @@ const Results = dynamic(() => import('../src/components/Results'), { ssr: false 
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'SEO Agency Bath & Bristol | Local SEO for Trades from £150/mo | SEO Kings',
-  description: 'Web design + local SEO for trades in Bath, Bristol & Somerset. Peachy Cleans Map Pack #1. From £250 sites, £150/mo SEO. Free audit — see where you rank.',
+  title: 'Local SEO & Web Design for Trades | Bath £250 Sites',
+  description: 'Web design + local SEO for trades in Bath & Bristol. Peachy Cleans Map Pack #1. From £250, free audit — see where you rank.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
   openGraph: {
     url: 'https://seo-kings.co.uk/',

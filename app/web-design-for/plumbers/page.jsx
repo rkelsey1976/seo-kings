@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Web Design for Plumbers Bath & Somerset | From £250 | SEO Kings' },
-  description: 'Websites for plumbers that rank on Google and get you calls. Gas Safe badge, emergency page, dedicated service pages. Serving Bath, Keynsham and Somerset from £250.',
+  title: { absolute: 'Plumber Website Design Bath | £250 | SEO Kings' },
+  description: 'Websites for plumbers that rank on Google. Gas Safe badge, emergency page, booking system. Bath & Somerset from £250.',
   alternates: { canonical: 'https://seo-kings.co.uk/web-design-for/plumbers' },
 };
 
