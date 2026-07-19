@@ -1,5 +1,6 @@
 import WebDesign from '../../src/views/WebDesign';
 import WebDesignServiceSchema from '../WebDesignServiceSchema';
+import LocalBusinessRefSchema from '../LocalBusinessRefSchema';
 
 export const revalidate = 3600;
 
@@ -12,6 +13,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <LocalBusinessRefSchema />
       <WebDesignServiceSchema />
       <WebDesign />
     </>

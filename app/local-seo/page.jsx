@@ -1,4 +1,5 @@
 import LocalSEO from '../../src/views/LocalSEO';
+import LocalBusinessRefSchema from '../LocalBusinessRefSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,10 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <LocalSEO />;
+  return (
+    <>
+      <LocalBusinessRefSchema />
+      <LocalSEO />
+    </>
+  );
 }
