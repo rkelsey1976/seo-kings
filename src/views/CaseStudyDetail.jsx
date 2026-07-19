@@ -56,6 +56,7 @@ const caseStudiesData = {
       author: 'Peachy Cleans',
       role: 'Professional Cleaning Services, Midsomer Norton',
     },
+    websiteUrl: 'https://peachycleans.info',
     services: ['Website Design', 'Local SEO'],
     relatedCases: ['new-decorating', 'aurelian-massage'],
   },
@@ -257,7 +258,6 @@ const caseStudiesData = {
       role: 'Aspect Builds & Maintenance, Bath',
     },
     websiteUrl: 'https://aspectbuilds.co.uk',
-    googleMapsUrl: 'https://maps.place/Bath+Painter/51.3811,-2.359',
     services: ['Website Design', 'Local SEO', 'Google Business Profile'],
     relatedCases: ['bath-painter', 'new-decorating'],
   },
@@ -460,6 +460,41 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       {/* Overview */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          {caseStudy.websiteUrl && (
+            <a
+              href={caseStudy.websiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block mb-12 rounded-2xl overflow-hidden border border-white/10 hover:border-white/20 transition-colors"
+              aria-label={`Visit the ${caseStudy.business} website (opens in a new tab)`}
+            >
+              <div className="relative">
+                <Image
+                  src={caseStudy.heroImage}
+                  alt={`${caseStudy.business} website — ${caseStudy.websiteUrl.replace('https://', '')}`}
+                  width={1600}
+                  height={1067}
+                  placeholder="blur"
+                  blurDataURL={BLUR_DATA_URL}
+                  sizes="(max-width: 896px) 100vw, 832px"
+                  className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-5 flex items-center justify-between gap-4">
+                  <span className="text-white font-medium truncate">
+                    {caseStudy.websiteUrl.replace('https://', '')}
+                  </span>
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-white/80 group-hover:text-white transition-colors shrink-0">
+                    Visit the live site
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          )}
+
           <h2 className="text-2xl font-bold text-white mb-6">Overview</h2>
           <p className="text-lg text-gray-400 leading-relaxed">{caseStudy.overview}</p>
         </div>
