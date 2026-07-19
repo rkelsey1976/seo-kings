@@ -77,8 +77,8 @@ const Hero = ({
           {/* Left: Content */}
           <div>
             {/* Tagline */}
-            <div className="mb-6">
-              <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium text-[12px] tracking-wide uppercase">
+            <div className="mb-8">
+              <span className="inline-block px-4 py-1.5 bg-primary/10 border border-primary/30 rounded-full text-primary font-bold text-[11px] tracking-[0.15em] uppercase">
                 Web Design + Local SEO
               </span>
             </div>
@@ -86,13 +86,13 @@ const Hero = ({
             {/* Headline */}
             <SplitTextHero
               tag="h2"
-              className="text-[clamp(2.75rem,6vw,4.5rem)] font-bold leading-[1.05] tracking-tight text-white mb-6"
+              className="text-[clamp(3rem,6.5vw,4.75rem)] font-black leading-[1.08] tracking-tight text-white mb-6"
             >
               {title}
             </SplitTextHero>
 
             {/* Subtitle — clean, no random colors */}
-            <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-lg">
+            <p className="text-lg text-gray-300 leading-[1.7] mb-10 max-w-lg font-medium">
               {subtitle}
             </p>
 
@@ -102,7 +102,7 @@ const Hero = ({
                 as={Link}
                 href={primaryCta.href}
                 strength={0.35}
-                className="inline-flex items-center justify-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-200 bg-primary hover:bg-primary-dark shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-300 bg-primary hover:bg-primary-dark shadow-lg hover:shadow-[0_12px_32px_rgba(232,113,90,0.3)] hover:scale-105"
               >
                 {primaryCta.text}
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,7 +111,7 @@ const Hero = ({
               </MagneticButton>
               <Link
                 href={secondaryCta.href}
-                className="inline-flex items-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all border border-white/20 hover:border-white/40 hover:bg-white/5"
+                className="inline-flex items-center text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-300 border border-white/20 hover:border-white/50 hover:bg-white/[0.08] hover:scale-105"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -143,7 +143,7 @@ const Hero = ({
               {results.map((item, idx) => (
                 <div
                   key={idx}
-                  className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-5 transition-all hover:border-white/20 hover:bg-white/[0.08] hover:shadow-xl"
+                  className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-5 transition-all duration-300 hover:border-white/30 hover:bg-white/[0.1] hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] hover:-translate-y-1"
                   style={{
                     borderLeftWidth: '3px',
                     borderLeftColor: item.color,

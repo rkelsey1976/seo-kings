@@ -34,7 +34,8 @@ const BentoGrid = ({ cells, gap = 'md', className = '' }) => {
               href={cell.href}
               className={`
                 group relative overflow-hidden rounded-2xl
-                flex flex-col h-full cursor-pointer
+                flex flex-col h-full cursor-pointer transition-all duration-300
+                hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] ${cell.href ? 'hover:-translate-y-1' : ''}
                 ${isFeatured ? 'min-h-[420px] md:min-h-[540px]' : 'min-h-[280px] md:min-h-[320px]'}
               `}
               aria-label={cell.href && cell.heading ? cell.heading : undefined}

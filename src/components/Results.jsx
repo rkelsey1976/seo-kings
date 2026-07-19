@@ -182,7 +182,7 @@ const CaseStudyCard = ({ study, index }) => {
   return (
     <div
       ref={cardRef}
-      className="relative overflow-hidden rounded-2xl flex flex-col"
+      className="relative overflow-hidden rounded-2xl flex flex-col transition-all duration-300 hover:shadow-[0_12px_32px_rgba(0,0,0,0.4)] hover:-translate-y-1 hover:border-white/20"
       style={{
         background: '#0E1628',
         border: '1px solid rgba(255,255,255,0.06)',
@@ -337,7 +337,7 @@ const Results = () => (
         </div>
         <Link
           href="/case-studies"
-          className="inline-flex items-center gap-2 font-mono text-xs font-semibold transition-colors whitespace-nowrap"
+          className="inline-flex items-center gap-2 font-mono text-xs font-semibold transition-all duration-300 whitespace-nowrap hover:scale-105 hover:shadow-[0_8px_24px_rgba(232,113,90,0.2)]"
           style={{
             color: accent,
             border: `1px solid ${accent}40`,
