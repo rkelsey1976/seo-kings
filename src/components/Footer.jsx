@@ -53,6 +53,8 @@ const Footer = () => {
                   { label: 'Bath', href: '/areas/bath' },
                   { label: 'Bristol', href: '/areas/bristol' },
                   { label: 'Keynsham', href: '/areas/keynsham' },
+                  { label: 'SEO Bath', href: '/seo/bath' },
+                  { label: 'SEO Bristol', href: '/seo/bristol' },
                   { label: 'Local SEO Bath', href: '/local-seo/bath' },
                   { label: 'Local SEO Bristol', href: '/local-seo/bristol' },
                   { label: 'All areas →', href: '/areas' },

@@ -1812,6 +1812,7 @@ const blogPosts = {
     ctaHeading: 'Want to know what SEO would cost for your business specifically?',
     ctaBody: 'We offer a free audit for trades and local businesses in Bath — we tell you where you stand and what it would take to move the needle, with no obligation.',
     ctaLinks: [
+      { href: '/seo/bath', label: 'SEO Bath — our full SEO service' },
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/website-designer-bath', label: 'Web design & SEO in Bath' },
       { href: '/contact', label: 'Get a free audit' },
@@ -1852,6 +1853,7 @@ const blogPosts = {
         paragraphs: [
           "Start with the economics. If you're a plumber and your average job is £400, and local SEO generates two extra jobs a month, that's £800/month in revenue from a £300/month investment. The question isn't whether SEO is expensive — it's whether the return justifies the cost, and that depends entirely on your average job value and how many extra jobs you need to break even.",
           "The clearest signal that SEO is working: you start getting calls from people who found you on Google rather than through word of mouth or referrals. That's new revenue that wasn't there before, from a channel that compounds over time as your rankings improve. Unlike ads, which stop the moment you stop paying, organic rankings persist — each month's work builds on the last.",
+          <>If you want the specifics of what we&apos;d do for that money, our{' '}<Link href="/seo/bath" className="text-primary hover:underline">SEO Bath service</Link>{' '}page sets out exactly what&apos;s included at each level — and the audit that tells you where you currently stand is free.</>,
         ],
       },
     ],
@@ -1868,6 +1870,7 @@ const blogPosts = {
     ctaHeading: 'Want to know where you currently stand in Bath search results?',
     ctaBody: "We offer a free audit for Bath businesses — we'll show you what queries you're close to ranking for and what it would take to get there.",
     ctaLinks: [
+      { href: '/seo/bath', label: 'SEO Bath — our full SEO service' },
       { href: '/local-seo/bath', label: 'Local SEO Bath' },
       { href: '/contact', label: 'Get a free audit' },
     ],

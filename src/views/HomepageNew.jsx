@@ -372,8 +372,11 @@ export default function HomepageNew() {
               style={{ color: 'rgba(255,255,255,0.42)' }}
             >
               SEO Kings is based in Keynsham, Somerset. We build websites and
-              handle local SEO for trades and small businesses across Bath,
-              Bristol and North East Somerset.
+              handle{' '}
+              <Link href="/seo/bath" className="text-primary hover:underline">SEO in Bath</Link>,{' '}
+              <Link href="/seo/bristol" className="text-primary hover:underline">SEO in Bristol</Link>{' '}
+              and local SEO for trades and small businesses across North East
+              Somerset.
             </p>
             <p
               className="text-base leading-relaxed"
