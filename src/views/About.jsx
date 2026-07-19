@@ -103,11 +103,19 @@ const About = () => {
                 We Build Websites That
                 <span className="gradient-text"> Get Found</span>
               </h1>
-              <p className="text-xl text-gray-400 leading-relaxed">
+              <p className="text-xl text-gray-400 leading-relaxed mb-8">
                 We're a Keynsham-based website design company for tradespeople and local businesses
                 in Bath, Bristol and North East Somerset. We build fast, clear sites — and we offer SEO and
                 Google Business Profile as add-ons so your site is found on Google.
               </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/web-design-packages" className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary text-white font-medium hover:bg-primary-dark transition-colors">
+                  Get a Quote
+                </Link>
+                <Link href="/case-studies" className="inline-flex items-center justify-center px-8 py-3 rounded-lg border border-white/20 text-white font-medium hover:border-white/40 transition-colors">
+                  View Our Work
+                </Link>
+              </div>
             </div>
             <div className="relative hidden lg:block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
