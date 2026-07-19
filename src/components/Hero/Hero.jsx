@@ -6,8 +6,8 @@ import MagneticButton from '../library/MagneticButton';
 import SplitTextHero from '../library/SplitTextHero';
 
 const Hero = ({
-  title = 'Web Design & Local SEO for Trades That Get You Calls',
-  subtitle = 'Fast websites from £250. Local SEO add-ons from £150/month. Real results in Bath, Keynsham & Bristol.',
+  title = 'Is Your Website Actually Getting You Calls?',
+  subtitle = 'Most trades in Bath & Bristol are missing leads because their site doesn\'t rank. We build sites that do. From £250, live in 2 weeks.',
   primaryCta = { href: '/contact', text: 'Get Your Free Audit' },
   secondaryCta = { href: 'tel:07702264921', text: '07702 264 921' },
 } = {}) => {
@@ -16,18 +16,21 @@ const Hero = ({
       business: 'Peachy Cleans',
       keyword: '"cleaning Midsomer Norton"',
       result: '#1 Map Pack',
+      stat: '40+ calls/month',
       color: '#10B981',
     },
     {
       business: 'New Decorating',
-      keyword: '"exterior painter Bath"',
+      keyword: '"painter Bath"',
       result: 'Top 3 Map Pack',
+      stat: 'First inquiry within a week',
       color: '#F59E0B',
     },
     {
       business: 'Bath Painter',
-      keyword: '"painter Bath"',
-      result: 'Bespoke Site',
+      keyword: '"painter & decorator Bath"',
+      result: 'Live in 1 week',
+      stat: 'Fully booked 2 months in',
       color: '#8B5CF6',
     },
   ];
@@ -146,7 +149,7 @@ const Hero = ({
                     borderLeftColor: item.color,
                   }}
                 >
-                  <div className="flex items-start justify-between gap-4">
+                  <div className="flex items-start justify-between gap-4 mb-3">
                     <div className="flex-1">
                       <p className="text-white font-semibold text-sm mb-1">{item.business}</p>
                       <p className="text-gray-400 text-xs mb-2">{item.keyword}</p>
@@ -161,6 +164,13 @@ const Hero = ({
                       </div>
                       <p className="text-gray-400 text-xs mt-1">{item.result.split(' ').slice(1).join(' ')}</p>
                     </div>
+                  </div>
+                  {/* Quantified outcome */}
+                  <div className="pt-3 border-t border-white/10">
+                    <p className="text-xs text-gray-300 flex items-center gap-1">
+                      <span style={{ color: item.color }}>→</span>
+                      <span className="font-semibold">{item.stat}</span>
+                    </p>
                   </div>
 
                   {/* Subtle hover accent */}
