@@ -248,7 +248,7 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/midsomer-norton', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-designer-trowbridge', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/website-redesign', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.8 },
-  { path: '/google-business-profile', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
+  { path: '/google-business-profile', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
   { path: '/tools', lastmod: '2026-07-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/tools/local-seo-checklist', lastmod: '2026-07-18', changefreq: 'monthly', priority: 0.8 },
   { path: '/bath-trades-website-report', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },

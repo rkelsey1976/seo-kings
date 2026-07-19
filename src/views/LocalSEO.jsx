@@ -138,7 +138,10 @@ const LocalSEO = () => {
             ],
           },
         ]} />
+      {/* Keyword H1 for crawlers; visible hero headline stays conversion-first as H2 (same pattern as homepage) */}
+      <h1 className="sr-only">Local SEO Services for Trades in Bath & North East Somerset from £150/month</h1>
       <ServicePageHero
+        titleTag="h2"
         badge="Local SEO Services"
         title="Get Found When Customers Search in"
         highlight="Bath & North East Somerset"

@@ -82,7 +82,10 @@ const GoogleBusinessProfile = () => {
             ],
           },
         ]} />
+      {/* Keyword H1 for crawlers; visible hero headline stays conversion-first as H2 (same pattern as homepage) */}
+      <h1 className="sr-only">Google Business Profile Optimisation for Trades in Bath & Somerset — One-Off £100</h1>
       <ServicePageHero
+        titleTag="h2"
         badge="Google Business Profile"
         title="Get Your Profile Optimised —"
         highlight="One-Off £100"
