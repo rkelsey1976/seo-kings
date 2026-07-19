@@ -23,12 +23,12 @@ const works = [
     slug: 'aspect-builds',
   },
   {
-    business: 'New Decorating',
+    business: 'Peachy Cleans',
     category: 'Web Design & GBP',
-    proof: 'Top 3 Map Pack · "exterior painter Bath"',
-    image: '/images/case-studies/new-decorating.webp',
-    alt: 'New Decorating — website and Google Business Profile for a Bath decorator',
-    slug: 'new-decorating',
+    proof: '#1 Map Pack · "cleaning Midsomer Norton"',
+    image: '/images/case-studies/peachy-cleans.webp',
+    alt: 'Peachy Cleans — cleaning company website and Google Business Profile for Midsomer Norton',
+    slug: 'peachy-cleans',
   },
   {
     business: 'Aurelian Massage',
