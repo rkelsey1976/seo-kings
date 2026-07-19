@@ -43,25 +43,25 @@ const marqueeItems = [
 const howItWorksSteps = [
   {
     number: '01',
-    tag: 'Discovery',
-    heading: 'We audit where the calls are going.',
-    description: 'We check where you rank, what your competitors are doing, and where the missed calls are. Takes 10 minutes. The report is yours either way.',
+    tag: 'Free Audit',
+    heading: 'Find out where you\'re losing calls.',
+    description: 'We audit your current rankings, check your competitors, and find where the missed opportunities are. Free report. Takes 10 minutes. Either way, the insights are yours.',
     image: '/images/home/website-designer-bath-professional-workspace.webp',
     imageAlt: 'Website designer Bath — professional setup for building fast, SEO-ready sites',
   },
   {
     number: '02',
-    tag: 'Build',
-    heading: 'Your site goes live in under 2 weeks.',
-    description: 'Mobile-first, fast-loading, built to show up when customers search "[your trade] near me" in Bath, Keynsham or wherever you work.',
+    tag: 'Launch',
+    heading: 'Live and ranking within 2 weeks.',
+    description: 'Fast, mobile-first site built to show up when customers search for "[your trade] near me". Built with local SEO from day one, not bolted on after.',
     image: '/images/home/local-seo-get-found-google-analytics.webp',
     imageAlt: 'Local SEO audit — Google rankings and visibility for Bath businesses',
   },
   {
     number: '03',
-    tag: 'Win',
-    heading: 'The calls come in.',
-    description: "You get a monthly ranking report showing exactly where you sit and what's moved. Most clients see calls within the first 30 days.",
+    tag: 'Results',
+    heading: 'Phone starts ringing.',
+    description: 'Monthly ranking reports show exactly where you sit and what\'s improving. Most clients see their first calls within 30 days. You\'ll know it\'s working because you\'ll get enquiries.',
     image: '/images/home/website-design-workflow-bath-somerset.webp',
     imageAlt: 'Website design results — real local search wins for trades in Bath and Somerset',
   },
@@ -135,10 +135,10 @@ export default function HomePage() {
           <div className="mb-10">
             <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Services</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight tracking-tighter-display">
-              Web Design & SEO for Trades in Keynsham, Bath & Somerset
+              Everything You Need to Get Found and Get Calls
             </h2>
             <p className="text-lg max-w-2xl mt-4 text-white/55">
-              One core service — website design for local trades — with add-ons that actually make sense.
+              Website design is our core. Local SEO, Google Business Profile optimisation, and ongoing ranking reports are add-ons that actually move the needle.
             </p>
           </div>
           <BentoGrid cells={bentoCells} columns={4} gap="md" />
