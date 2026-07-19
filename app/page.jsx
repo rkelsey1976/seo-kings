@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import Hero from '../src/components/Hero/Hero';
+import SelectedWorks from '../src/components/SelectedWorks';
 import HomePageFAQSchema from './HomePageFAQSchema';
 import HomepageLocalBusinessSchema from './HomepageLocalBusinessSchema';
 
@@ -147,6 +148,9 @@ export default function HomePage() {
 
       {/* Results — Real client numbers */}
       <Results />
+
+      {/* Selected Works — dribbble-style portfolio cards */}
+      <SelectedWorks />
 
       {/* How It Works — StepsScroll */}
       <section className="py-24 relative" style={{ background: "#0B1324" }}>
