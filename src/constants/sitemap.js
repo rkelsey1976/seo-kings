@@ -329,7 +329,7 @@ export const STATIC_ROUTES = [
   { path: '/local-seo/peasedown-st-john', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/paulton', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/saltford', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
-  { path: '/services', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
+  { path: '/services', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-packages', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-for/plumbers', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-for/electricians', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
