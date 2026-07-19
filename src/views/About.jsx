@@ -302,8 +302,7 @@ const About = () => {
               Proudly Serving Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We're not a faceless agency in London. We're a local <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">SEO agency serving Bath</Link> and
-              North East Somerset, based in Keynsham — we build websites for local businesses and offer SEO and GBP so those sites get found.
+              We're not a faceless agency in London. We're a local <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">SEO agency serving Bath, Bristol and North East Somerset</Link>, based in Keynsham — we build websites for local businesses and offer SEO and GBP so those sites get found.
             </p>
           </div>
 
