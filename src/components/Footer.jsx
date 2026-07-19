@@ -96,7 +96,8 @@ const Footer = () => {
               <div className="space-y-3">
                 <address className="not-italic text-sm leading-relaxed text-white/55">
                   16a Culvers Road<br />
-                  Keynsham & Bristol<br />
+                  Keynsham<br />
+                  Bristol<br />
                   BS31 2DW
                 </address>
                 <p className="text-sm text-white/55 leading-relaxed">
