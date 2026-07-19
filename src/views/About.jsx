@@ -310,6 +310,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { name: 'Bath', slug: 'bath' },
+              { name: 'Bristol', slug: 'bristol' },
               { name: 'Keynsham', slug: 'keynsham' },
               { name: 'Midsomer Norton', slug: 'midsomer-norton' },
               { name: 'Radstock', slug: 'radstock' },

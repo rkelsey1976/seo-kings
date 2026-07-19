@@ -17,6 +17,9 @@ export const metadata = {
   title: 'SEO Agency Bath & Bristol | Local SEO for Trades from £150/mo | SEO Kings',
   description: 'Web design + local SEO for trades in Bath, Bristol & Somerset. Peachy Cleans Map Pack #1. From £250 sites, £150/mo SEO. Free audit — see where you rank.',
   alternates: { canonical: 'https://seo-kings.co.uk/' },
+  openGraph: {
+    url: 'https://seo-kings.co.uk/',
+  },
   other: {
     'trustpilot-one-time-domain-verification-id': '7d8c84ad-2a23-4a65-8cf6-2ac075ac9030',
   },
