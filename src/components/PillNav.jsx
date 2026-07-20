@@ -188,8 +188,9 @@ const PillNav = () => {
           {/* Mobile toggle */}
           <button
             onClick={() => {
+              setServicesOpen(false);
+              setAreasOpen(false);
               setIsOpen(!isOpen);
-              closeAllMenus();
             }}
             className="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 transition-colors"
             aria-label={isOpen ? 'Close menu' : 'Open menu'}
