@@ -7,22 +7,51 @@ const services = [
   {
     name: 'Website Design',
     href: '/web-design-for',
-    description: 'Fast, mobile-first sites from £250',
+    description: 'Fast, mobile-first sites that convert visitors into leads',
+    price: 'From £250',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    ),
+    accentColor: 'from-primary to-primary-dark',
   },
   {
     name: 'Local SEO',
     href: '/local-seo',
-    description: 'Rank higher on Google from £150/month',
+    description: 'Get found on Google Maps and organic search in your area',
+    price: 'From £150/mo',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+    ),
+    accentColor: 'from-secondary to-blue-500',
   },
   {
     name: 'Google Business Profile',
     href: '/google-business-profile',
-    description: 'Setup & optimisation from £100',
+    description: 'Show up in Map Pack results with a complete profile',
+    price: 'From £100',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+    ),
+    accentColor: 'from-amber-500 to-orange-500',
   },
   {
     name: 'Packages & Pricing',
     href: '/web-design-packages',
-    description: 'Clear pricing with no hidden fees',
+    description: 'Transparent pricing with no hidden fees or surprises',
+    price: 'See all plans',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+    accentColor: 'from-green-500 to-emerald-500',
   },
 ];
 
@@ -192,15 +221,36 @@ const PillNav = () => {
                 <Link
                   key={service.name}
                   href={service.href}
-                  className="group flex flex-col p-4 rounded-xl hover:bg-white/5 transition-all duration-200"
+                  className="group flex flex-col p-5 rounded-xl border border-white/5 hover:border-white/15 hover:bg-white/3 transition-all duration-300 hover:shadow-lg"
                   onClick={() => closeAllMenus()}
                 >
-                  <span className="text-white font-semibold text-sm mb-1 group-hover:text-primary-light transition-colors">
+                  {/* Icon */}
+                  <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${service.accentColor} flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    {service.icon}
+                  </div>
+
+                  {/* Price Badge */}
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.1em] text-primary mb-2 font-mono">
+                    {service.price}
+                  </div>
+
+                  {/* Title */}
+                  <span className="text-white font-bold text-sm mb-2 group-hover:text-primary-light transition-colors">
                     {service.name}
                   </span>
-                  <span className="text-gray-400 text-xs leading-relaxed">
+
+                  {/* Description */}
+                  <span className="text-gray-400 text-xs leading-relaxed flex-1 mb-3">
                     {service.description}
                   </span>
+
+                  {/* Arrow */}
+                  <div className="flex items-center gap-1.5 text-primary text-xs font-semibold opacity-0 group-hover:opacity-100 transition-all duration-200">
+                    Explore
+                    <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </Link>
               ))}
             </div>
@@ -217,24 +267,35 @@ const PillNav = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20 py-8">
             {/* Featured Areas */}
             <div className="mb-8">
+              <div className="text-xs font-semibold text-primary uppercase tracking-[0.1em] mb-4 font-mono">Featured Areas</div>
               <div className="grid md:grid-cols-2 gap-6">
                 {featuredAreas.map((area) => (
                   <Link
                     key={area.slug}
                     href={`/areas/${area.slug}`}
-                    className="group flex flex-col p-6 rounded-xl border border-primary/20 bg-primary/5 hover:bg-primary/10 hover:border-primary/40 transition-all duration-200"
+                    className="group relative flex flex-col p-6 rounded-xl border border-primary/40 bg-gradient-to-br from-primary/15 to-primary/5 hover:from-primary/25 hover:to-primary/10 hover:border-primary/60 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
                     onClick={() => closeAllMenus()}
                   >
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <span className="text-white font-bold text-lg mb-1 block group-hover:text-primary-light transition-colors">
+                    {/* Glow effect */}
+                    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/0 to-primary/0 group-hover:from-primary/5 group-hover:to-primary/5 transition-all duration-300 pointer-events-none" />
+
+                    <div className="relative flex items-start justify-between">
+                      <div className="flex-1">
+                        <svg className="w-5 h-5 text-primary mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        </svg>
+                        <span className="text-white font-bold text-xl mb-2 block group-hover:text-primary-light transition-colors">
                           {area.name}
                         </span>
-                        <span className="text-gray-400 text-sm">
-                          {area.postcodes}
-                        </span>
+                        <div className="flex gap-2">
+                          {area.postcodes.split(', ').map((code) => (
+                            <span key={code} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-primary/20 text-primary">
+                              {code}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                      <svg className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-5 h-5 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
@@ -245,19 +306,19 @@ const PillNav = () => {
 
             {/* Other Areas Grid */}
             <div className="mb-8">
-              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Other areas</div>
+              <div className="text-xs font-semibold text-gray-400 uppercase tracking-[0.1em] mb-4 font-mono">Explore More</div>
               <div className="grid md:grid-cols-5 gap-3">
                 {otherAreas.map((area) => (
                   <Link
                     key={area.slug}
                     href={`/areas/${area.slug}`}
-                    className="group flex flex-col p-3 rounded-lg hover:bg-white/5 transition-all duration-200"
+                    className="group flex flex-col p-3 rounded-lg border border-white/5 hover:border-white/15 hover:bg-white/5 transition-all duration-200"
                     onClick={() => closeAllMenus()}
                   >
-                    <span className="text-white font-medium text-sm mb-0.5 group-hover:text-primary-light transition-colors">
+                    <span className="text-white font-semibold text-sm mb-1.5 group-hover:text-primary-light transition-colors">
                       {area.name}
                     </span>
-                    <span className="text-gray-500 text-xs">
+                    <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-800/50 text-gray-300 group-hover:bg-primary/20 group-hover:text-primary transition-colors w-fit">
                       {area.postcodes}
                     </span>
                   </Link>
@@ -272,7 +333,7 @@ const PillNav = () => {
             <div className="flex items-center justify-between">
               <Link
                 href="/areas"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary-light hover:text-white transition-colors"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-primary-light hover:text-white transition-all duration-200 hover:translate-x-1"
                 onClick={() => closeAllMenus()}
               >
                 View all areas
@@ -282,10 +343,10 @@ const PillNav = () => {
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-white bg-primary/20 hover:bg-primary/30 transition-colors"
+                className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-primary-dark transition-all duration-200 hover:shadow-lg hover:shadow-primary/30"
                 onClick={() => closeAllMenus()}
               >
-                Free Local SEO Audit
+                Free Audit
               </Link>
             </div>
           </div>
