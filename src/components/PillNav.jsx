@@ -7,51 +7,47 @@ const services = [
   {
     name: 'Website Design',
     href: '/web-design-for',
-    description: 'Fast-loading sites that rank and convert',
-    benefit: 'Live in 2 weeks',
+    description: 'Fast-loading sites that rank and convert. Live in 2 weeks.',
     price: 'From £250',
-    result: 'Rankings + calls within weeks',
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>
     ),
-    bgGradient: 'from-primary/10 to-primary/5',
-    borderColor: 'border-primary/30',
-    accentColor: 'text-primary',
   },
   {
     name: 'Local SEO',
     href: '/local-seo',
-    description: 'Rank on Google Maps in your area',
-    benefit: 'Map Pack positions',
+    description: 'Map Pack rankings in your area. 40+ calls a month, typical.',
     price: 'From £150/mo',
-    result: '40+ calls/month typical',
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
-    bgGradient: 'from-secondary/10 to-secondary/5',
-    borderColor: 'border-secondary/30',
-    accentColor: 'text-secondary',
   },
   {
     name: 'Google Business Profile',
     href: '/google-business-profile',
-    description: 'Get found in local searches instantly',
-    benefit: 'Complete optimisation',
-    price: 'From £100',
-    result: 'Appear in Map Pack',
+    description: 'Full setup and optimisation. One-off, no ongoing fees.',
+    price: '£100',
     icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19V6a2 2 0 012-2h6a2 2 0 012 2v13m-8-5h4m0 0h4" />
+      <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
       </svg>
     ),
-    bgGradient: 'from-amber-500/10 to-amber-500/5',
-    borderColor: 'border-amber-500/30',
-    accentColor: 'text-amber-500',
+  },
+  {
+    name: 'Packages & Pricing',
+    href: '/web-design-packages',
+    description: 'Per-page pricing, no hidden fees. Hosting 6 months free.',
+    price: 'View plans',
+    icon: (
+      <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+      </svg>
+    ),
   },
 ];
 
@@ -212,77 +208,90 @@ const PillNav = () => {
       {/* Services Mega Menu */}
       {servicesOpen && (
         <div
-          className="hidden md:block backdrop-blur-2xl border-b border-white/10 overflow-hidden transition-all duration-300"
-          style={{ background: 'linear-gradient(135deg, rgba(7,8,13,0.98) 0%, rgba(7,8,13,0.95) 100%)' }}
+          className="hidden md:block backdrop-blur-2xl border-b border-white/[0.06]"
+          style={{ background: 'rgba(7,8,13,0.98)' }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20 py-12">
-            {/* Header */}
-            <div className="mb-8 flex items-center justify-between">
-              <div>
-                <h3 className="text-sm font-mono uppercase tracking-[0.15em] text-primary mb-2">Services</h3>
-                <p className="text-gray-300 text-sm">Choose what you need to get found and get calls</p>
-              </div>
-              <Link
-                href="/services"
-                className="text-xs font-semibold text-primary-light hover:text-white transition-colors flex items-center gap-1.5"
-                onClick={() => closeAllMenus()}
-              >
-                View all
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+          <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 py-10">
+            <div className="grid grid-cols-12 gap-12">
 
-            {/* Services Grid */}
-            <div className="grid md:grid-cols-3 gap-6">
-              {services.map((service) => (
+              {/* Left — intro column */}
+              <div className="col-span-3 border-r border-white/[0.06] pr-10">
+                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">Services</div>
+                <p className="text-white text-lg font-semibold leading-snug tracking-tight mb-3">
+                  Built to get you found. Priced for trades.
+                </p>
+                <p className="text-gray-500 text-[13px] leading-relaxed mb-6">
+                  Websites, local SEO and Google Business Profile — the three things that put a trade on page one.
+                </p>
                 <Link
-                  key={service.name}
-                  href={service.href}
-                  className={`group flex flex-col p-6 rounded-2xl border-2 ${service.borderColor} bg-gradient-to-br ${service.bgGradient} hover:border-primary/50 hover:bg-gradient-to-br hover:from-primary/15 hover:to-primary/8 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1`}
+                  href="/services"
+                  className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary hover:text-white transition-colors"
                   onClick={() => closeAllMenus()}
                 >
-                  {/* Icon */}
-                  <div className={`w-12 h-12 rounded-xl ${service.accentColor} mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center`}>
-                    {service.icon}
-                  </div>
-
-                  {/* Title */}
-                  <h4 className="text-white font-bold text-base mb-1 group-hover:text-primary-light transition-colors">
-                    {service.name}
-                  </h4>
-
-                  {/* Price */}
-                  <div className={`text-xs font-semibold uppercase tracking-wider mb-3 ${service.accentColor}`}>
-                    {service.price}
-                  </div>
-
-                  {/* Description */}
-                  <p className="text-gray-400 text-sm leading-relaxed mb-3">
-                    {service.description}
-                  </p>
-
-                  {/* Divider */}
-                  <div className="h-px bg-white/5 my-3" />
-
-                  {/* Results */}
-                  <div className="flex items-start gap-2 mb-4">
-                    <svg className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-xs text-gray-300">{service.result}</span>
-                  </div>
-
-                  {/* CTA Arrow */}
-                  <div className="flex items-center gap-2 text-primary font-semibold text-sm group-hover:gap-3 transition-all duration-200 mt-auto">
-                    Get started
-                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </div>
+                  All services
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
                 </Link>
-              ))}
+              </div>
+
+              {/* Middle — service list */}
+              <div className="col-span-6">
+                <ul className="-my-1">
+                  {services.map((service) => (
+                    <li key={service.name}>
+                      <Link
+                        href={service.href}
+                        className="group flex items-center gap-4 py-4 border-b border-white/[0.04] last:border-b-0 -mx-4 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-200"
+                        onClick={() => closeAllMenus()}
+                      >
+                        <span className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.06] text-gray-400 group-hover:text-primary group-hover:border-primary/30 transition-colors duration-200 shrink-0">
+                          {service.icon}
+                        </span>
+                        <span className="flex-1 min-w-0">
+                          <span className="block text-white text-sm font-medium tracking-tight group-hover:text-white transition-colors">
+                            {service.name}
+                          </span>
+                          <span className="block text-gray-500 text-[13px] leading-relaxed truncate">
+                            {service.description}
+                          </span>
+                        </span>
+                        <span className="text-[11px] font-mono tracking-[0.08em] uppercase text-gray-500 group-hover:text-primary transition-colors shrink-0">
+                          {service.price}
+                        </span>
+                        <svg className="w-3.5 h-3.5 text-gray-600 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Right — proof */}
+              <div className="col-span-3">
+                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-gray-500 mb-4">Latest result</div>
+                <Link
+                  href="/case-studies/peachy-cleans"
+                  className="group block"
+                  onClick={() => closeAllMenus()}
+                >
+                  <div className="text-white text-2xl font-bold tracking-tight mb-1">#1</div>
+                  <div className="text-gray-400 text-[13px] leading-relaxed mb-1">
+                    Map Pack — &ldquo;cleaning Midsomer Norton&rdquo;
+                  </div>
+                  <div className="text-gray-500 text-[13px] mb-4">
+                    Peachy Cleans · 40+ calls a month
+                  </div>
+                  <span className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary group-hover:text-white transition-colors">
+                    Read the case study
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+
             </div>
           </div>
         </div>
@@ -291,128 +300,83 @@ const PillNav = () => {
       {/* Areas Mega Menu */}
       {areasOpen && (
         <div
-          className="hidden md:block backdrop-blur-2xl border-b border-white/10 overflow-hidden transition-all duration-300"
-          style={{ background: 'linear-gradient(135deg, rgba(7,8,13,0.98) 0%, rgba(7,8,13,0.95) 100%)' }}
+          className="hidden md:block backdrop-blur-2xl border-b border-white/[0.06]"
+          style={{ background: 'rgba(7,8,13,0.98)' }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20 py-12">
-            {/* Header */}
-            <div className="mb-10 flex items-center justify-between">
-              <div>
-                <h3 className="text-sm font-mono uppercase tracking-[0.15em] text-secondary mb-2">Areas</h3>
-                <p className="text-gray-300 text-sm">Fast results in Somerset & Bristol. We rank #1 for "SEO Bristol"</p>
-              </div>
-              <Link
-                href="/areas"
-                className="text-xs font-semibold text-primary-light hover:text-white transition-colors flex items-center gap-1.5"
-                onClick={() => closeAllMenus()}
-              >
-                View all
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+          <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 py-10">
+            <div className="grid grid-cols-12 gap-12">
 
-            {/* Featured Areas - 2 Column */}
-            <div className="grid md:grid-cols-2 gap-6 mb-10">
-              {featuredAreas.map((area) => (
+              {/* Left — intro column */}
+              <div className="col-span-3 border-r border-white/[0.06] pr-10">
+                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">Areas</div>
+                <p className="text-white text-lg font-semibold leading-snug tracking-tight mb-3">
+                  Based in Keynsham. Ranking across Somerset &amp; Bristol.
+                </p>
+                <p className="text-gray-500 text-[13px] leading-relaxed mb-6">
+                  We rank #1 organically for &ldquo;SEO Bristol&rdquo; — the same work we sell.
+                </p>
                 <Link
-                  key={area.slug}
-                  href={`/areas/${area.slug}`}
-                  className="group relative flex flex-col p-8 rounded-2xl border-2 border-primary/40 bg-gradient-to-br from-primary/12 to-primary/4 hover:border-primary/70 hover:from-primary/20 hover:to-primary/8 transition-all duration-300 hover:shadow-xl hover:shadow-primary/15 hover:-translate-y-1 overflow-hidden"
+                  href="/areas"
+                  className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary hover:text-white transition-colors"
                   onClick={() => closeAllMenus()}
                 >
-                  {/* Background accent */}
-                  <div className="absolute -right-12 -top-12 w-32 h-32 rounded-full bg-primary/10 blur-3xl group-hover:bg-primary/20 transition-all duration-300" />
-
-                  <div className="relative">
-                    {/* Icon + Title */}
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center text-primary flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h4 className="text-white font-bold text-xl mb-1 group-hover:text-primary-light transition-colors">
-                          {area.name}
-                        </h4>
-                        <p className="text-xs text-gray-400">3-6 months to Map Pack</p>
-                      </div>
-                    </div>
-
-                    {/* Postcodes */}
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {area.postcodes.split(', ').map((code) => (
-                        <span key={code} className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold bg-primary/20 text-primary border border-primary/30">
-                          {code}
-                        </span>
-                      ))}
-                    </div>
-
-                    {/* Stats */}
-                    <div className="text-sm text-gray-400 mb-4">
-                      <div className="flex items-center gap-2">
-                        <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                        </svg>
-                        <span>Real rankings · Real clients · Real results</span>
-                      </div>
-                    </div>
-
-                    {/* CTA */}
-                    <div className="flex items-center gap-2 text-primary font-semibold text-sm group-hover:gap-3 transition-all duration-200">
-                      Explore area
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                      </svg>
-                    </div>
-                  </div>
+                  All areas
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
                 </Link>
-              ))}
-            </div>
-
-            {/* Other Areas Grid - 5 Column */}
-            <div>
-              <h5 className="text-xs font-semibold text-gray-400 uppercase tracking-[0.15em] mb-4 font-mono">Also serving</h5>
-              <div className="grid md:grid-cols-5 gap-3 mb-8">
-                {otherAreas.map((area) => (
-                  <Link
-                    key={area.slug}
-                    href={`/areas/${area.slug}`}
-                    className="group flex flex-col p-4 rounded-xl border-2 border-white/8 bg-white/3 hover:border-white/20 hover:bg-white/6 transition-all duration-200 hover:shadow-md"
-                    onClick={() => closeAllMenus()}
-                  >
-                    <span className="text-white font-semibold text-sm mb-2 group-hover:text-primary transition-colors">
-                      {area.name}
-                    </span>
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold bg-white/10 text-gray-400 group-hover:bg-primary/20 group-hover:text-primary transition-all w-fit">
-                      {area.postcodes}
-                    </span>
-                  </Link>
-                ))}
               </div>
-            </div>
 
-            {/* Divider */}
-            <div className="h-px bg-white/[0.08] mb-8" />
-
-            {/* Bottom CTA */}
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-sm text-gray-400 mb-1">Not in your area?</p>
-                <p className="text-xs text-gray-500">We work across Somerset & Bristol</p>
+              {/* Middle — featured areas */}
+              <div className="col-span-4">
+                <ul>
+                  {featuredAreas.map((area) => (
+                    <li key={area.slug}>
+                      <Link
+                        href={`/areas/${area.slug}`}
+                        className="group flex items-baseline justify-between gap-4 py-5 border-b border-white/[0.04] last:border-b-0 -mx-4 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-200"
+                        onClick={() => closeAllMenus()}
+                      >
+                        <span>
+                          <span className="block text-white text-xl font-semibold tracking-tight mb-0.5">
+                            {area.name}
+                          </span>
+                          <span className="block text-gray-500 text-[13px]">
+                            Web design, SEO &amp; GBP · {area.postcodes}
+                          </span>
+                        </span>
+                        <svg className="w-4 h-4 text-gray-600 self-center opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-primary transition-all duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-primary to-primary-dark hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
-                onClick={() => closeAllMenus()}
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                Free Audit
-              </Link>
+
+              {/* Right — all areas list */}
+              <div className="col-span-5">
+                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-gray-500 mb-4">Also serving</div>
+                <ul className="grid grid-cols-2 gap-x-8">
+                  {otherAreas.map((area) => (
+                    <li key={area.slug}>
+                      <Link
+                        href={`/areas/${area.slug}`}
+                        className="group flex items-baseline justify-between gap-3 py-[7px] border-b border-white/[0.04] transition-colors"
+                        onClick={() => closeAllMenus()}
+                      >
+                        <span className="text-[13px] text-gray-400 group-hover:text-white transition-colors">
+                          {area.name}
+                        </span>
+                        <span className="text-[11px] font-mono text-gray-600 group-hover:text-gray-400 transition-colors">
+                          {area.postcodes}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>
