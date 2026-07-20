@@ -327,7 +327,7 @@ const BathHub = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">What clients say</SectionTag>
           <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Bath businesses we&apos;ve helped</h2>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((t) => (
               <div key={t.name} className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
                 <svg className="w-6 h-6 mb-4 opacity-40 text-primary" fill="currentColor" viewBox="0 0 24 24">

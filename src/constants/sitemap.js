@@ -261,7 +261,7 @@ export const STATIC_ROUTES = [
   { path: '/case-studies', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
   { path: '/spotlight/peachy-cleans', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/areas', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
-  { path: '/areas/bath', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
+  { path: '/areas/bath', lastmod: '2026-07-20', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/keynsham', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/midsomer-norton', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
   { path: '/areas/radstock', lastmod: '2026-07-19', changefreq: 'monthly', priority: 0.9 },
