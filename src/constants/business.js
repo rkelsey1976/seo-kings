@@ -11,6 +11,10 @@ export const GOOGLE_MAPS_PLACE_URL =
 export const GOOGLE_MAPS_EMBED_SRC =
   'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159277.9983531994!2d-2.45200365!3d51.40822275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6336f883e105215f%3A0xa48c1533c75af07c!2sSEO%20Kings!5e0!3m2!1sen!2suk!4v1779109284266!5m2!1sen!2suk';
 
+// Bing Maps place page — for schema sameAs, helps with Bing/ChatGPT indexing
+export const BING_MAPS_PLACE_URL =
+  'https://www.bing.com/maps/search?style=r&q=SEO+Kings+-+Web+Design+%26+SEO+for+Trades%2C+16+Culvers+Rd%2C+Bristol%2C+BS31+2DW%2C+England&ss=id.local_ypid%3A%22YN68B5155FA5C4F30B%22&st=SEO+Kings+-+Web+Design+%26+SEO+for+Trades&sfa=16+Culvers+Rd%2C+Bristol%2C+BS31+2DW%2C+England&FORM=QBMV&cp=51.416603%7E-2.502991&lvl=16';
+
 export const PHONE_NUMBER = '07702 264 921';
 export const PHONE_HREF = 'tel:07702264921';
 
@@ -18,6 +22,7 @@ export const PHONE_HREF = 'tel:07702264921';
 // AI assistants can connect the website to the GBP listing, reviews and socials
 export const ORG_SAME_AS = [
   GOOGLE_MAPS_PLACE_URL,
+  BING_MAPS_PLACE_URL,
   'https://uk.trustpilot.com/review/seo-kings.co.uk',
   'https://clutch.co/profile/seo-kings-0',
   'https://www.facebook.com/profile.php?id=61587531959737',
