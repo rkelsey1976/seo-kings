@@ -80,7 +80,11 @@ const PillNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [areasOpen, setAreasOpen] = useState(false);
+  const [mobileSection, setMobileSection] = useState(null); // 'services' | 'areas' | null
   const navRef = useRef(null);
+
+  const toggleMobileSection = (section) =>
+    setMobileSection((current) => (current === section ? null : section));
 
   // Close menus when clicking outside
   useEffect(() => {
@@ -98,6 +102,7 @@ const PillNav = () => {
     setServicesOpen(false);
     setAreasOpen(false);
     setIsOpen(false);
+    setMobileSection(null);
   };
 
   return (
@@ -190,6 +195,7 @@ const PillNav = () => {
             onClick={() => {
               setServicesOpen(false);
               setAreasOpen(false);
+              setMobileSection(null);
               setIsOpen(!isOpen);
             }}
             className="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 transition-colors"
@@ -386,82 +392,100 @@ const PillNav = () => {
       {/* Mobile dropdown — full viewport */}
       {isOpen && (
         <div className="md:hidden fixed inset-0 top-[68px] z-40 flex flex-col" style={{ background: '#07080D' }}>
-          <div className="flex-1 flex flex-col justify-start pt-8 px-6 overflow-y-auto">
-            {/* Mobile Services */}
-            <div className={`border-b border-white/5 pb-4 transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isOpen ? '60ms' : '0ms' }}>
-              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Services</div>
-              <div className="flex flex-col gap-2">
-                {services.map((service) => (
-                  <Link
-                    key={service.name}
-                    href={service.href}
-                    className="flex flex-col py-2 text-gray-300 hover:text-white transition-colors duration-200"
-                    onClick={() => closeAllMenus()}
-                  >
-                    <span className="text-sm font-medium">{service.name}</span>
-                    <span className="text-xs text-gray-500">{service.description}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Mobile Featured Areas */}
-            <div className={`border-b border-white/5 pb-4 transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isOpen ? '120ms' : '0ms' }}>
-              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Featured Areas</div>
-              <div className="flex flex-col gap-2">
-                {featuredAreas.map((area) => (
-                  <Link
-                    key={area.slug}
-                    href={`/areas/${area.slug}`}
-                    className="flex justify-between py-2 text-gray-300 hover:text-white transition-colors duration-200"
-                    onClick={() => closeAllMenus()}
-                  >
-                    <span className="text-sm font-medium">{area.name}</span>
-                    <span className="text-xs text-gray-500">{area.postcodes}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Mobile Other Areas */}
-            <div className={`border-b border-white/5 pb-4 transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isOpen ? '180ms' : '0ms' }}>
-              <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Other Areas</div>
-              <div className="grid grid-cols-2 gap-2">
-                {otherAreas.map((area) => (
-                  <Link
-                    key={area.slug}
-                    href={`/areas/${area.slug}`}
-                    className="flex flex-col py-2 text-gray-300 hover:text-white transition-colors duration-200"
-                    onClick={() => closeAllMenus()}
-                  >
-                    <span className="text-sm font-medium">{area.name}</span>
-                    <span className="text-xs text-gray-500">{area.postcodes}</span>
-                  </Link>
-                ))}
-              </div>
-              <Link
-                href="/areas"
-                className="flex items-center gap-2 py-2 mt-3 text-primary-light hover:text-white transition-colors duration-200"
-                onClick={() => closeAllMenus()}
+          <div className="flex-1 flex flex-col justify-start pt-4 px-6 overflow-y-auto">
+            {/* Services accordion */}
+            <div className="border-b border-white/5">
+              <button
+                onClick={() => toggleMobileSection('services')}
+                className="w-full flex items-center justify-between py-4 text-white"
+                aria-expanded={mobileSection === 'services'}
               >
-                <span className="text-sm font-medium">View all areas →</span>
-              </Link>
+                <span className="text-base font-medium">Services</span>
+                <svg className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${mobileSection === 'services' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'services' ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="flex flex-col gap-1 pb-3">
+                  {services.map((service) => (
+                    <Link
+                      key={service.name}
+                      href={service.href}
+                      className="flex flex-col py-2.5 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200"
+                      onClick={() => closeAllMenus()}
+                    >
+                      <span className="text-sm font-medium">{service.name}</span>
+                      <span className="text-xs text-gray-500">{service.description}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Areas accordion */}
+            <div className="border-b border-white/5">
+              <button
+                onClick={() => toggleMobileSection('areas')}
+                className="w-full flex items-center justify-between py-4 text-white"
+                aria-expanded={mobileSection === 'areas'}
+              >
+                <span className="text-base font-medium">Areas</span>
+                <svg className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${mobileSection === 'areas' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'areas' ? 'max-h-[32rem] opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="pb-3">
+                  <div className="flex flex-col gap-1 mb-2">
+                    {featuredAreas.map((area) => (
+                      <Link
+                        key={area.slug}
+                        href={`/areas/${area.slug}`}
+                        className="flex items-center justify-between py-2.5 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200"
+                        onClick={() => closeAllMenus()}
+                      >
+                        <span className="text-sm font-medium">{area.name}</span>
+                        <span className="text-xs text-gray-500 font-mono">{area.postcodes}</span>
+                      </Link>
+                    ))}
+                  </div>
+                  <div className="grid grid-cols-2 gap-x-4 pl-3 border-l border-white/10">
+                    {otherAreas.map((area) => (
+                      <Link
+                        key={area.slug}
+                        href={`/areas/${area.slug}`}
+                        className="flex items-center justify-between py-2 text-gray-400 hover:text-white transition-colors duration-200"
+                        onClick={() => closeAllMenus()}
+                      >
+                        <span className="text-sm">{area.name}</span>
+                        <span className="text-[11px] text-gray-600 font-mono">{area.postcodes}</span>
+                      </Link>
+                    ))}
+                  </div>
+                  <Link
+                    href="/areas"
+                    className="flex items-center gap-2 py-2.5 mt-2 pl-3 text-primary-light hover:text-white transition-colors duration-200"
+                    onClick={() => closeAllMenus()}
+                  >
+                    <span className="text-sm font-medium">View all areas →</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Other Navigation Links */}
-            {otherNavItems.map((link, i) => (
+            {otherNavItems.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium py-2 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}
-                style={{ transitionDelay: isOpen ? `${240 + i * 50}ms` : '0ms' }}
+                className="text-white hover:text-primary-light transition-colors duration-200 text-base font-medium py-4 border-b border-white/5"
                 onClick={() => closeAllMenus()}
               >
                 {link.name}
               </Link>
             ))}
 
-            <div className={`transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`} style={{ transitionDelay: isOpen ? '380ms' : '0ms' }}>
+            <div className="mt-6">
               <a
                 href="/contact"
                 className="bg-primary hover:bg-primary-dark text-white px-5 py-3 rounded-lg text-sm font-semibold transition-colors duration-200 w-full mt-2 text-center block"
