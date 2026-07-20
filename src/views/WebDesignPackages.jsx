@@ -110,7 +110,12 @@ const WebDesignPackages = () => {
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-4">
             Every website starts at <span className="text-white font-semibold">£250</span>. Each additional page is <span className="text-white font-semibold">£50</span>. Pick exactly what you need — nothing you don't.
           </p>
-          <p className="text-sm text-gray-600 mb-10">6 months free hosting included · SSL · click-to-call · contact form</p>
+          <p className="text-sm text-gray-600 mb-4">6 months free hosting included · SSL · click-to-call · contact form</p>
+          <p className="text-sm text-gray-500 mb-10">
+            Rather not pay upfront?{' '}
+            <Link href="/site-and-google" className="text-primary hover:underline">Site + Google is £99/month</Link>{' '}
+            — same site, Google Business Profile included, own your domain always.
+          </p>
 
           <button
             onClick={() => setModalOpen(true)}
