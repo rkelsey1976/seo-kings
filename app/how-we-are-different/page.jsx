@@ -3,8 +3,8 @@ import HowWeAreDifferent from '../../src/views/HowWeAreDifferent';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: "How We're Different – Website Designer That Gets You Calls | SEO Kings" },
-  description: "We're not like other website designers. We combine website design with local and hyper-local SEO so your site gets found on Google and gets you calls. Bath & North East Somerset.",
+  title: { absolute: "Why Choose SEO Kings | Website Design + SEO" },
+  description: "Website design combined with local SEO. Sites that rank on Google and get you calls. Bath & Somerset.",
   alternates: { canonical: 'https://seo-kings.co.uk/how-we-are-different' },
 };
 

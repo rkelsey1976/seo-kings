@@ -91,6 +91,9 @@ export function generateMetadata({ params }) {
     title: { absolute: title },
     description: area?.metaDescription,
     alternates: { canonical: `https://seo-kings.co.uk/areas/${slug}` },
+    openGraph: {
+      url: `https://seo-kings.co.uk/areas/${slug}`,
+    },
     other: GEO_META[slug] ?? { 'geo.region': 'GB-BAS', 'geo.placename': 'Bath' },
   };
 }

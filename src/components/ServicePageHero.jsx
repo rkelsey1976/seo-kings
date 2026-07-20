@@ -32,6 +32,7 @@ const ServicePageHero = ({
   ctaSecondary = 'Call Us Today',
   onGetQuote,
   rightPanel,
+  titleTag: TitleTag = 'h1',
 }) => {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
@@ -49,10 +50,10 @@ const ServicePageHero = ({
             </span>
 
             {/* Heading */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <TitleTag className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               {title}
               <span className="gradient-text"> {highlight}</span>
-            </h1>
+            </TitleTag>
 
             {/* Description */}
             <p className="text-xl text-gray-400 mb-8 leading-relaxed">

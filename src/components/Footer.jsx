@@ -1,8 +1,21 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [expandedSections, setExpandedSections] = useState({
+    services: false,
+    tools: false,
+    contact: true,
+  });
+
+  const toggleSection = (section) => {
+    setExpandedSections((prev) => ({
+      ...prev,
+      [section]: !prev[section],
+    }));
+  };
 
   return (
     <footer className="border-t border-white/[0.05]" style={{ background: '#0D0F17' }}>
@@ -20,12 +33,29 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Contact + Services + Follow */}
-          <div className="flex flex-col sm:flex-row gap-10 sm:gap-16">
-            {/* Services */}
-            <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Services</p>
-              <ul className="space-y-2.5">
+          {/* Contact + Services + Follow — Accordion on mobile, flex on desktop */}
+          <div className="w-full lg:w-auto lg:flex lg:flex-row lg:gap-16">
+            {/* Services — Accordion on mobile */}
+            <div className="border-t border-white/[0.05] lg:border-0 pt-4 lg:pt-0">
+              <button
+                onClick={() => toggleSection('services')}
+                className="w-full lg:w-auto flex items-center justify-between lg:block text-left mb-4 text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary hover:text-white/80 transition-colors lg:hover:text-primary"
+              >
+                Services
+                <svg
+                  className={`lg:hidden w-4 h-4 transition-transform duration-300 ${expandedSections.services ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </button>
+              <ul
+                className={`space-y-2.5 overflow-hidden transition-all duration-300 lg:block ${
+                  expandedSections.services ? 'max-h-96' : 'max-h-0 lg:max-h-none'
+                }`}
+              >
                 {[
                   { label: 'Website Design', href: '/web-design' },
                   { label: 'Site + Google — £99/mo', href: '/site-and-google' },
@@ -47,7 +77,8 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div>
+            {/* Areas — Always visible on desktop, collapsible on mobile */}
+            <div className="hidden lg:block">
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Areas</p>
               <ul className="space-y-2.5">
                 {[
@@ -71,9 +102,27 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div>
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Growth Hub</p>
-              <ul className="space-y-2.5">
+            {/* Growth Hub — Accordion on mobile */}
+            <div className="border-t border-white/[0.05] lg:border-0 pt-4 lg:pt-0">
+              <button
+                onClick={() => toggleSection('tools')}
+                className="w-full lg:w-auto flex items-center justify-between lg:block text-left mb-4 text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary hover:text-white/80 transition-colors lg:hover:text-primary"
+              >
+                Growth Hub
+                <svg
+                  className={`lg:hidden w-4 h-4 transition-transform duration-300 ${expandedSections.tools ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </button>
+              <ul
+                className={`space-y-2.5 overflow-hidden transition-all duration-300 lg:block ${
+                  expandedSections.tools ? 'max-h-96' : 'max-h-0 lg:max-h-none'
+                }`}
+              >
                 {[
                   { label: 'Local SEO Checklist (PDF)', href: '/tools/local-seo-checklist' },
                   { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
@@ -92,12 +141,14 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div>
+            {/* Contact — Always visible */}
+            <div className="border-t border-white/[0.05] lg:border-0 pt-4 lg:pt-0">
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Contact</p>
               <div className="space-y-3">
                 <address className="not-italic text-sm leading-relaxed text-white/55">
                   16a Culvers Road<br />
-                  Keynsham, Somerset<br />
+                  Keynsham<br />
+                  Bristol<br />
                   BS31 2DW
                 </address>
                 <p className="text-sm text-white/55 leading-relaxed">
@@ -119,7 +170,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
+            {/* Follow — Always visible */}
+            <div className="border-t border-white/[0.05] lg:border-0 pt-4 lg:pt-0">
               <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Follow</p>
               <div className="flex gap-4">
                 <a 

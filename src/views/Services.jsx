@@ -157,9 +157,17 @@ const Services = () => {
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Everything you need to get found on Google
             </h1>
-            <p className="text-xl text-gray-400 leading-relaxed max-w-2xl">
-              One core service — website design for local trades — with add-ons that actually make sense. All work together to get you visible and get you calls.
+            <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
+              Two core services — website design and local SEO for trades in Bath, Bristol and North East Somerset — with add-ons that work together. All designed to get you visible on Google and get you calls.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/web-design-packages" className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary text-white font-medium hover:bg-primary-dark transition-colors">
+                Get a Quote
+              </Link>
+              <Link href="/case-studies" className="inline-flex items-center justify-center px-8 py-3 rounded-lg border border-white/20 text-white font-medium hover:border-white/40 transition-colors">
+                View Our Work
+              </Link>
+            </div>
           </div>
         </div>
       </section>

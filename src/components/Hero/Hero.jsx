@@ -2,95 +2,74 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import MagneticButton from '../library/MagneticButton';
 import SplitTextHero from '../library/SplitTextHero';
 
 const Hero = ({
-  title = 'Web Design & Local SEO for Local Trades That Gets You Calls',
-  subtitle = 'A fast local website and Google Business Profile, built for trades across Bath, Keynsham & Somerset. Live in under 2 weeks. From £250.',
+  title = 'Is Your Website Actually Getting You Calls?',
+  subtitle = 'Most trades in Bath & Bristol are missing leads because their site doesn\'t rank. We build sites that do. From £250, live in 2 weeks.',
   primaryCta = { href: '/contact', text: 'Get Your Free Audit' },
   secondaryCta = { href: 'tel:07702264921', text: '07702 264 921' },
 } = {}) => {
+  const results = [
+    {
+      business: 'Peachy Cleans',
+      keyword: '"cleaning Midsomer Norton"',
+      result: '#1 Map Pack',
+      stat: '40+ calls/month',
+      color: '#10B981',
+    },
+    {
+      business: 'New Decorating',
+      keyword: '"painter Bath"',
+      result: 'Top 3 Map Pack',
+      stat: 'First inquiry within a week',
+      color: '#F59E0B',
+    },
+    {
+      business: 'Bath Painter',
+      keyword: '"painter & decorator Bath"',
+      result: 'Live in 1 week',
+      stat: 'Fully booked 2 months in',
+      color: '#8B5CF6',
+    },
+  ];
+
   return (
-    <section className="relative min-h-[90vh] flex items-center pt-24 md:pt-32">
-      {/* ══════ HERO BACKGROUND IMAGE — neon laptop ══════ */}
-      <div className="absolute inset-0">
-        <Image
-          src="/images/home/hero-laptop.webp"
-          alt="Web designer working on a laptop — SEO Kings, Bath"
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
-      </div>
+    <section className="relative pt-32 pb-20 overflow-hidden">
+      {/* Background Blobs — matches ServicePageHero */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-blob" />
+      <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
 
-      {/* Background image — very light overlay, image highly visible */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'linear-gradient(135deg, rgba(11,19,36,0.55) 0%, rgba(11,19,36,0.30) 40%, rgba(11,19,36,0.15) 70%, rgba(11,19,36,0.08) 100%)',
-        }}
-      />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left: Content */}
+          <div>
+            {/* Badge — matches ServicePageHero */}
+            <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
+              Web Design + Local SEO
+            </span>
 
-      {/* Left text safe-zone — minimal darkness, photo still shows */}
-      <div
-        className="absolute inset-0 pointer-events-none hidden lg:block"
-        style={{
-          background: 'linear-gradient(90deg, rgba(11,19,36,0.45) 0%, rgba(11,19,36,0.08) 55%, transparent 80%)',
-        }}
-      />
-
-      {/* Ultra-soft vignette — edges barely darkened */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'radial-gradient(ellipse at center, transparent 55%, rgba(11,19,36,0.30) 100%)',
-        }}
-      />
-
-      {/* Subtle dot grid for texture */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          opacity: 0.025,
-          backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)',
-          backgroundSize: '40px 40px',
-        }}
-      />
-
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="grid lg:grid-cols-5 gap-10 lg:gap-16 items-center">
-          {/* Left Content — 3 cols */}
-          <div className="lg:col-span-3">
-            {/* Tagline */}
-            <div className="mb-6">
-              <span className="text-coral font-medium tracking-wide uppercase text-[12px] md:text-[13px]">
-                Website Design + Local SEO<br />Bath & North East Somerset
-              </span>
-            </div>
-
-            {/* Headline — split text entrance (h2 because the page H1 is server-rendered above) */}
+            {/* Headline */}
             <SplitTextHero
               tag="h2"
-              className="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-white mb-5"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6"
             >
               {title}
             </SplitTextHero>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl text-gray-400 leading-relaxed max-w-xl mb-8">
+            <p className="text-xl text-gray-400 mb-8 leading-relaxed max-w-lg">
               {subtitle}
             </p>
 
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row items-start gap-3 mb-10">
+            {/* CTAs — matches ServicePageHero */}
+            <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <MagneticButton
                 as={Link}
                 href={primaryCta.href}
                 strength={0.35}
-                className="inline-flex items-center justify-center text-white px-7 py-3.5 rounded-lg font-semibold text-[15px] transition-colors duration-200 btn-coral"
+                className="inline-flex items-center justify-center bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 btn-glow text-center"
               >
                 {primaryCta.text}
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,41 +78,86 @@ const Hero = ({
               </MagneticButton>
               <Link
                 href={secondaryCta.href}
-                className="inline-flex items-center text-gray-300 hover:text-white px-7 py-3.5 rounded-lg font-medium text-[15px] transition-colors border border-white/10 hover:border-white/20"
+                className="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3"
               >
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 {secondaryCta.text}
               </Link>
             </div>
 
-            {/* Minimal social proof row */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500">
+            {/* Social proof row */}
+            <div className="flex flex-wrap items-center gap-6 text-sm">
               <div className="flex items-center gap-2">
-                <span className="text-gray-400 font-semibold">From £250</span>
+                <span className="text-primary font-semibold">✓</span>
+                <span className="text-gray-300">From £250</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-gray-400 font-semibold">Live in 2 weeks</span>
+                <span className="text-primary font-semibold">✓</span>
+                <span className="text-gray-300">Live in 2 weeks</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-gray-400 font-semibold">4.9★</span>
-                <span>Google rating</span>
+                <span className="text-primary font-semibold">✓</span>
+                <span className="text-gray-300">4.9★ Google</span>
               </div>
             </div>
           </div>
 
-          {/* Right — floating result card on the neon background (2 cols) */}
-          <div className="lg:col-span-2 relative hidden lg:flex items-end justify-start pb-8">
-            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg px-4 py-3">
-                <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  <span className="text-xs text-gray-400">"cleaner Midsomer Norton" </span>
-                  <span className="text-xs text-coral font-semibold ml-auto">#1</span>
+          {/* Right: Results Stack */}
+          <div className="hidden lg:block relative">
+            <div className="space-y-4">
+              {results.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-5 transition-all duration-300 hover:border-white/30 hover:bg-white/[0.1] hover:shadow-[0_12px_32px_rgba(0,0,0,0.3)] hover:-translate-y-1"
+                  style={{
+                    borderLeftWidth: '3px',
+                    borderLeftColor: item.color,
+                  }}
+                >
+                  <div className="flex items-start justify-between gap-4 mb-3">
+                    <div className="flex-1">
+                      <p className="text-white font-semibold text-sm mb-1">{item.business}</p>
+                      <p className="text-gray-400 text-xs mb-2">{item.keyword}</p>
+                      <p className="text-gray-500 text-xs">Search term</p>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div
+                        className="text-lg font-bold"
+                        style={{ color: item.color }}
+                      >
+                        {item.result.split(' ')[0]}
+                      </div>
+                      <p className="text-gray-400 text-xs mt-1">{item.result.split(' ').slice(1).join(' ')}</p>
+                    </div>
+                  </div>
+                  {/* Quantified outcome */}
+                  <div className="pt-3 border-t border-white/10">
+                    <p className="text-xs text-gray-300 flex items-center gap-1">
+                      <span style={{ color: item.color }}>→</span>
+                      <span className="font-semibold">{item.stat}</span>
+                    </p>
+                  </div>
+
+                  {/* Subtle hover accent */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl pointer-events-none"
+                    style={{
+                      background: `radial-gradient(circle at top right, ${item.color}15, transparent)`,
+                    }}
+                  />
                 </div>
+              ))}
+
+              {/* Trust badge */}
+              <div className="pt-4 flex items-center gap-2 text-xs text-gray-400">
+                <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                All results verified and tracked
               </div>
+            </div>
           </div>
         </div>
       </div>

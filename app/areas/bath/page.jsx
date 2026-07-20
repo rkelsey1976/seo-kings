@@ -4,9 +4,10 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'SEO Agency Bath | Web Design & Local Search | SEO Kings' },
-  description: 'Bath SEO agency and web designer. Local SEO from £150/month, websites from £250, GBP optimisation from £100. 6+ years helping Bath businesses get found on Google. Free audit.',
+  title: { absolute: 'SEO Agency Bath | Web Design | SEO Kings' },
+  description: 'Bath SEO agency & web designer. Local SEO from £150/mo, websites from £250. 6+ years helping Bath businesses rank. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/areas/bath' },
+  openGraph: { url: 'https://seo-kings.co.uk/areas/bath' },
   other: { 'geo.region': 'GB-BAS', 'geo.placename': 'Bath, Somerset' },
 };
 

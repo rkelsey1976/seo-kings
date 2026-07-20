@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import SectionDivider from './SectionDivider';
+import AnimatedNumber from './AnimatedNumber';
 
 const accent = '#E8715A';
 
@@ -182,14 +183,29 @@ const CaseStudyCard = ({ study, index }) => {
   return (
     <div
       ref={cardRef}
-      className="relative overflow-hidden rounded-2xl flex flex-col"
+      className="relative overflow-hidden rounded-2xl flex flex-col transition-all duration-300 hover:shadow-[0_12px_32px_rgba(0,0,0,0.4)] hover:-translate-y-1 hover:border-white/20"
       style={{
         background: '#0E1628',
         border: '1px solid rgba(255,255,255,0.06)',
         padding: '20px',
         minHeight: '320px',
+        animation: 'fadeInUp 0.8s ease-out forwards',
+        opacity: 0,
+        animationDelay: `${index * 0.15}s`,
       }}
     >
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
       {/* Top accent bar */}
       <div style={{
         position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
@@ -217,10 +233,15 @@ const CaseStudyCard = ({ study, index }) => {
       <div style={{
         fontSize: '52px', fontWeight: 700, color: accent, lineHeight: 1,
         letterSpacing: '-0.04em',
-        textShadow: `0 0 60px ${accent}35`,
         marginBottom: '4px',
       }}>
-        {study.gbpClicks}
+        <AnimatedNumber
+          value={study.gbpClicks}
+          duration={2000}
+          style={{
+            textShadow: `0 0 60px ${accent}50, 0 0 120px ${accent}25`,
+          }}
+        />
       </div>
 
       <div
@@ -277,7 +298,7 @@ const Results = () => (
         <span className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary">Verified results</span>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mt-3 tracking-tight" style={{ letterSpacing: '-0.04em' }}>
           Real clients.{' '}
-          <span style={{ color: accent, textShadow: `0 0 40px ${accent}40` }}>Real Google data.</span>
+          <span style={{ color: accent, textShadow: `0 0 40px ${accent}60, 0 0 80px ${accent}30` }}>Real Google data.</span>
         </h2>
         <p className="text-white/40 mt-4 max-w-xl font-mono text-sm" style={{ letterSpacing: '0.04em' }}>
           Three local businesses · zero ad spend · just Google Maps
@@ -308,8 +329,15 @@ const Results = () => (
         <div style={{
           fontSize: 'clamp(4rem,10vw,6rem)', fontWeight: 700, color: accent,
           letterSpacing: '-0.05em', lineHeight: 1,
-          textShadow: `0 0 80px ${accent}40`,
-        }}>446</div>
+        }}>
+          <AnimatedNumber
+            value="446"
+            duration={2500}
+            style={{
+              textShadow: `0 0 80px ${accent}60, 0 0 160px ${accent}30`,
+            }}
+          />
+        </div>
         <div className="pb-1 sm:pb-2">
           <div className="text-white font-semibold mb-1" style={{ letterSpacing: '-0.02em' }}>total Google Maps website clicks</div>
           <div className="font-mono text-xs" style={{ color: 'rgba(255,255,255,0.4)', letterSpacing: '0.04em', lineHeight: 1.8 }}>
@@ -337,7 +365,7 @@ const Results = () => (
         </div>
         <Link
           href="/case-studies"
-          className="inline-flex items-center gap-2 font-mono text-xs font-semibold transition-colors whitespace-nowrap"
+          className="inline-flex items-center gap-2 font-mono text-xs font-semibold transition-all duration-300 whitespace-nowrap hover:scale-105 hover:shadow-[0_8px_24px_rgba(232,113,90,0.2)]"
           style={{
             color: accent,
             border: `1px solid ${accent}40`,

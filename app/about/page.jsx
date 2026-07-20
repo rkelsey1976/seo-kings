@@ -3,8 +3,8 @@ import About from '../../src/views/About';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'About SEO Kings | Web Design for Trades in Bath & Somerset' },
-  description: 'We build websites for trades and local businesses in Bath and North East Somerset. SEO and Google Business Profile are add-ons we provide so your site gets found.',
+  title: { absolute: 'About SEO Kings | Bath Web Design Agency' },
+  description: 'SEO Kings builds fast websites and handles local SEO for trades in Bath & Bristol. 22 years experience. From £250 sites.',
   alternates: { canonical: 'https://seo-kings.co.uk/about' },
 };
 

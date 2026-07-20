@@ -1,4 +1,5 @@
 import GoogleBusinessProfile from '../../src/views/GoogleBusinessProfile';
+import LocalBusinessRefSchema from '../LocalBusinessRefSchema';
 
 export const revalidate = 3600;
 
@@ -9,5 +10,10 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <GoogleBusinessProfile />;
+  return (
+    <>
+      <LocalBusinessRefSchema />
+      <GoogleBusinessProfile />
+    </>
+  );
 }

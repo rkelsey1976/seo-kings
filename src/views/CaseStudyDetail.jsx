@@ -19,7 +19,7 @@ const caseStudiesData = {
     location: 'Midsomer Norton, BA3',
     logo: 'PC',
     tagline: 'Professional website and local visibility in Midsomer Norton',
-    heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952',
+    heroImage: '/images/case-studies/peachy-cleans.webp',
     heroImageAlt: 'Professional cleaning services - Peachy Cleans Midsomer Norton website and SEO case study',
     color: 'from-pink-500 to-rose-500',
     overview: 'Peachy Cleans is a professional cleaning services business serving Midsomer Norton and the surrounding area. They came to SEO Kings with no website and no real presence on Google. We built them a clear, professional site and got them visible for local cleaning searches. They are now having fully booked weeks and have hired new staff to keep up with demand. We are now working with them to target multiple areas (Midsomer Norton, Radstock, Bath, Frome, Paulton, Peasedown St John, Wells and surrounding Somerset) and multiple keywords on Google so they show up across their full service area.',
@@ -56,6 +56,7 @@ const caseStudiesData = {
       author: 'Peachy Cleans',
       role: 'Professional Cleaning Services, Midsomer Norton',
     },
+    websiteUrl: 'https://peachycleans.info',
     services: ['Website Design', 'Local SEO'],
     relatedCases: ['new-decorating', 'aurelian-massage'],
   },
@@ -67,7 +68,7 @@ const caseStudiesData = {
     location: 'Bath, Keynsham, Midsomer Norton, Radstock & BANES',
     logo: 'ND',
     tagline: 'From no web presence to top 8 on Google Maps in a week',
-    heroImage: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828',
+    heroImage: '/images/case-studies/new-decorating.webp',
     heroImageAlt: 'Painter and decorator Bath - New Decorating website and Google Business Profile case study',
     color: 'from-amber-600 to-orange-600',
     overview: 'Jay at New Decorating — a painter and decorator across Bath, Keynsham, Midsomer Norton, Radstock and Bath and North East Somerset — had no website and no Google Business Profile. When potential customers searched for a painter and decorator in Bath or the surrounding areas, he simply didn\'t show up. We built him a fast, mobile-friendly website at new-decorating.co.uk and set up and optimised his Google Business Profile so the two work together. Within a week he was ranking for long-tail keywords and listing in the top 8 on Google Maps.',
@@ -115,7 +116,7 @@ const caseStudiesData = {
     location: 'Bath & Keynsham, Somerset',
     logo: 'BP',
     tagline: 'Bespoke website for a Bath heritage specialist — enquiries up in under a week',
-    heroImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f',
+    heroImage: '/images/case-studies/bath-painter.webp',
     heroImageAlt: 'Painter and decorator Bath — Bath Painter bespoke website design case study',
     color: 'from-blue-600 to-indigo-700',
     overview: 'Bath Painter is an experienced painter and decorator based in Bath, with over 20 years of expertise in interior, exterior, and heritage decorating — specialising in listed buildings, lime plaster and traditional distemper work on Georgian, Victorian and Edwardian properties across Bath and North East Somerset. The business was growing through word of mouth but had no website and no brand identity, leaving them invisible when customers searched online. We delivered a complete brand and web package: logo designed from scratch, business cards, custom social media branding toolkit, and a full bespoke website at bathpainter.co.uk. The site is built to rank for Bath, Keynsham, Midsomer Norton and the surrounding area, with dedicated service pages for interior, exterior, heritage and commercial decorating.',
@@ -164,7 +165,7 @@ const caseStudiesData = {
     location: 'Bath City Centre, BA2',
     logo: 'AM',
     tagline: 'New business, no online presence — live in under a week and already getting calls',
-    heroImage: 'https://aurelianmassage.com/_next/image?url=%2Ftherapist-hero.png&w=1280&q=75',
+    heroImage: '/images/case-studies/aurelian-massage.webp',
     heroImageAlt: 'Aurelian Massage Bath — Swedish and aromatherapy massage therapy in Bath city centre',
     color: 'from-amber-400 to-yellow-600',
     overview: 'Ross launched Aurelian Massage in Bath city centre with no website, no social media, and no online presence of any kind. As a brand new business, every booking had to come from somewhere — and with no digital footprint, that meant relying entirely on word of mouth. We built him a full multi-page Next.js website from scratch, designed to rank for massage therapy searches in Bath and convert visitors into bookings via an integrated Fresha booking system. The site went live in under a week. Ross was already getting calls and bookings from people finding him on Google in Bath within days of launch.',
@@ -216,7 +217,7 @@ const caseStudiesData = {
     location: 'Bath, Somerset',
     logo: 'AB',
     tagline: 'From an Instagram page to a 40-page website — live in under two weeks',
-    heroImage: 'https://aspectbuilds.co.uk/images/hero-james-bath-property-4.webp',
+    heroImage: '/images/case-studies/aspect-builds.webp',
     heroImageAlt: 'Builder and property maintenance Bath - Aspect Builds website design case study',
     color: 'from-emerald-600 to-teal-700',
     overview: 'Aspect Builds & Maintenance Ltd is a building and property maintenance company based in Bath, covering extensions, loft conversions, heritage work, structural repairs, interiors, and property care across Bath and the surrounding area. James had built a solid reputation through word of mouth and had an Instagram page showing his work — but when people searched for builders, loft conversions, or house extensions in Bath, he was completely invisible. We built a full 40-page website at aspectbuilds.co.uk using a hub-and-spoke SEO architecture with dedicated service pages, area pages, real project photography, Schema markup, responsive images, YouTube video walkthroughs, and a Google Business Profile set up from scratch. The site launched in under two weeks and is already starting to appear in local search results.',
@@ -257,7 +258,6 @@ const caseStudiesData = {
       role: 'Aspect Builds & Maintenance, Bath',
     },
     websiteUrl: 'https://aspectbuilds.co.uk',
-    googleMapsUrl: 'https://maps.place/Bath+Painter/51.3811,-2.359',
     services: ['Website Design', 'Local SEO', 'Google Business Profile'],
     relatedCases: ['bath-painter', 'new-decorating'],
   },
@@ -269,7 +269,7 @@ const caseStudiesData = {
     location: 'Bath & Bristol',
     logo: 'RG',
     tagline: 'From a Wix site to a custom 20-page website — live in under two weeks',
-    heroImage: 'https://rgextremepressure.co.uk/images/wix-driveway.jpg',
+    heroImage: '/images/case-studies/rg-extreme-pressure.webp',
     heroImageAlt: 'Jet washing Bath — RG Extreme Pressure website design case study',
     color: 'from-blue-600 to-cyan-700',
     overview: 'RG Extreme Pressure is a professional jet washing and pressure washing business serving Bath, Bristol and the surrounding area. Robert had an old Wix website that looked dated and wasn\'t generating enquiries. He had 111 five-star reviews on Google and a strong Facebook following, but his website didn\'t reflect the quality of his work. We built a completely custom 102-page website at rgextremepressure.co.uk with dedicated service pages for every cleaning type, before-and-after photo comparisons, area pages, a video showcase, and full Schema markup. The site went live in under two weeks and properly showcases a decade of professional jet washing experience.',
@@ -460,6 +460,41 @@ const CaseStudyDetail = ({ params: staticParams }) => {
       {/* Overview */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          {caseStudy.websiteUrl && (
+            <a
+              href={caseStudy.websiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block mb-12 rounded-2xl overflow-hidden border border-white/10 hover:border-white/20 transition-colors"
+              aria-label={`Visit the ${caseStudy.business} website (opens in a new tab)`}
+            >
+              <div className="relative">
+                <Image
+                  src={caseStudy.heroImage}
+                  alt={`${caseStudy.business} website — ${caseStudy.websiteUrl.replace('https://', '')}`}
+                  width={1600}
+                  height={1067}
+                  placeholder="blur"
+                  blurDataURL={BLUR_DATA_URL}
+                  sizes="(max-width: 896px) 100vw, 832px"
+                  className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-5 flex items-center justify-between gap-4">
+                  <span className="text-white font-medium truncate">
+                    {caseStudy.websiteUrl.replace('https://', '')}
+                  </span>
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-white/80 group-hover:text-white transition-colors shrink-0">
+                    Visit the live site
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          )}
+
           <h2 className="text-2xl font-bold text-white mb-6">Overview</h2>
           <p className="text-lg text-gray-400 leading-relaxed">{caseStudy.overview}</p>
         </div>

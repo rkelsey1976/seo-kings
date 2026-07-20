@@ -103,11 +103,19 @@ const About = () => {
                 We Build Websites That
                 <span className="gradient-text"> Get Found</span>
               </h1>
-              <p className="text-xl text-gray-400 leading-relaxed">
+              <p className="text-xl text-gray-400 leading-relaxed mb-8">
                 We're a Keynsham-based website design company for tradespeople and local businesses
-                in Bath and North East Somerset. We build fast, clear sites — and we offer SEO and 
+                in Bath, Bristol and North East Somerset. We build fast, clear sites — and we offer SEO and
                 Google Business Profile as add-ons so your site is found on Google.
               </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/web-design-packages" className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary text-white font-medium hover:bg-primary-dark transition-colors">
+                  Get a Quote
+                </Link>
+                <Link href="/case-studies" className="inline-flex items-center justify-center px-8 py-3 rounded-lg border border-white/20 text-white font-medium hover:border-white/40 transition-colors">
+                  View Our Work
+                </Link>
+              </div>
             </div>
             <div className="relative hidden lg:block">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
@@ -138,7 +146,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  We started SEO Kings to build websites for trades and local businesses in Bath
+                  We started SEO Kings to build websites for trades and local businesses in Bath, Bristol
                   and North East Somerset — sites that look professional, load fast and work on phones.
                   Behind every site is 22 years of development experience and 15 years of graphic design,
                   so you're not funding someone's learning curve.
@@ -150,7 +158,7 @@ const About = () => {
                 </p>
                 <p>
                   Today we work with plumbers, electricians, cleaners, builders and other local
-                  businesses across Bath, Keynsham, Midsomer Norton, Radstock and the wider area.
+                  businesses across Bath, Bristol, Keynsham, Midsomer Norton, Radstock and the wider area.
                   We've seen what works: a clear website plus a proper Google presence.
                 </p>
                 <p className="text-white font-medium">
@@ -302,14 +310,14 @@ const About = () => {
               Proudly Serving Bath & North East Somerset
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              We're not a faceless agency in London. We're a local <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">SEO agency serving Bath</Link> and
-              North East Somerset, based in Keynsham — we build websites for local businesses and offer SEO and GBP so those sites get found.
+              We're not a faceless agency in London. We're a local <Link href="/areas/bath" className="text-primary-light hover:text-white transition-colors">SEO agency serving Bath, Bristol and North East Somerset</Link>, based in Keynsham — we build websites for local businesses and offer SEO and GBP so those sites get found.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { name: 'Bath', slug: 'bath' },
+              { name: 'Bristol', slug: 'bristol' },
               { name: 'Keynsham', slug: 'keynsham' },
               { name: 'Midsomer Norton', slug: 'midsomer-norton' },
               { name: 'Radstock', slug: 'radstock' },
