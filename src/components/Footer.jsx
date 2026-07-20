@@ -28,6 +28,7 @@ const Footer = () => {
               <ul className="space-y-2.5">
                 {[
                   { label: 'Website Design', href: '/web-design' },
+                  { label: 'Site + Google — £99/mo', href: '/site-and-google' },
                   { label: 'Web Design Packages', href: '/web-design-packages' },
                   { label: 'Web Design for Trades', href: '/web-design-for' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
