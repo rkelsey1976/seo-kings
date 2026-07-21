@@ -8,7 +8,7 @@ Strategy for ranking for "website design [location]", "website designer [locatio
 
 **Area pages (`/areas/[slug]`)**
 - Meta title: `Website design [Area] | Website Designer & SEO Add-ons – SEO Kings`
-- Meta description: `Website design in [Area] from £399. Our main service. We also offer...`
+- Meta description: `Website design in [Area] from £250. Our main service. We also offer...`
 - H1: `Website design in [Area]` (hero)
 - H2: `Website designer & website design in [Area]` with body copy
 - SEO component `keywords`: includes `website design ${area.name}`, `website designer ${area.name}`, `web design ${area.name}`
@@ -24,7 +24,7 @@ Strategy for ranking for "website design [location]", "website designer [locatio
 
 **Keywords doc (`keywords-target.md`)**
 - Section 7: website designer/design + Bath, BANES, Keynsham, Midsomer Norton, Radstock, Peasedown, Paulton, Saltford, Timsbury, Trowbridge, Somerset, Wiltshire
-- Section 7b: one-page, £399, small business, trades, fast website, website that ranks, etc.
+- Section 7b: one-page, £250, small business, trades, fast website, website that ranks, etc.
 
 ---
 
@@ -71,7 +71,7 @@ Use these in area pages, Web Design page, blog, and GBP where natural.
 ### 3.1 Location + format / offer
 
 - one-page website [location] — e.g. one-page website Bath, one-page website Keynsham  
-- website from £399 [location] — e.g. website from £399 Bath  
+- website from £250 [location] — e.g. website from £250 Bath  
 - affordable website design [location]  
 - small business website [location]  
 - business website [location]
@@ -132,6 +132,6 @@ Use these in area pages, Web Design page, blog, and GBP where natural.
 - **Area page copy:** Use section 3 phrases in H2s, body, and "Keywords we target" (or meta) for that area.
 - **Web Design page:** Use section 3 in "Areas we serve" body and in one FAQ (e.g. "Do you do website design in [area]?").
 - **Blog ideas:** Use section 3.6 and 3.5 for new "website design [location]" or "website for [audience] [location]" posts.
-- **GBP / ads:** Use "website designer [location]", "website design [location]", "from £399" where relevant.
+- **GBP / ads:** Use "website designer [location]", "website design [location]", "from £250" where relevant.
 
 Update this file when you add new areas or change priority keywords.

@@ -10,7 +10,7 @@ Beyond “website design [location]”, add these where they fit naturally:
 
 | Category | Keywords to target |
 |----------|--------------------|
-| **Offer / format** | one-page website, single page website, website from £399, affordable website Bath, small business website, business website Bath, website for trades, website for tradesmen, website for local business |
+| **Offer / format** | one-page website, single page website, website from £250, affordable website Bath, small business website, business website Bath, website for trades, website for tradesmen, website for local business |
 | **Outcome / benefit** | website that ranks, SEO website, fast website, fast loading website, mobile-friendly website, website that gets found on Google |
 | **Alternative phrases** | web design packages Bath, website builder Bath, get a website, new website for business, professional website Bath |
 | **Long-tail** | affordable website design for small business Bath, one-page website for trades Bath, website design for plumbers electricians Bath |
@@ -30,7 +30,7 @@ These are now in **keywords-target.md §7b** so you can reuse them in meta, head
 
 2. **/web-design-packages**
    - In meta keywords (and one line in body), add: one-page website, affordable website, website for trades, small business website.
-   - In the pricing/hero copy, keep “from £399” and add “affordable website design” or “one-page website for local business” once.
+   - In the pricing/hero copy, keep “from £250” and add “affordable website design” or “one-page website for local business” once.
 
 3. **Homepage**
    - In the Services section or one CTA, use “website design” or “web design” with location once (e.g. “Website design in Bath & BANES”) so the homepage reinforces the main service phrase.

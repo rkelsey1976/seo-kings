@@ -28,7 +28,7 @@ Plan to improve rankings for **website design [location]** (e.g. website design 
 - website design Bath and BANES
 - website design for trades Bath
 - business website design Bath
-- cheap website design Bath (use carefully; prefer “affordable” or “from £399”)
+- cheap website design Bath (use carefully; prefer “affordable” or “from £250”)
 
 ---
 

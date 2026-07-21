@@ -22,7 +22,7 @@ Competition check and suggested approach for ranking for **"website designer Key
 - **Area page** `/areas/keynsham` – Meta title/description and H1 "Website design in Keynsham"; `website design Keynsham`, `website designer Keynsham`, `web design Keynsham` in `localKeywords`.
 - **Blog** – `website-design-keynsham` (and Bitton/Keynsham).
 - **Web Design page** – "Website design Keynsham" link in areas section.
-- **Pricing** – £399 website, GBP one-off £150, local SEO from £150/month (clear vs many agencies that don’t show price).
+- **Pricing** – £250 website, GBP one-off £150, local SEO from £150/month (clear vs many agencies that don’t show price).
 
 ---
 
@@ -36,7 +36,7 @@ Competition check and suggested approach for ranking for **"website designer Key
 
 ### 3.2 Differentiate in copy
 
-- **Price** – You already say "from £399"; keep it visible (many competitors don’t).
+- **Price** – You already say "from £250"; keep it visible (many competitors don’t).
 - **Trades focus** – Emphasise "tradespeople and small businesses in Keynsham", "plumbers, electricians, builders in BS31" so you own a clear niche vs generalist agencies.
 - **Proof** – Keynsham Electrics case study is on the area page; add a line like "We’ve helped Keynsham businesses like [Keynsham Electrics] get found on Google" and link to the case study or blog.
 
@@ -47,9 +47,9 @@ Competition check and suggested approach for ranking for **"website designer Key
 
 ### 3.4 Google Business Profile (GBP)
 
-- **Services** – In GBP, include a service named "Website designer Keynsham" or "Website design Keynsham" (or both) with a short description (e.g. "Fast, mobile-friendly websites for Keynsham businesses from £399").
+- **Services** – In GBP, include a service named "Website designer Keynsham" or "Website design Keynsham" (or both) with a short description (e.g. "Fast, mobile-friendly websites for Keynsham businesses from £250").
 - **Description** – Your main GBP description already mentions Keynsham; keep "website designer" and "Keynsham" in the same sentence if it reads well.
-- **Posts** – Occasionally use a post headline or text that includes "website designer Keynsham" or "website design Keynsham" (e.g. "Website design for Keynsham businesses – from £399").
+- **Posts** – Occasionally use a post headline or text that includes "website designer Keynsham" or "website design Keynsham" (e.g. "Website design for Keynsham businesses – from £250").
 
 ### 3.5 Map pack and local signals
 

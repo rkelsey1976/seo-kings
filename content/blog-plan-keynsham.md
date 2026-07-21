@@ -24,7 +24,7 @@ New blogs below pair with GBP posts and give longer-form content for the same ke
 **Section outline:**
 1. **Why the map pack matters in Keynsham** – When people search "plumber Keynsham" or "electrician BS31", Google shows the map pack. If you’re not in it, you miss most of the clicks. Brief mention of Keynsham, Bitton, Saltford, Bath.
 2. **What local SEO actually is (for Keynsham)** – Google Business Profile, website with clear location/services, consistent NAP, reviews. Same approach for Keynsham, Bitton, Saltford, Paulton and across BANES.
-3. **What we do for Keynsham businesses** – Website (from £399), GBP optimisation, local SEO add-ons. Areas we serve: Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John.
+3. **What we do for Keynsham businesses** – Website (from £250), GBP optimisation, local SEO add-ons. Areas we serve: Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John.
 4. **What to do next** – Free check of your website and Google listing. Link to /areas/keynsham, /local-seo, /contact.
 
 **Internal links to add:** /areas/keynsham, /local-seo, /contact, /case-studies/keynsham-electrics.
@@ -81,12 +81,12 @@ New blogs below pair with GBP posts and give longer-form content for the same ke
 |--------|--------|
 | **Slug** | `website-design-bitton-keynsham` |
 | **Title** | Website Design in Bitton & the Keynsham Area: What We Build for Local Trades |
-| **Meta description** | Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £399 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and BANES. |
+| **Meta description** | Website design for Bitton and the Keynsham area (BS30/BS31). Fast, mobile-friendly sites from £250 for plumbers, electricians and trades. We serve Bitton, Keynsham, Saltford, Bath and BANES. |
 | **Target keywords** | website design Bitton, website design Keynsham area, Bitton Keynsham website, BS30 BS31 website |
 
 **Section outline:**
 1. **Why Bitton and the Keynsham area need good websites** – Between Keynsham and Bristol; people search "plumber Bitton", "electrician Keynsham". A clear, fast site + GBP gets you in the map pack. Bitton, Keynsham, Saltford.
-2. **What we build for Bitton and Keynsham area businesses** – Same as Keynsham: fast, mobile-friendly, from £399; GBP and local SEO as add-ons. Areas we serve: Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock.
+2. **What we build for Bitton and Keynsham area businesses** – Same as Keynsham: fast, mobile-friendly, from £250; GBP and local SEO as add-ons. Areas we serve: Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock.
 3. **Areas we serve near Keynsham** – Bitton, Keynsham, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John, Chew Magna, Temple Cloud, Clutton.
 4. **What to do next** – Free check and quote. Link to /areas/keynsham, /areas/bitton-keynsham (if you have a Bitton area page), /web-design, /contact.
 
@@ -125,7 +125,7 @@ New blogs below pair with GBP posts and give longer-form content for the same ke
 |--------|--------|
 | **Slug** | `get-found-on-google-keynsham` |
 | **Title** | Get Found on Google in Keynsham, Bitton & the Areas We Serve |
-| **Meta description** | How trades in Keynsham and the Keynsham area get found on Google. Website from £399, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and BANES. |
+| **Meta description** | How trades in Keynsham and the Keynsham area get found on Google. Website from £250, Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath and BANES. |
 | **Target keywords** | get found on Google Keynsham, Keynsham Google, Bitton Saltford, areas we serve Keynsham |
 
 **Section outline:**

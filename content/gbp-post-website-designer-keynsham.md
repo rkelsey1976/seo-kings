@@ -8,13 +8,13 @@ Use in **Google Business Profile → Posts** (SEO Kings' profile).
 
 ## Post: Website Designer in Keynsham
 
-**Headline:** Website Designer in Keynsham — From £399, Gets You on Google  
+**Headline:** Website Designer in Keynsham — From £250, Gets You on Google  
 **CTA button:** Learn more  
 **URL:** https://seo-kings.co.uk/website-designer-keynsham
 
 **Body:**
 ```
-Looking for a website designer in Keynsham? We're based locally and build fast, professional websites for trades and small businesses in Keynsham, Bitton, Saltford and across BANES — from £399.
+Looking for a website designer in Keynsham? We're based locally and build fast, professional websites for trades and small businesses in Keynsham, Bitton, Saltford and across BANES — from £250.
 
 ✅ Mobile-friendly, professional design  
 ✅ Built for speed (Lighthouse 95+)  
@@ -30,11 +30,11 @@ We're not a big agency — we're your local website designer in Keynsham. One pe
 
 ## Shorter version (if over limit)
 
-**Headline:** Website Designer in Keynsham — Local, Fast, From £399
+**Headline:** Website Designer in Keynsham — Local, Fast, From £250
 
 **Body:**
 ```
-Your local website designer in Keynsham. Fast, mobile-friendly sites from £399 for trades and small businesses in Keynsham, Bitton, Saltford and BANES. SEO built in so you get found on Google. Free quote → seo-kings.co.uk/website-designer-keynsham
+Your local website designer in Keynsham. Fast, mobile-friendly sites from £250 for trades and small businesses in Keynsham, Bitton, Saltford and BANES. SEO built in so you get found on Google. Free quote → seo-kings.co.uk/website-designer-keynsham
 ```
 
 **CTA button:** Learn more | **URL:** https://seo-kings.co.uk/website-designer-keynsham
@@ -44,7 +44,7 @@ Your local website designer in Keynsham. Fast, mobile-friendly sites from £399 
 ## SEO focus
 
 - **Primary keyword:** website designer in Keynsham, website designer Keynsham, web designer Keynsham
-- **Supporting:** Bitton, Saltford, BANES, BS31, trades, small businesses, from £399, local SEO, Google Business Profile
+- **Supporting:** Bitton, Saltford, BANES, BS31, trades, small businesses, from £250, local SEO, Google Business Profile
 - **Message:** Local, personal, professional — not a big agency. Fast sites, SEO included, free quote.
 - **CTA:** Learn more → /website-designer-keynsham
 

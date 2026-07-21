@@ -1,8 +1,8 @@
-# Why Keynsham Trades Are Losing Jobs to Google (And How a £399 Website Fixes It)
+# Why Keynsham Trades Are Losing Jobs to Google (And How a £250 Website Fixes It)
 
 [Image: Keynsham high street or trade van with local branding — alt: Trade van or Keynsham High Street, BS31, representing local trades competing for Google visibility]
 
-If you're a **plumber in Keynsham**, an **electrician in BS31**, or a **builder** or **roofer** working around the town, you've probably had this happen: a customer needed someone fast, typed "plumber near me Keynsham" or "emergency builder Keynsham" into Google — and called someone else. Not because you're not good at your job, but because you didn't show up on page one or in the map. **Keynsham trades are losing jobs to Google** every day. The good news? It's fixable, and it doesn't have to cost a fortune. This post explains why you're missing out and how a **£399 website** (and a proper **Google Business Profile in Keynsham**) can put you back in the game.
+If you're a **plumber in Keynsham**, an **electrician in BS31**, or a **builder** or **roofer** working around the town, you've probably had this happen: a customer needed someone fast, typed "plumber near me Keynsham" or "emergency builder Keynsham" into Google — and called someone else. Not because you're not good at your job, but because you didn't show up on page one or in the map. **Keynsham trades are losing jobs to Google** every day. The good news? It's fixable, and it doesn't have to cost a fortune. This post explains why you're missing out and how a **£250 website** (and a proper **Google Business Profile in Keynsham**) can put you back in the game.
 
 ---
 
@@ -21,16 +21,16 @@ Town centre regeneration and the buzz around Market Walk, the High Street, and t
 
 ---
 
-## How a £399 website fixes it
+## How a £250 website fixes it
 
-You don't need a £5,000 site to get found. A **website designer in Keynsham** who builds for local search can give you a professional, mobile-friendly site from **£399** that does the job. Here's what that kind of site gives you:
+You don't need a £5,000 site to get found. A **website designer in Keynsham** who builds for local search can give you a professional, mobile-friendly site from **£250** that does the job. Here's what that kind of site gives you:
 
 - **Mobile-friendly and fast** — Most "plumber Keynsham" and "electrician BS31" searches happen on phones. If your site is slow or hard to use on mobile, people leave — and Google ranks you lower. A modern site loads quickly and works on every device.
 - **Built for local SEO** — Clear service pages, your areas (Keynsham, Saltford, Bitton, Longwell Green, Warmley, and beyond), and the right keywords so Google knows what you do and where you work. That's how you start showing up for **Google ranking Keynsham** and trade + location searches.
-- **Google Business Profile integration** — Your site and your GBP should match: same name, address, phone, and services. We set that up so they work together. A **website design Keynsham** package from £399 often includes GBP optimisation for one service and location — so you're not just getting a page; you're getting on the map.
+- **Google Business Profile integration** — Your site and your GBP should match: same name, address, phone, and services. We set that up so they work together. A **website design Keynsham** package from £250 often includes GBP optimisation for one service and location — so you're not just getting a page; you're getting on the map.
 - **Easy contact** — Click-to-call buttons, contact forms, and clear "Get a quote" or "Call now" so visitors can reach you in one tap. No digging for a number.
 
-That's how a **£399 website** turns "invisible on Google" into "showing up when Keynsham customers search".
+That's how a **£250 website** turns "invisible on Google" into "showing up when Keynsham customers search".
 
 ---
 
@@ -39,7 +39,7 @@ That's how a **£399 website** turns "invisible on Google" into "showing up when
 You don't have to do everything at once. These steps make a real difference:
 
 1. **Claim and optimise your Google Business Profile** — Add your business name, address, phone, website (if you have one), category, services, and a short description. Use "Keynsham", "BS31", and your trade in the description. Keep hours and photos up to date. We offer a [free audit](/contact) that includes a check of your GBP — no obligation.
-2. **Get a simple one-page website** — If you've got nothing, a one-page site from **£399** with **Google Business Profile Keynsham** optimisation gets you visible. It lists who you are, what you do, where you cover, and how to contact you. See our [web design packages](/web-design-packages) or [contact us](/contact) for a quote.
+2. **Get a simple one-page website** — If you've got nothing, a one-page site from **£250** with **Google Business Profile Keynsham** optimisation gets you visible. It lists who you are, what you do, where you cover, and how to contact you. See our [web design packages](/web-design-packages) or [contact us](/contact) for a quote.
 3. **Use the same details everywhere** — Same business name, address, and phone on your van, website, GBP, and any directories. Consistency builds trust with Google and customers.
 4. **Target "trade + Keynsham"** — In your GBP description and on your site, use phrases like **plumber Keynsham**, **electrician BS31**, **builder Keynsham**, **roofer Keynsham**, **decorator Keynsham** where they fit naturally. Don't stuff; just be clear.
 
@@ -58,8 +58,8 @@ We don't make up numbers. **New Decorating** (painter and decorator across Bath,
 **"I've been trading for years without a website. Do I really need one?"**  
 Your reputation is solid locally, but new customers — including people in the new Manor Road developments — don't know you yet. They search Google. If you're not there, they call someone who is. A simple site and a proper GBP cost little and keep you in the game.
 
-**"Won't a £399 site look cheap?"**  
-Our **£399** package is a one-page, mobile-friendly site built for local search, with GBP optimisation for one service/location. It's designed to look professional and load fast — and to get you found for **website design Keynsham** and trade searches in Keynsham and BS31. [Get a free quote](/contact) or ring **07702 264 921**.
+**"Won't a £250 site look cheap?"**  
+Our **£250** package is a one-page, mobile-friendly site built for local search, with GBP optimisation for one service/location. It's designed to look professional and load fast — and to get you found for **website design Keynsham** and trade searches in Keynsham and BS31. [Get a free quote](/contact) or ring **07702 264 921**.
 
 **"How do I get on the first page of Google?"**  
 For local searches, Google looks at: a clear website with your location and services, a complete and accurate Google Business Profile, and consistent name/address/phone everywhere. We specialise in exactly that for Keynsham and BANES. [Free Keynsham SEO audit](/contact) — we'll show you what's missing and what to do next.
@@ -73,7 +73,7 @@ We're **SEO Kings**, a Keynsham-based web design and local SEO agency at 16a Cul
 **What we offer:**
 
 - **Free audit** — We check your current website and Google listing (or the gap if you don't have them) and tell you what's holding you back. [Book yours here](/contact). No obligation, no credit card.
-- **Website from £399** — One-page site + GBP optimisation for one service/location. Built for **Google ranking Keynsham** and local trade searches.
+- **Website from £250** — One-page site + GBP optimisation for one service/location. Built for **Google ranking Keynsham** and local trade searches.
 - **Phone: 07702 264 921** — Call for a chat or to book your free audit.
 
 Stop losing jobs to Google. [Get your free Keynsham SEO audit](/contact) and we'll show you exactly how to get on page one and in the map.

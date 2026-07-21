@@ -6,7 +6,7 @@ A week of Google Business Profile posts for **SEO Kings' profile**, targeting th
 in the BS3 / BS13 / BS14 / BS41 cells where rankings are red-to-amber.
 
 **Post type:** Update · **CTA button:** Learn more · **URL:** https://seo-kings.co.uk/website-designer-bristol
-**Price:** £250 (correct — do **not** use the old £399 from other files).
+**Price:** £250 (1-page; 3-page £350, 5+ £450).
 **Cadence:** one per day, or space across the week. Always attach an image (site mockup,
 laptop, or a "Website Designer Bristol" graphic).
 

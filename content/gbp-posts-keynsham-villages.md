@@ -8,8 +8,7 @@ Covers the satellite areas that `gbp-posts-keynsham-plan.md` doesn't reach — K
 itself is handled there. Each post links to the matching area page.
 
 **Pricing used here: from £250** (per current pricing — 1-page £250, 3-page £350, 5+ £450,
-GBP £100 one-off, local SEO £150/month). Note: several older files in `content/` still say
-£399 — they need updating.
+GBP £100 one-off, local SEO £150/month).
 
 ---
 

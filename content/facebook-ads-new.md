@@ -33,16 +33,16 @@ Plumbers • Electricians • Builders • Roofers • Cleaners — we get you f
 
 ---
 
-## Ad 3 – Website from £399
+## Ad 3 – Website from £250
 
 **Primary text:**  
-1-page website with everything a trade needs — from £399. Services, contact, area info. Mobile-friendly, SEO included, 12 months free hosting. Bath & BANES. seo-kings.co.uk
+1-page website with everything a trade needs — from £250. Services, contact, area info. Mobile-friendly, SEO included, 12 months free hosting. Bath & BANES. seo-kings.co.uk
 
-**Headline:** Website From £399  
+**Headline:** Website From £250  
 **Description:** Get online. Get found. No fluff.  
 **CTA button:** Get Offer  
 **Link:** https://seo-kings.co.uk/web-design-packages  
-**Image:** Create a simple “Website from £399” graphic or use facebook-hero.html with different overlay text
+**Image:** Create a simple “Website from £250” graphic or use facebook-hero.html with different overlay text
 
 ---
 
@@ -75,9 +75,9 @@ Bath plumber: page 5 → #1. Keynsham electrician: +52 calls/month. Midsomer Nor
 ## Ad 6 – No website yet
 
 **Primary text:**  
-No website? We build 1-page sites from £399 — then get you found on Google. Bath & BANES trades: get online and get calls. Free chat, no obligation. seo-kings.co.uk
+No website? We build 1-page sites from £250 — then get you found on Google. Bath & BANES trades: get online and get calls. Free chat, no obligation. seo-kings.co.uk
 
-**Headline:** Website + SEO From £399  
+**Headline:** Website + SEO From £250  
 **Description:** Get online. Get found. 12 months free hosting.  
 **CTA button:** Get Offer  
 **Link:** https://seo-kings.co.uk/contact  
@@ -117,7 +117,7 @@ Bath & BANES trades: want more calls from Google? Free audit. No obligation. seo
 |-----------------|------------------------------------|
 | Free audit      | facebook-hero, facebook-local-seo-experts |
 | Trades / areas  | facebook-areas                    |
-| Website £399    | Custom or facebook-hero            |
+| Website £250    | Custom or facebook-hero            |
 | Map pack        | facebook-hero, facebook-local-seo-experts |
 | Results         | facebook-local-seo-experts or custom |
 | No website      | facebook-hero                      |

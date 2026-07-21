@@ -12,7 +12,7 @@ Use these in **Google Business Profile → Posts** (SEO Kings’ profile) to tar
 
 1. **Post at least once a week** — Fresh posts signal an active, relevant business. Rotate these posts so "Bath" and neighbourhood names appear often.
 
-2. **Put Bath + main keyword in the headline** — First ~58 characters matter most. E.g. "Website Design Bath — From £399" or "Get Found on Google in Bath & Every Neighbourhood".
+2. **Put Bath + main keyword in the headline** — First ~58 characters matter most. E.g. "Website Design Bath — From £250" or "Get Found on Google in Bath & Every Neighbourhood".
 
 3. **Mention 2–4 neighbourhoods per post** — Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford. Keeps copy readable and keyword-rich without stuffing.
 
@@ -42,13 +42,13 @@ Mix 2–4 area names per post so each post stays readable and keyword-rich.
 
 ## Post 1: Website design Bath + neighbourhoods we cover
 
-**Headline:** Website Design Bath — From £399. Every Neighbourhood.  
+**Headline:** Website Design Bath — From £250. Every Neighbourhood.  
 **CTA button:** Learn more  
 **URL:** https://seo-kings.co.uk/areas/bath
 
 **Body:**
 ```
-Website design in Bath from £399. Our main service — fast, mobile-friendly sites for plumbers, electricians, builders and trades across Bath.
+Website design in Bath from £250. Our main service — fast, mobile-friendly sites for plumbers, electricians, builders and trades across Bath.
 
 We cover the whole of Bath: Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford and more. Google Business Profile and local SEO as add-ons so you get found when people search "plumber Bath" or "electrician Bath".
 
@@ -73,7 +73,7 @@ Free check — no obligation. seo-kings.co.uk/areas/bath
 ```
 When people in Bath search for a plumber, electrician or builder, they click the map pack and the first results. If you're not there, you're missing the calls.
 
-We help Bath businesses get on the map and rank for local searches — across the city and in Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton and more. Website design from £399, plus Google Business Profile and local SEO.
+We help Bath businesses get on the map and rank for local searches — across the city and in Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton and more. Website design from £250, plus Google Business Profile and local SEO.
 
 Free check of your website and Google listing. No jargon, no obligation.
 ```
@@ -113,7 +113,7 @@ Your Google Business Profile is how you show up in the map pack when someone sea
 
 We set up and manage Google Business Profiles for trades in Bath — city centre and every neighbourhood: Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford and more. Right category, photos, hours, reviews and regular posts.
 
-Website design from £399 — we also offer GBP and local SEO as add-ons. Free check today.
+Website design from £250 — we also offer GBP and local SEO as add-ons. Free check today.
 ```
 
 **Character check:** ~380.  
@@ -150,7 +150,7 @@ Trades and local businesses — get your free check today.
 
 **Body:**
 ```
-We specialise in trade websites and getting local trades found on Google. Website design in Bath from £399 — fast, mobile-friendly, SEO-ready from day one.
+We specialise in trade websites and getting local trades found on Google. Website design in Bath from £250 — fast, mobile-friendly, SEO-ready from day one.
 
 Plumbers, electricians, builders, roofers: we serve Bath and all neighbourhoods — Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford and more. Add Google Business Profile and local SEO and get on the map.
 
@@ -172,7 +172,7 @@ Free quote. No obligation. seo-kings.co.uk
 ```
 Want to be number one when people search "plumber Bath" or "electrician Bath"? We get Bath businesses to the top of Google and the map pack.
 
-Website design from £399, plus Google Business Profile and local SEO. We cover the whole of Bath — Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford and more.
+Website design from £250, plus Google Business Profile and local SEO. We cover the whole of Bath — Odd Down, Widcombe, Walcot, Bathwick, Larkhall, Weston, Bear Flat, Bathampton, Southdown, Batheaston, Bathford and more.
 
 Free check. No obligation. seo-kings.co.uk/areas/bath
 ```

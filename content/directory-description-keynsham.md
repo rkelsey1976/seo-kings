@@ -10,7 +10,7 @@ Use the version that fits the directory’s character limit. If no limit is show
 ## 200 characters (strict limit)
 
 ```
-SEO Kings – website design and local SEO in Keynsham. We help plumbers, electricians and trades in Keynsham & BS31 get found on Google. Websites from £399; GBP and local SEO. Free check. Keynsham, Bitton, Bath, Saltford.
+SEO Kings – website design and local SEO in Keynsham. We help plumbers, electricians and trades in Keynsham & BS31 get found on Google. Websites from £250; GBP and local SEO. Free check. Keynsham, Bitton, Bath, Saltford.
 ```
 
 **Character count:** 199
@@ -20,7 +20,7 @@ SEO Kings – website design and local SEO in Keynsham. We help plumbers, electr
 ## Short (approx. 250 characters)
 
 ```
-SEO Kings – website design and local SEO in Keynsham. We help plumbers, electricians, builders and trades in Keynsham and BS31 get found on Google. Website design from £399; Google Business Profile and local SEO add-ons. Free check. Serving Keynsham, Bitton, Bath, Saltford and BANES.
+SEO Kings – website design and local SEO in Keynsham. We help plumbers, electricians, builders and trades in Keynsham and BS31 get found on Google. Website design from £250; Google Business Profile and local SEO add-ons. Free check. Serving Keynsham, Bitton, Bath, Saltford and BANES.
 ```
 
 **Character count:** ~248
@@ -30,7 +30,7 @@ SEO Kings – website design and local SEO in Keynsham. We help plumbers, electr
 ## Medium (approx. 400 characters) — recommended
 
 ```
-SEO Kings is a local SEO and website design agency serving Keynsham and Bath & North East Somerset. We help tradespeople and small businesses in Keynsham, Bitton, Saltford and across BANES get found on Google — with fast websites from £399, Google Business Profile optimisation and local SEO. Plumbers, electricians, builders and roofers: we get you in the map pack and on page one. Free check, no obligation. Keynsham • Bitton • Bath • Saltford • BANES.
+SEO Kings is a local SEO and website design agency serving Keynsham and Bath & North East Somerset. We help tradespeople and small businesses in Keynsham, Bitton, Saltford and across BANES get found on Google — with fast websites from £250, Google Business Profile optimisation and local SEO. Plumbers, electricians, builders and roofers: we get you in the map pack and on page one. Free check, no obligation. Keynsham • Bitton • Bath • Saltford • BANES.
 ```
 
 **Character count:** ~398
@@ -40,7 +40,7 @@ SEO Kings is a local SEO and website design agency serving Keynsham and Bath & N
 ## Long (approx. 550 characters)
 
 ```
-SEO Kings – website design and local SEO in Keynsham. We help tradespeople and small businesses in Keynsham, Bitton, Saltford, Bath and across Bath & North East Somerset get found on Google. Our main service is website design from £399; we also offer Google Business Profile optimisation and local SEO so you show up when people search "plumber Keynsham", "electrician BS31" or "builder Keynsham". We've helped local businesses get to the top of Google and the map pack. Free check of your website and Google listing — no obligation. Serving Keynsham, Bitton, Hanham, Oldland, Longwell Green, Warmley, Bath, Saltford and BANES.
+SEO Kings – website design and local SEO in Keynsham. We help tradespeople and small businesses in Keynsham, Bitton, Saltford, Bath and across Bath & North East Somerset get found on Google. Our main service is website design from £250; we also offer Google Business Profile optimisation and local SEO so you show up when people search "plumber Keynsham", "electrician BS31" or "builder Keynsham". We've helped local businesses get to the top of Google and the map pack. Free check of your website and Google listing — no obligation. Serving Keynsham, Bitton, Hanham, Oldland, Longwell Green, Warmley, Bath, Saltford and BANES.
 ```
 
 **Character count:** ~548

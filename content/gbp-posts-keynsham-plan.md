@@ -12,7 +12,7 @@ Use these in **Google Business Profile → Posts** (SEO Kings’ profile) to tar
 
 1. **Post at least once a week** — Fresh posts signal an active, relevant business. Rotate the 6–7 posts so Keynsham and BS31 appear often.
 
-2. **Put Keynsham + main keyword in the headline** — First ~58 characters matter most. E.g. "Website Design Keynsham — From £399" or "Get to #1 on Google in Keynsham & BS31".
+2. **Put Keynsham + main keyword in the headline** — First ~58 characters matter most. E.g. "Website Design Keynsham — From £250" or "Get to #1 on Google in Keynsham & BS31".
 
 3. **Use "number one" / "#1" / "top of Google" / "map pack" where it fits** — Real result (Keynsham Electrics) proves it works; mention "top 3" or "#1" in case study and "get to #1" in get-found posts.
 
@@ -43,13 +43,13 @@ Mix 2–4 area names per post so each post stays readable and keyword-rich.
 
 ## Post 1: Website design Keynsham + areas we serve
 
-**Headline:** Website Design Keynsham & BS31 — From £399  
+**Headline:** Website Design Keynsham & BS31 — From £250  
 **CTA button:** Learn more  
 **URL:** https://seo-kings.co.uk/areas/keynsham
 
 **Body:**
 ```
-Website design in Keynsham from £399. Our main service — fast, mobile-friendly sites for plumbers, electricians, builders and trades in Keynsham, Bitton, Saltford and across BANES.
+Website design in Keynsham from £250. Our main service — fast, mobile-friendly sites for plumbers, electricians, builders and trades in Keynsham, Bitton, Saltford and across BANES.
 
 We also offer Google Business Profile and local SEO as add-ons so you get found when people search "plumber Keynsham" or "electrician BS31".
 
@@ -74,7 +74,7 @@ Areas we serve: Keynsham, Bitton, Bath, Saltford, Paulton, Midsomer Norton, Rads
 ```
 When people in Keynsham search for a plumber, electrician or builder, they click the map pack and the first results. If you're not there, you're missing the calls.
 
-We help Keynsham and BANES trades get on the map and rank for local searches. Website design (from £399), Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John and more.
+We help Keynsham and BANES trades get on the map and rank for local searches. Website design (from £250), Google Business Profile and local SEO. We serve Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock, Peasedown St John and more.
 
 Free check of your website and Google listing. No jargon, no obligation.
 ```
@@ -116,7 +116,7 @@ Your Google Business Profile is how you show up in the map pack when someone sea
 
 We set up and manage Google Business Profiles for trades in Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock and across BANES. Right category, photos, hours, reviews and regular posts.
 
-Website design from £399 — we also offer GBP and local SEO as add-ons. Free check today.
+Website design from £250 — we also offer GBP and local SEO as add-ons. Free check today.
 ```
 
 **Character check:** ~320.  
@@ -153,7 +153,7 @@ Trades and local businesses — get your free check today.
 
 **Body:**
 ```
-We specialise in trade websites and getting local trades found on Google. Website design in Keynsham from £399 — fast, mobile-friendly, SEO-ready from day one.
+We specialise in trade websites and getting local trades found on Google. Website design in Keynsham from £250 — fast, mobile-friendly, SEO-ready from day one.
 
 Plumbers, electricians, builders, roofers: we serve Keynsham, Bitton, Saltford, Paulton, Bath, Midsomer Norton, Radstock and across BANES. Add Google Business Profile and local SEO as add-ons and get on the map.
 
@@ -175,7 +175,7 @@ Free quote. No obligation. seo-kings.co.uk
 ```
 Want to be number one when people search "plumber Keynsham" or "electrician BS31"? We get Keynsham businesses to the top of Google and the map pack.
 
-Website design from £399, plus Google Business Profile and local SEO. Real result: Keynsham Electrics — top 3 in 3 months, +52 calls per month. Same approach for trades in Keynsham, Bitton, Saltford, Bath and across Bath & North East Somerset.
+Website design from £250, plus Google Business Profile and local SEO. Real result: Keynsham Electrics — top 3 in 3 months, +52 calls per month. Same approach for trades in Keynsham, Bitton, Saltford, Bath and across Bath & North East Somerset.
 
 Free check. No obligation. seo-kings.co.uk/areas/keynsham
 ```

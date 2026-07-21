@@ -343,5 +343,5 @@ Never generic laptop stock — it reads as filler.
   Judge them on profile views and clicks through to the area pages instead.
 - **Keep the "#1 for SEO Bristol" claim accurate.** It appears in posts 1, 4 and 10. Check it
   with `npm run rank-check` before a cycle and pull it if it's moved.
-- **Pricing here is from £250**, matching current rates. Several older files in `content/` still
-  say £399 — they need updating before you post from them.
+- **Pricing here is from £250**, matching current rates (1-page £250, 3-page £350, 5+ £450,
+  GBP £100 one-off, local SEO £150/month).

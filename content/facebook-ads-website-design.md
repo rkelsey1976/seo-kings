@@ -4,12 +4,12 @@ Use this copy when **posting on Facebook** (organic posts or Facebook Ads) to pr
 
 ---
 
-## Ad 1 – Website from £399 (Starter 1-page)
+## Ad 1 – Website from £250 (Starter 1-page)
 
 **Post / primary text:**  
-1-page website with everything a trade needs — from £399. Services, contact, area info on one page. Mobile-friendly, SEO included, 12 months free hosting. Bath & BANES. Get your quote: seo-kings.co.uk
+1-page website with everything a trade needs — from £250. Services, contact, area info on one page. Mobile-friendly, SEO included, 12 months free hosting. Bath & BANES. Get your quote: seo-kings.co.uk
 
-**Headline (if using Ads):** Website From £399  
+**Headline (if using Ads):** Website From £250  
 **Description:** 1-page. Get online. Get found.  
 **CTA:** Get Offer | Link: https://seo-kings.co.uk/web-design-packages  
 **Image:** facebook-website-399.html (screenshot at 1200×630)
@@ -19,9 +19,9 @@ Use this copy when **posting on Facebook** (organic posts or Facebook Ads) to pr
 ## Ad 2 – No website yet
 
 **Post / primary text:**  
-No website? We build 1-page sites from £399 — then get you found on Google. Bath & BANES trades: get online and get calls. Free chat, no obligation. seo-kings.co.uk
+No website? We build 1-page sites from £250 — then get you found on Google. Bath & BANES trades: get online and get calls. Free chat, no obligation. seo-kings.co.uk
 
-**Headline:** Get Online From £399  
+**Headline:** Get Online From £250  
 **Description:** Website + SEO. 12 months free hosting.  
 **CTA:** Sign Up | Link: https://seo-kings.co.uk/contact  
 **Image:** facebook-website-399.html or facebook-hero.html
@@ -31,9 +31,9 @@ No website? We build 1-page sites from £399 — then get you found on Google. B
 ## Ad 3 – Trades need a website
 
 **Post / primary text:**  
-Plumbers, electricians, builders: need a website? We build 1-page sites from £399 with services, contact and area info. Mobile-friendly, SEO included. Bath & BANES. seo-kings.co.uk
+Plumbers, electricians, builders: need a website? We build 1-page sites from £250 with services, contact and area info. Mobile-friendly, SEO included. Bath & BANES. seo-kings.co.uk
 
-**Headline:** Website for Trades — From £399  
+**Headline:** Website for Trades — From £250  
 **Description:** Get online. Get found. No fluff.  
 **CTA:** Learn More | Link: https://seo-kings.co.uk/web-design  
 **Image:** facebook-website-399.html or facebook-areas.html
@@ -43,9 +43,9 @@ Plumbers, electricians, builders: need a website? We build 1-page sites from £3
 ## Ad 4 – Packages (Starter, Professional, Full)
 
 **Post / primary text:**  
-Website packages for Bath & BANES trades: Starter from £399 (1-page), Professional from £1,200, Full from £1,800. Custom design, SEO included, 12 months free hosting. Get your quote: seo-kings.co.uk
+Website packages for Bath & BANES trades: Starter from £250 (1-page), Professional from £1,200, Full from £1,800. Custom design, SEO included, 12 months free hosting. Get your quote: seo-kings.co.uk
 
-**Headline:** Web Design Packages — From £399  
+**Headline:** Web Design Packages — From £250  
 **Description:** 1-page to full site. We build it. You get found.  
 **CTA:** Get Offer | Link: https://seo-kings.co.uk/web-design-packages  
 **Image:** facebook-website-399.html or facebook-hero.html
@@ -55,9 +55,9 @@ Website packages for Bath & BANES trades: Starter from £399 (1-page), Professio
 ## Ad 5 – Short hook
 
 **Post / primary text:**  
-Website from £399. 1-page, everything a trade needs. Bath & BANES. SEO included. 12 months free hosting. seo-kings.co.uk | 07702 264 921
+Website from £250. 1-page, everything a trade needs. Bath & BANES. SEO included. 12 months free hosting. seo-kings.co.uk | 07702 264 921
 
-**Headline:** Website From £399  
+**Headline:** Website From £250  
 **Description:** Get online. Get found.  
 **CTA:** Get Offer | Link: https://seo-kings.co.uk/web-design-packages  
 **Image:** facebook-website-399.html
@@ -67,9 +67,9 @@ Website from £399. 1-page, everything a trade needs. Bath & BANES. SEO included
 ## Ad 6 – Mobile + SEO
 
 **Post / primary text:**  
-Mobile-friendly websites built for local search. From £399 for a 1-page trade site. We get Bath & BANES businesses found on Google. Free quote. seo-kings.co.uk
+Mobile-friendly websites built for local search. From £250 for a 1-page trade site. We get Bath & BANES businesses found on Google. Free quote. seo-kings.co.uk
 
-**Headline:** Mobile Websites — From £399  
+**Headline:** Mobile Websites — From £250  
 **Description:** Built for Google. Built for your area.  
 **CTA:** Learn More | Link: https://seo-kings.co.uk/web-design  
 **Image:** facebook-website-399.html or facebook-hero.html
@@ -80,7 +80,7 @@ Mobile-friendly websites built for local search. From £399 for a 1-page trade s
 
 | File | Use for |
 |------|--------|
-| facebook-website-399.html | Website-from-£399 ads (screenshot at 1200×630) |
+| facebook-website-399.html | Website-from-£250 ads (screenshot at 1200×630) |
 | facebook-hero.html | General “Get more customers” / web + SEO |
 | facebook-areas.html | Trades in every area / multi-area |
 | facebook-local-seo-experts.html | When emphasising SEO + web together |

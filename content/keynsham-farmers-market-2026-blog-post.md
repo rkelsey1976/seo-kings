@@ -45,7 +45,7 @@ First impressions matter. If someone finds you via Google and lands on a broken 
 You don’t have to do everything at once. Here are some **quick wins** that make a real difference:
 
 1. **Claim (or create) your Google Business Profile** — Use your market address or a service-area setup so you show up for "Keynsham farmers market" and related searches. Add a short description, your stall/products, and your phone number. We can [check your GBP for free](/contact) and tell you what to fix.
-2. **Get a simple one-page website** — From **£399** we build a one-page site plus **Google Business Profile** optimisation for one service/location. Ideal for a **local business website BS31** that just needs to be clear, fast, and findable. See our [web design packages](/web-design-packages) or [contact us](/contact) for a quote.
+2. **Get a simple one-page website** — From **£250** we build a one-page site plus **Google Business Profile** optimisation for one service/location. Ideal for a **local business website BS31** that just needs to be clear, fast, and findable. See our [web design packages](/web-design-packages) or [contact us](/contact) for a quote.
 3. **Use the same details everywhere** — Same business name, phone (**07702 264 921** if you’re us!), and location on your stall, website, and GBP. Consistency helps Google (and customers) trust you.
 4. **Add a few good photos** — Stall, produce, you at the market. They go on your site and your GBP and make you more clickable in search and on Maps.
 
@@ -63,7 +63,7 @@ We don’t make up results. One of our clients, **New Decorating** (painter and 
 You don’t *have* to, but if people search for you or for the market between Saturdays and find nothing, they’ll go elsewhere. A one-page site and a GBP cost little and keep you visible all month.
 
 **"Won’t a website be expensive?"**  
-Our **£399 starter package** includes a one-page, mobile-friendly site and GBP optimisation for one service/location. It’s built for local search so you show up when people search **website design Keynsham**, the market, or your type of produce. [Get a free quote](/contact) or ring **07702 264 921**.
+Our **£250 starter package** includes a one-page, mobile-friendly site and GBP optimisation for one service/location. It’s built for local search so you show up when people search **website design Keynsham**, the market, or your type of produce. [Get a free quote](/contact) or ring **07702 264 921**.
 
 **"I’m not technical."**  
 You don’t need to be. We build the site and set up (or tidy up) your Google listing. You send us your wording and photos; we handle the rest. After that, you just keep your market dates and contact details up to date.
@@ -80,7 +80,7 @@ We’re **SEO Kings**, a Keynsham-based web design and local SEO agency (BS31 2D
 **What we offer:**
 
 - **Free Keynsham SEO audit** — We review your current site and Google listing (or the gap if you don’t have them) and tell you what’s holding you back. [Book yours here](/contact). No obligation, no credit card.
-- **Starter package from £399** — One-page website + GBP optimisation for one service/location. Ideal as a first **local business website BS31** or a **website for traders Keynsham**.
+- **Starter package from £250** — One-page website + GBP optimisation for one service/location. Ideal as a first **local business website BS31** or a **website for traders Keynsham**.
 - **Phone:** **07702 264 921** — Call for a chat or to book your free audit.
 
 Whether you’re at the **Keynsham farmers market** every second Saturday or you’re a trade that serves the area, a professional website and a proper Google presence turn the other 28 days into more enquiries and more sales. [Get your free Keynsham SEO audit](/contact) and we’ll show you exactly what to do next.

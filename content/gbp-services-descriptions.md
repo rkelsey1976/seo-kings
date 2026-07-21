@@ -31,7 +31,7 @@ Google Business Profile Management - We optimise and manage your GBP so you appe
 **Service name:** Website Design  
 **Description (for GBP):**
 ```
-Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google and in the map pack. From one-page sites from £399 to full multi-page. Built for local search so you get found when customers search. Clear calls to action, click-to-call, contact forms.
+Website Design - Fast, mobile-friendly websites for Bath & BANES. SEO-ready, conversion-focused. Sites that rank on Google and in the map pack. From one-page sites from £250 to full multi-page. Built for local search so you get found when customers search. Clear calls to action, click-to-call, contact forms.
 ```
 *199 characters*
 

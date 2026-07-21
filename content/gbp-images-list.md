@@ -4,10 +4,10 @@ All images are in **`public/`**. Same style: dark purple–blue gradient, white 
 
 ---
 
-## 1. £399 Website for local trades
+## 1. £250 Website for local trades
 
 **File:** `public/gbp-offer-399-website-local-trades.png`  
-**Headline:** Website from £399  
+**Headline:** Website from £250  
 **Subhead:** For local trades — plumbers, electricians, builders  
 **Use for:** Web design offer. Link to `/web-design-packages`.
 

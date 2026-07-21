@@ -301,7 +301,7 @@ Use these on /web-design, /web-design-packages, blog posts, and GBP. Weave into 
 
 **Offer / format**
 - one-page website | single page website
-- website from £399 | affordable website Bath
+- website from £250 | affordable website Bath
 - small business website | business website Bath
 - website for trades | website for tradesmen
 - website for local business

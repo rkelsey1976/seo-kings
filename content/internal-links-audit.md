@@ -144,7 +144,7 @@ Where internal links live and where they point. Use this to spot gaps and streng
 | Gap | Recommendation |
 |-----|----------------|
 | **Blog → area pages** | In location-focused posts (e.g. "Website design Keynsham"), add a line and link: "We serve Keynsham and the surrounding area – see our Keynsham page" → `/areas/keynsham` with anchor "Website design in Keynsham". |
-| **Blog → services** | In relevant posts, add one contextual link to `/web-design`, `/local-seo`, or `/google-business-profile` (e.g. "Our website design starts from £399"). |
+| **Blog → services** | In relevant posts, add one contextual link to `/web-design`, `/local-seo`, or `/google-business-profile` (e.g. "Our website design starts from £250"). |
 | **Web Design → case studies** | Add a short "What we've done" with 1–2 case study links (e.g. New Decorating, Peachy Cleans) to `/case-studies/new-decorating`, `/case-studies/peachy-cleans`. |
 | **Area pages → case studies** | Where an area has a named case study (e.g. Keynsham Electrics for Keynsham), add a link from that area page to the case study. |
 | **Footer areas** | Footer lists 8 areas; you have more (e.g. Westfield, Chew Magna, Temple Cloud, Clutton). Consider "View all" only or add key areas; keep Nav/Footer in sync with main areas. |

@@ -12,7 +12,7 @@ Add each service below. You can use the **name** as the service title and the **
 Website design  
 
 **Description (optional):**  
-Fast, mobile-friendly websites from £399. For trades and small businesses in Bath and North East Somerset.
+Fast, mobile-friendly websites from £250. For trades and small businesses in Bath and North East Somerset.
 
 ---
 
