@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Web Design Keynsham — Websites for Trades from £250 | SEO Kings' },
-  description: 'We build fast, mobile-first websites for Keynsham trades that rank on Google. From £250. Based in BS31. Top results for "website designer Keynsham" — see our real client results. Free audit.',
+  title: { absolute: 'Website Designer Keynsham | Web Design from £250 | SEO Kings' },
+  description: 'Website designer in Keynsham BS31. Fast, mobile-first sites for trades and local businesses from £250, live in under 2 weeks. Based in Keynsham — you speak to the person who builds it. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/website-designer-keynsham' },
 };
 

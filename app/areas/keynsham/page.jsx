@@ -4,7 +4,7 @@ import BreadcrumbSchema from '../../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'SEO & Web Design Keynsham | SEO Kings' },
+  title: { absolute: 'SEO Agency Keynsham | Web Design & Local Search | SEO Kings' },
   description: 'Local SEO & web design for trades in Keynsham BS31. Websites from £250, SEO from £150/mo. Free audit — no obligation.',
   alternates: { canonical: 'https://seo-kings.co.uk/areas/keynsham' },
   openGraph: { url: 'https://seo-kings.co.uk/areas/keynsham' },

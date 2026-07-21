@@ -54,6 +54,14 @@ const included = [
 
 const faqs = [
   {
+    q: 'Are you a website designer actually based in Keynsham?',
+    a: 'Yes — 16a Culvers Road, BS31 2DW. Not a Bristol or Bath agency listing Keynsham as a service area. That matters for two reasons: you can meet in person without it being an event, and proximity is one of the strongest signals Google uses when deciding which businesses to show in the local map results.',
+  },
+  {
+    q: 'Are you a freelance website designer or an agency?',
+    a: "Somewhere in between, and honestly closer to freelance. You deal directly with the person who designs and builds your site — there's no account manager relaying messages and no junior doing the work behind a senior's name. That means straight answers, faster decisions and lower overheads than an agency, which is why sites start at £250 rather than £2,500.",
+  },
+  {
     q: 'How much does a website cost in Keynsham?',
     a: 'A one-page site starts at £250. Multi-page sites are £250 base + £50 per page — a 3-page site is £350, a 5-page site is £450. GBP optimisation available as a £100 add-on. See our packages page for full pricing.',
   },
@@ -94,8 +102,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/website-designer-keynsham',
       url: 'https://seo-kings.co.uk/website-designer-keynsham',
-      name: 'Web Design Keynsham — Websites for Trades | SEO Kings',
-      description: 'Fast, mobile-first websites for Keynsham trades that rank on Google. From £250. Based in BS31. Top results for "website designer Keynsham" — real client results. Free audit.',
+      name: 'Website Designer Keynsham | Web Design from £250 | SEO Kings',
+      description: 'Website designer in Keynsham BS31. Fast, mobile-first sites for trades and local businesses from £250, live in under 2 weeks. Based in Keynsham. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
     },
@@ -236,7 +244,7 @@ const WebsiteDesignerKeynsham = () => {
       <section className="py-24 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTag className="mb-8">Verified results</SectionTag>
-          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for local businesses</h2>
+          <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Real results for Keynsham and BS31 businesses</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
             {results.map((r) => (
               <Link
@@ -291,7 +299,7 @@ const WebsiteDesignerKeynsham = () => {
           <div className="max-w-3xl mb-12">
             <SectionTag className="mb-4">Why it works</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Website design in Keynsham — why being local is a ranking advantage
+              Choosing a website designer in Keynsham — why local beats remote
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Keynsham sits between Bath and Bristol — two of the UK's most competitive digital markets. But Keynsham itself is a different story. Most local trades either have no website or one that was built years ago on a slow shared server. Google doesn't need much to put you above them: a fast, properly structured site with the right BS31 location signals will outrank the majority of what's currently there.
@@ -328,7 +336,7 @@ const WebsiteDesignerKeynsham = () => {
           <div className="max-w-3xl mx-auto">
             <SectionTag className="mb-4">FAQs</SectionTag>
             <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">
-              Common questions about website design in Keynsham
+              Common questions about hiring a website designer in Keynsham
             </h2>
             <FAQAccordion faqs={faqs} />
           </div>
