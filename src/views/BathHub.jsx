@@ -60,6 +60,14 @@ const faqs = [
     a: "We work with any trade or local business in Bath — painters, plumbers, electricians, builders, massage therapists, cleaners, kitchen fitters, and more. We have dedicated trade pages for many of these. The approach is the same: find the searches your customers are actually doing, build or optimise your site for those searches, make sure your Google Business Profile is set up to convert.",
   },
   {
+    q: 'Do you do SEO for small businesses in Bath, or only trades?',
+    a: "Both. Trades are the bulk of our work, but the method is the same for any local business that needs to be found in Bath — shops, salons, therapists, consultants, cafés. Aurelian Massage in Bath city centre came to us as a brand new business with no website and no social media at all; we built the site and set up the Google profile inside a week, and they were taking calls from Google searches shortly after. If your customers find you by searching, the approach works regardless of what you do.",
+  },
+  {
+    q: 'What does small business SEO in Bath actually cost?',
+    a: "SEO starts at £150 a month with no lock-in contract, and that covers Google Business Profile work, on-page fixes, local citations and monthly ranking reports. If you also need a website, those start at £250 for a one-page site. There's also a Site + Google option at £99 a month with nothing upfront, which bundles the website, GBP optimisation, hosting and monthly reports — that one tends to suit smaller businesses who'd rather not pay out in one go. Free audit first either way, so you know what you actually need before committing.",
+  },
+  {
     q: 'How long before I see results?',
     a: "GBP improvements can show within weeks. Ranking for competitive Bath keywords like 'plumber Bath' or 'electrician BA1' typically takes 3–6 months. We give you monthly reports so you see exactly what's moving. A website goes live in under 2 weeks.",
   },

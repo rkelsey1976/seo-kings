@@ -95,7 +95,7 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/seo/bath',
       url: 'https://seo-kings.co.uk/seo/bath',
-      name: 'SEO Bath — SEO Agency for Trades & Small Business | SEO Kings',
+      name: 'SEO Bath | SEO Services for Trades & Small Business | SEO Kings',
       description: 'SEO agency in Bath BA1 & BA2. Technical SEO, on-page optimisation, content strategy and local SEO for trades and small businesses from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
@@ -168,7 +168,7 @@ const SEOBath = () => {
     <>
       <SEO schemas={[schema]} />
       <ServicePageHero
-        badge="SEO Agency · Bath & BANES"
+        badge="SEO Services · Bath & BANES"
         title="SEO"
         highlight="Bath"
         description="When someone in Bath searches for your service, the businesses on page one take the calls. We get you there — technical SEO, on-page optimisation, content and local signals, all working together."
