@@ -26,8 +26,8 @@ const CASE_STUDY_META = {
     description: 'How we built a bespoke website and brand identity for Bath Painter — a heritage specialist serving Bath, Keynsham and BANES with 20+ years of experience in period and listed properties.',
   },
   'aspect-builds': {
-    title: 'Aspect Builds Bath — Builder Website Case Study | 40-Page SEO Build | SEO Kings',
-    description: 'How Aspect Builds went from a single Instagram page to ranking on Google for "Bath builder" searches — 40-page site, real photography, hub-and-spoke SEO. Map Pack and organic results in 8 weeks.',
+    title: 'Bath Builder Case Study: Instagram to Page 1 in 8 Weeks | SEO Kings',
+    description: 'A Bath builder with no website — just Instagram. We built 40 pages in two weeks. Map Pack and page-one organic for "builder Bath" within 8 weeks.',
   },
   'rg-extreme-pressure': {
     title: 'RG Extreme Pressure: Custom 102-Page Jet Washing Website from Wix | SEO Kings',

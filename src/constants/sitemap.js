@@ -349,7 +349,7 @@ export const STATIC_ROUTES = [
   { path: '/web-design-for/extension-builders', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/web-design-for/drainage-engineers', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.9 },
   { path: '/local-seo/builders', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
-  { path: '/local-seo/landscapers', lastmod: '2026-07-14', changefreq: 'monthly', priority: 0.8 },
+  { path: '/local-seo/landscapers', lastmod: '2026-07-21', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/cleaners', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/painters-decorators', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },
   { path: '/local-seo/kitchen-fitters', lastmod: '2026-07-08', changefreq: 'monthly', priority: 0.8 },

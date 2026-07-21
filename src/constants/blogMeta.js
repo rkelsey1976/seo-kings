@@ -39,8 +39,8 @@ export const BLOG_META = {
     canonical: 'https://seo-kings.co.uk/blog/google-map-pack-bristol',
   },
   'website-cost-bath': {
-    title: 'How Much Does a Website Cost in Bath? From £250 — Honest Pricing | SEO Kings',
-    description: 'Bath website prices range from £250 to £5,000+. Here\'s what actually drives the cost — and what a trade or small business realistically needs. Real pricing, no sales pitch.',
+    title: 'How Much Does a Website Cost in Bath? Real Prices From £250 | SEO Kings',
+    description: 'Bath website prices run £250 to £5,000+. What drives the cost, what a trade actually needs, and the hidden extras to ask about before you sign.',
     canonical: 'https://seo-kings.co.uk/blog/website-cost-bath',
   },
   'how-to-choose-web-designer-bath': {
