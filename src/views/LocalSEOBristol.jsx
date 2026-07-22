@@ -6,6 +6,7 @@ import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import ServicePageHero from '../components/ServicePageHero';
+import { BRISTOL_INDUSTRIES } from '../constants/industries';
 
 const whatWeDo = [
   'Keyword research for "local SEO Bristol", "SEO Bristol" and every trade and service search across BS1–BS16',
@@ -290,6 +291,35 @@ const LocalSEOBristol = () => {
             <SectionTag className="mb-4">FAQs</SectionTag>
             <h2 className="text-3xl font-bold text-white mb-10 leading-tight tracking-tight">Common questions about local SEO in Bristol</h2>
             <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* Local SEO by trade */}
+      <section className="py-20 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">By trade</SectionTag>
+          <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">Local SEO for your trade in Bristol</h2>
+          <p className="text-gray-400 mb-8 max-w-2xl">
+            Map Pack tactics differ by trade. An emergency plumber needs to appear the moment
+            someone searches at 11pm; a kitchen fitter is being compared over weeks. Pick your
+            trade for the specifics.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {Object.values(BRISTOL_INDUSTRIES).map((ind) => (
+              <Link
+                key={ind.slug}
+                href={`/seo/bristol/${ind.slug}`}
+                className="flex items-center justify-between gap-2 p-4 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">
+                  {ind.plural}
+                </span>
+                <svg className="w-3.5 h-3.5 shrink-0 text-gray-600 opacity-0 group-hover:opacity-100 group-hover:text-primary transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
