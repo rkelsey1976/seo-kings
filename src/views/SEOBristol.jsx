@@ -7,6 +7,7 @@ import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import ServicePageHero from '../components/ServicePageHero';
 import { BRISTOL_INDUSTRIES } from '../constants/industries';
+import { BRISTOL_SUBURB_LIST, linkifyBristolSuburbs } from '../constants/bristolSuburbs';
 
 const whatWeDo = [
   'Technical SEO: site speed, Core Web Vitals, crawlability, indexation — we fix what holds you back',
@@ -70,6 +71,7 @@ const faqs = [
   {
     q: 'What areas of Bristol do you cover?',
     a: 'All of BS1 to BS16 — Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Southville, Long Ashton, Yate, Kingswood, Redland, Bishopston and Cotham. We also cover Keynsham, Bath, and the wider Somerset and South Gloucestershire area. If you serve any part of this patch, our SEO campaigns are structured to target the specific neighbourhoods and postcodes where your customers are searching.',
+    aHtml: linkifyBristolSuburbs('All of BS1 to BS16 — Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Southville, Long Ashton, Yate, Kingswood, Redland, Bishopston and Cotham. We also cover Keynsham, Bath, and the wider Somerset and South Gloucestershire area. If you serve any part of this patch, our SEO campaigns are structured to target the specific neighbourhoods and postcodes where your customers are searching.'),
   },
 ];
 
@@ -328,6 +330,33 @@ const SEOBristol = () => {
                 <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
                 <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* BRISTOL SUB-AREAS WE COVER */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Bristol coverage</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2 leading-tight tracking-tight">
+            SEO across every Bristol neighbourhood
+          </h2>
+          <p className="text-gray-400 max-w-3xl mb-10">
+            We don&apos;t just rank you for &ldquo;Bristol&rdquo; — we rank you for the specific neighbourhood your customers live in. Every page below has its own LocalBusiness schema, Google Business Profile optimisation, and suburb-specific content. Click your area to see what we cover locally.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {BRISTOL_SUBURB_LIST.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+              </Link>
             ))}
           </div>
         </div>

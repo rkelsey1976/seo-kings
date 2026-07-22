@@ -24,7 +24,10 @@ const FAQAccordion = ({ faqs, allowMultiple = false }) => {
       {faqs.map((faq, index) => {
         const isOpen = openItems.has(index);
         const question = faq.q || faq.question;
-        const answer = faq.a || faq.answer;
+        const answerText = faq.a || faq.answer;
+        // aHtml lets callers pass a React node (with <Link> etc.) for answers
+        // that need internal links. Falls back to plain text.
+        const answerNode = faq.aHtml || answerText;
         
         return (
           <div
@@ -62,7 +65,7 @@ const FAQAccordion = ({ faqs, allowMultiple = false }) => {
             >
               <div className="px-5 sm:px-6 pb-5 sm:pb-6 pt-0">
                 <p className="text-gray-300 leading-relaxed">
-                  {answer}
+                  {answerNode}
                 </p>
               </div>
             </div>

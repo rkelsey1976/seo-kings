@@ -7,6 +7,7 @@ import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import PricingModal from '../components/PricingModal';
 import ServicePageHero from '../components/ServicePageHero';
+import { BRISTOL_SUBURB_LIST, linkifyBristolSuburbs } from '../constants/bristolSuburbs';
 
 const results = [
   {
@@ -44,6 +45,7 @@ const faqs = [
   {
     q: 'Do you work with businesses in Bristol?',
     a: "Yes — we work with trades and local businesses across all of Bristol, from Clifton and Redland to Bedminster, Horfield, Filton, Bradley Stoke and the wider BS postcode area. We're based in Keynsham, 20 minutes from the city centre.",
+    aHtml: linkifyBristolSuburbs("Yes — we work with trades and local businesses across all of Bristol, from Clifton and Redland to Bedminster, Horfield, Filton, Bradley Stoke and the wider BS postcode area. We're based in Keynsham, 20 minutes from the city centre."),
   },
   {
     q: 'How long does it take to build a website?',
@@ -254,7 +256,7 @@ const WebsiteDesignerBristol = () => {
               That's why we build differently. Every site we deliver runs on Next.js — a framework that produces pre-rendered, static pages that load in under a second. When your competitor's site takes four seconds to load and yours is instant, Google rewards you for it. Core Web Vitals scores that would take a WordPress developer months to achieve come out of the box with our stack.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              Location signals matter even more in a big city. We don't just put "Bristol" in your title tag and call it done. Every page we build references your specific service areas — Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Knowle, Southville — in headings, body copy and structured data. Bristol is too big to target as one lump — you need suburb-level precision to compete.
+              Location signals matter even more in a big city. We don't just put "Bristol" in your title tag and call it done. Every page we build references your specific service areas — {linkifyBristolSuburbs('Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Knowle, Southville')} — in headings, body copy and structured data. Bristol is too big to target as one lump — you need suburb-level precision to compete.
             </p>
             <p className="text-gray-400 leading-relaxed">
               We're based in Keynsham, 20 minutes from Bristol city centre. We know the market, we've built sites for Bristol trades, and Aspect Builds went from no website to page one in 8 weeks. When you need something changed, you call us directly — not a support ticket queue.
@@ -297,6 +299,33 @@ const WebsiteDesignerBristol = () => {
               BS31 2DW<br />
               <a href="tel:+447****4921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
+          </div>
+        </div>
+      </section>
+
+      {/* BRISTOL SUB-AREAS WE COVER */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">Bristol coverage</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2 leading-tight tracking-tight">
+            Web design across every Bristol neighbourhood
+          </h2>
+          <p className="text-gray-400 max-w-3xl mb-10">
+            We build websites for trades and local businesses across every part of Bristol. Every page below has its own LocalBusiness schema, suburb-specific content, and is built to rank for the specific postcodes where your customers are searching. Click your area to see what we cover locally.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {BRISTOL_SUBURB_LIST.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

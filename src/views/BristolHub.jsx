@@ -7,6 +7,7 @@ import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
 import { BRISTOL_INDUSTRIES } from '../constants/industries';
+import { BRISTOL_SUBURB_LIST, linkifyBristolSuburbs } from '../constants/bristolSuburbs';
 
 const heroFeatures = [
   'Page 1 in 8 weeks',
@@ -14,51 +15,6 @@ const heroFeatures = [
   'Local SEO from £150/month',
   'Free audit — no obligation',
 ];
-
-// Slug lookup for the Bristol suburb links in the body copy
-const BRISTOL_SUBURB_SLUGS = {
-  'clifton': 'clifton-bristol',
-  'bedminster': 'bedminster-bristol',
-  'horfield': 'horfield-bristol',
-  'filton': 'filton-bristol',
-  'bradley stoke': 'bradley-stoke-bristol',
-  'brislington': 'brislington',
-  'whitchurch': 'whitchurch-bristol',
-  'knowle': 'knowle-bristol',
-  'stockwood': 'stockwood-bristol',
-  'southville': 'southville-bristol',
-  'long ashton': 'long-ashton-bristol',
-  'yate': 'yate-bristol',
-  'kingswood': 'kingswood',
-  'redland': 'redland-bristol',
-  'bishopston': 'bishopston-bristol',
-  'cotham': 'cotham-bristol',
-};
-
-// Render a string with suburb names turned into links. Case-insensitive match,
-// keeps the original capitalisation in the displayed text.
-function linkifyBristolSuburbs(text) {
-  const parts = [];
-  let remaining = text;
-  const keys = Object.keys(BRISTOL_SUBURB_SLUGS).sort((a, b) => b.length - a.length);
-  const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const pattern = new RegExp(`\\b(${keys.map(escape).join('|')})\\b`, 'gi');
-  let last = 0;
-  let m;
-  while ((m = pattern.exec(remaining)) !== null) {
-    if (m.index > last) parts.push(remaining.slice(last, m.index));
-    const matched = m[1].toLowerCase();
-    const slug = BRISTOL_SUBURB_SLUGS[matched];
-    parts.push(
-      <Link key={`${m.index}-${slug}`} href={`/areas/${slug}`} className="text-white hover:text-primary transition-colors underline decoration-dotted underline-offset-2">
-        {m[1]}
-      </Link>
-    );
-    last = m.index + m[1].length;
-  }
-  if (last < remaining.length) parts.push(remaining.slice(last));
-  return parts;
-}
 
 const testimonials = [
   {
@@ -538,24 +494,7 @@ const BristolHub = () => {
           <h2 className="text-3xl font-bold text-white mb-2 leading-tight tracking-tight">Bristol areas we cover</h2>
           <p className="text-gray-400 mb-8">Web design, local SEO and Google Business Profile across every part of Bristol — 16 neighbourhood pages from Clifton and Bedminster out to Bradley Stoke, Yate and Long Ashton. Click your area for local information.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-            {[
-              { name: 'Clifton', slug: 'clifton-bristol' },
-              { name: 'Bedminster', slug: 'bedminster-bristol' },
-              { name: 'Horfield', slug: 'horfield-bristol' },
-              { name: 'Filton', slug: 'filton-bristol' },
-              { name: 'Bradley Stoke', slug: 'bradley-stoke-bristol' },
-              { name: 'Brislington', slug: 'brislington' },
-              { name: 'Whitchurch', slug: 'whitchurch-bristol' },
-              { name: 'Knowle', slug: 'knowle-bristol' },
-              { name: 'Stockwood', slug: 'stockwood-bristol' },
-              { name: 'Southville', slug: 'southville-bristol' },
-              { name: 'Long Ashton', slug: 'long-ashton-bristol' },
-              { name: 'Yate', slug: 'yate-bristol' },
-              { name: 'Kingswood', slug: 'kingswood' },
-              { name: 'Redland', slug: 'redland-bristol' },
-              { name: 'Bishopston', slug: 'bishopston-bristol' },
-              { name: 'Cotham', slug: 'cotham-bristol' },
-            ].map((area) => (
+            {BRISTOL_SUBURB_LIST.map((area) => (
               <Link
                 key={area.slug}
                 href={`/areas/${area.slug}`}
