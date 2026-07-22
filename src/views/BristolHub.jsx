@@ -15,6 +15,51 @@ const heroFeatures = [
   'Free audit — no obligation',
 ];
 
+// Slug lookup for the Bristol suburb links in the body copy
+const BRISTOL_SUBURB_SLUGS = {
+  'clifton': 'clifton-bristol',
+  'bedminster': 'bedminster-bristol',
+  'horfield': 'horfield-bristol',
+  'filton': 'filton-bristol',
+  'bradley stoke': 'bradley-stoke-bristol',
+  'brislington': 'brislington',
+  'whitchurch': 'whitchurch-bristol',
+  'knowle': 'knowle-bristol',
+  'stockwood': 'stockwood-bristol',
+  'southville': 'southville-bristol',
+  'long ashton': 'long-ashton-bristol',
+  'yate': 'yate-bristol',
+  'kingswood': 'kingswood',
+  'redland': 'redland-bristol',
+  'bishopston': 'bishopston-bristol',
+  'cotham': 'cotham-bristol',
+};
+
+// Render a string with suburb names turned into links. Case-insensitive match,
+// keeps the original capitalisation in the displayed text.
+function linkifyBristolSuburbs(text) {
+  const parts = [];
+  let remaining = text;
+  const keys = Object.keys(BRISTOL_SUBURB_SLUGS).sort((a, b) => b.length - a.length);
+  const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = new RegExp(`\\b(${keys.map(escape).join('|')})\\b`, 'gi');
+  let last = 0;
+  let m;
+  while ((m = pattern.exec(remaining)) !== null) {
+    if (m.index > last) parts.push(remaining.slice(last, m.index));
+    const matched = m[1].toLowerCase();
+    const slug = BRISTOL_SUBURB_SLUGS[matched];
+    parts.push(
+      <Link key={`${m.index}-${slug}`} href={`/areas/${slug}`} className="text-white hover:text-primary transition-colors underline decoration-dotted underline-offset-2">
+        {m[1]}
+      </Link>
+    );
+    last = m.index + m[1].length;
+  }
+  if (last < remaining.length) parts.push(remaining.slice(last));
+  return parts;
+}
+
 const testimonials = [
   {
     quote:
@@ -276,7 +321,7 @@ const BristolHub = () => {
                 SEO Kings is based in Keynsham — 20 minutes from Bristol city centre on the A4. We&apos;ve been working as an SEO agency and web designer across Bristol for years, with results you can check: Aspect Builds reached the Map Pack and page one for &ldquo;builder Bath&rdquo; in eight weeks, and Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month. We don&apos;t just talk about rankings. We can show you them.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Bristol is a big, spread-out city. BS1 to BS16 spans Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch and beyond — three local authorities, dozens of neighbourhoods, each with its own search patterns. We target Bristol at suburb level, not just &ldquo;Bristol&rdquo; as a single blob. That means your site ranks for the specific postcodes where your customers are searching, not just the generic city term everyone fights over.
+                {linkifyBristolSuburbs('Bristol is a big, spread-out city. BS1 to BS16 spans Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch and beyond — three local authorities, dozens of neighbourhoods, each with its own search patterns. We target Bristol at suburb level, not just “Bristol” as a single blob. That means your site ranks for the specific postcodes where your customers are searching, not just the generic city term everyone fights over.')}
               </p>
               <ul className="space-y-3">
                 {[
