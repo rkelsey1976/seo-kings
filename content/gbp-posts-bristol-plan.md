@@ -37,10 +37,10 @@ the searcher, and a post won't override that. From Culvers Road:
 Bristol-wide presence and feed the organic pages, which is a slower and less direct return.
 Set expectations accordingly rather than measuring everything against Keynsham results.
 
-**Your strongest Bristol credential is that you rank #1 organically for "SEO Bristol".** That is
-a verifiable claim about the most competitive local SEO term in the South West, and it does more
-work than any pricing line. It's used in several posts below — keep it accurate, and drop it
-from these posts immediately if the ranking moves.
+**Your strongest credential is documented client results, not your own ranking.** Aspect Builds
+went from no website to Map Pack and page one for "builder Bath" in 8 weeks; Peachy Cleans took
+#1 in the Map Pack and now fields 40+ calls a month. Those are verifiable, they don't go stale,
+and "here's what we did for a business like yours" outsells "here's how we rank".
 
 ---
 
@@ -76,7 +76,7 @@ Website design for St George businesses from £250. We're in Keynsham — fiftee
 ✅ Targets St George, Church Road, BS5 and east Bristol
 ✅ Google Business Profile setup £100 one-off
 
-We rank #1 on Google for "SEO Bristol" — the same work we'd do for you. Free check on where you currently rank, no obligation.
+Aspect Builds went from no website to page one in 8 weeks — the same work we'd do for you. Free check on where you currently rank, no obligation.
 ```
 
 **Angle:** Proximity is real here — lead with it. Church Road is the commercial spine.
@@ -142,7 +142,7 @@ Website design for Bishopston businesses from £250. Gloucester Road is one of t
 ✅ Review setup so you climb the map pack
 ✅ Local SEO from £150/month, no lock-in
 
-We rank #1 for "SEO Bristol". Free check on where you stand, no obligation.
+Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month. Free check on where you stand, no obligation.
 ```
 
 **Angle:** Gloucester Road's independent trading is genuinely notable — use it.
@@ -272,7 +272,7 @@ Website design for Clifton businesses from £250. Georgian terraces, listed buil
 ✅ Targets Clifton, Clifton Village, BS8
 ✅ Google Business Profile setup £100 one-off
 
-We rank #1 on Google for "SEO Bristol" — competing against the agencies based on your doorstep. Free check, no obligation.
+We compete against the agencies on your doorstep and win on results — Aspect Builds, page one in 8 weeks from nothing. Free check, no obligation.
 ```
 
 **Angle:** Heritage specialism + the #1 claim, which matters most where competition is toughest.
@@ -341,7 +341,8 @@ Never generic laptop stock — it reads as filler.
 - **One CTA per post**, pointed at the matching area page.
 - **Don't measure phases 3 and 4 on map pack movement.** They're organic and awareness plays.
   Judge them on profile views and clicks through to the area pages instead.
-- **Keep the "#1 for SEO Bristol" claim accurate.** It appears in posts 1, 4 and 10. Check it
-  with `npm run rank-check` before a cycle and pull it if it's moved.
+- **Only use client results you can evidence.** Every proof point here maps to a published case
+  study. Never claim your own ranking position in a post — it goes stale silently and you can't
+  substantiate it weeks later.
 - **Pricing here is from £250**, matching current rates (1-page £250, 3-page £350, 5+ £450,
   GBP £100 one-off, local SEO £150/month).

@@ -171,10 +171,10 @@ const SEOBristolIndustry = ({ industry }) => {
             </div>
             <div className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
               <SectionTag className="mb-2">Proof</SectionTag>
-              <div className="text-2xl font-bold text-white mb-2">#1 for &ldquo;SEO Bristol&rdquo;</div>
+              <div className="text-2xl font-bold text-white mb-2">Real client results</div>
               <p className="text-gray-400 text-sm leading-relaxed">{config.proof}</p>
               <Link
-                href="/case-studies/seo-kings"
+                href="/case-studies/aspect-builds"
                 className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-primary hover:underline"
               >
                 View case study

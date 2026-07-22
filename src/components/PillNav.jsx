@@ -320,7 +320,7 @@ const PillNav = () => {
                   Based in Keynsham. Ranking across Somerset &amp; Bristol.
                 </p>
                 <p className="text-gray-500 text-[13px] leading-relaxed mb-6">
-                  We rank #1 organically for &ldquo;SEO Bristol&rdquo; — the same work we sell.
+                  Real client results across Bath, Bristol and Somerset — the same work we sell.
                 </p>
                 <Link
                   href="/areas"

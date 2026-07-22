@@ -42,7 +42,7 @@ Trades in Bishopsworth, Bedminster Down and BS13 — is your website getting fou
 
 **Body:**
 ```
-Hartcliffe and Withywood trades: most web designers build pretty sites that don't rank. We build for Google from the start — fast pages, proper local signals, GBP set-up. From £250, live in 2 weeks. We're #1 for "SEO Bristol" ourselves. Free audit of your site and Google listing → 07702 264 921
+Hartcliffe and Withywood trades: most web designers build pretty sites that don't rank. We build for Google from the start — fast pages, proper local signals, GBP set-up. From £250, live in 2 weeks. Aspect Builds went from no website to page one in 8 weeks. Free audit of your site and Google listing → 07702 264 921
 ```
 *~300 characters*
 
@@ -90,7 +90,7 @@ Web designer for Dundry, Long Ashton and BS41. Fast websites from £250 that ran
 
 **Body:**
 ```
-Covering west and south Bristol: Bedminster, Bishopsworth, Hartcliffe, Hengrove, Knowle and Dundry. Fast, Google-ready websites from £250 for trades and local businesses. We're #1 for "SEO Bristol" ourselves — we prove we can rank here, not just claim it. Free quote → 07702 264 921
+Covering west and south Bristol: Bedminster, Bishopsworth, Hartcliffe, Hengrove, Knowle and Dundry. Fast, Google-ready websites from £250 for trades and local businesses. Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month — we prove we can rank, not just claim it. Free quote → 07702 264 921
 ```
 *~290 characters*
 

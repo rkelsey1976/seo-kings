@@ -18,12 +18,12 @@ const results = [
     slug: 'rg-extreme-pressure',
   },
   {
-    business: 'SEO Kings',
-    location: 'Bristol',
-    result: '#1 Organic',
-    keyword: '"SEO Bristol"',
-    detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
-    slug: 'seo-kings',
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: 'Page 1 in 8 weeks',
+    keyword: '"builder Bath"',
+    detail: 'No website at all — just an Instagram page. We built 40 pages in two weeks, and within 8 weeks they were in the Map Pack and on page one organically.',
+    slug: 'aspect-builds',
   },
 ];
 
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: 'Will my website show up on Google in Bristol?',
-    a: "That's the goal. Bristol is competitive but we know how to rank here — we're #1 organically for \"SEO Bristol\" ourselves. We build pages properly structured for local search, with the right signals for BS postcodes, so you give yourself a real shot at page one and the Map Pack.",
+    a: "That's the goal. Bristol is competitive but we know how to rank here — Aspect Builds went from no website to page one in 8 weeks. We build pages properly structured for local search, with the right signals for BS postcodes, so you give yourself a real shot at page one and the Map Pack.",
   },
   {
     q: 'What trades do you work with in Bristol?',
@@ -137,7 +137,7 @@ const WebsiteDesignerBristol = () => {
           '6 months free hosting',
           'Live in under 2 weeks',
           'GBP optimisation +£100',
-          '#1 for "SEO Bristol"',
+          'Page 1 in 8 weeks',
         ]}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
@@ -257,12 +257,12 @@ const WebsiteDesignerBristol = () => {
               Location signals matter even more in a big city. We don't just put "Bristol" in your title tag and call it done. Every page we build references your specific service areas — Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Knowle, Southville — in headings, body copy and structured data. Bristol is too big to target as one lump — you need suburb-level precision to compete.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              We're based in Keynsham, 20 minutes from Bristol city centre. We know the market, we rank #1 for "SEO Bristol" ourselves, and we've built sites for Bristol trades. When you need something changed, you call us directly — not a support ticket queue.
+              We're based in Keynsham, 20 minutes from Bristol city centre. We know the market, we've built sites for Bristol trades, and Aspect Builds went from no website to page one in 8 weeks. When you need something changed, you call us directly — not a support ticket queue.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: 'We rank #1 in Bristol', body: 'SEO Kings is #1 organically and in the Map Pack for "SEO Bristol" — we prove we can rank in Bristol, not just claim it.' },
+              { title: 'Results you can check', body: 'Aspect Builds: no website to Map Pack and page one in 8 weeks. Peachy Cleans: Map Pack #1, 40+ calls a month.' },
               { title: 'Next.js, not WordPress', body: 'Static pages, sub-second load times, zero plugin vulnerabilities — a ranking advantage from day one.' },
               { title: 'Suburb-level targeting', body: 'Clifton, Bedminster, Horfield, Bradley Stoke — Bristol is too big for one-size-fits-all. We target by postcode and neighbourhood.' },
               { title: '20 minutes away', body: 'Keynsham-based. Close enough to meet in Bristol, quick to respond — no account managers between you and us.' },

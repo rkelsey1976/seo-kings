@@ -9,7 +9,7 @@ import SectionTag from '../components/SectionTag';
 import { BRISTOL_INDUSTRIES } from '../constants/industries';
 
 const heroFeatures = [
-  '#1 for "SEO Bristol"',
+  'Page 1 in 8 weeks',
   'Websites from £250',
   'Local SEO from £150/month',
   'Free audit — no obligation',
@@ -35,7 +35,7 @@ const testimonials = [
 const faqs = [
   {
     q: 'What should I look for in an SEO agency in Bristol?',
-    a: "Three things: can they show you real rankings — not just client case studies but their own? Do they know the Bristol market — the specific BS postcode searches your customers use, the competition levels in Clifton vs Bedminster vs Bradley Stoke? And are they built for trades and small businesses, not enterprise clients? We rank #1 organically for \"SEO Bristol\" — one of the most competitive local SEO keywords in the South West. That's not a case study. That's us.",
+    a: "Three things: can they show you real rankings — not just client case studies but their own? Do they know the Bristol market — the specific BS postcode searches your customers use, the competition levels in Clifton vs Bedminster vs Bradley Stoke? And are they built for trades and small businesses, not enterprise clients? Ask for results you can verify: Aspect Builds went from no website to Map Pack and page one for \"builder Bath\" in 8 weeks; Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month.",
   },
   {
     q: 'Why use a Bristol-based SEO agency and web designer?',
@@ -75,7 +75,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/areas/bristol',
       url: 'https://seo-kings.co.uk/areas/bristol',
       name: 'SEO Agency Bristol | Web Design & Local Search | SEO Kings',
-      description: 'Bristol SEO agency and web designer. Local SEO from £150/month, websites from £250, GBP optimisation from £100. #1 for "SEO Bristol". Free audit.',
+      description: 'Bristol SEO agency and web designer. Local SEO from £150/month, websites from £250, GBP optimisation from £100. Real client results. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
     },
@@ -83,7 +83,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'SEO and web design agency serving Bristol, BS1–BS16. Websites from £250, local SEO from £150/month. #1 organically for "SEO Bristol".',
+      description: 'SEO and web design agency serving Bristol, BS1–BS16. Websites from £250, local SEO from £150/month. Trades and small businesses.',
       url: 'https://seo-kings.co.uk/areas/bristol',
       telephone: '+447****4921',
       address: {
@@ -158,7 +158,7 @@ const BristolHub = () => {
         badge="Bristol · BS1–BS16"
         title="SEO Agency &amp; Web Design in"
         highlight="Bristol"
-        description="Bristol SEO agency helping trades and local businesses get found on Google. We rank #1 organically for &ldquo;SEO Bristol&rdquo; — and we can do the same for your trade. Local SEO from £150/month, websites from £250, GBP optimisation from £100. Based in Keynsham, 20 minutes from the city centre."
+        description="Bristol SEO agency helping trades and local businesses get found on Google. Aspect Builds went from no website to page one in 8 weeks — we can do the same for your trade. Local SEO from £150/month, websites from £250, GBP optimisation from £100. Based in Keynsham, 20 minutes from the city centre."
         features={heroFeatures}
         ctaText="Get a Free Audit"
         ctaSecondary="Call Us Today"
@@ -273,14 +273,14 @@ const BristolHub = () => {
                 A Bristol SEO agency that actually ranks in Bristol
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                SEO Kings is based in Keynsham — 20 minutes from Bristol city centre on the A4. We&apos;ve been working as an SEO agency and web designer across Bristol for years, and we rank #1 organically for &ldquo;SEO Bristol&rdquo; — one of the most competitive local SEO keywords in the South West. We don&apos;t just talk about rankings. We have them.
+                SEO Kings is based in Keynsham — 20 minutes from Bristol city centre on the A4. We&apos;ve been working as an SEO agency and web designer across Bristol for years, with results you can check: Aspect Builds reached the Map Pack and page one for &ldquo;builder Bath&rdquo; in eight weeks, and Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month. We don&apos;t just talk about rankings. We can show you them.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8">
                 Bristol is a big, spread-out city. BS1 to BS16 spans Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch and beyond — three local authorities, dozens of neighbourhoods, each with its own search patterns. We target Bristol at suburb level, not just &ldquo;Bristol&rdquo; as a single blob. That means your site ranks for the specific postcodes where your customers are searching, not just the generic city term everyone fights over.
               </p>
               <ul className="space-y-3">
                 {[
-                  '#1 organically for "SEO Bristol" — we rank for our own city',
+                  'Client results you can verify — not just promises',
                   '20 minutes from Bristol city centre — based in Keynsham',
                   'Suburb-level targeting across BS1–BS16, not just "Bristol"',
                   'Exclusive focus on trades and local businesses',
@@ -389,8 +389,8 @@ const BristolHub = () => {
                 desc: "We're based in Keynsham on the A4. When you need to talk through a brief or review something, you speak to the person who built your site — not an account manager.",
               },
               {
-                title: 'We rank #1 for "SEO Bristol"',
-                desc: 'We rank #1 organically for one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
+                title: 'Results you can check',
+                desc: 'Aspect Builds: no website to page one in 8 weeks. Peachy Cleans: Map Pack #1, 40+ calls a month. Real clients, real numbers.',
               },
             ].map((card) => (
               <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">

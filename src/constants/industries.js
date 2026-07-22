@@ -30,7 +30,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'When a Bristol homeowner has a burst pipe at 9pm, they don\'t scroll past page one. We get Bristol plumbers ranking for the searches that turn into emergency callouts — Map Pack, organic results, and the long-tail terms that bring in steady work between emergencies.',
     intro:
-      'Plumbing is the most competitive trade in Bristol search. Every plumber, every drainage company, every bathroom installer is fighting for the same handful of Map Pack slots. Most lose. The ones that win aren\'t bigger — they have a faster website, properly structured service pages, a managed Google Business Profile, and reviews that build month on month. That\'s what we do. We\'re based 20 minutes from Bristol, we work exclusively with trades, and we rank #1 organically for "SEO Bristol" — so we know what it takes to win in this market.',
+      'Plumbing is the most competitive trade in Bristol search. Every plumber, every drainage company, every bathroom installer is fighting for the same handful of Map Pack slots. Most lose. The ones that win aren\'t bigger — they have a faster website, properly structured service pages, a managed Google Business Profile, and reviews that build month on month. That\'s what we do. We\'re based 20 minutes from Bristol and we work exclusively with trades — Peachy Cleans went to #1 in the Map Pack and now takes 40+ calls a month on the back of it.',
     services: [
       'Emergency plumber SEO — rank for "emergency plumber Bristol", "plumber Bristol" and "24 hour plumber BS*" across all BS postcodes',
       'Google Business Profile optimisation — claim the Map Pack for your service area with proper categories, services, photos and review velocity',
@@ -56,7 +56,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "plumber Bristol" within 4 months',
     resultDetail:
       'Average client result: ranking improvements across 8-12 keyword terms in the first quarter, with Map Pack visibility for the primary "plumber + location" term within 8-12 weeks.',
-    proof: 'Ranks #1 organically for "SEO Bristol" — proven the system on the most competitive keyword in the South West.',
+    proof: 'Peachy Cleans reached #1 in the Map Pack for "cleaning Midsomer Norton" and now takes 40+ calls a month — the same Map Pack work an emergency trade lives on.',
     faqs: [
       {
         q: 'How long does SEO take for a plumber in Bristol?',
@@ -76,7 +76,7 @@ export const BRISTOL_INDUSTRIES = {
       },
       {
         q: 'Can you guarantee I\'ll rank #1 for "plumber Bristol"?',
-        a: 'No — anyone who guarantees a specific ranking is lying. What we can say is that we rank #1 organically for "SEO Bristol" (proving the system works on a much more competitive term), and our clients typically see Map Pack visibility within 8-12 weeks and page-one organic rankings within 3-6 months. The results are real but they\'re not instant.',
+        a: 'No — anyone who guarantees a specific ranking is lying. What we can say is that Aspect Builds went from no website to Map Pack and page-one organic for "builder Bath" in 8 weeks, and our clients typically see Map Pack visibility within 8-12 weeks and page-one organic rankings within 3-6 months. The results are real but they\'re not instant.',
       },
     ],
   },
@@ -94,7 +94,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Bristol electricians are competing harder than ever — new build contracts, EICR demand, EV charger installs and emergency callouts all have their own search behaviour. We build SEO campaigns that target each of these properly, so the right customers find you at the right time.',
     intro:
-      'Electrician search in Bristol splits into two camps: emergency work ("emergency electrician Bristol", "power cut BS7") and project work ("EICR Bristol", "EV charger install Bristol", "rewire Bristol"). The Map Pack wins the emergencies; organic results win the projects. You need both, and most electrician websites have neither. We fix that. Based in Keynsham, 20 minutes from Bristol, we rank #1 for "SEO Bristol" — so the methodology is proven at the highest level.',
+      'Electrician search in Bristol splits into two camps: emergency work ("emergency electrician Bristol", "power cut BS7") and project work ("EICR Bristol", "EV charger install Bristol", "rewire Bristol"). The Map Pack wins the emergencies; organic results win the projects. You need both, and most electrician websites have neither. We fix that. Based in Keynsham, 20 minutes from Bristol. Aspect Builds went from an Instagram page to Map Pack and page one in 8 weeks.',
     services: [
       'Emergency electrician SEO — rank for "emergency electrician Bristol", "electrician BS*" and 24-hour electrical callout terms',
       'EICR and landlord certificate SEO — dedicated pages for "EICR Bristol", "landlord electrical certificate", "electrical safety certificate"',
@@ -119,7 +119,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "electrician Bristol" within 4 months',
     resultDetail:
       'Map Pack visibility for the primary "electrician + location" term typically achieved within 6-10 weeks. EICR and EV charger terms rank in 2-3 months because commercial intent is high and the competition is weaker.',
-    proof: 'Ranked #1 organically for "SEO Bristol" — applied the same system that works on a £3k+/month keyword.',
+    proof: 'Aspect Builds went from an Instagram page to Map Pack and page-one organic for "builder Bath" in 8 weeks.',
     faqs: [
       {
         q: 'How long does SEO take for an electrician in Bristol?',
@@ -183,7 +183,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "extension Bristol" or "loft conversion Bristol" within 4 months',
     resultDetail:
       'Project-type terms like "extension Bristol" and "loft conversion Bristol" typically reach page one within 3-5 months. Location-specific terms like "builder Clifton" often rank in 6-10 weeks. Head term "builder Bristol" is 4-6 months.',
-    proof: '#1 organic ranking for "SEO Bristol" — the most competitive local SEO term in the South West.',
+    proof: 'Aspect Builds — a Bath builder with no website — reached Map Pack and page-one organic for "builder Bath" in 8 weeks.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol builder?',
@@ -221,7 +221,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Storm damage calls, emergency repairs, re-roof quotes — Bristol roofers need to be visible the moment a homeowner searches. We build SEO campaigns that put you in the Map Pack for emergency work and on page one for the high-value re-roof and replacement terms.',
     intro:
-      'Roofing is brutally competitive in Bristol search. Every storm puts a spike in "roof repair near me" and every roofer within 30 miles chases the same customers. The roofers that win aren\'t the ones with the biggest adspend — they\'re the ones with the best Google Business Profile, the most recent reviews, and a website that ranks for both emergency terms and project terms. We build that system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — and we rank #1 for "SEO Bristol" to prove the system works.',
+      'Roofing is brutally competitive in Bristol search. Every storm puts a spike in "roof repair near me" and every roofer within 30 miles chases the same customers. The roofers that win aren\'t the ones with the biggest adspend — they\'re the ones with the best Google Business Profile, the most recent reviews, and a website that ranks for both emergency terms and project terms. We build that system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. New Decorating went from no site and no listing to the Map Pack inside a week.',
     services: [
       'Emergency roof repair SEO — rank for "emergency roof repair Bristol", "storm damage roofer", "leaking roof BS*"',
       'Google Business Profile optimisation — roofing-specific categories, services, photo updates after every job, review velocity',
@@ -247,7 +247,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Map Pack for "roofer + Bristol area" within 6-10 weeks',
     resultDetail:
       'Map Pack rankings for emergency terms typically achieved within 6-10 weeks. Organic rankings for "re-roof Bristol" and "new roof Bristol" within 3-5 months. Storm response GBP posts can bring same-day enquiries during severe weather.',
-    proof: '#1 organic ranking for "SEO Bristol" — the most competitive local SEO keyword in the region.',
+    proof: 'New Decorating went from no site and no Google listing to the Bath Map Pack inside a week.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol roofer?',
@@ -348,7 +348,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Boiler breakdowns, annual services, full central heating installs — Bristol heating engineers are competing in a high-volume, high-value market. We build SEO campaigns that target emergency boiler repair, planned service work, and the project terms that bring in £4k+ install enquiries.',
     intro:
-      'Heating engineer search in Bristol splits three ways: emergency boiler repair (high urgency, lower value per job), annual servicing (steady recurring work, mid value), and full install/upgrade (long sales cycle, very high value). Each needs a different SEO approach — Map Pack wins the emergencies, organic results win the installs. We build campaigns that target all three. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" so the methodology is proven at the most competitive end of the market.',
+      'Heating engineer search in Bristol splits three ways: emergency boiler repair (high urgency, lower value per job), annual servicing (steady recurring work, mid value), and full install/upgrade (long sales cycle, very high value). Each needs a different SEO approach — Map Pack wins the emergencies, organic results win the installs. We build campaigns that target all three. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. RG Extreme Pressure now ranks for jet washing across BS postcodes off a 102-page site.',
     services: [
       'Emergency boiler repair SEO — rank for "boiler repair Bristol", "boiler breakdown BS*", "no heating Bristol" and "radiator leak"',
       'Gas engineer SEO — "gas engineer Bristol", "Gas Safe engineer BS*", "gas appliance service"',
@@ -374,7 +374,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Map Pack for "boiler repair Bristol" within 6-8 weeks',
     resultDetail:
       'Map Pack rankings for emergency boiler repair terms typically achieved within 6-8 weeks once GBP is properly optimised with heating-specific categories. Organic rankings for "boiler installation Bristol" and "new boiler Bristol" within 3-5 months.',
-    proof: '#1 organic ranking for "SEO Bristol" — applied the same methodology that ranks a £3k+/month keyword.',
+    proof: 'Peachy Cleans hit #1 in the Map Pack for their main service term and now takes 40+ calls a month.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol heating engineer?',
@@ -412,7 +412,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Garden design, patios, driveways, retaining walls — Bristol landscaping work is high-value and seasonal. We build SEO campaigns that keep your enquiry pipeline full from February to November, with proper service pages and location coverage across BS postcodes.',
     intro:
-      'Landscaping is a different kind of trade for SEO. Customers plan projects months in advance, they browse portfolios heavily, and the buying cycle runs from spring browsing to autumn install. The SEO campaign has to match that rhythm — content that captures browsing traffic in Feb-April, Map Pack visibility for emergency retaining wall work year-round, and project galleries that convert browsers into enquiries. We build that system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — and we rank #1 for "SEO Bristol" to prove the methodology works at the highest level.',
+      'Landscaping is a different kind of trade for SEO. Customers plan projects months in advance, they browse portfolios heavily, and the buying cycle runs from spring browsing to autumn install. The SEO campaign has to match that rhythm — content that captures browsing traffic in Feb-April, Map Pack visibility for emergency retaining wall work year-round, and project galleries that convert browsers into enquiries. We build that system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. Aspect Builds reached Map Pack and page-one organic in 8 weeks from nothing.',
     services: [
       'Garden design SEO — rank for "garden design Bristol", "garden designer BS*", "landscape design" with project gallery support',
       'Patio and paving SEO — "patio installer Bristol", "block paving Bristol", "sandstone patio", "porcelain patio"',
@@ -438,7 +438,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "landscaper Bristol" or "patio installer Bristol" within 4 months',
     resultDetail:
       'Project-type terms like "patio installer Bristol" and "driveway installer Bristol" typically reach page one within 3-5 months. Head term "landscaper Bristol" is 4-6 months because competition is high. Location-specific terms often rank in 6-10 weeks.',
-    proof: '#1 organic ranking for "SEO Bristol" — the most competitive local SEO keyword in the South West.',
+    proof: 'RG Extreme Pressure — a 102-page site covering Bristol suburbs, now found for jet washing across BS postcodes.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol landscaper?',
@@ -476,7 +476,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Bathroom installations are £5k-£15k projects where customers research thoroughly before choosing a fitter. We build SEO campaigns that put you in front of Bristol homeowners at the comparison stage, with proper service pages, project galleries, and Map Pack visibility for the local searches.',
     intro:
-      'Bathroom fitting is high-value work with a long buying cycle. Customers spend weeks comparing fitters, browsing portfolios, reading reviews. The fitters that win aren\'t the cheapest — they\'re the ones that show up consistently in search results, have a strong portfolio, and have enough reviews to feel safe. We build that presence. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" so the methodology is proven at the top of the market.',
+      'Bathroom fitting is high-value work with a long buying cycle. Customers spend weeks comparing fitters, browsing portfolios, reading reviews. The fitters that win aren\'t the cheapest — they\'re the ones that show up consistently in search results, have a strong portfolio, and have enough reviews to feel safe. We build that presence. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. Bath Painter had enquiries up within a week of going live.',
     services: [
       'Bathroom installation SEO — rank for "bathroom fitter Bristol", "bathroom installer BS*", "bathroom renovation"',
       'Bathroom design SEO — "bathroom design Bristol", "bathroom designer BS*", "small bathroom design", "luxury bathroom design"',
@@ -502,7 +502,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "bathroom fitter Bristol" within 4 months',
     resultDetail:
       'Head term "bathroom fitter Bristol" typically reaches page one within 4-6 months. Specific terms like "wet room installer Bristol" or "ensuite installation Bristol" within 2-4 months because commercial intent is high and competition is less developed. Location-specific terms often rank in 6-10 weeks.',
-    proof: '#1 organic ranking for "SEO Bristol" — proven the system on the most competitive local SEO term in the region.',
+    proof: 'Aspect Builds — Map Pack and page-one organic for "builder Bath" in 8 weeks, from no website at all.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol bathroom fitter?',
@@ -540,7 +540,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Kitchen installations are £8k-£30k projects where customers research for months. We build SEO campaigns that capture Bristol homeowners at every stage of the buying journey — early browsing, mid-funnel comparison, and late-stage "ready to book" searches.',
     intro:
-      'Kitchen fitting sits in the same high-value, long-buying-cycle bracket as bathroom fitting and extensions. Customers plan, browse, compare, and only then book. The fitters that win this work are the ones that show up consistently across the entire journey — early blog content for "kitchen design ideas", comparison content for "kitchen fitter vs kitchen company", and conversion content for "kitchen fitter Bristol" with proper location pages. We build that full-funnel system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" to prove the methodology.',
+      'Kitchen fitting sits in the same high-value, long-buying-cycle bracket as bathroom fitting and extensions. Customers plan, browse, compare, and only then book. The fitters that win this work are the ones that show up consistently across the entire journey — early blog content for "kitchen design ideas", comparison content for "kitchen fitter vs kitchen company", and conversion content for "kitchen fitter Bristol" with proper location pages. We build that full-funnel system. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. Peachy Cleans hit #1 in the Map Pack and now takes 40+ calls a month.',
     services: [
       'Kitchen installation SEO — rank for "kitchen fitter Bristol", "kitchen installer BS*", "kitchen renovation Bristol"',
       'Kitchen design and supply SEO — "kitchen design Bristol", "kitchen company BS*", "Howdens kitchen installer", "Wren kitchen installer"',
@@ -566,7 +566,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Page one for "kitchen fitter Bristol" within 4 months',
     resultDetail:
       'Head term "kitchen fitter Bristol" typically reaches page one within 4-6 months. Specific terms like "worktop fitter Bristol" or "kitchen renovation Bristol" within 2-4 months. Location-specific terms often rank in 6-10 weeks.',
-    proof: '#1 organic ranking for "SEO Bristol" — proven the system on the most competitive local SEO keyword in the region.',
+    proof: 'Bath Painter — full brand and bespoke site delivered, enquiries up within a week of going live.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol kitchen fitter?',
@@ -604,7 +604,7 @@ export const BRISTOL_INDUSTRIES = {
     heroDescription:
       'Plastering, rendering, skimming, coving — Bristol plasterers serve both the new-build market and the renovation/refurbishment market. We build SEO campaigns that target both, with proper service pages for each plastering type and Map Pack visibility for the local search terms.',
     intro:
-      'Plasterer search in Bristol is split between the domestic market (skimming, patching, small jobs) and the construction market (full house plastering, rendering, large commercial work). The plasterers that win the domestic market are visible in the Map Pack; the ones that win the construction market are visible to builders and developers searching for subcontractors. We build campaigns that target both audiences. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades — we rank #1 for "SEO Bristol" to prove the methodology works at the most competitive level.',
+      'Plasterer search in Bristol is split between the domestic market (skimming, patching, small jobs) and the construction market (full house plastering, rendering, large commercial work). The plasterers that win the domestic market are visible in the Map Pack; the ones that win the construction market are visible to builders and developers searching for subcontractors. We build campaigns that target both audiences. Based in Keynsham, 20 minutes from Bristol, working exclusively with trades. New Decorating took top 3 in the Map Pack for one of Bath\'s most competitive trade terms.',
     services: [
       'Skimming and re-skimming SEO — rank for "plasterer Bristol", "skim plaster Bristol", "re-skim walls", "plastering BS*"',
       'Rendering SEO — "rendering Bristol", "external rendering BS*", "monocouche render", "silicone render", "lime render" (lots of Bath stone properties need lime work)',
@@ -630,7 +630,7 @@ export const BRISTOL_INDUSTRIES = {
     result: 'Map Pack for "plasterer + Bristol area" within 4-8 weeks',
     resultDetail:
       'Map Pack rankings for "plasterer + Bristol area" terms typically appear within 4-8 weeks. Organic rankings for "rendering Bristol" and "coving installer Bristol" within 2-4 months. Subcontractor/B2B terms often rank faster because commercial intent is clear and competition is weaker.',
-    proof: '#1 organic ranking for "SEO Bristol" — applied the same system that ranks a £3k+/month keyword.',
+    proof: 'New Decorating — top 3 Map Pack for "exterior painter Bath", one of the city\'s most competitive trade terms.',
     faqs: [
       {
         q: 'How long does SEO take for a Bristol plasterer?',

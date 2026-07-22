@@ -26,12 +26,12 @@ const packages = [
 
 const results = [
   {
-    business: 'SEO Kings',
-    location: 'Bristol',
-    result: '#1 Organic',
-    keyword: '"SEO Bristol"',
-    detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
-    slug: 'seo-kings',
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: 'Page 1 in 8 weeks',
+    keyword: '"builder Bath"',
+    detail: 'No website at all — just an Instagram page. We built 40 pages in two weeks, and within 8 weeks they were in the Map Pack and on page one organically.',
+    slug: 'aspect-builds',
     href: '/seo/bristol',
     linkText: 'See our Bristol SEO service',
   },
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: 'Is Bristol competitive for local SEO?',
-    a: 'Bristol is one of the most competitive local search markets outside London. More businesses, more agencies, more noise. But most Bristol traders still have poorly optimised Google Business Profiles and slow websites — so there\'s real room to move. We rank #1 organically for "SEO Bristol" ourselves. We know what it takes to compete in this city.',
+    a: 'Bristol is one of the most competitive local search markets outside London. More businesses, more agencies, more noise. But most Bristol traders still have poorly optimised Google Business Profiles and slow websites — so there\'s real room to move. We took Aspect Builds from no website to the Map Pack and page one in 8 weeks. We know what it takes to compete here.',
   },
   {
     q: 'How much does local SEO cost in Bristol?',
@@ -92,7 +92,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Local SEO agency serving Bristol BS1–BS16. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across Bristol. #1 for "SEO Bristol".',
+      description: 'Local SEO agency serving Bristol BS1–BS16. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across Bristol.',
       url: 'https://seo-kings.co.uk/local-seo/bristol',
       telephone: '+447****4921',
       address: {
@@ -135,8 +135,8 @@ const rightPanel = (
     <div className="space-y-4">
       {[
         { label: 'From per month', value: '£150' },
-        { label: 'SEO Kings — organic', value: '#1' },
-        { label: 'SEO Kings — #1 "SEO Bristol"', value: '#1' },
+        { label: 'Peachy Cleans — Map Pack', value: '#1' },
+        { label: 'Aspect Builds — page one', value: '8 wks' },
         { label: 'First results in', value: '< 4 weeks' },
       ].map(({ label, value }) => (
         <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
@@ -156,8 +156,8 @@ const LocalSEOBristol = () => {
         badge="Serving BS1–BS16 · Bristol"
         title="Local SEO"
         highlight="Bristol"
-        description="Our local SEO Bristol service gets trades and businesses into the Google Map Pack across BS1–BS16. Bristol is the South West's most competitive local search market — when someone searches for your trade or service, the three businesses at the top take most of the calls. We get you into those positions and keep you there. We rank #1 for &ldquo;SEO Bristol&rdquo; ourselves."
-        features={['From £150/month', 'Free audit included', 'Google Business Profile', '#1 for "SEO Bristol"']}
+        description="Our local SEO Bristol service gets trades and businesses into the Google Map Pack across BS1–BS16. Bristol is the South West's most competitive local search market — when someone searches for your trade or service, the three businesses at the top take most of the calls. We get you into those positions and keep you there. Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month."
+        features={['From £150/month', 'Free audit included', 'Google Business Profile', 'Map Pack #1 for clients']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
       />
@@ -259,7 +259,7 @@ const LocalSEOBristol = () => {
               Bristol is a high-intent search market. When someone types &ldquo;plumber Bristol&rdquo; or &ldquo;electrician BS7&rdquo; into Google, they&apos;re not browsing — they need someone now. The three businesses in the Map Pack capture most of those calls. Below the Map Pack, click rates fall sharply. If your business isn&apos;t in those top three positions, you&apos;re largely invisible to people who are ready to spend money.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              Bristol is also the most competitive local search market in the South West. More businesses, more agencies, more noise. But most Bristol traders still have a poorly optimised Google Business Profile — incomplete categories, no regular posts, unanswered reviews. That&apos;s the gap we exploit. A properly managed GBP, paired with a fast website and consistent local citations, is enough to move into Map Pack positions for many trade categories within three to six months. We should know — we rank #1 for &ldquo;SEO Bristol&rdquo; using exactly this approach.
+              Bristol is also the most competitive local search market in the South West. More businesses, more agencies, more noise. But most Bristol traders still have a poorly optimised Google Business Profile — incomplete categories, no regular posts, unanswered reviews. That&apos;s the gap we exploit. A properly managed GBP, paired with a fast website and consistent local citations, is enough to move into Map Pack positions for many trade categories within three to six months. Peachy Cleans reached #1 in the Map Pack that way and now fields 40+ calls a month.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
               We cover all of BS1 to BS16 — not just the city centre. Clifton, Bedminster, Horfield, Filton, Bradley Stoke, Brislington, Whitchurch, Knowle, Stockwood, Southville, Long Ashton, Yate, Kingswood, Redland, Bishopston and Cotham — every area has local searchers and most have less competition than the city centre postcodes. A well-targeted campaign can rank faster in these suburbs than you might expect.
@@ -273,7 +273,7 @@ const LocalSEOBristol = () => {
               { title: 'Map Pack or nothing', body: 'The top 3 local results capture the majority of clicks. Below the pack, call volumes drop sharply — position matters more in Bristol than most places.' },
               { title: 'GBP is the fastest win', body: 'Most Bristol traders have incomplete, unmanaged Google Business Profiles. A properly optimised GBP can start moving within weeks.' },
               { title: 'All of BS1–BS16', body: 'Full coverage from Clifton to Bradley Stoke, Bedminster to Yate — suburb-level targeting where competition is lower.' },
-              { title: 'We rank #1 for "SEO Bristol"', body: 'Based in Keynsham, 20 minutes from Bristol. We rank #1 organically for one of the South West\'s most competitive local SEO keywords.' },
+              { title: 'Results you can check', body: 'Based in Keynsham, 20 minutes from Bristol. Peachy Cleans: Map Pack #1, 40+ calls a month. Aspect Builds: page one in 8 weeks.' },
             ].map((card) => (
               <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
                 <div className="text-white font-semibold text-sm mb-2">{card.title}</div>

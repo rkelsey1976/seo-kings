@@ -33,12 +33,12 @@ const results = [
     slug: 'rg-extreme-pressure',
   },
   {
-    business: 'SEO Kings',
-    location: 'Bristol',
-    result: '#1 Organic',
-    keyword: '"SEO Bristol"',
-    detail: 'We rank #1 organically and in the Google Map Pack for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. If we can do it for ourselves, we can do it for you.',
-    slug: 'seo-kings',
+    business: 'Aspect Builds',
+    location: 'Bath',
+    result: 'Page 1 in 8 weeks',
+    keyword: '"builder Bath"',
+    detail: 'No website at all — just an Instagram page. We built 40 pages in two weeks, and within 8 weeks they were in the Map Pack and on page one organically.',
+    slug: 'aspect-builds',
   },
 ];
 
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'What makes SEO Kings different from other Bristol SEO agencies?',
-    a: 'Two things. First, we rank #1 organically for "SEO Bristol" — one of the most competitive local SEO keywords in the South West. That\'s not a case study; that\'s us. Second, we work exclusively with trades and small businesses — not ecommerce, not SaaS, not national brands. That specialisation means we know the search landscape for your industry and the keywords that actually drive calls across BS postcodes.',
+    a: 'Two things. First, we can show you what the work actually produces — Aspect Builds went from no website to Map Pack and page one for "builder Bath" in 8 weeks; Peachy Cleans took #1 in the Map Pack and now fields 40+ calls a month. Second, we work exclusively with trades and small businesses — not ecommerce, not SaaS, not national brands. That specialisation means we know the search landscape for your industry and the keywords that actually drive calls across BS postcodes.',
   },
   {
     q: 'Do I need a new website as well as SEO?',
@@ -81,7 +81,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/seo/bristol',
       url: 'https://seo-kings.co.uk/seo/bristol',
       name: 'SEO Bristol — SEO Agency for Trades & Small Business from £150/mo | SEO Kings',
-      description: 'SEO agency in Bristol. We rank #1 for "SEO Bristol" — and we can do the same for your trade or small business. SEO services from £150/month. Free audit.',
+      description: 'SEO agency in Bristol for trades and small businesses. Real client results — Map Pack and page one within weeks, not years. SEO services from £150/month. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -96,7 +96,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'SEO agency in Bristol serving trades and small businesses across BS1–BS16. Technical SEO, on-page optimisation, content strategy and local SEO from £150/month. #1 for "SEO Bristol".',
+      description: 'SEO agency in Bristol serving trades and small businesses across BS1–BS16. Technical SEO, on-page optimisation, content strategy and local SEO from £150/month. Trades and small businesses.',
       url: 'https://seo-kings.co.uk/seo/bristol',
       telephone: '+447****4921',
       address: {
@@ -139,7 +139,7 @@ const rightPanel = (
     <div className="space-y-4">
       {[
         { label: 'From per month', value: '£150' },
-        { label: 'SEO Kings — organic', value: '#1' },
+        { label: 'Peachy Cleans — Map Pack', value: '#1' },
         { label: 'RG Extreme Pressure', value: '102 pages' },
         { label: 'First results in', value: '< 4 weeks' },
       ].map(({ label, value }) => (
@@ -160,8 +160,8 @@ const SEOBristol = () => {
         badge="SEO Agency · Bristol · BS1–BS16"
         title="SEO"
         highlight="Bristol"
-        description="When someone in Bristol searches for your service, the businesses on page one take the calls. We get you there — technical SEO, on-page optimisation, content and local signals, all working together. We rank #1 organically for &ldquo;SEO Bristol&rdquo; — and we can do the same for your trade."
-        features={['From £150/month', 'Free audit included', 'Trades & small business', '#1 for "SEO Bristol"']}
+        description="When someone in Bristol searches for your service, the businesses on page one take the calls. We get you there — technical SEO, on-page optimisation, content and local signals, all working together. Aspect Builds went from no website to page one in 8 weeks — we can do the same for your trade."
+        features={['From £150/month', 'Free audit included', 'Trades & small business', 'Page 1 in 8 weeks']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
       />
@@ -302,13 +302,13 @@ const SEOBristol = () => {
           <div className="max-w-3xl mb-12">
             <SectionTag className="mb-4">Why it works</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
-              SEO in Bristol — why we rank #1 and most businesses don&apos;t
+              SEO in Bristol — why most businesses never reach page one
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Bristol is the largest city in the South West and one of the most competitive local search markets outside London. When someone types &ldquo;plumber Bristol&rdquo; or &ldquo;electrician BS7&rdquo; into Google, they need someone now. The businesses on page one get those calls. Everyone else gets nothing. It&apos;s that binary — and most Bristol trades and small businesses are not on page one.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
-              We rank #1 organically for &ldquo;SEO Bristol&rdquo; — one of the most competitive local SEO keywords in the South West. We didn&apos;t get there by accident. It took a fast, properly structured website, technically clean code, content that targets the right keywords, and consistent local authority building. That&apos;s the same stack we deploy for every Bristol client. The difference is we&apos;ve proven it on ourselves first.
+              Aspect Builds came to us with no website at all — just an Instagram page. Forty pages later, they were in the Map Pack and on page one organically for &ldquo;builder Bath&rdquo; within eight weeks. That took a fast, properly structured site, technically clean code, content targeting real queries, and consistent local authority building. It&apos;s the same stack we deploy for every Bristol client.
             </p>
             <p className="text-gray-400 leading-relaxed mb-4">
               The gap for most Bristol businesses is usually wider than they think. A fast website with proper title tags, structured content and a managed Google Business Profile can outrank the majority of existing results in Bristol within a few months. Not because the competition is weak — but because most of them have never done the basics properly. Bristol looks intimidating from the outside, but the bar to outrank most trades is lower than it appears.
@@ -322,7 +322,7 @@ const SEOBristol = () => {
               { title: 'Technical SEO first', body: 'If your site is slow or broken, nothing else matters. We fix the foundations before building on top — Core Web Vitals, crawlability, indexation.' },
               { title: 'Content that ranks', body: 'Service pages, location pages, blog posts — every page targets a real search query with real search volume across Bristol BS postcodes.' },
               { title: 'Local authority', body: 'Google Business Profile, local citations, review strategy. The signals that matter most for businesses serving a specific area.' },
-              { title: 'We rank #1 for "SEO Bristol"', body: 'Based in Keynsham, 20 minutes from Bristol. We rank #1 organically for one of the South West\'s most competitive SEO keywords.' },
+              { title: 'Results you can check', body: 'Based in Keynsham, 20 minutes from Bristol. Aspect Builds: page one in 8 weeks. Peachy Cleans: Map Pack #1, 40+ calls a month.' },
             ].map((card) => (
               <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
                 <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
