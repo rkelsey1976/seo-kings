@@ -4,8 +4,8 @@ import BreadcrumbSchema from '../BreadcrumbSchema';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: { absolute: 'Website Designer Near Me | Bath, Keynsham, Radstock & Somerset – SEO Kings' },
-  description: 'Looking for a website designer near you? We cover Bath, Keynsham, Midsomer Norton, Radstock & all of Bath and North East Somerset. Web design from £250. Free audit.',
+  title: { absolute: 'Website Designer Near Me | Bath, Bristol & Somerset – SEO Kings' },
+  description: 'Looking for a website designer near you? We cover Bath, Bristol, Keynsham, Midsomer Norton, Radstock & all of Bath and North East Somerset. Web design from £250. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/website-designer-near-me' },
 };
 

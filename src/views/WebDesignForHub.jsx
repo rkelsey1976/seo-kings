@@ -108,10 +108,13 @@ const WebDesignForHub = () => {
             '@id': 'https://seo-kings.co.uk/#service-web-design-for-trades',
             serviceType: 'Web Design',
             name: 'Web Design for Trades',
-            description: 'Professional trade-specific web design services for tradespeople and small businesses in Bath & North East Somerset. Websites built to generate leads from £250.',
+            description: 'Professional trade-specific web design services for tradespeople and small businesses in Bath & Bristol. Websites built to generate leads from £250.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/web-design-for' },
-            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            areaServed: [
+              { '@type': 'City', name: 'Bath' },
+              { '@type': 'City', name: 'Bristol' },
+            ],
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'Web Design for Trades Packages',
@@ -138,7 +141,7 @@ const WebDesignForHub = () => {
       <ServicePageHero
         badge="Web Design for Trades"
         title="Websites Built for Your Trade"
-        highlight="in Bath & Somerset"
+        highlight="in Bath & Bristol"
         description="Professional, mobile-friendly websites designed for tradespeople — from plumbers to plasterers. Get found on Google, showcase your work, and turn visitors into jobs. From £250 one-off."
         features={['Mobile-First Design', 'Local SEO Ready', '6 months free hosting', 'Lead-Generating', 'Fast & Secure']}
         ctaText="Get a Quote"

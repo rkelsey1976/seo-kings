@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: 'What areas do you serve for website redesigns?',
-    a: 'We work with businesses across Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge and the wider Somerset and Wiltshire area. Most of the process is remote so location is rarely a barrier.',
+    a: 'We work with businesses across Bath, Bristol, Keynsham, Midsomer Norton, Radstock, Trowbridge and the wider Somerset and Wiltshire area. Most of the process is remote so location is rarely a barrier.',
   },
 ];
 
@@ -86,7 +86,7 @@ const schema = {
       '@id': 'https://seo-kings.co.uk/website-redesign',
       url: 'https://seo-kings.co.uk/website-redesign',
       name: 'Website Redesign | SEO Kings',
-      description: 'Website redesign for trades and local businesses. Fast rebuilds from £250 that rank on Google. Serving Bath, Keynsham, Trowbridge and Somerset. Free audit.',
+      description: 'Website redesign for trades and local businesses. Fast rebuilds from £250 that rank on Google. Serving Bath, Bristol, Keynsham, Trowbridge and Somerset. Free audit.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {
@@ -101,7 +101,7 @@ const schema = {
       '@type': 'LocalBusiness',
       '@id': 'https://seo-kings.co.uk/#organization',
       name: 'SEO Kings',
-      description: 'Website redesign service for trades and local businesses across Bath, Keynsham, Trowbridge and Somerset. Fast, SEO-ready rebuilds from £250.',
+      description: 'Website redesign service for trades and local businesses across Bath, Bristol, Keynsham, Trowbridge and Somerset. Fast, SEO-ready rebuilds from £250.',
       url: 'https://seo-kings.co.uk/website-redesign',
       telephone: '+447702264921',
       address: {
@@ -115,6 +115,7 @@ const schema = {
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
         { '@type': 'City', name: 'Bath' },
+        { '@type': 'City', name: 'Bristol' },
         { '@type': 'City', name: 'Keynsham' },
         { '@type': 'City', name: 'Trowbridge' },
       ],
@@ -149,10 +150,10 @@ const WebsiteRedesign = () => {
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
               Website Redesign{' '}
-              <span className="text-primary">Bath & Somerset</span>
+              <span className="text-primary">Bath & Bristol</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed max-w-2xl mb-8">
-              Your old site is costing you work. A slow, outdated website that doesn't rank on Google loses you jobs every week to competitors with better sites. We rebuild it from scratch — faster, cleaner, and built to rank in Bath and across North East Somerset.
+              Your old site is costing you work. A slow, outdated website that doesn't rank on Google loses you jobs every week to competitors with better sites. We rebuild it from scratch — faster, cleaner, and built to rank in Bath, Bristol and across the wider region.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

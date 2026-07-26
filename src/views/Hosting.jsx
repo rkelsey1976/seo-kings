@@ -81,7 +81,7 @@ const features = [
       </svg>
     ),
     title: 'Fast UK Hosting',
-    description: 'Your site runs on UK servers. Fast load times for local customers searching for your trade in Bath and Somerset.',
+    description: 'Your site runs on UK servers. Fast load times for local customers searching for your trade in Bath, Bristol and Somerset.',
   },
   {
     icon: (
@@ -132,9 +132,12 @@ const Hosting = () => {
             '@id': 'https://seo-kings.co.uk/hosting/#service',
             serviceType: 'Website Hosting',
             name: 'Website Hosting and Maintenance',
-            description: 'Website hosting with SSL, daily backups, uptime monitoring and content tweaks for trades and local businesses in Bath & Somerset. 6 months free, then £50/year.',
+            description: 'Website hosting with SSL, daily backups, uptime monitoring and content tweaks for trades and local businesses in Bath, Bristol & Somerset. 6 months free, then £50/year.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
-            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            areaServed: [
+              { '@type': 'City', name: 'Bath' },
+              { '@type': 'City', name: 'Bristol' },
+            ],
             offers: {
               '@type': 'Offer',
               name: 'Annual Hosting and Maintenance',

@@ -40,8 +40,8 @@ const schema = {
       '@type': 'WebPage',
       '@id': 'https://seo-kings.co.uk/web-design-packages',
       url: 'https://seo-kings.co.uk/web-design-packages',
-      name: 'Web Design Packages for Trades | From £250 | SEO Kings Bath',
-      description: 'Transparent per-page pricing — from £250 for one page, £50 per extra page. No monthly fees, no contracts. Build your quote in 30 seconds. Serving Bath, Keynsham & Somerset.',
+      name: 'Web Design Packages for Trades | From £250 | SEO Kings',
+      description: 'Transparent per-page pricing — from £250 for one page, £50 per extra page. No monthly fees, no contracts. Build your quote in 30 seconds. Serving Bath, Bristol, Keynsham & Somerset.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://seo-kings.co.uk/#website' },
       breadcrumb: {

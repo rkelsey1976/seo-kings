@@ -55,10 +55,13 @@ const GoogleBusinessProfile = () => {
             '@id': 'https://seo-kings.co.uk/#service-google-business-profile',
             serviceType: 'Google Business Profile Optimisation',
             name: 'Google Business Profile Optimisation',
-            description: 'One-off Google Business Profile optimisation for local businesses in Bath & North East Somerset. Ongoing GBP management is included in Local SEO packages from £150/month. Add one-off GBP optimisation to any website build for £100.',
+            description: 'One-off Google Business Profile optimisation for local businesses in Bath & Bristol. Ongoing GBP management is included in Local SEO packages from £150/month. Add one-off GBP optimisation to any website build for £100.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/google-business-profile' },
-            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            areaServed: [
+              { '@type': 'City', name: 'Bath' },
+              { '@type': 'City', name: 'Bristol' },
+            ],
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'GBP Services',
@@ -83,7 +86,7 @@ const GoogleBusinessProfile = () => {
           },
         ]} />
       {/* Keyword H1 for crawlers; visible hero headline stays conversion-first as H2 (same pattern as homepage) */}
-      <h1 className="sr-only">Google Business Profile Optimisation for Trades in Bath & Somerset — One-Off £100</h1>
+      <h1 className="sr-only">Google Business Profile Optimisation for Trades in Bath & Bristol — One-Off £100</h1>
       <ServicePageHero
         titleTag="h2"
         badge="Google Business Profile"

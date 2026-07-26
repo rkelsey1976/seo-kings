@@ -7,6 +7,7 @@ import FAQAccordion from '../components/FAQAccordion';
 import CTABanner from '../components/CTABanner';
 const AREA_SLUGS = [
   'bath',
+  'bristol',
   'keynsham',
   'midsomer-norton',
   'radstock',
@@ -50,6 +51,7 @@ const AREA_SLUGS = [
 
 const areaLabels = {
   bath: { label: 'Bath', postcode: 'BA1 / BA2' },
+  bristol: { label: 'Bristol', postcode: 'BS1–BS16' },
   keynsham: { label: 'Keynsham', postcode: 'BS31' },
   'midsomer-norton': { label: 'Midsomer Norton', postcode: 'BA3' },
   radstock: { label: 'Radstock', postcode: 'BA3' },
@@ -167,7 +169,7 @@ const caseStudies = [
 const faqs = [
   {
     question: 'Where are you based?',
-    answer: "We're based in Keynsham, right in the heart of Bath and North East Somerset. We cover Bath, Keynsham, Midsomer Norton, Radstock, Saltford, Paulton, Peasedown St John, and all surrounding areas.",
+    answer: "We're based in Keynsham, right in the heart of Bath and North East Somerset. We cover Bath, Bristol, Keynsham, Midsomer Norton, Radstock, Saltford, Paulton, Peasedown St John, and all surrounding areas.",
   },
   {
     question: 'Can I meet you in person?',
@@ -175,7 +177,7 @@ const faqs = [
   },
   {
     question: 'Which areas do you cover?',
-    answer: "We cover the whole of Bath and North East Somerset — Bath, Keynsham, Midsomer Norton, Radstock, Saltford, Paulton, Peasedown St John, Timsbury, Westfield, Chew Magna, and all surrounding villages and postcodes including BA1, BA2, BA3, BS31, and BS39.",
+    answer: "We cover the whole of Bath and North East Somerset plus Bristol — Bath, Bristol, Keynsham, Midsomer Norton, Radstock, Saltford, Paulton, Peasedown St John, Timsbury, Westfield, Chew Magna, and all surrounding villages and postcodes including BA1, BA2, BA3, BS1–BS16, BS31, and BS39.",
   },
   {
     question: 'Can you rank my business in my local area?',
@@ -198,13 +200,14 @@ const WebDesignerNearMe = () => {
       '@type': 'Service',
       '@id': 'https://seo-kings.co.uk/#service-website-designer-near-me',
       serviceType: 'Website Design',
-      name: 'Website Designer Near Me — Bath, Keynsham, Radstock & Somerset',
+      name: 'Website Designer Near Me — Bath, Bristol, Keynsham & Somerset',
       description:
-        'Local website designer covering Bath, Keynsham, Midsomer Norton, Radstock and all of Bath and North East Somerset. Fast, mobile-first websites from £250 with local SEO built in.',
+        'Local website designer covering Bath, Bristol, Keynsham, Midsomer Norton, Radstock and all of Bath and North East Somerset. Fast, mobile-first websites from £250 with local SEO built in.',
       provider: { '@id': 'https://seo-kings.co.uk/#organization' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/website-designer-near-me' },
       areaServed: [
         { '@type': 'City', name: 'Bath' },
+        { '@type': 'City', name: 'Bristol' },
         { '@type': 'City', name: 'Keynsham' },
         { '@type': 'City', name: 'Midsomer Norton' },
         { '@type': 'City', name: 'Radstock' },
@@ -256,9 +259,9 @@ const WebDesignerNearMe = () => {
 
       <ServicePageHero
         badge="Local website designer"
-        title="Website Designer Near You — Bath, Keynsham, Radstock &"
+        title="Website Designer Near You — Bath, Bristol, Keynsham &"
         highlight="All of Somerset"
-        description="Based in Keynsham, we design and build websites for trades and small businesses across Bath and North East Somerset. We know your area, we can meet face-to-face, and we get you found on Google. From £250 with local SEO included."
+        description="Based in Keynsham, we design and build websites for trades and small businesses across Bath, Bristol and North East Somerset. We know your area, we can meet face-to-face, and we get you found on Google. From £250 with local SEO included."
         features={heroFeatures}
         ctaText="Get a Free Audit"
       />
