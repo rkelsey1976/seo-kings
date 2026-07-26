@@ -7,6 +7,7 @@ const Footer = () => {
   const [expandedSections, setExpandedSections] = useState({
     services: false,
     tools: false,
+    company: false,
     contact: true,
   });
 
@@ -58,13 +59,13 @@ const Footer = () => {
               >
                 {[
                   { label: 'Website Design', href: '/web-design' },
+                  { label: 'SEO', href: '/seo' },
                   { label: 'Site + Google — £99/mo', href: '/site-and-google' },
                   { label: 'Web Design Packages', href: '/web-design-packages' },
                   { label: 'Web Design for Trades', href: '/web-design-for' },
                   { label: 'Google Business Profile', href: '/google-business-profile' },
                   { label: 'Local SEO', href: '/local-seo' },
                   { label: 'Website Redesign', href: '/website-redesign' },
-                  { label: 'Blog', href: '/blog' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
@@ -77,9 +78,9 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            {/* Areas — Always visible on desktop, collapsible on mobile */}
+            {/* Locations — Always visible on desktop, collapsible on mobile */}
             <div className="hidden lg:block">
-              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Areas</p>
+              <p className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-4 text-primary">Locations</p>
               <ul className="space-y-2.5">
                 {[
                   { label: 'Bath', href: '/areas/bath' },
@@ -126,9 +127,51 @@ const Footer = () => {
                 {[
                   { label: 'Local SEO Checklist (PDF)', href: '/tools/local-seo-checklist' },
                   { label: 'GBP Score Checker', href: '/google-business-profile-score-checker' },
+                  { label: 'Free SEO Audit', href: '/tools/seo-audit' },
                   { label: 'Invoice & Quote Generator', href: '/invoice-template-generator' },
                   { label: 'Website ROI Calculator', href: '/website-roi-calculator' },
                   { label: 'Trades Growth Hub →', href: '/tools' },
+                ].map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="text-sm transition-colors hover:text-white text-white/55"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* Company — Accordion on mobile */}
+            <div className="border-t border-white/[0.05] lg:border-0 pt-4 lg:pt-0">
+              <button
+                onClick={() => toggleSection('company')}
+                className="w-full lg:w-auto flex items-center justify-between lg:block text-left mb-4 text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-primary hover:text-white/80 transition-colors lg:hover:text-primary"
+              >
+                Company
+                <svg
+                  className={`lg:hidden w-4 h-4 transition-transform duration-300 ${expandedSections.company ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </button>
+              <ul
+                className={`space-y-2.5 overflow-hidden transition-all duration-300 lg:block ${
+                  expandedSections.company ? 'max-h-96' : 'max-h-0 lg:max-h-none'
+                }`}
+              >
+                {[
+                  { label: 'About', href: '/about' },
+                  { label: 'Blog', href: '/blog' },
+                  { label: 'Contact', href: '/contact' },
+                  { label: 'Hosting', href: '/hosting' },
+                  { label: 'Privacy', href: '/privacy' },
+                  { label: 'Terms', href: '/terms' },
+                  { label: 'Credits', href: '/credits' },
                 ].map(({ label, href }) => (
                   <li key={href}>
                     <Link
@@ -207,10 +250,7 @@ const Footer = () => {
             <span suppressHydrationWarning>© {currentYear} SEO Kings</span>
           </p>
           <div className="flex items-center gap-6 text-xs text-white/55">
-            <Link href="/hosting" className="hover:text-white transition-colors">Hosting</Link>
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
-            <Link href="/credits" className="hover:text-white transition-colors">Credits</Link>
+            <Link href="/sitemap" className="hover:text-white transition-colors">Sitemap</Link>
           </div>
         </div>
       </div>
