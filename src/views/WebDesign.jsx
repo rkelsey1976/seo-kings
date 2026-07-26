@@ -201,6 +201,44 @@ export default function WebDesign() {
         }
       />
 
+      {/* ── OUR WEB DESIGN SERVICES (Hub → Spoke links) ── */}
+      <section className="py-24 bg-dark-lighter border-y border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-4">
+              Our web design services
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
+              Everything you need to get online — and get found
+            </h2>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              Pick a package, bundle it with Google, or rebuild what you already have. Explore each service below.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { href: '/web-design-for', name: 'Web Design for Trades', price: 'From £250', desc: 'Dedicated pages for your trade — plumbers, electricians, builders and more.' },
+              { href: '/site-and-google', name: 'Site + Google Bundle', price: '£99/mo', desc: 'Website and Google Business Profile, set up and optimised together — nothing upfront.' },
+              { href: '/web-design-packages', name: 'Web Design Packages', price: 'View plans', desc: 'Per-page pricing, no hidden fees. Hosting 6 months free.' },
+              { href: '/website-redesign', name: 'Website Redesign', price: 'Get a quote', desc: 'Existing site outdated or not converting? Rebuilt from the ground up, same domain.' },
+              { href: '/website-designer-bath', name: 'Website Designer — Bath', price: 'BA1 & BA2', desc: 'Fast, mobile-first sites for Bath trades and small businesses.' },
+              { href: '/website-designer-bristol', name: 'Website Designer — Bristol', price: 'BS1–BS16', desc: 'Web design for Bristol trades, from the Harbourside to Kingswood.' },
+            ].map(({ href, name, price, desc }) => (
+              <Link key={href} href={href} className="block p-6 bg-dark-card border border-white/[0.06] rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
+                <p className="text-[11px] font-mono tracking-[0.08em] uppercase text-primary mb-2">{price}</p>
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary-light transition-colors">{name}</h3>
+                <p className="text-gray-400 text-sm mb-4">{desc}</p>
+                <span className="text-primary-light text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                  Learn more
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── RESULTS BAR ──────────────────────────── */}
       <section className="py-12 bg-dark-lighter border-y border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -411,14 +449,40 @@ export default function WebDesign() {
       </section>
 
       {/* ── AREAS ────────────────────────────────── */}
-      <section className="py-16 border-b border-white/5">
+      <section className="py-24 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-4">
             Areas covered
           </p>
-          <p className="text-gray-400 text-sm mb-4">
-            We cover Bath &amp; North East Somerset, Somerset, and Wiltshire. Find your area for local pricing and examples.
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
+            Website designers across Bath, Bristol and Somerset
+          </h2>
+          <p className="text-gray-400 text-sm mb-8 max-w-2xl">
+            We cover Bath &amp; North East Somerset, Bristol, Somerset, and Wiltshire. Pick your town for local pricing and examples.
           </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
+            {[
+              { name: 'Bath', href: '/website-designer-bath' },
+              { name: 'Bristol', href: '/website-designer-bristol' },
+              { name: 'Keynsham', href: '/website-designer-keynsham' },
+              { name: 'Midsomer Norton', href: '/website-designer-midsomer-norton' },
+              { name: 'Radstock', href: '/website-designer-radstock' },
+              { name: 'Peasedown St John', href: '/website-designer-peasedown-st-john' },
+              { name: 'Saltford', href: '/website-designer-saltford' },
+              { name: 'Trowbridge', href: '/website-designer-trowbridge' },
+            ].map((area) => (
+              <Link
+                key={area.href}
+                href={area.href}
+                className="flex items-center gap-2 p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <svg className="w-4 h-4 shrink-0 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+              </Link>
+            ))}
+          </div>
           <Link
             href="/website-designer-near-me"
             className="text-xs px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary-light hover:bg-primary/20 transition-colors"
@@ -468,6 +532,27 @@ export default function WebDesign() {
             </h2>
           </div>
           <FAQAccordion faqs={faqs} />
+        </div>
+      </section>
+
+      {/* ── RELATED SERVICES ── */}
+      <section className="py-20 border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">
+            Explore further
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/seo', label: 'SEO Services', desc: 'Local SEO and Google Business Profile optimisation to get you found on Google.' },
+              { href: '/local-seo', label: 'Local SEO', desc: 'Ongoing optimisation so you rank higher for local searches. From £150/month.' },
+              { href: '/google-business-profile', label: 'Google Business Profile', desc: 'Full GBP setup and optimisation — £100 one-off, no ongoing fees.' },
+            ].map(({ href, label, desc }) => (
+              <Link key={href} href={href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-5 hover:border-white/10 transition-colors group">
+                <div className="text-white font-semibold text-sm mb-1 group-hover:text-primary transition-colors">{label}</div>
+                <div className="text-gray-400 text-xs leading-relaxed">{desc}</div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
