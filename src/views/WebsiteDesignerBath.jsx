@@ -116,13 +116,8 @@ const schema = {
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
         { '@type': 'City', name: 'Bath' },
-        { '@type': 'City', name: 'Batheaston' },
-        { '@type': 'City', name: 'Bathampton' },
-        { '@type': 'City', name: 'Combe Down' },
-        { '@type': 'City', name: 'Oldfield Park' },
-        { '@type': 'City', name: 'Weston' },
-        { '@type': 'City', name: 'Larkhall' },
         { '@type': 'City', name: 'Keynsham' },
+        { '@type': 'City', name: 'Midsomer Norton' },
       ],
       priceRange: '££',
       openingHoursSpecification: [

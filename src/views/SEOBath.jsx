@@ -113,7 +113,7 @@ const schema = {
       name: 'SEO Kings',
       description: 'SEO agency in Bath serving trades and small businesses across BA1, BA2 and BANES. Technical SEO, on-page optimisation, content strategy and local SEO from £150/month.',
       url: 'https://seo-kings.co.uk/seo/bath',
-      telephone: '+447****4921',
+      telephone: '+447702264921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',

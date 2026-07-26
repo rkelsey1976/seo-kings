@@ -359,6 +359,11 @@ const LocalSEO = () => {
               { href: '/local-seo/radstock', name: 'Local SEO Radstock', desc: 'BA3 — often overlooked but worth targeting if you serve this area alongside Midsomer Norton.' },
               { href: '/local-seo/peasedown-st-john', name: 'Local SEO Peasedown St John', desc: 'BA2 — a Bath postcode with its own active search market for local trades.' },
               { href: '/local-seo/saltford', name: 'Local SEO Saltford', desc: 'BS31 — between Bath and Keynsham, good for trades covering both towns.' },
+              { href: '/contact?area=chew-magna', name: 'Chew Magna', desc: 'BS40 — low competition in the Chew Valley. The right strategy gets you to the top fast.' },
+              { href: '/contact?area=clutton', name: 'Clutton', desc: 'BS39 — very low competition. The bar to get on page one is low here.' },
+              { href: '/contact?area=temple-cloud', name: 'Temple Cloud', desc: 'BS39 — on the A37 between Bath and Bristol. Low competition, fast results.' },
+              { href: '/contact?area=timsbury', name: 'Timsbury', desc: 'BA2 — rural Somer Valley market with far less competition than Bath.' },
+              { href: '/contact?area=westfield', name: 'Westfield', desc: 'BA3 — most local trades still have a weak online presence, a real opportunity to stand out.' },
             ].map(({ href, name, desc }) => (
               <Link key={href} href={href} className="block p-6 bg-dark-card border border-white/[0.06] rounded-2xl hover:border-primary/30 hover:bg-white/5 transition-all group">
                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary-light transition-colors">{name}</h3>
