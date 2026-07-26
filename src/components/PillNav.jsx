@@ -39,11 +39,6 @@ const Icon = {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
     </svg>
   ),
-  profile: (
-    <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-    </svg>
-  ),
   doc: (
     <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -60,28 +55,27 @@ const webDesignItems = [
   { name: 'Site + Google Bundle', href: '/site-and-google', description: 'Website and Google Business Profile, set up and optimised together.', price: '£99/mo', icon: Icon.bundle },
   { name: 'Web Design Packages', href: '/web-design-packages', description: 'Per-page pricing, no hidden fees. Hosting 6 months free.', price: 'View plans', icon: Icon.tag },
   { name: 'Website Redesign', href: '/website-redesign', description: "Existing site outdated or not converting? Rebuilt from the ground up.", price: 'Get a quote', icon: Icon.refresh },
+  { name: 'Website Designer — Bath', href: '/website-designer-bath', description: 'Fast, mobile-first sites for Bath trades and small businesses.', price: 'BA1 & BA2', icon: Icon.pin },
+  { name: 'Website Designer — Bristol', href: '/website-designer-bristol', description: 'Web design for Bristol trades, from the Harbourside to Kingswood.', price: 'BS1–BS16', icon: Icon.pin },
   { name: 'Blog', href: '/blog', description: 'Guides on websites, speed and getting found for trades.', price: 'Read more', icon: Icon.doc },
 ];
 
-const seoItems = [
-  { name: 'Local SEO', href: '/local-seo', description: 'Ongoing optimisation so you rank higher for local searches.', price: 'From £150/mo', icon: Icon.pin },
-  { name: 'Google Business Profile', href: '/google-business-profile', description: 'Full GBP setup and optimisation, done once.', price: '£100', icon: Icon.profile },
-  { name: 'SEO in Bath', href: '/seo/bath', description: 'Map Pack and page one rankings across Bath.', price: 'BA1 & BA2', icon: Icon.pin },
-  { name: 'SEO in Bristol', href: '/seo/bristol', description: 'Suburb-level SEO campaigns across Bristol.', price: 'BS1–BS16', icon: Icon.pin },
-  { name: 'Website Redesign', href: '/website-redesign', description: 'Rebuilt to rank — keep your domain, ditch the rest.', price: 'Get a quote', icon: Icon.refresh },
-  { name: 'Blog', href: '/blog', description: 'Guides on local SEO, reviews and the Map Pack.', price: 'Read more', icon: Icon.doc },
+// SEO dropdown: core services (compact list, column 1) + area breakdown (columns 2–4)
+const seoServiceLinks = [
+  { name: 'Local SEO', href: '/local-seo' },
+  { name: 'Google Business Profile', href: '/google-business-profile' },
+  { name: 'Website Redesign', href: '/website-redesign' },
+  { name: 'Blog', href: '/blog' },
 ];
 
 const bathLinks = [
   { name: 'Bath Hub', href: '/areas/bath' },
-  { name: 'Website Design Bath', href: '/website-designer-bath' },
   { name: 'SEO Bath', href: '/seo/bath' },
   { name: 'Local SEO Bath', href: '/local-seo/bath' },
 ];
 
 const bristolLinks = [
   { name: 'Bristol Hub', href: '/areas/bristol' },
-  { name: 'Website Design Bristol', href: '/website-designer-bristol' },
   { name: 'SEO Bristol', href: '/seo/bristol' },
   { name: 'Local SEO Bristol', href: '/local-seo/bristol' },
 ];
@@ -135,7 +129,7 @@ const ArrowRight = ({ className = 'w-3.5 h-3.5' }) => (
 
 const PillNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [openMenu, setOpenMenu] = useState(null); // 'webDesign' | 'seo' | 'areas' | 'tools' | null
+  const [openMenu, setOpenMenu] = useState(null); // 'webDesign' | 'seo' | 'tools' | null
   const [mobileSection, setMobileSection] = useState(null);
   const navRef = useRef(null);
 
@@ -196,11 +190,6 @@ const PillNav = () => {
           <button onClick={() => toggleMenu('seo')} className={desktopMenuButtonClass('seo')} aria-expanded={openMenu === 'seo'}>
             SEO
             <ChevronDown open={openMenu === 'seo'} />
-          </button>
-
-          <button onClick={() => toggleMenu('areas')} className={desktopMenuButtonClass('areas')} aria-expanded={openMenu === 'areas'}>
-            Bristol &amp; Bath
-            <ChevronDown open={openMenu === 'areas'} />
           </button>
 
           {otherNavItems.map((item) => (
@@ -334,77 +323,31 @@ const PillNav = () => {
         </div>
       )}
 
-      {/* SEO Mega Menu */}
+      {/* SEO Mega Menu — services + full area breakdown (Bath, Bristol, other towns) */}
       {openMenu === 'seo' && (
-        <div className="hidden md:block backdrop-blur-2xl border-b border-white/[0.06]" style={{ background: 'rgba(7,8,13,0.98)' }}>
-          <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 py-10">
-            <div className="grid grid-cols-12 gap-12">
-              <div className="col-span-3 border-r border-white/[0.06] pr-10">
-                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">SEO</div>
-                <p className="text-white text-lg font-semibold leading-snug tracking-tight mb-3">
-                  Get found. Rank higher. Get the call.
-                </p>
-                <p className="text-gray-500 text-[13px] leading-relaxed mb-6">
-                  Local SEO and Google Business Profile optimisation for trades across Bath and Bristol.
-                </p>
-                <Link href="/seo" className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary hover:text-white transition-colors" onClick={closeAllMenus}>
-                  All SEO services
-                  <ArrowRight />
-                </Link>
-              </div>
-
-              <div className="col-span-6">
-                <ul className="-my-1">
-                  {seoItems.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href} className="group flex items-center gap-4 py-4 border-b border-white/[0.04] last:border-b-0 -mx-4 px-4 rounded-lg hover:bg-white/[0.03] transition-colors duration-200" onClick={closeAllMenus}>
-                        <span className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/[0.04] border border-white/[0.06] text-gray-400 group-hover:text-primary group-hover:border-primary/30 transition-colors duration-200 shrink-0">
-                          {item.icon}
-                        </span>
-                        <span className="flex-1 min-w-0">
-                          <span className="block text-white text-sm font-medium tracking-tight group-hover:text-white transition-colors">{item.name}</span>
-                          <span className="block text-gray-500 text-[13px] leading-relaxed truncate">{item.description}</span>
-                        </span>
-                        <span className="text-[11px] font-mono tracking-[0.08em] uppercase text-gray-500 group-hover:text-primary transition-colors shrink-0">{item.price}</span>
-                        <ArrowRight className="w-3.5 h-3.5 text-gray-600 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 shrink-0" />
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="col-span-3">
-                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-gray-500 mb-4">Latest result</div>
-                <Link href="/case-studies/new-decorating" className="group block" onClick={closeAllMenus}>
-                  <div className="text-white text-2xl font-bold tracking-tight mb-1">Top 3</div>
-                  <div className="text-gray-400 text-[13px] leading-relaxed mb-1">Map Pack — &ldquo;exterior painter Bath&rdquo;</div>
-                  <div className="text-gray-500 text-[13px] mb-4">New Decorating · consistent enquiries</div>
-                  <span className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary group-hover:text-white transition-colors">
-                    Read the case study
-                    <ArrowRight />
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Bristol & Bath Mega Menu */}
-      {openMenu === 'areas' && (
         <div className="hidden md:block backdrop-blur-2xl border-b border-white/[0.06]" style={{ background: 'rgba(7,8,13,0.98)' }}>
           <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 py-10">
             <div className="grid grid-cols-12 gap-10">
               <div className="col-span-3 border-r border-white/[0.06] pr-8">
-                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">Bristol &amp; Bath</div>
+                <div className="text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-secondary mb-3">SEO</div>
                 <p className="text-white text-lg font-semibold leading-snug tracking-tight mb-3">
-                  Based in Keynsham. Ranking across both cities.
+                  Get found. Rank higher. Get the call.
                 </p>
-                <p className="text-gray-500 text-[13px] leading-relaxed mb-6">
-                  Real client results across Bath, Bristol and the surrounding towns.
+                <p className="text-gray-500 text-[13px] leading-relaxed mb-5">
+                  Local SEO and Google Business Profile optimisation for trades across Bath and Bristol.
                 </p>
-                <Link href="/areas" className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary hover:text-white transition-colors" onClick={closeAllMenus}>
-                  All areas
+                <ul className="space-y-1 mb-5">
+                  {seoServiceLinks.map((item) => (
+                    <li key={item.href}>
+                      <Link href={item.href} className="flex items-center justify-between py-1.5 text-[13px] text-gray-400 hover:text-white transition-colors group" onClick={closeAllMenus}>
+                        {item.name}
+                        <ArrowRight className="w-3.5 h-3.5 text-gray-600 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-primary transition-all duration-200" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <Link href="/seo" className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary hover:text-white transition-colors" onClick={closeAllMenus}>
+                  All SEO services
                   <ArrowRight />
                 </Link>
               </div>
@@ -462,6 +405,10 @@ const PillNav = () => {
                     </li>
                   ))}
                 </ul>
+                <Link href="/areas" className="inline-flex items-center gap-1 mt-3 text-[12px] font-medium text-primary hover:text-white transition-colors" onClick={closeAllMenus}>
+                  All areas
+                  <ArrowRight className="w-3 h-3" />
+                </Link>
               </div>
             </div>
           </div>
@@ -479,7 +426,7 @@ const PillNav = () => {
                 <span className="text-base font-medium">Website Design</span>
                 <ChevronDown open={mobileSection === 'webDesign'} />
               </button>
-              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'webDesign' ? 'max-h-[28rem] opacity-100' : 'max-h-0 opacity-0'}`}>
+              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'webDesign' ? 'max-h-[36rem] opacity-100' : 'max-h-0 opacity-0'}`}>
                 <div className="flex flex-col gap-1 pb-3">
                   <Link href="/web-design" className="flex flex-col py-2.5 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200" onClick={closeAllMenus}>
                     <span className="text-sm font-medium">Website Design (all)</span>
@@ -494,36 +441,25 @@ const PillNav = () => {
               </div>
             </div>
 
-            {/* SEO accordion */}
+            {/* SEO accordion — services + Bath/Bristol/other areas */}
             <div className="border-b border-white/5">
               <button onClick={() => toggleMobileSection('seo')} className="w-full flex items-center justify-between py-4 text-white" aria-expanded={mobileSection === 'seo'}>
                 <span className="text-base font-medium">SEO</span>
                 <ChevronDown open={mobileSection === 'seo'} />
               </button>
-              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'seo' ? 'max-h-[28rem] opacity-100' : 'max-h-0 opacity-0'}`}>
-                <div className="flex flex-col gap-1 pb-3">
+              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'seo' ? 'max-h-[48rem] opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="pb-3">
                   <Link href="/seo" className="flex flex-col py-2.5 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200" onClick={closeAllMenus}>
                     <span className="text-sm font-medium">SEO (all)</span>
                   </Link>
-                  {seoItems.map((item) => (
-                    <Link key={item.name} href={item.href} className="flex flex-col py-2.5 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200" onClick={closeAllMenus}>
-                      <span className="text-sm font-medium">{item.name}</span>
-                      <span className="text-xs text-gray-500">{item.description}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Bristol & Bath accordion */}
-            <div className="border-b border-white/5">
-              <button onClick={() => toggleMobileSection('areas')} className="w-full flex items-center justify-between py-4 text-white" aria-expanded={mobileSection === 'areas'}>
-                <span className="text-base font-medium">Bristol &amp; Bath</span>
-                <ChevronDown open={mobileSection === 'areas'} />
-              </button>
-              <div className={`overflow-hidden transition-all duration-300 ease-in-out ${mobileSection === 'areas' ? 'max-h-[40rem] opacity-100' : 'max-h-0 opacity-0'}`}>
-                <div className="pb-3">
-                  <p className="pl-3 text-[11px] font-mono uppercase tracking-[0.1em] text-gray-500 mt-2 mb-1">Bath</p>
+                  <div className="flex flex-col gap-1 mb-2">
+                    {seoServiceLinks.map((item) => (
+                      <Link key={item.href} href={item.href} className="py-2 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200 text-sm" onClick={closeAllMenus}>
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                  <p className="pl-3 text-[11px] font-mono uppercase tracking-[0.1em] text-gray-500 mt-3 mb-1">Bath</p>
                   <div className="flex flex-col gap-1 mb-2">
                     {bathLinks.map((item) => (
                       <Link key={item.href} href={item.href} className="py-2 pl-3 border-l border-white/10 text-gray-300 hover:text-white hover:border-primary transition-colors duration-200 text-sm" onClick={closeAllMenus}>

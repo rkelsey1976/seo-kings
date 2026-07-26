@@ -37,28 +37,6 @@ const spokes = [
     ),
   },
   {
-    href: '/seo/bath',
-    name: 'SEO in Bath',
-    price: 'BA1 & BA2',
-    desc: 'Map Pack and page one rankings for trades across Bath — the most competitive market in BANES.',
-    icon: (
-      <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-      </svg>
-    ),
-  },
-  {
-    href: '/seo/bristol',
-    name: 'SEO in Bristol',
-    price: 'BS1–BS16',
-    desc: 'Suburb-level SEO campaigns across Bristol, from the Harbourside to Kingswood.',
-    icon: (
-      <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-      </svg>
-    ),
-  },
-  {
     href: '/website-redesign',
     name: 'Website Redesign',
     price: 'Get a quote',
@@ -69,6 +47,38 @@ const spokes = [
       </svg>
     ),
   },
+];
+
+const cityAreas = [
+  {
+    name: 'Bath',
+    href: '/areas/bath',
+    postcodes: 'BA1 & BA2',
+    desc: 'The most competitive market in BANES. Map Pack and page one rankings for trades across the city.',
+    subLinks: [
+      { name: 'SEO Bath', href: '/seo/bath' },
+      { name: 'Local SEO Bath', href: '/local-seo/bath' },
+    ],
+  },
+  {
+    name: 'Bristol',
+    href: '/areas/bristol',
+    postcodes: 'BS1–BS16',
+    desc: 'The biggest market in the South West. Suburb-level campaigns from the Harbourside to Kingswood.',
+    subLinks: [
+      { name: 'SEO Bristol', href: '/seo/bristol' },
+      { name: 'Local SEO Bristol', href: '/local-seo/bristol' },
+    ],
+  },
+];
+
+const otherAreas = [
+  { name: 'Keynsham', slug: 'keynsham', postcodes: 'BS31' },
+  { name: 'Midsomer Norton', slug: 'midsomer-norton', postcodes: 'BA3' },
+  { name: 'Radstock', slug: 'radstock', postcodes: 'BA3' },
+  { name: 'Peasedown St John', slug: 'peasedown-st-john', postcodes: 'BA2' },
+  { name: 'Paulton', slug: 'paulton', postcodes: 'BS39' },
+  { name: 'Saltford', slug: 'saltford', postcodes: 'BS31' },
 ];
 
 const testimonials = [
@@ -167,7 +177,7 @@ const SEOServices = () => {
       <h1 className="sr-only">SEO Agency for Trades in Bath, Bristol & North East Somerset</h1>
       <ServicePageHero
         titleTag="h2"
-        badge="SEO Services"
+        badge="SEO Agency · Bath & Bristol"
         title="Rank higher. Get more"
         highlight="calls from Google."
         description="Local SEO and Google Business Profile optimisation for trades across Bath, Bristol and North East Somerset — built to get you into the Map Pack and page one."
@@ -181,7 +191,7 @@ const SEOServices = () => {
           <div className="mb-12">
             <SectionTag className="mb-4">Our SEO services</SectionTag>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
-              Two cities, one team, clear pricing
+              One team, clear pricing
             </h2>
             <p className="text-gray-400 leading-relaxed max-w-2xl">
               Pick what you need, or run it all together. Explore each service below.
@@ -202,6 +212,60 @@ const SEOServices = () => {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── AREAS WE SERVE (SEO Agency Bath & Bristol → individual area pages) ── */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <SectionTag className="mb-4">Areas we serve</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">
+              SEO Agency Bath &amp; Bristol
+            </h2>
+            <p className="text-gray-400 leading-relaxed max-w-2xl">
+              Every area below has its own SEO Kings page. Start with the city hub, or jump straight to the SEO or Local SEO page for your postcode.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            {cityAreas.map((area) => (
+              <div key={area.href} className="bg-dark-card border border-white/[0.06] rounded-2xl p-8">
+                <Link href={area.href} className="group block mb-5">
+                  <div className="text-[11px] font-mono tracking-[0.08em] uppercase text-primary mb-2">{area.postcodes}</div>
+                  <div className="text-white text-xl font-bold mb-2 group-hover:text-primary-light transition-colors">{area.name} Hub</div>
+                  <p className="text-gray-400 text-sm leading-relaxed">{area.desc}</p>
+                </Link>
+                <div className="flex flex-wrap gap-2 pt-5 border-t border-white/[0.06]">
+                  {area.subLinks.map((sub) => (
+                    <Link
+                      key={sub.href}
+                      href={sub.href}
+                      className="text-xs px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-gray-300 hover:text-white hover:border-primary/40 transition-colors"
+                    >
+                      {sub.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div>
+            <p className="text-[11px] font-mono tracking-[0.1em] uppercase text-gray-500 mb-3">Also serving</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+              {otherAreas.map((area) => (
+                <Link
+                  key={area.slug}
+                  href={`/areas/${area.slug}`}
+                  className="flex items-center justify-between p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-white/10 transition-colors group"
+                >
+                  <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{area.name}</span>
+                  <span className="text-[11px] font-mono text-gray-600">{area.postcodes}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -234,15 +298,21 @@ const SEOServices = () => {
               </ul>
             </div>
 
-            <div className="grid gap-4">
-              <Link href="/seo/bath" className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-primary/40 transition-colors group">
-                <div className="text-white text-lg font-bold mb-1 group-hover:text-primary-light transition-colors">Bath — BA1 &amp; BA2</div>
-                <p className="text-gray-400 text-sm leading-relaxed">The most competitive market in BANES. Map Pack and page one rankings for trades across the city.</p>
-              </Link>
-              <Link href="/seo/bristol" className="bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-primary/40 transition-colors group">
-                <div className="text-white text-lg font-bold mb-1 group-hover:text-primary-light transition-colors">Bristol — BS1–BS16</div>
-                <p className="text-gray-400 text-sm leading-relaxed">The biggest market in the South West. Suburb-level campaigns from the Harbourside to Kingswood.</p>
-              </Link>
+            <div className="bg-dark-card border border-white/10 rounded-2xl p-8">
+              <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-6">By the numbers</p>
+              <div className="space-y-4">
+                {[
+                  { label: 'Local SEO from', value: '£150/mo' },
+                  { label: 'GBP optimisation', value: '£100' },
+                  { label: 'Peachy Cleans — Map Pack', value: '#1' },
+                  { label: 'New Decorating — Map Pack', value: 'Top 3' },
+                ].map(({ label, value }) => (
+                  <div key={label} className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+                    <span className="text-gray-400 text-sm">{label}</span>
+                    <span className="text-xl font-bold text-white">{value}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
