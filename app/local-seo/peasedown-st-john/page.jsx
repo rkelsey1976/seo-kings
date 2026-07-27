@@ -14,6 +14,7 @@ export default function Page() {
     <>
       <BreadcrumbSchema items={[
         { name: 'Home', path: '/' },
+        { name: 'SEO', path: '/seo' },
         { name: 'Local SEO', path: '/local-seo' },
         { name: 'Peasedown St John', path: '/local-seo/peasedown-st-john' },
       ]} />

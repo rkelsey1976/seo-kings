@@ -159,6 +159,7 @@ const LocalSEOTrowbridge = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Trowbridge' }]}
         badge="Serving BA14 · Trowbridge"
         title="Local SEO"
         highlight="Trowbridge"

@@ -158,6 +158,7 @@ const LocalSEOBradfordOnAvon = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Bradford-on-Avon' }]}
         badge="Serving BA15 · Bradford-on-Avon, Wiltshire"
         title="Local SEO"
         highlight="Bradford-on-Avon, Wiltshire"

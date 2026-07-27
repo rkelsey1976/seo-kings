@@ -125,6 +125,7 @@ const WebsiteDesignerMelksham = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Melksham' }]}
         badge="Serving Melksham · SN12"
         title="Website Designer"
         highlight="Melksham"

@@ -132,6 +132,7 @@ const WebsiteDesignerSaltford = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Saltford' }]}
         badge="Serving Saltford · Between Bath &amp; Keynsham"
         title="Website Designer"
         highlight="Saltford"

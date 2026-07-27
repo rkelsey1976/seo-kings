@@ -129,6 +129,7 @@ const WebsiteDesignerTrowbridge = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Trowbridge' }]}
         badge="Serving Trowbridge · Wiltshire"
         title="Website Designer"
         highlight="Trowbridge"

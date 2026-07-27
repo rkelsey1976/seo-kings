@@ -243,14 +243,6 @@ const WebDesignerNearMe = () => {
         },
       })),
     },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: { '@id': 'https://seo-kings.co.uk' } },
-        { '@type': 'ListItem', position: 2, name: 'Website Designer Near Me', item: { '@id': 'https://seo-kings.co.uk/website-designer-near-me' } },
-      ],
-    },
   ];
 
   return (
@@ -264,6 +256,7 @@ const WebDesignerNearMe = () => {
         description="Based in Keynsham, we design and build websites for trades and small businesses across Bath, Bristol and North East Somerset. We know your area, we can meet face-to-face, and we get you found on Google. From £250 with local SEO included."
         features={heroFeatures}
         ctaText="Get a Free Audit"
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Near Me' }]}
       />
 
       {/* Areas We Cover Grid */}

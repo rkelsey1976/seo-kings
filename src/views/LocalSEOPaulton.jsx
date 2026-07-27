@@ -158,6 +158,7 @@ const LocalSEOPaulton = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Paulton' }]}
         badge="Serving BS39 · Paulton"
         title="Local SEO"
         highlight="Paulton"

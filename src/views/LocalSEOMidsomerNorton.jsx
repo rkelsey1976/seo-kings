@@ -150,6 +150,7 @@ const LocalSEOMidsomerNorton = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Midsomer Norton' }]}
         badge="Serving BA3 · Somer Valley"
         title="Local SEO"
         highlight="Midsomer Norton"

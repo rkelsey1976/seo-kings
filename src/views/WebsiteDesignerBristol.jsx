@@ -130,6 +130,7 @@ const WebsiteDesignerBristol = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Bristol' }]}
         badge="Serving Bristol · BS1–BS16"
         title="Website Designer"
         highlight="Bristol"

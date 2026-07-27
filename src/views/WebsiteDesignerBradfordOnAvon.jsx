@@ -126,6 +126,7 @@ const WebsiteDesignerBradfordOnAvon = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Bradford-on-Avon' }]}
         badge="Serving Bradford-on-Avon · Wiltshire · BA15"
         title="Website Designer"
         highlight="Bradford-on-Avon, Wiltshire"

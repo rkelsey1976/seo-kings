@@ -132,6 +132,7 @@ const WebsiteDesignerRadstock = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Radstock' }]}
         badge="Serving Radstock · BA3"
         title="Website Designer"
         highlight="Radstock"

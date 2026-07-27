@@ -158,6 +158,7 @@ const LocalSEOPeasedown = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Peasedown St John' }]}
         badge="Serving BA2 · Peasedown St John"
         title="Local SEO"
         highlight="Peasedown St John"

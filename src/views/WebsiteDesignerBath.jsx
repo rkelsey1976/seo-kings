@@ -144,6 +144,7 @@ const WebsiteDesignerBath = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Bath' }]}
         badge="Serving Bath · BA1 & BA2"
         title="Website Designer"
         highlight="Bath"

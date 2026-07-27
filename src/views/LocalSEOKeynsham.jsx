@@ -158,6 +158,7 @@ const LocalSEOKeynsham = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Keynsham' }]}
         badge="Based in Keynsham · BS31 2DW"
         title="Local SEO"
         highlight="Keynsham"

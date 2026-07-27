@@ -154,6 +154,7 @@ const WebsiteDesignerKeynsham = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Keynsham' }]}
         badge="Based in Keynsham · BS31 2DW"
         title="Website Designer"
         highlight="Keynsham"

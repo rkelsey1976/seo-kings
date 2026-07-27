@@ -159,6 +159,7 @@ const LocalSEOChippenham = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Chippenham' }]}
         badge="Serving SN14 · SN15 · Chippenham"
         title="Local SEO"
         highlight="Chippenham"

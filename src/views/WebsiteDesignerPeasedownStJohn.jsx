@@ -134,6 +134,7 @@ const WebsiteDesignerPeasedownStJohn = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Peasedown St John' }]}
         badge="Serving Peasedown St John · BA2"
         title="Website Designer"
         highlight="Peasedown St John"

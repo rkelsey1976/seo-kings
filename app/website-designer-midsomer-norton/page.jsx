@@ -14,6 +14,7 @@ export default function Page() {
     <>
       <BreadcrumbSchema items={[
         { name: 'Home', path: '/' },
+        { name: 'Web Design', path: '/web-design' },
         { name: 'Website Designer Midsomer Norton', path: '/website-designer-midsomer-norton' },
       ]} />
       <WebsiteDesignerMidsomerNorton />

@@ -131,6 +131,7 @@ const WebsiteDesignerSheptonMallet = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Shepton Mallet' }]}
         badge="Serving Shepton Mallet · BA4"
         title="Website Designer"
         highlight="Shepton Mallet"

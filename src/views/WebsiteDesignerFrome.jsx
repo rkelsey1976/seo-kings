@@ -132,6 +132,7 @@ const WebsiteDesignerFrome = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Frome' }]}
         badge="Serving Frome · BA11"
         title="Website Designer"
         highlight="Frome"

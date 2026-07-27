@@ -134,6 +134,7 @@ const WebsiteDesignerMidsomerNorton = () => {
 
       {/* Hero */}
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Midsomer Norton' }]}
         badge="Serving Midsomer Norton · BA3"
         title="Website Designer"
         highlight="Midsomer Norton"

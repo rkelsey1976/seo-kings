@@ -158,6 +158,7 @@ const LocalSEORadstock = () => {
       <SEO schemas={[schema]} />
 
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Radstock' }]}
         badge="Serving BA3 · Somer Valley"
         title="Local SEO"
         highlight="Radstock"

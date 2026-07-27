@@ -162,6 +162,7 @@ const LocalSEOBath = () => {
     <>
       <SEO schemas={[schema]} />
       <ServicePageHero
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO', href: '/local-seo' }, { name: 'Bath' }]}
         badge="Serving BA1 & BA2 · Bath"
         title="Local SEO"
         highlight="Bath"
