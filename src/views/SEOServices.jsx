@@ -73,6 +73,24 @@ const services = [
   },
 ];
 
+const trades = [
+  { name: 'Plumbers', slug: 'plumbers' },
+  { name: 'Electricians', slug: 'electricians' },
+  { name: 'Roofers', slug: 'roofers' },
+  { name: 'Builders', slug: 'builders' },
+  { name: 'Landscapers', slug: 'landscapers' },
+  { name: 'Cleaners', slug: 'cleaners' },
+  { name: 'Painters & Decorators', slug: 'painters-decorators' },
+  { name: 'Kitchen Fitters', slug: 'kitchen-fitters' },
+  { name: 'Bathroom Fitters', slug: 'bathroom-fitters' },
+  { name: 'Heating Engineers', slug: 'heating-engineers' },
+  { name: 'Plasterers', slug: 'plasterers' },
+  { name: 'Gas Engineers', slug: 'gas-engineers' },
+  { name: 'Loft Conversions', slug: 'loft-conversions' },
+  { name: 'Extension Builders', slug: 'extension-builders' },
+  { name: 'Drainage Engineers', slug: 'drainage-engineers' },
+];
+
 const packages = [
   { name: 'Starter', desc: 'Technical audit + on-page SEO', price: '£150/mo' },
   { name: 'Growth', desc: 'Full SEO campaign + content', price: '£300/mo' },
@@ -290,6 +308,31 @@ const SEOServices = () => {
                 <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
                 <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* By trade — links to the existing /local-seo/{trade} pages rather than creating new ones */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">By trade</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">SEO for your trade</h2>
+          <p className="text-gray-400 mb-10 max-w-2xl">
+            Every trade searches differently. Local SEO campaigns are built around your specific trade — see what&apos;s included for yours.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {trades.map((trade) => (
+              <Link
+                key={trade.slug}
+                href={`/local-seo/${trade.slug}`}
+                className="flex items-center justify-between p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-primary/30 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{trade.name}</span>
+                <svg className="w-3.5 h-3.5 text-gray-600 group-hover:text-primary transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             ))}
           </div>
         </div>
