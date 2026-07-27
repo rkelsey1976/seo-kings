@@ -175,6 +175,7 @@ const SEOBath = () => {
         features={['From £150/month', 'Free audit included', 'Trades & small business', 'Serving BA1 & BA2']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'SEO Bath' }]}
       />
 
       {/* What we do */}

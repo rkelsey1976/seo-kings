@@ -166,6 +166,7 @@ const SEOBristol = () => {
         features={['From £150/month', 'Free audit included', 'Trades & small business', 'Page 1 in 8 weeks']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'SEO Bristol' }]}
       />
 
       {/* What we do */}

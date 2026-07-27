@@ -96,6 +96,7 @@ const GoogleBusinessProfile = () => {
         features={heroFeatures}
         ctaText="Get Your GBP Optimised"
         rightPanel={rightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Google Business Profile' }]}
       />
 
       {/* One-off £100 — what's included */}

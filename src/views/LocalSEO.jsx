@@ -149,6 +149,7 @@ const LocalSEO = () => {
         features={heroFeatures}
         ctaText="Get a Free Website Quote"
         rightPanel={localSeoRightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Local SEO' }]}
       />
 
       {/* Expand on your website – simple one-liner */}
