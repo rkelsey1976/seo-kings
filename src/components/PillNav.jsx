@@ -6,7 +6,7 @@ import MagneticButton from './library/MagneticButton';
 const services = [
   {
     name: 'Website Design',
-    href: '/web-design-for',
+    href: '/web-design',
     description: 'Fast-loading sites that rank and convert. Live in 2 weeks.',
     price: 'From £250',
     icon: (

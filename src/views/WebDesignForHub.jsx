@@ -99,7 +99,8 @@ const WebDesignForHub = () => {
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-              { '@type': 'ListItem', position: 2, name: 'Web Design for Trades', item: 'https://seo-kings.co.uk/web-design-for' },
+              { '@type': 'ListItem', position: 2, name: 'Web Design', item: 'https://seo-kings.co.uk/web-design' },
+              { '@type': 'ListItem', position: 3, name: 'Web Design for Trades', item: 'https://seo-kings.co.uk/web-design-for' },
             ],
           },
           {
@@ -146,6 +147,7 @@ const WebDesignForHub = () => {
         features={['Mobile-First Design', 'Local SEO Ready', '6 months free hosting', 'Lead-Generating', 'Fast & Secure']}
         ctaText="Get a Quote"
         onGetQuote={() => setModalOpen(true)}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'For Trades' }]}
       />
 
       {/* Trade cards grid */}

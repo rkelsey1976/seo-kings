@@ -5,6 +5,7 @@ import ServicePageHero from '../components/ServicePageHero';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import PricingModal from '../components/PricingModal';
+import SectionTag from '../components/SectionTag';
 
 /* ─────────────────────────────────────────────
    DATA
@@ -15,6 +16,72 @@ const heroFeatures = [
   'Live in 2 weeks',
   'Mobile-first',
   'Built to rank locally',
+];
+
+const services = [
+  {
+    name: 'Website Design for Trades',
+    description: 'Mobile-first sites built for plumbers, electricians, builders and every trade — browse all 15.',
+    price: 'From £250',
+    href: '/web-design-for',
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+    ),
+  },
+  {
+    name: 'Packages & Pricing',
+    description: 'Per-page pricing, no hidden fees. See exactly what a 1, 3 or 5-page site costs.',
+    price: 'View plans',
+    href: '/web-design-packages',
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 7h6m0 10v-3m-3 3v-6m-3 6v-9m-2 9h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+    ),
+  },
+  {
+    name: 'Website Redesign',
+    description: 'Already have a site that isn\'t performing? We rebuild it on the same domain so you keep your rankings.',
+    price: 'From £250',
+    href: '/website-redesign',
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+    ),
+  },
+  {
+    name: 'Google Business Profile',
+    description: 'Full GBP setup and optimisation so you show up in the Map Pack. One-off, no ongoing fees.',
+    price: '£100',
+    href: '/google-business-profile',
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+    ),
+  },
+  {
+    name: 'Hosting',
+    description: 'UK hosting, SSL, daily backups and uptime monitoring. 6 months free, then £50/year.',
+    price: '£50/yr',
+    href: '/hosting',
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-14 5h.01M5 12h.01" /></svg>
+    ),
+  },
+];
+
+const trades = [
+  { name: 'Plumbers', slug: 'plumbers' },
+  { name: 'Electricians', slug: 'electricians' },
+  { name: 'Roofers', slug: 'roofers' },
+  { name: 'Builders', slug: 'builders' },
+  { name: 'Landscapers', slug: 'landscapers' },
+  { name: 'Cleaners', slug: 'cleaners' },
+  { name: 'Painters & Decorators', slug: 'painters-decorators' },
+  { name: 'Kitchen Fitters', slug: 'kitchen-fitters' },
+  { name: 'Bathroom Fitters', slug: 'bathroom-fitters' },
+  { name: 'Heating Engineers', slug: 'heating-engineers' },
+  { name: 'Plasterers', slug: 'plasterers' },
+  { name: 'Gas Engineers', slug: 'gas-engineers' },
+  { name: 'Loft Conversions', slug: 'loft-conversions' },
+  { name: 'Extension Builders', slug: 'extension-builders' },
+  { name: 'Drainage Engineers', slug: 'drainage-engineers' },
 ];
 
 const results = [
@@ -153,6 +220,7 @@ export default function WebDesign() {
         ctaText="Get a free quote"
         ctaSecondary="Call Us Today"
         onGetQuote={() => setModalOpen(true)}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design' }]}
         rightPanel={
           <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
             <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-4">
@@ -212,6 +280,33 @@ export default function WebDesign() {
                 </div>
                 <div className="text-white font-medium">{item.label}</div>
                 <div className="text-sm text-gray-500 mt-1">{item.detail}</div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── SERVICE CARDS ────────────────────────── */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">What's included</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight max-w-2xl">
+            Everything under Web Design
+          </h2>
+          <p className="text-gray-400 leading-relaxed mb-12 max-w-2xl">
+            The core build, plus every add-on — pricing, redesigns, Google Business Profile and hosting all live here.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {services.map((service) => (
+              <Link
+                key={service.name}
+                href={service.href}
+                className="block bg-dark-card border border-white/[0.06] rounded-2xl p-6 hover:border-primary/30 hover:bg-white/5 transition-all"
+              >
+                <div className="text-primary mb-4">{service.icon}</div>
+                <h3 className="text-white font-semibold text-sm mb-2">{service.name}</h3>
+                <p className="text-gray-500 text-xs leading-relaxed mb-4">{service.description}</p>
+                <span className="text-primary text-xs font-semibold">{service.price}</span>
               </Link>
             ))}
           </div>
@@ -452,6 +547,31 @@ export default function WebDesign() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── BY TRADE ─────────────────────────────── */}
+      <section className="py-24 border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTag className="mb-4">By trade</SectionTag>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight tracking-tight">Web design for your trade</h2>
+          <p className="text-gray-400 mb-10 max-w-2xl">
+            Every trade needs different pages and content. See what's included for yours.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {trades.map((trade) => (
+              <Link
+                key={trade.slug}
+                href={`/web-design-for/${trade.slug}`}
+                className="flex items-center justify-between p-3 bg-dark-card border border-white/[0.06] rounded-xl hover:border-primary/30 hover:bg-white/[0.03] transition-all duration-200 group"
+              >
+                <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{trade.name}</span>
+                <svg className="w-3.5 h-3.5 text-gray-600 group-hover:text-primary transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

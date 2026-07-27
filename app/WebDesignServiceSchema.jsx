@@ -69,6 +69,7 @@ const webDesignServiceSchema = {
   serviceType: 'Website Design',
   provider: { '@id': `${siteUrl}/#organization` },
   areaServed: [
+    { '@type': 'City', name: 'Bristol' },
     { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
     { '@type': 'AdministrativeArea', name: 'Somerset', sameAs: 'https://en.wikipedia.org/wiki/Somerset' },
     { '@type': 'AdministrativeArea', name: 'Wiltshire', sameAs: 'https://en.wikipedia.org/wiki/Wiltshire' },
@@ -82,12 +83,26 @@ const webDesignServiceSchema = {
   },
 };
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Web Design', item: `${siteUrl}/web-design` },
+  ],
+};
+
 export default function WebDesignServiceSchema() {
-  const jsonLd = JSON.stringify(webDesignServiceSchema);
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: jsonLd }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webDesignServiceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+    </>
   );
 }
