@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
 import FAQAccordion from '../components/FAQAccordion';
 import SectionTag from '../components/SectionTag';
+import Breadcrumb from '../components/Breadcrumb';
 
 const signs = [
   'Your site loads slowly on mobile — Google penalises slow pages in rankings',
@@ -93,7 +94,8 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Website Redesign' , item: 'https://seo-kings.co.uk/website-redesign' },
+          { '@type': 'ListItem', position: 2, name: 'Web Design', item: 'https://seo-kings.co.uk/web-design' },
+          { '@type': 'ListItem', position: 3, name: 'Website Redesign' , item: 'https://seo-kings.co.uk/website-redesign' },
         ],
       },
     },
@@ -145,6 +147,7 @@ const WebsiteRedesign = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
+            <Breadcrumb items={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Website Redesign' }]} />
             <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
               Website Redesign Service
             </span>

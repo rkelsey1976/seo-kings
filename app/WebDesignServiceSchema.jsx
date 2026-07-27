@@ -64,8 +64,8 @@ const webDesignServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   '@id': `${siteUrl}/#service-website-design`,
-  name: 'Website Design for Trades',
-  description: 'Professional website design for tradespeople and small businesses. Per-page pricing from £250 — £250 base + £50 per page. All sites include mobile-responsive design, SEO basics, contact form, click-to-call, 6 months free hosting, and SSL. Google Business Profile optimisation available as an add-on.',
+  name: 'Web Design',
+  description: 'Website design, redesigns, hosting and Google Business Profile for tradespeople and small businesses. Per-page pricing from £250 — £250 base + £50 per page. All sites include mobile-responsive design, SEO basics, contact form, click-to-call, 6 months free hosting, and SSL.',
   serviceType: 'Website Design',
   provider: { '@id': `${siteUrl}/#organization` },
   areaServed: [

@@ -209,7 +209,7 @@ export default function WebDesign() {
     <>
       {/* ── HERO ─────────────────────────────────── */}
       {/* Keyword H1 for crawlers; visible hero headline stays conversion-first as H2 (same pattern as homepage) */}
-      <h1 className="sr-only">Web Design for Trades in Bath, Bristol & Somerset — Websites from £250</h1>
+      <h1 className="sr-only">Web Design in Bath, Bristol & Somerset — Websites from £250</h1>
       <ServicePageHero
         titleTag="h2"
         badge="Website Design for Trades"

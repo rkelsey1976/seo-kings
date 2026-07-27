@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
 import CTABanner from '../components/CTABanner';
 import PricingModal from '../components/PricingModal';
+import Breadcrumb from '../components/Breadcrumb';
 
 const pricingFaqs = [
   {
@@ -48,7 +49,8 @@ const schema = {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-          { '@type': 'ListItem', position: 2, name: 'Web Design Packages' , item: 'https://seo-kings.co.uk/web-design-packages' },
+          { '@type': 'ListItem', position: 2, name: 'Web Design', item: 'https://seo-kings.co.uk/web-design' },
+          { '@type': 'ListItem', position: 3, name: 'Web Design Packages' , item: 'https://seo-kings.co.uk/web-design-packages' },
         ],
       },
     },
@@ -100,6 +102,9 @@ const WebDesignPackages = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-blob" />
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-blob animation-delay-2000" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <div className="text-left inline-block w-full max-w-3xl mx-auto">
+            <Breadcrumb items={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Packages & Pricing' }]} />
+          </div>
           <span className="inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[11px] font-mono font-medium tracking-[0.12em] uppercase mb-6 text-primary">
             Transparent pricing
           </span>

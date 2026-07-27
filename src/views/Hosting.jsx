@@ -122,7 +122,7 @@ const Hosting = () => {
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://seo-kings.co.uk/' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://seo-kings.co.uk/services' },
+              { '@type': 'ListItem', position: 2, name: 'Web Design', item: 'https://seo-kings.co.uk/web-design' },
               { '@type': 'ListItem', position: 3, name: 'Website Hosting', item: 'https://seo-kings.co.uk/hosting' },
             ],
           },
@@ -170,6 +170,7 @@ const Hosting = () => {
         features={['6 months free', '£50/year after', 'No lock-in contracts', 'Direct support']}
         ctaText="Get Your Free Audit"
         rightPanel={hostingRightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'Web Design', href: '/web-design' }, { name: 'Hosting' }]}
       />
 
       {/* What you get */}
