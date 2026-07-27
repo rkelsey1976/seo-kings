@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Breadcrumb from './Breadcrumb';
 
 const defaultRightPanel = (
   <div className="relative bg-dark-card border border-white/10 rounded-2xl p-8">
@@ -33,6 +34,7 @@ const ServicePageHero = ({
   onGetQuote,
   rightPanel,
   titleTag: TitleTag = 'h1',
+  breadcrumb,
 }) => {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
@@ -44,6 +46,7 @@ const ServicePageHero = ({
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>
+            {breadcrumb && <Breadcrumb items={breadcrumb} />}
             {/* Badge */}
             <span className="inline-block px-4 py-1 bg-primary/10 border border-primary/20 rounded-full text-primary-light text-sm font-medium mb-6">
               {badge}

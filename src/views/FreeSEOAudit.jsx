@@ -57,6 +57,7 @@ export default function FreeSEOAudit() {
         ctaText="Request my free audit"
         onGetQuote={() => document.getElementById('audit-form')?.scrollIntoView({ behavior: 'smooth' })}
         ctaSecondary="See what we check"
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Free SEO Audit' }]}
         rightPanel={
           <div className="bg-dark-card border border-white/10 rounded-2xl p-6">
             <p className="text-xs font-mono tracking-widest uppercase text-gray-600 mb-4">

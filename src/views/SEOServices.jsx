@@ -176,6 +176,7 @@ const SEOServices = () => {
         features={['From £150/mo', 'Free audit included', 'Bath & Bristol specialists', 'Monthly reporting']}
         ctaText="Get a Free SEO Audit"
         rightPanel={rightPanel}
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO' }]}
       />
 
       {/* Service cards */}
@@ -252,6 +253,43 @@ const SEOServices = () => {
                   </svg>
                 </div>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Content expansion */}
+      <section className="py-24 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-12">
+            <SectionTag className="mb-4">Why it works</SectionTag>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight tracking-tight">
+              SEO in Bath &amp; Bristol — why most businesses never reach page one
+            </h2>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Bath and Bristol are two of the most searched local markets in the South West, and the businesses on page one take almost all the calls. Everyone else gets close to nothing. It&apos;s that binary — and most trades and small businesses in both cities are not on page one, for the same handful of reasons.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              Usually it&apos;s not one big problem, it&apos;s several small ones stacked together: a website that loads slowly, missing schema markup, thin or duplicated content, no local citations, and a Google Business Profile that was set up once and never touched again. Local SEO on its own fixes the map-pack piece. Full SEO fixes all of it — the technical foundations, the on-page structure, the content that targets real searches, and the off-page authority that backs it up.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-4">
+              That matters more the bigger and more competitive the market gets. Local SEO alone can be enough for a single-town trade. A business chasing work across both Bath and Bristol — or competing for terms beyond the map pack, like &ldquo;builder Bath&rdquo; or &ldquo;plumber Bristol&rdquo; organically — needs the full stack working together, not just a Google listing.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              We&apos;re based in Keynsham, between both cities. We run technical audits, on-page rebuilds, content and off-page work as one connected campaign, not separate add-ons — so nothing you pay for undermines something else. Every client gets a direct line to the person doing the work and a monthly report they can actually read.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: 'Technical SEO first', body: 'If your site is slow or broken, nothing else matters. We fix the foundations before building on top — Core Web Vitals, crawlability, indexation.' },
+              { title: 'Content that ranks', body: 'Service pages, location pages, blog posts — every page targets a real search query with real search volume in Bath and Bristol.' },
+              { title: 'Local authority', body: 'Google Business Profile, local citations, review strategy. The signals that matter most for businesses serving a specific area.' },
+              { title: 'Two cities, one team', body: "Based in Keynsham, between Bath and Bristol. We run campaigns in both — you're never talking to a different agency for each city." },
+            ].map((card) => (
+              <div key={card.title} className="bg-dark-card border border-white/[0.06] rounded-2xl p-6">
+                <div className="text-white font-semibold text-sm mb-2">{card.title}</div>
+                <p className="text-gray-500 text-xs leading-relaxed">{card.body}</p>
+              </div>
             ))}
           </div>
         </div>

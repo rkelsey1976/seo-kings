@@ -59,6 +59,7 @@ const OffPageSEO = () => {
         description="Local citations, directory listings and backlinks from sources that actually move rankings — proof that your business is real, consistent and trusted beyond your own website. Included in Growth & Scale packages."
         features={['Citations', 'Backlinks', 'Review strategy', 'NAP consistency']}
         ctaText="See SEO Packages"
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Off-Page SEO & Citations' }]}
       />
 
       <section className="py-24 border-t border-white/[0.06]">

@@ -59,6 +59,7 @@ const ContentStrategy = () => {
         description="Service pages, location pages and blog posts — built around real search queries with real search volume, not guesswork. Included in Growth & Scale packages."
         features={['Service pages', 'Location pages', 'Blog posts', 'Case studies']}
         ctaText="See SEO Packages"
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'Content Strategy' }]}
       />
 
       <section className="py-24 border-t border-white/[0.06]">

@@ -59,6 +59,7 @@ const OnPageSEO = () => {
         description="Title tags, headings, internal links and page structure — the on-site work that tells Google exactly what your page is about, and why it deserves to rank. Included in every SEO package."
         features={['Keyword research', 'Title & meta tags', 'Heading structure', 'Internal linking']}
         ctaText="See SEO Packages"
+        breadcrumb={[{ name: 'Home', href: '/' }, { name: 'SEO', href: '/seo' }, { name: 'On-Page SEO' }]}
       />
 
       <section className="py-24 border-t border-white/[0.06]">
