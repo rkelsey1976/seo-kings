@@ -83,7 +83,7 @@ const schema = {
       name: 'SEO Kings',
       description: 'Website designer serving Bristol — web design from £250 for trades and local businesses across all BS postcodes.',
       url: 'https://seo-kings.co.uk/website-designer-bristol',
-      telephone: '+447****4921',
+      telephone: '+447702264921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
@@ -298,7 +298,7 @@ const WebsiteDesignerBristol = () => {
               16a Culvers Road<br />
               Keynsham, Somerset<br />
               BS31 2DW<br />
-              <a href="tel:+447****4921" className="hover:text-white transition-colors">07702 264 921</a>
+              <a href="tel:+447702264921" className="hover:text-white transition-colors">07702 264 921</a>
             </address>
           </div>
         </div>

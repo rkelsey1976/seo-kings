@@ -96,7 +96,7 @@ const schema = {
       name: 'SEO Kings',
       description: 'Local SEO agency serving Bristol BS1–BS16. Google Business Profile optimisation, website SEO and review growth for trades and local businesses across Bristol.',
       url: 'https://seo-kings.co.uk/local-seo/bristol',
-      telephone: '+447****4921',
+      telephone: '+447702264921',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '16a Culvers Road',
