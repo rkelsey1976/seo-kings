@@ -212,10 +212,10 @@ export default function WebDesign() {
       <h1 className="sr-only">Web Design in Bath, Bristol & Somerset — Websites from £250</h1>
       <ServicePageHero
         titleTag="h2"
-        badge="Website Design for Trades"
+        badge="Web Design · Bath & Bristol"
         title="Someone just searched for"
-        highlight="your trade."
-        description="Did they find you — or your competitor? We build fast, local websites for tradespeople. From £250. Live in 2 weeks."
+        highlight="your business."
+        description="Did they find you — or your competitor? We build fast, local websites for trades and small businesses. From £250. Live in 2 weeks."
         features={heroFeatures}
         ctaText="Get a free quote"
         ctaSecondary="Call Us Today"
