@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import SEO from '../components/SEO';
 import CTABanner from '../components/CTABanner';
+import FAQAccordion from '../components/FAQAccordion';
 import { BASE_URL } from '../constants/sitemap';
 
 const blogPosts = {
@@ -66,7 +67,7 @@ const blogPosts = {
     slug: 'builder-not-getting-enough-jobs',
     title: 'Not Getting Enough Building Jobs? Why Homeowners Can\'t Find You on Google',
     description: 'Good builders lose bigger jobs than any other trade to invisibility on Google - extensions and renovations are researched online before a single phone call is made.',
-    date: '2026-07-27',
+    date: '2026-07-28',
     readTime: '5 min read',
     author: 'SEO Kings',
     keywords: 'builder not getting enough jobs, how to get more building work, builder marketing, builder Google visibility, local SEO for builders',
@@ -76,6 +77,11 @@ const blogPosts = {
       { href: '/local-seo/builders', label: 'Local SEO for Builders' },
       { href: '/case-studies/aspect-builds', label: 'See Aspect Builds\' results' },
       { href: '/contact', label: 'Get a free audit' },
+    ],
+    faqs: [
+      { q: 'Why don\'t customers find me even though I have a good reputation?', a: 'Word of mouth only reaches people who already know someone who knows you. Homeowners researching a builder online never see you if you have no website or Google Business Profile, regardless of how strong your reputation is offline.' },
+      { q: 'Should I have one page for all my services, or separate pages?', a: 'Separate pages. Someone searching "loft conversion Bath" and someone searching "house extension Bath" are searching differently - a single generic homepage rarely ranks well for either.' },
+      { q: 'How long does it take to get a proper website live?', a: 'Aspect Builds went from an Instagram-only presence to a full 40-page website in under two weeks.' },
     ],
     sections: [
       {
@@ -117,7 +123,7 @@ const blogPosts = {
     slug: 'bath-builder-period-properties',
     title: 'Why Bath Homeowners Struggle to Find a Builder for Period Properties',
     description: 'Bath\'s Georgian, Victorian and Edwardian housing stock needs builders who understand heritage work and conservation rules - but most of them are invisible for exactly that search.',
-    date: '2026-07-27',
+    date: '2026-07-28',
     readTime: '4 min read',
     author: 'SEO Kings',
     keywords: 'builder for period property Bath, heritage builder Bath, conservation area builder, listed building building work Bath',
@@ -127,6 +133,11 @@ const blogPosts = {
       { href: '/local-seo/builders', label: 'Local SEO for Builders' },
       { href: '/case-studies/aspect-builds', label: 'See Aspect Builds\' results' },
       { href: '/contact', label: 'Get a free audit' },
+    ],
+    faqs: [
+      { q: 'Why do period property searches matter separately from "builder Bath"?', a: 'Homeowners with listed or period properties search more specifically - "listed building extension Bath", "conservation area building work" - because their needs are different. A builder who only targets generic "builder Bath" never shows up for these more specific, often less competitive searches.' },
+      { q: 'Do I need planning permission for work on a listed building in Bath?', a: 'This varies by property and the work involved - conservation officers and planning departments assess each case individually, so it\'s worth checking with Bath & North East Somerset Council directly for your specific property.' },
+      { q: 'Does heritage experience need its own page on my website?', a: 'Yes, if it\'s a genuine part of what you do - it\'s a distinctly different search from generic building work, with less competition and homeowners specifically looking for that expertise.' },
     ],
     sections: [
       {
@@ -159,7 +170,7 @@ const blogPosts = {
     slug: 'painter-decorator-more-google-reviews',
     title: 'How to Get More Google Reviews as a Painter and Decorator',
     description: 'Google reviews are one of the biggest factors in whether customers call you — here\'s how to get them consistently as a painter and decorator, without it feeling awkward.',
-    date: '2026-07-27',
+    date: '2026-07-28',
     readTime: '5 min read',
     author: 'SEO Kings',
     keywords: 'how to get Google reviews painter decorator, Google reviews tradesperson Bath, more reviews painting decorating',
@@ -170,6 +181,11 @@ const blogPosts = {
       { href: '/google-business-profile', label: 'GBP management service' },
       { href: '/local-seo/painters-decorators', label: 'Local SEO for Painters & Decorators' },
       { href: '/contact', label: 'Get a free audit' },
+    ],
+    faqs: [
+      { q: 'When should I ask a customer for a Google review?', a: 'The moment the job is finished and the customer is standing in the freshly decorated room - that\'s when they\'re happiest and most likely to say yes.' },
+      { q: 'How many reviews do I need to rank well?', a: 'In Bath city centre, aim for 20 or more with recent activity. In smaller areas like Keynsham or Saltford, fewer reviews can be enough because there\'s less competition.' },
+      { q: 'Should I respond to every review?', a: 'Yes - a short, genuine reply to every review, positive or negative, signals to Google that your profile is active, and reassures potential customers reading it later.' },
     ],
     sections: [
       {
@@ -219,7 +235,7 @@ const blogPosts = {
     slug: 'painter-competitor-showing-above-me-google',
     title: 'Why Does My Competitor Show Up Above Me on Google? (And How to Fix It)',
     description: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is actually looking at when it ranks one painter and decorator above another.',
-    date: '2026-07-27',
+    date: '2026-07-28',
     readTime: '5 min read',
     author: 'SEO Kings',
     keywords: 'competitor ranking above me on google, why competitor shows up first, painter decorator google ranking, local seo ranking factors',
@@ -230,6 +246,11 @@ const blogPosts = {
       { href: '/case-studies/new-decorating', label: 'See New Decorating\'s results' },
       { href: '/free-seo-audit', label: 'Get a free audit' },
       { href: '/contact', label: 'Ask us directly' },
+    ],
+    faqs: [
+      { q: 'Why does my competitor rank above me if my work is better?', a: 'Google can\'t assess the quality of paintwork - it only reads signals like Google Business Profile completeness, review volume and recency, and how well your website matches the search. Whoever sends the strongest signals ranks first, regardless of who\'d do the better job.' },
+      { q: 'What\'s the fastest way to check why a competitor outranks me?', a: 'Search your trade and area on Google and compare your competitor\'s Google Business Profile and website directly against your own - reviews, categories, and whether their site clearly states what they do and where.' },
+      { q: 'Can this change quickly?', a: 'Yes - Jay at New Decorating went from no online presence at all to Top 3 in the Map Pack within a week once his profile and website were set up properly.' },
     ],
     sections: [
       {
@@ -270,7 +291,7 @@ const blogPosts = {
     slug: 'painter-decorator-not-getting-jobs',
     title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why You\'re Invisible on Google',
     description: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why - and how two Bath painters fixed it.',
-    date: '2026-07-27',
+    date: '2026-07-28',
     readTime: '4 min read',
     author: 'SEO Kings',
     keywords: 'painter and decorator not getting jobs, how to get more painting jobs, decorating business marketing, painter decorator Google, local SEO for painters',
@@ -282,6 +303,11 @@ const blogPosts = {
       { href: '/case-studies/new-decorating', label: 'See New Decorating\'s results' },
       { href: '/case-studies/bath-painter', label: 'See Bath Painter\'s results' },
       { href: '/contact', label: 'Get a free audit' },
+    ],
+    faqs: [
+      { q: 'Why don\'t I show up on Google as a painter and decorator?', a: 'Usually because you have no website, no Google Business Profile, or neither - meaning Google has nothing to show when someone searches "painter and decorator Bath". Competitors with even a basic profile appear ahead of you by default.' },
+      { q: 'How quickly can this be fixed?', a: 'Jay at New Decorating went from no website and no Google listing to Top 3 in the Map Pack for "exterior painter Bath" within a week of launch.' },
+      { q: 'Do I need a website, or is a Google Business Profile enough?', a: 'Both work together - your Google Business Profile gets you into the Map Pack, but a website gives Google more to work with and gives customers somewhere to see your full portfolio and get in touch.' },
     ],
     sections: [
       {
@@ -2420,6 +2446,15 @@ const BlogPost = ({ params: staticParams }) => {
               { '@type': 'ListItem', position: 3, name: post.title },
             ],
           },
+          ...(post.faqs && post.faqs.length ? [{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: post.faqs.map(({ q, a }) => ({
+              '@type': 'Question',
+              name: q,
+              acceptedAnswer: { '@type': 'Answer', text: a },
+            })),
+          }] : []),
         ]} />
 
       {/* Hero */}
@@ -2485,6 +2520,16 @@ const BlogPost = ({ params: staticParams }) => {
               </section>
             ))}
           </div>
+
+          {/* FAQ */}
+          {post.faqs && post.faqs.length > 0 && (
+            <div className="mt-16">
+              <h2 className="text-2xl font-semibold text-white mb-6 tracking-tight">
+                Common questions
+              </h2>
+              <FAQAccordion faqs={post.faqs} />
+            </div>
+          )}
 
           {/* CTA */}
           <div className="mt-16 p-8 bg-dark-card border border-white/[0.06] rounded-2xl text-center">
