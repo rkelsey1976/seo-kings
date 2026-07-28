@@ -62,6 +62,62 @@ const blogPosts = {
       },
     ],
   },
+  'painter-decorator-not-getting-jobs': {
+    slug: 'painter-decorator-not-getting-jobs',
+    title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why You\'re Invisible on Google',
+    description: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why - and how two Bath painters fixed it.',
+    date: '2026-07-27',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'painter and decorator not getting jobs, how to get more painting jobs, decorating business marketing, painter decorator Google, local SEO for painters',
+    ctaHeading: 'Want to show up on Google for painting and decorating searches?',
+    ctaBody: 'We build local SEO campaigns specifically for painters and decorators - Google Business Profile, website, and the map pack.',
+    ctaLinks: [
+      { href: '/local-seo/painters-decorators', label: 'Local SEO for Painters & Decorators' },
+      { href: '/seo', label: 'Our SEO services' },
+      { href: '/case-studies/new-decorating', label: 'See New Decorating\'s results' },
+      { href: '/case-studies/bath-painter', label: 'See Bath Painter\'s results' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'You\'re good at the job. That\'s not the problem.',
+        paragraphs: [
+          'Most painters and decorators who come to us aren\'t short on skill or reputation - they\'re short on new customers finding them. Work comes from word of mouth, a few regular clients, maybe a board outside a job. It works, until it doesn\'t: a quiet month, a slow winter, a competitor who\'s suddenly getting all the calls you used to get.',
+          'If that sounds familiar, the problem usually isn\'t your work. It\'s that when someone in Bath searches for a painter and decorator, they never see you at all.',
+        ],
+      },
+      {
+        heading: 'Where those customers actually go',
+        paragraphs: [
+          'Someone needing a painter and decorator today doesn\'t ask around first - they open Google and search "painter and decorator Bath" or "painter near me". Google shows a map with three local businesses at the top, plus a list of websites below. If you\'re not in that map, or you don\'t have a website at all, you simply don\'t exist for that search. It doesn\'t matter how good your work is if the customer never sees you.',
+          'This isn\'t a niche problem - it\'s the default state for most trades until someone actively fixes it. No website and no Google Business Profile means invisible, full stop.',
+        ],
+      },
+      {
+        heading: 'Two real examples, both in Bath',
+        paragraphs: [
+          'Jay at New Decorating had no website and no Google Business Profile at all. We built him a site and set up his profile properly - and within a week he was ranking Top 3 in the Google Map Pack for "exterior painter Bath". Six months on, he\'s had over 23 enquiries through the site alone, plus people calling him directly.',
+          'Bath Painter had 20+ years of experience and a strong local reputation, but no website and no brand identity to show for it. We built him a complete brand - logo, business cards, social templates - plus a bespoke website targeting Bath, Keynsham and the surrounding area. He noticed an increase in enquiries within a week of the site going live.',
+          'Same trade, same city, same starting point: doing good work but invisible online. Both fixed within days, not months.',
+        ],
+      },
+      {
+        heading: 'The actual name for this is "local SEO" - but you don\'t need to know that',
+        paragraphs: [
+          'What fixed it for Jay and for Bath Painter has a technical name - local SEO - but you don\'t need to understand the mechanics to benefit from it. In practice it means three things: a Google Business Profile that\'s claimed, verified and filled in properly; a website that clearly states what you do and where you work; and enough consistency and reviews that Google trusts you enough to put you in front of local customers.',
+          'None of that requires you to learn anything about search engines. It requires someone who already knows how to do it, doing it properly, once.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a painter or decorator in Bath, Keynsham, Midsomer Norton or the surrounding area and you\'re relying on word of mouth alone, start with a free audit - we\'ll check your current Google Business Profile and website (if you have one) and tell you exactly what\'s missing.',
+          'We run local SEO specifically for painters and decorators, built around the same approach that got Jay and Bath Painter found on Google within a week.',
+        ],
+      },
+    ],
+  },
   'what-is-local-seo-bath': {
     slug: 'what-is-local-seo-bath',
     title: 'What Is Local SEO and Why It Matters for Bath & North East Somerset Businesses',

@@ -6,6 +6,7 @@
 export const BASE_URL = 'https://seo-kings.co.uk';
 
 export const BLOG_SLUGS = [
+  'painter-decorator-not-getting-jobs',
   'beautiful-websites-that-rank',
   'get-more-google-reviews-bath',
   'free-seo-audit-what-we-check',
@@ -29,6 +30,7 @@ export const BLOG_SLUGS = [
 /** Slug to display label for blog (for HTML sitemap). Add new posts here. */
 export const BLOG_LINKS = [
   { href: '/blog', label: 'Blog' },
+  { href: '/blog/painter-decorator-not-getting-jobs', label: 'Not Getting Enough Painting and Decorating Jobs?' },
   { href: '/blog/beautiful-websites-that-rank', label: 'Beautiful Websites That Rank' },
   { href: '/blog/get-more-google-reviews-bath', label: 'Get More Google Reviews' },
   { href: '/blog/free-seo-audit-what-we-check', label: 'Free SEO Audit – What We Check' },

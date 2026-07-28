@@ -7,6 +7,11 @@
  */
 export const BLOG_META = {
   // ── KEEP — informational, no competing landing page ──────────────────────
+  'painter-decorator-not-getting-jobs': {
+    title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why | SEO Kings',
+    description: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why - and how two Bath painters fixed it.',
+    canonical: 'https://seo-kings.co.uk/blog/painter-decorator-not-getting-jobs',
+  },
   'beautiful-websites-that-rank': {
     title: 'How We Build Beautiful Websites That Rank Well on Google',
     description: 'We build websites that look great, load fast, and score 95+ on Lighthouse — so they rank better on Google and convert more customers.',

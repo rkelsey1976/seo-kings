@@ -98,7 +98,7 @@ export default function RootLayout({ children }) {
         <Script id="ga" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9JWXCPHP71');`}
         </Script>
-        <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>
+        <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
           <input type="text" name="name" />
           <input type="email" name="email" />
           <input type="tel" name="phone" />

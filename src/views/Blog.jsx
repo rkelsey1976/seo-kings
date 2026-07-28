@@ -13,6 +13,14 @@ const BLOG_SERVICES = [
 
 const posts = [
   {
+    slug: 'painter-decorator-not-getting-jobs',
+    title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why You\'re Invisible on Google',
+    excerpt: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why — and how two Bath painters fixed it.',
+    date: '2026-07-27',
+    readTime: '4 min read',
+    services: ['local-seo', 'gbp'],
+  },
+  {
     slug: 'website-cost-bristol',
     title: 'How Much Does a Website Cost in Bristol?',
     excerpt: 'Bristol quotes run from £200 to £20,000 for "a website". What actually drives the cost — and what a trade or small business realistically needs.',
