@@ -7,6 +7,8 @@ export const BASE_URL = 'https://seo-kings.co.uk';
 
 export const BLOG_SLUGS = [
   'painter-decorator-not-getting-jobs',
+  'painter-decorator-more-google-reviews',
+  'painter-competitor-showing-above-me-google',
   'beautiful-websites-that-rank',
   'get-more-google-reviews-bath',
   'free-seo-audit-what-we-check',
@@ -31,6 +33,8 @@ export const BLOG_SLUGS = [
 export const BLOG_LINKS = [
   { href: '/blog', label: 'Blog' },
   { href: '/blog/painter-decorator-not-getting-jobs', label: 'Not Getting Enough Painting and Decorating Jobs?' },
+  { href: '/blog/painter-decorator-more-google-reviews', label: 'How to Get More Google Reviews as a Painter and Decorator' },
+  { href: '/blog/painter-competitor-showing-above-me-google', label: 'Why Does My Competitor Show Up Above Me on Google?' },
   { href: '/blog/beautiful-websites-that-rank', label: 'Beautiful Websites That Rank' },
   { href: '/blog/get-more-google-reviews-bath', label: 'Get More Google Reviews' },
   { href: '/blog/free-seo-audit-what-we-check', label: 'Free SEO Audit – What We Check' },

@@ -62,6 +62,117 @@ const blogPosts = {
       },
     ],
   },
+  'painter-decorator-more-google-reviews': {
+    slug: 'painter-decorator-more-google-reviews',
+    title: 'How to Get More Google Reviews as a Painter and Decorator',
+    description: 'Google reviews are one of the biggest factors in whether customers call you — here\'s how to get them consistently as a painter and decorator, without it feeling awkward.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'how to get Google reviews painter decorator, Google reviews tradesperson Bath, more reviews painting decorating',
+    ctaHeading: 'Want help getting more Google reviews and ranking higher?',
+    ctaBody: 'We help painters and decorators across Bath and Somerset set up their Google Business Profile properly and build the reviews that get them into the Map Pack.',
+    ctaLinks: [
+      { href: '/review-request-generator', label: 'Try the free Review Request Generator' },
+      { href: '/google-business-profile', label: 'GBP management service' },
+      { href: '/local-seo/painters-decorators', label: 'Local SEO for Painters & Decorators' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'Why reviews matter more than almost anything else',
+        paragraphs: [
+          'When someone searches "painter and decorator Bath" on Google, they see a map and three businesses. The ones that tend to be there have two things in common: a well-optimised Google Business Profile and a solid bank of recent reviews. Reviews are one of the biggest signals Google uses to decide who shows up — and they\'re what a homeowner looks at before they let a stranger loose on their walls.',
+          'Decorating is a trust business - customers are inviting you into their home for days at a time. A page of genuine five-star reviews does more to earn that trust than any amount of website copy. Jay at New Decorating has a 5.0 rating from 12 reviews on a Google Business Profile he only set up recently - that\'s exactly the kind of fresh, consistent review pattern Google rewards.',
+        ],
+      },
+      {
+        heading: 'The simplest way to ask: do it on the day',
+        paragraphs: [
+          'The best time to ask for a review is the moment the job is finished and the customer is standing in a freshly painted room. They\'re pleased, they can see the result, and it\'s fresh in their mind. That\'s your window.',
+          'You don\'t need a script. Something like "Really glad you\'re happy with how it\'s come out - if you get a spare minute, a Google review would really help me out" is all it takes. Most people are happy to do it if you ask directly, standing in the room you\'ve just finished.',
+        ],
+      },
+      {
+        heading: 'Follow up on WhatsApp - it works',
+        paragraphs: [
+          'A lot of painters and decorators already message customers on WhatsApp to arrange access or confirm colours. It\'s the easiest follow-up channel there is. A day or two after the job, send a short message: something like "Hope you\'re still loving the new colours - if you\'ve got a spare moment, a Google review would really help. Here\'s the link: [your review link]".',
+          'You get your Google review link from your Google Business Profile dashboard - there\'s a "Share review form" button that gives you a short URL you can copy. Save it in your phone so you\'ve always got it to hand.',
+          <>If you&apos;d rather not write the message yourself, our free <Link href="/review-request-generator" className="text-primary hover:underline">Review Request Generator</Link> builds a personalised WhatsApp message in a few clicks — customer&apos;s name, the job, your review link, done.</>,
+        ],
+      },
+      {
+        heading: 'Photos do double duty',
+        paragraphs: [
+          'Unlike a lot of trades, your finished work is genuinely photogenic - a freshly painted room, a repaired ceiling, a restored period feature. Ask happy customers if they mind you taking a quick photo for your portfolio, and ask if they\'d add one to their review too. Photo-backed reviews carry more weight with Google and with future customers deciding between you and a competitor.',
+        ],
+      },
+      {
+        heading: 'How many reviews do you actually need?',
+        paragraphs: [
+          'There\'s no magic number, but context matters. In Bath city centre, you\'re up against more competition — aim for 20 or more reviews before you see consistent Map Pack appearances, and keep adding them. In smaller areas like Keynsham, Saltford, or Midsomer Norton, you can appear with fewer because the competition is thinner.',
+          'Recency matters as much as volume. Ten reviews from the last three months looks better to Google than 30 reviews with nothing in the past year. A business collecting reviews consistently signals to Google that it\'s actively trading right now, not just historically.',
+        ],
+      },
+      {
+        heading: 'Always respond to your reviews',
+        paragraphs: [
+          'Every review deserves a reply. For five-star reviews, a short, genuine thank-you is enough - mention the job type and area if you can, since that adds signals Google picks up on. For the occasional negative review, stay calm and professional, acknowledge the concern, and offer to resolve it offline. How you handle a bad review tells potential customers more about you than the review itself.',
+        ],
+      },
+    ],
+  },
+  'painter-competitor-showing-above-me-google': {
+    slug: 'painter-competitor-showing-above-me-google',
+    title: 'Why Does My Competitor Show Up Above Me on Google? (And How to Fix It)',
+    description: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is actually looking at when it ranks one painter and decorator above another.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'competitor ranking above me on google, why competitor shows up first, painter decorator google ranking, local seo ranking factors',
+    ctaHeading: 'Want us to check exactly why a competitor is outranking you?',
+    ctaBody: 'We run a free audit that compares your Google Business Profile and website directly against the competitors currently beating you.',
+    ctaLinks: [
+      { href: '/local-seo/painters-decorators', label: 'Local SEO for Painters & Decorators' },
+      { href: '/case-studies/new-decorating', label: 'See New Decorating\'s results' },
+      { href: '/free-seo-audit', label: 'Get a free audit' },
+      { href: '/contact', label: 'Ask us directly' },
+    ],
+    sections: [
+      {
+        heading: 'You do better work. They still show up first.',
+        paragraphs: [
+          'This is one of the most common frustrations we hear: you know your work is as good as (or better than) the painter and decorator who always appears above you on Google. It doesn\'t feel fair, and it isn\'t about who\'s better at the job — Google can\'t assess paintwork. It can only assess signals. Whoever sends the clearest, strongest signals wins the spot, regardless of who\'d actually do the better job.',
+        ],
+      },
+      {
+        heading: 'What Google is actually looking at',
+        paragraphs: [
+          'Four things drive Map Pack position, roughly in order of impact: how complete and active the Google Business Profile is (categories, services, photos, posts); the volume and recency of reviews; how well the website\'s content matches the search (a page that clearly says "painter and decorator in Bath" beats a vague homepage every time); and consistency of your business name, address and phone number across the web. Proximity to the searcher matters too, but it\'s the one factor you can\'t change - the other three, you can.',
+          'Notice what\'s not on that list: how long you\'ve been trading, how good your actual work is, or how many word-of-mouth referrals you get. None of that is visible to Google unless it\'s reflected in your profile, your reviews, and your website.',
+        ],
+      },
+      {
+        heading: 'This is fixable, and quickly',
+        paragraphs: [
+          'Jay at New Decorating had no website and no Google Business Profile at all - meaning every competitor with even a basic profile was automatically ahead of him. Once we built his site and set up his profile properly, he was ranking Top 3 in the Map Pack for "exterior painter Bath" within a week. The competitor who\'d been showing up first the whole time hadn\'t done anything differently - Jay simply went from sending no signals to sending strong ones.',
+          'That\'s the part worth understanding: your competitor being above you usually isn\'t because they\'re unbeatable. It\'s because right now, on the four things Google actually measures, they\'re doing more than you are.',
+        ],
+      },
+      {
+        heading: 'A quick check you can do right now',
+        paragraphs: [
+          'Search your own trade and area on Google, and open your competitor\'s Google Business Profile next to yours. Compare: how many reviews do they have, and how recent are they? Do they have a website, and does its homepage say what they do and where? Are their categories and services filled in properly? Nine times out of ten, the gap is somewhere in that list - not in the quality of their painting.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you want a clear answer rather than a guess, we run a free audit that compares your Google Business Profile and website directly against whoever\'s currently outranking you, and tells you exactly what to fix first.',
+        ],
+      },
+    ],
+  },
   'painter-decorator-not-getting-jobs': {
     slug: 'painter-decorator-not-getting-jobs',
     title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why You\'re Invisible on Google',

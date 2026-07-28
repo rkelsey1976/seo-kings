@@ -13,6 +13,22 @@ const BLOG_SERVICES = [
 
 const posts = [
   {
+    slug: 'painter-competitor-showing-above-me-google',
+    title: 'Why Does My Competitor Show Up Above Me on Google? (And How to Fix It)',
+    excerpt: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is looking at when it ranks one painter and decorator above another.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    services: ['local-seo', 'gbp'],
+  },
+  {
+    slug: 'painter-decorator-more-google-reviews',
+    title: 'How to Get More Google Reviews as a Painter and Decorator',
+    excerpt: 'Google reviews are one of the biggest factors in whether customers call you — here\'s how to get them consistently, without it feeling awkward.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    services: ['gbp'],
+  },
+  {
     slug: 'painter-decorator-not-getting-jobs',
     title: 'Not Getting Enough Painting and Decorating Jobs? Here\'s Why You\'re Invisible on Google',
     excerpt: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why — and how two Bath painters fixed it.',

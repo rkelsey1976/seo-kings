@@ -12,6 +12,16 @@ export const BLOG_META = {
     description: 'If you\'re relying on word of mouth alone, you\'re losing jobs to painters and decorators who show up on Google. Here\'s why - and how two Bath painters fixed it.',
     canonical: 'https://seo-kings.co.uk/blog/painter-decorator-not-getting-jobs',
   },
+  'painter-decorator-more-google-reviews': {
+    title: 'How to Get More Google Reviews as a Painter and Decorator | SEO Kings',
+    description: 'Google reviews are one of the biggest factors in whether customers call you — here\'s how to get them consistently as a painter and decorator, without it feeling awkward.',
+    canonical: 'https://seo-kings.co.uk/blog/painter-decorator-more-google-reviews',
+  },
+  'painter-competitor-showing-above-me-google': {
+    title: 'Why Does My Competitor Show Up Above Me on Google? | SEO Kings',
+    description: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is looking at when it ranks one painter and decorator above another.',
+    canonical: 'https://seo-kings.co.uk/blog/painter-competitor-showing-above-me-google',
+  },
   'beautiful-websites-that-rank': {
     title: 'How We Build Beautiful Websites That Rank Well on Google',
     description: 'We build websites that look great, load fast, and score 95+ on Lighthouse — so they rank better on Google and convert more customers.',
