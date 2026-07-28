@@ -22,6 +22,16 @@ export const BLOG_META = {
     description: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is looking at when it ranks one painter and decorator above another.',
     canonical: 'https://seo-kings.co.uk/blog/painter-competitor-showing-above-me-google',
   },
+  'builder-not-getting-enough-jobs': {
+    title: 'Not Getting Enough Building Jobs? Why Homeowners Can\'t Find You on Google | SEO Kings',
+    description: 'Good builders lose bigger jobs than any other trade to invisibility on Google - extensions and renovations are researched online before a single phone call is made.',
+    canonical: 'https://seo-kings.co.uk/blog/builder-not-getting-enough-jobs',
+  },
+  'bath-builder-period-properties': {
+    title: 'Why Bath Homeowners Struggle to Find a Builder for Period Properties | SEO Kings',
+    description: 'Bath\'s Georgian, Victorian and Edwardian housing stock needs builders who understand heritage work and conservation rules - but most of them are invisible for exactly that search.',
+    canonical: 'https://seo-kings.co.uk/blog/bath-builder-period-properties',
+  },
   'beautiful-websites-that-rank': {
     title: 'How We Build Beautiful Websites That Rank Well on Google',
     description: 'We build websites that look great, load fast, and score 95+ on Lighthouse — so they rank better on Google and convert more customers.',

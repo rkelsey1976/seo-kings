@@ -13,6 +13,22 @@ const BLOG_SERVICES = [
 
 const posts = [
   {
+    slug: 'bath-builder-period-properties',
+    title: 'Why Bath Homeowners Struggle to Find a Builder for Period Properties',
+    excerpt: 'Bath\'s Georgian, Victorian and Edwardian housing stock needs builders who understand heritage work and conservation rules - but most are invisible for exactly that search.',
+    date: '2026-07-27',
+    readTime: '4 min read',
+    services: ['local-seo'],
+  },
+  {
+    slug: 'builder-not-getting-enough-jobs',
+    title: 'Not Getting Enough Building Jobs? Why Homeowners Can\'t Find You on Google',
+    excerpt: 'Good builders lose bigger jobs than any other trade to invisibility on Google — extensions and renovations are researched online before a single phone call is made.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    services: ['local-seo', 'gbp'],
+  },
+  {
     slug: 'painter-competitor-showing-above-me-google',
     title: 'Why Does My Competitor Show Up Above Me on Google? (And How to Fix It)',
     excerpt: 'Same trade, same area, but they always show up first. Here\'s exactly what Google is looking at when it ranks one painter and decorator above another.',

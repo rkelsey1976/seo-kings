@@ -62,6 +62,99 @@ const blogPosts = {
       },
     ],
   },
+  'builder-not-getting-enough-jobs': {
+    slug: 'builder-not-getting-enough-jobs',
+    title: 'Not Getting Enough Building Jobs? Why Homeowners Can\'t Find You on Google',
+    description: 'Good builders lose bigger jobs than any other trade to invisibility on Google - extensions and renovations are researched online before a single phone call is made.',
+    date: '2026-07-27',
+    readTime: '5 min read',
+    author: 'SEO Kings',
+    keywords: 'builder not getting enough jobs, how to get more building work, builder marketing, builder Google visibility, local SEO for builders',
+    ctaHeading: 'Want to show up on Google for building and extension searches?',
+    ctaBody: 'We build local SEO campaigns specifically for builders - Google Business Profile, website, and the searches homeowners actually make before they call.',
+    ctaLinks: [
+      { href: '/local-seo/builders', label: 'Local SEO for Builders' },
+      { href: '/case-studies/aspect-builds', label: 'See Aspect Builds\' results' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'A building job is a bigger decision than most trades',
+        paragraphs: [
+          'Nobody hires a builder on impulse. An extension, a loft conversion, or a structural job is one of the biggest amounts of money a homeowner will spend on their house, and they research it properly before they call anyone. That research happens on Google, usually weeks before a phone rings - and if you\'re not visible when it happens, you\'re not even in the running. Word of mouth still counts, but it only reaches people who already know someone who knows you.',
+          'That\'s a problem specific to builders: the jobs are bigger and less frequent than a painter or cleaner\'s work, so a quiet Google presence costs you far more per missed enquiry than it would in a lower-value trade.',
+        ],
+      },
+      {
+        heading: 'What "invisible" actually looks like',
+        paragraphs: [
+          'James at Aspect Builds & Maintenance had a strong reputation built over years and an Instagram page showing real project photos - but no website and no Google Business Profile. When someone searched "builder Bath", "loft conversion Bath" or "house extension Bath", he simply didn\'t appear. Instagram followers already knew his work; Google searchers never got the chance to find out.',
+          'That\'s the gap for most established builders: real skill and real reputation, with none of it visible to the much larger pool of people who\'ve never heard of you and are searching cold.',
+        ],
+      },
+      {
+        heading: 'Six services means six searches, not one',
+        paragraphs: [
+          'Builders usually cover several distinct services - extensions, loft conversions, structural work, interiors, property maintenance - and each one is searched differently. Someone wanting a loft conversion searches "loft conversion Bath", not "builder Bath". A single generic homepage saying "we do building work" rarely ranks for any of them specifically.',
+          'For Aspect Builds we built a 40-page site with dedicated pages for each of his 6 service categories plus area pages for the parts of Bath and BANES he covers - a hub-and-spoke structure so each service has its own page targeting its own searches, rather than everything competing for attention on one homepage.',
+        ],
+      },
+      {
+        heading: 'Photos and video do more work for builders than most trades',
+        paragraphs: [
+          'Big jobs need more trust than small ones. Real project photography (not stock images) and a short video walkthrough do a lot of the reassurance work before a homeowner even picks up the phone - Aspect Builds\' site includes both, built directly from James\'s existing project photos rather than anything generic.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If you\'re a builder relying on word of mouth and an Instagram page, start with a free audit - we\'ll check what\'s missing on Google Business Profile and whether you have a website at all, and tell you exactly what it would take to be found for the specific services you offer.',
+        ],
+      },
+    ],
+  },
+  'bath-builder-period-properties': {
+    slug: 'bath-builder-period-properties',
+    title: 'Why Bath Homeowners Struggle to Find a Builder for Period Properties',
+    description: 'Bath\'s Georgian, Victorian and Edwardian housing stock needs builders who understand heritage work and conservation rules - but most of them are invisible for exactly that search.',
+    date: '2026-07-27',
+    readTime: '4 min read',
+    author: 'SEO Kings',
+    keywords: 'builder for period property Bath, heritage builder Bath, conservation area builder, listed building building work Bath',
+    ctaHeading: 'Do you specialise in heritage or period property work in Bath?',
+    ctaBody: 'We build local SEO campaigns that target exactly the searches homeowners with period properties make - not just generic "builder Bath".',
+    ctaLinks: [
+      { href: '/local-seo/builders', label: 'Local SEO for Builders' },
+      { href: '/case-studies/aspect-builds', label: 'See Aspect Builds\' results' },
+      { href: '/contact', label: 'Get a free audit' },
+    ],
+    sections: [
+      {
+        heading: 'Bath isn\'t a normal building market',
+        paragraphs: [
+          'Most of Bath\'s housing stock is Georgian, Victorian or Edwardian, much of it in conservation areas or listed. That changes what homeowners need from a builder - not just someone who can extend a house, but someone who understands stone construction, period detailing, and what planning and conservation officers will actually allow. A homeowner in a Georgian terrace searching for building work isn\'t typing the same thing as someone in a 1990s new-build.',
+        ],
+      },
+      {
+        heading: 'The searches are more specific than "builder Bath"',
+        paragraphs: [
+          'People with period properties search in ways that reflect their specific worry: "listed building extension Bath", "conservation area building work", "heritage builder Bath", "stone repair Bath". A builder who only targets the generic "builder Bath" search - or worse, has no website at all - never shows up for these more specific, often less competitive searches, even if heritage work is exactly their specialism.',
+        ],
+      },
+      {
+        heading: 'Real experience, invisible online',
+        paragraphs: [
+          'Aspect Builds & Maintenance covers heritage work as one of its core services alongside extensions and structural repairs - real, relevant experience for Bath\'s housing stock. Before we built his site, none of that was visible on Google at all; it existed only as word of mouth and an Instagram feed. We built dedicated service pages so his heritage and structural work could be found by the specific searches homeowners with period properties actually make, not just a generic "builder" search buried among dozens of competitors.',
+        ],
+      },
+      {
+        heading: 'What to do next',
+        paragraphs: [
+          'If period and heritage work is part of what you do, it\'s worth having dedicated content for it rather than folding it into a generic builder page - it\'s a genuinely different search, with less competition and a homeowner who\'s specifically looking for what you\'re good at. We can show you exactly what that would look like in a free audit.',
+        ],
+      },
+    ],
+  },
   'painter-decorator-more-google-reviews': {
     slug: 'painter-decorator-more-google-reviews',
     title: 'How to Get More Google Reviews as a Painter and Decorator',
