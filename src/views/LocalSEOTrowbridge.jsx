@@ -113,10 +113,10 @@ const schema = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
-        { '@type': 'City', name: 'Trowbridge' },
-        { '@type': 'City', name: 'Bradford on Avon' },
-        { '@type': 'City', name: 'Melksham' },
-        { '@type': 'City', name: 'Bath' },
+        { '@type': 'City', name: 'Trowbridge', sameAs: 'https://en.wikipedia.org/wiki/Trowbridge' },
+        { '@type': 'City', name: 'Bradford on Avon', sameAs: 'https://en.wikipedia.org/wiki/Bradford-on-Avon' },
+        { '@type': 'City', name: 'Melksham', sameAs: 'https://en.wikipedia.org/wiki/Melksham' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
       ],
       priceRange: '££',
       openingHoursSpecification: [

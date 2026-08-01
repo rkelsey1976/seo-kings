@@ -116,7 +116,7 @@ const LocalSEO = () => {
             description: 'Local SEO services helping tradespeople and small businesses in Bath & North East Somerset rank higher on Google and attract more local customers.',
             provider: { '@id': 'https://seo-kings.co.uk/#organization' },
             mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/local-seo' },
-            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset' },
+            areaServed: { '@type': 'AdministrativeArea', name: 'Bath and North East Somerset', sameAs: 'https://en.wikipedia.org/wiki/Bath_and_North_East_Somerset' },
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'Local SEO Packages',

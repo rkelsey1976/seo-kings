@@ -113,10 +113,10 @@ const schema = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
-        { '@type': 'City', name: 'Chippenham' },
-        { '@type': 'City', name: 'Corsham' },
-        { '@type': 'City', name: 'Calne' },
-        { '@type': 'City', name: 'Bath' },
+        { '@type': 'City', name: 'Chippenham', sameAs: 'https://en.wikipedia.org/wiki/Chippenham' },
+        { '@type': 'City', name: 'Corsham', sameAs: 'https://en.wikipedia.org/wiki/Corsham' },
+        { '@type': 'City', name: 'Calne', sameAs: 'https://en.wikipedia.org/wiki/Calne' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
       ],
       priceRange: '££',
       openingHoursSpecification: [

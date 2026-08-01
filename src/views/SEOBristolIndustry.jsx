@@ -43,9 +43,9 @@ const SEOBristolIndustry = ({ industry }) => {
           url: BASE_URL,
         },
         areaServed: [
-          { '@type': 'City', name: 'Bristol' },
-          { '@type': 'AdministrativeArea', name: 'Bristol' },
-          { '@type': 'AdministrativeArea', name: 'South Gloucestershire' },
+          { '@type': 'City', name: 'Bristol', sameAs: 'https://en.wikipedia.org/wiki/Bristol' },
+          { '@type': 'AdministrativeArea', name: 'Bristol', sameAs: 'https://en.wikipedia.org/wiki/Bristol' },
+          { '@type': 'AdministrativeArea', name: 'South Gloucestershire', sameAs: 'https://en.wikipedia.org/wiki/South_Gloucestershire' },
         ],
         url: pageUrl,
       },

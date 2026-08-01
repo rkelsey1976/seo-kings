@@ -113,9 +113,9 @@ const schema = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
-        { '@type': 'City', name: 'Shepton Mallet' },
-        { '@type': 'City', name: 'Frome' },
-        { '@type': 'City', name: 'Bath' },
+        { '@type': 'City', name: 'Shepton Mallet', sameAs: 'https://en.wikipedia.org/wiki/Shepton_Mallet' },
+        { '@type': 'City', name: 'Frome', sameAs: 'https://en.wikipedia.org/wiki/Frome' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
       ],
       priceRange: '££',
       openingHoursSpecification: [

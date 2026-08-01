@@ -113,9 +113,9 @@ const schema = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
-        { '@type': 'City', name: 'Bradford on Avon' },
-        { '@type': 'City', name: 'Bath' },
-        { '@type': 'City', name: 'Trowbridge' },
+        { '@type': 'City', name: 'Bradford on Avon', sameAs: 'https://en.wikipedia.org/wiki/Bradford-on-Avon' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
+        { '@type': 'City', name: 'Trowbridge', sameAs: 'https://en.wikipedia.org/wiki/Trowbridge' },
       ],
       priceRange: '££',
       openingHoursSpecification: [

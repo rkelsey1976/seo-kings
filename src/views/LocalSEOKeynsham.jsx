@@ -113,9 +113,9 @@ const schema = {
       },
       geo: { '@type': 'GeoCoordinates', latitude: 51.4145, longitude: -2.4965 },
       areaServed: [
-        { '@type': 'City', name: 'Keynsham' },
-        { '@type': 'City', name: 'Bath' },
-        { '@type': 'City', name: 'Midsomer Norton' },
+        { '@type': 'City', name: 'Keynsham', sameAs: 'https://en.wikipedia.org/wiki/Keynsham' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
+        { '@type': 'City', name: 'Midsomer Norton', sameAs: 'https://en.wikipedia.org/wiki/Midsomer_Norton' },
       ],
       priceRange: '££',
       openingHoursSpecification: [
