@@ -142,8 +142,8 @@ const schema = {
       provider: { '@id': 'https://seo-kings.co.uk/#organization' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://seo-kings.co.uk/seo' },
       areaServed: [
-        { '@type': 'City', name: 'Bath' },
-        { '@type': 'City', name: 'Bristol' },
+        { '@type': 'City', name: 'Bath', sameAs: 'https://en.wikipedia.org/wiki/Bath,_Somerset' },
+        { '@type': 'City', name: 'Bristol', sameAs: 'https://en.wikipedia.org/wiki/Bristol' },
       ],
     },
     {
