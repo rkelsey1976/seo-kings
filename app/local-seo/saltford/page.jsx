@@ -7,6 +7,7 @@ export const metadata = {
   title: { absolute: 'Local SEO Saltford | Get in the Map Pack from £150/month | SEO Kings' },
   description: 'We get Saltford trades and local businesses into the Google map pack and ranking on page one. GBP optimisation, website SEO, review growth. From £150/month. Free audit — no obligation.',
   alternates: { canonical: 'https://seo-kings.co.uk/local-seo/saltford' },
+  other: { 'geo.region': 'GB-SOM', 'geo.placename': 'Saltford, Somerset' },
 };
 
 export default function Page() {

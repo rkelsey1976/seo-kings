@@ -17,6 +17,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: config.metaTitle },
     description: config.metaDescription,
     alternates: { canonical: `https://seo-kings.co.uk/seo/bristol/${industry}` },
+    other: { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol' },
   };
 }
 

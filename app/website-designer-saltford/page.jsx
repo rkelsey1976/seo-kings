@@ -7,6 +7,7 @@ export const metadata = {
   title: { absolute: 'Website Designer Saltford | Web Design from £250 | SEO Kings' },
   description: 'Website designer serving Saltford. Fast, mobile-first websites for trades and local businesses from £250. GBP optimisation from £100. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/website-designer-saltford' },
+  other: { 'geo.region': 'GB-SOM', 'geo.placename': 'Saltford, Somerset' },
 };
 
 export default function Page() {

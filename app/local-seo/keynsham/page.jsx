@@ -7,6 +7,7 @@ export const metadata = {
   title: { absolute: 'Local SEO Keynsham | Get in the Map Pack from £150/month | SEO Kings' },
   description: 'Local SEO for Keynsham businesses. Google Business Profile optimisation, website SEO and review growth from £150/month. Based in Keynsham BS31. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/local-seo/keynsham' },
+  other: { 'geo.region': 'GB-BAS', 'geo.placename': 'Keynsham, Somerset' },
 };
 
 export default function Page() {

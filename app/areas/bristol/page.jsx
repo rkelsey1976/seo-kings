@@ -8,6 +8,7 @@ export const metadata = {
   description: 'Bristol SEO agency & web designer. Local SEO from £150/mo, websites from £250. Free audit — see where you rank.',
   alternates: { canonical: 'https://seo-kings.co.uk/areas/bristol' },
   openGraph: { url: 'https://seo-kings.co.uk/areas/bristol' },
+  other: { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol' },
 };
 
 export default function Page() {

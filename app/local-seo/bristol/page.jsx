@@ -7,6 +7,7 @@ export const metadata = {
   title: { absolute: 'Local SEO Bristol | Map Pack Rankings from £150/mo | SEO Kings' },
   description: 'Local SEO agency in Bristol. We get trades and small businesses into the Google Map Pack across BS1–BS16. GBP optimisation, citations and local SEO from £150/month. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/local-seo/bristol' },
+  other: { 'geo.region': 'GB-BST', 'geo.placename': 'Bristol' },
 };
 
 export default function Page() {

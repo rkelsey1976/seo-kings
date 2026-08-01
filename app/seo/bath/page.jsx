@@ -7,6 +7,7 @@ export const metadata = {
   title: { absolute: 'SEO Bath | SEO Services for Trades & Small Business from £150/mo | SEO Kings' },
   description: 'SEO agency in Bath. We rank trades and small businesses on page one — exterior painter Bath Top 3, cleaning Midsomer Norton #1. SEO services from £150/month. Free audit.',
   alternates: { canonical: 'https://seo-kings.co.uk/seo/bath' },
+  other: { 'geo.region': 'GB-BAS', 'geo.placename': 'Bath, Somerset' },
 };
 
 export default function Page() {
